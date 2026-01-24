@@ -1,13 +1,20 @@
 import type { LayoutServerLoad } from './$types';
 import { getAllPeptideSummaries } from '$lib/data/peptides';
 import { createSupabaseServerClient } from '$lib/supabase';
+import { dev } from '$app/environment';
 
 export const load: LayoutServerLoad = async ({ cookies }) => {
 	const supabase = createSupabaseServerClient({
 		getAll: () => cookies.getAll(),
 		setAll: (cookiesToSet) => {
 			cookiesToSet.forEach(({ name, value, options }) => {
-				cookies.set(name, value, { path: '/', ...options });
+				cookies.set(name, value, {
+					...options,
+					path: '/',
+					sameSite: 'lax',
+					httpOnly: true,
+					secure: !dev
+				});
 			});
 		}
 	});
