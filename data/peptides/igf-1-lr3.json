@@ -1,0 +1,279 @@
+{
+	"id": "igf-1-lr3",
+	"name": "IGF-1 LR3",
+	"subtitle": "Modified Growth Factor Analog | Muscle Growth",
+	"aliases": ["Long R3 IGF-1", "Long Arginine IGF-1"],
+	"researchStatus": "limited",
+	"fdaApproved": false,
+	"molecular": {
+		"length": "83 amino acids",
+		"type": "Synthetic IGF-1 analog",
+		"modifications": [
+			"N-terminal extension",
+			"R3 (Arginine) substitution",
+			"Reduced IGF-binding protein interaction",
+			"3x potency vs native IGF-1"
+		],
+		"halfLife": "20-30 hours",
+		"halfLifeSeconds": 90000
+	},
+	"overview": "IGF-1 LR3 is a synthetic 83-amino acid analog of insulin-like growth factor-1 that has never been approved for human use. The N-terminal extension and R3 substitution reduce binding protein interaction, maintaining elevated free circulating levels with ~3x greater potency than native IGF-1.",
+	"mechanism": "Functions as a full IGF-1 receptor agonist activating PI3K/Akt/mTOR and MAPK/ERK pathways. The modifications prevent protein sequestration, maintaining elevated free circulating levels for extended anabolic effects.",
+	"keyBenefits": [
+		"Approximately 3x more potent than native IGF-1",
+		"Promotes muscle hypertrophy and hyperplasia in animal models",
+		"15-20% lean mass gains observed in 4-week rat studies",
+		"Anti-catabolic effects preserve muscle during cachexia",
+		"20-30 hour half-life for sustained effects"
+	],
+	"indications": [
+		{
+			"category": "Muscle Growth",
+			"items": [
+				{
+					"name": "Hypertrophy",
+					"description": "15-20% lean mass gains in 4 weeks through satellite cell activation (rat studies).",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Anti-Catabolic",
+					"description": "Cancer cachexia rats maintained 30% more muscle versus placebo.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Hyperplasia",
+					"description": "Creates new muscle fibers via satellite cell differentiation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Tissue Repair",
+			"items": [
+				{
+					"name": "Wound Healing",
+					"description": "Accelerated wound healing in animal models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Ligament/Tendon Recovery",
+					"description": "Enhanced connective tissue repair.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Nutrient Partitioning",
+					"description": "Directs nutrients toward muscle tissue.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Fat Loss",
+					"description": "Enhanced lipolysis through IGF-1 pathway.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous or intramuscular injection. CRITICAL: Consume 30-60g fast carbohydrates immediately after injection to prevent hypoglycemia. Never inject before sleep.",
+			"protocols": [
+				{
+					"goal": "Beginner Protocol",
+					"dose": "20-30mcg",
+					"frequency": "Once daily post-workout",
+					"route": "SubQ/IM"
+				},
+				{
+					"goal": "Intermediate",
+					"dose": "40-60mcg",
+					"frequency": "Once daily",
+					"route": "SubQ/IM"
+				},
+				{
+					"goal": "Advanced",
+					"dose": "80-100mcg",
+					"frequency": "Once or split AM/PM",
+					"route": "SubQ/IM"
+				},
+				{
+					"goal": "Women's Protocol",
+					"dose": "10-20mcg",
+					"frequency": "Once daily",
+					"route": "SubQ/IM"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"IGF-1 LR3 lyophilized powder",
+					"0.6% acetic acid OR bacteriostatic water",
+					"Insulin syringes (29-32 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Equilibrate to room temperature (15-30 min)",
+					"Sanitize rubber stopper with alcohol",
+					"Calculate concentration (e.g., 1mg in 2mL = 500mcg/mL)",
+					"Inject diluent slowly along vial wall",
+					"Gently swirl - never shake vigorously",
+					"Allow 2-5 minutes for complete dissolution",
+					"Store immediately at 2-8°C protected from light",
+					"Acetic acid reconstitution: stable 1 year",
+					"BAC water reconstitution: use within 7 days"
+				]
+			},
+			"keyBenefits": [
+				"Post-workout timing recommended",
+				"MUST consume 30-60g carbs immediately after",
+				"Never inject before sleep"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Human Growth Hormone",
+			"status": "avoid",
+			"notes": "Creates excessive IGF-1 levels; avoid combination."
+		},
+		{
+			"peptide": "CJC-1295/Ipamorelin",
+			"status": "monitor",
+			"notes": "Both stimulate GH/IGF-1 axis; use caution with combination."
+		},
+		{
+			"peptide": "MK-677",
+			"status": "monitor",
+			"notes": "May compound metabolic effects through GH stimulation."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "avoid",
+			"notes": "Synergistic hypoglycemic effects can be life-threatening."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Complementary healing mechanisms."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "synergistic",
+			"notes": "Different repair pathway activation."
+		},
+		{
+			"peptide": "Anabolic Steroids",
+			"status": "monitor",
+			"notes": "Amplified effects with increased risks."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "monitor",
+			"notes": "May mitigate insulin resistance."
+		},
+		{
+			"peptide": "Cerebrolysin",
+			"status": "monitor",
+			"notes": "Additive neurotrophic pathway effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Increased muscle pump and fullness; possible hypoglycemia if carbs inadequate"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced recovery, strength gains, visible fullness, potential water retention"
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Maximum effects; receptor desensitization approaching; joint stiffness common"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Pump loss over 1-2 weeks; strength/size gains may persist with training"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Hypoglycemia (lasting up to 30 hours) - CRITICAL",
+			"Water retention",
+			"Joint stiffness",
+			"Muscle soreness",
+			"Increased pump during workouts"
+		],
+		"stopSigns": [
+			"Severe or recurring hypoglycemia despite carbohydrate intake",
+			"Unusual growths, lumps, or rapid mole changes",
+			"Severe joint pain or carpal tunnel symptoms",
+			"Persistent nausea, headaches, or vision changes",
+			"Signs of organ enlargement",
+			"Extreme fatigue or mental fog"
+		],
+		"contraindications": [
+			"NEVER approved for human use - research chemical only",
+			"Cancer history or undiagnosed growths",
+			"May cause organ hypertrophy (heart, intestines)",
+			"WADA prohibited - causes failed drug tests"
+		],
+		"monitoring": [
+			"CRITICAL: Consume 30-60g fast carbohydrates immediately after injection",
+			"Never inject before sleep (overnight hypoglycemia risk)",
+			"Monitor blood glucose regularly, especially week one",
+			"4-6 week maximum cycle; equal off-period required"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"HPLC purity >95%",
+			"Mass spectrometry confirmation",
+			"Cold storage maintained (-20°C lyophilized)",
+			"Certificate of analysis from reputable source"
+		],
+		"warning": [
+			"Research chemical status - never approved for human use",
+			"Zero human clinical trials exist",
+			"Species-specific responses vary significantly"
+		],
+		"bad": [
+			"Severe hypoglycemia risk - life-threatening low blood sugar lasting 20-30 hours",
+			"Cancer proliferation concern - UK Biobank links elevated IGF-1 to multiple cancers",
+			"Black market quality varies - oxidized and degraded forms common"
+		]
+	},
+	"references": [
+		{
+			"title": "Rat Muscle Hypertrophy Study - Florini et al.",
+			"year": "1996",
+			"keyFindings": "2.5mg/kg/day for 4 weeks showed 2.5x greater anabolic response compared to native IGF-1. Satellite cell activation and protein synthesis increased 50%."
+		},
+		{
+			"title": "Fetal Sheep Metabolic Study",
+			"year": "2000",
+			"keyFindings": "Acute infusion suppressed insulin secretion by 66%. Study halted early due to 4 animal deaths from hypoglycemia."
+		},
+		{
+			"title": "Cancer Cachexia Rat Model",
+			"year": "1998",
+			"keyFindings": "0.3mg/kg/day for 14 days showed 30% lean mass preservation during cachexia."
+		},
+		{
+			"title": "UK Biobank Cancer Association",
+			"year": "2023",
+			"keyFindings": "Elevated IGF-1 associated with multiple cancers including thyroid, colorectal, breast, prostate, melanoma."
+		}
+	],
+	"categories": ["growth-hormone", "healing"],
+	"quickStats": {
+		"typicalDose": "20-100 mcg daily (start low at 20-30 mcg)",
+		"frequency": "Once daily, or split AM/PM for higher doses",
+		"cycleDuration": "4-6 weeks maximum",
+		"storage": "Lyophilized: -20°C to -80°C. Reconstituted in acetic acid: 2-8°C for 1 year. Reconstituted in BAC water: use within 7 days"
+	}
+}

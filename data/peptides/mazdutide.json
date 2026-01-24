@@ -1,0 +1,282 @@
+{
+	"id": "mazdutide",
+	"name": "Mazdutide",
+	"subtitle": "Dual GLP-1/Glucagon Receptor Agonist | Weight Loss & Diabetes",
+	"aliases": ["IBI362", "LY3305677"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "4,563.1 Da",
+		"length": "33 amino acids",
+		"type": "Oxyntomodulin analog with fatty acid conjugation",
+		"sequence": "33-amino acid linear synthetic peptide",
+		"halfLife": "6-8 days",
+		"halfLifeSeconds": 604800,
+		"modifications": [
+			"C20 fatty diacid conjugation via hydrophilic linker at Lys20 for extended half-life"
+		]
+	},
+	"overview": "First-in-class dual GLP-1 and glucagon receptor agonist combining appetite suppression with thermogenesis stimulation. Phase 3 trials demonstrated superiority over semaglutide for weight loss and glycemic control.",
+	"mechanism": "Dual agonist activation: GLP-1 stimulates insulin, suppresses glucagon, slows gastric emptying; Glucagon increases energy expenditure and thermogenesis while GLP-1 counteracts glucose-raising effects.",
+	"keyBenefits": [
+		"Up to 20% body weight loss",
+		"Superior glycemic control versus semaglutide",
+		"Increased energy expenditure via glucagon receptor activation",
+		"Improved cardiometabolic markers (BP, lipids, liver fat)",
+		"Once-weekly injection convenience"
+	],
+	"indications": [
+		{
+			"category": "Weight Loss",
+			"items": [
+				{
+					"name": "Severe Obesity Management",
+					"description": "GLORY-2 demonstrated 20.1% weight loss with 9mg over 60 weeks; 48.7% achieved ≥20% reduction.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Metabolic Syndrome Improvement",
+					"description": "Significant reductions in waist circumference, systolic BP (-7.57 mmHg), triglycerides (-43%).",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Liver Fat Reduction",
+					"description": "Exploratory analysis showed 80.2% reduction in liver fat, suggesting MASLD/MASH benefits.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Type 2 Diabetes",
+			"items": [
+				{
+					"name": "Glycemic Control",
+					"description": "HbA1c reductions of 1.41-2.03% across trials; DREAMS-3 showed -2.03% vs semaglutide -1.84%.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Dual Endpoint Achievement",
+					"description": "48% achieved HbA1c <7.0% AND ≥10% weight loss versus 21% with semaglutide.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Cardiovascular",
+			"items": [
+				{
+					"name": "Blood Pressure Reduction",
+					"description": "Systolic reduction of -7.57 mmHg, diastolic -2.98 mmHg in clinical trials.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Lipid Profile Enhancement",
+					"description": "Total cholesterol -16.82%, triglycerides -43.29%, LDL -17.07%.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection delivering dual GLP-1/glucagon agonism with once-weekly dosing enabled by fatty acid conjugation.",
+			"protocols": [
+				{
+					"goal": "Weight loss initiation (3mg target)",
+					"dose": "1.5mg → 3mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Weight loss progression (4.5mg target)",
+					"dose": "1.5mg → 3mg → 4.5mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Weight loss optimization (6mg target)",
+					"dose": "2mg → 4mg → 6mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Maximum weight loss (9mg target)",
+					"dose": "3mg → 6mg → 9mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "T2D management (mild-moderate)",
+					"dose": "3-4.5mg weekly",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Mazdutide lyophilized powder vial",
+					"Bacteriostatic water (BAC) for injection",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol prep pads",
+					"Refrigerator (2-8°C)"
+				],
+				"steps": [
+					"Allow vial to reach room temperature (15-20 minutes)",
+					"Clean vial top with alcohol swab, air dry completely",
+					"Calculate reconstitution volume for desired concentration",
+					"Draw bacteriostatic water into syringe, remove air bubbles",
+					"Inject BAC water slowly down vial side—drop by drop to prevent foaming",
+					"Gently swirl vial in circular motion",
+					"Verify complete clarity and colorless appearance",
+					"Label vial with reconstitution date and concentration",
+					"Store at 2-8°C, use within 30 days"
+				]
+			},
+			"keyBenefits": [
+				"Once-weekly injection convenience",
+				"Proven efficacy in Phase 3 trials",
+				"Superior results versus semaglutide"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semaglutide",
+			"status": "avoid",
+			"notes": "Both are GLP-1 agonists; combining increases hypoglycemia and severe GI side effect risk."
+		},
+		{
+			"peptide": "Tirzepatide",
+			"status": "avoid",
+			"notes": "Both target GLP-1 receptor; additive effects on GI symptoms and hypoglycemia risk."
+		},
+		{
+			"peptide": "Liraglutide",
+			"status": "avoid",
+			"notes": "Another GLP-1 agonist; dual therapy contraindicated due to additive receptor activation."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "May require significant dose reduction due to improved glucose control; monitor for hypoglycemia."
+		},
+		{
+			"peptide": "Sulfonylureas",
+			"status": "monitor",
+			"notes": "Increased hypoglycemia risk; dose reduction may be necessary."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "synergistic",
+			"notes": "Complementary mechanisms; clinical trials allowed stable metformin use with enhanced efficacy."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known interactions; may support gut health and potentially reduce GI side effects."
+		},
+		{
+			"peptide": "Oral Contraceptives",
+			"status": "monitor",
+			"notes": "Delayed gastric emptying may affect absorption; separate administration by 1 hour."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Appetite reduction, possible mild nausea, decreased portion sizes"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Early weight loss begins (1-2%), improved satiety after meals"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Dose escalation phase, GI symptoms typically improving, 3-5% weight loss"
+		},
+		{
+			"period": "Week 8-16",
+			"effects": "Steady weight loss continues (7-12%), energy expenditure effects evident"
+		},
+		{
+			"period": "Week 16-32",
+			"effects": "Significant weight reduction (12-17%), metabolic markers improving"
+		},
+		{
+			"period": "Week 32-60",
+			"effects": "Peak effects (up to 20% weight loss), sustained improvements in BP, lipids, glucose"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Nausea (mild-moderate, typically improves over time)",
+			"Diarrhea",
+			"Vomiting",
+			"Increased heart rate (5-17 bpm observed)"
+		],
+		"stopSigns": [
+			"Severe or persistent abdominal pain (potential pancreatitis)",
+			"Neck lumps, hoarseness, or difficulty swallowing",
+			"Severe nausea/vomiting preventing adequate nutrition or hydration",
+			"Signs of severe hypoglycemia (confusion, sweating, shakiness)",
+			"Severe allergic reactions (rash, difficulty breathing, facial swelling)",
+			"Unusual mood changes, depression, or suicidal thoughts",
+			"Signs of gallbladder problems (severe upper right abdominal pain)"
+		],
+		"contraindications": [
+			"Personal or family history of medullary thyroid carcinoma",
+			"MEN2 syndrome history (class warning for GLP-1 agonists)",
+			"Pregnancy or breastfeeding (insufficient safety data)"
+		],
+		"monitoring": [
+			"Start with lowest dose, escalate gradually every 4 weeks",
+			"Monitor blood glucose if taking insulin or sulfonylureas",
+			"Watch for pancreatitis symptoms",
+			"Monitor thyroid function",
+			"Maintain adequate hydration during initial weeks"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder without clumping or discoloration",
+			"Completely clear and colorless appearance after reconstitution—no visible particles",
+			"Intact vial seal and clear labeling with mg dosage, batch numbers, expiration dates"
+		],
+		"warning": ["Source verification critical—available from research chemical suppliers"],
+		"bad": [
+			"Clumping, discoloration, or moisture in powder",
+			"Persistent cloudiness or particles after reconstitution indicates degradation"
+		]
+	},
+	"references": [
+		{
+			"title": "GLORY-1 Phase 3 Trial",
+			"year": "2025",
+			"keyFindings": "610 Chinese adults with obesity/overweight; 48 weeks. First Phase 3 weight management trial showing clinically meaningful weight reductions. NEJM."
+		},
+		{
+			"title": "GLORY-2 Phase 3 Trial",
+			"year": "2025",
+			"keyFindings": "462 Chinese adults with obesity; 60 weeks; 9mg dose. 20.1% weight loss vs 2.8% placebo; 48.7% achieved ≥20% reduction; no plateau observed."
+		},
+		{
+			"title": "DREAMS-3 Phase 3 Trial - Head-to-Head vs Semaglutide",
+			"year": "2025",
+			"keyFindings": "349 Chinese adults with T2D and obesity; 32 weeks. Mazdutide superiority: 48% vs 21% achieved HbA1c <7.0% AND ≥10% weight reduction (p<0.0001)."
+		},
+		{
+			"title": "Phase 2 T2D Trial",
+			"year": "2024",
+			"keyFindings": "Chinese adults with T2D; 20 weeks. HbA1c reductions 1.41-1.67% vs 0.03% placebo; weight loss up to 7.1%. Diabetes Care."
+		}
+	],
+	"categories": ["weight-loss", "metabolic"],
+	"quickStats": {
+		"typicalDose": "Start 1.5-3mg weekly, titrate up to 6-9mg based on response",
+		"frequency": "Once weekly injection",
+		"cycleDuration": "48-60+ weeks for optimal results per clinical trials",
+		"storage": "Refrigerate reconstituted solution at 2-8°C, use within 30 days; lyophilized powder at -20°C until reconstitution"
+	}
+}

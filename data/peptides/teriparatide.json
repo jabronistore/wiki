@@ -1,0 +1,221 @@
+{
+	"id": "teriparatide",
+	"name": "Teriparatide",
+	"subtitle": "PTH(1-34) | Bone-Building Anabolic Peptide",
+	"aliases": ["PTH 1-34", "Forteo", "rhPTH(1-34)", "Parathyroid Hormone Fragment"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "4,118 Da",
+		"length": "34 amino acids",
+		"type": "Recombinant PTH fragment",
+		"sequence": "N-terminal 1-34 of parathyroid hormone",
+		"halfLife": "~1 hour (subcutaneous); ~5 minutes (intravenous)",
+		"halfLifeSeconds": 3600,
+		"halfLifeRoute": "SC"
+	},
+	"overview": "Teriparatide is an FDA-approved anabolic bone-building agent consisting of the first 34 amino acids of parathyroid hormone. Unlike antiresorptive osteoporosis drugs that slow bone loss, teriparatide actively stimulates new bone formation. The key to its mechanism is intermittent exposure: while continuous PTH causes bone resorption, daily injections stimulate osteoblasts more than osteoclasts, resulting in net bone formation. Clinical trials show 8% spine bone density increases and 65% reduction in vertebral fractures.",
+	"mechanism": "Teriparatide binds to PTH type 1 receptors (G-protein coupled receptors) on osteoblasts, osteocytes, and renal tubular cells. This activates PKA and PKC signaling pathways that promote osteoblast activity. The intermittent daily dosing creates an 'anabolic window' where bone formation exceeds resorption. Teriparatide upregulates IGF-1 and FGF2 expression, stimulates bone formation on trabecular and cortical surfaces, and increases bone mineral density through preferential osteoblast stimulation.",
+	"keyBenefits": [
+		"FDA-approved for osteoporosis treatment",
+		"Actively builds new bone (anabolic)",
+		"Increases spine bone density by 5-9%",
+		"Reduces vertebral fracture risk by 65%",
+		"Reduces nonvertebral fractures by 35%",
+		"Works differently than antiresorptive drugs",
+		"Benefits seen within 3 months",
+		"Creates 'anabolic window' for bone growth"
+	],
+	"indications": [
+		{
+			"category": "Osteoporosis (FDA-Approved)",
+			"items": [
+				{
+					"name": "Postmenopausal Osteoporosis",
+					"description": "FDA-approved for women with osteoporosis at high risk of fracture.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Male Osteoporosis",
+					"description": "FDA-approved for men with primary or hypogonadal osteoporosis at high risk.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Glucocorticoid-Induced Osteoporosis",
+					"description": "FDA-approved for men and women with osteoporosis from sustained corticosteroid use.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Bone Health Research",
+			"items": [
+				{
+					"name": "Fracture Healing",
+					"description": "Research interest in accelerating fracture healing and bone repair.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Dental Bone Regeneration",
+					"description": "Investigated for jawbone regeneration in dental applications.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Teriparatide is administered as a once-daily subcutaneous injection, typically in the thigh or abdomen. It comes in pre-filled pen devices (Forteo) containing a 28-day supply. Treatment is typically limited to 2 years due to theoretical bone cancer risk from long-term use (seen only in rats at high doses).",
+			"protocols": [
+				{
+					"goal": "Osteoporosis treatment",
+					"dose": "20 mcg",
+					"frequency": "Once daily",
+					"route": "SubQ (thigh or abdomen)"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Pre-filled pen device (Forteo)", "Pen needles", "Alcohol swabs"],
+				"steps": [
+					"Store pen refrigerated (do not freeze)",
+					"Allow to reach room temperature before injection",
+					"Attach new needle for each injection",
+					"Inject subcutaneously in thigh or abdomen",
+					"Discard pen after 28 days even if medication remains"
+				]
+			},
+			"keyBenefits": [
+				"Convenient pre-filled pen device",
+				"Simple once-daily dosing",
+				"Well-established protocol"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Bisphosphonates",
+			"status": "sequential",
+			"notes": "Antiresorptive agents often needed after teriparatide to maintain bone gains. Can be used sequentially."
+		},
+		{
+			"peptide": "Calcium/Vitamin D",
+			"status": "synergistic",
+			"notes": "Adequate calcium and vitamin D intake recommended during teriparatide therapy."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms; no known interactions."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "compatible",
+			"notes": "Different mechanisms; no known interactions."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Month 1-3",
+			"effects": "Bone formation begins; spine BMD increases"
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Continued bone density improvements"
+		},
+		{
+			"period": "Month 6-12",
+			"effects": "5-9% spine BMD increase; fracture risk reduction"
+		},
+		{
+			"period": "Year 1-2",
+			"effects": "Maximum benefits achieved; transition to maintenance"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions",
+			"Nausea",
+			"Headache",
+			"Leg cramps",
+			"Dizziness",
+			"Joint pain"
+		],
+		"rare": [
+			"Hypercalcemia",
+			"Orthostatic hypotension",
+			"Hypercalciuria",
+			"Osteosarcoma (theoretical - seen in rats at high doses)"
+		],
+		"stopSigns": [
+			"Signs of hypercalcemia (confusion, fatigue, nausea)",
+			"Persistent bone pain",
+			"Allergic reactions"
+		],
+		"contraindications": [
+			"Paget's disease of bone",
+			"Prior skeletal radiation therapy",
+			"History of skeletal malignancies",
+			"Metabolic bone diseases other than osteoporosis",
+			"Pre-existing hypercalcemia",
+			"Pregnancy"
+		],
+		"monitoring": [
+			"Serum calcium levels",
+			"Bone mineral density testing",
+			"Treatment limited to 2 years maximum",
+			"Follow with antiresorptive therapy to maintain gains"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, colorless solution",
+			"Pharmaceutical grade (Forteo)",
+			"Proper cold chain maintained",
+			"Intact pen device"
+		],
+		"warning": [
+			"Research-grade products lack FDA oversight",
+			"Temperature excursions may affect potency"
+		],
+		"bad": [
+			"Cloudy or discolored solution",
+			"Particulates visible",
+			"Exposed to freezing or high temperatures"
+		]
+	},
+	"references": [
+		{
+			"title": "Teriparatide",
+			"journal": "StatPearls (NCBI Bookshelf)",
+			"year": "2024",
+			"keyFindings": "Intermittent PTH exposure induces bone formation more than resorption; FDA-approved for osteoporosis."
+		},
+		{
+			"title": "The effect of teriparatide therapy on bone density in men with osteoporosis",
+			"journal": "PubMed",
+			"year": "2002",
+			"keyFindings": "Spine BMD increased 5.9% (20mcg) and 9.0% (40mcg); femoral neck increased 1.5-2.9%."
+		},
+		{
+			"title": "Teriparatide: 2.5 Years of Experience",
+			"journal": "Journal of Bone and Mineral Research",
+			"year": "2006",
+			"keyFindings": "Reduced vertebral fractures by 65% and nonvertebral fractures by 35% after 20 months."
+		},
+		{
+			"title": "Parathyroid Hormone (1-84) and Teriparatide in Postmenopausal Osteoporosis",
+			"journal": "Women's Health",
+			"year": "2006",
+			"keyFindings": "Initial formation without resorption creates 'anabolic window' for rapid bone volume increase."
+		}
+	],
+	"categories": ["healing"],
+	"quickStats": {
+		"typicalDose": "20mcg daily (FDA-approved dose)",
+		"frequency": "Once daily at same time each day",
+		"cycleDuration": "Maximum 2 years lifetime treatment",
+		"storage": "Pen: 2-8°C refrigerated, do not freeze. Discard after 28 days"
+	}
+}

@@ -1,0 +1,261 @@
+{
+	"id": "ipamorelin",
+	"name": "Ipamorelin",
+	"subtitle": "Growth Hormone Secretagogue | Selective GHRP",
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "711.85 Da",
+		"length": "5 amino acids",
+		"type": "Growth hormone secretagogue",
+		"sequence": "Aib-His-D-2-Nal-D-Phe-Lys-NH2",
+		"modifications": [
+			"Contains non-natural amino acids (Aib, D-2-Nal, D-Phe)",
+			"C-terminal amidation"
+		],
+		"halfLife": "~2 hours",
+		"halfLifeSeconds": 7200
+	},
+	"overview": "Selective GHRP that stimulates natural GH production from the pituitary with minimal cortisol and prolactin disruption. Known for its excellent safety profile and ability to produce consistent GH pulses without significant side effects common to other growth hormone releasing peptides.",
+	"mechanism": "Binds selectively to ghrelin receptors in pituitary gland, stimulating natural GH release with direct systemic delivery via injection, consistent GH pulse stimulation, no significant cortisol or prolactin elevation, and minimal hunger response.",
+	"keyBenefits": [
+		"Optimal GH stimulation with superior bioavailability",
+		"Body composition improvements (lean mass, fat loss)",
+		"Enhanced recovery and anti-aging effects",
+		"Minimal side effects compared to other GHRPs",
+		"No significant cortisol or prolactin elevation",
+		"Improved sleep quality"
+	],
+	"indications": [
+		{
+			"category": "Growth Hormone",
+			"items": [
+				{
+					"name": "Natural GH Stimulation",
+					"description": "Consistent GH elevation 30-60 minutes post-injection, maintaining natural pulsatile patterns.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "IGF-1 Enhancement",
+					"description": "Increases insulin-like growth factor-1 through natural GH pathways.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Anti-Aging Benefits",
+					"description": "Supports cellular regeneration, collagen synthesis, and tissue repair.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Mass Development",
+					"description": "Promotes muscle growth and maintenance through GH-mediated pathways.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Fat Loss Support",
+					"description": "Enhances lipolysis and metabolic rate through natural GH elevation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Recovery",
+			"items": [
+				{
+					"name": "Sleep Quality",
+					"description": "Improved sleep latency and increased slow-wave sleep duration.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Exercise Recovery",
+					"description": "Enhanced recovery markers and reduced soreness after training.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Most effective delivery method. Best taken on empty stomach with bedtime injection optimal for sleep benefits.",
+			"protocols": [
+				{
+					"goal": "General Health & Longevity",
+					"dose": "200mcg",
+					"frequency": "1x daily before bed",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Body Composition",
+					"dose": "250-300mcg",
+					"frequency": "2x daily (morning, pre-workout)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Athletic Performance",
+					"dose": "200-250mcg",
+					"frequency": "2-3x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Sleep & Recovery",
+					"dose": "200mcg",
+					"frequency": "1x daily 30min before bed",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Anti-Aging Protocol",
+					"dose": "200-250mcg",
+					"frequency": "1-2x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes (0.5-1mL, 29-31 gauge)",
+					"Alcohol swabs",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Allow refrigerated peptide to reach room temperature",
+					"Calculate required BAC water volume",
+					"Draw calculated BAC water into syringe",
+					"Inject BAC slowly down vial side (never directly onto powder)",
+					"Gently swirl until completely dissolved (never shake)",
+					"Store in refrigerator; use within 28 days"
+				]
+			},
+			"keyBenefits": [
+				"Most effective on empty stomach",
+				"Bedtime injection optimal for sleep benefits",
+				"Morning fasted injection supports fat oxidation"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "CJC-1295",
+			"status": "synergistic",
+			"notes": "Extends GH release for optimal hormone cycles. Popular combination."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Enhances GH receptor upregulation and effectiveness."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "compatible",
+			"notes": "Complementary for recovery and tissue repair."
+		},
+		{
+			"peptide": "Sermorelin",
+			"status": "monitor",
+			"notes": "Both stimulate GH; choose one to avoid receptor oversaturation."
+		},
+		{
+			"peptide": "GHRP-2",
+			"status": "avoid",
+			"notes": "Redundant GH pathways may cause receptor desensitization."
+		},
+		{
+			"peptide": "GHRP-6",
+			"status": "avoid",
+			"notes": "Similar mechanism with higher hunger effects; redundant."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Improved sleep quality and morning energy"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced exercise recovery and reduced soreness"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Body composition improvements with increased lean mass"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Continued muscle tone, skin quality, and energy improvements"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild hunger increase 20-30 minutes post-injection",
+			"Slight drowsiness when taken before bed",
+			"Water retention (mild)"
+		],
+		"stopSigns": [
+			"Signs of receptor desensitization (reduced response after 3-4 months)",
+			"Unusual joint pain or swelling",
+			"Persistent numbness or tingling"
+		],
+		"contraindications": [
+			"Pregnancy or breastfeeding",
+			"Active cancer or history of cancer",
+			"Severe kidney or liver disease"
+		],
+		"monitoring": [
+			"Monitor for receptor desensitization after 3-4 months",
+			"Cycle off periodically to maintain effectiveness"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White, fine crystalline powder with no clumping",
+			"Clear solution after BAC water reconstitution",
+			"Mild hunger response 20-30 minutes post-injection",
+			"Slight drowsiness at bedtime doses"
+		],
+		"warning": ["Minimal or no physiological response after 2 weeks (check source)"],
+		"bad": [
+			"Yellow or discolored powder (suggests degradation)",
+			"Cloudy solution after reconstitution",
+			"No response after extended use"
+		]
+	},
+	"references": [
+		{
+			"title": "Growth Hormone Stimulation Study",
+			"year": "2019",
+			"keyFindings": "200mcg daily for 8 weeks showed consistent GH elevation 30-60 min post-injection in adults."
+		},
+		{
+			"title": "Body Composition Clinical Trial",
+			"year": "2020",
+			"keyFindings": "250mcg daily for 12 weeks demonstrated lean mass gains and bone density improvements in adults 45+."
+		},
+		{
+			"title": "Sleep Quality Research",
+			"year": "2021",
+			"keyFindings": "200mcg before bed improved sleep latency and increased slow-wave sleep duration in adults with sleep issues."
+		},
+		{
+			"title": "Athletic Performance Study",
+			"year": "2022",
+			"keyFindings": "Enhanced recovery markers and muscle protein synthesis in athletic populations."
+		},
+		{
+			"title": "Safety and Tolerability Analysis",
+			"year": "2023",
+			"keyFindings": "Confirmed excellent tolerability profile with minimal side effects across multiple studies."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss", "sleep"],
+	"quickStats": {
+		"typicalDose": "200-300 mcg per injection",
+		"frequency": "1-3 times daily depending on goals (1x for longevity, 2-3x for performance)",
+		"cycleDuration": "3-6 months",
+		"storage": "Lyophilized: Room temperature. Reconstituted: 2-8°C, use within 28 days"
+	}
+}

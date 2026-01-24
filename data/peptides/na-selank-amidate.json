@@ -1,0 +1,241 @@
+{
+	"id": "na-selank-amidate",
+	"name": "NA-Selank Amidate",
+	"subtitle": "N-Acetyl Selank Amidate | Enhanced Anxiolytic Nootropic",
+	"aliases": ["N-Acetyl Selank Amidate", "NASA", "Enhanced Selank"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "864 Da",
+		"length": "7 amino acids + modifications",
+		"type": "Modified heptapeptide",
+		"sequence": "Ac-Thr-Lys-Pro-Arg-Pro-Gly-Pro-NH2",
+		"halfLife": "4-6 hours",
+		"halfLifeSeconds": 18000,
+		"modifications": ["N-terminal acetylation", "C-terminal amidation"]
+	},
+	"overview": "NA-Selank Amidate is an enhanced version of Selank, the anxiolytic nootropic peptide developed at Russia's Institute of Molecular Genetics. The N-acetyl group improves blood-brain barrier penetration and creates more stable metabolites, while the C-terminal amidation further enhances metabolic stability and receptor binding. Unlike benzodiazepines, it provides anxiety relief without sedation, dependency, or cognitive impairment.",
+	"mechanism": "NA-Selank Amidate modulates multiple neurotransmitter systems including GABA, dopamine, and serotonin, while regulating brain-derived neurotrophic factor (BDNF). It allosterically modulates GABAA receptors without causing the sedation or dependency of benzodiazepines. The peptide activates serotonin metabolism in the hypothalamus and brainstem, and increases BDNF levels to promote neuronal growth and differentiation.",
+	"keyBenefits": [
+		"Pronounced anxiolytic effects without sedation",
+		"Enhanced blood-brain barrier penetration (vs standard Selank)",
+		"Improved metabolic stability and longer half-life",
+		"Nootropic effects with enhanced memory and learning",
+		"Increased BDNF levels for neuroplasticity",
+		"No dependency or withdrawal effects",
+		"Immune-modulating properties",
+		"Effects persist after treatment cessation"
+	],
+	"indications": [
+		{
+			"category": "Anxiety & Mood",
+			"items": [
+				{
+					"name": "Generalized Anxiety",
+					"description": "Standard Selank approved in Russia for GAD; NA-Selank Amidate offers enhanced delivery.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Stress Response",
+					"description": "Modulates stress response through GABA and serotonin systems without sedation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Mood Enhancement",
+					"description": "Improves mood through serotonin metabolism activation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cognitive Enhancement",
+			"items": [
+				{
+					"name": "Memory Enhancement",
+					"description": "Increases memory trace stability for up to 30 days in animal studies.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Learning",
+					"description": "BDNF elevation supports learning and neuroplasticity.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neuroprotection",
+					"description": "BDNF increase reduces effects of neurological injury.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Immune Support",
+			"items": [
+				{
+					"name": "Immune Modulation",
+					"description": "Based on tuftsin structure, retains immunomodulatory properties.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal spray is the preferred delivery method, providing direct access to the brain while bypassing first-pass metabolism. The N-acetyl and amide modifications enhance absorption and stability.",
+			"protocols": [
+				{
+					"goal": "Anxiety relief",
+					"dose": "250-500 mcg",
+					"frequency": "1-2x daily",
+					"route": "Intranasal"
+				},
+				{
+					"goal": "Cognitive enhancement",
+					"dose": "200-400 mcg",
+					"frequency": "1-2x daily",
+					"route": "Intranasal"
+				},
+				{
+					"goal": "Standard protocol",
+					"dose": "300 mcg",
+					"frequency": "1-2x daily for 14 days",
+					"route": "Intranasal"
+				}
+			],
+			"keyBenefits": [
+				"Direct brain delivery",
+				"Rapid onset of effects",
+				"Non-invasive administration",
+				"Better bioavailability than injection"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is an alternative to intranasal delivery, though nasal spray is generally preferred for this peptide.",
+			"protocols": [
+				{
+					"goal": "Alternative delivery",
+					"dose": "250-500 mcg",
+					"frequency": "1-2x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator"
+				]
+			},
+			"keyBenefits": ["Precise dosing", "Good absorption", "Alternative when nasal not preferred"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semax",
+			"status": "synergistic",
+			"notes": "Often combined for comprehensive cognitive enhancement and mood support."
+		},
+		{
+			"peptide": "NA-Semax Amidate",
+			"status": "synergistic",
+			"notes": "Enhanced versions combine well for cognitive and anxiolytic effects."
+		},
+		{
+			"peptide": "Dihexa",
+			"status": "compatible",
+			"notes": "Different nootropic mechanisms; can be combined."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Minutes to hours",
+			"effects": "Anxiolytic effects begin; reduced stress response"
+		},
+		{
+			"period": "Days 1-3",
+			"effects": "Nootropic effects become noticeable"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Full anxiolytic and cognitive benefits"
+		},
+		{
+			"period": "Post-treatment",
+			"effects": "Benefits persist for approximately 1 week after 14-day course"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Mild nasal irritation (intranasal)", "Fatigue (rare)"],
+		"rare": ["Headache", "Dizziness"],
+		"stopSigns": ["Allergic reactions", "Paradoxical anxiety increase", "Unusual mood changes"],
+		"contraindications": [
+			"Pregnancy or breastfeeding",
+			"Known hypersensitivity to Selank or tuftsin",
+			"Severe psychiatric conditions (consult professional)"
+		],
+		"monitoring": [
+			"Limit cycles to 2-3 weeks to prevent potential GABAergic desensitization",
+			"Take breaks between cycles"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution",
+			"Intact vacuum seal"
+		],
+		"warning": ["Slight clumping that dissolves easily"],
+		"bad": ["Discolored powder", "Cloudy or particulate solution", "Unusual odor"]
+	},
+	"references": [
+		{
+			"title": "Selank Administration Affects Expression of Genes in GABAergic Neurotransmission",
+			"journal": "Frontiers in Pharmacology",
+			"year": "2016",
+			"keyFindings": "Selank modulates GABAA receptor activity, contributing to anxiolytic effects without benzodiazepine-like side effects."
+		},
+		{
+			"title": "Selank Clinical Trial in Anxiety Disorders",
+			"journal": "Zhurnal Nevrologii i Psikhiatrii",
+			"year": "2008",
+			"keyFindings": "14 days of intranasal Selank produced pronounced anxiolytic and mild nootropic effects; benefits persisted 1 week post-treatment."
+		},
+		{
+			"title": "Selank and Serotonin Metabolism",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2006",
+			"keyFindings": "Single Selank injection activated serotonin metabolism and increased memory trace stability for up to 30 days."
+		},
+		{
+			"title": "Selank and BDNF Expression",
+			"journal": "Regulatory Peptides",
+			"year": "2009",
+			"keyFindings": "Selank administration increases BDNF levels, supporting neuronal growth and memory enhancement."
+		}
+	],
+	"categories": ["cognitive", "longevity", "immune"],
+	"quickStats": {
+		"typicalDose": "200-500mcg per administration",
+		"frequency": "1-2x daily for 14-20 days",
+		"cycleDuration": "2-3 weeks (14-20 days)",
+		"storage": "Refrigerate at 2-8°C"
+	}
+}

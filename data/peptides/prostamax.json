@@ -1,0 +1,215 @@
+{
+	"id": "prostamax",
+	"name": "Prostamax",
+	"subtitle": "KEDP Tetrapeptide | Prostate Bioregulator",
+	"aliases": ["KEDP", "Lys-Glu-Asp-Pro", "Prostate Bioregulator", "Prostatic Peptide", "Libidon"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "473 Da",
+		"length": "4 amino acids",
+		"type": "Tetrapeptide bioregulator",
+		"sequence": "Lys-Glu-Asp-Pro",
+		"halfLife": "Not established",
+		"halfLifeSeconds": null
+	},
+	"overview": "Prostamax is a Khavinson bioregulator tetrapeptide (KEDP) with primary repair effects on prostate tissue. Developed by Professor Vladimir Khavinson at the St. Petersburg Institute of Bioregulation and Gerontology, it alters chromatin structure in cells from elderly individuals, promoting deheterochromatinization and potentially reactivating genes repressed during aging. Research in rat models shows reduced prostate inflammation, decreased swelling, and decelerated pathological remodeling associated with prostatitis.",
+	"mechanism": "Prostamax works through epigenetic regulation by altering chromatin structure. It increases the frequency of sister chromatid exchanges and Ag-positive nucleolar organizer regions (NORs), while reducing large segments of pericentromeric heterochromatin. These changes promote chromatin decondensation and deheterochromatinization, potentially reactivating genes repressed during aging. The peptide influences heterochromatin arrangements in human lymphocytes and normalizes age-related changes in cellular function.",
+	"keyBenefits": [
+		"Reduces prostate inflammation",
+		"Decreases prostatic swelling",
+		"Reduces vascular congestion (hyperemia)",
+		"Decreases immune cell infiltration",
+		"Reduces scarring in prostate tissue",
+		"Promotes chromatin decondensation",
+		"Reactivates age-repressed genes",
+		"Improves lymphocyte function"
+	],
+	"indications": [
+		{
+			"category": "Prostate Health",
+			"items": [
+				{
+					"name": "Chronic Prostatitis",
+					"description": "Research shows reduced inflammation and swelling in prostatitis models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Prostatic Inflammation",
+					"description": "Mitigates inflammation and immune cell infiltration in prostate tissue.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Prostate Tissue Repair",
+					"description": "Decreases scarring and pathological remodeling in prostate.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Chromatin Remodeling",
+					"description": "Promotes deheterochromatinization in elderly cells.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Gene Reactivation",
+					"description": "Potentially reactivates genes repressed during aging process.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Lymphocyte Function",
+					"description": "Normalizes age-related changes in lymphocyte function.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. Short peptides can be absorbed orally and reach target tissues. Typical protocol involves 10-20 day cycles.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Short peptide allows GI absorption",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10-15 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testagen",
+			"status": "synergistic",
+			"notes": "Complementary male reproductive bioregulators; different tissue targets."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "Vilon",
+			"status": "compatible",
+			"notes": "Different organ targets; can be used in comprehensive bioregulator protocols."
+		},
+		{
+			"peptide": "Crystagen",
+			"status": "compatible",
+			"notes": "Part of Khavinson bioregulator family; targets different tissue."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Chromatin remodeling and gene expression changes begin"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Prostate function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual urinary symptoms"],
+		"contraindications": [
+			"Prostate cancer (consult oncologist)",
+			"Known hypersensitivity",
+			"Pregnancy (not applicable)"
+		],
+		"monitoring": [
+			"PSA testing recommended for men over 50",
+			"Urological evaluation if symptoms persist"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Experimental Studying of Drug Efficiency Prostamax in Therapy of Chronic Aseptic Prostatitis",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2013",
+			"keyFindings": "Prostamax reduced prostate swelling, inflammation, and scarring in rat prostatitis models."
+		},
+		{
+			"title": "Effects of Short Peptides on Lymphocyte Chromatin in Senile Subjects",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2004",
+			"keyFindings": "KEDP peptide alters chromatin structure, promoting deheterochromatinization in elderly cells."
+		},
+		{
+			"title": "Deheterochromatinization of Chromatin in Old Age Induced by Oligopeptide Bioregulator (Lys-Glu-Asp-Pro)",
+			"journal": "Georgian Medical News",
+			"year": "2012",
+			"keyFindings": "Prostamax promotes chromatin decondensation and reactivates age-repressed genes."
+		},
+		{
+			"title": "Khavinson Peptide Bioregulators",
+			"journal": "Advances in Gerontology",
+			"year": "2020",
+			"keyFindings": "Comprehensive review of bioregulator peptides and their epigenetic mechanisms."
+		}
+	],
+	"categories": ["sexual-health"],
+	"quickStats": {
+		"typicalDose": "10-20mg daily",
+		"frequency": "Daily for 10-20 days per cycle",
+		"cycleDuration": "10-20 days",
+		"storage": "Capsules at room temperature; reconstituted injectable at 2-8°C refrigerated"
+	}
+}

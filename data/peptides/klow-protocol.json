@@ -1,0 +1,229 @@
+{
+	"id": "klow-protocol",
+	"name": "KLOW Protocol",
+	"subtitle": "Four-Peptide Regenerative Blend",
+	"aliases": ["KLOW"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"molecular": {
+		"type": "Fixed-ratio peptide combination",
+		"sequence": "GHK-Cu + TB-500 + BPC-157 + KPV (5:1:1:1 ratio)"
+	},
+	"overview": "KLOW builds upon GLOW protocol by adding KPV for enhanced anti-inflammatory action. This combination lacks clinical trials on the specific four-peptide formulation despite individual component research. Standard vial contains 80mg blend (50mg GHK-Cu, 10mg TB-500, 10mg BPC-157, 10mg KPV).",
+	"mechanism": "Each peptide contributes distinct biological pathways: GHK-Cu modulates gene expression for tissue repair, TB-500 enhances cellular migration and wound healing, BPC-157 upregulates growth factors for tissue regeneration, and KPV inhibits NF-κB inflammatory pathway.",
+	"keyBenefits": [
+		"Theoretical synergistic multi-pathway tissue repair",
+		"Anti-inflammatory effects across multiple mechanisms",
+		"Cellular regeneration support",
+		"Convenience of single injection dosing",
+		"KPV may reduce injection site reactions versus GLOW"
+	],
+	"indications": [
+		{
+			"category": "Primary Applications",
+			"items": [
+				{
+					"name": "Wound Healing",
+					"description": "Multi-modal healing addressing tissue through complementary pathways",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Post-Surgical Recovery",
+					"description": "Enhanced tolerability with KPV versus GLOW formulation",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Sports Injury Management",
+					"description": "Single injection convenience factor",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Skin Rejuvenation",
+					"description": "Collagen stimulation and tissue regeneration",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection with rotation between abdomen, thighs, and upper arms.",
+			"protocols": [
+				{
+					"goal": "Conservative approach",
+					"dose": "200mcg total daily",
+					"frequency": "Once daily evening",
+					"route": "Subcutaneous"
+				},
+				{
+					"goal": "Standard research protocol",
+					"dose": "200-500mcg total",
+					"frequency": "Once daily",
+					"route": "Subcutaneous"
+				},
+				{
+					"goal": "Cycling protocol",
+					"dose": "Per standard dosing",
+					"frequency": "4-6 weeks on, 2-4 weeks off",
+					"route": "Subcutaneous"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"KLOW 80mg vial",
+					"Bacteriostatic water (2-5mL)",
+					"Insulin syringes",
+					"Alcohol prep pads"
+				],
+				"steps": [
+					"Clean vial top with alcohol pad",
+					"Add 4mL bacteriostatic water (creates 20mg/mL)",
+					"Gently swirl - do not shake",
+					"Solution should appear clear to slightly cloudy",
+					"Label with date and concentration",
+					"Store refrigerated immediately",
+					"Use within 4-6 weeks"
+				]
+			}
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "GLOW Protocol",
+			"status": "avoid",
+			"notes": "KLOW contains all GLOW components plus KPV—combining causes double-dosing"
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "compatible",
+			"notes": "No studies on combination; theoretical compatibility based on different mechanisms"
+		},
+		{
+			"peptide": "NAD+",
+			"status": "compatible",
+			"notes": "No data combining KLOW with NAD+; both affect cellular processes differently"
+		},
+		{
+			"peptide": "Anticoagulants",
+			"status": "monitor",
+			"notes": "Components may affect wound healing and clotting—medical supervision required"
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "avoid",
+			"notes": "Multiple components affect GH pathways; risk of excessive stimulation"
+		},
+		{
+			"peptide": "Immunosuppressants",
+			"status": "monitor",
+			"notes": "Components may interfere with immunosuppressive therapy"
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-7",
+			"effects": "Some users report inflammation reduction within days"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Wound healing effects may develop if they manifest"
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Full cycle effects; assess response"
+		},
+		{
+			"period": "Break period",
+			"effects": "2-4 weeks off between cycles recommended"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions (common even with KPV)",
+			"Individual responses vary widely"
+		],
+		"rare": ["Signs of copper toxicity with prolonged use"],
+		"stopSigns": [
+			"Severe injection site reactions or infection",
+			"Allergic reactions (rash, difficulty breathing)",
+			"Unusual fatigue or weakness",
+			"Signs of copper toxicity (nausea, jaundice)",
+			"Worsening of underlying conditions"
+		],
+		"contraindications": [
+			"No safety studies on four-peptide combination",
+			"Long-term effects completely unknown",
+			"FDA has not approved any component for therapeutic use"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party testing (Janoshik or similar)",
+			"Reputable research supplier with quality control",
+			"Certificate of Analysis provided"
+		],
+		"warning": [
+			"Research-only status - not approved for human use",
+			"Batch variability - ratios and purity may vary"
+		],
+		"bad": [
+			"Vendors without Certificate of Analysis",
+			"Suspiciously low prices suggest counterfeits"
+		]
+	},
+	"references": [
+		{
+			"title": "Individual Component Research—GHK-Cu",
+			"year": "Various",
+			"journal": "Multiple Studies",
+			"keyFindings": "GHK-Cu demonstrates wound healing, anti-aging, and gene modulation effects in isolation"
+		},
+		{
+			"title": "BPC-157 Limited Human Data",
+			"year": "2020",
+			"journal": "Human pilot study",
+			"keyFindings": "Small pilot showed 10 of 12 patients achieved complete symptom resolution in interstitial cystitis"
+		},
+		{
+			"title": "No Published Studies on KLOW Combination",
+			"year": "2024",
+			"journal": "N/A",
+			"keyFindings": "Scientific studies examining safety or efficacy of the four-peptide KLOW combination do not exist"
+		}
+	],
+	"categories": ["weight-loss", "metabolic"],
+	"blendComposition": {
+		"totalAmount": 80,
+		"unit": "mg",
+		"components": [
+			{
+				"name": "GHK-Cu",
+				"amount": 50,
+				"ratio": 5
+			},
+			{
+				"name": "TB-500",
+				"amount": 10,
+				"ratio": 1
+			},
+			{
+				"name": "BPC-157",
+				"amount": 10,
+				"ratio": 1
+			},
+			{
+				"name": "KPV",
+				"amount": 10,
+				"ratio": 1
+			}
+		]
+	},
+	"quickStats": {
+		"typicalDose": "200-500 mcg total blend daily",
+		"frequency": "Once daily for consistent tissue repair support",
+		"cycleDuration": "4-6 weeks",
+		"storage": "Lyophilized: Room temperature. Reconstituted: 2-8°C, use within 4-6 weeks"
+	}
+}

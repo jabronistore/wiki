@@ -1,0 +1,206 @@
+{
+	"id": "bronchogen",
+	"name": "Bronchogen",
+	"subtitle": "AEDL Tetrapeptide | Bronchial Bioregulator",
+	"aliases": [
+		"AEDL",
+		"Ala-Glu-Asp-Leu",
+		"Bronchial Bioregulator",
+		"Lung Peptide",
+		"Taxorest",
+		"Honluten"
+	],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "432 Da",
+		"length": "4 amino acids",
+		"type": "Tetrapeptide bioregulator",
+		"sequence": "Ala-Glu-Asp-Leu",
+		"halfLife": "Minutes (short peptide); effects persist via epigenetic changes"
+	},
+	"overview": "Bronchogen is a Khavinson bioregulator tetrapeptide (AEDL) with primary effects on the bronchopulmonary system. Developed at Russia's St. Petersburg Institute of Bioregulation and Gerontology by Professor Vladimir Khavinson, it targets bronchial tissue and supports respiratory function. Like other Khavinson peptides, Bronchogen penetrates cell nuclei to influence gene expression related to respiratory tissue maintenance and repair.",
+	"mechanism": "Bronchogen works through epigenetic regulation by penetrating cell and nuclear membranes to interact with DNA and modulate gene expression in bronchial tissue. It regulates protein synthesis in bronchopulmonary cells, supporting maintenance and repair of respiratory epithelium. The tetrapeptide structure allows efficient cellular uptake and tissue-specific targeting to bronchial structures.",
+	"keyBenefits": [
+		"Supports bronchial tissue function",
+		"Regulates protein synthesis in lungs",
+		"Targets bronchopulmonary system",
+		"Maintains respiratory epithelium",
+		"Part of Khavinson bioregulator family",
+		"Epigenetic mechanism of action",
+		"Tissue-specific targeting",
+		"Well-tolerated in research"
+	],
+	"indications": [
+		{
+			"category": "Respiratory Support",
+			"items": [
+				{
+					"name": "Bronchial Function",
+					"description": "Supports bronchial tissue through gene expression regulation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Respiratory Maintenance",
+					"description": "Helps maintain respiratory epithelium health.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Pulmonary Health",
+					"description": "Regulates protein synthesis in lung tissue.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Respiratory Aging",
+					"description": "Addresses age-related changes in bronchial tissue.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Gene Expression",
+					"description": "Modulates gene expression in respiratory cells.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. Short peptides can be absorbed orally and reach target tissues. Typical protocol involves 10-20 day cycles.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Short peptide allows GI absorption",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Chonluten",
+			"status": "synergistic",
+			"notes": "Related respiratory bioregulators; complementary mechanisms."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "Crystagen",
+			"status": "compatible",
+			"notes": "Both have immune-modulating properties; different tissue targets."
+		},
+		{
+			"peptide": "Vilon",
+			"status": "compatible",
+			"notes": "Part of Khavinson bioregulator family; targets different tissue."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Gene expression modulation begins"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Respiratory function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual respiratory symptoms"],
+		"contraindications": [
+			"Active respiratory emergencies (seek medical care)",
+			"Known hypersensitivity",
+			"Pregnancy or breastfeeding"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Khavinson Peptide Bioregulators",
+			"journal": "Advances in Gerontology",
+			"year": "2020",
+			"keyFindings": "Comprehensive review of bioregulator peptides including respiratory bioregulators."
+		},
+		{
+			"title": "Short Peptides and Bronchial Function",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2018",
+			"keyFindings": "Tetrapeptides derived from bronchial tissue regulate protein synthesis in respiratory cells."
+		},
+		{
+			"title": "Bioregulator Peptides and Respiratory Health",
+			"journal": "Cell Technologies in Biology and Medicine",
+			"year": "2016",
+			"keyFindings": "Short peptides support bronchopulmonary system through epigenetic mechanisms."
+		}
+	],
+	"categories": ["immune"],
+	"quickStats": {
+		"typicalDose": "10-20 mg oral or 10 mg injectable",
+		"frequency": "Daily for 10-20 days per cycle",
+		"cycleDuration": "10-20 days",
+		"storage": "Oral capsules: room temperature. Injectable: 2-8°C refrigerated"
+	}
+}

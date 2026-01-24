@@ -1,0 +1,272 @@
+{
+	"id": "pt-141",
+	"name": "PT-141",
+	"subtitle": "Melanocortin Receptor Agonist | Sexual Dysfunction Treatment",
+	"aliases": ["Bremelanotide", "Vyleesi"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"type": "Melanocortin receptor agonist",
+		"modifications": ["Selective MC3R/MC4R activation"],
+		"halfLife": "~2.7 hours",
+		"halfLifeSeconds": 9720
+	},
+	"overview": "FDA-approved melanocortin receptor agonist for treatment of hypoactive sexual desire disorder (HSDD) in premenopausal women. Works centrally in the nervous system to trigger sexual arousal pathways independent of vascular mechanisms, unlike traditional ED medications.",
+	"mechanism": "Selectively activates melanocortin receptors (MC3R/MC4R) in the central nervous system, triggering sexual arousal pathways independent of peripheral vascular mechanisms. Works within 45 minutes with effects lasting 6-12 hours.",
+	"keyBenefits": [
+		"FDA-approved pharmaceutical route",
+		"Predictable absorption profile",
+		"Effective for both male and female sexual dysfunction",
+		"Works within 45 minutes",
+		"Effective in PDE5 inhibitor-resistant cases",
+		"Central mechanism (not dependent on blood flow)"
+	],
+	"indications": [
+		{
+			"category": "Sexual Health",
+			"items": [
+				{
+					"name": "Hypoactive Sexual Desire Disorder (HSDD)",
+					"description": "FDA-approved for treatment of HSDD in premenopausal women.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Erectile Dysfunction",
+					"description": "Effective in men including PDE5 inhibitor-resistant cases via CNS pathways.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Female Sexual Arousal Disorder",
+					"description": "Enhances sexual arousal and desire in women.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Quality of Life",
+			"items": [
+				{
+					"name": "Sexual Distress Reduction",
+					"description": "Reduces distress related to low sexual desire.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Sexual Satisfaction",
+					"description": "Enhanced satisfaction reported in clinical trials.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the FDA-approved route. Administered 45-60 minutes before anticipated sexual activity.",
+			"protocols": [
+				{
+					"goal": "Female HSDD (FDA-approved)",
+					"dose": "1.75mg",
+					"frequency": "As needed, max 1 dose/24hr",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Male Erectile Dysfunction",
+					"dose": "1-2mg",
+					"frequency": "As needed, 45-60min before activity",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Female Arousal Disorder",
+					"dose": "0.75-1.25mg",
+					"frequency": "As needed, max 1 dose/24hr",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Low Starting Dose",
+					"dose": "0.5mg",
+					"frequency": "Test dose for tolerance assessment",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"PT-141 lyophilized powder vial",
+					"Bacteriostatic water (1-2mL)",
+					"Insulin syringe (29-31 gauge)",
+					"Alcohol swabs",
+					"Sterile mixing syringe"
+				],
+				"steps": [
+					"Allow vial to reach room temperature (15-20 minutes)",
+					"Clean vial tops with alcohol swabs",
+					"Draw 1-2mL bacteriostatic water",
+					"Inject BAC water slowly down vial side",
+					"Gently swirl until fully dissolved (do not shake)",
+					"Solution should appear clear and colorless",
+					"Store reconstituted solution refrigerated",
+					"Use within 30 days of reconstitution"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen 2 inches from navel or upper thigh",
+				"Onset 45-60 minutes",
+				"Peak effects 2-4 hours",
+				"Duration 6-12 hours"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal spray with faster onset (30-45 minutes). Limited clinical data compared to injectable.",
+			"protocols": [
+				{
+					"goal": "Male ED - Standard",
+					"dose": "1.5-2mg",
+					"frequency": "As needed, 30-45min before",
+					"route": "Nasal"
+				},
+				{
+					"goal": "Female Sexual Dysfunction",
+					"dose": "1-1.5mg",
+					"frequency": "As needed, max 1 dose/24hr",
+					"route": "Nasal"
+				}
+			],
+			"keyBenefits": ["Non-invasive administration", "Faster onset than injectable"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Sildenafil/Tadalafil",
+			"status": "monitor",
+			"notes": "PT-141 works centrally; PDE5 inhibitors work peripherally - monitor for additive BP effects."
+		},
+		{
+			"peptide": "Melanotan II",
+			"status": "monitor",
+			"notes": "Both are melanocortin agonists; combining risks excessive activation and side effects."
+		},
+		{
+			"peptide": "Blood Pressure Medications",
+			"status": "monitor",
+			"notes": "PT-141 can transiently lower blood pressure - monitor closely."
+		},
+		{
+			"peptide": "Alcohol",
+			"status": "monitor",
+			"notes": "Both lower BP and cause flushing - limit intake to avoid excessive hypotension."
+		},
+		{
+			"peptide": "Nitrates",
+			"status": "avoid",
+			"notes": "Risk of severe hypotension - contraindicated with heart condition medications."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms; no known interactions."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "May work synergistically for sexual dysfunction through different pathways."
+		},
+		{
+			"peptide": "Kisspeptin",
+			"status": "monitor",
+			"notes": "Different pathways (melanocortin vs GnRH) - no receptor overlap but monitor BP effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "0-30 minutes",
+			"effects": "Mild nausea or facial flushing possible"
+		},
+		{
+			"period": "45-90 minutes",
+			"effects": "Onset of effects - increased arousal and desire"
+		},
+		{
+			"period": "2-4 hours",
+			"effects": "Peak effects - enhanced sexual response"
+		},
+		{
+			"period": "6-12 hours",
+			"effects": "Gradual diminishment of effects"
+		}
+	],
+	"sideEffects": {
+		"common": ["Nausea (40%)", "Flushing (20%)", "Headache (11%)", "Injection site reactions"],
+		"stopSigns": [
+			"Severe or persistent nausea/vomiting",
+			"Significant blood pressure drop or dizziness",
+			"Chest pain or irregular heartbeat",
+			"Severe headache or vision changes",
+			"Prolonged erection exceeding 4 hours"
+		],
+		"contraindications": [
+			"Uncontrolled hypertension",
+			"Cardiovascular disease",
+			"Use of nitrate medications",
+			"Pregnancy or breastfeeding"
+		],
+		"monitoring": [
+			"Blood pressure monitoring recommended",
+			"Take anti-nausea medication 30 minutes prior if prone to nausea",
+			"Avoid alcohol to minimize BP effects"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"FDA-approved pharmaceutical grade (Vyleesi) from licensed pharmacy",
+			"White crystalline powder (pure PT-141)",
+			"Clear solution when reconstituted",
+			"Proper labeling with concentration and purity"
+		],
+		"warning": ["Compounded versions - ensure pharmacy is licensed and follows USP standards"],
+		"bad": [
+			"Colored or oily appearance indicating impurities or degradation",
+			"Cloudy solution after reconstitution",
+			"Unknown source without quality documentation"
+		]
+	},
+	"references": [
+		{
+			"title": "FDA Approval Trial for HSDD",
+			"year": "2019",
+			"keyFindings": "Phase 3 trials with 1.75mg subcutaneous in premenopausal women showed 24.5% improvement vs 17.2% placebo, achieving statistical significance."
+		},
+		{
+			"title": "Male Erectile Dysfunction Clinical Trial",
+			"year": "2017",
+			"keyFindings": "1-20mg intranasal showed dose-dependent erectile response, effective including in PDE5 inhibitor-resistant cases via CNS pathways."
+		},
+		{
+			"title": "Mechanism of Action Study",
+			"year": "2016",
+			"keyFindings": "In vitro and animal studies confirmed selective MC3R/MC4R binding activating sexual arousal without peripheral vasodilation."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Long-term Safety Profile of Bremelanotide in Clinical Practice",
+			"date": "December 2024",
+			"source": "Journal of Sexual Medicine",
+			"summary": "Real-world data of 10,000+ prescriptions shows consistent safety profile."
+		},
+		{
+			"title": "PT-141 Efficacy in Treatment-Resistant Sexual Dysfunction",
+			"date": "October 2024",
+			"source": "International Journal of Impotence Research",
+			"summary": "Demonstrates effectiveness in patients who failed traditional ED medications."
+		}
+	],
+	"categories": ["sexual-health"],
+	"quickStats": {
+		"typicalDose": "Women: 1.75mg (FDA-approved); Men: 1-2mg; Start 0.5mg test dose for tolerance",
+		"frequency": "As needed before sexual activity; max 1 dose per 24 hours",
+		"cycleDuration": "Use as needed for sexual enhancement",
+		"storage": "Refrigerate at 2-8°C, use reconstituted solution within 30 days"
+	}
+}

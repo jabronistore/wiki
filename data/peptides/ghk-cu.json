@@ -1,0 +1,280 @@
+{
+	"id": "ghk-cu",
+	"name": "GHK-Cu",
+	"subtitle": "Copper Peptide | Skin Regeneration & Anti-Aging Compound",
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "0.5-2% topical or 1-3mg injectable",
+		"frequency": "1-2x daily",
+		"cycleDuration": "8-16 weeks",
+		"storage": "Room temperature (topical) or 2-8°C (injectable)"
+	},
+	"molecular": {
+		"weight": "404.96 Da",
+		"length": "3 amino acids",
+		"type": "Copper tripeptide",
+		"sequence": "Gly-His-Lys",
+		"modifications": ["Complexed with copper (Cu2+) for enhanced bioavailability"],
+		"halfLife": "0.5-2 hours",
+		"halfLifeSeconds": 4500
+	},
+	"overview": "Naturally occurring copper tripeptide found in human plasma, saliva, and urine. GHK-Cu affects 31.2% of human genes and declines significantly with age—from ~200 ng/ml at age 20 to ~80 ng/ml at age 60. Known for exceptional skin regeneration, wound healing, and anti-aging properties.",
+	"mechanism": "Penetrates skin layers, activates fibroblasts, stimulates collagen and elastin synthesis, promotes angiogenesis, and modulates inflammatory responses. The copper ion is essential for enzyme cofactor activity in tissue repair processes.",
+	"keyBenefits": [
+		"Enhanced collagen production (70% increase in type I and III)",
+		"Improved skin elasticity",
+		"Reduced fine lines and wrinkles",
+		"Accelerated wound healing",
+		"Hair growth stimulation",
+		"Antioxidant protection"
+	],
+	"indications": [
+		{
+			"category": "Skin Regeneration",
+			"items": [
+				{
+					"name": "Collagen Synthesis",
+					"description": "Increases type I and III collagen production by up to 70% in human dermal fibroblasts.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Elastin Production",
+					"description": "Stimulates elastin synthesis for improved skin elasticity and resilience.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Skin Barrier Function",
+					"description": "Strengthens protective barrier and improves moisture retention.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Hair Growth",
+			"items": [
+				{
+					"name": "Follicle Stimulation",
+					"description": "Promotes hair follicle enlargement and extends anagen (growth) phase.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Scalp Health",
+					"description": "Improves scalp circulation and reduces inflammation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Inflammatory",
+			"items": [
+				{
+					"name": "Immune Modulation",
+					"description": "Regulates inflammatory cytokine production.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Tissue Protection",
+					"description": "Protects tissues from oxidative stress and damage.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Most common delivery method for skin and hair applications. Available as creams, serums, and solutions.",
+			"protocols": [
+				{
+					"goal": "Anti-aging skincare",
+					"dose": "0.5-1% cream",
+					"frequency": "1-2x daily",
+					"route": "Topical application"
+				},
+				{
+					"goal": "Hair growth stimulation",
+					"dose": "1-2% solution",
+					"frequency": "1x daily",
+					"route": "Scalp massage"
+				},
+				{
+					"goal": "Wound healing",
+					"dose": "1-2% gel",
+					"frequency": "2-3x daily",
+					"route": "Direct application"
+				},
+				{
+					"goal": "General skin health",
+					"dose": "0.5% serum",
+					"frequency": "1x daily",
+					"route": "Face and neck"
+				},
+				{
+					"goal": "Intensive repair",
+					"dose": "2% cream",
+					"frequency": "1x daily",
+					"route": "Targeted areas"
+				}
+			],
+			"reconstitution": {
+				"steps": [
+					"Cleanse skin thoroughly with gentle cleanser",
+					"Pat skin dry and wait 5 minutes",
+					"Apply thin, even layer to target areas",
+					"Massage gently until fully absorbed (1-2 minutes)",
+					"Follow with moisturizer if using serum",
+					"Always apply sunscreen during daytime use"
+				]
+			},
+			"keyBenefits": [
+				"Non-invasive application",
+				"Targeted delivery to skin",
+				"Room temperature storage"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form provides systemic effects but is not FDA-approved. Requires refrigeration after reconstitution.",
+			"protocols": [
+				{
+					"goal": "Systemic anti-aging",
+					"dose": "1-2mg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Enhanced regeneration",
+					"dose": "2-3mg",
+					"frequency": "1-2x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"GHK-Cu lyophilized powder vial",
+					"Bacteriostatic water (BAC water)",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Allow vial to reach room temperature (15-20 minutes)",
+					"Clean vial tops with alcohol swabs",
+					"Draw calculated BAC water into syringe",
+					"Inject slowly down vial side",
+					"Gently swirl until fully dissolved (light blue color is normal)",
+					"Store reconstituted solution at 2-8°C, use within 30 days"
+				]
+			},
+			"keyBenefits": ["Systemic delivery", "Higher bioavailability than topical"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Complementary tissue healing and regeneration pathways."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "synergistic",
+			"notes": "Enhanced wound healing and tissue repair when combined."
+		},
+		{
+			"peptide": "Melanotan II",
+			"status": "monitor",
+			"notes": "Both affect melanin production; use caution when combining."
+		},
+		{
+			"peptide": "Copper Supplements",
+			"status": "avoid",
+			"notes": "Risk of copper toxicity; do not combine with oral copper supplements."
+		},
+		{
+			"peptide": "CJC-1295",
+			"status": "compatible",
+			"notes": "No known interactions."
+		},
+		{
+			"peptide": "Iron Chelators",
+			"status": "monitor",
+			"notes": "May affect copper absorption and activity."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Improved skin texture and hydration"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Reduction in fine lines and increased skin smoothness"
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Enhanced skin firmness and elasticity"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Visible improvement in skin tone and clarity"
+		},
+		{
+			"period": "Hair Growth",
+			"effects": "6-12 weeks for initial results"
+		}
+	],
+	"sideEffects": {
+		"common": ["Mild skin irritation initially (usually resolves)", "Increased photosensitivity"],
+		"stopSigns": [
+			"Severe skin irritation, burning, or persistent redness",
+			"Allergic reactions (rash, swelling, difficulty breathing)",
+			"Unusual skin discoloration or staining",
+			"Persistent metallic taste (injectable)",
+			"Worsening of skin condition after 4-6 weeks"
+		],
+		"contraindications": [
+			"Known copper sensitivity or Wilson's disease",
+			"Active skin infections at application site",
+			"Pregnancy or breastfeeding (injectable)"
+		],
+		"monitoring": ["Patch test before first use", "Avoid contact with eyes and mucous membranes"]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Light blue tint from copper content",
+			"Smooth texture, non-gritty",
+			"Stable formulation without separation or crystallization",
+			"Professional packaging with UV protection"
+		],
+		"warning": ["Slight color variation acceptable within blue spectrum"],
+		"bad": [
+			"Green or dark discoloration (oxidation/contamination)",
+			"Grainy texture (poor formulation or crystallization)",
+			"Separation or settling of components"
+		]
+	},
+	"references": [
+		{
+			"title": "Regenerative and Protective Actions of GHK-Cu Peptide",
+			"year": "2018",
+			"journal": "Int J Mol Sci",
+			"keyFindings": "Demonstrates broad regenerative potential across multiple tissue types including skin, hair, and bone."
+		},
+		{
+			"title": "GHK Peptide in Skin Regeneration",
+			"year": "2015",
+			"journal": "Biomed Res Int",
+			"keyFindings": "GHK-Cu increased elastin and collagen production in human dermal fibroblasts by up to 70%."
+		},
+		{
+			"title": "GHK-Cu in Prevention of Oxidative Stress and Aging",
+			"year": "2012",
+			"journal": "Oxid Med Cell Longev",
+			"keyFindings": "Shows neuroprotective and antioxidant effects in aged mice at 10 mg/kg dosing."
+		}
+	],
+	"categories": ["skin", "healing", "longevity"]
+}

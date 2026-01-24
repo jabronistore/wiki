@@ -1,0 +1,263 @@
+{
+	"id": "adalank",
+	"name": "Adalank",
+	"subtitle": "N-Acetyl Selank Amidate | Enhanced Tuftsin Analog",
+	"aliases": ["N-Acetyl Selank Amidate", "ADA"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "792.93 Da",
+		"length": "7 amino acids",
+		"type": "Modified heptapeptide",
+		"sequence": "Ac-Thr-Lys-Pro-Arg-Pro-Gly-Pro-NH2",
+		"modifications": [
+			"N-terminal acetylation",
+			"C-terminal amidation for enhanced bioavailability"
+		],
+		"halfLife": "Not established"
+	},
+	"overview": "Enhanced derivative of Selank with improved stability, blood-brain barrier penetration, and extended half-life compared to parent compound. Parent compound Selank approved in Russia since early 2000s.",
+	"mechanism": "Modulates GABAergic neurotransmission, upregulates hippocampal BDNF, influences serotonin metabolism, and provides immunomodulatory effects without benzodiazepine-like dependency.",
+	"keyBenefits": [
+		"Potent anxiolytic effects without sedation",
+		"Enhanced cognitive function",
+		"Stress resilience",
+		"Improved mood and emotional stability",
+		"Neuroprotection via BDNF upregulation",
+		"No tolerance, dependency, or withdrawal"
+	],
+	"indications": [
+		{
+			"category": "Anxiety",
+			"items": [
+				{
+					"name": "Generalized Anxiety Disorder",
+					"description": "Clinical trials showed effects comparable to benzodiazepines; 40% rapid response within 1-3 days.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Stress-Related Anxiety",
+					"description": "Reduces stress hormones and balances neurotransmitters without sedation.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Anxiety without Sedation",
+					"description": "Unlike benzodiazepines, provides relief without tolerance, withdrawal, or dependency.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Cognitive",
+			"items": [
+				{
+					"name": "Cognitive Enhancement",
+					"description": "Improves focus, attention, and mental clarity.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Memory Protection",
+					"description": "BDNF-mediated neuroplasticity supports memory formation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "BDNF Upregulation",
+					"description": "Rapidly elevates BDNF expression, supporting neuronal survival.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Stress Resilience",
+					"description": "Enhances ability to cope with psychological stress.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection to belly, thigh, or upper arm. Morning administration aligns with cortisol rhythms.",
+			"protocols": [
+				{
+					"goal": "Anxiety Reduction",
+					"dose": "200-300mcg",
+					"frequency": "1x daily (morning)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Cognitive Enhancement",
+					"dose": "200-500mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Stress Management",
+					"dose": "200-300mcg",
+					"frequency": "2x daily (morning, afternoon)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Initial Trial",
+					"dose": "100-200mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes",
+					"Alcohol swabs",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area thoroughly",
+					"Calculate BAC water volume",
+					"Draw water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake vigorously)",
+					"Store at 2-8°C",
+					"Use within 14-30 days"
+				]
+			},
+			"keyBenefits": [
+				"High bioavailability",
+				"Precise dosing",
+				"Extended effects vs standard Selank"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal spray for convenient administration.",
+			"protocols": [
+				{
+					"goal": "Anxiety Management",
+					"dose": "200-300mcg per dose",
+					"frequency": "2-3x daily (600-900mcg total)",
+					"route": "Nasal spray"
+				},
+				{
+					"goal": "Initial Trial",
+					"dose": "150-200mcg per dose",
+					"frequency": "2x daily",
+					"route": "Nasal spray"
+				}
+			],
+			"keyBenefits": ["Non-invasive", "Convenient", "Rapid onset"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Selank",
+			"status": "compatible",
+			"notes": "Adalank is enhanced derivative with improved stability and longer half-life."
+		},
+		{
+			"peptide": "Semax",
+			"status": "compatible",
+			"notes": "Both are Russian nootropic peptides with different mechanisms."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms; Adalank targets neurological pathways, BPC-157 focuses on tissue repair."
+		},
+		{
+			"peptide": "Diazepam",
+			"status": "synergistic",
+			"notes": "Enhances benzodiazepine effects while reducing side effects in research studies."
+		},
+		{
+			"peptide": "MAOIs",
+			"status": "monitor",
+			"notes": "Consult healthcare provider; affects neurotransmitter systems."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-3",
+			"effects": "40% may experience rapid anxiety reduction"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Gradual anxiety relief, improved mood, enhanced stress resilience"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Cognitive enhancement, improved focus, BDNF-mediated neuroplasticity"
+		},
+		{
+			"period": "Week 4+",
+			"effects": "Sustained anxiolytic and cognitive benefits"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Parent compound has high safety profile in Russian clinical research",
+			"Minimal side effects reported"
+		],
+		"stopSigns": [
+			"Unusual or persistent headaches",
+			"Significant mood changes or depression",
+			"Unexpected sedation or extreme fatigue",
+			"Unusual neurological symptoms",
+			"Persistent injection site reactions or nasal irritation",
+			"Severe gastrointestinal distress"
+		],
+		"contraindications": [
+			"Experimental peptide with limited direct human research on N-Acetyl form",
+			"Not recommended during pregnancy or breastfeeding",
+			"Consult healthcare provider before use with psychiatric medications"
+		],
+		"monitoring": [
+			"Use sterile injection technique",
+			"Start with lower doses (100-200mcg) to assess response",
+			"Cycle with 1-2 week breaks to prevent tolerance"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White, fluffy powder; proper freeze-drying indicated",
+			"Clear solution after reconstitution; no particles or cloudiness",
+			"Proper labeling with peptide name, batch number, manufacturing date"
+		],
+		"warning": [
+			"Slight compaction from shipping acceptable if powder dissolves with gentle swirling"
+		],
+		"bad": [
+			"Discoloration or yellowing indicates oxidation or degradation",
+			"Persistent cloudiness or particles indicate degraded or contaminated peptide"
+		]
+	},
+	"references": [
+		{
+			"title": "Selank for GAD - Non-inferiority Trial",
+			"year": "N/A",
+			"keyFindings": "62 patients with GAD; 2700mcg/day intranasal; 14 days. Anxiolytic effects comparable to medazepam; 40% rapid response within 1-3 days."
+		},
+		{
+			"title": "Selank and BDNF Regulation in Hippocampus",
+			"year": "N/A",
+			"keyFindings": "Rat study; intranasal administration. Rapidly elevated BDNF expression, confirming neurotrophin involvement."
+		},
+		{
+			"title": "Peptide Selank Enhances Diazepam Effects",
+			"year": "N/A",
+			"keyFindings": "Rats in chronic mild stress model. Enhanced anxiolytic effects while reducing memory impairment and sedation."
+		}
+	],
+	"categories": ["cognitive", "longevity"],
+	"quickStats": {
+		"typicalDose": "200-500mcg",
+		"frequency": "Once or twice daily",
+		"cycleDuration": "2-4 weeks",
+		"storage": "Lyophilized: room temp or freezer. Reconstituted: 2-8°C for 14-30 days"
+	}
+}

@@ -1,0 +1,252 @@
+{
+	"id": "ghrp-2",
+	"name": "GHRP-2",
+	"subtitle": "Growth Hormone Releasing Peptide-2 | Pralmorelin",
+	"aliases": ["Pralmorelin", "KP-102", "GPA-748"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "100-300 mcg",
+		"frequency": "2-3x daily",
+		"cycleDuration": "8-12 weeks",
+		"storage": "2-8°C refrigerated"
+	},
+	"molecular": {
+		"weight": "817.9 Da",
+		"length": "6 amino acids",
+		"type": "Synthetic hexapeptide",
+		"sequence": "D-Ala-D-2Nal-Ala-Trp-D-Phe-Lys-NH2",
+		"halfLife": "~30 minutes",
+		"halfLifeSeconds": 1800
+	},
+	"overview": "GHRP-2 is a synthetic growth hormone secretagogue that stimulates the pituitary gland to release growth hormone. It is one of the most potent members of the GHRP family, being 2-3 times more effective than GHRP-6 in stimulating GH release. Originally developed as a diagnostic agent for growth hormone deficiency, it works by mimicking ghrelin and binding to the GHS-R1a receptor.",
+	"mechanism": "GHRP-2 acts as a synthetic agonist of ghrelin, binding to the growth hormone secretagogue receptor (GHS-R1a) in the hypothalamus and pituitary. This stimulates cAMP production and promotes pulsatile release of endogenous growth hormone without suppressing natural feedback loops. It works synergistically with GHRH to amplify GH secretion beyond what either peptide achieves alone.",
+	"keyBenefits": [
+		"Potent stimulation of natural growth hormone release",
+		"Enhanced muscle growth and recovery",
+		"Improved body composition and fat metabolism",
+		"Better sleep quality and recovery",
+		"Increased appetite (can be beneficial for bulking)",
+		"Maintains natural GH pulsatile release patterns",
+		"Synergistic effects when combined with GHRH peptides"
+	],
+	"indications": [
+		{
+			"category": "Growth Hormone Enhancement",
+			"items": [
+				{
+					"name": "GH Deficiency Assessment",
+					"description": "Used as a diagnostic agent in Japan for assessing growth hormone deficiency in clinical settings.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Natural GH Stimulation",
+					"description": "Stimulates endogenous growth hormone release through ghrelin receptor activation.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "IGF-1 Elevation",
+					"description": "Indirectly increases IGF-1 levels through enhanced GH secretion.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Muscle Growth",
+					"description": "Enhanced muscle protein synthesis through elevated growth hormone and IGF-1 levels.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Fat Metabolism",
+					"description": "Improved lipolysis and body composition through GH-mediated fat oxidation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Recovery Enhancement",
+					"description": "Faster recovery from exercise and improved sleep quality.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Protective Effects",
+			"items": [
+				{
+					"name": "Muscle Protection",
+					"description": "Myoprotective effects in muscle atrophy models through GHS-R1a stimulation.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cardioprotection",
+					"description": "Cytoprotective effects observed in cardiac tissue research.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the primary administration route. Best administered on an empty stomach for optimal GH release. Multiple daily doses recommended to maintain elevated GH levels.",
+			"protocols": [
+				{
+					"goal": "GH optimization",
+					"dose": "100-150 mcg",
+					"frequency": "2-3x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Enhanced results",
+					"dose": "200-300 mcg",
+					"frequency": "2-3x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "With GHRH (synergy)",
+					"dose": "100 mcg each",
+					"frequency": "2-3x daily",
+					"route": "SubQ (combined)"
+				},
+				{
+					"goal": "Pre-sleep protocol",
+					"dose": "100-200 mcg",
+					"frequency": "Before bed",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes (0.5-1 mL)",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator, use within 28 days"
+				]
+			},
+			"keyBenefits": [
+				"Administer on empty stomach (2+ hours after eating)",
+				"Wait 20-30 minutes before eating after injection",
+				"Best timing: morning, post-workout, and before bed",
+				"Avoid fats and carbs around administration for best GH release"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "CJC-1295",
+			"status": "synergistic",
+			"notes": "Powerful synergy; GHRH + GHRP combination amplifies GH release significantly."
+		},
+		{
+			"peptide": "Mod GRF 1-29",
+			"status": "synergistic",
+			"notes": "Classic GHRP + GHRH stack for enhanced growth hormone release."
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "compatible",
+			"notes": "Both are GHRPs; can be alternated but typically not stacked together."
+		},
+		{
+			"peptide": "GHRP-6",
+			"status": "compatible",
+			"notes": "Similar mechanism; GHRP-2 is more potent with less appetite stimulation."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions; different mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Immediately",
+			"effects": "GH spike within 15-30 minutes of injection"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Improved sleep quality and recovery"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Noticeable improvements in energy and well-being"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Visible changes in body composition and muscle fullness"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Full benefits realized with consistent use"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Increased appetite (less than GHRP-6)",
+			"Mild water retention",
+			"Tingling or numbness in extremities",
+			"Tiredness or lethargy after injection",
+			"Mild headache"
+		],
+		"rare": ["Elevated cortisol (with high doses)", "Elevated prolactin (with high doses)"],
+		"stopSigns": [
+			"Severe or persistent headaches",
+			"Unusual swelling in hands or feet",
+			"Signs of carpal tunnel syndrome",
+			"Allergic reactions"
+		],
+		"contraindications": [
+			"Active cancer or history of cancer",
+			"Pregnancy or breastfeeding",
+			"Pituitary disorders",
+			"Diabetic retinopathy",
+			"WADA prohibited for competitive athletes"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution",
+			"Intact vacuum seal on vial"
+		],
+		"warning": ["Slight clumping that dissolves easily"],
+		"bad": [
+			"Discolored or yellow powder",
+			"Cloudy solution after reconstitution",
+			"Particles or precipitates in solution"
+		]
+	},
+	"references": [
+		{
+			"title": "Growth Hormone Releasing Peptide-2 increases food intake in healthy men",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "2010",
+			"keyFindings": "GHRP-2 infusion increased food intake by 35.9% compared to saline, demonstrating ghrelin-like orexigenic effects."
+		},
+		{
+			"title": "Synthetic Growth Hormone-Releasing Peptides: Cytoprotective Effects",
+			"journal": "Clinical Medicine Insights: Cardiology",
+			"year": "2017",
+			"keyFindings": "GHRPs including GHRP-2 demonstrated significant cytoprotective effects in cardiac and extracardiac tissues."
+		},
+		{
+			"title": "GHRP-2 effects on growth hormone release in swine",
+			"journal": "Domestic Animal Endocrinology",
+			"year": "2000",
+			"keyFindings": "Chronic GHRP-2 administration increased average daily gain by 22.35% and feed efficiency by 20.64%."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss"]
+}

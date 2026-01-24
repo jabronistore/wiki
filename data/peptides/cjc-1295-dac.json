@@ -1,0 +1,245 @@
+{
+	"id": "cjc-1295-dac",
+	"name": "CJC-1295 with DAC",
+	"subtitle": "Long-Acting Growth Hormone Releasing Hormone Analog | Extended Release",
+	"aliases": ["CJC-1295 DAC", "Drug Affinity Complex CJC-1295"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "3,647.28 Da",
+		"length": "30 amino acids",
+		"type": "GHRH analog with DAC",
+		"sequence": "Tyr-Ala-Asp-Ala-Ile-Phe-Thr-Asn-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys",
+		"modifications": ["DAC enables albumin binding", "Enables weekly dosing vs pulsatile release"],
+		"halfLife": "6-8 days",
+		"halfLifeSeconds": 604800
+	},
+	"overview": "Modified growth hormone releasing hormone engineered for extended duration via albumin-binding technology. DAC binds to albumin, extending half-life and providing continuous GHRH receptor stimulation.",
+	"mechanism": "DAC binds to albumin, extending half-life to 6-8 days and providing continuous GHRH receptor stimulation for sustained GH/IGF-1 elevation.",
+	"keyBenefits": [
+		"Convenient weekly dosing",
+		"Sustained GH/IGF-1 elevation",
+		"6-8 day half-life",
+		"Significant body composition changes"
+	],
+	"indications": [
+		{
+			"category": "Growth Hormone",
+			"items": [
+				{
+					"name": "Sustained GH Elevation",
+					"description": "Continuous growth hormone release for 6-8 days per injection.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "IGF-1 Optimization",
+					"description": "Significantly elevates IGF-1 levels for extended periods.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Convenience Protocol",
+					"description": "Weekly dosing ideal for simple administration.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Fat Loss Enhancement",
+					"description": "Continuous GH elevation promotes lipolysis and fat metabolism.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Lean Mass Gains",
+					"description": "Sustained anabolic environment supports muscle protein synthesis.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Recovery Enhancement",
+					"description": "Accelerated healing and recovery from exercise or injury.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the preferred route for DAC variant.",
+			"protocols": [
+				{
+					"goal": "Conservative Anti-Aging",
+					"dose": "1mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Standard Protocol",
+					"dose": "2mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Split Dosing",
+					"dose": "1mg",
+					"frequency": "Twice weekly (Mon/Thu)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Loading Protocol",
+					"dose": "2mg first week, then 1mg",
+					"frequency": "Weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"CJC-1295 with DAC peptide vial",
+					"Bacteriostatic water (2-5mL)",
+					"Insulin or 1mL syringes",
+					"Alcohol prep pads"
+				],
+				"steps": [
+					"Clean both vial tops with alcohol and dry completely",
+					"2mg vial: Add 1mL bacteriostatic water (creates 2mg/mL)",
+					"5mg vial: Add 2.5mL bacteriostatic water (creates 2mg/mL)",
+					"Inject water slowly to prevent foaming",
+					"Let sit 5 minutes before gently rolling to mix",
+					"Solution may appear slightly cloudy initially",
+					"Label with date and concentration immediately"
+				]
+			},
+			"keyBenefits": [
+				"Weekly dosing convenience",
+				"Sustained GH elevation",
+				"Simple administration"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Ipamorelin",
+			"status": "monitor",
+			"notes": "Continuous GH elevation may reduce synergistic benefits of pulsatile protocols."
+		},
+		{
+			"peptide": "GHRP-6",
+			"status": "monitor",
+			"notes": "GHRP pulse effects diminished with continuous GH elevation."
+		},
+		{
+			"peptide": "CJC-1295 (without DAC)",
+			"status": "avoid",
+			"notes": "Never combine different variants; choose based on desired release pattern."
+		},
+		{
+			"peptide": "MK-677",
+			"status": "avoid",
+			"notes": "Both provide continuous GH elevation; combination risks excessive levels."
+		},
+		{
+			"peptide": "Tesamorelin",
+			"status": "avoid",
+			"notes": "Both are GHRH analogs; no additional benefit and potential receptor competition."
+		},
+		{
+			"peptide": "HGH",
+			"status": "avoid",
+			"notes": "Defeats purpose and may suppress natural production."
+		},
+		{
+			"peptide": "Sermorelin",
+			"status": "monitor",
+			"notes": "CJC-1295 DAC is already more potent and long-lasting."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1",
+			"effects": "Possible water retention, improved sleep, increased appetite"
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Noticeable recovery improvements, some report joint discomfort"
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Visible body composition changes, increased vascularity"
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Continued improvements but watch for desensitization signs"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Most gains maintained; IGF-1 returns to baseline in 2-3 weeks"
+		}
+	],
+	"sideEffects": {
+		"common": ["Water retention", "Joint pain", "Carpal tunnel symptoms"],
+		"stopSigns": [
+			"Severe joint pain or carpal tunnel syndrome",
+			"Excessive water retention affecting daily life",
+			"Numbness or tingling in extremities",
+			"Significant blood glucose dysregulation",
+			"Signs of acromegaly (jaw growth, hand/feet enlargement)",
+			"Persistent lethargy indicating adrenal effects"
+		],
+		"contraindications": ["Diabetes history", "Cancer history", "Predisposed sleep apnea"],
+		"monitoring": [
+			"Regular IGF-1 monitoring recommended for long-term use",
+			"Higher incidence of side effects than pulsatile protocols"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"High purity requirement (>98%); impurities cause more side effects",
+			"Proper DAC labeling; legitimate products clearly state 'with DAC'"
+		],
+		"warning": [
+			"Higher cost than non-DAC (2-3x more due to complex manufacturing)",
+			"Foaming during mixing is normal for DAC peptides; wait for foam to settle"
+		],
+		"bad": [
+			"Extremely cheap pricing (if priced similar to non-DAC, likely mislabeled)",
+			"Clear solution immediately (should be slightly cloudy initially)"
+		]
+	},
+	"references": [
+		{
+			"title": "Prolonged Growth Hormone Elevation with CJC-1295 DAC",
+			"year": "2006",
+			"keyFindings": "12 subjects; sustained GH and IGF-1 elevation for 6-10 days post-injection with peak 2-4x baseline."
+		},
+		{
+			"title": "Dose-Response Relationship of CJC-1295 DAC",
+			"year": "2008",
+			"keyFindings": "48 subjects, 90 days. Optimal dosing 1-2mg weekly; dose-dependent IGF-1 increases but higher side effects above 2mg."
+		},
+		{
+			"title": "Long-term Effects on GH/IGF-1 Axis",
+			"year": "2012",
+			"keyFindings": "6-month animal model. Sustained IGF-1 elevation but evidence of reduced GH pulse amplitude suggesting desensitization."
+		},
+		{
+			"title": "Comparative Pharmacokinetics: DAC vs Non-DAC Variants",
+			"year": "2015",
+			"keyFindings": "DAC: 120-hour half-life vs non-DAC: 30-minute; non-DAC preserves more physiological patterns."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss"],
+	"quickStats": {
+		"typicalDose": "1-2mg weekly",
+		"frequency": "Once or twice weekly (e.g., Monday/Thursday for split dosing)",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Lyophilized: 2-8°C refrigerated; Reconstituted: 2-8°C refrigerated, use within 30 days"
+	}
+}

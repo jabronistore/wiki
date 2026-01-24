@@ -1,0 +1,182 @@
+{
+	"id": "glow-protocol",
+	"name": "Glow Protocol",
+	"subtitle": "Multi-Peptide Skin Rejuvenation Complex",
+	"aliases": ["GLOW"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"molecular": {
+		"type": "Fixed-ratio peptide combination",
+		"sequence": "BPC-157 + TB-500 + GHK-Cu blend"
+	},
+	"overview": "Combination featuring BPC-157, TB-500, and GHK-Cu marketed for skin rejuvenation and anti-aging. Individual components have research support, but combination protocols require careful dosing to avoid exceeding therapeutic ranges.",
+	"mechanism": "BPC-157 provides anti-inflammatory effects; TB-500 supports angiogenesis; GHK-Cu stimulates collagen production. Fixed-ratio combinations may deliver individual peptides outside optimal therapeutic ranges.",
+	"keyBenefits": [
+		"Single injection delivers multiple regenerative peptides",
+		"Theoretical additive effects from combined components",
+		"Convenience factor versus individual peptide administration"
+	],
+	"indications": [
+		{
+			"category": "Primary Applications",
+			"items": [
+				{
+					"name": "Skin Rejuvenation",
+					"description": "Theoretical synergistic effects; formal combination studies are limited",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Wound Healing",
+					"description": "BPC-157 and TB-500 components support tissue regeneration",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Anti-Aging",
+					"description": "GHK-Cu stimulates collagen production",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection to abdominal area, outer thigh, or upper arm.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "Per formulation instructions",
+					"frequency": "Once daily",
+					"route": "Subcutaneous"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol prep pads"],
+				"steps": [
+					"Clean vial top with alcohol pad",
+					"Add bacteriostatic water as directed",
+					"Gently swirl - do not shake",
+					"Solution should appear clear",
+					"Store refrigerated immediately"
+				]
+			}
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "NAD+",
+			"status": "compatible",
+			"notes": "Different mechanisms may complement cellular energy support"
+		},
+		{
+			"peptide": "Vitamin C",
+			"status": "compatible",
+			"notes": "Antioxidant support compatible with peptide effects"
+		},
+		{
+			"peptide": "Retinoids",
+			"status": "monitor",
+			"notes": "May increase skin sensitivity; monitor for irritation"
+		},
+		{
+			"peptide": "Individual GHK-Cu",
+			"status": "avoid",
+			"notes": "Risk of copper overdose when combining products"
+		},
+		{
+			"peptide": "Individual BPC-157",
+			"status": "monitor",
+			"notes": "Total daily intake may exceed therapeutic ranges"
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Initial tissue healing response begins"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Visible skin improvements may begin"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Collagen synthesis and regeneration effects"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Peak effects; optimal skin rejuvenation"
+		}
+	],
+	"sideEffects": {
+		"common": ["Injection site reactions", "Temporary blue-green discoloration (from GHK-Cu)"],
+		"rare": ["Potential copper accumulation effects", "Individual peptide intolerance symptoms"],
+		"stopSigns": [
+			"Severe injection site reactions or infection",
+			"Allergic reactions (rash, difficulty breathing)",
+			"Signs of copper toxicity (nausea, jaundice)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear solution without particles",
+			"Proper packaging stating individual peptide amounts"
+		],
+		"warning": [
+			"Verify peptide content matches supplier specifications",
+			"Calculate individual peptide doses before starting"
+		],
+		"bad": [
+			"Excessive individual peptide amounts exceeding recommended ranges",
+			"Cloudy or discolored solution"
+		]
+	},
+	"references": [
+		{
+			"title": "BPC-157 Tissue Repair Mechanisms",
+			"year": "2024",
+			"journal": "Laboratory Study",
+			"keyFindings": "Dose range 250-500mcg daily shows wound healing and anti-inflammatory properties"
+		},
+		{
+			"title": "GHK-Cu Anti-Aging Research",
+			"year": "2023",
+			"journal": "Clinical Studies",
+			"keyFindings": "Demonstrates collagen stimulation and skin improvement at 1-2mg daily doses"
+		},
+		{
+			"title": "TB-500 Angiogenesis Studies",
+			"year": "2024",
+			"journal": "Preclinical Research",
+			"keyFindings": "Shows tissue regeneration effects at 2-5mg twice weekly dosing"
+		}
+	],
+	"categories": ["skin", "healing"],
+	"blendComposition": {
+		"totalAmount": 70,
+		"unit": "mg",
+		"components": [
+			{
+				"name": "GHK-Cu",
+				"amount": 50,
+				"ratio": 5
+			},
+			{
+				"name": "TB-500",
+				"amount": 10,
+				"ratio": 1
+			},
+			{
+				"name": "BPC-157",
+				"amount": 10,
+				"ratio": 1
+			}
+		]
+	},
+	"quickStats": {
+		"typicalDose": "Per formulation instructions (typically 50mg GHK-Cu, 10mg TB-500, 10mg BPC-157 per dose)",
+		"frequency": "Once daily",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Lyophilized: 2-8°C refrigerated; Reconstituted: 2-8°C refrigerated immediately after mixing"
+	}
+}

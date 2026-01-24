@@ -1,0 +1,211 @@
+{
+	"id": "tb-500-fragment",
+	"name": "TB-500 (Ac-LKKTETQ)",
+	"subtitle": "Thymosin Beta-4 Active Fragment | Healing Peptide",
+	"aliases": ["TB-500", "Ac-LKKTETQ", "Thymosin Beta-4 Fragment 17-23", "Fequesetide"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "844 Da",
+		"length": "7 amino acids",
+		"type": "Acetylated heptapeptide",
+		"sequence": "Ac-Leu-Lys-Lys-Thr-Glu-Thr-Gln",
+		"modifications": ["N-terminal acetylation"],
+		"halfLife": "Not precisely established; effects persist longer than 24 hours"
+	},
+	"overview": "TB-500 (Ac-LKKTETQ) is a synthetic derivative of thymosin beta-4 consisting of the N-terminal acetylated 17-23 amino acid fragment. This sequence represents the active site within thymosin beta-4 responsible for actin binding, cell migration, and wound healing. Research shows it promotes endothelial cell differentiation, angiogenesis, keratinocyte migration, collagen deposition, and decreases inflammation. The acetylation protects against N-terminal degradation while maintaining biological activity.",
+	"mechanism": "TB-500 contains the LKKTETQ sequence which is the actin-binding motif of full-length thymosin beta-4. This fragment shares many properties of the parent protein regarding cell proliferation, differentiation, and migration. It promotes angiogenesis by upregulating VEGF expression and enhancing endothelial cell sprouting. The peptide undergoes serial cleavage at the C-terminus during metabolism, while the N-terminal acetylation provides protection from degradation.",
+	"keyBenefits": [
+		"Promotes wound healing",
+		"Enhances cell migration",
+		"Supports angiogenesis (new blood vessel formation)",
+		"Reduces inflammation",
+		"Promotes keratinocyte migration",
+		"Supports collagen deposition",
+		"Enhances tissue repair",
+		"Active region of thymosin beta-4"
+	],
+	"indications": [
+		{
+			"category": "Tissue Repair",
+			"items": [
+				{
+					"name": "Wound Healing",
+					"description": "Promotes dermal wound healing through the active LKKTETQ sequence.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Tissue Regeneration",
+					"description": "Supports tissue repair comparable to full thymosin beta-4 in research.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Skin Repair",
+					"description": "Promotes keratinocyte migration and collagen deposition.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Vascular Support",
+			"items": [
+				{
+					"name": "Angiogenesis",
+					"description": "Promotes endothelial cell differentiation and new blood vessel formation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Inflammatory",
+			"items": [
+				{
+					"name": "Inflammation Reduction",
+					"description": "Decreases inflammatory responses in damaged tissues.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "TB-500 is typically administered via subcutaneous injection. The N-terminal acetylation provides stability and protection from degradation. Not authorized for medicinal use; research peptide only.",
+			"protocols": [
+				{
+					"goal": "Loading phase",
+					"dose": "2-2.5 mg",
+					"frequency": "2x weekly for 4-6 weeks",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "2 mg",
+					"frequency": "Weekly or bi-weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water",
+					"Insulin syringes",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side",
+					"Gently swirl until dissolved (never shake)",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": [
+				"N-terminal acetylation provides stability",
+				"Active fragment of thymosin beta-4",
+				"Flexible injection sites"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Commonly combined for enhanced healing effects through different mechanisms."
+		},
+		{
+			"peptide": "Thymosin Beta-4",
+			"status": "compatible",
+			"notes": "TB-500 is the active fragment; combining may be redundant."
+		},
+		{
+			"peptide": "GHK-Cu",
+			"status": "synergistic",
+			"notes": "Both support wound healing and tissue repair through different pathways."
+		},
+		{
+			"peptide": "IGF-1 LR3",
+			"status": "compatible",
+			"notes": "Different mechanisms; may complement for tissue growth."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-7",
+			"effects": "Initial wound healing acceleration"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Enhanced cell migration and angiogenesis"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Visible tissue repair improvements"
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Full healing benefits; transition to maintenance"
+		}
+	],
+	"sideEffects": {
+		"common": ["Injection site reactions", "Mild fatigue", "Head rush (reported)"],
+		"rare": ["Allergic reactions", "Unknown long-term effects"],
+		"stopSigns": ["Allergic reactions", "Unusual swelling or inflammation"],
+		"contraindications": [
+			"Not authorized for medicinal use",
+			"Active cancer (theoretical concern)",
+			"Pregnancy or breastfeeding",
+			"Prohibited by WADA in sports"
+		],
+		"monitoring": [
+			"Research peptide - medical supervision recommended",
+			"Banned substance in competitive sports"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder",
+			"Clear solution after reconstitution",
+			"High purity (>98%)",
+			"Intact vacuum seal"
+		],
+		"warning": ["Not authorized for human use", "Research chemical only"],
+		"bad": ["Discoloration", "Cloudy solution", "Particulates visible"]
+	},
+	"references": [
+		{
+			"title": "Synthesis and Characterization of N-terminal Acetylated 17-23 Fragment of Thymosin Beta-4",
+			"journal": "Drug Testing and Analysis",
+			"year": "2012",
+			"keyFindings": "TB-500 contains Ac-LKKTETQ, the active site responsible for actin binding and wound healing."
+		},
+		{
+			"title": "Doping Control Analysis of TB-500",
+			"journal": "Journal of Chromatography B",
+			"year": "2012",
+			"keyFindings": "TB-500 is a synthetic version of the active region of thymosin beta-4."
+		},
+		{
+			"title": "TB-500 Metabolism and Wound Healing",
+			"journal": "Journal of Chromatography B",
+			"year": "2024",
+			"keyFindings": "TB-500 undergoes serial cleavage at C-terminus; acetylation protects N-terminus."
+		},
+		{
+			"title": "Investigation of TB-500 Metabolism",
+			"journal": "WADA",
+			"year": "2018",
+			"keyFindings": "Characterized human metabolism of TB-500 using liver microsomes and S9 fraction."
+		}
+	],
+	"categories": ["healing", "longevity"],
+	"quickStats": {
+		"typicalDose": "2-2.5mg per injection",
+		"frequency": "2x weekly (e.g., Monday and Thursday)",
+		"cycleDuration": "4-6 weeks loading phase",
+		"storage": "Reconstituted: 2-8°C refrigerated"
+	}
+}

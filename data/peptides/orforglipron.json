@@ -1,0 +1,238 @@
+{
+	"id": "orforglipron",
+	"name": "Orforglipron",
+	"subtitle": "Oral Small-Molecule GLP-1 Receptor Agonist | Weight Loss & Diabetes",
+	"aliases": ["LY-3502970"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "882.974 Da",
+		"length": "Non-peptide small molecule",
+		"type": "Small-molecule GLP-1R agonist",
+		"sequence": "Not applicable - synthetic small molecule",
+		"halfLife": "25-68 hours",
+		"halfLifeSeconds": 167760,
+		"modifications": [
+			"Biased agonism profile favoring G protein activation over β-arrestin recruitment"
+		]
+	},
+	"overview": "First oral non-peptide GLP-1 completing Phase 3 trials. Achieves substantial weight loss without injections, refrigeration, or dietary restrictions, with clinical evidence of 12.4% weight reduction at 72 weeks.",
+	"mechanism": "Small-molecule GLP-1 receptor agonist with biased signaling preferentially activating G protein/cAMP pathways, enhancing insulin secretion, suppressing glucagon, delaying gastric emptying, and reducing appetite while minimizing receptor desensitization. 79.1% oral bioavailability with 29-49 hour half-life.",
+	"keyBenefits": [
+		"Significant weight loss (up to 12.4% at 72 weeks)",
+		"Robust diabetes control (HbA1c reduction 1.3-1.6%)",
+		"Once-daily oral tablet format",
+		"No refrigeration or food restrictions required",
+		"Reduced cardiovascular risk markers"
+	],
+	"indications": [
+		{
+			"category": "Weight Loss",
+			"items": [
+				{
+					"name": "Obesity Without Diabetes",
+					"description": "ATTAIN-1 demonstrated 12.4% weight loss (27.3 lbs) at 72 weeks with 36mg dose; 59.6% achieving ≥10% weight loss.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Obesity With Type 2 Diabetes",
+					"description": "ATTAIN-2 showed 10.5% weight loss with 72.8% achieving ≥5% weight loss.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Cardiometabolic Risk Reduction",
+					"description": "Improvements in waist circumference, systolic blood pressure (8-12 mmHg), triglycerides (-20-30%).",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Prediabetes Prevention",
+					"description": "91% achieved near-normal blood sugar levels versus 42% with placebo.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Type 2 Diabetes",
+			"items": [
+				{
+					"name": "Type 2 Diabetes Management",
+					"description": "ACHIEVE-1 Phase 3 trial showed HbA1c reductions of 1.3-1.6% from 8.0% baseline; 76.2% achieving HbA1c <7%.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Insulin Resistance Improvement",
+					"description": "Significant improvements in insulin sensitivity indices within 4 weeks of therapy initiation.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Once-daily oral tablet requiring no reconstitution. Can be taken with or without food or water at any time of day.",
+			"protocols": [
+				{
+					"goal": "Type 2 diabetes initiation",
+					"dose": "3mg daily",
+					"frequency": "Once daily, any time",
+					"route": "Oral tablet"
+				},
+				{
+					"goal": "Type 2 diabetes moderate control",
+					"dose": "12mg daily",
+					"frequency": "Once daily, any time",
+					"route": "Oral tablet"
+				},
+				{
+					"goal": "Type 2 diabetes optimal control",
+					"dose": "36mg daily",
+					"frequency": "Once daily, any time",
+					"route": "Oral tablet"
+				},
+				{
+					"goal": "Weight loss initiation",
+					"dose": "6mg daily",
+					"frequency": "Once daily, any time",
+					"route": "Oral tablet"
+				},
+				{
+					"goal": "Weight loss optimization",
+					"dose": "36mg daily",
+					"frequency": "Once daily, any time",
+					"route": "Oral tablet"
+				}
+			],
+			"keyBenefits": [
+				"No injections required",
+				"No refrigeration necessary",
+				"Flexible dosing with or without meals",
+				"Once-daily convenience"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semaglutide",
+			"status": "avoid",
+			"notes": "Both are GLP-1 agonists; combining increases severe hypoglycemia and excessive GI adverse effects."
+		},
+		{
+			"peptide": "Tirzepatide",
+			"status": "avoid",
+			"notes": "Dual GIP/GLP-1 agonist overlaps with GLP-1 mechanism; combination contraindicated."
+		},
+		{
+			"peptide": "Liraglutide",
+			"status": "avoid",
+			"notes": "Another GLP-1 agonist; concurrent use contraindicated due to overlapping mechanisms."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "Orforglipron enhances insulin sensitivity; may require significant insulin dose reduction."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "synergistic",
+			"notes": "Complementary mechanisms for diabetes management; Phase 3 trials showed enhanced efficacy."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known interactions; may support gut health and potentially mitigate GI adverse effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Appetite reduction typically within 1-3 days; mild to moderate nausea common"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Gradual weight loss begins (0.5-2 lbs per week); improved blood sugar control"
+		},
+		{
+			"period": "Week 4-12",
+			"effects": "Reduced food cravings; GI adverse effects generally diminish; metabolic markers improving"
+		},
+		{
+			"period": "Week 12-36",
+			"effects": "Continued progressive weight loss without plateau"
+		},
+		{
+			"period": "Week 36+",
+			"effects": "Long-term therapy well-tolerated; sustained benefits at 72 weeks"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Diarrhea (more prevalent than with injectable GLP-1s)",
+			"Nausea (typically improves after first month)",
+			"Appetite reduction"
+		],
+		"stopSigns": [
+			"Severe or persistent abdominal pain radiating to back (potential pancreatitis)",
+			"Neck lumps, hoarseness, difficulty swallowing, or neck swelling",
+			"Severe nausea/vomiting preventing adequate nutrition or hydration",
+			"Signs of severe hypoglycemia (confusion, sweating, rapid heartbeat)",
+			"Suicidal thoughts, severe depression, or significant mood changes",
+			"Vision changes or persistent eye pain"
+		],
+		"contraindications": [
+			"Personal or family history of medullary thyroid carcinoma",
+			"Multiple Endocrine Neoplasia syndrome type 2 (MEN2)",
+			"Pregnancy and breastfeeding"
+		],
+		"monitoring": [
+			"Monitor for signs of acute pancreatitis",
+			"Adjust other diabetes medications to prevent hypoglycemia",
+			"Monitor for gallbladder disease symptoms with rapid weight loss",
+			"Watch for suicidal thoughts or significant mood changes"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Intact tablet packaging with proper labeling, batch numbers, and expiration dates",
+			"Uniform tablet appearance without discoloration, chipping, or cracking",
+			"Proper storage at room temperature (15-30°C)"
+		],
+		"warning": [
+			"As of late 2025, orforglipron remains investigational only; any product claiming FDA approval is fraudulent"
+		],
+		"bad": [
+			"Discolored, crumbling, or damaged tablets indicate improper storage",
+			"Moisture exposure or humidity damage"
+		]
+	},
+	"references": [
+		{
+			"title": "ATTAIN-1 Phase 3 Trial (Obesity)",
+			"year": "2025",
+			"keyFindings": "3,127 adults; 72 weeks. 36mg dose achieved 12.4% weight loss (27.3 lbs) versus 2.1% placebo. First oral small-molecule GLP-1 completing Phase 3."
+		},
+		{
+			"title": "ATTAIN-2 Phase 3 Trial (Obesity + Type 2 Diabetes)",
+			"year": "2025",
+			"keyFindings": "1,613 adults; 72 weeks. 36mg dose achieved 10.5% weight loss with 72.8% achieving ≥5% weight loss."
+		},
+		{
+			"title": "ACHIEVE-1 Phase 3 Trial (Type 2 Diabetes)",
+			"year": "2025",
+			"keyFindings": "559 adults; 40 weeks. All doses significantly reduced HbA1c by 1.3-1.6%; 76.2% achieved HbA1c <7%."
+		},
+		{
+			"title": "Phase 2 Obesity Study",
+			"year": "2023",
+			"keyFindings": "272 adults; 36 weeks. Achieved up to 14.7% mean weight reduction at 36 weeks with 45mg dose."
+		}
+	],
+	"categories": ["weight-loss", "metabolic"],
+	"quickStats": {
+		"typicalDose": "Start 3-6mg daily, titrate up to 12-36mg based on response",
+		"frequency": "Once daily oral tablet",
+		"cycleDuration": "Long-term continuous therapy (72+ weeks in trials)",
+		"storage": "Room temperature 15-30°C; no refrigeration needed"
+	}
+}

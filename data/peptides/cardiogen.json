@@ -1,0 +1,199 @@
+{
+	"id": "cardiogen",
+	"name": "Cardiogen",
+	"subtitle": "AEDR | Cardiovascular Bioregulator Peptide",
+	"aliases": ["AEDR", "Cardiac Bioregulator", "Chelohart"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "460 Da",
+		"length": "4 amino acids",
+		"type": "Tetrapeptide bioregulator",
+		"sequence": "Ala-Glu-Asp-Arg",
+		"halfLife": "Minutes (short peptide); effects persist via epigenetic changes"
+	},
+	"overview": "Cardiogen is a Khavinson bioregulator peptide consisting of four amino acids, derived from heart tissue research. Unlike larger peptides that work on cell surfaces, Cardiogen penetrates directly to the cell nucleus where it binds to specific DNA regions to regulate gene expression. This epigenetic mechanism supports tissue repair and improves cardiovascular function, particularly benefiting the heart and blood vessels.",
+	"mechanism": "Cardiogen works through epigenetic regulation by penetrating cell nuclei and interacting with specific DNA regions, histones, and nucleosomes. It regulates which genes are activated or suppressed without changing DNA sequence. This mechanism supports cardiac tissue repair, enhances myocardial function, and improves cardiovascular tissue regeneration by influencing gene expression in heart cells.",
+	"keyBenefits": [
+		"Supports cardiac tissue repair and regeneration",
+		"Regulates cardiovascular gene expression",
+		"Improves myocardial function",
+		"May support post-cardiac event recovery",
+		"Epigenetic mechanism for targeted action",
+		"Works at DNA/nuclear level",
+		"Part of comprehensive anti-aging protocols",
+		"Well-researched Khavinson peptide"
+	],
+	"indications": [
+		{
+			"category": "Cardiovascular Support",
+			"items": [
+				{
+					"name": "Cardiac Tissue Repair",
+					"description": "Supports heart tissue repair through gene expression regulation at the nuclear level.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Myocardial Function",
+					"description": "May improve overall myocardial function and cardiac performance.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cardiovascular Aging",
+					"description": "Addresses age-related cardiovascular decline through bioregulation.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Epigenetic Regulation",
+					"description": "Influences gene expression to support tissue repair without altering DNA sequence.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Tissue Regeneration",
+					"description": "Promotes cardiac tissue regeneration at the cellular level.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. Short peptides can be absorbed orally and reach target tissues. Typical protocol involves 10-20 day cycles, often repeated 2-3 times per year.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Short peptide allows GI absorption",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration, bypassing GI tract.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Vesugen",
+			"status": "synergistic",
+			"notes": "Complementary cardiovascular bioregulators - Cardiogen for heart, Vesugen for vessels."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "Thymalin",
+			"status": "compatible",
+			"notes": "Different organ targets; can be used in comprehensive bioregulator protocols."
+		},
+		{
+			"peptide": "Pinealon",
+			"status": "compatible",
+			"notes": "Part of Khavinson bioregulator family; targets different tissue."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Gene expression modulation begins"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Months",
+			"effects": "Cardiovascular function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual cardiac symptoms"],
+		"contraindications": [
+			"Active cardiac emergencies (seek medical care)",
+			"Known hypersensitivity",
+			"Pregnancy or breastfeeding"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Peptide Regulation of Gene Expression: A Systematic Review",
+			"journal": "Molecules (MDPI)",
+			"year": "2021",
+			"keyFindings": "Short peptides can penetrate nuclei, interact with DNA and histones to regulate gene expression."
+		},
+		{
+			"title": "Cardiogen Bioregulator Research",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2015",
+			"keyFindings": "Demonstrated effects on cardiac tissue through gene expression modulation."
+		},
+		{
+			"title": "Khavinson Peptide Bioregulators Overview",
+			"journal": "Advances in Gerontology",
+			"year": "2020",
+			"keyFindings": "Comprehensive review of bioregulator peptides and their epigenetic mechanisms."
+		}
+	],
+	"categories": ["longevity", "healing"],
+	"quickStats": {
+		"typicalDose": "10-20 mg daily",
+		"frequency": "Once daily for 10-20 consecutive days",
+		"cycleDuration": "10-20 days per cycle",
+		"storage": "Capsules: room temperature; Injectable lyophilized: 2-8°C; Reconstituted: 2-8°C refrigerated"
+	}
+}

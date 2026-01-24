@@ -1,0 +1,307 @@
+{
+	"id": "ss-31",
+	"name": "SS-31",
+	"subtitle": "Mitochondrial-Targeted Peptide | Cardiolipin Protector",
+	"aliases": ["Elamipretide", "Bendavia"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"type": "Aromatic-cationic tetrapeptide",
+		"modifications": ["Selectively binds cardiolipin in inner mitochondrial membrane"],
+		"halfLife": "~2 hours",
+		"halfLifeSeconds": 7200
+	},
+	"overview": "SS-31 (Elamipretide) is an aromatic-cationic tetrapeptide that selectively binds to cardiolipin in the inner mitochondrial membrane, preventing lipid peroxidation and optimizing electron transport chain function for enhanced cellular energy production.",
+	"mechanism": "Selectively binds to cardiolipin in inner mitochondrial membrane, preventing lipid peroxidation and optimizing electron transport chain function. This improves ATP production and reduces oxidative damage at the mitochondrial level.",
+	"keyBenefits": [
+		"Directly protects mitochondria",
+		"Improves cellular energy production (ATP)",
+		"Reduces oxidative damage",
+		"Enhances exercise capacity",
+		"Excellent safety profile in clinical trials",
+		"Cardioprotective effects"
+	],
+	"indications": [
+		{
+			"category": "Mitochondrial",
+			"items": [
+				{
+					"name": "Enhanced ATP Production",
+					"description": "Optimizes electron transport chain function for improved cellular energy.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Oxidative Stress Reduction",
+					"description": "Prevents cardiolipin peroxidation and reduces mitochondrial oxidative damage.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Mitochondrial Disease Support",
+					"description": "Significant improvements in 6-minute walk test and fatigue scores in PMM patients.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cardiovascular",
+			"items": [
+				{
+					"name": "Cardiac Protection",
+					"description": "Reduces cardiac injury markers and improves mitochondrial function in surgical patients.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Heart Failure Support",
+					"description": "Reduces ischemia-reperfusion injury and supports cardiac function.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Exercise Tolerance",
+					"description": "Enhanced exercise capacity and reduced fatigue.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Age-Related Muscle Function",
+					"description": "Reversed age-related decline in muscle function in animal studies.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cognitive Protection",
+					"description": "Neuroprotective effects demonstrated in Alzheimer's models.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cellular Rejuvenation",
+					"description": "Supports overall cellular health through mitochondrial optimization.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous or intravenous injection. SS-31 dissolves readily and should be protected from light due to photosensitivity.",
+			"protocols": [
+				{
+					"goal": "General mitochondrial support",
+					"dose": "5-10mg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Athletic performance",
+					"dose": "10-20mg",
+					"frequency": "Once daily pre-workout",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Clinical protocols",
+					"dose": "40mg",
+					"frequency": "Once daily",
+					"route": "SubQ or IV"
+				},
+				{
+					"goal": "Acute cardioprotection",
+					"dose": "0.25mg/kg/hr",
+					"frequency": "Continuous infusion",
+					"route": "IV"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"SS-31 peptide vial",
+					"Bacteriostatic water or saline",
+					"Insulin syringes (for SubQ)",
+					"Alcohol prep pads",
+					"Sterile filter (optional for IV)",
+					"Amber vials (light protection)"
+				],
+				"steps": [
+					"Clean vial with alcohol pad",
+					"Add 1-2mL bacteriostatic water per 10mg peptide",
+					"Gently swirl to dissolve (dissolves readily)",
+					"Verify clear, colorless solution",
+					"Optional: sterile filtration for IV use",
+					"Label with concentration and date",
+					"Store immediately at 2-8°C",
+					"Protect from light - use amber vials if available"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen, thigh injection sites (SubQ)",
+				"Protect from light exposure",
+				"Use within 30 days"
+			]
+		},
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Topical cream/gel formulation available with limited research data. Used primarily for anti-aging skin applications.",
+			"protocols": [
+				{
+					"goal": "Skin anti-aging",
+					"dose": "0.5-1% cream/gel",
+					"frequency": "Twice daily",
+					"route": "Face, neck, hands"
+				}
+			],
+			"keyBenefits": [
+				"Non-invasive",
+				"Room temperature storage",
+				"4-8 weeks for visible improvements"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "NAD+",
+			"status": "synergistic",
+			"notes": "Both support mitochondrial function through different mechanisms."
+		},
+		{
+			"peptide": "MOTS-c",
+			"status": "synergistic",
+			"notes": "Both are mitochondrial peptides with complementary mechanisms."
+		},
+		{
+			"peptide": "Humanin",
+			"status": "synergistic",
+			"notes": "May work together to protect cellular function."
+		},
+		{
+			"peptide": "GHK-Cu",
+			"status": "compatible",
+			"notes": "Different mechanisms; no conflicts."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "BPC-157 focuses on tissue repair while SS-31 targets cellular energetics."
+		},
+		{
+			"peptide": "Thymosin Beta-4",
+			"status": "compatible",
+			"notes": "Both cardioprotective via different pathways."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Subtle energy improvements, reduced fatigue"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Better exercise endurance, faster recovery"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Improved stamina, clearer thinking, better sleep"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Significant exercise capacity improvements"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Sustained energy, potential biomarker changes"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Excellent safety profile in clinical trials",
+			"No significant side effects reported at therapeutic doses",
+			"Mild injection site reactions possible",
+			"Safe for long-term use based on current data"
+		],
+		"stopSigns": [
+			"Severe injection site reactions",
+			"Allergic reaction signs (rash, breathing difficulty)",
+			"Unusual fatigue or weakness (paradoxical reaction)",
+			"Cardiovascular symptoms",
+			"Severe headaches or vision changes"
+		],
+		"contraindications": [
+			"Known hypersensitivity to peptides",
+			"Pregnancy or breastfeeding (limited data)"
+		],
+		"monitoring": [
+			"Injection site reactions",
+			"Energy levels and fatigue",
+			"Exercise tolerance",
+			"No known drug interactions"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical grade (>98% purity required for clinical applications)",
+			"Clear, colorless solution after reconstitution",
+			"Certificate of Analysis available",
+			"Proper cold chain maintenance"
+		],
+		"warning": [
+			"Light sensitive - protect from exposure using amber vials",
+			"Solution pH should be 6.5-7.5 (physiological range)"
+		],
+		"bad": [
+			"Yellow or brown discoloration indicates degradation",
+			"Cloudy solution or visible particles",
+			"Improper storage conditions"
+		]
+	},
+	"references": [
+		{
+			"title": "Primary Mitochondrial Myopathy Phase 2 Trial",
+			"year": "2018",
+			"keyFindings": "40mg daily for 12 weeks in 36 patients showed significant improvements in 6-minute walk test and fatigue scores with excellent safety profile."
+		},
+		{
+			"title": "Cardioprotection in Heart Failure Study",
+			"year": "2019",
+			"keyFindings": "0.25mg/kg/hr infusion during cardiac surgery reduced cardiac injury markers and improved mitochondrial function."
+		},
+		{
+			"title": "Age-Related Muscle Dysfunction Study",
+			"year": "2020",
+			"keyFindings": "8 weeks in aged mice reversed age-related decline in muscle function, increased ATP production, and reduced oxidative stress."
+		},
+		{
+			"title": "Barth Syndrome Clinical Trial",
+			"year": "2021",
+			"keyFindings": "Phase 3 trial with 40mg daily for 48 weeks showed trends toward cardiac improvement in this rare mitochondrial disorder."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "COVID-19 Cardiac Injury Protection",
+			"date": "February 2024",
+			"source": "Journal of Cardiac Failure",
+			"summary": "Potential cardioprotective effects in COVID-related cardiac injury."
+		},
+		{
+			"title": "Neuroprotective Effects in Alzheimer's",
+			"date": "January 2024",
+			"source": "Neurobiology of Aging",
+			"summary": "Demonstrated neuroprotective effects in Alzheimer's disease models."
+		},
+		{
+			"title": "Kidney Protection in Acute Injury",
+			"date": "December 2023",
+			"source": "Kidney International",
+			"summary": "Renal protective effects in acute kidney injury models."
+		}
+	],
+	"categories": ["longevity", "metabolic"],
+	"quickStats": {
+		"typicalDose": "5-10mg general support, 10-40mg clinical/performance protocols",
+		"frequency": "Once daily (morning or pre-workout for athletic use)",
+		"cycleDuration": "4-12 weeks for therapeutic protocols",
+		"storage": "Reconstituted: 2-8°C in amber/dark vials, use within 30 days. Light sensitive"
+	}
+}

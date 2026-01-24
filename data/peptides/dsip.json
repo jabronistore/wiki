@@ -1,0 +1,335 @@
+{
+	"id": "dsip",
+	"name": "DSIP",
+	"subtitle": "Delta Sleep-Inducing Peptide | Sleep & Stress Modulator",
+	"aliases": ["Delta Sleep-Inducing Peptide"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "100-300mcg",
+		"frequency": "1x daily",
+		"cycleDuration": "5-10 days",
+		"storage": "2-8°C refrigerated"
+	},
+	"molecular": {
+		"weight": "848.81 Da",
+		"length": "9 amino acids",
+		"type": "Nonapeptide",
+		"sequence": "Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu",
+		"modifications": ["Naturally occurring sleep-promoting neuropeptide discovered 1974"],
+		"halfLife": "~15 minutes (in vitro)",
+		"halfLifeSeconds": 900
+	},
+	"overview": "DSIP is a naturally occurring nonapeptide discovered in 1974 in rabbit brain. Originally isolated for sleep-promoting properties, it has diverse neuromodulatory effects including stress reduction, pain modulation, and endocrine regulation without traditional sedative effects.",
+	"mechanism": "Modulates multiple neurotransmitter systems including GABA enhancement, NMDA receptor interaction, and endogenous opioid system modulation. Also regulates hypothalamic-pituitary-adrenal axis for stress response.",
+	"keyBenefits": [
+		"Enhanced sleep quality through slow-wave sleep promotion",
+		"Stress reduction via cortisol modulation",
+		"Potential pain relief",
+		"Mood stabilization without traditional sedative effects",
+		"No tolerance or dependence reported",
+		"Short cycle duration (5-10 days)"
+	],
+	"indications": [
+		{
+			"category": "Sleep",
+			"items": [
+				{
+					"name": "Deep Sleep Enhancement",
+					"description": "Promotes delta wave sleep, the most restorative sleep phase for physical recovery.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sleep Efficiency",
+					"description": "Reduces sleep latency and nocturnal awakenings without morning grogginess.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Natural Sleep Architecture",
+					"description": "Supports natural sleep cycles rather than forcing sedation like traditional sleep aids.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Mood",
+			"items": [
+				{
+					"name": "Stress Response Modulation",
+					"description": "Helps regulate cortisol and stress response through HPA axis modulation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Mood Stabilization",
+					"description": "Supports emotional balance without sedation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Anxiety Reduction",
+					"description": "May help reduce anxiety through neuromodulatory effects.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Pain & Recovery",
+			"items": [
+				{
+					"name": "Pain Modulation",
+					"description": "Significantly reduced pain levels in 6 of 7 patients with chronic pain conditions.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Withdrawal Support",
+					"description": "Helps manage withdrawal symptoms in alcohol and opioid-dependent patients.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Athletic Recovery",
+					"description": "Supports post-training recovery through enhanced sleep quality.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the standard route. Best taken 30-60 minutes before bedtime. Some prefer earlier evening dosing for gradual onset.",
+			"protocols": [
+				{
+					"goal": "Sleep enhancement",
+					"dose": "100-200mcg",
+					"frequency": "Once nightly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Chronic pain support",
+					"dose": "250-300mcg",
+					"frequency": "Daily",
+					"route": "SubQ or IV"
+				},
+				{
+					"goal": "Stress management",
+					"dose": "150mcg",
+					"frequency": "Evening",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Withdrawal support",
+					"dose": "200-300mcg",
+					"frequency": "Twice daily",
+					"route": "IV preferred"
+				},
+				{
+					"goal": "Athletic recovery",
+					"dose": "100-150mcg",
+					"frequency": "Post-training",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"DSIP peptide vial (1-5mg typical)",
+					"Bacteriostatic water (1-2mL)",
+					"Insulin syringes (0.3-0.5mL)",
+					"Alcohol swabs",
+					"Sterile needle for mixing"
+				],
+				"steps": [
+					"Clean vial tops with alcohol swab and let dry completely",
+					"For 1mg vial, add 1mL bacteriostatic water (creates 1000mcg/mL)",
+					"Inject water slowly down vial side to prevent foaming",
+					"Gently roll between palms - do not shake",
+					"Solution should be clear and colorless",
+					"For 100mcg dose, draw 0.1mL (10 units on insulin syringe)",
+					"Store reconstituted peptide in refrigerator immediately"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen, thigh, upper arm injection sites",
+				"Take 30-60 minutes before bedtime",
+				"Use within 14 days of reconstitution"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal spray offers convenient administration with limited stability data.",
+			"protocols": [
+				{
+					"goal": "Sleep induction",
+					"dose": "200-300mcg",
+					"frequency": "Once at bedtime",
+					"route": "Nasal spray"
+				},
+				{
+					"goal": "Stress relief",
+					"dose": "150-200mcg",
+					"frequency": "Twice daily",
+					"route": "Nasal spray"
+				},
+				{
+					"goal": "Neuroprotection",
+					"dose": "300-400mcg",
+					"frequency": "Daily",
+					"route": "Nasal spray"
+				}
+			],
+			"reconstitution": {
+				"steps": [
+					"Reconstitute DSIP to 2mg/mL concentration",
+					"Transfer to sterile nasal spray bottle",
+					"Prime pump to ensure consistent delivery",
+					"Each spray should deliver ~100mcg (0.05mL)",
+					"Test spray volume before use",
+					"Label with concentration and date",
+					"Use within 10 days"
+				]
+			},
+			"keyBenefits": ["Non-invasive", "Convenient", "Limited stability - use within 10 days"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Melatonin",
+			"status": "synergistic",
+			"notes": "Both regulate sleep-wake cycles; complementary benefits."
+		},
+		{
+			"peptide": "GABA Agonists",
+			"status": "monitor",
+			"notes": "DSIP enhances GABA - watch for excessive sedation."
+		},
+		{
+			"peptide": "Cortisol Modulators",
+			"status": "compatible",
+			"notes": "Can combine for comprehensive stress management."
+		},
+		{
+			"peptide": "Selank",
+			"status": "synergistic",
+			"notes": "Complementary anxiolytic effects."
+		},
+		{
+			"peptide": "Semax",
+			"status": "compatible",
+			"notes": "Different mechanisms; can optimize 24-hour function."
+		},
+		{
+			"peptide": "Opioid Medications",
+			"status": "monitor",
+			"notes": "May modulate opioid receptors; requires professional supervision."
+		},
+		{
+			"peptide": "Growth Hormone Peptides",
+			"status": "compatible",
+			"notes": "No direct interaction; DSIP may support natural GH release during sleep."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Both support circadian regulation and sleep quality."
+		}
+	],
+	"timeline": [
+		{
+			"period": "First Dose",
+			"effects": "Noticeable sleep pressure and easier sleep onset"
+		},
+		{
+			"period": "Night 1-3",
+			"effects": "Deeper sleep, fewer awakenings, vivid dreams possible"
+		},
+		{
+			"period": "Day 2-5",
+			"effects": "Improved morning refreshment, stable daytime energy"
+		},
+		{
+			"period": "Day 5-10",
+			"effects": "Cumulative stress reduction, mood improvements"
+		},
+		{
+			"period": "Post-Cycle",
+			"effects": "Benefits may persist 1-2 weeks after stopping"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well-tolerated with minimal side effects",
+			"Mild drowsiness or dizziness initially (some users)",
+			"Occasional headaches in sensitive individuals",
+			"No tolerance or dependence reported in studies"
+		],
+		"stopSigns": [
+			"Excessive daytime sedation",
+			"Paradoxical insomnia or agitation",
+			"Persistent headaches",
+			"Any allergic reactions",
+			"Mood changes or depression",
+			"Unusual dreams causing distress"
+		],
+		"contraindications": ["Avoid driving until effects are known", "Pregnancy or breastfeeding"],
+		"monitoring": [
+			"Monitor initial dose tolerance",
+			"Track sleep quality improvements",
+			"Watch for mood stability changes"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder before reconstitution",
+			"Clear and colorless solution when properly mixed",
+			"Reputable source with third-party testing"
+		],
+		"warning": [
+			"Short stability period - use within 14 days when reconstituted",
+			"Protect from light exposure and temperature fluctuations",
+			"Limited nasal formulation stability (use within 10 days)"
+		],
+		"bad": ["Yellow or cloudy solution indicates degradation or contamination", "Discolored powder"]
+	},
+	"references": [
+		{
+			"title": "Chronic Insomnia Double-Blind Study",
+			"year": "1991",
+			"keyFindings": "15-30 nmol for 6 consecutive nights improved objective sleep quality with higher sleep efficiency and shorter sleep latency compared to placebo."
+		},
+		{
+			"title": "Chronic Pain Pilot Study",
+			"year": "1984",
+			"keyFindings": "25 nmol IV for 10 days significantly reduced pain levels in 6 of 7 patients with chronic pain conditions including migraine and tinnitus."
+		},
+		{
+			"title": "Alcohol and Opioid Withdrawal Study",
+			"year": "1984",
+			"keyFindings": "DSIP administration helped manage withdrawal symptoms in both alcohol and opioid-dependent patients over 5-10 days."
+		},
+		{
+			"title": "Sleep Pressure Induction Study",
+			"year": "1983",
+			"keyFindings": "Single 25 nmol/kg IV dose showed 59% increase in total sleep time within 130 minutes; improved subsequent night sleep efficiency."
+		},
+		{
+			"title": "Stroke Recovery in Rats",
+			"year": "2021",
+			"keyFindings": "120mcg/kg nasal for 7 days enhanced motor recovery without significantly reducing infarct size."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "40-Year Stress-Protective Effects Review",
+			"date": "2024",
+			"source": "Neuropeptide Research",
+			"summary": "Comprehensive review of DSIP's stress-protective mechanisms over four decades of research."
+		},
+		{
+			"title": "Intranasal Delivery and Bioavailability",
+			"date": "2024",
+			"source": "Drug Delivery Research",
+			"summary": "Enhanced intranasal delivery methods for improved bioavailability."
+		}
+	],
+	"categories": ["sleep", "cognitive"]
+}

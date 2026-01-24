@@ -1,0 +1,233 @@
+{
+	"id": "thymulin",
+	"name": "Thymulin",
+	"subtitle": "FTS | Zinc-Dependent Thymic Nonapeptide",
+	"aliases": ["Facteur Thymique Sérique", "FTS", "Serum Thymic Factor", "Zinc-Thymulin", "Zn-FTS"],
+	"categories": ["immune", "longevity"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "857 Da (peptide), 921 Da (with zinc)",
+		"length": "9 amino acids",
+		"type": "Thymic nonapeptide hormone",
+		"sequence": "pGlu-Ala-Lys-Ser-Gln-Gly-Gly-Ser-Asn (pyro-Glu N-terminus)",
+		"modifications": ["Requires zinc (Zn2+) for biological activity"],
+		"halfLife": "~10 minutes (free form); extended with nanoparticle formulations",
+		"halfLifeSeconds": 600
+	},
+	"overview": "Thymulin is a nonapeptide hormone exclusively secreted by thymic epithelial cells, discovered by Jean-François Bach in the 1970s. Unlike thymalin (a peptide extract mixture), thymulin is a single, defined 9-amino-acid peptide that requires zinc binding for biological activity. It plays a crucial role in T-cell differentiation and maturation within the thymus. Serum thymulin levels decline significantly with age and zinc deficiency, contributing to age-related immune decline (immunosenescence). Research has explored thymulin's potential in restoring immune function, managing autoimmune conditions, and as an anti-inflammatory agent.",
+	"mechanism": "Thymulin exerts its effects through binding to high-affinity receptors on T-lymphocytes and other immune cells. The zinc-thymulin complex is the biologically active form - without zinc, the peptide has no immunological activity. Thymulin promotes: (1) differentiation of immature T-cells into mature T-cell subsets, (2) modulation of cytokine release including IL-2 and interferon-gamma, (3) regulation of T-helper and T-suppressor cell balance, (4) enhancement of NK cell activity, and (5) anti-inflammatory effects through suppression of pro-inflammatory mediators. It also has neuroendocrine effects, influencing the hypothalamic-pituitary-adrenal axis.",
+	"keyBenefits": [
+		"Essential for T-cell maturation and differentiation",
+		"Modulates immune responses (immunomodulatory)",
+		"Anti-inflammatory properties",
+		"Declines with age - restoration may combat immunosenescence",
+		"Well-defined single peptide (unlike extracts)",
+		"Studied in autoimmune disease research",
+		"Neuroendocrine regulatory effects",
+		"Zinc-dependent activity allows for regulation"
+	],
+	"indications": [
+		{
+			"category": "Immune System Research",
+			"items": [
+				{
+					"name": "Immunosenescence",
+					"description": "Age-related decline in thymulin correlates with reduced immune function; supplementation may restore T-cell parameters.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "T-Cell Deficiency",
+					"description": "Promotes differentiation and maturation of T-lymphocytes in thymus.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Zinc Deficiency States",
+					"description": "Thymulin activity depends on zinc; studied in zinc-depleted conditions.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Inflammatory & Autoimmune Research",
+			"items": [
+				{
+					"name": "Anti-Inflammatory Effects",
+					"description": "Research shows thymulin suppresses pro-inflammatory cytokines and mediators.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Autoimmune Conditions",
+					"description": "Investigated for potential to restore immune balance in autoimmune states.",
+					"effectiveness": "emerging"
+				},
+				{
+					"name": "Type 1 Diabetes Research",
+					"description": "Studied for effects on pancreatic beta cells and immune modulation in diabetes models.",
+					"effectiveness": "emerging"
+				}
+			]
+		},
+		{
+			"category": "Neuroendocrine Research",
+			"items": [
+				{
+					"name": "HPA Axis Modulation",
+					"description": "Thymulin influences hypothalamic-pituitary-adrenal axis function.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Neuroprotection",
+					"description": "Some research suggests protective effects on neural tissue.",
+					"effectiveness": "emerging"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Thymulin is typically administered via subcutaneous or intraperitoneal injection in research settings. As a small peptide, it can also be explored via intranasal delivery for CNS effects. Zinc status should be adequate for biological activity.",
+			"protocols": [
+				{
+					"goal": "Research protocol (immune)",
+					"dose": "1-10 mcg",
+					"frequency": "Daily",
+					"route": "SubQ",
+					"notes": "Ensure adequate zinc status"
+				},
+				{
+					"goal": "Intranasal (experimental)",
+					"dose": "Variable",
+					"frequency": "As studied",
+					"route": "Intranasal",
+					"notes": "For CNS/neuroendocrine effects"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Ensure adequate zinc supplementation for activity",
+					"Reconstitute with bacteriostatic water",
+					"Inject water slowly down vial wall",
+					"Gently swirl until dissolved",
+					"Store refrigerated at 2-8°C",
+					"Use within 4 weeks of reconstitution"
+				]
+			},
+			"keyBenefits": [
+				"Small peptide size allows multiple delivery routes",
+				"Well-characterized structure",
+				"Activity can be modulated via zinc status"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Zinc supplementation",
+			"status": "synergistic",
+			"notes": "Essential - thymulin requires zinc for biological activity. Ensure adequate zinc status."
+		},
+		{
+			"peptide": "Thymosin Alpha-1",
+			"status": "compatible",
+			"notes": "Different thymic peptides with complementary mechanisms."
+		},
+		{
+			"peptide": "Thymalin",
+			"status": "compatible",
+			"notes": "Thymalin is a peptide mixture while thymulin is a single defined peptide; can complement each other."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "compatible",
+			"notes": "Different mechanisms; no known negative interactions."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms; no known interactions."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Hours",
+			"effects": "Receptor binding and initial cellular signaling"
+		},
+		{
+			"period": "Days 1-7",
+			"effects": "Immune cell modulation begins; cytokine profile changes"
+		},
+		{
+			"period": "Weeks 2-4",
+			"effects": "T-cell differentiation effects; measurable immune parameters"
+		},
+		{
+			"period": "Months",
+			"effects": "Long-term immune restoration in research models"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated in research", "Injection site reactions (mild)"],
+		"rare": ["Allergic reactions", "Immune modulation effects"],
+		"stopSigns": ["Signs of allergic reaction", "Unexpected immune changes"],
+		"contraindications": [
+			"Autoimmune diseases (use with medical supervision)",
+			"Organ transplant recipients on immunosuppression",
+			"Pregnancy or breastfeeding",
+			"Known hypersensitivity to thymic peptides"
+		],
+		"monitoring": [
+			"Zinc status should be adequate",
+			"Immune function panels if available",
+			"T-cell subsets if monitoring research outcomes"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder",
+			"Clear solution after reconstitution",
+			"Intact vacuum seal",
+			"Certificate of analysis with sequence verification"
+		],
+		"warning": ["Slight clumping that dissolves easily"],
+		"bad": [
+			"Discolored powder",
+			"Cloudy solution after reconstitution",
+			"Particulates present",
+			"Broken seal"
+		]
+	},
+	"references": [
+		{
+			"title": "Thymulin (FTS) - A Thymic Hormone",
+			"authors": "Bach JF, Dardenne M",
+			"journal": "Clinics in Immunology and Immunopathology",
+			"year": "1989",
+			"keyFindings": "Comprehensive review of thymulin discovery, structure, and immunological functions."
+		},
+		{
+			"title": "The neuroendocrine role of thymulin",
+			"journal": "Journal of Neuroimmunology",
+			"year": "2000",
+			"keyFindings": "Thymulin modulates hypothalamic-pituitary-adrenal axis and has neuroendocrine effects beyond immunity."
+		},
+		{
+			"title": "Zinc and thymulin",
+			"journal": "Advances in Experimental Medicine and Biology",
+			"keyFindings": "Zinc is essential for thymulin biological activity; zinc deficiency causes functional thymulin deficiency."
+		},
+		{
+			"title": "Thymulin and aging",
+			"journal": "Mechanisms of Ageing and Development",
+			"keyFindings": "Serum thymulin levels decline dramatically with age, correlating with immunosenescence and increased infection susceptibility."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "1-10mcg per injection (research protocols)",
+		"frequency": "Daily during research protocols",
+		"cycleDuration": "Varies by research protocol",
+		"storage": "Reconstituted: 2-8°C, use within 4 weeks"
+	}
+}

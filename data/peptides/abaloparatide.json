@@ -1,0 +1,237 @@
+{
+	"id": "abaloparatide",
+	"name": "Abaloparatide",
+	"subtitle": "PTHrP Analog | Anabolic Bone-Building Agent",
+	"aliases": ["Tymlos", "Eladynos", "BA058", "BIM-44058", "PTHrP(1-34) analog"],
+	"categories": ["healing"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "3,960 Da",
+		"length": "34 amino acids",
+		"type": "Synthetic PTHrP analog",
+		"sequence": "C174H299N56O49 - 41% homology to PTH(1-34), 76% homology to PTHrP(1-34)",
+		"halfLife": "~1.7 hours",
+		"halfLifeSeconds": 6120
+	},
+	"overview": "Abaloparatide is an FDA-approved anabolic bone-building agent and synthetic analog of parathyroid hormone-related protein (PTHrP). It selectively activates the PTH1 receptor to stimulate new bone formation while minimizing bone resorption. In the phase III ACTIVE trial, abaloparatide showed superior BMD increases at the hip compared to teriparatide, with substantial fracture risk reduction. It was approved in the US in 2017 and EU in 2022 for postmenopausal women and men with osteoporosis at high fracture risk.",
+	"mechanism": "Abaloparatide works through selective activation of the parathyroid hormone 1 receptor (PTH1R), a G protein-coupled receptor expressed on osteoblasts and osteocytes. It preferentially binds to the RG (relaxed, G-protein-coupled) conformational state of PTH1R, which elicits a transient downstream cyclic AMP signaling response favoring anabolic bone formation over resorption. This selective binding pattern produces more bone-building activity with less hypercalcemic effect compared to native PTH. The result is increased cortical and trabecular bone volume, density, and improved microarchitecture.",
+	"keyBenefits": [
+		"FDA-approved for osteoporosis treatment",
+		"Actively builds new bone (anabolic mechanism)",
+		"Superior hip BMD gains vs teriparatide in trials",
+		"Reduces vertebral fracture risk significantly",
+		"Reduces nonvertebral fracture risk",
+		"Lower hypercalcemia risk than teriparatide",
+		"Works through selective PTH1R activation",
+		"Benefits seen within 6 months"
+	],
+	"indications": [
+		{
+			"category": "Osteoporosis (FDA-Approved)",
+			"items": [
+				{
+					"name": "Postmenopausal Osteoporosis",
+					"description": "FDA-approved for postmenopausal women with osteoporosis at high risk for fracture or who have failed other therapies.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Male Osteoporosis",
+					"description": "FDA-approved for men with osteoporosis at high risk for fracture or intolerant to other treatments.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Bone Health Research",
+			"items": [
+				{
+					"name": "Fracture Prevention",
+					"description": "Phase III trials demonstrated substantial reduction in vertebral and nonvertebral fractures.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sequential Therapy",
+					"description": "ACTIVExtend trial showed benefits of abaloparatide followed by alendronate for maintained bone protection.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Abaloparatide is administered as a once-daily subcutaneous injection in the periumbilical (around the navel) region of the abdomen. It comes in pre-filled pen devices (Tymlos). Cumulative lifetime use is limited to 2 years due to theoretical osteosarcoma risk observed in rodent studies. A transdermal patch formulation is also in development.",
+			"protocols": [
+				{
+					"goal": "Osteoporosis treatment",
+					"dose": "80 mcg",
+					"frequency": "Once daily",
+					"route": "SubQ (periumbilical abdomen)"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Pre-filled pen device (Tymlos)", "Pen needles", "Alcohol swabs"],
+				"steps": [
+					"Store pen refrigerated at 2-8°C (do not freeze)",
+					"Allow to reach room temperature before injection",
+					"Attach new needle for each injection",
+					"Inject subcutaneously in periumbilical region",
+					"Rotate injection sites",
+					"Discard pen after 30 days even if medication remains"
+				]
+			},
+			"keyBenefits": [
+				"Convenient pre-filled pen device",
+				"Simple once-daily dosing",
+				"Well-established protocol",
+				"Transdermal patch in development"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Bisphosphonates (Alendronate)",
+			"status": "synergistic",
+			"notes": "ACTIVExtend trial showed sequential abaloparatide then alendronate maintained and extended bone benefits."
+		},
+		{
+			"peptide": "Calcium/Vitamin D",
+			"status": "synergistic",
+			"notes": "Adequate calcium (500-1000mg) and vitamin D (400-800 IU) supplementation recommended during therapy."
+		},
+		{
+			"peptide": "Teriparatide",
+			"status": "avoid",
+			"notes": "Do not use concurrently; both are PTH receptor agonists. Choose one or use sequentially."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms; no known interactions."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "compatible",
+			"notes": "Different mechanisms; no known interactions."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Month 1-3",
+			"effects": "Bone formation markers increase; initial BMD changes begin"
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Significant BMD increases at spine, hip, and femur"
+		},
+		{
+			"period": "Month 6-12",
+			"effects": "Continued bone density improvements; fracture risk reduction"
+		},
+		{
+			"period": "Month 12-18",
+			"effects": "Maximum benefits in ACTIVE trial; substantial fracture reduction"
+		},
+		{
+			"period": "Month 18-24",
+			"effects": "Transition to maintenance therapy (e.g., bisphosphonates) recommended"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Hypercalciuria (high calcium in urine)",
+			"Dizziness",
+			"Nausea",
+			"Headache",
+			"Palpitations",
+			"Fatigue",
+			"Upper abdominal pain",
+			"Vertigo",
+			"Injection site reactions"
+		],
+		"rare": [
+			"Hypercalcemia",
+			"Orthostatic hypotension",
+			"Osteosarcoma (theoretical - seen in rodent studies at high doses)"
+		],
+		"stopSigns": [
+			"Signs of hypercalcemia (confusion, fatigue, excessive thirst)",
+			"Persistent bone pain",
+			"Severe dizziness or fainting",
+			"Allergic reactions"
+		],
+		"contraindications": [
+			"Paget's disease of bone",
+			"Prior external beam or implant radiation therapy to skeleton",
+			"Bone metastases or history of skeletal malignancies",
+			"Metabolic bone diseases other than osteoporosis",
+			"Pre-existing hypercalcemia",
+			"Pregnancy or nursing",
+			"Cumulative use exceeding 2 years lifetime"
+		],
+		"monitoring": [
+			"Serum calcium levels",
+			"Urine calcium (hypercalciuria common)",
+			"Bone mineral density testing",
+			"Treatment limited to 2 years maximum lifetime",
+			"Follow with antiresorptive therapy to maintain gains"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, colorless solution",
+			"Pharmaceutical grade (Tymlos/Eladynos)",
+			"Proper cold chain maintained",
+			"Intact pen device",
+			"Within expiration date"
+		],
+		"warning": [
+			"Research-grade products lack FDA oversight",
+			"Temperature excursions may affect potency"
+		],
+		"bad": [
+			"Cloudy or discolored solution",
+			"Particulates visible",
+			"Exposed to freezing or high temperatures",
+			"Damaged pen device"
+		]
+	},
+	"references": [
+		{
+			"title": "Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis (ACTIVE Trial)",
+			"authors": "Miller PD, Hattersley G, Riis BJ, et al.",
+			"journal": "JAMA",
+			"year": "2016",
+			"keyFindings": "Abaloparatide showed substantial reduction in vertebral fractures and greater BMD increases at spine, hip, and femur compared to placebo and teriparatide."
+		},
+		{
+			"title": "ACTIVExtend Trial: Abaloparatide Followed by Alendronate",
+			"authors": "Cosman F, Miller PD, Williams GC, et al.",
+			"journal": "Mayo Clinic Proceedings",
+			"year": "2017",
+			"keyFindings": "18 months abaloparatide followed by alendronate significantly reduced vertebral and nonvertebral fractures."
+		},
+		{
+			"title": "Phase 2 Dose-finding Study of BA058 in Postmenopausal Women",
+			"authors": "Leder BZ, O'Dea LS, Zanchetta JR, et al.",
+			"journal": "Journal of Clinical Endocrinology and Metabolism",
+			"year": "2015",
+			"keyFindings": "Significant BMD increases at 40 and 80 mcg doses; abaloparatide showed superior anabolic effects on hips vs teriparatide."
+		},
+		{
+			"title": "Profile of Abaloparatide and Its Potential in Postmenopausal Osteoporosis",
+			"authors": "Tella SH, Kommalapati A, Correa R",
+			"journal": "Cureus",
+			"year": "2017",
+			"keyFindings": "Abaloparatide preferentially binds RG conformational state of PTH1R, producing more anabolic bone effects."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "80 mcg",
+		"frequency": "Once daily",
+		"cycleDuration": "Up to 2 years (lifetime maximum)",
+		"storage": "Refrigerate pre-filled pen at 2-8°C, do not freeze. Discard after 30 days even if medication remains"
+	}
+}

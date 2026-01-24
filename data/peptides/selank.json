@@ -1,0 +1,333 @@
+{
+	"id": "selank",
+	"name": "Selank",
+	"subtitle": "Anxiolytic & Nootropic Peptide | Tuftsin Analog",
+	"aliases": [],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "751.89 Da",
+		"length": "7 amino acids",
+		"type": "Tuftsin analog",
+		"sequence": "Thr-Lys-Pro-Arg-Pro-Gly-Pro",
+		"modifications": ["Synthetic analog of tuftsin with anxiolytic properties"],
+		"halfLife": "2-10 minutes",
+		"halfLifeSeconds": 360
+	},
+	"overview": "Selank is a synthetic heptapeptide analog of the naturally occurring immune peptide tuftsin, developed by the Russian Academy of Sciences. It provides anxiolytic effects comparable to benzodiazepines but without sedation, amnesia, tolerance, or withdrawal.",
+	"mechanism": "Works through allosteric modulation of GABA-A receptors, serotonin and dopamine system optimization, enkephalin degradation inhibition, IL-6 and cytokine balance regulation, and BDNF upregulation in the hippocampus.",
+	"keyBenefits": [
+		"Rapid onset anxiolytic effects",
+		"Enhanced BDNF expression (30% increase)",
+		"Improved stress resilience",
+		"Cognitive enhancement",
+		"Immune modulation",
+		"No tolerance or withdrawal",
+		"Neuroprotective effects"
+	],
+	"indications": [
+		{
+			"category": "Anxiety",
+			"items": [
+				{
+					"name": "Generalized Anxiety Disorder",
+					"description": "Clinical trials show significant reduction in anxiety symptoms comparable to benzodiazepines but without sedation or amnesia.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Post-Traumatic Stress Disorder",
+					"description": "Research indicates effectiveness in PTSD treatment.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Social Anxiety",
+					"description": "Reduces anticipatory anxiety and performance stress.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cognitive",
+			"items": [
+				{
+					"name": "Memory Enhancement",
+					"description": "Improves memory consolidation and learning capacity.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Attention and Focus",
+					"description": "Enhanced sustained attention during demanding cognitive tasks.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neuroprotection",
+					"description": "BDNF upregulation supports long-term brain health.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Immune",
+			"items": [
+				{
+					"name": "Immune Modulation",
+					"description": "Balances immune system function through cytokine regulation.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Antiviral Activity",
+					"description": "Shows activity against influenza, HSV, and cytomegalovirus.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Inflammation Regulation",
+					"description": "Modulates inflammatory gene expression.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the primary method with well-documented protocols. Provides reliable absorption and dosing.",
+			"protocols": [
+				{
+					"goal": "Mild anxiety relief",
+					"dose": "250mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Moderate anxiety/cognitive",
+					"dose": "250mcg",
+					"frequency": "2x daily (morning & evening)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Intensive anxiety support",
+					"dose": "500mcg",
+					"frequency": "1x daily (divided doses)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Cognitive enhancement",
+					"dose": "250-350mcg",
+					"frequency": "1x daily (morning)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "PTSD support",
+					"dose": "250mcg",
+					"frequency": "2x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Immune support",
+					"dose": "250mcg",
+					"frequency": "1x daily for 2-4 weeks",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Selank lyophilized powder vial",
+					"Bacteriostatic water",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol wipes",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Remove vial from refrigeration; allow 10-15 minutes to reach room temperature",
+					"Clean vial tops with alcohol wipes using circular motion; air dry",
+					"Calculate reconstitution volume for desired concentration",
+					"Draw bacteriostatic water into insulin syringe; remove air bubbles",
+					"Insert needle at 45-degree angle against glass wall",
+					"Slowly inject BAC water down vial side to minimize foaming",
+					"Remove needle and gently swirl vial (never shake vigorously)",
+					"Allow 1-2 minutes if cloudiness remains; swirl until clear",
+					"Verify final solution is clear and colorless",
+					"Label with reconstitution date and concentration",
+					"Refrigerate immediately; use within 30 days"
+				]
+			},
+			"keyBenefits": ["Reliable absorption", "Precise dosing", "Well-documented protocols"]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal spray provides fastest onset (15-30 minutes) and is non-invasive. Popular for as-needed anxiety relief.",
+			"protocols": [
+				{
+					"goal": "Acute anxiety relief",
+					"dose": "300-600mcg (1-2 sprays)",
+					"frequency": "Once daily or as-needed",
+					"route": "Nasal spray"
+				}
+			],
+			"keyBenefits": [
+				"Fastest onset (15-30 minutes)",
+				"Duration 4-6 hours",
+				"No injection required",
+				"Convenient for as-needed use"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semax",
+			"status": "synergistic",
+			"notes": "Enhanced cognitive and anxiolytic effects when combined."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Complementary stress response mechanisms."
+		},
+		{
+			"peptide": "Noopept",
+			"status": "compatible",
+			"notes": "Both enhance BDNF via different pathways."
+		},
+		{
+			"peptide": "Phenylpiracetam",
+			"status": "compatible",
+			"notes": "Balanced anxiety relief and cognition enhancement."
+		},
+		{
+			"peptide": "Benzodiazepines",
+			"status": "monitor",
+			"notes": "Similar GABAergic effects; medical supervision advised."
+		},
+		{
+			"peptide": "SSRI Antidepressants",
+			"status": "monitor",
+			"notes": "Can combine for enhanced mood regulation; monitor closely."
+		},
+		{
+			"peptide": "Modafinil",
+			"status": "compatible",
+			"notes": "Balanced anxiety reduction and wakefulness."
+		},
+		{
+			"peptide": "Alcohol",
+			"status": "avoid",
+			"notes": "Both affect GABA system; risk of excessive sedation."
+		}
+	],
+	"timeline": [
+		{
+			"period": "30-60 minutes",
+			"effects": "Mild anxiety reduction begins"
+		},
+		{
+			"period": "1-3 days",
+			"effects": "Improved mental clarity and focus"
+		},
+		{
+			"period": "1 week",
+			"effects": "Enhanced stress resilience and emotional stability"
+		},
+		{
+			"period": "1-2 weeks",
+			"effects": "Peak cognitive enhancement effects"
+		},
+		{
+			"period": "Post-discontinuation",
+			"effects": "Sustained benefits for several days"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Minimal side effects - excellent safety profile",
+			"No sedation or cognitive impairment",
+			"No tolerance, dependence, or withdrawal"
+		],
+		"stopSigns": [
+			"Severe allergic reactions (rash, breathing difficulty, swelling)",
+			"Persistent injection site reactions or infection signs",
+			"Unusual mood changes or increased anxiety",
+			"Severe headaches or neurological symptoms",
+			"Contaminated product signs (unusual smell, cloudiness)",
+			"Unexplained fatigue or cognitive impairment",
+			"Skin reactions or immune hypersensitivity"
+		],
+		"contraindications": [
+			"Known peptide allergies",
+			"Pregnancy or breastfeeding",
+			"Consult healthcare provider with multiple psychiatric medications"
+		],
+		"monitoring": [
+			"Start with lowest effective dose (250mcg)",
+			"Refrigerate properly to maintain stability",
+			"Use sterile injection techniques",
+			"Monitor mood and anxiety levels"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder without clumping",
+			"Clear, colorless reconstituted solution",
+			"Clear batch information, purity testing, expiration dates",
+			"Appropriate packaging and cold shipping"
+		],
+		"warning": [
+			"Unusual smell or burning sensation may indicate bacterial contamination",
+			"Room temperature shipping of nasal spray"
+		],
+		"bad": [
+			"Yellowing, clumping, or moisture exposure",
+			"Persistent cloudiness after reconstitution"
+		]
+	},
+	"references": [
+		{
+			"title": "GABAergic Gene Expression Study",
+			"year": "2016",
+			"keyFindings": "Rat frontal cortex study at 300mcg/kg showed modulation of 45 genes involved in neurotransmission; GABAergic mechanism confirmed."
+		},
+		{
+			"title": "GAD Clinical Trial",
+			"year": "2008",
+			"keyFindings": "Human subjects showed significant anxiolytic and mild nootropic effects lasting up to one week post-administration."
+		},
+		{
+			"title": "BDNF Enhancement Study",
+			"year": "2010",
+			"keyFindings": "Rat hippocampus study at 250-500mcg/kg showed 30% increase in hippocampal BDNF levels."
+		},
+		{
+			"title": "Memory Consolidation Study",
+			"year": "2007",
+			"keyFindings": "Significant activation of learning processes in subjects with poor initial learning."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Inflammation-Related Gene Expression Modulation",
+			"date": "March 2024",
+			"source": "Neuroscience Research",
+			"summary": "New findings on Selank's effects on inflammatory gene expression."
+		},
+		{
+			"title": "Comparison with Classical Benzodiazepines",
+			"date": "January 2024",
+			"source": "Psychopharmacology Journal",
+			"summary": "Comparative study showing similar efficacy without benzodiazepine side effects."
+		},
+		{
+			"title": "Antiviral Activity Study",
+			"date": "November 2023",
+			"source": "Antiviral Research",
+			"summary": "Demonstrated activity against influenza, HSV, and cytomegalovirus."
+		}
+	],
+	"categories": ["cognitive", "longevity", "immune"],
+	"quickStats": {
+		"typicalDose": "250-500mcg per dose",
+		"frequency": "1-2x daily (morning and/or evening)",
+		"cycleDuration": "2-8 weeks on",
+		"storage": "Reconstituted: 2-8°C, use within 30 days"
+	}
+}

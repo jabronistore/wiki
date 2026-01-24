@@ -1,0 +1,292 @@
+{
+	"id": "cjc-ipa-protocol",
+	"name": "CJC/IPA Protocol",
+	"subtitle": "GHRH/GHRP Combination | Growth Hormone Optimization",
+	"aliases": ["CJC-1295/Ipamorelin", "CJC/Ipa"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "N/A",
+		"length": "N/A",
+		"type": "Peptide combination (GHRH analog + GHS)",
+		"sequence": "N/A",
+		"modifications": [
+			"CJC-1295: DAC technology (albumin binding)",
+			"Ipamorelin: selective GHSR1a agonist"
+		]
+	},
+	"overview": "A dual-pathway protocol combining CJC-1295 and Ipamorelin that targets growth hormone secretion through complementary mechanisms. CJC-1295 demonstrates 2-10 fold GH increases with 6-8 day duration, while Ipamorelin provides selective GH release without cortisol elevation.",
+	"mechanism": "CJC-1295 activates GHRH receptors via albumin-binding DAC technology for sustained elevation. Ipamorelin selectively activates ghrelin receptors (GHSR1a) without affecting ACTH/cortisol, preserving natural pulsatile GH patterns.",
+	"keyBenefits": [
+		"Sustained GH elevation (6-8 days from CJC-1295)",
+		"Selective pulsatile release without cortisol suppression",
+		"Complementary dual-pathway optimization",
+		"Preservation of natural GH rhythm",
+		"Enhanced muscle protein synthesis and recovery"
+	],
+	"indications": [
+		{
+			"category": "Muscle Growth",
+			"items": [
+				{
+					"name": "Enhanced Protein Synthesis",
+					"description": "Growth hormone elevation supports muscle protein synthesis and nitrogen retention during training.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Improved Recovery",
+					"description": "Sustained GH patterns may accelerate muscle repair between exercise sessions.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Lean Mass Preservation",
+					"description": "GH optimization helps maintain muscle during caloric restriction or aging.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolic Health",
+			"items": [
+				{
+					"name": "Body Composition Support",
+					"description": "Growth hormone promotes lipolysis while supporting lean tissue maintenance.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Metabolic Flexibility",
+					"description": "Enhanced GH patterns may improve glucose and fat utilization.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Sleep Quality Enhancement",
+					"description": "Evening GH peaks align with deeper, more restorative sleep patterns.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Tissue Regeneration",
+					"description": "Sustained GH elevation supports skin elasticity and connective tissue health.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Recovery",
+			"items": [
+				{
+					"name": "Accelerated Healing",
+					"description": "Growth hormone supports tissue repair and recovery from exercise or injury.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Joint Health",
+					"description": "Enhanced collagen synthesis supports joint and connective tissue integrity.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous administration optimal for bioavailability; available as blended vials or separate formulations.",
+			"protocols": [
+				{
+					"goal": "General Health Optimization",
+					"dose": "200mcg each (0.2mL if 1mg/mL)",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Performance Enhancement",
+					"dose": "250mcg each (0.25mL if 1mg/mL)",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Recovery Optimization",
+					"dose": "300mcg each (0.3mL if 1mg/mL)",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Conservative Approach",
+					"dose": "150mcg each (0.15mL if 1mg/mL)",
+					"frequency": "5 days per week",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (2-4mL)",
+					"Insulin syringes (0.3-1mL capacity)",
+					"Alcohol swabs for sterilization"
+				],
+				"steps": [
+					"BLENDED: Add 2mL bacteriostatic water to create ~2mg/mL concentration",
+					"SEPARATE: Add 2mL water to each vial for 1mg/mL per peptide",
+					"Draw 0.2-0.3mL for 200-300mcg dosing",
+					"Mix equal volumes or inject at different sites",
+					"Administer 2-3 hours post-meal, 30-60 minutes before bed",
+					"Rotate subcutaneous sites (abdomen, thigh, upper arm) daily"
+				]
+			},
+			"keyBenefits": [
+				"Optimal bioavailability and absorption",
+				"Predictable GH elevation patterns",
+				"Direct subcutaneous delivery"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "MK-677",
+			"status": "monitor",
+			"notes": "Both affect GH pathways; monitor for excessive GH elevation and insulin sensitivity changes."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known interactions; different mechanisms (GH optimization vs. tissue repair signaling)."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "GH affects insulin sensitivity; diabetic users require glucose monitoring and insulin adjustments."
+		},
+		{
+			"peptide": "Synthetic HGH",
+			"status": "avoid",
+			"notes": "Redundant mechanisms may cause excessive GH suppression of natural pulsatile release."
+		},
+		{
+			"peptide": "Thyroid Medications",
+			"status": "monitor",
+			"notes": "Space 4+ hours from GH secretagogues due to absorption and metabolic interactions."
+		},
+		{
+			"peptide": "Corticosteroids",
+			"status": "monitor",
+			"notes": "May blunt GH response; higher doses or alternative timing may be necessary."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Improved sleep depth and quality; increased dream vividness"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Enhanced exercise recovery; reduced muscle soreness; improved energy"
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Gradual body composition changes; improved skin quality; general well-being"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Optimized benefits plateau; individual responses vary significantly"
+		},
+		{
+			"period": "Post-Cycle",
+			"effects": "Benefits persist several weeks due to improved sleep and recovery patterns"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Water retention and joint swelling",
+			"Carpal tunnel syndrome (numbness/tingling)",
+			"Mild blood glucose elevation",
+			"Injection site irritation with improper rotation"
+		],
+		"stopSigns": [
+			"Persistent joint pain or swelling indicating fluid retention",
+			"Significant blood glucose changes or diabetic control issues",
+			"Unusual fatigue, lethargy, or mood deterioration",
+			"Injection site infections or persistent reactions",
+			"Numbness or tingling in hands/feet",
+			"Signs of accelerated tumor growth if cancer history exists"
+		],
+		"contraindications": [
+			"Cancer history or active malignancy",
+			"Severe diabetes requiring tight glucose control",
+			"Carpal tunnel syndrome or nerve compression disorders"
+		],
+		"monitoring": [
+			"Regular bloodwork to monitor IGF-1 levels",
+			"Blood glucose monitoring if diabetic",
+			"Injection site assessment for lipodystrophy",
+			"Overall health markers and tolerability"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Standard format labeling: '10mg total: 5mg CJC-1295 + 5mg Ipamorelin'",
+			"1:1 ratio maintenance between peptides for optimal effects",
+			"Clear reconstitution without particles or cloudiness",
+			"Certificate of Analysis with individual peptide purities",
+			"Proper cold chain with cold packs and immediate refrigeration"
+		],
+		"warning": [
+			"Format selection: Beginners prefer separate vials for tolerance testing",
+			"Blended format offers convenience but limits dose adjustment",
+			"Combination protocols lack peer-reviewed clinical validation"
+		],
+		"bad": [
+			"Damaged packaging or missing refrigeration",
+			"Heat exposure during shipping",
+			"Lack of Certificate of Analysis documentation"
+		]
+	},
+	"references": [
+		{
+			"title": "CJC-1295 Clinical Efficacy - Teichman et al.",
+			"year": "2006",
+			"keyFindings": "2-10 fold GH increase, 1.5-3 fold IGF-1 increase with 5.8-8.1 day half-life."
+		},
+		{
+			"title": "Ipamorelin Selectivity - Raun et al.",
+			"year": "1998",
+			"keyFindings": "First selective GHS with no ACTH/cortisol effects even at 200x effective dose."
+		},
+		{
+			"title": "GH Pulsatility Preservation - Ionescu & Frohman",
+			"year": "2006",
+			"keyFindings": "CJC-1295 preserves pulsatile GH secretion while increasing basal levels 7.5-fold."
+		},
+		{
+			"title": "GHRH-GHS Receptor Interaction - Cunha & Mayo",
+			"year": "2002",
+			"keyFindings": "Cellular study demonstrating potentiation of GHRH signaling with GHS receptors present."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss"],
+	"blendComposition": {
+		"totalAmount": 4,
+		"unit": "mg",
+		"components": [
+			{
+				"name": "CJC-1295",
+				"amount": 2,
+				"ratio": 1
+			},
+			{
+				"name": "Ipamorelin",
+				"amount": 2,
+				"ratio": 1
+			}
+		]
+	},
+	"quickStats": {
+		"typicalDose": "200-300mcg of each peptide (CJC-1295 and Ipamorelin)",
+		"frequency": "Once daily, preferably in the evening",
+		"cycleDuration": "8-12 weeks on",
+		"storage": "Lyophilized: 2-8°C refrigerated; Reconstituted: 2-8°C refrigerated, use within 30 days"
+	}
+}

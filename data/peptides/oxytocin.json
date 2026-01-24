@@ -1,0 +1,308 @@
+{
+	"id": "oxytocin",
+	"name": "Oxytocin",
+	"subtitle": "Neurohypophysial Peptide | Social Bonding & Reproductive Hormone",
+	"aliases": ["Pitocin", "Syntocinon", "Love Hormone", "Bonding Hormone"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "1,007.19 Da",
+		"length": "9 amino acids",
+		"type": "Cyclic nonapeptide",
+		"sequence": "Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH2",
+		"modifications": ["Disulfide bridge between Cys1-Cys6", "C-terminal amidation"],
+		"halfLife": "3-6 minutes",
+		"halfLifeSeconds": 270
+	},
+	"overview": "Nine-amino-acid peptide hormone produced in hypothalamus, released by posterior pituitary. Functions in social bonding, trust, empathy, reproduction, childbirth, lactation. FDA-approved synthetically for labor induction and postpartum hemorrhage.",
+	"mechanism": "Binds oxytocin receptors on uterine smooth muscle, triggering calcium influx and myometrial contractions. Stimulates prostaglandin release. In CNS, modulates GABAergic, serotonergic, dopaminergic neurotransmission; reduces cortisol and HPA axis activity.",
+	"keyBenefits": [
+		"FDA-approved for labor induction with precise dosing via IV",
+		"Immediate onset in obstetric settings",
+		"Established safety profile in clinical use",
+		"Researched for anxiety, PTSD, autism, sexual dysfunction"
+	],
+	"indications": [
+		{
+			"category": "Obstetric (FDA Approved)",
+			"items": [
+				{
+					"name": "Labor Induction",
+					"description": "Initiates or augments uterine contractions when vaginal delivery medically indicated.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Postpartum Hemorrhage Control",
+					"description": "Controls postpartum bleeding through uterine contraction stimulation during third stage.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Incomplete Abortion Management",
+					"description": "Adjunctive therapy for incomplete or inevitable abortion in second trimester.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Research/Emerging",
+			"items": [
+				{
+					"name": "Autism Spectrum Disorders",
+					"description": "Extensive research with mixed results on social functioning; optimal dosing unclear.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "PTSD Augmentation",
+					"description": "Combined with exposure therapy; shows reduced PTSD/depression symptoms.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Social Anxiety",
+					"description": "Decreases amygdala reactivity to social threats; normalizes brain connectivity.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Sexual Function",
+					"description": "Improves libido, arousal, orgasm intensity in both sexes.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "IV or IM administration in clinical settings. IV provides immediate onset; requires continuous infusion and monitoring for labor use.",
+			"protocols": [
+				{
+					"goal": "Labor Induction",
+					"dose": "0.5-2 mU/min initial, titrate to 1-2 mU/min every 30-60 min",
+					"frequency": "Continuous IV infusion",
+					"route": "IV (diluted)"
+				},
+				{
+					"goal": "Postpartum Hemorrhage Prevention",
+					"dose": "10 units IM or 10-40 units in IV solution",
+					"frequency": "Single dose after placental delivery",
+					"route": "IM or IV infusion"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Oxytocin injection USP (10 units/mL)",
+					"Compatible IV solution (0.9% NaCl or Lactated Ringer's)",
+					"IV infusion pump (required)",
+					"Continuous fetal monitoring equipment"
+				],
+				"steps": [
+					"Hospital/clinical procedure—qualified healthcare professionals only",
+					"Dilute oxytocin in compatible IV solution per facility protocol",
+					"Typical dilution: 10 units in 1000mL = 10 mU/mL",
+					"Use infusion pump for precise rate control",
+					"Monitor uterine contractions and fetal heart rate continuously"
+				]
+			},
+			"keyBenefits": [
+				"FDA-approved pharmaceutical formulation",
+				"Immediate onset (IV: 1-3 min; IM: 3-5 min)",
+				"Precise dosing control"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Nasal spray delivers oxytocin directly to brain via olfactory and trigeminal pathways, bypassing blood-brain barrier. Primary research route for psychological/social effects.",
+			"protocols": [
+				{
+					"goal": "Social anxiety/bonding enhancement",
+					"dose": "20-24 IU",
+					"frequency": "Once daily or before social situations",
+					"route": "Intranasal spray"
+				},
+				{
+					"goal": "Autism research protocols",
+					"dose": "24-48 IU daily",
+					"frequency": "Twice daily",
+					"route": "Intranasal spray"
+				},
+				{
+					"goal": "PTSD therapy augmentation",
+					"dose": "40 IU",
+					"frequency": "Before therapy sessions",
+					"route": "Intranasal spray"
+				},
+				{
+					"goal": "Sexual function enhancement",
+					"dose": "24-40 IU",
+					"frequency": "30-45 minutes before activity",
+					"route": "Intranasal spray"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Oxytocin nasal spray (compounded) or lyophilized powder",
+					"Sterile saline or bacteriostatic water",
+					"Metered dose nasal spray bottle"
+				],
+				"steps": [
+					"If using pre-made compounded spray, proceed to use",
+					"For powder: calculate desired concentration (typically 4-6 IU per 0.1mL)",
+					"Add calculated volume of sterile saline to vial",
+					"Gently swirl until fully dissolved—do not shake",
+					"Transfer to sterile metered-dose nasal spray bottle",
+					"Prime pump with 2-3 sprays before first use",
+					"Store refrigerated 2-8°C; use within 30 days"
+				]
+			},
+			"keyBenefits": [
+				"Direct nose-to-brain delivery",
+				"Non-invasive, convenient administration",
+				"Rapid CNS effects (15-30 min onset)"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Sublingual troches provide needle-free administration. Lower bioavailability (~4.5% vs 11% intranasal) requires higher doses.",
+			"protocols": [
+				{
+					"goal": "General wellness/bonding support",
+					"dose": "50-100 IU",
+					"frequency": "Once daily",
+					"route": "Sublingual troche"
+				},
+				{
+					"goal": "Sexual function support",
+					"dose": "100 IU",
+					"frequency": "30-45 minutes before activity",
+					"route": "Sublingual troche"
+				}
+			],
+			"keyBenefits": [
+				"Needle-free, convenient administration",
+				"Pre-dosed troches eliminate measurement variability",
+				"Suitable for needle-averse individuals"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Vasopressin (AVP)",
+			"status": "monitor",
+			"notes": "Structurally similar; overlapping receptor affinity with potential additive effects."
+		},
+		{
+			"peptide": "Selank",
+			"status": "synergistic",
+			"notes": "Complementary anxiolytic effects—Selank modulates GABA; oxytocin acts on central receptors."
+		},
+		{
+			"peptide": "PT-141 (Bremelanotide)",
+			"status": "synergistic",
+			"notes": "Complementary sexual function effects via different pathways."
+		},
+		{
+			"peptide": "Kisspeptin",
+			"status": "synergistic",
+			"notes": "Both involved in reproduction; kisspeptin stimulates GnRH; oxytocin enhances arousal."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No direct interactions; different mechanisms (tissue repair vs social function)."
+		},
+		{
+			"peptide": "SSRI Antidepressants",
+			"status": "monitor",
+			"notes": "SSRIs may affect endogenous oxytocin; combined use requires healthcare provider oversight."
+		},
+		{
+			"peptide": "Alcohol",
+			"status": "avoid",
+			"notes": "Alcohol suppresses oxytocin release; reduces therapeutic effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Injectable",
+			"effects": "IV: 1-3 minute onset, 30-60 minute duration; IM: 3-5 minute onset"
+		},
+		{
+			"period": "Intranasal",
+			"effects": "15-30 minute onset, peak 30-60 minutes, 2-4 hour duration"
+		},
+		{
+			"period": "Sublingual",
+			"effects": "30-45 minute onset, peak ~60 minutes, 2-4 hour duration"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild headache",
+			"Nasal irritation (intranasal)",
+			"Nausea or vomiting",
+			"Transient blood pressure changes"
+		],
+		"stopSigns": [
+			"Uterine hyperstimulation or fetal distress (injectable)",
+			"Severe or persistent headache",
+			"Signs of water intoxication (confusion, seizures, swelling)",
+			"Severe nasal irritation or bleeding",
+			"Allergic reaction (rash, breathing difficulty)"
+		],
+		"contraindications": [
+			"Certain obstetric conditions (see prescribing info)",
+			"Pregnancy (without medical supervision)",
+			"Active sinus infection (intranasal)",
+			"Severe hyponatremia"
+		],
+		"monitoring": [
+			"Continuous electronic fetal monitoring during labor (injectable)",
+			"Blood pressure monitoring",
+			"Electrolyte levels if exceeding 24 IU daily long-term (intranasal)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"FDA-approved pharmaceutical product from licensed pharmacies (injectable)",
+			"Clear, colorless solution without particles or discoloration",
+			"Proper packaging with verified lot number, expiration, concentration",
+			"Licensed compounding pharmacy source with USP compliance"
+		],
+		"warning": [
+			"Variable compounding quality between pharmacies",
+			"Nasal congestion reduces intranasal absorption",
+			"Sublingual has lower bioavailability than intranasal"
+		],
+		"bad": [
+			"Cloudy, discolored, or particulate solution",
+			"From unlicensed or unverified sources",
+			"Improper storage or broken cold chain"
+		]
+	},
+	"references": [
+		{
+			"title": "Intranasal Oxytocin in Autism Spectrum Disorder",
+			"year": "2021",
+			"keyFindings": "N=290 children/adolescents; 48 IU daily; 24 weeks. Did not significantly improve social functioning vs placebo; highlights need for better patient selection."
+		},
+		{
+			"title": "Oxytocin Augmented Prolonged Exposure Therapy for PTSD",
+			"year": "2019",
+			"keyFindings": "Veterans with PTSD; 40 IU intranasal combined with PE therapy. Lower PTSD and depression symptoms; higher therapeutic alliance vs placebo."
+		},
+		{
+			"title": "Intranasal Oxytocin for Obesity",
+			"year": "2024",
+			"keyFindings": "N=61 adults with obesity; 24 IU four times daily; 8 weeks. No weight loss but significant reduction in caloric intake; improved mental health-related quality of life."
+		}
+	],
+	"categories": ["hormonal", "cognitive"],
+	"quickStats": {
+		"typicalDose": "Intranasal: 20-24 IU; Injectable: 10-40 IU; Sublingual: 50-100 IU",
+		"frequency": "As needed for social/sexual support, or 1-2x daily for anxiety/PTSD protocols; max 1 dose per 24hr for sexual function",
+		"cycleDuration": "As needed for research applications; 4-12 weeks for anxiety/autism protocols",
+		"storage": "Refrigerate at 2-8°C; protect from light"
+	}
+}

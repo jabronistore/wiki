@@ -1,0 +1,234 @@
+{
+	"id": "vesilute",
+	"name": "Vesilute",
+	"subtitle": "ED Dipeptide | Bladder & Urinary Tract Bioregulator",
+	"aliases": ["ED", "Glu-Asp", "L-Glu-L-Asp", "Bladder Peptide"],
+	"categories": ["other", "longevity"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "262 Da",
+		"length": "2 amino acids",
+		"type": "Dipeptide bioregulator",
+		"sequence": "Glu-Asp (ED)",
+		"halfLife": "Not established"
+	},
+	"overview": "Vesilute is a Khavinson bioregulator dipeptide consisting of glutamic acid and aspartic acid (ED), developed at the St. Petersburg Institute of Bioregulation and Gerontology. It is specifically designed to support bladder and urinary tract function, with research indicating potential benefits for prostate health in men. Vesilute may help regulate smooth muscle function, enhance tissue blood flow, and support cellular regeneration in urogenital tissues. It is distinct from Vesugen (KED tripeptide), which targets vascular endothelium.",
+	"mechanism": "Vesilute acts on the smooth muscle cells and vascular endothelium of the urogenital system. It is proposed to: (1) regulate smooth muscle contraction and relaxation in the bladder wall, (2) enhance microcirculation and blood flow in pelvic tissues including prostate, (3) support cellular regeneration and tissue repair in the urinary tract, (4) reduce hyperemia and inflammation-related dysfunction, and (5) modulate gene expression related to urogenital tissue homeostasis through bioregulation pathways characteristic of Khavinson peptides.",
+	"keyBenefits": [
+		"Supports bladder and urinary tract function",
+		"May improve prostate health in men",
+		"Regulates smooth muscle function",
+		"Enhances pelvic tissue blood flow",
+		"Supports cellular regeneration",
+		"Part of comprehensive Khavinson bioregulator protocols",
+		"Well-tolerated in research",
+		"Oral bioavailability as small dipeptide"
+	],
+	"indications": [
+		{
+			"category": "Urinary Tract Health",
+			"items": [
+				{
+					"name": "Bladder Function Support",
+					"description": "Research explores relief of symptoms associated with bladder dysfunction through smooth muscle regulation.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Urinary Tract Health",
+					"description": "May support overall urinary tract function and tissue health.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Pelvic Floor Support",
+					"description": "Potential benefits for pelvic tissue health and function.",
+					"effectiveness": "emerging"
+				}
+			]
+		},
+		{
+			"category": "Prostate Health (Men)",
+			"items": [
+				{
+					"name": "Prostate Support",
+					"description": "Research indicates potential to enhance blood flow and reduce dysfunction in prostate tissue.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "BPH Symptoms",
+					"description": "May help alleviate symptoms associated with benign prostatic hyperplasia.",
+					"effectiveness": "emerging"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging Protocol",
+			"items": [
+				{
+					"name": "Urogenital Aging",
+					"description": "Part of comprehensive bioregulator protocols addressing age-related urogenital changes.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Tissue Regeneration",
+					"description": "Supports cellular regeneration in urinary and reproductive tissues.",
+					"effectiveness": "emerging"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form for subcutaneous or intramuscular administration. Standard Khavinson protocol of 10-20 day cycles, repeated 2-3 times per year for maintenance.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "SubQ or IM"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "20 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "SubQ or IM"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with bacteriostatic water",
+					"Inject water slowly down vial wall",
+					"Gently swirl until dissolved",
+					"Store refrigerated at 2-8°C",
+					"Use within 4 weeks of reconstitution"
+				]
+			},
+			"keyBenefits": ["Direct systemic absorption", "Precise dosing", "Established protocol"]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oral capsule form may be available. As a small dipeptide, Vesilute has reasonable oral bioavailability.",
+			"protocols": [
+				{
+					"goal": "Oral protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Non-invasive administration",
+				"Convenient daily dosing",
+				"Good absorption as dipeptide"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Prostamax",
+			"status": "synergistic",
+			"notes": "Both target prostate/urogenital health; can be combined for comprehensive support."
+		},
+		{
+			"peptide": "Vesugen",
+			"status": "compatible",
+			"notes": "Different targets - Vesugen for vascular, Vesilute for bladder/prostate. Can be combined."
+		},
+		{
+			"peptide": "Libidon",
+			"status": "synergistic",
+			"notes": "Complementary for male reproductive and urogenital health protocols."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "compatible",
+			"notes": "Often combined in comprehensive anti-aging bioregulator protocols."
+		},
+		{
+			"peptide": "Thymalin",
+			"status": "compatible",
+			"notes": "Different target systems; no known negative interactions."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Tissue-specific effects begin; gene expression modulation"
+		},
+		{
+			"period": "Days 10-20",
+			"effects": "Cellular function optimization in target tissues"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to bioregulation mechanisms"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with regular cycling; tissue health maintenance"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well-tolerated",
+			"Injection site reactions (mild, if injectable)",
+			"Minimal reported side effects"
+		],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": [
+			"Signs of allergic reaction",
+			"Unusual urinary symptoms",
+			"Unexpected changes in urination patterns"
+		],
+		"contraindications": [
+			"Known hypersensitivity to peptide components",
+			"Active urinary tract infection (treat first)",
+			"Pregnancy or breastfeeding",
+			"Prostate cancer (consult physician)"
+		],
+		"monitoring": [
+			"Urinary symptoms and patterns",
+			"Prostate health markers (PSA) if appropriate",
+			"General well-being"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution",
+			"Certificate of analysis available",
+			"Proper packaging and storage"
+		],
+		"warning": ["Unknown source or unverified purity"],
+		"bad": ["Discolored powder", "Cloudy or particulate solution", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Khavinson Bioregulator Peptides: Organ-Specific Effects",
+			"journal": "St. Petersburg Institute of Bioregulation and Gerontology",
+			"keyFindings": "Vesilute (ED dipeptide) targets bladder and urinary tract tissues with bioregulatory effects."
+		},
+		{
+			"title": "Short Peptides and Urogenital Function",
+			"journal": "Russian Medical Research",
+			"keyFindings": "ED dipeptide influences smooth muscle and vascular function in urogenital tissues."
+		},
+		{
+			"title": "Bioregulators in Anti-Aging Medicine",
+			"authors": "Khavinson VKh et al.",
+			"journal": "Advances in Gerontology",
+			"keyFindings": "Organ-specific peptide bioregulators including Vesilute support tissue-specific regeneration."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "10-20 mg per day",
+		"frequency": "Daily for 10-20 consecutive days (Khavinson bioregulator cycle)",
+		"cycleDuration": "10-20 day cycle",
+		"storage": "Lyophilized powder: room temperature or 2-8°C; Reconstituted: 2-8°C refrigerated, use within 4 weeks"
+	}
+}

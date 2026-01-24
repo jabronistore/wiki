@@ -1,0 +1,245 @@
+{
+	"id": "nad-plus",
+	"name": "NAD+",
+	"subtitle": "Essential Cellular Coenzyme & Anti-Aging Therapy",
+	"aliases": ["Nicotinamide Adenine Dinucleotide", "NAD"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"type": "Coenzyme",
+		"weight": "663.43 Da",
+		"sequence": "C21H27N7O14P2",
+		"halfLife": "1-4 hours (intracellular)",
+		"halfLifeSeconds": 9000
+	},
+	"overview": "NAD+ is a crucial coenzyme found in every cell, involved in energy generation and cellular maintenance that naturally declines with age. Supplementation may support cellular health, boost energy, enhance cognitive function, and promote longevity through multiple delivery methods.",
+	"mechanism": "Direct delivery to bloodstream ensures maximum cellular availability for energy production via ATP synthesis, DNA repair through PARP activation, and sirtuin-mediated longevity pathways. Supports mitochondrial function and metabolic homeostasis.",
+	"keyBenefits": [
+		"Restores mitochondrial function and ATP synthesis",
+		"Enhances glucose and fat metabolism",
+		"Improves oxygen utilization and endurance",
+		"Activates DNA repair mechanisms",
+		"Supports longevity pathways via sirtuins",
+		"Improves mental clarity and focus"
+	],
+	"indications": [
+		{
+			"category": "Energy & Metabolism",
+			"items": [
+				{
+					"name": "Cellular Energy Production",
+					"description": "Restores NAD+ levels for optimal ATP synthesis",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Metabolic Optimization",
+					"description": "Enhances glucose and fat metabolism",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Exercise Performance",
+					"description": "Improves oxygen utilization and endurance",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "DNA Repair",
+					"description": "Activates PARP enzymes for genomic stability",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Sirtuin Activation",
+					"description": "Supports longevity pathways",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cellular Senescence Reduction",
+					"description": "May help clear senescent cells",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neurological",
+			"items": [
+				{
+					"name": "Cognitive Enhancement",
+					"description": "Improves mental clarity and focus",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Neuroprotection",
+					"description": "Supports neuronal health and function",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Highest bioavailability (100%) via IV, IM, or subcutaneous injection.",
+			"protocols": [
+				{
+					"goal": "IV Infusion",
+					"dose": "250-1000mg",
+					"frequency": "1-2x weekly",
+					"route": "Intravenous"
+				},
+				{
+					"goal": "IM/SubQ",
+					"dose": "100-500mg",
+					"frequency": "2-3x weekly",
+					"route": "Intramuscular or Subcutaneous"
+				}
+			],
+			"keyBenefits": [
+				"100% bioavailability",
+				"Rapid cellular uptake",
+				"Immediate energy enhancement"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "NAD+ precursors (NMN, NR) bypass digestive degradation and convert via salvage pathways.",
+			"protocols": [
+				{
+					"goal": "Precursor supplementation",
+					"dose": "100-500mg NMN or NR",
+					"frequency": "Daily",
+					"route": "Oral capsule"
+				}
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Direct brain access via olfactory and trigeminal pathways.",
+			"protocols": [
+				{
+					"goal": "Cognitive support",
+					"dose": "25-50mg",
+					"frequency": "1-2x daily",
+					"route": "Intranasal"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Enhanced cellular repair and energy production"
+		},
+		{
+			"peptide": "TB-500",
+			"status": "synergistic",
+			"notes": "Complementary tissue regeneration effects"
+		},
+		{
+			"peptide": "Tirzepatide",
+			"status": "compatible",
+			"notes": "Supports metabolic pathways enhanced by GLP-1 agonists"
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "synergistic",
+			"notes": "Growth hormone pathways benefit from improved energy metabolism"
+		},
+		{
+			"peptide": "CJC-1295",
+			"status": "compatible",
+			"notes": "Enhanced recovery and anti-aging effects"
+		},
+		{
+			"peptide": "Alcohol",
+			"status": "avoid",
+			"notes": "Alcohol significantly reduces NAD+ levels and effectiveness"
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Initial energy improvements and mental clarity"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Enhanced physical performance and recovery"
+		},
+		{
+			"period": "Week 5-8",
+			"effects": "Sustained energy levels and improved sleep quality"
+		},
+		{
+			"period": "Week 9-12",
+			"effects": "Optimized metabolic function and cognitive benefits"
+		}
+	],
+	"sideEffects": {
+		"common": ["Mild flushing during IV infusion", "Temporary nausea"],
+		"rare": ["Injection site reactions"],
+		"stopSigns": [
+			"Severe injection site reactions or infection signs",
+			"Persistent nausea or gastrointestinal distress",
+			"Unusual fatigue or weakness",
+			"Allergic reactions (rash, swelling, breathing difficulty)"
+		],
+		"contraindications": [
+			"IV administration requires medical supervision",
+			"Avoid alcohol during treatment",
+			"Maintain consistent dosing schedule"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, colorless solution (injectable)",
+			"Proper refrigeration at 2-8°C",
+			"Sterile injection technique",
+			"Third-party tested for purity"
+		],
+		"warning": ["Use reconstituted solution within 28 days"],
+		"bad": [
+			"Cloudy or discolored solution indicates contamination",
+			"Room temperature storage degrades NAD+ rapidly"
+		]
+	},
+	"references": [
+		{
+			"title": "NAD+ Restoration Strategies in Clinical Practice",
+			"year": "2024",
+			"journal": "Regenerative Medicine Journal",
+			"keyFindings": "Review of clinical applications and restoration strategies"
+		},
+		{
+			"title": "Clinical Evidence for NAD+ Therapeutic Applications",
+			"year": "2024",
+			"journal": "Clinical Interventions in Aging",
+			"keyFindings": "Evidence for anti-aging and therapeutic applications"
+		},
+		{
+			"title": "NAD+ Precursor Safety and Efficacy Meta-Analysis",
+			"year": "2024",
+			"journal": "Nature Metabolism",
+			"keyFindings": "Meta-analysis of safety and efficacy data"
+		},
+		{
+			"title": "Intranasal NAD+ Delivery for Neurological Applications",
+			"year": "2023",
+			"journal": "Neuropharmacology Research",
+			"keyFindings": "Demonstrated efficacy of intranasal delivery for brain access"
+		}
+	],
+	"categories": ["longevity", "metabolic"],
+	"quickStats": {
+		"typicalDose": "IV: 250-1000mg; IM/SubQ: 100-500mg; Intranasal: 25-50mg; Oral precursors: 100-500mg NMN/NR",
+		"frequency": "IV: 1-2x weekly; IM/SubQ: 2-3x weekly; Intranasal: 1-2x daily; Oral: daily",
+		"cycleDuration": "4-12 weeks; IV therapy requires medical supervision",
+		"storage": "Refrigerate at 2-8°C; protect from light"
+	}
+}

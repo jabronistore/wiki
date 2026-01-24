@@ -1,0 +1,242 @@
+{
+	"id": "aod-9604",
+	"name": "AOD-9604",
+	"subtitle": "Modified hGH Fragment | Fat Loss Peptide",
+	"aliases": ["hGH Fragment 176-191", "Advanced Obesity Drug"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "1,815.1 Da",
+		"length": "17 amino acids",
+		"type": "Modified hGH C-terminal fragment",
+		"sequence": "Tyr-Leu-Arg-Ile-Val-Gln-Cys-Arg-Ser-Val-Glu-Gly-Ser-Cys-Gly-Phe",
+		"modifications": [
+			"hGH 176-191 with N-terminal tyrosine addition",
+			"Disulfide bond between Cys183 and Cys189"
+		],
+		"halfLife": "3-4 minutes",
+		"halfLifeSeconds": 210
+	},
+	"overview": "AOD-9604 is a modified fragment of human growth hormone (amino acids 176-191) that stimulates lipolysis and inhibits lipogenesis without the side effects of full growth hormone. Unlike full GH, it does not increase IGF-1, affect glucose metabolism, or cause insulin resistance.",
+	"mechanism": "Stimulates lipolysis and inhibits lipogenesis through beta-3 adrenergic receptor upregulation, without binding to the GH receptor. Does not affect glucose metabolism or increase IGF-1 levels.",
+	"keyBenefits": [
+		"Targets fat loss through selective lipolysis",
+		"Avoids growth hormone side effects",
+		"No effect on blood glucose or insulin",
+		"Does not increase IGF-1 levels",
+		"Metabolically safer than full hGH",
+		"Emerging cartilage repair potential"
+	],
+	"indications": [
+		{
+			"category": "Fat Loss",
+			"items": [
+				{
+					"name": "Lipolysis Enhancement",
+					"description": "Increases fat oxidation, plasma glycerol levels, and reduces body weight in obese models without affecting glucose metabolism.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Lipogenesis Inhibition",
+					"description": "Reduces fat synthesis and storage in adipose tissue.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Metabolic Safety",
+					"description": "Does not cause hyperglycemia, reduce insulin secretion, or increase insulin resistance.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Joint Health",
+			"items": [
+				{
+					"name": "Cartilage Repair",
+					"description": "Enhanced cartilage regeneration when combined with hyaluronic acid in osteoarthritis models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Osteoarthritis Support",
+					"description": "Synergistic effects with hyaluronic acid for joint health.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the standard route. Administer in the morning on an empty stomach, wait 30 minutes before eating for optimal results.",
+			"protocols": [
+				{
+					"goal": "Fat loss - Standard",
+					"dose": "250-300mcg",
+					"frequency": "Once daily (morning, fasted)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Enhanced fat loss",
+					"dose": "400-500mcg",
+					"frequency": "Once daily (morning, fasted)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Joint support",
+					"dose": "250mcg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Conservative start",
+					"dose": "200mcg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Lyophilized AOD-9604 vial",
+					"Bacteriostatic water (BAC water)",
+					"Insulin syringes (0.5-1mL)",
+					"Alcohol swabs",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Allow vial to reach room temperature (15-20 minutes)",
+					"Calculate required bacteriostatic water volume",
+					"Clean vial stopper with alcohol swab",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake vigorously)",
+					"Store reconstituted solution at 2-8°C",
+					"Use within 28 days"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen (near navel) or thigh injection sites",
+				"Morning administration on empty stomach",
+				"Wait 30 minutes before eating"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Hyaluronic Acid",
+			"status": "synergistic",
+			"notes": "Enhanced cartilage repair when combined for joint health."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms; sometimes combined for comprehensive healing."
+		},
+		{
+			"peptide": "CJC-1295",
+			"status": "compatible",
+			"notes": "AOD-9604 doesn't affect GH axis; can be used together."
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "compatible",
+			"notes": "Different mechanisms; no known interactions."
+		},
+		{
+			"peptide": "Semaglutide",
+			"status": "compatible",
+			"notes": "Complementary weight loss mechanisms through different pathways."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "compatible",
+			"notes": "AOD-9604 doesn't affect glucose metabolism unlike full hGH."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Minimal noticeable effects; compound accumulating"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Subtle body composition changes may begin"
+		},
+		{
+			"period": "Week 5-8",
+			"effects": "More noticeable fat loss, especially with diet and exercise"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Continued fat reduction and improved body composition"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well-tolerated in clinical trials",
+			"Mild injection site reactions possible",
+			"No reported effects on blood glucose or insulin"
+		],
+		"stopSigns": [
+			"Severe injection site reactions or infection signs",
+			"Unusual swelling or persistent redness",
+			"Allergic reactions (rare)",
+			"Any concerning or unexpected symptoms"
+		],
+		"contraindications": [
+			"Pregnancy or breastfeeding",
+			"WADA prohibited - athletes subject to testing must avoid"
+		],
+		"monitoring": ["Injection site reactions", "Body composition changes", "General well-being"]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder with uniform appearance",
+			"Crystal clear solution without particles after reconstitution",
+			"Certificate of Analysis showing >98% purity by HPLC",
+			"Proper cold-chain shipping"
+		],
+		"warning": [
+			"Not FDA approved as a therapeutic drug - research chemical only",
+			"WADA prohibited substance"
+		],
+		"bad": [
+			"Discolored or clumped powder (yellow indicates degradation)",
+			"Cloudy solution after reconstitution",
+			"Collapsed or moisture-damaged appearance"
+		]
+	},
+	"references": [
+		{
+			"title": "Fat Oxidation and Weight Loss in Obese Mice - Heffernan et al.",
+			"year": "2001",
+			"journal": "International Journal of Obesity",
+			"keyFindings": "AOD-9604 reduced body weight without hyperglycemia through enhanced fat oxidation."
+		},
+		{
+			"title": "Beta-3 Adrenergic Receptor Mechanism - Heffernan et al.",
+			"year": "2001",
+			"journal": "Endocrinology",
+			"keyFindings": "Increased beta-3 adrenergic receptor expression comparable to lean mice."
+		},
+		{
+			"title": "Oral Lipid Metabolism Effects - Heffernan et al.",
+			"year": "2000",
+			"journal": "American Journal of Physiology",
+			"keyFindings": "Significantly reduced lipogenic activity and increased lipolytic activity."
+		},
+		{
+			"title": "Cartilage Regeneration with Hyaluronic Acid - Kwon & Park",
+			"year": "2015",
+			"journal": "Annals of Clinical and Laboratory Science",
+			"keyFindings": "Combination accelerated cartilage regeneration in osteoarthritis models."
+		}
+	],
+	"categories": ["weight-loss", "metabolic"],
+	"quickStats": {
+		"typicalDose": "250-500mcg",
+		"frequency": "Once daily",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Lyophilized: room temp or freezer long-term. Reconstituted: 2-8°C for 28 days"
+	}
+}

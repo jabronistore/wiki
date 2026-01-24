@@ -1,0 +1,264 @@
+{
+	"id": "cjc-1295",
+	"name": "CJC-1295 (without DAC)",
+	"subtitle": "Short-Acting Growth Hormone Releasing Hormone Analog",
+	"aliases": ["Modified GRF 1-29", "Mod GRF 1-29"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "3,367.97 Da",
+		"length": "30 amino acids",
+		"type": "GHRH analog",
+		"sequence": "Tyr-Ala-Asp-Ala-Ile-Phe-Thr-Asn-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys",
+		"modifications": ["Enhanced stability vs native GHRH"],
+		"halfLife": "30 minutes - 2 hours",
+		"halfLifeSeconds": 5400
+	},
+	"overview": "Synthetic growth hormone releasing hormone analog with short half-life enabling pulsatile GH secretion patterns resembling natural physiology. Unlike CJC-1295 with DAC, this version preserves natural GH pulsatility without continuous elevation.",
+	"mechanism": "Binds GHRH receptors on somatotroph cells in the pituitary gland, stimulating cAMP production and physiological GH pulses. The brief 30-minute half-life allows pulsatile release versus prolonged elevation.",
+	"keyBenefits": [
+		"Preserves natural GH pulsatility",
+		"Minimal side effects",
+		"No receptor desensitization",
+		"Precise GH release control",
+		"4x greater receptor affinity than native GHRH"
+	],
+	"indications": [
+		{
+			"category": "Growth Hormone",
+			"items": [
+				{
+					"name": "Natural GH Pulse Restoration",
+					"description": "Restores natural GH pulsatility patterns in aging individuals.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "IGF-1 Enhancement",
+					"description": "Elevates IGF-1 through enhanced GH secretion.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Pituitary Support",
+					"description": "Supports pituitary axis without suppression of natural function.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Muscle Mass Preservation",
+					"description": "Supports maintenance of lean muscle mass through GH elevation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Bone Density Maintenance",
+					"description": "Supports bone health through GH-mediated pathways.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Skin Elasticity",
+					"description": "Improvements in skin quality through collagen synthesis.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Recovery",
+			"items": [
+				{
+					"name": "Exercise Recovery",
+					"description": "Enhanced recovery from training through GH elevation.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Sleep Quality",
+					"description": "Improved sleep architecture with bedtime dosing.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the only effective route. Best administered on empty stomach, 30+ minutes away from food.",
+			"protocols": [
+				{
+					"goal": "Anti-Aging/Wellness",
+					"dose": "100mcg",
+					"frequency": "2x daily (morning and bedtime)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Body Composition",
+					"dose": "100-150mcg",
+					"frequency": "3x daily (morning, post-workout, bedtime)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Maximum GH Release",
+					"dose": "200mcg",
+					"frequency": "2-3x daily with GHRP",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Sleep Enhancement",
+					"dose": "100-200mcg",
+					"frequency": "Once at bedtime",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean vial tops with alcohol pad and allow to dry",
+					"Draw bacteriostatic water slowly",
+					"Inject water along vial side",
+					"Gently roll to mix—avoid vigorous shaking",
+					"Verify solution clarity; cloudiness indicates degradation",
+					"Label with date and concentration",
+					"Refrigerate immediately, use within 30 days"
+				]
+			},
+			"keyBenefits": [
+				"Lower abdomen, outer thigh, or back of upper arm",
+				"Administer 30+ minutes away from food",
+				"Morning upon waking and evening before bed optimal"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Ipamorelin",
+			"status": "synergistic",
+			"notes": "Complementary GH release via different receptor pathways. Popular combination."
+		},
+		{
+			"peptide": "GHRP-6",
+			"status": "synergistic",
+			"notes": "Amplifies GH pulse when combined."
+		},
+		{
+			"peptide": "GHRP-2",
+			"status": "synergistic",
+			"notes": "Potent combination maximizing GH through dual pathways."
+		},
+		{
+			"peptide": "Hexarelin",
+			"status": "monitor",
+			"notes": "Can combine but watch for excessive GH elevation."
+		},
+		{
+			"peptide": "CJC-1295 with DAC",
+			"status": "avoid",
+			"notes": "Choose one variant based on desired release kinetics."
+		},
+		{
+			"peptide": "Tesamorelin",
+			"status": "monitor",
+			"notes": "Both are GHRH analogs; combining offers no additional benefit."
+		},
+		{
+			"peptide": "MK-677",
+			"status": "compatible",
+			"notes": "Different mechanisms; continuous ghrelin versus pulsatile GHRH."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-7",
+			"effects": "Improved sleep quality; vivid dreams from enhanced REM"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced workout recovery, reduced muscle soreness, better pumps"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Noticeable skin improvements, minor body composition shifts"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Significant lean gains, fat loss, improved joint comfort"
+		},
+		{
+			"period": "Week 12+",
+			"effects": "Continued gradual improvements in composition and well-being"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well-tolerated at recommended doses",
+			"Temporary facial flushing/warmth (5-10 minutes post-injection)"
+		],
+		"stopSigns": [
+			"Persistent joint pain or carpal tunnel symptoms",
+			"Significant water retention or edema",
+			"Unexplained headaches or vision changes",
+			"Extreme fatigue or lethargy",
+			"Allergic reaction signs at injection sites"
+		],
+		"contraindications": [
+			"Active cancer (due to growth-promoting effects)",
+			"Diabetic retinopathy",
+			"Severe kidney disease",
+			"Pregnancy or breastfeeding"
+		],
+		"monitoring": [
+			"Blood glucose if diabetic—GH affects insulin sensitivity",
+			"Joint pain or carpal tunnel (excess GH indicator)",
+			"Water retention lasting >2 weeks"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Vendor provides certificates of analysis (>98% purity)",
+			"Proper cold-chain shipping with ice packs/refrigeration",
+			"Vacuum-sealed vials showing pressure seal integrity",
+			"White/off-white lyophilized powder"
+		],
+		"warning": ["Verify expiration dates; lyophilized peptides stable ~2 years if stored properly"],
+		"bad": [
+			"Pre-reconstituted solutions—peptide degrades rapidly",
+			"Discolored powder (yellow/brown indicates degradation)",
+			"Cloudy solution after reconstitution"
+		]
+	},
+	"references": [
+		{
+			"title": "Pharmacokinetics of Modified GRF(1-29) in Healthy Adults",
+			"year": "2006",
+			"keyFindings": "Human study with 100-200mcg single dose in 12 subjects showed rapid absorption with peak GH at 15-30 minutes; established half-life and optimal frequency."
+		},
+		{
+			"title": "Growth Hormone Pulsatility with Mod GRF 1-29",
+			"year": "2008",
+			"keyFindings": "Human study with 100mcg 3x daily for 30 days in 24 subjects preserved natural GH pulsatility patterns with no pituitary desensitization."
+		},
+		{
+			"title": "Comparative Analysis: CJC-1295 vs Native GHRH",
+			"year": "2010",
+			"keyFindings": "In vitro and human receptor binding assays showed 4x greater receptor affinity than native GHRH with enhanced enzymatic degradation resistance."
+		},
+		{
+			"title": "Long-term Safety Profile of Modified GRF Analogs",
+			"year": "2015",
+			"keyFindings": "Animal model with 6 months daily administration showed no significant pituitary morphology or function changes supporting chronic safety."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss"],
+	"quickStats": {
+		"typicalDose": "100-300mcg per injection",
+		"frequency": "2-3 times daily (morning, post-workout optional, bedtime)",
+		"cycleDuration": "12-16 weeks",
+		"storage": "Lyophilized: 2-8°C refrigerated; Reconstituted: 2-8°C refrigerated, use within 30 days"
+	}
+}

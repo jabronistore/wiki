@@ -1,0 +1,245 @@
+{
+	"id": "cagrilintide",
+	"name": "Cagrilintide",
+	"subtitle": "Long-Acting Amylin Receptor Agonist | Weight Loss & Diabetes",
+	"aliases": ["AM833"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "4,409.01 Da",
+		"length": "37 amino acids",
+		"type": "Amylin receptor agonist",
+		"sequence": "37-amino acid peptide",
+		"modifications": [
+			"N-terminal lipidation with γ-glutamic acid spacer and C20 fatty diacid",
+			"Engineered mutations reduce β-sheet formation and fibril propensity"
+		],
+		"halfLife": "~7 days (159-195 hours)",
+		"halfLifeSeconds": 604800
+	},
+	"overview": "Novel long-acting lipidated amylin analog functioning as dual amylin and calcitonin receptor agonist for weight management and type 2 diabetes. Phase 3 trials demonstrate 22.7% weight loss with CagriSema combination.",
+	"mechanism": "Subcutaneous injection enables optimal bioavailability, targeting dual amylin and calcitonin receptors for satiety and metabolic regulation. Enhances insulin sensitivity and controls gastric emptying.",
+	"keyBenefits": [
+		"FDA development candidate with extensive Phase 3 data",
+		"Superior weight loss in combination with semaglutide (22.7%)",
+		"Once-weekly convenience",
+		"2.2% HbA1c reduction with CagriSema"
+	],
+	"indications": [
+		{
+			"category": "Weight Loss",
+			"items": [
+				{
+					"name": "Obesity (Monotherapy)",
+					"description": "Phase 3 trials demonstrate significant weight loss.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Obesity (CagriSema Combination)",
+					"description": "22.7% weight loss with CagriSema combination, surpassing existing therapies.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Weight Loss in Diabetic Patients",
+					"description": "15.7% weight loss in diabetic patients with concurrent glycemic improvements.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Glycemic Control",
+					"description": "2.2% HbA1c reduction with CagriSema versus semaglutide alone.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Insulin Sensitivity",
+					"description": "Amylin receptor activation enhances insulin sensitivity and glucose metabolism.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Appetite Control",
+			"items": [
+				{
+					"name": "Satiety Enhancement",
+					"description": "Dual pathway satiety via amylin and calcitonin receptor activation.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection to abdomen, thigh, or upper arm. Pre-filled pen design when commercially available.",
+			"protocols": [
+				{
+					"goal": "Weight Loss (Monotherapy)",
+					"dose": "2.4mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Weight Loss (CagriSema)",
+					"dose": "2.4mg + semaglutide 2.4mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Type 2 Diabetes Management",
+					"dose": "2.4mg weekly",
+					"frequency": "Once weekly",
+					"route": "SubQ with metformin"
+				},
+				{
+					"goal": "Dose Escalation Protocol",
+					"dose": "0.25mg → 0.5mg → 1.0mg → 1.7mg → 2.4mg",
+					"frequency": "Weekly increases over 16 weeks",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (standard BAC water acceptable for <30 days)",
+					"Optional: 0.6% acetic acid to adjust pH to ~4.0",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"CRITICAL: Requires acidic pH (3.5-4.5) to prevent fibril formation",
+					"Reconstitute slowly down vial side; swirl gently (do not shake)",
+					"Verify pH 3.5-4.5 after reconstitution",
+					"Solution must be clear—discard if cloudy or particulate",
+					"Store refrigerated (2-8°C); inspect before each injection",
+					"Allow 15-30 minutes to reach room temperature before injection",
+					"Rotate injection sites weekly"
+				]
+			},
+			"keyBenefits": [
+				"Once-weekly convenience",
+				"Pre-filled pen design when approved",
+				"Dual receptor targeting"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semaglutide",
+			"status": "synergistic",
+			"notes": "CagriSema combination achieves enhanced weight loss through complementary GLP-1 and amylin pathways."
+		},
+		{
+			"peptide": "Tirzepatide",
+			"status": "compatible",
+			"notes": "No known direct interactions; different mechanisms allow concurrent use."
+		},
+		{
+			"peptide": "Retatrutide",
+			"status": "monitor",
+			"notes": "Compounded GI side effects create substantial risk without specialist supervision."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "compatible",
+			"notes": "Well-tolerated in Phase 2/3 trials with no pharmacokinetic interactions."
+		},
+		{
+			"peptide": "SGLT2 Inhibitors",
+			"status": "compatible",
+			"notes": "Clinical trials demonstrated safe concurrent use with complementary mechanisms."
+		},
+		{
+			"peptide": "Pramlintide",
+			"status": "avoid",
+			"notes": "Both are amylin agonists; combination provides no additional benefit and increases GI risks."
+		},
+		{
+			"peptide": "Oral Contraceptives",
+			"status": "monitor",
+			"notes": "Delayed gastric emptying may affect absorption; space administration by 1 hour."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Gastrointestinal adaptation; mild nausea possible during dose escalation"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Early weight loss (2-5%); noticeable appetite reduction"
+		},
+		{
+			"period": "Week 12-26",
+			"effects": "Significant weight loss acceleration (10-15%); improved satiety signals"
+		},
+		{
+			"period": "Week 26+",
+			"effects": "Peak efficacy (15-23% weight loss); sustained maintenance with continued therapy"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Gastrointestinal effects (nausea, vomiting, diarrhea) during initial weeks",
+			"Anti-cagrilintide antibodies develop in 46-73% but do not affect efficacy",
+			"Only 57.3% achieved maximum 2.4mg dose in REDEFINE 1 trial"
+		],
+		"stopSigns": [
+			"Severe persistent nausea/vomiting preventing hydration",
+			"Pancreatitis signs (severe abdominal pain radiating to back)",
+			"Severe allergic reactions or anaphylaxis",
+			"Significant injection site reactions or abscess formation"
+		],
+		"contraindications": [
+			"Not recommended in pregnancy or breastfeeding",
+			"Not yet commercially available (FDA approval expected Q1 2026)"
+		],
+		"monitoring": [
+			"No clinically significant QT prolongation observed",
+			"Monitor for fibril formation in reconstituted solution (must remain clear)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pre-filled pen design when approved",
+			"Pharmaceutical grade purity >98%",
+			"Frozen storage stability at -20°C",
+			"Extended stability over 7-day dosing interval"
+		],
+		"warning": [
+			"Standard bacteriostatic water acceptable short-term but may degrade at neutral pH; optimal stability requires pH ~4.0"
+		],
+		"bad": [
+			"Fibril formation at improper pH—solution must remain clear",
+			"Aggregation or precipitation indicates degradation"
+		]
+	},
+	"references": [
+		{
+			"title": "REDEFINE 1 Trial - Phase 3 Weight Loss",
+			"year": "2025",
+			"keyFindings": "3,417 adults with obesity; 22.7% weight loss with CagriSema vs 2.4% placebo. New England Journal of Medicine."
+		},
+		{
+			"title": "REDEFINE 2 Trial - Phase 3 Type 2 Diabetes",
+			"year": "2025",
+			"keyFindings": "1,206 adults; 15.7% weight loss; 73.5% achieved HbA1c ≤6.5%. New England Journal of Medicine."
+		},
+		{
+			"title": "Phase 2 Type 2 Diabetes Combination Study",
+			"year": "2023",
+			"keyFindings": "32 weeks; 15.6% weight loss; 2.2% HbA1c reduction with CagriSema. The Lancet."
+		}
+	],
+	"categories": ["weight-loss", "metabolic"],
+	"quickStats": {
+		"typicalDose": "2.4mg weekly (after escalation)",
+		"frequency": "Once weekly, same day each week",
+		"cycleDuration": "Continuous long-term therapy",
+		"storage": "Lyophilized: -20°C frozen; Reconstituted: 2-8°C refrigerated, use within 30 days"
+	}
+}

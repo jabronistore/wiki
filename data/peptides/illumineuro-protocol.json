@@ -1,0 +1,297 @@
+{
+	"id": "illumineuro-protocol",
+	"name": "IllumiNeuro Protocol",
+	"subtitle": "Four-Peptide Cognitive Enhancement Blend",
+	"aliases": ["IllumiNeuro", "Neuro Stack"],
+	"categories": ["cognitive"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"molecular": {
+		"type": "Fixed-ratio peptide combination",
+		"sequence": "PE-22-28 + Pinealon + NA-Semax + NA-Selank"
+	},
+	"overview": "IllumiNeuro is a cognitive enhancement peptide blend combining four nootropic peptides: PE-22-28 (neuritogenic), Pinealon (pineal bioregulator), NA-Semax Amidate (neuroprotective/cognitive), and NA-Selank Amidate (anxiolytic/cognitive). The standard formulation contains 48mg total (PE-22-28 10mg + Pinealon 10mg + NA-Semax 20mg + NA-Selank 8mg). This blend targets multiple neurological pathways for comprehensive cognitive support, though no clinical studies exist on this specific four-peptide combination.",
+	"mechanism": "Each peptide contributes distinct neurological mechanisms: PE-22-28 promotes neurite outgrowth and neural connectivity through sphingosine-1-phosphate receptor modulation; Pinealon is a bioregulator that supports pineal gland function and circadian regulation; NA-Semax Amidate provides BDNF upregulation and neuroprotection; NA-Selank Amidate offers anxiolytic effects through GABA modulation and immune-neuroendocrine regulation. Together, they theoretically address cognitive enhancement, neuroprotection, mood support, and neural regeneration.",
+	"keyBenefits": [
+		"Multi-pathway cognitive enhancement",
+		"Neuroprotective and neuritogenic effects",
+		"Anxiolytic properties from NA-Selank",
+		"BDNF upregulation from NA-Semax",
+		"Circadian/sleep support from Pinealon",
+		"Convenience of single injection",
+		"Extended-action amidate forms included"
+	],
+	"indications": [
+		{
+			"category": "Cognitive Enhancement",
+			"items": [
+				{
+					"name": "Memory & Learning",
+					"description": "Combined BDNF support and neuritogenic effects may enhance memory formation and learning.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Focus & Concentration",
+					"description": "NA-Semax component supports sustained attention and mental clarity.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neuroprotection",
+					"description": "Multiple pathways protecting neural tissue from oxidative stress and damage.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Mood & Anxiety",
+			"items": [
+				{
+					"name": "Anxiety Reduction",
+					"description": "NA-Selank provides anxiolytic effects through GABA modulation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Stress Adaptation",
+					"description": "Immune-neuroendocrine support helps with stress resilience.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Mood Support",
+					"description": "Combined effects on neurotransmitter systems may improve overall mood.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neural Health",
+			"items": [
+				{
+					"name": "Neurite Outgrowth",
+					"description": "PE-22-28 promotes neural connectivity and neurite extension.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Circadian Regulation",
+					"description": "Pinealon supports healthy sleep-wake cycles and pineal function.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the standard delivery method. Some users also administer intranasally for more direct CNS effects. Amidate forms (NA-Semax and NA-Selank) have enhanced stability and duration.",
+			"protocols": [
+				{
+					"goal": "Conservative cognitive support",
+					"dose": "100-200mcg total blend",
+					"frequency": "Once daily (morning)",
+					"route": "SubQ or intranasal"
+				},
+				{
+					"goal": "Standard protocol",
+					"dose": "200-400mcg total blend",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Enhanced protocol",
+					"dose": "400-500mcg total blend",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"IllumiNeuro 48mg vial",
+					"Bacteriostatic water (2-4mL)",
+					"Insulin syringes",
+					"Alcohol prep pads"
+				],
+				"steps": [
+					"Clean vial top with alcohol pad",
+					"Add 2mL bacteriostatic water (creates 24mg/mL)",
+					"Gently swirl - do not shake",
+					"Solution should appear clear",
+					"Label with date and concentration",
+					"Store refrigerated immediately",
+					"Use within 4 weeks"
+				]
+			},
+			"keyBenefits": [
+				"Morning dosing for cognitive benefits",
+				"Can split dose if desired",
+				"Intranasal option for some users"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal delivery provides more direct access to the CNS. The component peptides (especially Semax and Selank) have established intranasal protocols.",
+			"protocols": [
+				{
+					"goal": "Intranasal cognitive",
+					"dose": "100-300mcg",
+					"frequency": "Once or twice daily",
+					"route": "Intranasal spray"
+				}
+			],
+			"keyBenefits": ["Direct CNS access", "Non-invasive", "Rapid onset"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "NA-Semax (standalone)",
+			"status": "avoid",
+			"notes": "Already contains NA-Semax - do not add more to avoid overdosing."
+		},
+		{
+			"peptide": "NA-Selank (standalone)",
+			"status": "avoid",
+			"notes": "Already contains NA-Selank - do not add more."
+		},
+		{
+			"peptide": "Pinealon (standalone)",
+			"status": "avoid",
+			"notes": "Already contains Pinealon."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "compatible",
+			"notes": "Complementary pineal/longevity support; different mechanisms."
+		},
+		{
+			"peptide": "Dihexa",
+			"status": "monitor",
+			"notes": "Both highly neuroactive; use caution combining multiple cognitive enhancers."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different targets; BPC-157 may complement with healing/gut-brain effects."
+		},
+		{
+			"peptide": "Stimulants",
+			"status": "monitor",
+			"notes": "The blend has stimulatory cognitive effects; monitor if combining with other stimulants."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-3",
+			"effects": "NA-Semax/Selank effects may be noticeable quickly (focus, anxiety reduction)"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Cognitive enhancement and mood effects develop"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Neuritogenic and BDNF effects building"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Full protocol benefits; assess and cycle off"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions (mild)",
+			"Nasal irritation if used intranasally",
+			"Possible vivid dreams (Pinealon effect)",
+			"Mild headache initially"
+		],
+		"rare": ["Overstimulation or anxiety (paradoxical)", "Sleep changes"],
+		"stopSigns": [
+			"Severe headaches",
+			"Significant mood changes",
+			"Allergic reactions",
+			"Cognitive impairment instead of enhancement"
+		],
+		"contraindications": [
+			"No clinical trials on four-peptide combination",
+			"Bipolar disorder or psychosis (caution with cognitive enhancers)",
+			"Pregnancy or breastfeeding",
+			"Seizure disorders (theoretical concern)"
+		],
+		"monitoring": [
+			"Cognitive function and focus",
+			"Mood and anxiety levels",
+			"Sleep quality",
+			"Any unusual neurological symptoms"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party testing confirming all four components",
+			"Certificate of Analysis with ratios verified",
+			"Reputable research supplier",
+			"Proper cold chain shipping"
+		],
+		"warning": [
+			"Research-only status - not approved for human use",
+			"Complex four-peptide formulation may have batch variability"
+		],
+		"bad": [
+			"No Certificate of Analysis",
+			"Cannot verify component ratios",
+			"Suspiciously low pricing"
+		]
+	},
+	"references": [
+		{
+			"title": "PE-22-28 Neuritogenic Effects",
+			"journal": "Neuroscience Research",
+			"keyFindings": "PE-22-28 promotes neurite outgrowth through S1P receptor modulation."
+		},
+		{
+			"title": "NA-Semax Amidate Cognitive Enhancement",
+			"journal": "Multiple Studies",
+			"keyFindings": "Enhanced stability amidate form of Semax with BDNF upregulation and neuroprotective effects."
+		},
+		{
+			"title": "NA-Selank Amidate Anxiolytic Properties",
+			"journal": "Pharmacological Research",
+			"keyFindings": "Selank demonstrates anxiolytic effects through GABA modulation and immune-neuroendocrine regulation."
+		},
+		{
+			"title": "Pinealon Bioregulator",
+			"journal": "Russian Medical Literature",
+			"keyFindings": "Pinealon (EDR tripeptide) supports pineal gland function and circadian regulation."
+		}
+	],
+	"blendComposition": {
+		"totalAmount": 48,
+		"unit": "mg",
+		"components": [
+			{
+				"name": "PE-22-28",
+				"amount": 10,
+				"ratio": 1.25
+			},
+			{
+				"name": "Pinealon",
+				"amount": 10,
+				"ratio": 1.25
+			},
+			{
+				"name": "NA-Semax",
+				"amount": 20,
+				"ratio": 2.5
+			},
+			{
+				"name": "NA-Selank",
+				"amount": 8,
+				"ratio": 1
+			}
+		]
+	},
+	"quickStats": {
+		"typicalDose": "100-500 mcg total blend per day",
+		"frequency": "Once daily, preferably in the morning for cognitive benefits",
+		"cycleDuration": "4-8 weeks",
+		"storage": "Lyophilized: Room temperature. Reconstituted: 2-8°C, use within 4 weeks"
+	}
+}

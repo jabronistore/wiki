@@ -1,0 +1,261 @@
+{
+	"id": "tesamorelin",
+	"name": "Tesamorelin",
+	"subtitle": "GHRH Analog | Visceral Fat Reduction",
+	"aliases": ["Egrifta SV", "Egrifta WR"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "5,135.9 Da",
+		"length": "44 amino acids",
+		"type": "GHRH analog",
+		"sequence": "His-Ala-Asp-Gly-Ile-Phe-Thr-Asn-Ser-Tyr-Arg-Lys-Val-Leu-Gly-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Met-Ser-Arg-Gln-Gln-Gly-Glu-Ser-Asn-Gln-Glu-Arg-Gly-Ala-Arg-Ala-Arg-Leu",
+		"modifications": ["Modified with trans-3-hexenoic acid at N-terminus for enhanced stability"],
+		"halfLife": "26-38 minutes",
+		"halfLifeSeconds": 1920
+	},
+	"overview": "Tesamorelin is an FDA-approved synthetic GHRH analog designed for HIV-associated lipodystrophy treatment. It provides selective visceral fat targeting with 15-20% visceral fat reduction in clinical trials while preserving subcutaneous fat.",
+	"mechanism": "Subcutaneous injection provides optimal bioavailability for GHRH receptor binding and pulsatile GH release stimulation, selectively targeting visceral adipose tissue while sparing subcutaneous fat.",
+	"keyBenefits": [
+		"FDA-approved formulation",
+		"Selective visceral fat targeting (15-20% reduction)",
+		"Proven clinical efficacy",
+		"Standardized dosing",
+		"37% liver fat reduction in NAFLD",
+		"Preserved subcutaneous fat"
+	],
+	"indications": [
+		{
+			"category": "Weight Loss",
+			"items": [
+				{
+					"name": "HIV-Associated Lipodystrophy",
+					"description": "FDA-approved indication showing 15-20% visceral fat reduction in clinical trials.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Selective Visceral Fat Targeting",
+					"description": "Unique mechanism that reduces dangerous visceral fat while sparing subcutaneous fat.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sustained Fat Loss",
+					"description": "Maintained weight loss with continuous treatment over 52+ weeks in clinical studies.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Triglyceride Reduction",
+					"description": "12.3% reduction in triglyceride levels.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cholesterol Profile Improvement",
+					"description": "7.2% improvement in cholesterol markers.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "NAFLD Treatment",
+					"description": "37% liver fat reduction over 12 months.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Mass Preservation",
+					"description": "Preserves lean muscle mass during fat loss.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "IGF-1 Elevation",
+					"description": "26% increase in IGF-1 levels.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection to abdomen (avoid navel ±2 inches). Evening injection preferred for GH circadian rhythm alignment.",
+			"protocols": [
+				{
+					"goal": "HIV Lipodystrophy (FDA-approved)",
+					"dose": "1.4mg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Visceral Fat Reduction",
+					"dose": "2mg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Anti-aging/Body Composition",
+					"dose": "1-2mg",
+					"frequency": "5-7x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "NAFLD Treatment",
+					"dose": "2mg",
+					"frequency": "Once daily (12 months)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Cognitive Enhancement",
+					"dose": "1mg",
+					"frequency": "Once daily (20 weeks)",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Tesamorelin lyophilized powder",
+					"Sterile water (Egrifta SV) or Bacteriostatic water (Egrifta WR)",
+					"Insulin syringes",
+					"Alcohol prep pads"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Egrifta SV: Add 0.5mL sterile water to 2mg vial - use immediately",
+					"Egrifta WR: Add 1.3mL bacteriostatic water to 11.6mg vial - stable 7 days",
+					"Gently swirl (don't shake vigorously)",
+					"Withdraw appropriate dose (~0.35mL for 1.4mg)",
+					"Inject SubQ, rotating sites",
+					"Store reconstituted WR at room temperature up to 7 days"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen (avoid navel ±2 inches)",
+				"Rotate injection sites",
+				"Evening injection preferred"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Ipamorelin",
+			"status": "monitor",
+			"notes": "Synergistic GH stimulation; monitor IGF-1 levels."
+		},
+		{
+			"peptide": "CJC-1295",
+			"status": "monitor",
+			"notes": "Combined use may elevate IGF-1 supraphysiologically."
+		},
+		{
+			"peptide": "Sermorelin",
+			"status": "monitor",
+			"notes": "Similar mechanism; risk of excessive effects at higher doses."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "3.3-fold diabetes risk increase; monitor glucose closely."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "compatible",
+			"notes": "May mitigate glucose intolerance associated with tesamorelin."
+		},
+		{
+			"peptide": "Prednisone",
+			"status": "monitor",
+			"notes": "Decreases corticosteroid effectiveness."
+		},
+		{
+			"peptide": "Octreotide",
+			"status": "avoid",
+			"notes": "Blocks GH release, negates tesamorelin effects."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "avoid",
+			"notes": "Redundant; risk of acromegaly-like effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "IGF-1 levels begin to rise, possible mild water retention or joint discomfort"
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Early metabolic changes; improved energy/sleep"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Visible visceral fat reduction begins, waist circumference may decrease"
+		},
+		{
+			"period": "Week 12-26",
+			"effects": "Peak effects achieved with significant body composition improvements"
+		}
+	],
+	"sideEffects": {
+		"common": ["Injection site reactions (17%)", "Joint pain (13%)", "Water retention"],
+		"stopSigns": [
+			"Development of diabetes or severe glucose intolerance (HbA1c ≥6.5%)",
+			"Signs of malignancy",
+			"Severe hypersensitivity reactions",
+			"Excessive IGF-1 elevation (>2 SD above normal) with acromegaly symptoms"
+		],
+		"contraindications": ["Active malignancy", "Pituitary disorders", "Pregnancy"],
+		"monitoring": [
+			"Monitor blood glucose regularly - 3.3-fold increased diabetes risk documented",
+			"IGF-1 levels should be checked monthly - 47% exceed normal range at 26 weeks"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"FDA-approved formulations (Egrifta SV/WR from licensed pharmacy)",
+			"White crystalline powder (uniform, cake-like)",
+			"Clear reconstituted solution (colorless, no particles)",
+			"Proper packaging (sealed vials, intact stoppers)"
+		],
+		"warning": ["Compounded formulations may have quality/potency variability"],
+		"bad": [
+			"Discolored or cloudy solution (yellow/brown indicates degradation)",
+			"Visible particles or precipitate"
+		]
+	},
+	"references": [
+		{
+			"title": "LIPO-010 FDA Pivotal Trial",
+			"year": "2010",
+			"keyFindings": "Significant visceral adipose tissue reduction (-24 ± 41 cm² vs +2 ± 35 cm² placebo, p < 0.001) in HIV patients over 26 weeks."
+		},
+		{
+			"title": "CTR-1011 Extended Safety Study",
+			"year": "2011",
+			"keyFindings": "69% achieved ≥8% VAT reduction vs 33% placebo at 26-52 weeks."
+		},
+		{
+			"title": "NAFLD Treatment Trial",
+			"year": "2019",
+			"keyFindings": "37% liver fat reduction over 12 months with fibrosis progression prevention."
+		},
+		{
+			"title": "Cognitive Enhancement Study",
+			"year": "2012",
+			"keyFindings": "Improved executive function and verbal memory in healthy elderly and mild cognitive impairment cohorts at 1mg daily."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss"],
+	"quickStats": {
+		"typicalDose": "1.4-2mg daily (FDA-approved: 2mg for HIV lipodystrophy)",
+		"frequency": "Once daily (evening preferred for GH rhythm)",
+		"cycleDuration": "Continuous therapy for maintained benefits",
+		"storage": "Powder: 20-25°C. Egrifta SV: use immediately. Egrifta WR: room temp up to 7 days"
+	}
+}

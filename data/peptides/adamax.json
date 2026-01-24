@@ -1,0 +1,290 @@
+{
+	"id": "adamax",
+	"name": "Adamax",
+	"subtitle": "Next-Generation Semax Derivative | Nootropic Neuropeptide",
+	"aliases": [],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "1,032.24 Da",
+		"length": "9 amino acids (with modifications)",
+		"type": "Modified heptapeptide derivative",
+		"sequence": "Ac-Met-Glu-His-Phe-Pro-Gly-Pro-AGly-NH2",
+		"modifications": [
+			"N-terminal acetylation",
+			"C-terminal adamantane group for enhanced stability and BBB penetration"
+		],
+		"halfLife": "8-10 hours",
+		"halfLifeSeconds": 32400
+	},
+	"overview": "Synthetic nootropic peptide with N-terminal acetylation and C-terminal adamantane modification for superior stability and blood-brain barrier penetration, researched for cognitive enhancement, neuroprotection, and neuroplasticity.",
+	"mechanism": "Crosses BBB via enhanced lipophilicity from adamantane; upregulates BDNF and TrkB receptor sensitivity; modulates dopamine, norepinephrine, and serotonin; stabilizes microtubules via ADNP-derived mechanisms; provides antioxidant and anti-inflammatory neuroprotection.",
+	"keyBenefits": [
+		"Enhanced cognitive function and mental clarity",
+		"Improved focus and complex task handling",
+		"Neuroprotection against oxidative stress",
+		"Neuroplasticity support through BDNF upregulation",
+		"Potential mood enhancement",
+		"Stress resilience through HPA axis modulation"
+	],
+	"indications": [
+		{
+			"category": "Cognitive",
+			"items": [
+				{
+					"name": "Cognitive Enhancement",
+					"description": "Preliminary research suggests improvements in focus, mental clarity, memory consolidation, and complex task handling.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Neuroplasticity Support",
+					"description": "BDNF upregulation and TrkB enhancement promote new neural connections and synaptic plasticity for long-term improvements.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Learning and Memory",
+					"description": "May enhance memory formation, information retention, and learning efficiency through hippocampal BDNF-TrkB pathway activation.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotective",
+			"items": [
+				{
+					"name": "Stroke Recovery",
+					"description": "Preliminary observations indicate improved neurological outcomes through oxidative stress reduction and neuronal repair.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Oxidative Stress Protection",
+					"description": "Demonstrates antioxidant properties protecting against oxidative damage and inflammation-induced neuronal injury.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neuronal Maintenance",
+					"description": "Supports neuronal survival and growth through BDNF enhancement and microtubule stabilization.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Mood",
+			"items": [
+				{
+					"name": "Mood Enhancement",
+					"description": "Influences serotonin and dopamine to elevate mood and reduce depressive symptoms through neurotransmitter modulation.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Anxiety Reduction",
+					"description": "Anecdotal reports indicate reduced overwhelm and anxiety through balanced neurotransmitter activity.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Stress Resilience",
+					"description": "HPA axis modulation may improve stress response and emotional well-being.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Enhanced cognitive function and neuroprotection through direct systemic delivery with superior bioavailability.",
+			"protocols": [
+				{
+					"goal": "Cognitive Enhancement",
+					"dose": "200-300mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Neuroprotection",
+					"dose": "300mcg",
+					"frequency": "1-2x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Mood Support",
+					"dose": "200mcg",
+					"frequency": "1x daily (morning)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Initial Trial",
+					"dose": "100-200mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes (0.5-1mL)",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly with alcohol",
+					"Calculate required BAC water volume using calculator",
+					"Draw calculated BAC water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until completely dissolved (never shake vigorously)",
+					"Store reconstituted solution in refrigerator at 2-8°C",
+					"Use within 14-30 days for optimal potency"
+				]
+			},
+			"keyBenefits": [
+				"High bioavailability",
+				"Precise dosing",
+				"Morning preferred for cognitive benefits"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Convenient non-injectable administration with potentially smoother cognitive effects; lower bioavailability than injectable route.",
+			"protocols": [
+				{
+					"goal": "Cognitive Enhancement",
+					"dose": "100-200mg",
+					"frequency": "1x daily (morning)",
+					"route": "Oral/Sublingual"
+				},
+				{
+					"goal": "Sustained Focus",
+					"dose": "100-200mg",
+					"frequency": "2x daily (morning, early afternoon)",
+					"route": "Oral/Sublingual"
+				},
+				{
+					"goal": "Mood Support",
+					"dose": "100mg",
+					"frequency": "1x daily (morning)",
+					"route": "Oral/Sublingual"
+				},
+				{
+					"goal": "Initial Assessment",
+					"dose": "100mg",
+					"frequency": "1x daily",
+					"route": "Oral/Sublingual"
+				}
+			],
+			"keyBenefits": ["Non-invasive", "Convenient", "Smoother cognitive effects"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semax",
+			"status": "compatible",
+			"notes": "Adamax is an enhanced derivative with improved stability and bioavailability."
+		},
+		{
+			"peptide": "P21",
+			"status": "synergistic",
+			"notes": "Adamax incorporates adamantyl portion from P21; may complement cognitive benefits."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms—Adamax targets neurological function; BPC-157 focuses on tissue repair."
+		},
+		{
+			"peptide": "Noopept",
+			"status": "monitor",
+			"notes": "Both enhance cognition through different mechanisms but share BDNF upregulation; start lower doses and monitor for overstimulation."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Hours 1-4",
+			"effects": "Potential acute cognitive enhancement and improved focus"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Enhanced mental clarity, reduced anxiety, improved mood"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Neuroplasticity benefits, sustained cognitive improvements"
+		},
+		{
+			"period": "Week 4+",
+			"effects": "Maximum neuroprotective and structural brain benefits"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Headaches (particularly at higher doses)",
+			"Insomnia or sleep disruption",
+			"Anxiety or overstimulation",
+			"Cardiovascular effects (elevated blood pressure, palpitations)"
+		],
+		"stopSigns": [
+			"Persistent or severe headaches",
+			"Chest pain, heart palpitations, or significant blood pressure increases",
+			"Severe anxiety, insomnia, or mood disturbances",
+			"Unusual neurological symptoms or mental status changes",
+			"Persistent injection site reactions or infection signs",
+			"Gastrointestinal distress (nausea, vomiting, diarrhea)"
+		],
+		"contraindications": [
+			"Pregnancy and breastfeeding",
+			"Cardiovascular conditions (without medical supervision)",
+			"Severe anxiety disorders",
+			"Uncontrolled hypertension"
+		],
+		"monitoring": [
+			"Assess individual response at lower initial doses",
+			"Monitor cardiovascular parameters",
+			"Track tolerance development over cycling periods",
+			"Observe for mood or sleep changes",
+			"Use sterile injection technique to prevent infection"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White, fluffy powder indicating proper freeze-drying",
+			"Clear solution after reconstitution with no particles or cloudiness",
+			"Proper labeling with peptide name, batch number, manufacturing date"
+		],
+		"warning": ["Slight compaction from shipping acceptable if powder dissolves completely"],
+		"bad": [
+			"Discoloration or yellowing indicates oxidation or degradation",
+			"Persistent cloudiness or particles indicate degradation or contamination"
+		]
+	},
+	"references": [
+		{
+			"title": "Semax Cognitive Enhancement in Fatigued Volunteers (Parent Compound)",
+			"year": "N/A",
+			"keyFindings": "Single intranasal administration (16 mcg/kg) resulted in 71% accuracy on memory tests versus 41% in controls, with effects lasting 24 hours."
+		},
+		{
+			"title": "Semax in Stroke Recovery - BDNF Elevation (Parent Compound)",
+			"year": "N/A",
+			"keyFindings": "110 patients, 6000 mcg/day intranasal showed increased plasma BDNF levels, improved motor performance, enhanced functional independence."
+		},
+		{
+			"title": "Adamax Stroke Recovery Preliminary Reports",
+			"year": "N/A",
+			"keyFindings": "Patients treated shortly after stroke showed better neurological outcomes through oxidative stress reduction."
+		},
+		{
+			"title": "BDNF and TrkB Receptor Upregulation Studies",
+			"year": "N/A",
+			"keyFindings": "Adamax increases BDNF levels and enhances TrkB receptor sensitivity in hippocampus."
+		}
+	],
+	"categories": ["cognitive", "longevity"],
+	"quickStats": {
+		"typicalDose": "200-300mcg",
+		"frequency": "Once daily, or twice for enhanced neuroprotection",
+		"cycleDuration": "2-4 weeks",
+		"storage": "Lyophilized: room temp or freezer. Reconstituted: 2-8°C for 14-30 days"
+	}
+}

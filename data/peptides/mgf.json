@@ -1,0 +1,194 @@
+{
+	"id": "mgf",
+	"name": "MGF",
+	"subtitle": "Mechano Growth Factor | IGF-1 Splice Variant",
+	"aliases": ["Mechano Growth Factor", "IGF-1Ec", "MGF-24aa-E"],
+	"researchStatus": "limited",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~2,888 Da",
+		"length": "24 amino acids",
+		"type": "IGF-1Ec splice variant C-terminal peptide",
+		"sequence": "YQPPSTNKNTKSQRRKGSTFEEHK",
+		"halfLife": "~5-7 minutes",
+		"halfLifeSeconds": 360
+	},
+	"overview": "Non-pegylated IGF-1 splice variant produced locally in muscle tissue following mechanical stress. Has a very short half-life compared to PEG-MGF, requiring more frequent administration or localized injection.",
+	"mechanism": "Activates muscle satellite stem cells via receptor binding, stimulating MAPK/ERK signaling. Enhances protein synthesis and promotes muscle fiber repair. The E-peptide domain exhibits distinct activity from mature IGF-1.",
+	"keyBenefits": [
+		"Satellite cell activation for muscle repair",
+		"Recovery support following mechanical stress",
+		"Localized tissue regeneration",
+		"Natural upregulation after exercise"
+	],
+	"indications": [
+		{
+			"category": "Muscle Repair",
+			"items": [
+				{
+					"name": "Satellite Cell Activation",
+					"description": "Primary mechanism activating dormant muscle satellite cells which fuse to damaged fibers.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Local Muscle Recovery",
+					"description": "Short half-life means effects are concentrated at injection site.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Post-Exercise Recovery",
+					"description": "Naturally upregulated after mechanical stress; supplementation enhances repair processes.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Tissue Regeneration",
+			"items": [
+				{
+					"name": "Tendon Healing",
+					"description": "Animal studies suggest improved tendon injury outcomes when applied locally.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Bone Regeneration",
+					"description": "Research indicates potential for bone healing via osteoblast regulation.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Intramuscular injection directly into target muscle immediately post-workout for localized effects due to short half-life.",
+			"protocols": [
+				{
+					"goal": "Standard Protocol",
+					"dose": "100-300mcg",
+					"frequency": "Daily, post-workout",
+					"route": "IM into target muscle"
+				},
+				{
+					"goal": "Progressive Titration",
+					"dose": "100mcg → 300mcg",
+					"frequency": "Daily, increasing weekly",
+					"route": "IM bilateral"
+				},
+				{
+					"goal": "Localized Recovery",
+					"dose": "200-300mcg",
+					"frequency": "Immediately post-workout",
+					"route": "IM into worked muscle groups"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"MGF lyophilized powder (typically 5mg vial)",
+					"Bacteriostatic water (3.0mL recommended)",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Clean rubber stopper with alcohol swab",
+					"Add 3.0mL bacteriostatic water for ~1.67mg/mL concentration",
+					"Inject slowly along vial wall, not directly onto powder",
+					"Gently swirl to dissolve; never shake",
+					"Store refrigerated at 2-8°C",
+					"Use within 30 days of reconstitution"
+				]
+			},
+			"keyBenefits": [
+				"Localized muscle repair",
+				"Targeted satellite cell activation",
+				"Post-workout timing optimal"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "PEG-MGF",
+			"status": "monitor",
+			"notes": "Same active peptide with different half-lives. Combining is redundant; choose one based on protocol preference."
+		},
+		{
+			"peptide": "IGF-1 LR3",
+			"status": "monitor",
+			"notes": "Both target IGF-1 pathways; combining risks receptor overstimulation."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Complementary mechanisms. BPC-157 promotes angiogenesis; MGF activates satellite cells."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "synergistic",
+			"notes": "TB-500 reduces inflammation and promotes cell migration; MGF activates muscle stem cells."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Immediate",
+			"effects": "Very short half-life means localized effects at injection site within minutes"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Reduced muscle soreness in targeted areas; subtle recovery improvements"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Improved recovery in targeted muscles; enhanced training capacity"
+		}
+	],
+	"sideEffects": {
+		"common": ["Injection site soreness", "Mild fatigue"],
+		"stopSigns": [
+			"Any unusual growths, lumps, or rapid tissue changes",
+			"Severe injection site reactions",
+			"Persistent headaches or vision changes",
+			"Signs of hypoglycemia"
+		],
+		"contraindications": [
+			"Any history of cancer or neoplastic disease",
+			"Pregnancy or breastfeeding",
+			"Uncontrolled diabetes"
+		],
+		"monitoring": [
+			"Not FDA-approved; limited human safety data",
+			"Very short half-life requires precise timing",
+			"Blood glucose monitoring recommended",
+			"Prohibited in competitive sports (WADA banned)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White or off-white fluffy cake appearance",
+			"Crystal clear solution after reconstitution",
+			"Certificate of Analysis with HPLC purity >98%"
+		],
+		"warning": ["Minor clumping that dissolves with gentle swirling"],
+		"bad": ["Collapsed or discolored powder", "Persistent cloudiness or visible particles"]
+	},
+	"references": [
+		{
+			"title": "MGF-E Peptide Human Muscle Cell Study",
+			"year": "2011",
+			"keyFindings": "MGF significantly increased satellite cell proliferation at 3ng/ml with age-dependent effects."
+		},
+		{
+			"title": "Mechano-Growth Factor Minireview",
+			"year": "2010",
+			"keyFindings": "Overview of MGF as IGF-I gene product involved in tissue repair, upregulated following exercise and injury."
+		}
+	],
+	"categories": ["growth-hormone", "healing"],
+	"quickStats": {
+		"typicalDose": "100-300mcg per injection",
+		"frequency": "Daily, immediately post-workout",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Refrigerate at 2-8°C; use within 30 days"
+	}
+}

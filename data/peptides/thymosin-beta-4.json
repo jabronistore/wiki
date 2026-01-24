@@ -1,0 +1,272 @@
+{
+	"id": "thymosin-beta-4",
+	"name": "Thymosin Beta-4",
+	"subtitle": "43-Amino Acid Regenerative Peptide | Tissue Repair & Healing",
+	"aliases": ["Tβ4", "TB-4"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "4,963.44 Da",
+		"length": "43 amino acids",
+		"type": "Thymosin peptide",
+		"sequence": "Ac-Ser-Asp-Lys-Pro-Asp-Met-Ala-Glu-Ile-Glu-Lys-Phe-Asp-Lys-Ser-Lys-Leu-Lys-Lys-Thr-Glu-Thr-Gln-Glu-Lys-Asn-Pro-Leu-Pro-Ser-Lys-Glu-Thr-Ile-Glu-Gln-Glu-Lys-Gln-Ala-Gly-Glu-Ser",
+		"modifications": ["N-terminal acetylation", "Naturally occurring in thymus"],
+		"halfLife": "Dose-dependent; relatively short (exact values not established)"
+	},
+	"overview": "Naturally occurring 43-amino acid peptide crucial for tissue repair, wound healing, and cellular regeneration. Promotes angiogenesis, reduces inflammation, and supports cell migration and differentiation.",
+	"mechanism": "Direct systemic delivery provides optimal bioavailability and distribution to target tissues for comprehensive regenerative effects including angiogenesis, cell migration, and differentiation.",
+	"keyBenefits": [
+		"Systemic regenerative effects",
+		"Proven clinical efficacy",
+		"Optimal bioavailability for tissue repair",
+		"Promotes angiogenesis",
+		"Reduces inflammation"
+	],
+	"indications": [
+		{
+			"category": "Tissue Repair",
+			"items": [
+				{
+					"name": "Wound Healing Acceleration",
+					"description": "Clinical trials show 67% complete healing versus 25% placebo in pressure ulcers.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Post-Surgical Recovery",
+					"description": "Enhanced tissue regeneration and reduced healing time in surgical wounds.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Soft Tissue Injury Repair",
+					"description": "Accelerated recovery in muscle, tendon, and ligament injuries.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Cardiovascular",
+			"items": [
+				{
+					"name": "Cardiac Protection Post-MI",
+					"description": "Phase 2b trials show 43% reduction in infarct size when given within 6 hours.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Stroke Recovery Enhancement",
+					"description": "Improved neurological outcomes and functional recovery in animal models.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Systemic regenerative effects with proven clinical efficacy and optimal bioavailability.",
+			"protocols": [
+				{
+					"goal": "Acute Wound Healing",
+					"dose": "1.6mg",
+					"frequency": "Daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Cardiac Protection",
+					"dose": "42mg",
+					"frequency": "Single dose",
+					"route": "IV bolus within 6 hours of MI"
+				},
+				{
+					"goal": "Chronic Tissue Repair",
+					"dose": "6mg",
+					"frequency": "Twice weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Neurological Recovery",
+					"dose": "30mg",
+					"frequency": "Three times over 72 hours",
+					"route": "IV infusion"
+				},
+				{
+					"goal": "General Regeneration",
+					"dose": "2-5mg",
+					"frequency": "Daily or every other day",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Thymosin β4 lyophilized powder (sterile vial)",
+					"Bacteriostatic water for injection (BWFI)",
+					"Sterile syringes and needles",
+					"Alcohol swabs and sterile gauze"
+				],
+				"steps": [
+					"Allow lyophilized powder to reach room temperature before reconstitution",
+					"Add bacteriostatic water slowly to vial wall, avoiding direct powder contact",
+					"Gently swirl (do not shake vigorously) until completely dissolved",
+					"Inspect solution for clarity—should be clear and colorless",
+					"Store reconstituted solution at 2-8°C and use within 14 days",
+					"Use proper aseptic technique and rotate injection sites"
+				]
+			},
+			"keyBenefits": [
+				"Direct systemic delivery",
+				"Proven clinical efficacy",
+				"Optimal tissue distribution"
+			]
+		},
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Direct wound application with proven corneal healing and minimal systemic exposure.",
+			"protocols": [
+				{
+					"goal": "Pressure Ulcer Healing",
+					"dose": "1% gel",
+					"frequency": "Once daily",
+					"route": "Direct topical application to wound bed"
+				},
+				{
+					"goal": "Corneal Healing",
+					"dose": "0.1% drops",
+					"frequency": "4 times daily",
+					"route": "Topical ophthalmic application"
+				},
+				{
+					"goal": "Chronic Wound Care",
+					"dose": "0.5% cream",
+					"frequency": "Twice daily",
+					"route": "Applied to cleaned wound surface"
+				}
+			],
+			"keyBenefits": [
+				"Direct localized application",
+				"Minimal systemic exposure",
+				"Excellent safety profile"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "TB-500",
+			"status": "synergistic",
+			"notes": "TB-500 is the bioactive fragment of Thymosin β4. Combined use provides full-length peptide benefits plus concentrated bioactive effects."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Complementary healing mechanisms—Tβ4 promotes cell migration and angiogenesis while BPC-157 enhances gastric protection."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "compatible",
+			"notes": "No direct interactions reported. Both promote tissue repair through different pathways."
+		},
+		{
+			"peptide": "IGF-1",
+			"status": "compatible",
+			"notes": "Complementary growth factor effects without direct interaction."
+		},
+		{
+			"peptide": "Corticosteroids",
+			"status": "monitor",
+			"notes": "Steroids may reduce effectiveness by inhibiting inflammatory responses necessary for optimal healing."
+		},
+		{
+			"peptide": "Anticoagulants",
+			"status": "monitor",
+			"notes": "Tβ4 promotes angiogenesis which may affect bleeding risk. Monitor coagulation parameters."
+		},
+		{
+			"peptide": "Chemotherapy",
+			"status": "avoid",
+			"notes": "Theoretical concern about promoting angiogenesis in cancer patients. Avoid during active chemotherapy."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Initial tissue response, possible mild injection site reactions"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Accelerated healing becomes apparent, reduced inflammation"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Significant tissue regeneration and functional improvement"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Sustained benefits and near-complete healing in responsive conditions"
+		}
+	],
+	"sideEffects": {
+		"common": ["Mild injection site reactions", "Local inflammation at injection sites"],
+		"stopSigns": [
+			"Severe injection site reactions or persistent inflammation",
+			"Signs of systemic allergic reaction (rash, breathing difficulty)",
+			"Unexpected cardiovascular symptoms during treatment",
+			"Any signs of infection at injection sites"
+		],
+		"contraindications": ["Active chemotherapy treatment", "Severe systemic allergies to peptides"],
+		"monitoring": [
+			"Monitor injection sites for local reactions",
+			"Use sterile technique to prevent infection",
+			"Start with lower doses to assess tolerance",
+			"Monitor coagulation parameters if on anticoagulants"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, colorless solution when reconstituted",
+			"Proper sterile packaging with intact seals",
+			"Certificate of analysis showing >98% purity",
+			"Appropriate molecular weight confirmed via HPLC/MS"
+		],
+		"warning": [
+			"Room temperature storage claims—legitimate product requires refrigeration after reconstitution"
+		],
+		"bad": [
+			"Cloudy or discolored solution indicating degradation",
+			"Crystallization after reconstitution suggesting improper storage"
+		]
+	},
+	"references": [
+		{
+			"title": "Phase II Dry Eye Clinical Trial",
+			"year": "2015",
+			"keyFindings": "72 subjects showing significant positive effects on ocular discomfort and corneal staining with excellent safety profile."
+		},
+		{
+			"title": "Phase I Human Safety Study: Intravenous Thymosin β4",
+			"year": "2010",
+			"keyFindings": "First-in-human study establishing safety and pharmacokinetics in healthy volunteers with no dose-limiting toxicity."
+		},
+		{
+			"title": "Cardiac Protection Pilot Study: Thymosin β4 in STEMI Patients",
+			"year": "2016",
+			"keyFindings": "First human study in heart attack patients demonstrating potential clinical benefits in repairing damaged tissue."
+		},
+		{
+			"title": "Neurotrophic Keratopathy Compassionate Use Trial",
+			"year": "2010",
+			"keyFindings": "Complete clearing of persistent corneal defects in most subjects using topical formulation."
+		}
+	],
+	"categories": ["healing", "immune", "longevity"],
+	"quickStats": {
+		"typicalDose": "2-6mg per injection (varies by protocol and severity)",
+		"frequency": "Daily for acute healing, 2x weekly for maintenance/chronic conditions",
+		"cycleDuration": "2-12 weeks depending on healing needs",
+		"storage": "Reconstituted: 2-8°C, use within 14 days"
+	}
+}

@@ -1,0 +1,299 @@
+{
+	"id": "5-amino-1mq",
+	"name": "5-Amino-1MQ",
+	"subtitle": "NNMT Inhibitor | Longevity & Metabolic Enhancement",
+	"aliases": [],
+	"researchStatus": "preclinical",
+	"fdaApproved": false,
+	"molecular": {
+		"type": "Small molecule NNMT enzyme inhibitor",
+		"modifications": ["38.4% oral bioavailability"],
+		"halfLife": "4-7 hours (3.8h IV, 6.9h oral)",
+		"halfLifeSeconds": 19800,
+		"halfLifeRoute": "oral"
+	},
+	"overview": "5-Amino-1MQ is a small molecule NNMT (nicotinamide N-methyltransferase) inhibitor that enhances cellular NAD+ levels and mitochondrial function. Not a true peptide, but a small molecule compound used in longevity and metabolic optimization protocols.",
+	"mechanism": "Inhibits NNMT enzyme systemically, preventing NAD+ degradation and maintaining elevated cellular NAD+ levels to support mitochondrial function and metabolic processes.",
+	"keyBenefits": [
+		"Enhanced NAD+ levels",
+		"Improved mitochondrial function",
+		"Better energy metabolism",
+		"Enhanced cellular repair",
+		"Improved insulin sensitivity",
+		"Longevity support",
+		"Convenient daily oral dosing"
+	],
+	"indications": [
+		{
+			"category": "Longevity",
+			"items": [
+				{
+					"name": "NAD+ Enhancement",
+					"description": "Significantly increases cellular NAD+ levels by inhibiting NNMT enzyme, supporting cellular energy production and DNA repair mechanisms essential for healthy aging.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Mitochondrial Function",
+					"description": "Improves mitochondrial biogenesis and efficiency, enhancing cellular energy production and reducing oxidative stress markers associated with aging.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Cellular Repair",
+					"description": "Enhanced NAD+ availability supports sirtuins and other longevity pathways involved in DNA repair, cellular maintenance, and stress resistance.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolism",
+			"items": [
+				{
+					"name": "Energy Metabolism",
+					"description": "Improvement through enhanced mitochondrial efficiency.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Insulin Sensitivity",
+					"description": "Enhancement via cellular energy optimization.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Metabolic Flexibility",
+					"description": "Improved glucose/fat substrate switching.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Weight Loss",
+			"items": [
+				{
+					"name": "Metabolic Rate Enhancement",
+					"description": "Supports increased basal metabolic rate.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Fat Oxidation",
+					"description": "Improvements in fat burning capacity.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Most common delivery method. Take with food to improve absorption and reduce potential GI effects. Consistent daily timing helps maintain steady NAD+ levels. Morning or early afternoon dosing preferred.",
+			"protocols": [
+				{
+					"goal": "Conservative initiation",
+					"dose": "25mg",
+					"frequency": "1x daily",
+					"route": "Oral with food"
+				},
+				{
+					"goal": "Standard starting dose",
+					"dose": "50mg",
+					"frequency": "1x daily",
+					"route": "Oral with food"
+				},
+				{
+					"goal": "Typical maintenance",
+					"dose": "75mg",
+					"frequency": "1x daily",
+					"route": "Oral with food"
+				},
+				{
+					"goal": "Maximum dose",
+					"dose": "100mg",
+					"frequency": "1x daily",
+					"route": "Oral with food"
+				},
+				{
+					"goal": "Split dosing protocol",
+					"dose": "50mg",
+					"frequency": "2x daily",
+					"route": "Oral with meals"
+				}
+			],
+			"keyBenefits": [
+				"No injections required",
+				"Room temperature storage",
+				"Convenient once-daily dosing",
+				"38.4% oral bioavailability"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable protocols exist but vary widely. CRITICAL: Two vastly different protocols exist differing by 100-200x depending on units (mcg vs mg). Verify units before use.",
+			"protocols": [
+				{
+					"goal": "Conservative starting (mcg protocol)",
+					"dose": "150-250mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Conservative standard (mcg protocol)",
+					"dose": "250-500mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Study-based (mg protocol)",
+					"dose": "~350mg (5mg/kg)",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"5-Amino-1MQ lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"CRITICAL: Confirm protocol (mcg vs mg) before proceeding",
+					"Clean vial stopper with alcohol",
+					"Inject bacteriostatic water slowly down side of vial",
+					"Gently swirl until dissolved (never shake)",
+					"Label clearly with concentration AND units (mg/mL)",
+					"Store in refrigerator",
+					"Use within 28 days"
+				]
+			},
+			"keyBenefits": ["Higher bioavailability than oral", "More precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "NAD+ Precursors (NMN, NR)",
+			"status": "synergistic",
+			"notes": "May work synergistically by preventing breakdown while supporting production."
+		},
+		{
+			"peptide": "Resveratrol",
+			"status": "synergistic",
+			"notes": "Both support longevity; resveratrol activates sirtuins while 5-Amino-1MQ provides NAD+ substrate."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "monitor",
+			"notes": "Both affect metabolic pathways; combination may enhance effects but requires careful monitoring."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known interactions; different mechanisms with potential complementary benefits."
+		},
+		{
+			"peptide": "Blood Thinners",
+			"status": "monitor",
+			"notes": "Limited interaction data; consult healthcare provider before combining."
+		},
+		{
+			"peptide": "Berberine",
+			"status": "monitor",
+			"notes": "Both affect metabolic pathways; potential additive glucose metabolism effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Gradual energy increase and mental clarity"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced exercise performance and recovery"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Improved metabolic markers and body composition"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Sustained longevity benefits and cellular health improvements"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally minimal side effects",
+			"Occasional mild GI adjustment",
+			"Potential sleep interference if dosed late in day"
+		],
+		"stopSigns": [
+			"Severe gastrointestinal upset or persistent nausea",
+			"Unusual fatigue or weakness (opposite of expected effect)",
+			"Persistent headaches or dizziness",
+			"Sleep disturbances or insomnia",
+			"Allergic reactions (rash, swelling, difficulty breathing)",
+			"Significant mood changes or anxiety"
+		],
+		"contraindications": [
+			"Pregnancy or breastfeeding",
+			"Pre-existing metabolic conditions (consult healthcare provider)"
+		],
+		"monitoring": [
+			"Start with lowest effective dose (25-50mg) to assess tolerance",
+			"Take with food to reduce potential GI effects",
+			"Monitor energy levels and sleep quality"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white (or orange/amber for powder) appearance",
+			"Uniform color and size with clear labeling and batch information",
+			"Third-party testing certificates (COA) with >98% purity",
+			"Proper pharmaceutical packaging with moisture protection",
+			"Clear expiration dates and professional labeling"
+		],
+		"warning": ["Moisture damage or clumping may indicate degradation"],
+		"bad": [
+			"Sticky, discolored, or heat-damaged appearance",
+			"Unusual odor (should be relatively odorless)",
+			"Strong chemical odors indicating contamination",
+			"Cloudy reconstitution solution (injectables)"
+		]
+	},
+	"references": [
+		{
+			"title": "Mouse Obesity Study - Neelakantan et al.",
+			"year": "2018",
+			"keyFindings": "Diet-induced obese mice showed 5.1% weight loss, 30% adipocyte size reduction at 60mg/kg/day. Human equivalent ~5mg/kg/day using FDA allometric scaling."
+		},
+		{
+			"title": "Rat Pharmacokinetics Study",
+			"year": "2021",
+			"keyFindings": "Demonstrated 38.4% oral bioavailability, half-life 6.9hr (oral) and 3.8hr (IV). Supports oral administration viability."
+		},
+		{
+			"title": "Muscle Function in Aged Mice",
+			"year": "2024",
+			"keyFindings": "40% grip strength improvement in sedentary mice, 60% with exercise at 10mg/kg/day SubQ for 8 weeks. No adverse effects observed."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "NNMT as a Target for Metabolic Disease and Aging",
+			"date": "March 2024",
+			"source": "Nature Reviews Drug Discovery",
+			"summary": "Comprehensive review of NNMT inhibition for metabolic disease and aging interventions."
+		},
+		{
+			"title": "NAD+ Metabolism and Healthy Aging Interventions",
+			"date": "January 2024",
+			"source": "Cell Metabolism",
+			"summary": "Role of NAD+ metabolism in healthy aging and therapeutic interventions."
+		}
+	],
+	"categories": ["longevity", "metabolic", "weight-loss"],
+	"quickStats": {
+		"typicalDose": "50-100mg oral or 150-500mcg SubQ",
+		"frequency": "Once daily, preferably morning",
+		"cycleDuration": "8-12 weeks continuous",
+		"storage": "Oral: room temp. Injectable: lyophilized room temp or freezer, reconstituted 2-8°C for 28 days"
+	}
+}

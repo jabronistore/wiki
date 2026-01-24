@@ -1,0 +1,279 @@
+{
+	"id": "mots-c",
+	"name": "MOTS-c",
+	"subtitle": "Mitochondrial-Derived Peptide | Metabolic Regulator",
+	"aliases": ["Mitochondrial Open Reading Frame of the 12S rRNA-c"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "2,174.6 Da",
+		"length": "16 amino acids",
+		"type": "Mitochondrial-derived peptide (MDP)",
+		"sequence": "Met-Arg-Trp-Gln-Glu-Met-Gly-Tyr-Ile-Phe-Tyr-Pro-Arg-Lys-Leu-Arg",
+		"modifications": ["Encoded by mitochondrial DNA (MT-RNR1 gene) within 12S rRNA"],
+		"halfLife": "~30 minutes",
+		"halfLifeSeconds": 1800
+	},
+	"overview": "MOTS-c is a mitochondrial-derived peptide that operates as a mitohormone through the Folate-AICAR-AMPK pathway. Under metabolic stress, it translocates to the nucleus to bind stress-response transcription factors (NRF2, ATF1/ATF7), regulating genes involved in metabolism and cellular adaptation.",
+	"mechanism": "Inhibits the folate cycle leading to AMPK activation. Under metabolic stress, translocates to nucleus to bind stress-response transcription factors, regulating genes involved in metabolism, insulin sensitivity, and cellular adaptation.",
+	"keyBenefits": [
+		"Enhanced insulin sensitivity (~30% improvement)",
+		"Improved glucose metabolism and tolerance",
+		"AMPK pathway activation",
+		"Mitochondrial function optimization",
+		"Exercise performance enhancement (12-15% improvement)",
+		"Potential lifespan extension (6.4% median increase in mice)"
+	],
+	"indications": [
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Insulin Resistance",
+					"description": "Improves insulin sensitivity by ~30% in animal studies through AMPK activation.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Type 2 Diabetes Support",
+					"description": "Restores metabolic function via insulin receptor sensitization.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Obesity Prevention",
+					"description": "Promotes fatty acid oxidation despite identical caloric intake.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Age-Related Decline Reversal",
+					"description": "Reverses age-dependent physical decline in animal models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Mitochondrial Biogenesis",
+					"description": "Enhances mitochondrial function via PGC-1α activation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Lifespan Extension",
+					"description": "6.4% median lifespan extension observed in mice studies.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Exercise Performance",
+			"items": [
+				{
+					"name": "Running Performance",
+					"description": "12-15% improvement in running performance from single dose in studies.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Muscle Homeostasis",
+					"description": "Exercise induced 11.9-fold increase in skeletal muscle MOTS-c.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Recovery Support",
+					"description": "Supports muscle recovery and adaptation to exercise.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the primary route. Optimal administration is morning before exercise. AMPK activation occurs within 30 minutes.",
+			"protocols": [
+				{
+					"goal": "Metabolic health",
+					"dose": "5-10mg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Anti-aging protocol",
+					"dose": "15mg",
+					"frequency": "3x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Exercise performance",
+					"dose": "10-15mg",
+					"frequency": "Pre-workout",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Conservative start",
+					"dose": "5mg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"MOTS-c lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature (15-20 minutes)",
+					"Calculate required bacteriostatic water volume",
+					"Draw BAC water into insulin syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake vigorously)",
+					"Store at 2-8°C; use within 14 days"
+				]
+			},
+			"keyBenefits": [
+				"Morning before exercise is optimal timing",
+				"AMPK activation within 30 minutes",
+				"Use within 14 days of reconstitution"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Metformin",
+			"status": "monitor",
+			"notes": "Both activate AMPK; monitor for additive hypoglycemic effects."
+		},
+		{
+			"peptide": "NAD+ Precursors",
+			"status": "synergistic",
+			"notes": "Complementary mitochondrial enhancement through different pathways."
+		},
+		{
+			"peptide": "Growth Hormone Peptides",
+			"status": "compatible",
+			"notes": "Different mechanisms allow safe combination."
+		},
+		{
+			"peptide": "Berberine",
+			"status": "monitor",
+			"notes": "Both are AMPK activators; monitor for additive effects."
+		},
+		{
+			"peptide": "Resveratrol",
+			"status": "synergistic",
+			"notes": "Complementary SIRT1/AMPK activation pathways."
+		},
+		{
+			"peptide": "Diabetes Medications",
+			"status": "monitor",
+			"notes": "May require dose adjustments to prevent hypoglycemia."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "AMPK pathway activation; initial glucose tolerance improvements"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced exercise capacity; improved insulin sensitivity"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Sustained metabolic benefits; potential body composition changes"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Maximum mitochondrial function enhancement; metabolic flexibility"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well-tolerated in animal studies with minimal side effects",
+			"Mild injection site reactions (redness, swelling)"
+		],
+		"stopSigns": [
+			"Severe allergic reactions or anaphylaxis",
+			"Recurrent hypoglycemia (<50 mg/dL)",
+			"Persistent severe injection site reactions",
+			"Unexplained weight loss >10% of baseline"
+		],
+		"contraindications": [
+			"Pregnancy or breastfeeding",
+			"WADA prohibited substance (banned for athletic competition)",
+			"Limited long-term human safety data"
+		],
+		"monitoring": [
+			"Blood glucose if using diabetes medications",
+			"Monitor for hypoglycemia symptoms",
+			"Start conservatively (5-10mg)",
+			"Appropriate medical supervision recommended"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white powder with uniform appearance indicating proper storage",
+			"Clear, colorless solution without particles after reconstitution",
+			"Sequence verification (MRWQEMGYIFYPRKLR) with CoA >95% purity by RP-HPLC"
+		],
+		"warning": [
+			"Limited human clinical data - start conservatively",
+			"WADA banned substance - not for competitive athletes"
+		],
+		"bad": [
+			"Discolored powder or solution",
+			"Cloudy solution after reconstitution",
+			"No certificate of analysis available"
+		]
+	},
+	"references": [
+		{
+			"title": "Obesity and Insulin Sensitivity Study - Lee et al.",
+			"year": "2015",
+			"journal": "Cell Metabolism",
+			"keyFindings": "Prevented obesity, improved insulin sensitivity by ~30% in high-fat diet mice."
+		},
+		{
+			"title": "Physical Performance Across Age Groups - Reynolds et al.",
+			"year": "2021",
+			"journal": "Nature Communications",
+			"keyFindings": "Enhanced physical performance across age groups; exercise induced 11.9-fold increase in skeletal muscle MOTS-c."
+		},
+		{
+			"title": "Nuclear Translocation Study - Kim et al.",
+			"year": "2018",
+			"journal": "Cell Metabolism",
+			"keyFindings": "Nuclear translocation within 30 minutes under metabolic stress."
+		},
+		{
+			"title": "Running Performance Study - Hyatt et al.",
+			"year": "2022",
+			"journal": "Physiological Reports",
+			"keyFindings": "Single dose improved running time 12%, distance 15%."
+		},
+		{
+			"title": "Gestational Diabetes Study - Yin et al.",
+			"year": "2022",
+			"journal": "Pharmacological Research",
+			"keyFindings": "Alleviated hyperglycemia in gestational diabetes model."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Age-Related Macular Degeneration Study",
+			"date": "2025",
+			"source": "Ophthalmology Research",
+			"summary": "Dose-dependent protective effects on retinal cells in AMD models."
+		}
+	],
+	"categories": ["longevity", "metabolic"],
+	"quickStats": {
+		"typicalDose": "Start 5mg daily, increase to 10-15mg based on goals",
+		"frequency": "Daily for metabolic support, or 3x weekly for anti-aging",
+		"cycleDuration": "4-12 weeks depending on goals",
+		"storage": "Refrigerate reconstituted solution at 2-8°C, use within 14 days"
+	}
+}

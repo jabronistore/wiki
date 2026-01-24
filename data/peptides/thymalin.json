@@ -1,0 +1,241 @@
+{
+	"id": "thymalin",
+	"name": "Thymalin",
+	"subtitle": "Thymic Peptide Bioregulator | Immune Modulator",
+	"aliases": ["Thymus Extract", "Thymic Peptide Complex"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "Variable (peptide complex)",
+		"type": "Polypeptide mixture",
+		"modifications": ["Contains short peptides KE, EW, EDP"],
+		"halfLife": "Not established (complex mixture); effects persist for weeks"
+	},
+	"overview": "Thymalin is a natural peptide bioregulator derived from calf thymus gland, developed in the Soviet Union in the 1970s. It contains a mixture of thymic peptides that support immune restoration, anti-aging, and tissue regeneration. Research spanning decades has shown significant geroprotective effects, with studies demonstrating up to 2-fold reduction in mortality rates and 4-fold reduction when combined with Epithalamin.",
+	"mechanism": "Thymalin's immunoprotective action stems from short peptides (KE, EW, EDP) that specifically bind to double-stranded DNA and histone proteins to regulate gene expression. It stimulates differentiation and activity of T-lymphocytes, especially CD4+ and CD8+ cells, promotes cytokine regulation, enhances antigen response, and stimulates stem cell differentiation. It also affects gerontogene activity and immune system protein synthesis.",
+	"keyBenefits": [
+		"Potent immune system restoration and modulation",
+		"Significant geroprotective (anti-aging) effects",
+		"Reduced mortality rate in clinical studies (2.0-2.1 fold)",
+		"Normalized cardiovascular, endocrine, and nervous system function",
+		"Reduced acute respiratory disease incidence (2.0-2.4 fold)",
+		"Enhanced T-lymphocyte differentiation (CD4+, CD8+)",
+		"Antitumor effects in animal studies",
+		"Safe for elderly populations with no side effects"
+	],
+	"indications": [
+		{
+			"category": "Immune Support",
+			"items": [
+				{
+					"name": "Immune Restoration",
+					"description": "Stimulates T-lymphocyte differentiation and activity for comprehensive immune system restoration.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Lymphopenia Recovery",
+					"description": "Accelerates recovery of lymphocyte populations including CD4+, CD3+HLA-DR+, B-cells, and NK-cells.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Respiratory Illness Prevention",
+					"description": "2.0-2.4 fold reduction in acute respiratory disease incidence in elderly patients.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Longevity",
+			"items": [
+				{
+					"name": "Mortality Reduction",
+					"description": "Clinical studies showed 2.0-2.1 fold mortality reduction over 6-8 years in treated elderly.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Geroprotection",
+					"description": "Normalizes basic body functions and improves cardiovascular, endocrine, immune, and nervous systems.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Combined Protocol",
+					"description": "When combined with Epithalamin for 6 years, mortality decreased 4.1 times vs control.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Therapeutic Applications",
+			"items": [
+				{
+					"name": "COVID-19 Support",
+					"description": "Faster reversal of lymphopenia and immune marker recovery in severe COVID-19 patients.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Antitumor Effects",
+					"description": "Tumor growth arrest and regression observed in over half of animals in sarcoma studies.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Thymus Normalization",
+					"description": "Normalizes thymus function during aging process.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Administered via intramuscular or subcutaneous injection in short 5-10 day cycles. Often combined with other bioregulators like Epitalon or Vilon for enhanced systemic effects. Practically no side effects, safe for elderly populations.",
+			"protocols": [
+				{
+					"goal": "Immune restoration",
+					"dose": "10 mg",
+					"frequency": "Daily",
+					"route": "IM or SubQ"
+				},
+				{
+					"goal": "Standard cycle",
+					"dose": "10 mg",
+					"frequency": "Daily for 5-10 days",
+					"route": "IM or SubQ"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "1-2x yearly cycles",
+					"route": "IM or SubQ"
+				},
+				{
+					"goal": "With Epithalamin",
+					"dose": "10 mg each",
+					"frequency": "Annual cycles",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water or sterile water",
+					"Insulin syringes (1 mL)",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required water volume",
+					"Draw water into syringe",
+					"Inject slowly down vial side",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator"
+				]
+			},
+			"keyBenefits": [
+				"Short 5-10 day cycles sufficient",
+				"No side effects in elderly populations",
+				"Can combine with other bioregulators",
+				"Annual cycles for maintenance"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Combined use showed 4.1-fold mortality reduction vs 2.0-fold with Thymalin alone."
+		},
+		{
+			"peptide": "Vilon",
+			"status": "synergistic",
+			"notes": "Often used together for enhanced systemic recovery and immune support."
+		},
+		{
+			"peptide": "Thymosin Alpha-1",
+			"status": "compatible",
+			"notes": "Similar thymic origin; different mechanisms can complement each other."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions; different mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-5",
+			"effects": "Initial immune modulation begins"
+		},
+		{
+			"period": "Days 5-10",
+			"effects": "T-cell activation and differentiation enhanced"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Improved immune markers on blood tests"
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Reduced illness frequency"
+		},
+		{
+			"period": "Long-term (years)",
+			"effects": "Geroprotective benefits with annual cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Injection site reactions (mild)", "Practically no side effects reported"],
+		"rare": ["Allergic reactions (very rare)"],
+		"stopSigns": ["Signs of allergic reaction", "Unusual immune responses"],
+		"contraindications": [
+			"Autoimmune diseases (use with caution)",
+			"Organ transplant recipients (immunosuppression needed)",
+			"Pregnancy or breastfeeding",
+			"Known hypersensitivity"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution",
+			"Intact vacuum seal"
+		],
+		"warning": ["Slight clumping that dissolves easily"],
+		"bad": ["Discolored powder", "Cloudy or particulate solution", "Broken seal"]
+	},
+	"references": [
+		{
+			"title": "The Use of Thymalin for Immunocorrection and Molecular Aspects of Biological Activity",
+			"journal": "International Journal of Molecular Sciences",
+			"year": "2021",
+			"keyFindings": "Detailed molecular mechanisms of Thymalin's immunoprotective action through peptides KE, EW, EDP binding to DNA and histones."
+		},
+		{
+			"title": "Peptides of Pineal Gland and Thymus Prolong Human Life",
+			"journal": "Neuroendocrinology Letters",
+			"year": "2003",
+			"keyFindings": "6-8 year study showed 2.0-2.1 fold mortality reduction with Thymalin; 4.1-fold when combined with Epithalamin."
+		},
+		{
+			"title": "Peptide Drug Thymalin Regulates Immune Status in Severe COVID-19 Older Patients",
+			"journal": "Advances in Gerontology",
+			"year": "2021",
+			"keyFindings": "Faster lymphopenia reversal and improved recovery of CD4+, CD3+HLA-DR+, B-cells, and NK-cells in COVID-19."
+		},
+		{
+			"title": "Effect of Thymalin on Tumor and Thymus in Activation Therapy",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2018",
+			"keyFindings": "Antitumor effects with tumor growth arrest in >50% of animals; growth suppressed by 78% in others."
+		}
+	],
+	"categories": ["immune", "longevity"],
+	"quickStats": {
+		"typicalDose": "10mg per injection",
+		"frequency": "Daily for 5-10 days, then break",
+		"cycleDuration": "5-10 day cycles (short bioregulator protocol)",
+		"storage": "Reconstituted: 2-8°C refrigerated"
+	}
+}

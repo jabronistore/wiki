@@ -1,0 +1,200 @@
+{
+	"id": "l-carnitine",
+	"name": "L-Carnitine",
+	"subtitle": "Amino Acid Derivative | Fatty Acid Transporter",
+	"aliases": ["Levocarnitine", "L-Carnitine Injectable", "Carnitine"],
+	"researchStatus": "established",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "161.20 Da",
+		"type": "Quaternary ammonium compound",
+		"halfLife": "~2-3 hours (injectable)",
+		"halfLifeSeconds": 9000
+	},
+	"overview": "L-Carnitine is an amino acid derivative naturally produced in the body and essential for transporting long-chain fatty acids into mitochondria for energy production. Injectable forms bypass digestive absorption limitations of oral supplements.",
+	"mechanism": "Acts as a carrier molecule, shuttling long-chain fatty acids across the inner mitochondrial membrane via the carnitine palmitoyltransferase (CPT) system. This is the rate-limiting step in fatty acid oxidation for energy production.",
+	"keyBenefits": [
+		"Enhanced fatty acid transport to mitochondria",
+		"Improved energy production from fats",
+		"Better bioavailability than oral forms",
+		"Support for exercise recovery",
+		"Potential cognitive benefits"
+	],
+	"indications": [
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Fatty Acid Oxidation",
+					"description": "Primary function transporting fatty acids into mitochondria for beta-oxidation.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Energy Production",
+					"description": "Supports ATP generation from fat metabolism, particularly during exercise.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Weight Management",
+					"description": "May enhance fat utilization when combined with exercise and caloric deficit.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Performance",
+			"items": [
+				{
+					"name": "Exercise Recovery",
+					"description": "May reduce muscle damage markers and improve recovery post-exercise.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Endurance Support",
+					"description": "Enhances fat utilization during prolonged exercise, potentially sparing glycogen.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Clinical Uses",
+			"items": [
+				{
+					"name": "Carnitine Deficiency",
+					"description": "FDA-approved treatment for primary and secondary carnitine deficiency.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Dialysis Support",
+					"description": "Used in patients on hemodialysis who develop carnitine depletion.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous or intramuscular injection provides superior bioavailability compared to oral supplementation, which is limited to ~15-20% absorption.",
+			"protocols": [
+				{
+					"goal": "Standard Protocol",
+					"dose": "50-100mg",
+					"frequency": "Daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Advanced Protocol",
+					"dose": "100-200mg",
+					"frequency": "Daily",
+					"route": "SubQ or IM"
+				},
+				{
+					"goal": "Pre-Workout",
+					"dose": "100-200mg",
+					"frequency": "30-60 min before exercise",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"L-Carnitine lyophilized powder (typically 200mg vial)",
+					"Bacteriostatic water (2.0mL recommended)",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Clean rubber stopper with alcohol swab",
+					"Add 2.0mL bacteriostatic water for 100mg/mL concentration",
+					"Inject slowly along vial wall",
+					"Gently swirl to dissolve; never shake",
+					"Label with date and store refrigerated at 2-8°C",
+					"Use within 2-4 weeks of reconstitution"
+				]
+			},
+			"keyBenefits": [
+				"~100% bioavailability vs ~15-20% oral",
+				"Rapid absorption",
+				"Precise dosing control"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Thyroid Hormones",
+			"status": "monitor",
+			"notes": "L-Carnitine may affect thyroid hormone action. Those on thyroid medication should monitor levels."
+		},
+		{
+			"peptide": "Anticoagulants",
+			"status": "monitor",
+			"notes": "May enhance effects of warfarin and similar medications."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Immediate",
+			"effects": "Injectable form provides rapid absorption within 30-60 minutes"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Potential improvements in energy and exercise capacity"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Cumulative benefits on fat metabolism and recovery"
+		},
+		{
+			"period": "Week 8-16",
+			"effects": "Full metabolic optimization when combined with exercise"
+		}
+	],
+	"sideEffects": {
+		"common": ["Injection site reactions", "Mild nausea", "Body odor (fishy smell at high doses)"],
+		"stopSigns": [
+			"Allergic reactions (rare)",
+			"Severe gastrointestinal distress",
+			"Unusual muscle weakness"
+		],
+		"contraindications": [
+			"Seizure disorders (may lower seizure threshold)",
+			"Hypothyroidism (may affect thyroid function)",
+			"Allergy to carnitine products"
+		],
+		"monitoring": [
+			"Generally well-tolerated with established safety profile",
+			"FDA-approved for carnitine deficiency",
+			"Monitor thyroid function if on thyroid medication"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White crystalline powder",
+			"Clear, colorless solution after reconstitution",
+			"Certificate of Analysis with purity testing"
+		],
+		"warning": ["Should dissolve completely without residue"],
+		"bad": ["Discolored powder", "Cloudy or particulate solution", "Strong unusual odor"]
+	},
+	"references": [
+		{
+			"title": "L-Carnitine Supplementation and Exercise",
+			"year": "2018",
+			"keyFindings": "Meta-analysis showing modest benefits of L-carnitine on exercise performance and recovery markers."
+		},
+		{
+			"title": "Carnitine Metabolism and Function",
+			"year": "2012",
+			"keyFindings": "Comprehensive review of carnitine's role in fatty acid transport and energy metabolism."
+		}
+	],
+	"categories": ["metabolic", "performance"],
+	"quickStats": {
+		"typicalDose": "50-200mg daily",
+		"frequency": "Once daily or pre-workout",
+		"cycleDuration": "8-16 weeks (can be used continuously)",
+		"storage": "Lyophilized: -20°C; Reconstituted: 2-8°C for 2-4 weeks"
+	}
+}

@@ -1,0 +1,278 @@
+{
+	"id": "tri-heal-max-protocol",
+	"name": "Tri-Heal Max Protocol",
+	"subtitle": "High-Dose Three-Peptide Healing Blend",
+	"aliases": ["Tri-Heal Max", "THM", "Enhanced Wolverine Stack"],
+	"categories": ["healing"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"molecular": {
+		"type": "Fixed-ratio peptide combination",
+		"sequence": "TB-500 + BPC-157 + KPV (2.5:1:1 ratio)"
+	},
+	"overview": "Tri-Heal Max is an enhanced healing peptide blend featuring a higher dose of TB-500 (25mg) combined with BPC-157 (10mg) and KPV (10mg) for a total of 45mg per vial. This formulation emphasizes TB-500's tissue repair and cellular migration properties, complemented by BPC-157's growth factor upregulation and KPV's anti-inflammatory effects. The higher TB-500 ratio (2.5:1:1) compared to standard healing stacks targets more significant tissue damage or accelerated recovery needs.",
+	"mechanism": "Each peptide contributes distinct healing pathways: TB-500 (Thymosin Beta-4) enhances cellular migration, promotes actin polymerization, and supports blood vessel formation for tissue repair; BPC-157 upregulates growth factors (VEGF, EGF), accelerates wound healing, and provides gastrointestinal protection; KPV (alpha-MSH fragment) inhibits the NF-κB inflammatory pathway, reduces pro-inflammatory cytokines, and may improve injection site tolerability. Together, they address inflammation, tissue regeneration, and cellular repair.",
+	"keyBenefits": [
+		"Enhanced TB-500 dosing for significant injuries",
+		"Multi-pathway tissue regeneration",
+		"Anti-inflammatory effects from KPV",
+		"Complementary healing mechanisms",
+		"Single injection convenience",
+		"May accelerate recovery from surgery or injury",
+		"Targets both acute and chronic tissue damage"
+	],
+	"indications": [
+		{
+			"category": "Tissue Healing",
+			"items": [
+				{
+					"name": "Significant Injuries",
+					"description": "Higher TB-500 dose targets more severe tissue damage requiring enhanced repair.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Muscle Tears & Strains",
+					"description": "TB-500 promotes muscle fiber repair and cellular migration.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Tendon & Ligament Repair",
+					"description": "Combined collagen support and growth factor upregulation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Post-Surgical Recovery",
+			"items": [
+				{
+					"name": "Wound Healing",
+					"description": "Multi-modal support for surgical wound recovery.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Reduced Inflammation",
+					"description": "KPV component reduces post-surgical inflammatory response.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Scar Reduction",
+					"description": "Enhanced tissue remodeling may reduce scar formation.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Sports Medicine",
+			"items": [
+				{
+					"name": "Athletic Recovery",
+					"description": "Accelerated return to activity after sports injuries.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Chronic Overuse Injuries",
+					"description": "Address accumulated tissue damage from repetitive stress.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the primary delivery method. Can inject near injury site or systemically. The higher TB-500 content makes this suitable for more significant healing needs.",
+			"protocols": [
+				{
+					"goal": "Conservative healing",
+					"dose": "200-300mcg total blend",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Standard healing protocol",
+					"dose": "300-500mcg total blend",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Intensive healing (acute injury)",
+					"dose": "500mcg total blend",
+					"frequency": "Once daily for first 2 weeks, then reduce",
+					"route": "SubQ near injury site"
+				},
+				{
+					"goal": "Cycling protocol",
+					"dose": "Per standard dosing",
+					"frequency": "4-6 weeks on, 2-4 weeks off",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Tri-Heal Max 45mg vial",
+					"Bacteriostatic water (2-4mL)",
+					"Insulin syringes",
+					"Alcohol prep pads"
+				],
+				"steps": [
+					"Clean vial top with alcohol pad",
+					"Add 2mL bacteriostatic water (creates 22.5mg/mL)",
+					"Gently swirl - do not shake",
+					"Solution should appear clear",
+					"Label with date and concentration",
+					"Store refrigerated immediately",
+					"Use within 4-6 weeks"
+				]
+			},
+			"keyBenefits": [
+				"Can inject near injury site for local effects",
+				"Higher TB-500 for significant injuries",
+				"Flexible dosing based on needs"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Wolverine Stack (BPC/TB)",
+			"status": "avoid",
+			"notes": "Tri-Heal Max already contains BPC-157 and TB-500 - do not stack."
+		},
+		{
+			"peptide": "KLOW/GLOW Protocol",
+			"status": "avoid",
+			"notes": "Contains overlapping components (TB-500, BPC-157, KPV) - avoid combining."
+		},
+		{
+			"peptide": "GHK-Cu",
+			"status": "compatible",
+			"notes": "Complementary healing mechanisms; GHK-Cu adds copper-peptide benefits."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "monitor",
+			"notes": "Multiple anabolic/healing pathways - medical supervision recommended."
+		},
+		{
+			"peptide": "Ipamorelin/CJC-1295",
+			"status": "compatible",
+			"notes": "Different mechanisms; GH secretagogues may complement healing."
+		},
+		{
+			"peptide": "Anticoagulants",
+			"status": "monitor",
+			"notes": "TB-500 affects blood vessel formation; monitor with blood thinners."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-5",
+			"effects": "Anti-inflammatory effects from KPV; initial healing cascade activation"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Tissue repair processes accelerating; reduced inflammation"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Significant healing progress; collagen remodeling"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Advanced tissue regeneration; assess for cycling off"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions (KPV may help reduce these)",
+			"Mild fatigue during healing",
+			"Temporary redness at injection site"
+		],
+		"rare": ["Headache", "Lightheadedness", "Flu-like symptoms"],
+		"stopSigns": [
+			"Severe injection site reactions or signs of infection",
+			"Allergic reactions (rash, swelling, difficulty breathing)",
+			"Unusual bleeding or bruising",
+			"Worsening of underlying conditions"
+		],
+		"contraindications": [
+			"No clinical trials on this three-peptide combination",
+			"Active cancer (theoretical concern with growth-promoting peptides)",
+			"Pregnancy or breastfeeding",
+			"Active infection at injection site"
+		],
+		"monitoring": [
+			"Healing progress of target injury",
+			"Injection site reactions",
+			"General recovery and energy levels",
+			"Any unusual symptoms"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party testing confirming all three components",
+			"Certificate of Analysis with ratios verified",
+			"Reputable research supplier",
+			"Proper cold chain shipping"
+		],
+		"warning": [
+			"Research-only status - not approved for human use",
+			"Batch variability possible in ratios"
+		],
+		"bad": [
+			"No Certificate of Analysis",
+			"Cannot verify TB-500:BPC:KPV ratio",
+			"Discolored or particulate solution"
+		]
+	},
+	"references": [
+		{
+			"title": "Thymosin Beta-4 (TB-500) Tissue Repair",
+			"journal": "Multiple Studies",
+			"keyFindings": "TB-500 promotes cell migration, blood vessel formation, and wound healing through actin modulation."
+		},
+		{
+			"title": "BPC-157 Healing Properties",
+			"journal": "Current Pharmaceutical Design",
+			"keyFindings": "BPC-157 upregulates growth factors and accelerates healing of various tissue types."
+		},
+		{
+			"title": "KPV Anti-Inflammatory Effects",
+			"journal": "Peptide Research",
+			"keyFindings": "KPV (alpha-MSH 11-13) inhibits NF-κB pathway and reduces pro-inflammatory cytokines."
+		},
+		{
+			"title": "No Published Studies on Tri-Heal Max Combination",
+			"year": "2024",
+			"keyFindings": "Specific three-peptide combination has not been studied in clinical trials."
+		}
+	],
+	"blendComposition": {
+		"totalAmount": 45,
+		"unit": "mg",
+		"components": [
+			{
+				"name": "TB-500",
+				"amount": 25,
+				"ratio": 2.5
+			},
+			{
+				"name": "BPC-157",
+				"amount": 10,
+				"ratio": 1
+			},
+			{
+				"name": "KPV",
+				"amount": 10,
+				"ratio": 1
+			}
+		]
+	},
+	"quickStats": {
+		"typicalDose": "200-500mcg total blend (higher end for acute injuries)",
+		"frequency": "Once daily",
+		"cycleDuration": "4-6 weeks for active healing",
+		"storage": "Reconstituted: 2-8°C, use within 4-6 weeks"
+	}
+}

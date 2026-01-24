@@ -1,0 +1,241 @@
+{
+	"id": "kisspeptin",
+	"name": "Kisspeptin",
+	"subtitle": "KISS1 Gene Product | Reproductive Neuropeptide",
+	"aliases": ["KP-10", "KP-54", "Metastin"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "1,213.42 Da (KP-10) / 6,087 Da (KP-54)",
+		"length": "10-54 amino acids",
+		"type": "Neuropeptide family (RFamide)",
+		"sequence": "Kisspeptin-10: Tyr-Asn-Trp-Asn-Ser-Phe-Gly-Leu-Arg-Phe-NH2",
+		"modifications": ["C-terminally amidated peptides from 145 amino acid KISS1 precursor"],
+		"halfLife": "~4 minutes (KP-10), ~28-32 minutes (KP-54)",
+		"halfLifeSeconds": 240
+	},
+	"overview": "Kisspeptin acts as a master regulator of the reproductive system, stimulating GnRH neurons essential for puberty, fertility, and reproductive function.",
+	"mechanism": "Binds to GPR54/KISS1R receptors on hypothalamic GnRH neurons, triggering pulsatile GnRH release, which stimulates pituitary LH/FSH secretion and gonadal steroid production.",
+	"keyBenefits": [
+		"Potent reproductive hormone stimulation (LH/FSH)",
+		"Restoration of natural testosterone production",
+		"Fertility enhancement",
+		"Sexual function support",
+		"Hypogonadism treatment potential"
+	],
+	"indications": [
+		{
+			"category": "Reproductive",
+			"items": [
+				{
+					"name": "Hypogonadotropic Hypogonadism",
+					"description": "Restores reproductive hormone secretion in functional or congenital cases by stimulating dormant GnRH axis.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "IVF Ovulation Trigger",
+					"description": "Triggers oocyte maturation with 45% live birth rate and zero severe OHSS cases; safer than hCG.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Hypothalamic Amenorrhea",
+					"description": "Restores reproductive hormone pulsatility in women with hypothalamic amenorrhea.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Sexual Function",
+			"items": [
+				{
+					"name": "Hypoactive Sexual Desire Disorder (Men)",
+					"description": "Modulates sexual brain processing; increases penile tumescence by 56% vs placebo.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Hypoactive Sexual Desire Disorder (Women)",
+					"description": "Modulates sexual and attraction brain processing; increases self-reported sexiness.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Energy Metabolism",
+					"description": "Preclinical evidence suggests influence on energy expenditure and activity levels.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Standard administration route; allows precise dosing and rapid hormone stimulation.",
+			"protocols": [
+				{
+					"goal": "Gonadotropin stimulation",
+					"dose": "100-200mcg",
+					"frequency": "Single dose or 2-3x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Fertility support",
+					"dose": "0.4-1.0 nmol/kg (50-150mcg)",
+					"frequency": "As directed by physician",
+					"route": "SubQ (KP-54)"
+				},
+				{
+					"goal": "Sexual function (clinical)",
+					"dose": "1 nmol/kg/h",
+					"frequency": "75-minute IV infusion",
+					"route": "IV infusion"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC water)",
+					"Insulin syringes (0.5-1 mL)",
+					"Alcohol swabs",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly with alcohol",
+					"Calculate required BAC water volume",
+					"Draw calculated water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator at 2-8°C",
+					"Use within 7 days for KP-10; 14 days for KP-54"
+				]
+			},
+			"keyBenefits": [
+				"Rapid LH/FSH stimulation",
+				"Precise dose control",
+				"Flexible dosing schedules"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Emerging non-invasive delivery method; 2025 research demonstrates effectiveness with stable formulations.",
+			"protocols": [
+				{
+					"goal": "Gonadotropin stimulation (research)",
+					"dose": "12.8 nmol/kg",
+					"frequency": "Single dose",
+					"route": "Intranasal"
+				}
+			],
+			"keyBenefits": [
+				"Non-invasive administration",
+				"Rapid gonadotropin stimulation",
+				"Stable 60-day formulation potential"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "GnRH",
+			"status": "synergistic",
+			"notes": "Kisspeptin stimulates GnRH release; works upstream in reproductive axis."
+		},
+		{
+			"peptide": "HCG",
+			"status": "compatible",
+			"notes": "Serves as potentially safer alternative for IVF ovulation triggering."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "compatible",
+			"notes": "Restores natural testosterone production through LH stimulation."
+		},
+		{
+			"peptide": "Estrogen",
+			"status": "compatible",
+			"notes": "Kisspeptin function modulated by sex steroids in feedback loops."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Hours 2-5",
+			"effects": "LH surge peaks at 3-5x baseline"
+		},
+		{
+			"period": "Hours 12-14",
+			"effects": "LH returns to baseline"
+		},
+		{
+			"period": "Days 1-2",
+			"effects": "Testosterone/estradiol increase in response to LH"
+		},
+		{
+			"period": "Weeks 2-4",
+			"effects": "Potential improvements in sexual function and libido"
+		}
+	],
+	"sideEffects": {
+		"common": ["Minimal acute side effects reported", "Potential mild cardiovascular effects"],
+		"stopSigns": [
+			"Ovarian hyperstimulation signs: severe pelvic pain, bloating, nausea",
+			"Chest pain or cardiovascular symptoms",
+			"Severe headaches or visual disturbances",
+			"Persistent injection site reactions"
+		],
+		"contraindications": [
+			"Not recommended during pregnancy or breastfeeding",
+			"Caution with cardiovascular disease history",
+			"Daily dosing causes receptor desensitization"
+		],
+		"monitoring": [
+			"Use sterile injection technique",
+			"Avoid daily administration (maximum 2-3x/week)",
+			"Monitor for ovarian hyperstimulation in women",
+			"Consult reproductive endocrinologist for fertility use"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White, fluffy powder; proper freeze-drying indicated",
+			"Clear solution after reconstitution; no particles or cloudiness",
+			"Protected from light in amber/opaque vials"
+		],
+		"warning": ["Slight compaction acceptable if dissolves completely with gentle swirling"],
+		"bad": [
+			"Discoloration or yellowing indicates oxidation/degradation",
+			"Cloudy after reconstitution indicates degradation or contamination"
+		]
+	},
+	"references": [
+		{
+			"title": "Kisspeptin for Hypoactive Sexual Desire Disorder in Men",
+			"year": "2023",
+			"keyFindings": "Modulated sexual brain activity; increased penile tumescence by 56% vs placebo. JAMA Network Open."
+		},
+		{
+			"title": "Kisspeptin for HSDD in Women",
+			"year": "2022",
+			"keyFindings": "Modulated sexual and attraction processing; increased self-reported sexiness. JAMA Network Open."
+		},
+		{
+			"title": "Kisspeptin as IVF Ovulation Trigger",
+			"year": "2017",
+			"keyFindings": "45% live birth rate with zero severe OHSS; safer than hCG trigger. Journal of Clinical Investigation."
+		},
+		{
+			"title": "Intranasal Kisspeptin Administration",
+			"year": "2025",
+			"keyFindings": "Non-invasive delivery with rapid gonadotropin stimulation; stable 60-day formulation. eBioMedicine."
+		}
+	],
+	"categories": ["sexual-health", "hormonal"],
+	"quickStats": {
+		"typicalDose": "100-200 mcg per injection",
+		"frequency": "Single dose for testing, or 2-3 times weekly (NEVER daily - causes desensitization)",
+		"cycleDuration": "2-4 weeks",
+		"storage": "Lyophilized: Room temperature. Reconstituted: 2-8°C. KP-10: use within 7 days. KP-54: use within 14 days"
+	}
+}

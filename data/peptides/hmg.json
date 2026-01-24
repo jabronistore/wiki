@@ -1,0 +1,243 @@
+{
+	"id": "hmg",
+	"name": "HMG",
+	"subtitle": "Human Menopausal Gonadotropin | FSH/LH Fertility Hormone",
+	"aliases": ["Human Menopausal Gonadotropin", "Menotropin", "hMG", "HP-hMG"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": true,
+	"molecular": {
+		"type": "Gonadotropin mixture",
+		"components": "FSH and LH in 1:1 ratio",
+		"halfLife": "~32 hours (FSH component: 39-54 hours)",
+		"halfLifeSeconds": 115200
+	},
+	"overview": "Human Menopausal Gonadotropin (HMG) is a hormonally active medication containing follicle-stimulating hormone (FSH) and luteinizing hormone (LH) in a 1:1 ratio, extracted from the urine of postmenopausal women. FDA-approved for fertility treatment, HMG stimulates ovarian follicle development in women and spermatogenesis in men. While largely replaced by recombinant gonadotropins in some settings, HMG remains an effective and cost-efficient option for ovulation induction and assisted reproduction.",
+	"mechanism": "HMG acts on gonadal tissue through two mechanisms: FSH stimulates growth and maturation of ovarian follicles containing eggs in women, and promotes spermatogenesis in men. LH stimulates ovulation and corpus luteum formation in women, and Leydig cells in men to produce testosterone. Highly purified HMG (HP-hMG) has enhanced FSH receptor activity with reduced inactive proteins. The LH component modifies follicular development and decreases intermediate-sized follicles, potentially resulting in safer, more controlled stimulation.",
+	"keyBenefits": [
+		"FDA-approved for fertility treatment",
+		"Stimulates ovarian follicle development",
+		"Contains both FSH and LH naturally",
+		"Promotes spermatogenesis in men",
+		"Cost-effective alternative to recombinant FSH",
+		"LH activity may improve fertilization rates",
+		"Long clinical track record",
+		"Lower OHSS incidence with HP-hMG"
+	],
+	"indications": [
+		{
+			"category": "Female Fertility (FDA-Approved)",
+			"items": [
+				{
+					"name": "Ovulation Induction",
+					"description": "Stimulates follicular development in anovulatory women.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "IVF Stimulation",
+					"description": "Used in IVF protocols to stimulate multiple follicle development.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "PCOS Ovulation",
+					"description": "Effective for inducing ovulation in polycystic ovary syndrome patients.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Male Fertility",
+			"items": [
+				{
+					"name": "Spermatogenesis",
+					"description": "FSH promotes sperm production; LH stimulates testosterone for sperm development.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Hypogonadotropic Hypogonadism",
+					"description": "Treats male infertility due to insufficient gonadotropin production.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Testosterone Support",
+			"items": [
+				{
+					"name": "LH Replacement",
+					"description": "LH component stimulates testicular testosterone production.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "HMG is administered via intramuscular or subcutaneous injection. Treatment typically starts on day 2-3 of the menstrual cycle and continues for 7-12 days with monitoring. Dosing is individualized based on follicular response monitored by ultrasound and estradiol levels.",
+			"protocols": [
+				{
+					"goal": "Ovulation induction",
+					"dose": "75-150 IU",
+					"frequency": "Daily",
+					"route": "IM or SubQ"
+				},
+				{
+					"goal": "IVF stimulation",
+					"dose": "150-300 IU",
+					"frequency": "Daily for 7-12 days",
+					"route": "IM or SubQ"
+				},
+				{
+					"goal": "Male fertility",
+					"dose": "75-150 IU",
+					"frequency": "2-3x weekly",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Lyophilized powder vial",
+					"Sterile diluent (provided)",
+					"Syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Add provided diluent to powder vial",
+					"Gently swirl until dissolved",
+					"Draw prescribed dose into syringe",
+					"Inject intramuscularly or subcutaneously",
+					"Use immediately after reconstitution"
+				]
+			},
+			"keyBenefits": [
+				"Established clinical protocols",
+				"Flexible dosing",
+				"Can combine with other fertility medications"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "hCG",
+			"status": "synergistic",
+			"notes": "hCG is typically used to trigger ovulation after HMG-induced follicular development."
+		},
+		{
+			"peptide": "GnRH agonists",
+			"status": "sequential",
+			"notes": "Often used in combination protocols for IVF to prevent premature LH surge."
+		},
+		{
+			"peptide": "Clomiphene",
+			"status": "sequential",
+			"notes": "May be used in sequential protocols for ovulation induction."
+		},
+		{
+			"peptide": "Gonadorelin",
+			"status": "compatible",
+			"notes": "Different mechanisms; may be used in different fertility protocols."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-3",
+			"effects": "Follicular recruitment begins"
+		},
+		{
+			"period": "Days 4-7",
+			"effects": "Follicular growth continues; monitoring required"
+		},
+		{
+			"period": "Days 8-12",
+			"effects": "Follicles reach mature size; trigger ovulation"
+		},
+		{
+			"period": "Post-trigger",
+			"effects": "Ovulation occurs ~36 hours after hCG trigger"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions",
+			"Abdominal discomfort",
+			"Ovarian enlargement",
+			"Mood changes",
+			"Headache"
+		],
+		"rare": [
+			"Ovarian Hyperstimulation Syndrome (OHSS)",
+			"Multiple pregnancy",
+			"Ovarian torsion",
+			"Thromboembolic events"
+		],
+		"stopSigns": [
+			"Severe abdominal pain or bloating",
+			"Rapid weight gain",
+			"Difficulty breathing",
+			"Nausea and vomiting",
+			"Decreased urination"
+		],
+		"contraindications": [
+			"Primary ovarian failure",
+			"Uncontrolled thyroid or adrenal dysfunction",
+			"Sex hormone-dependent tumors",
+			"Abnormal uterine bleeding of unknown cause",
+			"Ovarian cysts (not due to PCOS)",
+			"Pregnancy"
+		],
+		"monitoring": [
+			"Regular ultrasound monitoring of follicular development",
+			"Serum estradiol levels",
+			"Watch for signs of OHSS",
+			"Medical supervision essential"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder",
+			"Pharmaceutical grade product",
+			"Proper cold chain maintained",
+			"Clear solution after reconstitution"
+		],
+		"warning": ["Research-grade products lack quality assurance"],
+		"bad": [
+			"Discolored powder or solution",
+			"Particulates visible",
+			"Exposed to temperature extremes"
+		]
+	},
+	"references": [
+		{
+			"title": "Human Menopausal Gonadotropin",
+			"journal": "ScienceDirect",
+			"year": "2024",
+			"keyFindings": "HMG contains FSH and LH in 1:1 ratio extracted from postmenopausal urine."
+		},
+		{
+			"title": "HMG vs Recombinant FSH in PCOS Patients Undergoing IVF",
+			"journal": "PMC/NCBI",
+			"year": "2013",
+			"keyFindings": "No significant differences in pregnancy rates between FSH alone, rFSH+HMG, and rFSH+rLH groups."
+		},
+		{
+			"title": "Effect of HMG and HP-FSH on IVF Outcomes",
+			"journal": "Human Reproduction",
+			"year": "1996",
+			"keyFindings": "Beneficial effects of HMG on fertilization rates and pre-embryo development compared to HP-FSH."
+		},
+		{
+			"title": "Generic hMG vs Costly FSH for Ovulation Induction",
+			"journal": "PubMed",
+			"year": "2001",
+			"keyFindings": "Generic hMG products do not adversely affect pregnancy rates and are appropriate cost-effective alternatives."
+		}
+	],
+	"categories": ["sexual-health", "hormonal"],
+	"quickStats": {
+		"typicalDose": "75-150 IU for ovulation induction; 150-300 IU for IVF",
+		"frequency": "Daily during stimulation phase (7-12 days)",
+		"cycleDuration": "7-12 days per cycle",
+		"storage": "Lyophilized: Room temperature. Reconstituted: 2-8°C, use immediately after reconstitution"
+	}
+}

@@ -1,0 +1,268 @@
+{
+	"id": "pinealon",
+	"name": "Pinealon",
+	"subtitle": "Synthetic Tripeptide | Neuroprotection & Cognitive Enhancement",
+	"aliases": ["EDR", "Glu-Asp-Arg", "Cerluten"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "418.4 Da",
+		"length": "3 amino acids",
+		"type": "Tripeptide",
+		"sequence": "Glu-Asp-Arg (EDR)",
+		"modifications": ["Synthetic bioregulator with direct DNA interaction capabilities"],
+		"halfLife": "Not established",
+		"halfLifeSeconds": null
+	},
+	"overview": "Developed in Russia, Pinealon demonstrates unique DNA-interaction for neuroprotection and cognitive enhancement. Benefits traumatic brain injury recovery and age-related cognitive decline with excellent safety profile.",
+	"mechanism": "Penetrates nuclear membranes to directly interact with DNA, modulates gene expression via histone H1.3 binding and MAPK/ERK pathway activation.",
+	"keyBenefits": [
+		"Direct DNA interaction",
+		"Neuroprotection",
+		"Cognitive enhancement",
+		"Excellent safety profile",
+		"40+ years of clinical use in Russia"
+	],
+	"indications": [
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Traumatic Brain Injury",
+					"description": "Clinical protocol of 5mg daily showed significant cognitive improvements in 72-patient study.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Direct CNS Delivery",
+					"description": "Subcutaneous administration allows systemic circulation to brain tissue for neuroprotective effects.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cellular Protection",
+					"description": "Caspase-3 suppression, ROS reduction, and excitotoxicity protection.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cognitive",
+			"items": [
+				{
+					"name": "Memory Enhancement",
+					"description": "Enhanced neurotransmitter function with 1.9x serotonin increase in cell cultures.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "NMDA Receptor Expression",
+					"description": "100 ng/kg optimal dose improved spatial learning in hippocampus.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Cellular Senescence Reduction",
+					"description": "Irisin expression increases linked to telomere protection and mitochondrial enhancement.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Biological Age Markers",
+					"description": "32-patient study showed significant improvements in aging indicators over 20-30 days.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Highest bioavailability, direct systemic delivery, established clinical protocols.",
+			"protocols": [
+				{
+					"goal": "Neuroprotection",
+					"dose": "5mg daily",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Cognitive Enhancement",
+					"dose": "100-300mcg",
+					"frequency": "Daily or every other day",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Anti-aging",
+					"dose": "5mg",
+					"frequency": "20 days, 2-3x yearly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Lyophilized Pinealon powder",
+					"Bacteriostatic water for injection",
+					"Insulin syringes (30-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Remove powder and water from refrigeration",
+					"Clean vial tops with alcohol swabs; allow to dry",
+					"Draw bacteriostatic water into syringe",
+					"Inject water slowly down vial side to avoid foam",
+					"Gently swirl until completely dissolved",
+					"Store at 2-8°C",
+					"Use within 30 days"
+				]
+			},
+			"keyBenefits": [
+				"Highest bioavailability",
+				"Direct systemic delivery",
+				"Established clinical protocols"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Convenient, proven clinical efficacy. Ultra-short peptide structure survives gastric acid.",
+			"protocols": [
+				{
+					"goal": "Cognitive Enhancement",
+					"dose": "0.2mg twice daily",
+					"frequency": "Morning and afternoon",
+					"route": "Empty stomach"
+				},
+				{
+					"goal": "Sleep Support",
+					"dose": "200mcg",
+					"frequency": "Daily",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": [
+				"Convenient administration",
+				"3-amino acid structure achieves systemic absorption",
+				"Proven clinical efficacy"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Theoretical nose-to-brain delivery, potential rapid CNS access. Limited data available.",
+			"protocols": [],
+			"keyBenefits": ["Potential direct brain access", "Non-invasive", "Requires further research"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Enhanced neuroprotection through complementary telomerase activation pathways."
+		},
+		{
+			"peptide": "Cortexin",
+			"status": "synergistic",
+			"notes": "Synergistic cognitive recovery in stroke patients through brain region targeting."
+		},
+		{
+			"peptide": "Thymalin",
+			"status": "compatible",
+			"notes": "Safe combination supporting neural-immune axis optimization."
+		},
+		{
+			"peptide": "Melatonin",
+			"status": "monitor",
+			"notes": "Monitor sleep patterns; Pinealon stimulates endogenous serotonin production."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms with no known interactions."
+		},
+		{
+			"peptide": "NAD+",
+			"status": "compatible",
+			"notes": "Complementary anti-aging mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Improved mental clarity and focus"
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Enhanced cognitive processing and memory"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Peak neuroprotective and anti-aging benefits"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Minimal injection site reactions",
+			"Mild gastrointestinal adjustment",
+			"Occasional headache",
+			"Fatigue"
+		],
+		"stopSigns": [
+			"Severe headaches or mood changes",
+			"Persistent injection site reactions",
+			"Signs of infection at injection site",
+			"Unusual neurological symptoms",
+			"Allergic reactions"
+		],
+		"contraindications": ["Pregnancy", "Lactation"],
+		"monitoring": [
+			"Medical supervision recommended",
+			"Rotate injection sites",
+			"Use sterile technique"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White crystalline powder; proper freeze-drying indicated",
+			"Clear reconstituted solution; no particles or cloudiness",
+			"Pharmaceutical packaging with batch numbers from reputable sources"
+		],
+		"warning": [
+			"Ensure distinction between research (lab only) and pharmaceutical (human use) grade"
+		],
+		"bad": [
+			"Discolored powder (yellow or brown) indicates degradation from heat or moisture",
+			"Cloudy solution indicates contamination"
+		]
+	},
+	"references": [
+		{
+			"title": "Human Clinical Trial - Post-Traumatic Cerebrasthenia",
+			"year": "2015",
+			"keyFindings": "72 patients aged 30-74; 0.2mg twice daily; 20-30 days. Improved memory, reduced headache severity, and enhanced emotional stability compared to controls."
+		},
+		{
+			"title": "Aging Study - Polymorbidity Patients",
+			"year": "2015",
+			"keyFindings": "32 patients aged 41-83; variable dosing; 30 days. Significant improvements in biological aging biomarkers with anabolic effects."
+		},
+		{
+			"title": "Diabetic Rat Model - Spatial Learning",
+			"year": "2020",
+			"keyFindings": "100 ng/kg optimal dose; 14 days. Enhanced NMDA receptor expression in hippocampus with neuroplasticity improvements."
+		},
+		{
+			"title": "5xFAD Alzheimer's Mouse Model",
+			"year": "2021",
+			"keyFindings": "400 μg/kg IP daily; 28 days. Prevention of dendritic spine loss through MAPK/ERK pathway modulation."
+		}
+	],
+	"categories": ["cognitive", "sleep", "longevity"],
+	"quickStats": {
+		"typicalDose": "Injectable: 5mg daily or 100-300mcg daily; Oral: 0.2mg twice daily",
+		"frequency": "Injectable: daily for 20 days; Oral: morning and afternoon on empty stomach",
+		"cycleDuration": "20 days per cycle",
+		"storage": "Refrigerate at 2-8°C, use within 30 days after reconstitution"
+	}
+}

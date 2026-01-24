@@ -1,0 +1,310 @@
+{
+	"id": "bpc-157",
+	"name": "BPC-157",
+	"subtitle": "Body Protection Compound-157 | Pentadecapeptide",
+	"researchStatus": "extensively-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "1,419.53 Da",
+		"length": "15 amino acids",
+		"type": "Pentadecapeptide",
+		"sequence": "Gly-Lys-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val",
+		"halfLife": "<30 minutes",
+		"halfLifeSeconds": 1800
+	},
+	"overview": "Synthetic peptide derived from gastric juice protein, renowned for tissue repair, inflammation reduction, and GI protection capabilities. BPC-157 promotes blood vessel formation, enhances collagen synthesis, modulates growth factor expression, and protects against tissue damage through localized or systemic delivery.",
+	"mechanism": "Promotes blood vessel formation (angiogenesis), enhances collagen synthesis, modulates growth factor expression including VEGF, and protects against tissue damage through localized or systemic delivery pathways.",
+	"keyBenefits": [
+		"Accelerated tendon, ligament, muscle, and bone healing",
+		"Localized tissue repair with direct targeting",
+		"Superior bioavailability",
+		"Anti-inflammatory effects",
+		"Angiogenesis promotion",
+		"Gastric and intestinal protection"
+	],
+	"indications": [
+		{
+			"category": "Wound Healing",
+			"items": [
+				{
+					"name": "Tendon Healing",
+					"description": "Accelerated tendon-to-bone healing with improved biomechanical properties; most effective with localized injection.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Muscle Recovery",
+					"description": "Enhanced healing and reduced recovery following crush injuries and surgical procedures with direct tissue targeting.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Angiogenesis",
+					"description": "Promotes blood vessel formation and improves vascularization through localized delivery.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neurological",
+			"items": [
+				{
+					"name": "Neuroprotection",
+					"description": "Protective effects against neurotoxic agents and ischemic brain injury models.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Spinal Cord Injury",
+					"description": "Improved functional recovery and reduced tissue damage in spinal cord injury studies.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Peripheral Nerves",
+					"description": "Enhanced peripheral nerve regeneration and functional recovery after injury.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Gastrointestinal",
+			"items": [
+				{
+					"name": "Ulcer Protection",
+					"description": "Protective effects against gastric and duodenal ulcers through cytoprotective mechanisms.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Intestinal Repair",
+					"description": "Acceleration of intestinal healing with reduced inflammatory markers in IBD models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Mucosal Healing",
+					"description": "Enhanced mucosal barrier function and accelerated epithelial regeneration.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Most effective for localized healing when injected near injury site. Subcutaneous injection preferred for targeted tissue repair.",
+			"protocols": [
+				{
+					"goal": "Tendon/Joint healing",
+					"dose": "250-500 mcg",
+					"frequency": "1-2x daily",
+					"route": "SubQ near injury"
+				},
+				{
+					"goal": "Serious injury",
+					"dose": "500-1000 mcg",
+					"frequency": "2x daily",
+					"route": "SubQ near injury"
+				},
+				{
+					"goal": "General healing",
+					"dose": "250-500 mcg",
+					"frequency": "1-2x daily",
+					"route": "SubQ or IM"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "250 mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes (0.5-1 mL)",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume using calculator",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator, use within 28 days"
+				]
+			},
+			"keyBenefits": [
+				"Most effective on empty stomach",
+				"Inject close to injury site for localized healing",
+				"Rotate injection sites to prevent irritation"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Effective for gastric and intestinal conditions. Higher doses required due to lower bioavailability.",
+			"protocols": [
+				{
+					"goal": "Gastric protection",
+					"dose": "500 mcg - 1 mg",
+					"frequency": "1-2x daily",
+					"route": "Oral (empty stomach)"
+				},
+				{
+					"goal": "General healing",
+					"dose": "1-2 mg",
+					"frequency": "1-2x daily",
+					"route": "Oral (empty stomach)"
+				},
+				{
+					"goal": "Ulcer prevention",
+					"dose": "500 mcg",
+					"frequency": "2x daily",
+					"route": "Oral (empty stomach)"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "500 mcg",
+					"frequency": "1x daily",
+					"route": "Oral (empty stomach)"
+				}
+			],
+			"keyBenefits": [
+				"Take on empty stomach 30 minutes before meals",
+				"Optimal for GI conditions",
+				"No injection required"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "TB-500",
+			"status": "synergistic",
+			"notes": "Complementary healing mechanisms; often used together in the Wolverine Stack."
+		},
+		{
+			"peptide": "GHRP-6",
+			"status": "compatible",
+			"notes": "No known negative interactions."
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "synergistic",
+			"notes": "BPC-157 increases GH receptor expression, amplifying growth hormone benefits."
+		},
+		{
+			"peptide": "CJC-1295",
+			"status": "synergistic",
+			"notes": "BPC-157 upregulates GH receptors, enhancing effectiveness for tissue repair."
+		},
+		{
+			"peptide": "Melanotan II",
+			"status": "compatible",
+			"notes": "No known interactions; different mechanisms and receptor targets."
+		},
+		{
+			"peptide": "AOD-9604",
+			"status": "compatible",
+			"notes": "Safe combination; different pathways. Often combined in regenerative protocols."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Reduced inflammation and pain at injection site"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Improved healing rate and tissue repair"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Maximum localized healing benefits"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild injection site redness",
+			"Injection site irritation",
+			"Possible mild digestive adjustment (oral)"
+		],
+		"stopSigns": [
+			"Persistent injection site reactions or infection signs",
+			"Unusual swelling or rash around injection area",
+			"Severe headaches or dizziness",
+			"Allergic reactions",
+			"Persistent or worsening digestive issues"
+		],
+		"contraindications": [
+			"Active cancer (due to angiogenic effects)",
+			"Pregnancy or breastfeeding",
+			"Blood thinners (consult doctor due to angiogenesis)",
+			"WADA prohibited for competitive athletes"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White, fluffy lyophilized powder (cake) filling vial bottom",
+			"Crystal clear solution after reconstitution with no particles",
+			"Intact vacuum seal on vial"
+		],
+		"warning": ["Slight clumping that dissolves with gentle swirling (acceptable from shipping)"],
+		"bad": [
+			"Collapsed, melted, or powder stuck to vial sides (heat exposure)",
+			"Cloudy solution, particles, or precipitates after reconstitution",
+			"Discoloration of powder"
+		]
+	},
+	"references": [
+		{
+			"title": "Achilles Tendon Healing Study",
+			"year": "2003",
+			"keyFindings": "Superior tendon healing with improved biomechanical properties and enhanced tendon-to-bone integration in rat models."
+		},
+		{
+			"title": "Muscle Healing Research",
+			"year": "2006",
+			"keyFindings": "Accelerated quadriceps healing with improved histology, reduced inflammation, and restored function in rat models."
+		},
+		{
+			"title": "Spinal Cord Injury Recovery",
+			"year": "2019",
+			"keyFindings": "Significant functional recovery, reduced tissue damage, and improved neurological outcomes in rat models."
+		},
+		{
+			"title": "Gastric Ulcer Protection",
+			"year": "2020",
+			"keyFindings": "Cytoprotective effects against gastric ulcers through multiple protective mechanisms."
+		},
+		{
+			"title": "VEGF and Angiogenesis Study",
+			"year": "2017",
+			"keyFindings": "Pro-angiogenic effects via VEGFR2 activation, explaining wound healing mechanisms."
+		},
+		{
+			"title": "Safety Evaluation Study",
+			"year": "2020",
+			"keyFindings": "No serious adverse effects at therapeutic doses up to 1000 μg/kg for 90 days; established safety profile."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Multifunctionality and Possible Medical Application of the BPC 157 Peptide",
+			"date": "January 2025",
+			"source": "Pharmaceuticals",
+			"summary": "Comprehensive review of biological activities, mechanisms, and therapeutic potential across multiple organ systems."
+		},
+		{
+			"title": "Pharmacokinetics, Distribution, Metabolism, and Excretion of Body-Protective Compound 157",
+			"date": "October 2022",
+			"source": "Frontiers in Pharmacology",
+			"summary": "IM bioavailability 14-19% in rats, 45-51% in dogs; half-life less than 30 minutes."
+		}
+	],
+	"categories": ["healing", "longevity"],
+	"quickStats": {
+		"typicalDose": "250-500mcg",
+		"frequency": "Once or twice daily",
+		"cycleDuration": "4-12 weeks depending on injury",
+		"storage": "Lyophilized: freezer long-term. Reconstituted: 2-8°C for 4-6 weeks"
+	}
+}

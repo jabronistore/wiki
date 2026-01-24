@@ -1,0 +1,317 @@
+{
+	"id": "semax",
+	"name": "Semax",
+	"subtitle": "Synthetic ACTH Analog | Nootropic & Neuroprotective Peptide",
+	"aliases": ["NA-Semax"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "813.93 Da",
+		"length": "7 amino acids",
+		"type": "ACTH(4-10) synthetic analog",
+		"sequence": "Met-Glu-His-Phe-Pro-Gly-Pro",
+		"modifications": ["Enhanced stability synthetic analog"],
+		"halfLife": "0.5-2 hours",
+		"halfLifeSeconds": 4500
+	},
+	"overview": "Semax is a synthetic heptapeptide derived from adrenocorticotropic hormone (ACTH) fragment 4-10, originally developed in Russia for stroke recovery. It achieves enhanced CNS penetration through direct transport via olfactory epithelium and trigeminal nerves, bypassing the blood-brain barrier.",
+	"mechanism": "Rapidly increases BDNF levels, modulates dopaminergic and serotonergic systems, and achieves direct brain delivery through olfactory transport with 0.093% blood-brain barrier penetration (vs 0.01% IV).",
+	"keyBenefits": [
+		"Rapid brain delivery via intranasal route",
+		"Rapidly increases BDNF levels",
+		"Extensive clinical research in Russia",
+		"Easy self-administration",
+		"Modulates dopamine and serotonin systems",
+		"Neuroprotective effects"
+	],
+	"indications": [
+		{
+			"category": "Cognitive",
+			"items": [
+				{
+					"name": "Memory Enhancement",
+					"description": "Improved short-term and working memory performance in fatigued individuals (71% vs 41% accuracy).",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Attention and Focus",
+					"description": "Enhanced sustained attention during demanding cognitive tasks.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Learning Acceleration",
+					"description": "Faster acquisition of new information and improved retention.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Stroke Recovery",
+					"description": "Accelerated rehabilitation with increased BDNF levels in stroke patients.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Brain Trauma Support",
+					"description": "Supports recovery from traumatic brain injury.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neurodegenerative Prevention",
+					"description": "Shows anti-amyloid properties in Alzheimer's models.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neuroplasticity",
+			"items": [
+				{
+					"name": "BDNF Upregulation",
+					"description": "Supports neurogenesis through increased brain-derived neurotrophic factor.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Neural Connectivity",
+					"description": "Enhanced neural connections and brain network activity.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Stress Resilience",
+					"description": "Improved ability to cope with cognitive stress.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal is the primary and most effective route, providing direct brain delivery through olfactory transport. Onset 15-30 minutes, peak 1-2 hours, duration 4-6 hours.",
+			"protocols": [
+				{
+					"goal": "Cognitive enhancement",
+					"dose": "300-600mcg",
+					"frequency": "1-2x daily",
+					"route": "Intranasal spray/drops"
+				},
+				{
+					"goal": "Intensive cognitive support",
+					"dose": "600-900mcg",
+					"frequency": "2-3x daily",
+					"route": "Intranasal"
+				},
+				{
+					"goal": "Brain injury recovery",
+					"dose": "900-1500mcg",
+					"frequency": "2-3x daily",
+					"route": "Intranasal"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Semax solution (0.1% or 1%)",
+					"Nasal spray bottle",
+					"Preservative-free saline (if reconstituting)"
+				],
+				"steps": [
+					"Pre-mixed solutions available as 0.1% or 1%",
+					"For research: reconstitute powder with sterile saline",
+					"Use preservative-free saline for nasal administration",
+					"Calculate concentration per spray/drop desired",
+					"Refrigerate and use within recommended timeframe",
+					"Alternate nostrils when administering"
+				]
+			},
+			"keyBenefits": [
+				"Fastest and most effective route",
+				"Direct brain delivery (0.093% BBB penetration)",
+				"No injection required",
+				"Onset 15-30 minutes"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection provides reliable dosing. Onset 30-60 minutes, peak 2-4 hours, duration 6-8 hours.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "500-750mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Intensive protocol",
+					"dose": "750-1000mcg",
+					"frequency": "1-2x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Semax lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes (25-27 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Clean vial tops with alcohol",
+					"Inject water slowly down the side of the vial to avoid foaming",
+					"Gently swirl until completely dissolved",
+					"Draw into syringe using appropriate gauge needle",
+					"Refrigerate reconstituted solution"
+				]
+			},
+			"keyBenefits": ["Reliable dosing", "Longer duration than nasal"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "NA-Semax-Amidate",
+			"status": "avoid",
+			"notes": "Do NOT use simultaneously. Choose one or the other - they are variants of the same peptide."
+		},
+		{
+			"peptide": "Selank",
+			"status": "synergistic",
+			"notes": "Complementary anxiolytic effects; popular combination."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Both support neuroplasticity through different mechanisms."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "compatible",
+			"notes": "Comprehensive neuroprotection when combined."
+		},
+		{
+			"peptide": "Stimulants",
+			"status": "monitor",
+			"notes": "May enhance stimulant effects - monitor carefully and reduce stimulant doses."
+		},
+		{
+			"peptide": "MAO Inhibitors",
+			"status": "monitor",
+			"notes": "Theoretical monoamine system risk; use caution."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-3",
+			"effects": "Initial cognitive clarity and focus enhancement, possible mild nasal sensation"
+		},
+		{
+			"period": "Week 1",
+			"effects": "Improved attention span during demanding tasks"
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Enhanced memory consolidation, stable mood"
+		},
+		{
+			"period": "Week 4",
+			"effects": "Peak cognitive benefits with improved stress resilience and mental flexibility"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Gradual baseline return over 3-7 days; some benefits persist"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild nasal discomfort (nasal route)",
+			"Possible nasal sensation upon administration"
+		],
+		"stopSigns": [
+			"Severe nasal irritation, bleeding, or persistent congestion",
+			"Unusual anxiety, agitation, or sleep disturbances",
+			"Headaches worsening with use",
+			"Signs of allergic reaction (rash, breathing difficulty)",
+			"Significant blood pressure changes or heart palpitations"
+		],
+		"contraindications": [
+			"Pregnancy or breastfeeding",
+			"Known peptide allergies",
+			"Do not exceed 4-week continuous use without medical supervision"
+		],
+		"monitoring": [
+			"Start with lowest effective dose (300mcg) to assess individual response",
+			"Avoid concurrent intranasal vasoconstrictors",
+			"Monitor for nasal irritation/bleeding",
+			"May enhance stimulant effects - reduce other stimulant doses"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, colorless solution (nasal)",
+			"Proper concentration labeling as 0.1% or 1% Semax",
+			"Cold chain shipping with cold packs",
+			"Sterile packaging (sealed bottles/ampoules)",
+			"White lyophilized powder (injectable)",
+			"Complete dissolution in solution",
+			"Third-party testing (≥98% purity)"
+		],
+		"warning": ["Nasal irritation potential", "Injection site reactions (redness, swelling)"],
+		"bad": [
+			"Crystallization or precipitation indicates degradation",
+			"Cloudy or colored solutions",
+			"Any visible particles"
+		]
+	},
+	"references": [
+		{
+			"title": "Cognitive Enhancement in Fatigued Workers",
+			"year": "1996",
+			"keyFindings": "Human study with 250-1000mcg intranasal single dose showed 71% accuracy on memory tests vs 41% in controls."
+		},
+		{
+			"title": "Stroke Recovery Clinical Trial",
+			"year": "2018",
+			"keyFindings": "110 patients with ischemic stroke showed increased BDNF levels correlated with early rehabilitation when using Semax with conventional therapy."
+		},
+		{
+			"title": "fMRI Default Mode Network Study",
+			"year": "2018",
+			"keyFindings": "24 healthy middle-aged participants showed increased fMRI default mode network activity relative to placebo."
+		},
+		{
+			"title": "Neuroprotective Effects in Brain Ischemia",
+			"year": "2014",
+			"keyFindings": "Rat focal ischemia model showed Semax affected expression of 96 genes related to immune and vascular systems."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Anti-amyloid Properties in Alzheimer's Models",
+			"date": "2021",
+			"source": "ACS Chemical Neuroscience",
+			"summary": "Demonstrated anti-amyloid properties with potential Alzheimer's applications."
+		},
+		{
+			"title": "BDNF Enhancement and Neuroplasticity",
+			"date": "2023",
+			"source": "Neuroscience Research Reviews",
+			"summary": "Updated review of BDNF enhancement mechanisms."
+		},
+		{
+			"title": "Intranasal BBB Penetration Study",
+			"date": "2024",
+			"source": "Clinical Pharmacology Research",
+			"summary": "Intranasal administration achieves 0.093% blood-brain barrier penetration versus 0.01% with intravenous."
+		}
+	],
+	"categories": ["cognitive", "longevity"],
+	"quickStats": {
+		"typicalDose": "300-600mcg per dose (up to 1000mcg for intensive use)",
+		"frequency": "1-2x daily (morning recommended for cognitive boost)",
+		"cycleDuration": "2-4 weeks on",
+		"storage": "Reconstituted: 2-8°C, use within recommended timeframe"
+	}
+}

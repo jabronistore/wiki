@@ -1,0 +1,282 @@
+{
+	"id": "sermorelin",
+	"name": "Sermorelin",
+	"subtitle": "GHRH Analog | Growth Hormone Releasing Hormone",
+	"aliases": ["Sermorelin acetate", "GHRH 1-29", "Growth Hormone-Releasing Hormone"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "3,358 Da",
+		"length": "29 amino acids",
+		"type": "GHRH analog",
+		"modifications": ["Synthetic analog of human GHRH", "6% subcutaneous bioavailability"],
+		"halfLife": "10-12 minutes",
+		"halfLifeSeconds": 660
+	},
+	"overview": "Sermorelin is a synthetic 29-amino acid analog of human growth hormone-releasing hormone that stimulates natural growth hormone production while preserving physiological pulsatile patterns. Originally FDA-approved in 1997 for pediatric GH deficiency, it was discontinued in 2008 for manufacturing reasons, not safety concerns.",
+	"mechanism": "Subcutaneous injection provides optimal bioavailability for binding GHRH receptors, stimulating pulsatile GH release while maintaining hypothalamic-pituitary axis integrity and allowing natural somatostatin negative feedback.",
+	"keyBenefits": [
+		"FDA-proven efficacy",
+		"Maintains natural GH pulsatile patterns",
+		"Preserves pituitary function",
+		"1.26kg lean mass increase documented in elderly",
+		"IGF-1 mediated anabolic effects",
+		"Allows natural feedback regulation"
+	],
+	"indications": [
+		{
+			"category": "Muscle Growth",
+			"items": [
+				{
+					"name": "Lean Body Mass Enhancement",
+					"description": "1.26kg lean mass increase documented in elderly men with improved muscle strength tests.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "IGF-1 Mediated Growth",
+					"description": "Endogenous IGF-1 stimulation drives protein synthesis and muscle growth.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Athletic Recovery",
+					"description": "Enhanced recovery through physiological GH stimulation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Age-Related GH Decline Reversal",
+					"description": "Doubles 12-hour GH release in elderly subjects over 6 weeks.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Body Composition Improvement",
+					"description": "Decreased adiposity and improved lean mass distribution.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Skin Quality Enhancement",
+					"description": "Improved skin thickness and quality.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Hormonal",
+			"items": [
+				{
+					"name": "Endogenous GH Stimulation",
+					"description": "Preserves natural axis function without suppression.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Natural Pulsatile Secretion",
+					"description": "Maintains physiological GH release patterns.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the primary method. Bedtime administration aligns with natural nocturnal GH pulses. Avoid food 2+ hours before injection as carbohydrates blunt GH response.",
+			"protocols": [
+				{
+					"goal": "Anti-aging/Longevity",
+					"dose": "200-300mcg",
+					"frequency": "Once at bedtime",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Athletic Performance",
+					"dose": "300-500mcg",
+					"frequency": "Once at bedtime",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Body Composition",
+					"dose": "200mcg",
+					"frequency": "5 days weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Combination Therapy",
+					"dose": "200mcg + GHRP",
+					"frequency": "Once daily",
+					"route": "SubQ co-injection"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Sermorelin acetate lyophilized powder (2-5mg vial)",
+					"Bacteriostatic water for injection (3mL)",
+					"Insulin syringes (28-30 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Clean vial top with alcohol swab; allow to dry",
+					"Inject 3mL bacteriostatic water slowly against vial wall (not directly on powder)",
+					"Gently swirl in circular motion - do not shake vigorously",
+					"Allow 2-3 minutes until powder dissolves into clear solution",
+					"Store reconstituted solution at 2-8°C; use within 10-30 days",
+					"Inject subcutaneously at 45-degree angle; rotate sites"
+				]
+			},
+			"keyBenefits": [
+				"Lower abdomen (avoid navel), anterior thigh, posterior upper arm",
+				"Rotate injection sites",
+				"Bedtime administration optimal"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal spray is available with 69% patient preference over injection. Lower bioavailability but bypasses first-pass metabolism.",
+			"protocols": [
+				{
+					"goal": "Nasal administration",
+					"dose": "30+ mcg/kg",
+					"frequency": "Once daily at bedtime",
+					"route": "Nasal spray"
+				}
+			],
+			"keyBenefits": [
+				"69% patient preference over injection",
+				"Bypasses first-pass metabolism",
+				"Lower bioavailability than injection"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Ipamorelin",
+			"status": "synergistic",
+			"notes": "Excellent combination producing 3-5 fold increases in GH release."
+		},
+		{
+			"peptide": "CJC-1295",
+			"status": "synergistic",
+			"notes": "Highly effective combination - CJC-1295 provides sustained 6-8 day release while sermorelin offers immediate pulsatile effects."
+		},
+		{
+			"peptide": "GHRP-2",
+			"status": "synergistic",
+			"notes": "Combined GHRH+GHRP-2 produces 54-fold GH increases compared to 20-fold with GHRH alone."
+		},
+		{
+			"peptide": "Octreotide/Lanreotide",
+			"status": "avoid",
+			"notes": "Somatostatin analogs directly block GH release by activating inhibitory receptors."
+		},
+		{
+			"peptide": "Prednisone",
+			"status": "monitor",
+			"notes": "High-dose glucocorticoids suppress pituitary GH release and reduce GHRH receptor sensitivity."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "GH antagonizes insulin action; monitor combination closely."
+		},
+		{
+			"peptide": "Thyroid Hormones",
+			"status": "compatible",
+			"notes": "Essential combination as untreated hypothyroidism prevents sermorelin response."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "IGF-1 elevation begins; improved sleep quality and recovery"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Body composition changes begin; increased energy and well-being"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Visible muscle tone improvements; fat reduction; skin quality enhancement"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Sustained improvements; optimal IGF-1 elevation"
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Maximum benefits: muscle growth, fat loss, anti-aging effects"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions (16.7% of patients - generally mild)",
+			"Nasal irritation (intranasal route)"
+		],
+		"stopSigns": [
+			"Signs of pituitary tumor growth (headaches, vision changes)",
+			"Severe injection site reactions or generalized allergic responses",
+			"Uncontrolled diabetes or significant glucose intolerance",
+			"New onset or worsening malignancy symptoms"
+		],
+		"contraindications": ["Active malignancy", "Pituitary tumors", "Pregnancy"],
+		"monitoring": [
+			"Monitor thyroid function - 6.5% develop hypothyroidism requiring hormone replacement",
+			"Check IGF-1 levels monthly initially, then every 3-6 months long-term"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Completely clear and colorless solution without particles, cloudiness, or precipitation",
+			"Greater than 98% peptide purity per USP standards",
+			"Sterile, nonpyrogenic lyophilized powder",
+			"Maintained at 2-8°C throughout transport",
+			"Produced in FDA-registered facilities following cGMP"
+		],
+		"warning": [
+			"Brief room temperature exposure acceptable up to 72 hours but should be refrigerated promptly"
+		],
+		"bad": [
+			"Any cloudiness, particles, color changes, or precipitation indicates degradation",
+			"Molecular weight should be exactly 3,358 daltons (free base) or 3,418 daltons (acetate salt)"
+		]
+	},
+	"references": [
+		{
+			"title": "FDA Approval Study - Geref International Study Group Trial",
+			"year": "1996",
+			"keyFindings": "Pivotal trial with 110 prepubertal GH-deficient children demonstrating sustained efficacy through 36 months. Height velocity increased from 4.1 to 8.0 cm/year."
+		},
+		{
+			"title": "Adult Anti-Aging Study - Corpas et al.",
+			"year": "1992",
+			"keyFindings": "Landmark study demonstrating reversal of age-related GH/IGF-1 decline in 60-78 year old males. Doubled 12-hour GH release over 6 weeks."
+		},
+		{
+			"title": "Pharmacokinetic Profile",
+			"year": "1996",
+			"keyFindings": "Comprehensive analysis showing 11-12 minute half-life and 6% bioavailability for subcutaneous administration."
+		},
+		{
+			"title": "Body Composition in Elderly",
+			"year": "1992",
+			"keyFindings": "1.26kg lean mass increase with improved muscle strength; decreased systolic BP."
+		},
+		{
+			"title": "Nasal Administration Study",
+			"year": "1990",
+			"keyFindings": "69% patient preference over injection with reliable therapeutic response at 30+ mcg/kg."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss"],
+	"quickStats": {
+		"typicalDose": "200-300mcg per dose (up to 500mcg for athletic performance)",
+		"frequency": "Once daily at bedtime (aligns with natural GH pulse)",
+		"cycleDuration": "3-6 months continuous",
+		"storage": "Reconstituted: 2-8°C, use within 10-30 days"
+	}
+}

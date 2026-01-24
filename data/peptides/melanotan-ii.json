@@ -1,0 +1,384 @@
+{
+	"id": "melanotan-ii",
+	"name": "Melanotan II",
+	"subtitle": "Synthetic Melanocortin Peptide | Tanning & Sexual Function",
+	"aliases": ["MT-II", "MT2"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"type": "Synthetic alpha-MSH analog",
+		"modifications": ["Activates MC1R, MC3R, MC4R, MC5R receptors"],
+		"halfLife": "~2 hours",
+		"halfLifeSeconds": 7200
+	},
+	"overview": "Melanotan II is a synthetic analog of alpha-melanocyte-stimulating hormone (α-MSH) that activates melanocortin receptors throughout the body. MC1R activation triggers melanin production for tanning, while MC4R affects sexual arousal and appetite control.",
+	"mechanism": "Binds to melanocortin receptors (MC1R for tanning, MC4R for sexual function and appetite) to stimulate melanin production, enhance libido, and suppress appetite through hypothalamic pathways.",
+	"keyBenefits": [
+		"Rapid tanning without UV exposure",
+		"Enhanced sexual function and libido",
+		"Appetite suppression",
+		"Improved mood via melanocortin activation",
+		"Photoprotection through increased melanin"
+	],
+	"indications": [
+		{
+			"category": "Skin Health",
+			"items": [
+				{
+					"name": "UV-Free Tanning",
+					"description": "Stimulates natural melanin production for tanning without requiring UV exposure.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Photoprotection",
+					"description": "Increased melanin provides natural SPF protection against sun damage.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Even Pigmentation",
+					"description": "May help address certain pigmentation disorders.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Sexual Health",
+			"items": [
+				{
+					"name": "Enhanced Libido",
+					"description": "Improves sexual desire in both men and women through MC4R activation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Erectile Function",
+					"description": "80% response rate in psychogenic erectile dysfunction studies.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Female Sexual Arousal",
+					"description": "73% of women reported arousal within 24 hours in clinical trials.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Appetite Suppression",
+					"description": "MC4R activation in hypothalamus reduces appetite (15% caloric intake reduction in studies).",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Fat Loss Support",
+					"description": "Enhanced fat oxidation through metabolic pathway activation.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the standard and most effective route. Start with low doses to assess tolerance due to nausea risk.",
+			"protocols": [
+				{
+					"goal": "Initial loading phase",
+					"dose": "0.25mg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Tanning maintenance",
+					"dose": "0.5-1mg",
+					"frequency": "2-3x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Sexual enhancement",
+					"dose": "0.5-1mg",
+					"frequency": "As needed",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Minimal side effects",
+					"dose": "0.1-0.25mg",
+					"frequency": "Every other day",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Photoprotection",
+					"dose": "0.5mg",
+					"frequency": "2x weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Melanotan II lyophilized powder (typically 10mg vial)",
+					"Bacteriostatic water (2mL for 5mg/mL concentration)",
+					"Insulin syringes",
+					"Alcohol swabs",
+					"Aluminum foil (light protection)"
+				],
+				"steps": [
+					"Clean vial tops with alcohol swab, let dry",
+					"Draw 2mL bacteriostatic water for 10mg vial (creates 5mg/mL)",
+					"Inject water slowly down vial side to avoid foaming",
+					"Gently roll vial - do not shake vigorously",
+					"Solution should be clear to slightly yellow",
+					"Wrap vial in foil (MT-II is light sensitive)",
+					"Store in refrigerator",
+					"Draw dose with insulin syringe (typical: 0.05-0.2mL)"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen (preferred), thigh, or upper arm injection sites",
+				"Protect from light - use foil wrapping",
+				"Start low to assess tolerance"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Nasal spray offers convenient administration with rapid absorption, though with less research data.",
+			"protocols": [
+				{
+					"goal": "Nasal administration",
+					"dose": "1-2mg",
+					"frequency": "1-2x daily",
+					"route": "Nasal spray"
+				}
+			],
+			"keyBenefits": ["Convenient", "Rapid absorption", "Reduced injection reactions"]
+		},
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Topical application provides localized effects with minimal systemic absorption.",
+			"protocols": [
+				{
+					"goal": "Localized tanning",
+					"dose": "1-2mg/mL solution",
+					"frequency": "1-2x daily",
+					"route": "Topical application"
+				}
+			],
+			"keyBenefits": ["Minimal systemic absorption", "Localized effects"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "PT-141 (Bremelanotide)",
+			"status": "monitor",
+			"notes": "Both act on melanocortin receptors; combining may cause excessive side effects."
+		},
+		{
+			"peptide": "Alpha-MSH",
+			"status": "avoid",
+			"notes": "Redundant mechanism increases side effect risk."
+		},
+		{
+			"peptide": "Cialis/Viagra",
+			"status": "monitor",
+			"notes": "May enhance sexual effects; monitor cardiovascular impact."
+		},
+		{
+			"peptide": "Blood Pressure Medications",
+			"status": "monitor",
+			"notes": "MT-II can affect blood pressure."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known interactions."
+		},
+		{
+			"peptide": "Growth Hormone Peptides",
+			"status": "compatible",
+			"notes": "Different pathways; no interactions."
+		},
+		{
+			"peptide": "Appetite Suppressants",
+			"status": "monitor",
+			"notes": "MT-II has appetite-suppressing effects; additive effects possible."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Possible nausea, flushing, fatigue"
+		},
+		{
+			"period": "Day 3-7",
+			"effects": "Increased spontaneous erections (men), enhanced arousal"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Noticeable skin darkening, reduced appetite"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Significant tanning, stabilized sexual effects"
+		},
+		{
+			"period": "Week 4+",
+			"effects": "Maintained tan with less frequent dosing"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Nausea (pre-treatment with antiemetics recommended)",
+			"Facial flushing",
+			"Temporary blood pressure elevation",
+			"Fatigue",
+			"Spontaneous erections"
+		],
+		"stopSigns": [
+			"Severe persistent nausea or vomiting",
+			"Chest pain or significant blood pressure elevation",
+			"Mole changes (size, shape, color) - monitor closely",
+			"Prolonged painful erections (priapism)",
+			"Severe headaches or vision changes",
+			"Allergic reactions (rash, swelling, breathing difficulty)"
+		],
+		"contraindications": [
+			"History of melanoma or dysplastic nevi",
+			"Pregnancy or breastfeeding",
+			"Cardiovascular conditions",
+			"Uncontrolled hypertension"
+		],
+		"monitoring": [
+			"Start with very low dose (0.1-0.25mg) to assess tolerance",
+			"Monitor moles and freckles for any changes",
+			"Stay hydrated to minimize headaches/flushing",
+			"Regular skin examinations recommended"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear to pale yellow solution when reconstituted",
+			"Vacuum sealed vial with audible 'pop' when opening"
+		],
+		"warning": [
+			"Protect from light exposure - MT-II is photosensitive",
+			"Wrap vials in foil for storage"
+		],
+		"bad": [
+			"Brown or dark powder indicates oxidation/impurities",
+			"Cloudy solution after mixing indicates degradation/contamination"
+		]
+	},
+	"references": [
+		{
+			"title": "Erectile Dysfunction Phase II Trial",
+			"year": "2000",
+			"keyFindings": "0.025mg/kg dose achieved 80% response rate with significant improvement in psychogenic ED over 3 months."
+		},
+		{
+			"title": "Melanogenesis & UV Protection Study",
+			"year": "1999",
+			"keyFindings": "0.16mg/kg daily for 10 days increased eumelanin and achieved natural tan without UV exposure."
+		},
+		{
+			"title": "Female Sexual Arousal Disorder Trial",
+			"year": "2004",
+			"keyFindings": "Single dose of 0.025mg/kg resulted in 73% of premenopausal women reporting arousal within 24 hours."
+		},
+		{
+			"title": "Appetite Reduction Study",
+			"year": "2001",
+			"keyFindings": "15% reduction in caloric intake observed through MC4R activation."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Melanocortin Receptor Selectivity",
+			"date": "2024",
+			"source": "Melanocortin Research",
+			"summary": "Advancing toward more selective analogs with fewer side effects."
+		},
+		{
+			"title": "Vitiligo Repigmentation Study",
+			"date": "2024",
+			"source": "Dermatology Research",
+			"summary": "Potential for repigmentation when combined with narrow-band UVB therapy."
+		}
+	],
+	"protocolVariants": [
+		{
+			"name": "Traditional Loading Protocol",
+			"source": "Legacy Bodybuilding Forums",
+			"philosophy": "Aggressive daily loading to build melanin quickly",
+			"description": "A decade-old protocol involving daily injections at higher doses for 1-2 weeks before maintenance. This approach is associated with more side effects including nausea and increased freckling/mole development. Dosing on non-tanning days can lead to uneven pigmentation.",
+			"keyDifferences": [
+				"Higher starting doses (250-500mcg)",
+				"Daily dosing regardless of tanning",
+				"1-2 week loading period before UV exposure",
+				"Higher risk of nausea, freckling, and new moles",
+				"Can cause uneven tanning when UV begins"
+			],
+			"doses": [
+				{ "phase": "Loading", "dose": "250-500mcg", "frequency": "Daily", "duration": "1-2 weeks" },
+				{
+					"phase": "Maintenance",
+					"dose": "500mcg-1mg",
+					"frequency": "2-3x weekly",
+					"duration": "Ongoing"
+				}
+			]
+		},
+		{
+			"name": "Pre-Tan Only Protocol",
+			"source": "More Plates More Dates",
+			"sourceUrl": "https://moreplatesmoredates.com/melanotan-ii/",
+			"philosophy": "ONLY dose on tanning days - loading phase is unnecessary",
+			"description": "NEVER administer on non-tanning days. Always tan within 1 hour of injection. Start extremely low (50-75mcg) and increase by 25mcg every 3 sessions. This dramatically reduces freckling, uneven pigmentation, and side effects. The traditional loading phase is considered counterproductive - it builds melanin in areas with high melanocyte activity (freckles, moles, genitals) rather than where UV protection is needed.",
+			"keyDifferences": [
+				"Start at only 50-75mcg (much lower)",
+				"ONLY inject on days you tan - never otherwise",
+				"Must tan within 1 hour of injection",
+				"Increase dose by 25mcg every 3 sessions",
+				"Also increase tan time by 1 min per 3 sessions",
+				"Takes weeks/months to reach higher doses",
+				"Minimal freckling and side effects",
+				"More economical and sustainable long-term"
+			],
+			"doses": [
+				{
+					"phase": "Start",
+					"dose": "50-75mcg",
+					"frequency": "Tanning days only (EOD or less)",
+					"duration": "First sessions"
+				},
+				{
+					"phase": "Titration",
+					"dose": "+25mcg every 3 sessions",
+					"frequency": "Tanning days only",
+					"duration": "Weeks to months"
+				},
+				{
+					"phase": "Peak",
+					"dose": "Up to 500mcg",
+					"frequency": "Pre-tan only",
+					"duration": "Until desired tan achieved"
+				},
+				{
+					"phase": "Maintenance",
+					"dose": "250mcg",
+					"frequency": "Once weekly + some UV",
+					"duration": "Ongoing"
+				}
+			]
+		}
+	],
+	"categories": ["skin", "sexual-health"],
+	"quickStats": {
+		"typicalDose": "Loading: Start 0.25mg daily, increase to 0.5-1mg; Maintenance: 0.5-1mg 2-3x weekly",
+		"frequency": "Loading phase: Daily for first week, then tanning maintenance 2-3x weekly or as needed for sexual enhancement",
+		"cycleDuration": "4-8 weeks loading phase for tanning, then ongoing maintenance as needed",
+		"storage": "Refrigerate at 2-8°C wrapped in aluminum foil (light-sensitive); use reconstituted solution within 4 weeks"
+	}
+}

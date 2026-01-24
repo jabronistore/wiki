@@ -1,0 +1,305 @@
+{
+	"id": "tb-500",
+	"name": "TB-500",
+	"subtitle": "Synthetic Fragment (17-23) of Thymosin Beta-4",
+	"aliases": ["Thymosin Beta-4 Fragment", "Ac-LKKTETQ"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "4,963.44 Da",
+		"length": "43 amino acids",
+		"type": "Thymosin fragment",
+		"sequence": "Ac-Ser-Asp-Lys-Pro-Asp-Met-Ala-Glu-Ile-Glu-Lys-Phe-Asp-Lys-Ser-Lys-Leu-Lys-Lys-Thr-Glu-Thr-Gln-Glu-Lys-Asn-Pro-Leu-Pro-Ser-Lys-Glu-Thr-Ile-Glu-Gln-Glu-Lys-Gln-Ala-Gly-Glu-Ser",
+		"modifications": ["N-terminal acetylation for enhanced stability"],
+		"halfLife": "~2 hours",
+		"halfLifeSeconds": 7200
+	},
+	"overview": "A synthetic 7-amino acid fragment corresponding to the actin-binding region of thymosin beta-4, originally developed for equine use with retained tissue repair properties. TB-500 acts as principal actin-sequestering protein, regulating cell migration, promoting angiogenesis, reducing inflammation, and activating stem cell differentiation.",
+	"mechanism": "Acts as principal actin-sequestering protein, regulating cell migration, promoting angiogenesis, reducing inflammation, and activating stem cell differentiation for comprehensive regenerative effects.",
+	"keyBenefits": [
+		"Superior systemic tissue repair",
+		"Accelerated muscle, tendon, and ligament healing",
+		"Enhanced cell migration and angiogenesis",
+		"Comprehensive regenerative effects",
+		"Neuroprotective properties"
+	],
+	"indications": [
+		{
+			"category": "Tissue Repair",
+			"items": [
+				{
+					"name": "Muscle Regeneration",
+					"description": "Accelerated healing of muscle fibers with reduced recovery time and enhanced repair via cell migration and differentiation.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Tendon & Ligament Healing",
+					"description": "Connective tissue repair with reduced scar formation and improved biomechanical properties of healing tissues.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Wound Healing",
+					"description": "Enhanced dermal closure, improved angiogenesis, and reduced inflammation in acute and chronic scenarios.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Athletic Recovery",
+			"items": [
+				{
+					"name": "Exercise Recovery",
+					"description": "Faster recovery from intense training with reduced muscle soreness and improved tissue repair.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Injury Prevention",
+					"description": "Strengthened tissues through enhanced repair mechanisms may reduce injury risk.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Performance Enhancement",
+					"description": "Improved muscle quality through enhanced regeneration and repair pathways.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neurological",
+			"items": [
+				{
+					"name": "Neuroprotection",
+					"description": "Protective effects against neuronal damage in various models.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Spinal Cord Injury Support",
+					"description": "Preclinical evidence for improved outcomes in spinal injury models.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Brain Health",
+					"description": "Potential neuroprotective and regenerative effects on brain tissue.",
+					"effectiveness": "emerging"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous or intramuscular injection. Flexible timing with no empty stomach requirement. Can be injected near injury site for localized effect.",
+			"protocols": [
+				{
+					"goal": "General tissue repair",
+					"dose": "2-3mg",
+					"frequency": "2x weekly",
+					"route": "SubQ or IM"
+				},
+				{
+					"goal": "Serious injury recovery",
+					"dose": "4-5mg",
+					"frequency": "3x weekly",
+					"route": "SubQ near injury site"
+				},
+				{
+					"goal": "Athletic enhancement",
+					"dose": "2-3mg",
+					"frequency": "2x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Chronic conditions",
+					"dose": "3-4mg",
+					"frequency": "2-3x weekly",
+					"route": "SubQ or IM"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "2mg",
+					"frequency": "1-2x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Post-surgical recovery",
+					"dose": "3-5mg",
+					"frequency": "3x weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes (1mL recommended)",
+					"Alcohol swabs",
+					"TB-500 vial (2mg or 5mg typical)",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly with alcohol",
+					"Calculate required BAC water volume",
+					"Draw calculated BAC water slowly into syringe",
+					"Inject BAC water slowly down vial side (never directly on powder)",
+					"Gently swirl vial until powder completely dissolves",
+					"Store reconstituted solution refrigerated, use within 28 days"
+				]
+			},
+			"keyBenefits": [
+				"Subcutaneous injection at belly, thigh, or shoulder",
+				"Intramuscular option for larger muscles",
+				"Flexible timing - no empty stomach required"
+			]
+		},
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Topical formulations available for specific applications including wound healing and eye conditions.",
+			"protocols": [
+				{
+					"goal": "Chronic wound healing",
+					"dose": "0.01-0.03% concentration",
+					"frequency": "1-2x daily",
+					"route": "Topical application"
+				},
+				{
+					"goal": "Dry eye treatment",
+					"dose": "Eye drops formulation",
+					"frequency": "As directed",
+					"route": "Ophthalmic"
+				}
+			],
+			"keyBenefits": [
+				"Direct application to affected area",
+				"Non-invasive option",
+				"Suitable for surface wounds and eye conditions"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Complementary healing mechanisms with enhanced tissue repair when combined (Wolverine Stack)."
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "compatible",
+			"notes": "May enhance tissue sensitivity to growth hormone effects."
+		},
+		{
+			"peptide": "CJC-1295",
+			"status": "synergistic",
+			"notes": "Combined tissue repair with GH-releasing effects for comprehensive recovery."
+		},
+		{
+			"peptide": "IGF-1",
+			"status": "synergistic",
+			"notes": "Enhanced muscle and tissue regeneration through complementary growth pathways."
+		},
+		{
+			"peptide": "GHRP-6",
+			"status": "compatible",
+			"notes": "No negative interactions; potential enhanced recovery."
+		},
+		{
+			"peptide": "Melanotan II",
+			"status": "compatible",
+			"notes": "Different receptor families with no pathway overlap."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Reduced inflammation and improved tissue sensation"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Accelerated healing rate and improved tissue quality"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Maximum tissue repair and regenerative benefits"
+		},
+		{
+			"period": "Week 6-12",
+			"effects": "Continued improvement in tissue strength and function"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally minimal side effects",
+			"Possible mild injection site reactions",
+			"Temporary fatigue in some users"
+		],
+		"stopSigns": [
+			"Persistent or worsening injection site infections",
+			"Unusual swelling or prolonged redness",
+			"Severe allergic reactions",
+			"Unexpected systemic symptoms",
+			"Concerning health changes"
+		],
+		"contraindications": [
+			"Active cancer treatment (due to angiogenic effects)",
+			"Pregnancy or breastfeeding",
+			"Immunosuppressive medications (consult provider)",
+			"WADA prohibited for competitive athletes"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder - fine, evenly distributed with light fluffy texture",
+			"Clear, colorless solution after reconstitution with no particles",
+			"Proper vacuum seal intact with secure rubber stopper"
+		],
+		"warning": ["Slight powder clumping acceptable if completely dissolves with gentle swirling"],
+		"bad": [
+			"Colored or crystalline powder (yellow/brown indicates degradation)",
+			"Persistent cloudiness, floating particles, or precipitation",
+			"Damaged vial seal or contamination signs"
+		]
+	},
+	"references": [
+		{
+			"title": "Dermal Wound Healing Study",
+			"year": "2012",
+			"keyFindings": "Significant acceleration in wound healing rates in patients with chronic pressure ulcers and venous stasis ulcers compared to placebo in Phase 2 human trial."
+		},
+		{
+			"title": "Cardiac Tissue Regeneration",
+			"year": "2016",
+			"keyFindings": "TB-500 pre-treated endothelial cells improved left ventricular function by greater than 50% in post-MI subjects in human clinical trial."
+		},
+		{
+			"title": "Muscle Fiber Regeneration",
+			"year": "2015",
+			"keyFindings": "Improved skeletal muscle fiber regeneration in dystrophin-deficient mice, showing potential for muscular dystrophy treatment."
+		},
+		{
+			"title": "Corneal Healing Research",
+			"year": "2014",
+			"keyFindings": "Topical TB-500 significantly improved signs and symptoms of moderate to severe dry eye with lasting effects in Phase 2 human trial."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "TB-500 Metabolism and Detection in Clinical Applications",
+			"date": "March 2024",
+			"source": "Journal of Chromatography B",
+			"summary": "Analysis of TB-500 metabolic pathways and bioavailability in human subjects for clinical dosing protocols."
+		},
+		{
+			"title": "Thymosin Beta-4 in Anti-Aging Regenerative Therapies",
+			"date": "June 2021",
+			"source": "Cells Journal",
+			"summary": "Review of TB-500's ability to reactivate embryonic developmental processes in adult organs for regenerative medicine."
+		}
+	],
+	"categories": ["healing", "longevity"],
+	"quickStats": {
+		"typicalDose": "2-5mg per injection (higher doses for serious injuries)",
+		"frequency": "2-3x weekly (e.g., Monday, Wednesday, Friday)",
+		"cycleDuration": "6-8 weeks for active healing",
+		"storage": "Reconstituted: 2-8°C, use within 28 days"
+	}
+}

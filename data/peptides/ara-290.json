@@ -1,0 +1,270 @@
+{
+	"id": "ara-290",
+	"name": "Ara 290",
+	"subtitle": "Tissue-Protective Peptide | Innate Repair Receptor Agonist",
+	"aliases": ["Cibinetide"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "1,257 Da",
+		"length": "11 amino acids",
+		"type": "Engineered peptide",
+		"sequence": "pGlu-Glu-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser",
+		"modifications": ["N-terminal pyroglutamate", "Derived from erythropoietin"],
+		"halfLife": "~20 minutes (SubQ), ~2 minutes (IV)",
+		"halfLifeSeconds": 1200,
+		"halfLifeRoute": "SC"
+	},
+	"overview": "Ara 290 is an engineered 11-amino acid peptide activating the Innate Repair Receptor (IRR) to provide tissue-protective effects without red blood cell stimulation. Has FDA Orphan Drug status.",
+	"mechanism": "Activates IRR through EPOR/β-common receptor complex, triggering tissue-protective signaling without erythropoietic effects.",
+	"keyBenefits": [
+		"Proven tissue protection",
+		"Nerve regeneration",
+		"Anti-inflammatory effects",
+		"Excellent safety profile in clinical trials"
+	],
+	"indications": [
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Peripheral Nerve Regeneration",
+					"description": "23% increase in corneal nerve fiber area with sustained pain improvement.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Diabetic Neuropathy Treatment",
+					"description": "Nerve regeneration and metabolic improvements in Type 2 diabetes patients.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "CNS Protection",
+					"description": "Crosses blood-brain barrier for stroke and TBI neuroprotection.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Tissue Repair",
+			"items": [
+				{
+					"name": "Wound Healing",
+					"description": "Improves epithelialization and angiogenesis via VEGF upregulation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cardiovascular Protection",
+					"description": "Reduces infarct size in myocardial infarction models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Anti-Aging Effects",
+					"description": "Maintains cardiac function in aging models.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Inflammatory",
+			"items": [
+				{
+					"name": "Cytokine Reduction",
+					"description": "Reduces TNF-α, IL-6, and IL-12 production.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "IBD Support",
+					"description": "Reduces colitis severity in animal models.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Transplant Protection",
+					"description": "Improves graft survival and reduces rejection.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Primary clinical administration route with proven efficacy.",
+			"protocols": [
+				{
+					"goal": "Neuropathy Treatment",
+					"dose": "4 mg daily",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Tissue Protection",
+					"dose": "1-8 mg daily",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Acute Intervention",
+					"dose": "2 mg",
+					"frequency": "3x weekly",
+					"route": "IV"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Ara 290 lyophilized powder (4 mg vial)",
+					"Sterile water for injection",
+					"Sterile syringes and needles",
+					"Alcohol swabs",
+					"Light protection"
+				],
+				"steps": [
+					"Allow vial to reach room temperature (15-20 minutes)",
+					"Clean vial top with alcohol swab",
+					"Slowly inject 1 mL sterile water",
+					"Gently swirl to dissolve (no vigorous shaking)",
+					"Slight cloudiness is normal",
+					"Use immediately or refrigerate up to 24 hours",
+					"Protect from light",
+					"Rotate injection sites"
+				]
+			},
+			"keyBenefits": [
+				"Proven clinical efficacy",
+				"Established dosing protocols",
+				"Good safety record"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Complementary tissue repair pathways may enhance wound healing."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "synergistic",
+			"notes": "Combined mechanisms enhance recovery from injury."
+		},
+		{
+			"peptide": "Thymosin Beta-4",
+			"status": "compatible",
+			"notes": "No known interactions; different mechanisms for tissue protection."
+		},
+		{
+			"peptide": "EPO",
+			"status": "avoid",
+			"notes": "Clinical trials exclude EPO use within 2 months due to receptor interference."
+		},
+		{
+			"peptide": "NAD+",
+			"status": "monitor",
+			"notes": "Both affect cellular metabolism; monitor for additive effects."
+		},
+		{
+			"peptide": "Semaglutide",
+			"status": "compatible",
+			"notes": "No adverse interactions in clinical trials with GLP-1 agonists."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "monitor",
+			"notes": "Both affect tissue repair; requires monitoring for excessive growth factor activity."
+		},
+		{
+			"peptide": "Anti-TNF Biologics",
+			"status": "avoid",
+			"notes": "6-month washout required before Ara 290 to avoid immune interactions."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Initial anti-inflammatory effects and mild pain symptom improvement"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Progressive nerve regeneration, improved tissue healing markers"
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Peak therapeutic effects, maximum nerve fiber density improvements"
+		},
+		{
+			"period": "Month 2-6",
+			"effects": "Long-lasting benefits via molecular switch effect"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Excellent safety profile in clinical trials with no serious drug-related adverse events"
+		],
+		"stopSigns": [
+			"Severe injection site reactions",
+			"Unexpected blood count changes",
+			"Allergic reaction signs",
+			"Worsening of underlying condition",
+			"New neurological symptoms",
+			"Any serious adverse events"
+		],
+		"contraindications": [
+			"Recent anti-TNF therapy (within 6 months)",
+			"EPO use (within 2 months)",
+			"Pregnancy",
+			"BMI > 34 kg/m²"
+		],
+		"monitoring": [
+			"Injection site reactions",
+			"Anti-drug antibody development",
+			"Blood count changes",
+			"No hematopoietic effects or polycythemia risk unlike erythropoietin"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical grade manufacturing with GMP conditions",
+			"Proper peptide sequence verification - correct 11-amino acid sequence with N-terminal pyroglutamate",
+			"Sterile lyophilized powder with proper freeze-drying",
+			"Clinical batch documentation - Purity >95%, endotoxin <1 EU/mg, sterility verified"
+		],
+		"warning": ["Light-sensitive formulation - requires protection during storage and use"],
+		"bad": [
+			"Cloudy or discolored solution indicates degradation; should be clear to slightly cloudy"
+		]
+	},
+	"references": [
+		{
+			"title": "Sarcoidosis Neuropathy Phase 2b Trial",
+			"year": "2017",
+			"keyFindings": "64 patients, 1-8 mg SC daily for 28 days: 23% increase in corneal nerve fiber area at 4 mg dose."
+		},
+		{
+			"title": "Type 2 Diabetes Neuropathy Phase 2",
+			"year": "2015",
+			"keyFindings": "48 patients, 4 mg SC daily for 28 days: Sustained HbA1c improvement and nerve regeneration."
+		},
+		{
+			"title": "Diabetic Macular Edema Pilot Study",
+			"year": "2020",
+			"keyFindings": "9 patients, 4 mg SC daily for 12 weeks: Improved quality of life; good safety profile."
+		},
+		{
+			"title": "Myocardial Infarction Protection Study",
+			"year": "2012",
+			"keyFindings": "Preclinical mouse model, 24 μg/kg IV single dose: Reduced infarct size and improved survival."
+		},
+		{
+			"title": "Stroke Neuroprotection Research",
+			"year": "2011",
+			"keyFindings": "Rat stroke model, 300 μg/kg IV single dose: Reduced stroke volume; BBB penetration confirmed."
+		}
+	],
+	"categories": ["healing", "cognitive"],
+	"quickStats": {
+		"typicalDose": "4 mg daily",
+		"frequency": "Once daily",
+		"cycleDuration": "28 days",
+		"storage": "Lyophilized: 2-8°C refrigerated, protect from light. Reconstituted: use immediately or refrigerate up to 24 hours"
+	}
+}

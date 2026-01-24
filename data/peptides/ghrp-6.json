@@ -1,0 +1,263 @@
+{
+	"id": "ghrp-6",
+	"name": "GHRP-6",
+	"subtitle": "Growth Hormone Releasing Peptide-6 | Hexapeptide GHS",
+	"aliases": ["Growth Hormone Releasing Hexapeptide", "GHRP6", "GH-Releasing Peptide-6"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "873 Da",
+		"length": "6 amino acids",
+		"type": "Synthetic hexapeptide",
+		"sequence": "His-D-Trp-Ala-Trp-D-Phe-Lys-NH2",
+		"halfLife": "15-60 minutes",
+		"halfLifeSeconds": 2250
+	},
+	"overview": "GHRP-6 is a synthetic growth hormone secretagogue that stimulates the pituitary gland to release growth hormone. It was one of the first GHRPs developed and works by binding to the ghrelin receptor (GHS-R1a). Unlike direct HGH injections, GHRP-6 enhances the body's natural GH production while keeping negative feedback mechanisms balanced. It is known for its potent appetite-stimulating effects.",
+	"mechanism": "GHRP-6 binds to the growth hormone secretagogue receptor (GHS-R1a), the same receptor activated by ghrelin. This initiates a signaling cascade in the hypothalamus and pituitary gland, triggering a rapid pulse of natural GH secretion. The released GH then signals the liver to secrete IGF-1, which promotes muscle growth and fat metabolism. GHRP-6 also stimulates ghrelin release, causing significant appetite increase.",
+	"keyBenefits": [
+		"Potent stimulation of natural growth hormone release",
+		"Significant increase in appetite (beneficial for bulking/weight gain)",
+		"Enhanced muscle growth through elevated GH and IGF-1",
+		"Improved fat metabolism and body composition",
+		"Cardioprotective effects observed in research",
+		"Enhanced recovery from exercise and injury",
+		"Cytoprotective and anti-inflammatory properties",
+		"Maintains natural GH pulsatile release"
+	],
+	"indications": [
+		{
+			"category": "Growth Hormone Enhancement",
+			"items": [
+				{
+					"name": "GH Secretion",
+					"description": "Potent stimulation of endogenous growth hormone release through ghrelin receptor activation.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "IGF-1 Elevation",
+					"description": "Indirectly increases IGF-1 levels through enhanced GH secretion from the pituitary.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Muscle Growth",
+					"description": "Enhanced muscle protein synthesis through elevated growth hormone and IGF-1 levels.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Appetite Stimulation",
+					"description": "Significant increase in hunger through ghrelin pathway activation, beneficial for those needing to gain weight.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Recovery Enhancement",
+					"description": "Faster recovery from exercise and improved tissue repair.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Protective Effects",
+			"items": [
+				{
+					"name": "Cardioprotection",
+					"description": "Research indicates protective effects on cardiac tissue independent of GH release.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cytoprotection",
+					"description": "Systemic cytoprotective effects with anti-inflammatory properties observed in liver and other organs.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Antioxidant Effects",
+					"description": "Attenuation of reactive oxygen species and preservation of antioxidant defenses.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the primary administration route. Must be administered on an empty stomach as elevated blood glucose or insulin significantly blunts GH release. Multiple daily doses recommended.",
+			"protocols": [
+				{
+					"goal": "GH optimization",
+					"dose": "100 mcg",
+					"frequency": "2-3x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Enhanced results",
+					"dose": "200-300 mcg",
+					"frequency": "2-3x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "With GHRH (synergy)",
+					"dose": "100 mcg each",
+					"frequency": "2-3x daily",
+					"route": "SubQ (combined)"
+				},
+				{
+					"goal": "Appetite/bulking",
+					"dose": "100-200 mcg",
+					"frequency": "Before meals",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes (0.5-1 mL)",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator, use within 28 days"
+				]
+			},
+			"keyBenefits": [
+				"Must be taken on empty stomach (fasted state)",
+				"Avoid carbs and fats around injection time",
+				"Expect significant hunger 15-20 minutes after injection",
+				"Best timing: morning, post-workout, before bed"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "CJC-1295",
+			"status": "synergistic",
+			"notes": "GHRH + GHRP combination produces synergistic GH release significantly greater than either alone."
+		},
+		{
+			"peptide": "Mod GRF 1-29",
+			"status": "synergistic",
+			"notes": "Classic stack; GHRH amplifies GHRP-6's effects on growth hormone release."
+		},
+		{
+			"peptide": "GHRP-2",
+			"status": "compatible",
+			"notes": "Similar mechanism; GHRP-2 is more potent with less appetite stimulation."
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "compatible",
+			"notes": "Both are GHRPs; Ipamorelin has fewer side effects but is less potent."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions; often combined for recovery protocols."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "requires-timing",
+			"notes": "Simultaneous administration may increase GH response, but carb consumption blunts GH release."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Immediately",
+			"effects": "Intense hunger within 15-20 minutes; GH spike within 30 minutes"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Improved sleep quality and increased appetite"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced recovery and energy levels"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Noticeable changes in body composition"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Full benefits with improved muscle fullness and fat loss"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Intense hunger/increased appetite (most notable side effect)",
+			"Water retention",
+			"Tingling or numbness in extremities",
+			"Tiredness or lethargy after injection",
+			"Mild headache"
+		],
+		"rare": [
+			"Elevated cortisol (with high doses)",
+			"Elevated prolactin (with high doses)",
+			"Potential effects on glucose metabolism"
+		],
+		"stopSigns": [
+			"Severe or persistent headaches",
+			"Unusual swelling in hands or feet",
+			"Signs of carpal tunnel syndrome",
+			"Allergic reactions",
+			"Hypoglycemia symptoms"
+		],
+		"contraindications": [
+			"Active cancer or history of cancer",
+			"Pregnancy or breastfeeding",
+			"Pituitary disorders",
+			"Diabetes (use with caution)",
+			"WADA prohibited for competitive athletes"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution",
+			"Intact vacuum seal on vial"
+		],
+		"warning": ["Slight clumping that dissolves with gentle swirling"],
+		"bad": [
+			"Discolored or yellow powder",
+			"Cloudy solution after reconstitution",
+			"Particles or precipitates in solution"
+		]
+	},
+	"references": [
+		{
+			"title": "Effects of GHRP-6 on Weight Gain and Fat Mass",
+			"journal": "Endocrinology",
+			"year": "2010",
+			"keyFindings": "Significant differences in body composition, muscle growth, glucose metabolism, memory and cardiac function in mice administered GHRP-6."
+		},
+		{
+			"title": "Synthetic Growth Hormone-Releasing Peptides: Cytoprotective Effects",
+			"journal": "Clinical Medicine Insights: Cardiology",
+			"year": "2017",
+			"keyFindings": "GHRP-6 demonstrated systemic cytoprotective effects, anti-inflammatory properties, and cardioprotective effects in multiple studies."
+		},
+		{
+			"title": "GHRP-6 Clinical Safety Trial",
+			"journal": "Clinical Research",
+			"year": "2015",
+			"keyFindings": "Intravenous administration proved safe in dose scale-up clinical trial in healthy human volunteers."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss"],
+	"quickStats": {
+		"typicalDose": "100-300 mcg per injection",
+		"frequency": "2-3 times daily (morning, post-workout optional, before bed)",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Lyophilized: 2-8°C refrigerated; Reconstituted: 2-8°C refrigerated, use within 28 days"
+	}
+}

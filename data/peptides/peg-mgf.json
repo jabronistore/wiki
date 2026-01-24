@@ -1,0 +1,246 @@
+{
+	"id": "peg-mgf",
+	"name": "PEG-MGF",
+	"subtitle": "Pegylated Mechano Growth Factor | IGF-1 Splice Variant",
+	"aliases": ["Pegylated MGF", "MGF-24aa-E peptide"],
+	"researchStatus": "limited",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~2,888 Da",
+		"length": "24 amino acids",
+		"type": "IGF-1Ec splice variant C-terminal peptide",
+		"sequence": "YQPPSTNKNTKSQRRKGSTFEEHK",
+		"modifications": ["Polyethylene glycol attachment for extended half-life"],
+		"halfLife": "48-72 hours (via PEGylation)",
+		"halfLifeSeconds": 216000
+	},
+	"overview": "Modified IGF-1 variant with PEG attachment extending half-life from minutes to hours. Activates muscle satellite cells following mechanical stress or injury.",
+	"mechanism": "Activates muscle satellite stem cells via receptor binding, stimulating MAPK/ERK signaling. Enhances protein synthesis and promotes muscle fiber repair. E-peptide domain exhibits distinct activity from mature IGF-1.",
+	"keyBenefits": [
+		"Extended half-life through PEGylation",
+		"Satellite cell activation for muscle repair",
+		"Recovery support following mechanical stress",
+		"Potential neuroprotection against oxidative stress"
+	],
+	"indications": [
+		{
+			"category": "Muscle Repair",
+			"items": [
+				{
+					"name": "Satellite Cell Activation",
+					"description": "Primary mechanism activating dormant muscle satellite cells which fuse to damaged fibers.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Delayed Senescence",
+					"description": "Increases proliferative lifespan in younger muscle progenitor cells.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Enhanced Fusion Potential",
+					"description": "Increases activated satellite cell fusion capacity supporting repair and hypertrophy.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Tissue Regeneration",
+			"items": [
+				{
+					"name": "Tendon Healing",
+					"description": "Animal studies suggest improved Achilles tendon injury outcomes.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Bone Regeneration",
+					"description": "Rabbit models demonstrated faster healing via osteoblast regulation.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cartilage Repair",
+					"description": "Research indicates potential for articular cartilage injury models.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Recovery",
+			"items": [
+				{
+					"name": "Exercise Recovery",
+					"description": "Naturally upregulated after mechanical stress; supplementation may enhance processes.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Injury Recovery",
+					"description": "Localized injection near injury sites supports targeted tissue repair.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous or intramuscular administration; post-workout timing aligns with natural MGF upregulation.",
+			"protocols": [
+				{
+					"goal": "General Recovery",
+					"dose": "200mcg",
+					"frequency": "2-3x weekly",
+					"route": "SubQ or IM"
+				},
+				{
+					"goal": "Targeted Muscle Recovery",
+					"dose": "200-400mcg",
+					"frequency": "Post-workout, 2-3x weekly",
+					"route": "IM bilateral near target muscle"
+				},
+				{
+					"goal": "Injury Recovery",
+					"dose": "200-400mcg",
+					"frequency": "2-3x weekly",
+					"route": "IM near injury site"
+				},
+				{
+					"goal": "Conservative Protocol",
+					"dose": "100-200mcg",
+					"frequency": "2x weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"PEG-MGF lyophilized powder (typically 2mg vial)",
+					"Bacteriostatic water",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Clean rubber stopper with alcohol swab",
+					"Draw appropriate bacteriostatic water amount",
+					"Inject slowly along vial wall, not directly onto powder",
+					"Gently swirl to dissolve; never shake",
+					"Allow 2-5 minutes for full dissolution",
+					"Store refrigerated at 2-8°C",
+					"Protect from light"
+				]
+			},
+			"keyBenefits": [
+				"Extended half-life vs non-PEGylated",
+				"Targeted muscle repair",
+				"Post-workout timing optimal"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "IGF-1 LR3",
+			"status": "monitor",
+			"notes": "Both target IGF-1 pathways; combining risks receptor overstimulation. Reduce doses significantly if combined."
+		},
+		{
+			"peptide": "Human Growth Hormone",
+			"status": "monitor",
+			"notes": "HGH increases endogenous IGF-1/MGF. Combined use amplifies effects but monitor for excessive water retention and joint pain."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Complementary mechanisms. BPC-157 promotes angiogenesis; PEG-MGF activates satellite cells. Popular recovery stack."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "synergistic",
+			"notes": "TB-500 reduces inflammation and promotes cell migration; PEG-MGF activates muscle stem cells."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "Both affect glucose metabolism. Monitor blood sugar carefully if combined."
+		},
+		{
+			"peptide": "Thymosin Beta-4",
+			"status": "synergistic",
+			"notes": "Different regenerative pathways may enhance tissue repair through multiple mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Reduced muscle soreness post-workout; subtle recovery improvements"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced recovery between training; potential injury-related discomfort reduction"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Optimal muscle repair effects; improved training capacity from better recovery"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Benefits persist several weeks as tissue repair continues"
+		}
+	],
+	"sideEffects": {
+		"common": ["Injection site soreness", "Mild fatigue"],
+		"stopSigns": [
+			"Any unusual growths, lumps, or rapid tissue changes",
+			"Severe injection site reactions beyond normal soreness",
+			"Persistent headaches or vision changes",
+			"Signs of hypoglycemia",
+			"Unexpected swelling or edema"
+		],
+		"contraindications": [
+			"Any history of cancer or neoplastic disease",
+			"Pregnancy or breastfeeding",
+			"Uncontrolled diabetes or severe hyperglycemia"
+		],
+		"monitoring": [
+			"Not FDA-approved; limited human safety data available",
+			"Long-term safety profile unknown",
+			"Age-dependent response: benefits shown in young donors but not elderly",
+			"Blood glucose monitoring recommended for diabetic individuals",
+			"Prohibited in competitive sports (WADA banned)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White or off-white fluffy cake appearance indicates proper freeze-drying",
+			"Crystal clear solution after reconstitution with no particles",
+			"Certificate of Analysis with HPLC purity testing (>98%)"
+		],
+		"warning": ["Minor clumping that dissolves with gentle swirling is normal"],
+		"bad": [
+			"Collapsed or discolored powder suggests heat degradation",
+			"Persistent cloudiness or visible particles indicate contamination"
+		]
+	},
+	"references": [
+		{
+			"title": "MGF-E Peptide Human Muscle Cell Study",
+			"year": "2011",
+			"keyFindings": "Landmark study demonstrating MGF significantly increased satellite cell proliferation at 3ng/ml (P<0.001) with age-dependent effects."
+		},
+		{
+			"title": "MGF Inflammatory Response Study",
+			"year": "2018",
+			"keyFindings": "MGF overexpression modulated inflammatory cytokines and enhanced macrophage resolution during skeletal muscle injury recovery."
+		},
+		{
+			"title": "Mechano-Growth Factor Minireview",
+			"year": "2010",
+			"keyFindings": "Overview of MGF as IGF-I gene product involved in tissue repair, highlighting upregulation following exercise and injury."
+		}
+	],
+	"categories": ["growth-hormone", "healing"],
+	"quickStats": {
+		"typicalDose": "200-400mcg per injection",
+		"frequency": "2-3x weekly, ideally post-workout",
+		"cycleDuration": "4-8 weeks",
+		"storage": "Refrigerate at 2-8°C; protect from light"
+	}
+}

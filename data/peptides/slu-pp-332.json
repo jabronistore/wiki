@@ -1,0 +1,281 @@
+{
+	"id": "slu-pp-332",
+	"name": "SLU-PP-332",
+	"subtitle": "Synthetic Pan-ERR Agonist | Exercise Mimetic & Metabolic Modulator",
+	"aliases": ["Exercise Mimetic", "ERR Agonist"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "290.32 Da",
+		"length": "Non-peptide small molecule",
+		"type": "Synthetic ERR agonist",
+		"sequence": "(E)-4-Hydroxy-N'-(naphthalen-2-ylmethylene)benzohydrazide",
+		"modifications": ["Chemical formula: C₁₈H₁₄N₂O₂"],
+		"halfLife": "Under investigation (no human PK data)",
+		"halfLifeSeconds": null
+	},
+	"overview": "Groundbreaking synthetic compound from Saint Louis University functioning as pan-estrogen-related receptor agonist with preferential ERRα activity. Activates metabolic pathways engaged during physical exercise without physical activity requirement.",
+	"mechanism": "Binds and activates ERRα/β/γ which regulate energy metabolism gene expression. Upregulates PGC-1α (mitochondrial biogenesis master regulator), activates AMPK pathway, increases mitochondrial density to 1.8-fold, enhances oxidative phosphorylation and ATP production.",
+	"keyBenefits": [
+		"Exercise mimetic effects without physical activity",
+		"12% weight loss in 28 days",
+		"70% increased endurance",
+		"25% enhanced fatty acid oxidation",
+		"Improved insulin sensitivity",
+		"Reduced hepatic steatosis",
+		"Cardiac protection",
+		"Reversal of age-related mitochondrial dysfunction"
+	],
+	"indications": [
+		{
+			"category": "Metabolic Health",
+			"items": [
+				{
+					"name": "Weight Loss & Body Composition",
+					"description": "12% body weight reduction in 28 days without appetite suppression. Fat mass gain <0.5g vs ~5g controls.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Insulin Sensitivity & Glucose Control",
+					"description": "Significantly improved glucose tolerance in obese mice with lower fasting glucose and insulin levels.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Energy Expenditure Enhancement",
+					"description": "Increases resting energy expenditure by 25% for fatty acid oxidation within 2 hours.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Liver Health & NAFLD",
+					"description": "Reduced hepatic steatosis, decreased hepatic triglycerides, and enhanced hepatic fatty acid oxidation.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Exercise Performance",
+			"items": [
+				{
+					"name": "Endurance Improvements",
+					"description": "70% increase in running time and 45% increase in running distance in preclinical models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Muscle Fiber Remodeling",
+					"description": "Increased type IIa oxidative skeletal muscle fibers with enhanced oxidative capacity.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cardiovascular",
+			"items": [
+				{
+					"name": "Cardiac Function Improvement",
+					"description": "Improved ejection fraction in heart failure models with reduced cardiac fibrosis.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Mitochondrial Aging Reversal",
+					"description": "First compound to reverse age-related mitochondrial dysfunction in 21-month-old mice.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Kidney Protection",
+			"items": [
+				{
+					"name": "Age-Related Kidney Disease",
+					"description": "Reversed age-related albuminuria increase and prevented podocyte loss in elderly mice.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Research compound - IP injection in animals only. No human administration protocols established.",
+			"protocols": [
+				{
+					"goal": "Standard Metabolic Protocol",
+					"dose": "50 mg/kg (animal dosing)",
+					"frequency": "Twice daily",
+					"route": "Intraperitoneal injection (IP)"
+				},
+				{
+					"goal": "Acute Exercise Enhancement",
+					"dose": "50 mg/kg (animal dosing)",
+					"frequency": "Single dose 1 hour pre-exercise",
+					"route": "Intraperitoneal injection (IP)"
+				},
+				{
+					"goal": "Extended Treatment",
+					"dose": "50 mg/kg (animal dosing)",
+					"frequency": "Twice daily for 4-8 weeks",
+					"route": "Intraperitoneal injection (IP)"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water (BAC) required", "Sterile technique essential"],
+				"steps": [
+					"WARNING: Not tested in humans - research only",
+					"Do NOT use outside approved research protocols",
+					"Dosing cannot be extrapolated from animals to humans",
+					"No human clinical trials initiated as of 2025",
+					"Oral formulation in development",
+					"Consult medical professionals before experimental use"
+				]
+			},
+			"keyBenefits": ["Research tool demonstrating metabolic pathway activation"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Metformin",
+			"status": "monitor",
+			"notes": "Both affect mitochondrial function and AMPK pathways - may have additive metabolic effects. Monitor blood glucose closely."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "Enhanced insulin sensitivity may require significant dose reduction to prevent hypoglycemia."
+		},
+		{
+			"peptide": "Tirzepatide",
+			"status": "monitor",
+			"notes": "Different mechanisms affecting weight loss and metabolism - combination could have additive effects."
+		},
+		{
+			"peptide": "Semaglutide",
+			"status": "monitor",
+			"notes": "Combining GLP-1 and ERR agonism may enhance metabolic effects - monitor weight loss rate closely."
+		},
+		{
+			"peptide": "5-Amino-1MQ",
+			"status": "compatible",
+			"notes": "Distinct mechanisms (ERR agonism vs NNMT inhibition) likely complementary without known interactions."
+		},
+		{
+			"peptide": "NAD+",
+			"status": "synergistic",
+			"notes": "Complementary mitochondrial pathways - SLU-PP-332 increases biogenesis while NAD+ supports energy production."
+		},
+		{
+			"peptide": "CJC-1295",
+			"status": "compatible",
+			"notes": "GH optimization may complement metabolic enhancement for body composition without known interactions."
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "compatible",
+			"notes": "May preserve lean muscle during SLU-PP-332-induced fat loss through GH pathway."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Hours 1-6",
+			"effects": "Metabolic shift toward fat oxidation within 2 hours; gene expression changes at 3-6 hours; enhanced exercise performance 1 hour post-dose"
+		},
+		{
+			"period": "Week 1",
+			"effects": "Increased resting energy expenditure measurable; enhanced fatty acid oxidation by 25%; improved grip strength by day 6"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Up to 12% weight loss by day 28; dramatic fat mass reduction; improved glucose tolerance; 45-70% endurance improvements; reduced hepatic steatosis"
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Cardiac improvements (ejection fraction, reduced fibrosis); age-related kidney dysfunction reversal; mitochondrial architecture restoration"
+		},
+		{
+			"period": "Long-term (5+ months)",
+			"effects": "Sustained anti-aging effects in aging studies; continued tissue mitochondrial improvement; duration after discontinuation unknown"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Animal studies show favorable safety with no severe effects at therapeutic doses",
+			"Well-tolerated in rodents and canines",
+			"No liver, kidney, or cardiac toxicity documented",
+			"No lean mass loss",
+			"Does not suppress hormones or act as stimulant",
+			"Minor plasma cholesterol and liver enzyme changes in some studies"
+		],
+		"stopSigns": [
+			"Severe hypoglycemia (especially with diabetes medications)",
+			"Any cardiovascular symptoms (chest pain, palpitations, shortness of breath)",
+			"Signs of liver dysfunction (jaundice, dark urine, severe abdominal pain)",
+			"Kidney problems (reduced urination, swelling, severe back pain)",
+			"Severe headaches or neurological symptoms",
+			"Allergic reactions (rash, hives, difficulty breathing, swelling)"
+		],
+		"contraindications": [
+			"NOT FOR HUMAN USE - no approved human dose",
+			"No human clinical trials conducted",
+			"Potential interaction with diabetes medications"
+		],
+		"monitoring": [
+			"Blood glucose if combined with insulin or metformin",
+			"Weight loss rate if combined with other weight loss compounds",
+			"Metabolic parameters in extended use",
+			"Cardiac function if cardiac history present"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Legitimate research supplier with Certificate of Analysis",
+			"From reputable chemical suppliers (Cayman Chemical, Sigma-Aldrich)",
+			"Proper labeling as 'Research Use Only'",
+			"Batch numbers and purity data (typically >98%)"
+		],
+		"warning": [
+			"Research chemical only - NOT FOR HUMAN USE",
+			"NOT FDA approved - no human clinical trials",
+			"Available only for legitimate research through licensed suppliers"
+		],
+		"bad": [
+			"Any product marketed for human consumption is illegal",
+			"Unknown purity or contamination without lab testing",
+			"Lack of proper HPLC or mass spectrometry verification",
+			"Products without 'Research Use Only' labeling"
+		]
+	},
+	"references": [
+		{
+			"title": "A Synthetic ERR Agonist Alleviates Metabolic Syndrome",
+			"year": "2024",
+			"keyFindings": "Diet-induced obese mice, 50 mg/kg IP twice daily, 28 days: 12% body weight loss, 25% fatty acid oxidation increase, improved glucose tolerance, reduced hepatic steatosis."
+		},
+		{
+			"title": "Synthetic ERRα/β/γ Agonist Induces Acute Aerobic Exercise Response",
+			"year": "2023",
+			"keyFindings": "Multiple mouse models, 50 mg/kg IP: 70% increase in running time, 45% increase in running distance, increased type IIa oxidative muscle fibers."
+		},
+		{
+			"title": "Estrogen-Related Receptor Agonism Reverses Mitochondrial Dysfunction in Aging Kidney",
+			"year": "2023",
+			"keyFindings": "21-month-old mice, 8-week treatment: Reversed age-related kidney decline, reduced albuminuria, prevented podocyte loss, restored mitochondrial architecture."
+		},
+		{
+			"title": "Cardiac Protective Effects of Pan-ERR Agonists",
+			"year": "2021",
+			"keyFindings": "Heart failure models, 6-week treatment: Improved ejection fraction, ameliorated cardiac fibrosis, improved survival, enhanced mitochondrial ultrastructure."
+		}
+	],
+	"categories": ["metabolic", "longevity"],
+	"quickStats": {
+		"typicalDose": "NO HUMAN DOSE ESTABLISHED (animal studies: 50 mg/kg IP)",
+		"frequency": "Research only - not approved for human use",
+		"cycleDuration": "No human protocols established",
+		"storage": "2-8°C refrigerated for research use"
+	}
+}

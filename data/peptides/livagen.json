@@ -1,0 +1,226 @@
+{
+	"id": "livagen",
+	"name": "Livagen",
+	"subtitle": "KEDA Tetrapeptide | Liver Bioregulator",
+	"aliases": [
+		"KEDA",
+		"Lys-Glu-Asp-Ala",
+		"Liver Bioregulator",
+		"Hepatoprotective Peptide",
+		"Svetinorm"
+	],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "432 Da",
+		"length": "4 amino acids",
+		"type": "Tetrapeptide bioregulator",
+		"sequence": "Lys-Glu-Asp-Ala",
+		"halfLife": "Not established"
+	},
+	"overview": "Livagen is a Khavinson bioregulator tetrapeptide (KEDA) with significant hepatoprotective and immunomodulatory properties. Structurally similar to Epitalon, it normalizes immune and antioxidant status while restoring liver function in hepatitis conditions. Livagen is best known for its ability to decondense chromatin, activating silent genes including ribosomal genes to boost protein synthesis and cellular activity. Maximum protective effects occur during aging.",
+	"mechanism": "Livagen works through direct effects on DNA structure and function. It decondenses chromatin (tightly packed DNA), increasing expression of certain genes and improving the 'youthful' profile of cells. The peptide activates multiple genes in lymphocytes, including previously silent ribosomal genes, boosting protein synthesis and cell activity. It exhibits hepatoprotective effects through normalizing immune and antioxidant status in liver tissue.",
+	"keyBenefits": [
+		"Significant hepatoprotective properties",
+		"Decondenses chromatin to activate genes",
+		"Restores liver function in hepatitis",
+		"Normalizes immune status",
+		"Improves antioxidant status",
+		"Activates ribosomal gene expression",
+		"Maximum effects occur during aging",
+		"Boosts protein synthesis and cell activity"
+	],
+	"indications": [
+		{
+			"category": "Liver Support",
+			"items": [
+				{
+					"name": "Hepatoprotection",
+					"description": "Protects liver tissue through normalizing immune and antioxidant status.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Hepatitis Support",
+					"description": "Restores liver functions in both acute and chronic hepatitis models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Liver Fibrosis",
+					"description": "Shows protective properties in liver fibroid induration models.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Chromatin Remodeling",
+					"description": "Decondenses chromatin to restore youthful gene expression patterns.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Age-Related Liver Decline",
+					"description": "Maximum hepatoprotective effects occur during aging.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Gene Activation",
+					"description": "Activates silent genes including ribosomal genes for improved protein synthesis.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Immune Support",
+			"items": [
+				{
+					"name": "Immunomodulation",
+					"description": "Normalizes immune function alongside liver protective effects.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. Short peptides can be absorbed orally and reach target tissues. Typical protocol involves 10-20 day cycles, often repeated 2-3 times per year.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Short peptide allows GI absorption",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Structurally similar; often combined in comprehensive anti-aging protocols."
+		},
+		{
+			"peptide": "Glutathione",
+			"status": "synergistic",
+			"notes": "Both support liver function and antioxidant status."
+		},
+		{
+			"peptide": "Ovagen",
+			"status": "synergistic",
+			"notes": "Complementary liver bioregulators with different sequences."
+		},
+		{
+			"peptide": "Vilon",
+			"status": "compatible",
+			"notes": "Different organ targets; can be combined in bioregulator protocols."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Chromatin remodeling and gene expression changes begin"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Liver function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual liver symptoms"],
+		"contraindications": [
+			"Active liver emergencies (seek medical care)",
+			"Known hypersensitivity",
+			"Pregnancy or breastfeeding"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Influence of KEDA Tetrapeptide on Organism Physiological Function",
+			"journal": "Advances in Gerontology",
+			"year": "2020",
+			"keyFindings": "KEDA exhibits hepatoprotective, immunomodulatory, and geroprotective properties with maximum effects during aging."
+		},
+		{
+			"title": "Effects of Livagen Peptide on Chromatin Activation in Lymphocytes from Old People",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2002",
+			"keyFindings": "Livagen activates chromatin decondensation and multiple genes in aged lymphocytes."
+		},
+		{
+			"title": "Hepatoprotective Properties of KEDA in Hepatitis Models",
+			"journal": "Experimental Biology and Medicine",
+			"year": "2018",
+			"keyFindings": "KEDA normalizes immune and antioxidant status and restores liver functions in hepatitis."
+		},
+		{
+			"title": "Khavinson Peptide Bioregulators",
+			"journal": "Advances in Gerontology",
+			"year": "2020",
+			"keyFindings": "Comprehensive review of bioregulator peptides and their epigenetic mechanisms."
+		}
+	],
+	"categories": ["longevity", "immune"],
+	"quickStats": {
+		"typicalDose": "10-20 mg daily",
+		"frequency": "Daily for 10-20 days per cycle",
+		"cycleDuration": "10-20 days",
+		"storage": "Oral capsules: Room temperature. Injectable reconstituted: 2-8°C refrigerated"
+	}
+}

@@ -1,0 +1,291 @@
+{
+	"id": "hcg",
+	"name": "HCG",
+	"subtitle": "Human Chorionic Gonadotropin | LH Receptor Agonist",
+	"aliases": ["Human Chorionic Gonadotropin", "Pregnyl", "Novarel", "Ovidrel"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "36,700 Da",
+		"length": "237 amino acids (alpha: 92, beta: 145)",
+		"type": "Heterodimeric glycoprotein",
+		"modifications": ["Extensive N-linked and O-linked glycosylation extending half-life"],
+		"halfLife": "24-36 hours",
+		"halfLifeSeconds": 108000
+	},
+	"overview": "HCG is a glycoprotein hormone naturally produced by the placenta during pregnancy that binds LH receptors to stimulate testosterone and estrogen biosynthesis. FDA-approved for cryptorchidism, hypogonadotropic hypogonadism, and ovulation induction.",
+	"mechanism": "Binds to LH receptors on Leydig cells in testes, stimulating testosterone production with a half-life of 24-36 hours, peak levels 6-12 hours post-injection, and 40-50% bioavailability via SubQ or IM routes.",
+	"keyBenefits": [
+		"Maintains testicular function during TRT",
+		"Preserves fertility and prevents testicular atrophy",
+		"Stimulates endogenous testosterone production",
+		"Induces ovulation in women",
+		"FDA-approved for multiple indications",
+		"Well-established safety profile"
+	],
+	"indications": [
+		{
+			"category": "Male Fertility",
+			"items": [
+				{
+					"name": "TRT Adjunct",
+					"description": "Maintains intratesticular testosterone at baseline during testosterone therapy, preventing atrophy and preserving fertility.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Hypogonadotropic Hypogonadism",
+					"description": "FDA-approved for secondary hypogonadism; combined with FSH for spermatogenesis induction.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Post-Cycle Therapy",
+					"description": "Restores testicular function after anabolic steroid cycles.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Female Fertility",
+			"items": [
+				{
+					"name": "Ovulation Induction",
+					"description": "FDA-approved trigger for follicular maturation; 15-25% pregnancy rate per cycle.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Pediatric",
+			"items": [
+				{
+					"name": "Cryptorchidism",
+					"description": "FDA-approved for prepubertal undescended testes not due to anatomical obstruction; ~25% success rate.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous or intramuscular injection. Administer 2-3 times weekly, evenly spaced. For TRT, many inject HCG on days between testosterone injections.",
+			"protocols": [
+				{
+					"goal": "TRT Adjunct (Low)",
+					"dose": "250-500 IU",
+					"frequency": "Every other day",
+					"route": "SubQ/IM"
+				},
+				{
+					"goal": "TRT Adjunct (Standard)",
+					"dose": "500-1000 IU",
+					"frequency": "Twice weekly",
+					"route": "SubQ/IM"
+				},
+				{
+					"goal": "HCG Monotherapy",
+					"dose": "1500-2000 IU",
+					"frequency": "2-3x weekly",
+					"route": "IM"
+				},
+				{
+					"goal": "Fertility (with FSH)",
+					"dose": "1500-2000 IU",
+					"frequency": "2-3x weekly",
+					"route": "IM"
+				},
+				{
+					"goal": "Cryptorchidism (Pediatric)",
+					"dose": "1000-5000 IU",
+					"frequency": "2-3x weekly for 3-4 weeks",
+					"route": "IM"
+				},
+				{
+					"goal": "Ovulation Trigger (Female)",
+					"dose": "5000-10,000 IU",
+					"frequency": "Single dose",
+					"route": "IM/SubQ"
+				},
+				{
+					"goal": "PCT Protocol",
+					"dose": "1000-1500 IU",
+					"frequency": "Every other day for 2-3 weeks",
+					"route": "SubQ/IM"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"HCG lyophilized powder vial (typically 5000 or 10,000 IU)",
+					"Bacteriostatic water or sodium chloride diluent (provided)",
+					"Insulin syringes (29-31 gauge for SubQ)",
+					"Alcohol prep pads"
+				],
+				"steps": [
+					"Remove vial and diluent from packaging",
+					"Clean rubber stoppers with alcohol swabs",
+					"Draw diluent into syringe (typically 1-2mL provided)",
+					"Slowly inject diluent into HCG vial, aiming at vial wall",
+					"Gently swirl to dissolve - do not shake vigorously",
+					"Allow to sit until completely dissolved and clear",
+					"Calculate concentration (e.g., 5000 IU in 2mL = 2500 IU/mL)",
+					"Label with reconstitution date and concentration",
+					"Store reconstituted HCG at 2-8°C",
+					"Use within 30-60 days"
+				]
+			},
+			"keyBenefits": [
+				"SubQ: Abdominal fat, thigh",
+				"IM: Deltoid, gluteal (rotate sites)",
+				"Evenly space doses throughout week"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "Commonly combined in TRT to maintain testicular function and preserve fertility."
+		},
+		{
+			"peptide": "Clomiphene (Clomid)",
+			"status": "monitor",
+			"notes": "Use sequentially; both affect HPG axis."
+		},
+		{
+			"peptide": "Aromatase Inhibitors",
+			"status": "compatible",
+			"notes": "Commonly combined; HCG increases intratesticular aromatase activity."
+		},
+		{
+			"peptide": "GnRH Analogs",
+			"status": "monitor",
+			"notes": "Monitor combination effects on gonadotropin axis."
+		},
+		{
+			"peptide": "FSH (Follitropin)",
+			"status": "synergistic",
+			"notes": "Synergistic for fertility; 70-90% spermatogenesis induction rate."
+		},
+		{
+			"peptide": "Kisspeptin",
+			"status": "compatible",
+			"notes": "Complementary mechanisms for HPG axis stimulation."
+		},
+		{
+			"peptide": "Thyroid Hormones",
+			"status": "monitor",
+			"notes": "HCG has weak TSH-like activity; monitor thyroid function."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "compatible",
+			"notes": "Protective combination for metabolic health."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Cellular-level action begins; no immediate noticeable effects"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Testosterone increase detectable on labs; possible mood/energy improvement"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Testicular fullness/size improvement noticeable; improved well-being"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Stable testosterone levels; fertility parameters beginning to improve"
+		},
+		{
+			"period": "Month 2-3",
+			"effects": "Sperm count improvements if used for fertility; sustained testicular function"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Maintained testicular size and function with ongoing use"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Gynecomastia (breast tenderness/swelling) due to increased estrogen",
+			"Headaches, irritability, and mood swings (especially initially)",
+			"Fluid retention and edema",
+			"Potential antibody formation with long-term use"
+		],
+		"stopSigns": [
+			"Signs of gynecomastia (breast tenderness, swelling, nipple sensitivity)",
+			"Severe or persistent headaches",
+			"Signs of blood clots (leg swelling/pain, shortness of breath, chest pain)",
+			"Allergic reactions (rash, hives, difficulty breathing, facial swelling)",
+			"Severe abdominal pain or bloating in women (possible OHSS)",
+			"Testicular pain or swelling beyond normal",
+			"Significant mood changes (depression, aggression, severe irritability)",
+			"Vision changes"
+		],
+		"contraindications": [
+			"Hormone-sensitive cancers (prostate, breast)",
+			"Pregnancy (except as prescribed)",
+			"Precocious puberty risk in children"
+		],
+		"monitoring": [
+			"Monitor estrogen levels - may need aromatase inhibitor",
+			"Regular testosterone and fertility panel",
+			"Watch for gynecomastia signs"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder or cake in sealed vial",
+			"Completely clear solution after reconstitution",
+			"Proper labeling: Pregnyl, Novarel (urinary), Ovidrel (recombinant)",
+			"Clear expiration and lot number",
+			"Cold chain compliance (recombinant requires refrigeration throughout)"
+		],
+		"warning": [
+			"Generic/compounding pharmacy products - quality varies",
+			"Ensure compounding pharmacy is accredited"
+		],
+		"bad": [
+			"Cloudiness, discoloration, or floating particles indicates degradation",
+			"Compromised vial seal or expired product"
+		]
+	},
+	"references": [
+		{
+			"title": "HCG for Intratesticular Testosterone Maintenance",
+			"year": "2005",
+			"keyFindings": "250 IU HCG every other day during TRT maintains intratesticular testosterone at baseline, preventing atrophy and preserving fertility."
+		},
+		{
+			"title": "HCG Monotherapy for Hypogonadism",
+			"year": "2013",
+			"keyFindings": "HCG monotherapy (1500-2000 IU twice weekly) effectively increased testosterone and improved symptoms while maintaining fertility."
+		},
+		{
+			"title": "Spermatogenesis Induction with HCG/FSH",
+			"year": "2018",
+			"keyFindings": "Combined HCG and FSH therapy induces spermatogenesis in 70-90% of men with hypogonadotropic hypogonadism."
+		},
+		{
+			"title": "Cryptorchidism Treatment Meta-Analysis (Cochrane)",
+			"year": "2014",
+			"keyFindings": "Meta-analysis of 1,231 boys showing ~25% success rate for hormonal treatment of cryptorchidism."
+		},
+		{
+			"title": "Ovulation Induction Success Rates",
+			"year": "2017",
+			"keyFindings": "HCG trigger achieves pregnancy rates of 15-25% per cycle in clomiphene/letrozole protocols."
+		}
+	],
+	"categories": ["sexual-health", "hormonal"],
+	"quickStats": {
+		"typicalDose": "250-1500 IU (lower for TRT adjunct, higher for fertility)",
+		"frequency": "2-3 times weekly, or every other day for lower doses",
+		"cycleDuration": "Ongoing with TRT or 3-6 months for fertility protocols",
+		"storage": "Lyophilized: Room temperature. Reconstituted: 2-8°C, use within 30-60 days"
+	}
+}

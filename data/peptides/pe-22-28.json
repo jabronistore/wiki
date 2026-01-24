@@ -1,0 +1,243 @@
+{
+	"id": "pe-22-28",
+	"name": "PE-22-28",
+	"subtitle": "TREK-1 Channel Blocker | Shortened Spadin Analog",
+	"aliases": ["Mini-Spadin"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "773.89 Da",
+		"length": "7 amino acids",
+		"type": "Linear heptapeptide",
+		"sequence": "Gly-Val-Ser-Trp-Gly-Leu-Arg (GVSWGLR)",
+		"modifications": ["Derived from Spadin (PE 12-28) positions 22-28"],
+		"halfLife": "Approximately 23 hours",
+		"halfLifeSeconds": 82800
+	},
+	"overview": "Synthetic heptapeptide derived from Spadin positions 22-28, functioning as potent TREK-1 antagonist with enhanced selectivity and duration versus parent compound. Primary research focus on rapid antidepressant effects.",
+	"mechanism": "Selectively blocks TREK-1 potassium channels (IC50: 0.12 nM). Enhances serotonin neurotransmission in dorsal raphe nucleus, triggering CREB activation and hippocampal neurogenesis.",
+	"keyBenefits": [
+		"Rapid antidepressant effects within 4 days (preclinical)",
+		"Hippocampal neurogenesis and synaptogenesis",
+		"Enhanced serotonergic neurotransmission",
+		"Extended ~23 hour duration of action",
+		"300-500x greater potency than full-length Spadin"
+	],
+	"indications": [
+		{
+			"category": "Mental Health",
+			"items": [
+				{
+					"name": "Depression",
+					"description": "Primary research focus with rapid effects in behavioral models within 4 days.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Anxiety",
+					"description": "Anxiolytic properties demonstrated in preclinical anxiety models.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neurogenesis",
+			"items": [
+				{
+					"name": "Hippocampal Neurogenesis",
+					"description": "Nearly doubles BrdU-positive cells after 4-day treatment.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Synaptogenesis",
+					"description": "Promotes new synapse formation through CREB activation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cognition",
+			"items": [
+				{
+					"name": "Memory Support",
+					"description": "Hippocampal and prefrontal cortex TREK-1 expression supports memory.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neuroprotection",
+					"description": "Potential ischemic protection and neuronal survival support.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection to abdominal fat or thigh with site rotation.",
+			"protocols": [
+				{
+					"goal": "Antidepressant Effect",
+					"dose": "50-200mcg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Neurogenesis Support",
+					"dose": "100-200mcg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"PE-22-28 lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Inject BAC water slowly down vial wall",
+					"Gently swirl (do not shake)",
+					"Store refrigerated 2-8°C",
+					"Use within 4-6 weeks"
+				]
+			},
+			"keyBenefits": ["Precise dosing", "Rapid absorption", "Extended duration (~23 hours)"]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Limited data from animal studies only; higher doses required than injection.",
+			"protocols": [
+				{
+					"goal": "General Use",
+					"dose": "Higher than injectable (specific dose TBD)",
+					"frequency": "Daily",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": ["Non-invasive", "Convenient", "Limited bioavailability data"]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Theoretical route; unstudied for PE-22-28 specifically.",
+			"protocols": [
+				{
+					"goal": "General Use",
+					"dose": "100-300mcg (estimated)",
+					"frequency": "Daily",
+					"route": "Intranasal"
+				}
+			],
+			"keyBenefits": ["Potential direct CNS access", "Non-invasive"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "SSRIs (Fluoxetine, Sertraline)",
+			"status": "monitor",
+			"notes": "Both enhance serotonergic pathways; monitor for excessive activity."
+		},
+		{
+			"peptide": "Semax/NA-Semax",
+			"status": "synergistic",
+			"notes": "Complementary neurogenesis and cognitive support."
+		},
+		{
+			"peptide": "Selank",
+			"status": "synergistic",
+			"notes": "Different mechanisms for anxiety and mood support."
+		},
+		{
+			"peptide": "Dihexa",
+			"status": "synergistic",
+			"notes": "Complementary neuroplasticity pathways."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms, no contraindications."
+		},
+		{
+			"peptide": "MAOIs",
+			"status": "avoid",
+			"notes": "Serotonin syndrome risk."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-4",
+			"effects": "Measurable antidepressant effects in preclinical models"
+		},
+		{
+			"period": "Weeks 1-2",
+			"effects": "Neurogenesis and synaptogenesis processes established"
+		},
+		{
+			"period": "Weeks 2-4",
+			"effects": "Potential mood and cognitive improvements emerge"
+		},
+		{
+			"period": "Weeks 4-8",
+			"effects": "Sustained treatment allows full neurogenic effects"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"No effects on TREK-2, TRAAK, TASK-1 channels observed",
+			"No cardiac dysfunction or seizures in preclinical studies"
+		],
+		"stopSigns": [
+			"Serotonin syndrome signs",
+			"Severe persistent headaches",
+			"Cardiac symptoms",
+			"Seizure activity",
+			"Severe mood changes or suicidal ideation"
+		],
+		"contraindications": ["Pregnancy and breastfeeding", "Concurrent MAOI use"],
+		"monitoring": [
+			"Research compound only - not FDA-approved",
+			"Unknown long-term human effects",
+			"Monitor for serotonin syndrome if combined with serotonergic medications"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear, colorless reconstituted solution",
+			"Certificate of Analysis with >98% purity",
+			"Proper cold-chain shipping"
+		],
+		"warning": ["Research compound only, not FDA-approved", "Quality varies by supplier"],
+		"bad": [
+			"Cloudy, discolored, or particulate appearance",
+			"Clumped or sticky powder indicating moisture damage"
+		]
+	},
+	"references": [
+		{
+			"title": "Shortened Spadin Analogs Display Better TREK-1 Inhibition",
+			"year": "2017",
+			"keyFindings": "PE-22-28 IC50 0.12 nM vs 40-60 nM for Spadin; ~23 hour duration. Frontiers in Pharmacology."
+		},
+		{
+			"title": "Spadin: A Sortilin-Derived Peptide Targeting TREK-1 Channels",
+			"year": "2010",
+			"keyFindings": "Original discovery of TREK-1 blockade as antidepressant mechanism. PLOS Biology."
+		},
+		{
+			"title": "TREK-1 Deletion Results in Depression-Resistant Phenotype",
+			"year": "2006",
+			"keyFindings": "TREK-1 knockout mice show depression-resistant behavior in 5 tests. Nature Neuroscience."
+		}
+	],
+	"categories": ["cognitive", "longevity"],
+	"quickStats": {
+		"typicalDose": "50-200mcg daily",
+		"frequency": "Once daily",
+		"cycleDuration": "4-8 weeks",
+		"storage": "Refrigerate at 2-8°C, use within 4-6 weeks"
+	}
+}

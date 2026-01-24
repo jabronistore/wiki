@@ -1,0 +1,228 @@
+{
+	"id": "crystagen",
+	"name": "Crystagen",
+	"subtitle": "EDP Tripeptide | Thymus Immune Bioregulator",
+	"aliases": [
+		"EDP",
+		"Glu-Asp-Pro",
+		"Thymus Tripeptide",
+		"Immune Bioregulator",
+		"Vladonix",
+		"Kristagen"
+	],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "359 Da",
+		"length": "3 amino acids",
+		"type": "Tripeptide bioregulator",
+		"sequence": "Glu-Asp-Pro",
+		"halfLife": "Minutes (short peptide); effects persist via epigenetic changes"
+	},
+	"overview": "Crystagen is a Khavinson bioregulator tripeptide (EDP) identified in thymalin with selective action on thymus tissues. Developed at Russia's St. Petersburg Institute of Bioregulation and Gerontology, it enhances immune function by stimulating normal lymphocyte proliferation while inhibiting tumor cell growth. Research shows effectiveness in normalizing immunity in 82% of elderly patients (vs 56% control) and reducing respiratory infections in athletes by doubling HSP gene expression.",
+	"mechanism": "Crystagen works through epigenetic regulation by influencing gene expression and protein synthesis in immune cells. It regulates the synthesis of heat-shock proteins, cytokines, and affects cell differentiation, proliferation, and apoptosis. The EDP peptide enhances spontaneous proliferative activity of normal lymphocytes while inhibiting proliferation of tumor cells (K-562 erythromyelosis). It activates B-cell immune system and thymic epithelial cells (VTEC2.H/S).",
+	"keyBenefits": [
+		"Normalizes immune function in 82% of patients",
+		"Stimulates normal lymphocyte proliferation",
+		"Inhibits tumor cell growth (antitumor activity)",
+		"Doubles HSP gene expression (stress resistance)",
+		"Reduces respiratory viral infections",
+		"Activates B-cell immune system",
+		"Normalizes IL-6 expression",
+		"Effective after radiation/chemotherapy"
+	],
+	"indications": [
+		{
+			"category": "Immune Support",
+			"items": [
+				{
+					"name": "Immune Dysfunction",
+					"description": "Normalizes immunogram in elderly patients with impaired immunity.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Post-Infection Recovery",
+					"description": "Restores immune function after infectious diseases.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Radiation/Chemo Recovery",
+					"description": "Helps normalize immunity after radiation and chemotherapy exposure.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Stress Resistance",
+			"items": [
+				{
+					"name": "Athletic Immune Support",
+					"description": "Increases stress resistance and reduces respiratory infections in athletes.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "HSP Expression",
+					"description": "Doubles expression of heat-shock protein gene HSPA1A.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Tumor",
+			"items": [
+				{
+					"name": "Tumor Cell Inhibition",
+					"description": "Inhibits proliferation of K-562 human erythromyelosis tumor cells.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. Short peptides can be absorbed orally and reach target tissues. Typical protocol involves 10-20 day cycles, often repeated 2-3 times per year.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Athletic support",
+					"dose": "10-20 mg",
+					"frequency": "Daily during training cycles",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Short peptide allows GI absorption",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Vilon",
+			"status": "synergistic",
+			"notes": "Both have immunoprotecting properties; different mechanisms complement each other."
+		},
+		{
+			"peptide": "Thymalin",
+			"status": "synergistic",
+			"notes": "Crystagen (EDP) is derived from thymalin; complementary immune effects."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "Thymogen",
+			"status": "compatible",
+			"notes": "Related immune peptides; can be used together."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Immune activation and gene expression modulation begins"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Weeks",
+			"effects": "Measurable immune function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual immune symptoms"],
+		"contraindications": [
+			"Active autoimmune flares (consult physician)",
+			"Known hypersensitivity",
+			"Pregnancy or breastfeeding"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "The Use of Thymalin for Immunocorrection and Molecular Aspects of Biological Activity",
+			"journal": "PMC/NCBI",
+			"year": "2021",
+			"keyFindings": "EDP (crystagen) identified in thymalin; regulates gene expression, HSP synthesis, cytokines, and cell differentiation."
+		},
+		{
+			"title": "Crystagen in Elderly Patients with Impaired Immunity",
+			"journal": "Advances in Gerontology",
+			"year": "2018",
+			"keyFindings": "Crystagen normalized immunogram in 82% of patients vs 56% in control group."
+		},
+		{
+			"title": "Peptide Bioregulators in Athletes",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2019",
+			"keyFindings": "Crystagen doubled HSP gene expression, normalized IL-6, and reduced respiratory infections in athletes."
+		},
+		{
+			"title": "EDP Peptide Effects on Lymphocyte Proliferation",
+			"journal": "Cell Technologies in Biology and Medicine",
+			"year": "2017",
+			"keyFindings": "EDP enhances normal lymphocyte proliferation while inhibiting K-562 tumor cell proliferation."
+		}
+	],
+	"categories": ["immune", "longevity"],
+	"quickStats": {
+		"typicalDose": "10-20 mg daily",
+		"frequency": "Once daily for 10-20 consecutive days",
+		"cycleDuration": "10-20 days per cycle",
+		"storage": "Capsules: room temperature; Injectable lyophilized: 2-8°C; Reconstituted: 2-8°C refrigerated"
+	}
+}

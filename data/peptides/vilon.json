@@ -1,0 +1,225 @@
+{
+	"id": "vilon",
+	"name": "Vilon",
+	"subtitle": "KE Dipeptide | Thymus Immune Bioregulator",
+	"aliases": ["KE", "Lys-Glu", "Thymus Dipeptide", "Immunget"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "275 Da",
+		"length": "2 amino acids",
+		"type": "Dipeptide bioregulator",
+		"sequence": "Lys-Glu",
+		"halfLife": "Not established"
+	},
+	"overview": "Vilon is a Khavinson bioregulator dipeptide (KE) consisting of lysine and glutamic acid, originally isolated from thymus gland extracts. Developed by Professor Vladimir Khavinson at the St. Petersburg Institute of Bioregulation and Gerontology, it acts as a molecular signaling compound that restores normal gene expression and protein synthesis in immune and epithelial cells. Research shows Vilon increases mean lifespan by 20-40% in animal studies and suppresses tumor development.",
+	"mechanism": "Vilon works through epigenetic modulation, restoring chromatin structure and gene expression in immune cells. It stimulates thymocyte proliferation, activates T-helper cells, and increases the proliferative index in thymus tissue (from 26% to 37% in studies). The peptide modulates tyrosine phosphorylation of mitogen-activated cytoplasmic kinases and helps rejuvenate aged immune systems by restoring proper gene expression patterns.",
+	"keyBenefits": [
+		"Increases mean lifespan 20-40% in animal models",
+		"Suppresses tumor development",
+		"Stimulates thymocyte proliferation",
+		"Activates T-helper cells",
+		"Restores chromatin structure in aged lymphocytes",
+		"Enhances intestinal barrier function",
+		"Improves enzyme activity in aged tissue",
+		"Part of comprehensive longevity protocols"
+	],
+	"indications": [
+		{
+			"category": "Immune Support",
+			"items": [
+				{
+					"name": "Thymus Rejuvenation",
+					"description": "Stimulates thymocyte proliferation and enlarges thymic lobules.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "T-Cell Activation",
+					"description": "Activates T-helper cells and improves immune response.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Age-Related Immune Decline",
+					"description": "Restores chromatin structure and gene expression in aged lymphocytes.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Lifespan Extension",
+					"description": "Long-term treatment increased mean lifespan 20-40% in rodent studies.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Tumor Suppression",
+					"description": "Suppresses development of spontaneous and induced tumors.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Tissue Regeneration",
+					"description": "Promotes recovery in tissues exposed to radiation damage.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "GI Health",
+			"items": [
+				{
+					"name": "Intestinal Function",
+					"description": "Restores brush border membrane enzyme levels in aged animals.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Barrier Function",
+					"description": "Enhances intestinal barrier function in aged rats.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. As the shortest Khavinson peptide (just 2 amino acids), Vilon is easily absorbed orally. Typical protocol involves 10-20 day cycles, repeated 2-3 times per year.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Excellent GI absorption as dipeptide",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Thymalin",
+			"status": "synergistic",
+			"notes": "Both target thymus/immune system; complementary mechanisms."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "Crystagen",
+			"status": "synergistic",
+			"notes": "Both have immunoprotecting properties; different mechanisms."
+		},
+		{
+			"peptide": "Thymogen",
+			"status": "compatible",
+			"notes": "Related immune peptides; can be used in comprehensive protocols."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Immune activation and gene expression modulation begins"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Immune function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits; longevity effects in animal models"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual immune symptoms"],
+		"contraindications": [
+			"Active autoimmune flares (consult physician)",
+			"Known hypersensitivity",
+			"Pregnancy or breastfeeding"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Peptide Bioregulators Increase Lifespan",
+			"journal": "Biogerontology",
+			"year": "2003",
+			"keyFindings": "Long-term treatment with peptide preparations including Vilon increased mean lifespan 20-40% and suppressed tumorigenesis."
+		},
+		{
+			"title": "Vilon Effects on Aged Lymphocytes",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2002",
+			"keyFindings": "Vilon improved lymphocytes from old people by restoring chromatin structure and gene expression."
+		},
+		{
+			"title": "Peptides Regulating Proliferative Activity in THP-1 Cells",
+			"journal": "PMC",
+			"year": "2022",
+			"keyFindings": "Vilon and other Khavinson peptides modulate key proliferative patterns and tyrosine phosphorylation of kinases."
+		},
+		{
+			"title": "Short Peptide Immunoprotecting Properties",
+			"journal": "Advances in Gerontology",
+			"year": "2018",
+			"keyFindings": "Vilon and related peptides possess age-associated immunoprotecting properties in the spleen."
+		}
+	],
+	"categories": ["immune", "longevity"],
+	"quickStats": {
+		"typicalDose": "10-20 mg per day (oral capsules) or 10 mg (injectable)",
+		"frequency": "Daily for 10-20 consecutive days (Khavinson bioregulator cycle)",
+		"cycleDuration": "10-20 day cycle (typical 10 days in research)",
+		"storage": "Oral capsules: room temperature; Lyophilized powder/reconstituted: 2-8°C refrigerated"
+	}
+}

@@ -1,0 +1,277 @@
+{
+	"id": "cerebrolysin",
+	"name": "Cerebrolysin",
+	"subtitle": "Neuropeptide Preparation | Neurological Recovery",
+	"aliases": ["Cerebrolysin®"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "Variable",
+		"length": "Multiple peptides",
+		"type": "Purified porcine brain proteins",
+		"sequence": "Bioactive peptide mixture",
+		"modifications": ["Standardized neuropeptide preparation"],
+		"halfLife": "Minutes (component-dependent; e.g., BDNF ~10 min)",
+		"halfLifeSeconds": 600
+	},
+	"overview": "Standardized neuropeptide preparation containing bioactive peptides and amino acids exhibiting neurotrophic and neuroprotective properties for stroke recovery, traumatic brain injury, and cognitive enhancement. Used clinically in 50+ countries.",
+	"mechanism": "IV/IM administration provides optimal bioavailability and brain penetration of neuropeptides and neurotrophic factors.",
+	"keyBenefits": [
+		"Direct brain delivery",
+		"Standardized dosing",
+		"Extensive clinical evidence",
+		"Ready-to-use formulation",
+		"Used clinically in 50+ countries"
+	],
+	"indications": [
+		{
+			"category": "Cognitive",
+			"items": [
+				{
+					"name": "Alzheimer's Disease",
+					"description": "Meta-analyses show modest cognitive improvements, though clinical significance remains debated.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Vascular Dementia",
+					"description": "Multiple RCTs demonstrate significant ADAS-cog and CIBIC+ improvements.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Post-Stroke Cognitive Recovery",
+					"description": "Large meta-analysis shows significant NIHSS improvements; other studies found no functional benefit.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Acute Stroke",
+					"description": "Largest meta-analysis (1,879 patients) shows NIHSS benefits; independent analysis found no mRS improvement.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Traumatic Brain Injury",
+					"description": "Multiple trials including CAPTAIN series confirm GCS/GOS improvements.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Subarachnoid Hemorrhage",
+					"description": "Pilot trial shows promising 6-month outcomes; requires larger confirmatory studies.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Recovery",
+			"items": [
+				{
+					"name": "Motor Function Recovery",
+					"description": "Some studies show enhanced recovery; results vary significantly between trials.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Neurological Function",
+					"description": "Early administration within 72 hours shows better outcomes than delayed treatment.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Primary administration route with well-established protocols for direct brain delivery via IV/IM.",
+			"protocols": [
+				{
+					"goal": "Small Volume IV",
+					"dose": "Up to 10mL",
+					"frequency": "Once daily",
+					"route": "Undiluted IV slow push over 3 minutes"
+				},
+				{
+					"goal": "Intramuscular",
+					"dose": "Up to 5mL",
+					"frequency": "Once daily",
+					"route": "Undiluted IM injection over 3 minutes"
+				},
+				{
+					"goal": "Acute Stroke",
+					"dose": "20-50mL",
+					"frequency": "Once daily for 10-21 days",
+					"route": "IV infusion (diluted to 100mL minimum)"
+				},
+				{
+					"goal": "Traumatic Brain Injury",
+					"dose": "20-50mL",
+					"frequency": "Once daily for 7-30 days",
+					"route": "IV infusion (diluted to 100mL minimum)"
+				},
+				{
+					"goal": "Alzheimer's Disease",
+					"dose": "10-30mL",
+					"frequency": "5 days weekly for 4 weeks",
+					"route": "IV injection/infusion (2-4 cycles yearly)"
+				},
+				{
+					"goal": "Vascular Dementia",
+					"dose": "10-30mL",
+					"frequency": "5 days weekly for 4 weeks",
+					"route": "IV injection/infusion (2-4 cycles yearly)"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Cerebrolysin ampoules (5, 10, or 20 mL)",
+					"Saline, Ringer solution, or 5% glucose (minimum 100 mL for infusion)",
+					"Disposable one-way IV infusion sets and cannulas",
+					"Sterile syringes and alcohol swabs"
+				],
+				"steps": [
+					"Break ampoule and extract Cerebrolysin immediately before use",
+					"For direct injection: Up to 10 mL IV undiluted (slow 3 minutes) or 5 mL IM",
+					"For infusion: Dilute 10-50 mL to minimum 100 mL with compatible solution",
+					"Start infusion immediately after dilution—infuse within 15 minutes",
+					"Flush IV catheter with sodium chloride before and after administration",
+					"Use disposable one-way infusion sets; discard after use"
+				]
+			},
+			"keyBenefits": [
+				"Direct brain delivery",
+				"Standardized dosing",
+				"Optimal bioavailability",
+				"Extensive clinical documentation"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Piracetam",
+			"status": "compatible",
+			"notes": "Safe combination with no significant interactions; both support cognitive function."
+		},
+		{
+			"peptide": "Donepezil",
+			"status": "compatible",
+			"notes": "No interactions reported; may have synergistic cognitive effects in Alzheimer's treatment."
+		},
+		{
+			"peptide": "SSRIs",
+			"status": "monitor",
+			"notes": "Potential additive neurotropic effects; monitor for enhanced antidepressant effects."
+		},
+		{
+			"peptide": "Tricyclic Antidepressants",
+			"status": "monitor",
+			"notes": "May have additive neurological effects; requires careful monitoring."
+		},
+		{
+			"peptide": "Amino Acid Solutions",
+			"status": "avoid",
+			"notes": "Contraindicated per prescribing information; do not mix in same infusion."
+		},
+		{
+			"peptide": "Cardiovascular Medications",
+			"status": "avoid",
+			"notes": "Should not be mixed in same IV infusion per official guidelines."
+		},
+		{
+			"peptide": "Vitamin Solutions",
+			"status": "avoid",
+			"notes": "Compatibility issues; do not mix in same IV infusion."
+		},
+		{
+			"peptide": "Noopept",
+			"status": "monitor",
+			"notes": "Both enhance neurotrophic factors; potential additive effects—start with lower doses."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Initial neuroprotective effects; possible mild side effects (dizziness, agitation)"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Neurological improvements become apparent; cognitive function may begin to improve"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Continued recovery; motor function improvements in stroke/TBI patients"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Sustained benefits; cognitive enhancement plateaus in chronic conditions"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well tolerated",
+			"Possible mild dizziness or agitation in early treatment"
+		],
+		"stopSigns": [
+			"Severe allergic reactions (anaphylaxis, severe rash)",
+			"New onset seizure activity",
+			"Significant cardiovascular events during administration",
+			"Severe renal dysfunction or worsening kidney function"
+		],
+		"contraindications": [
+			"Epilepsy",
+			"Severe renal insufficiency",
+			"History of severe allergic reactions to porcine products"
+		],
+		"monitoring": [
+			"Monitor for allergic reactions during first dose",
+			"Renal function in patients with kidney disease",
+			"Seizure activity in at-risk patients",
+			"Cardiovascular status during administration"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear amber solution from reputable source",
+			"Room temperature storage ≤25°C",
+			"Protected from light in original carton",
+			"Authorized EVER Pharma distributor"
+		],
+		"warning": [
+			"Some published studies have been retracted due to research misconduct; rely on independent meta-analyses"
+		],
+		"bad": [
+			"Frozen product or improper storage—never freeze",
+			"Mixing with incompatible solutions (amino acids, vitamins, cardiovascular medications)"
+		]
+	},
+	"references": [
+		{
+			"title": "CAPTAIN II Trial - Traumatic Brain Injury",
+			"year": "2020",
+			"keyFindings": "Randomized controlled trial demonstrating efficacy and safety in moderate-severe TBI with improved GCS and GOS scores."
+		},
+		{
+			"title": "Nine-Trial Stroke Meta-Analysis - Positive Results",
+			"year": "2017",
+			"keyFindings": "Largest positive meta-analysis showing significant neurological improvements in 1,879 stroke patients with NNT=7.7."
+		},
+		{
+			"title": "Conflicting Stroke Meta-Analysis - Neutral Results",
+			"year": "2017",
+			"keyFindings": "Independent meta-analysis of 1,779 patients found no significant benefits in functional outcomes (mRS/BI)."
+		},
+		{
+			"title": "TBI Systematic Review - Positive Outcomes",
+			"year": "2023",
+			"keyFindings": "Analysis of 8,749 TBI patients across 10 studies confirms statistically significant GCS/GOS improvements."
+		}
+	],
+	"categories": ["cognitive", "longevity"],
+	"quickStats": {
+		"typicalDose": "10-50mL depending on indication (stroke/TBI higher doses)",
+		"frequency": "Once daily for acute conditions; 5 days weekly for chronic conditions",
+		"cycleDuration": "7-30 days depending on condition (stroke/TBI 10-30 days, dementia 4 weeks)",
+		"storage": "Room temperature ≤25°C, protected from light in original carton - never freeze"
+	}
+}

@@ -1,0 +1,226 @@
+{
+	"id": "epo",
+	"name": "Erythropoietin (EPO)",
+	"subtitle": "EPO | Red Blood Cell Stimulating Hormone",
+	"aliases": ["EPO", "Erythropoietin", "Epoetin", "rHuEPO"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "30,400 Da",
+		"length": "165 amino acids",
+		"type": "Glycoprotein hormone",
+		"halfLife": "4-12 hours (IV), ~25 hours (SubQ)",
+		"halfLifeSeconds": 90000,
+		"halfLifeRoute": "SubQ"
+	},
+	"overview": "Erythropoietin (EPO) is an essential glycoprotein hormone that stimulates red blood cell production. Naturally produced by the kidneys in response to low oxygen levels, recombinant human EPO is FDA-approved for treating anemia in chronic kidney disease and chemotherapy patients. EPO binding to receptors on bone marrow cells promotes survival and maturation of red blood cell precursors, increasing oxygen-carrying capacity. Due to performance-enhancing effects, it is banned in competitive sports.",
+	"mechanism": "EPO binds to erythropoietin receptors (EPOR) on erythroid progenitor cells in bone marrow, activating three interconnected signaling pathways: JAK2/STAT5, PI3K/AKT, and RAS/MAPK. This promotes survival of red blood cell precursors by protecting them from apoptosis, accelerates proliferation and differentiation of erythroid cells, and increases hemoglobin production. Under hypoxic stress, endogenous EPO production can increase up to 1000-fold, demonstrating the body's powerful oxygen-sensing regulatory system.",
+	"keyBenefits": [
+		"Stimulates red blood cell production",
+		"Increases oxygen-carrying capacity",
+		"FDA-approved for anemia treatment",
+		"Improves endurance capacity",
+		"Supports patients with chronic kidney disease",
+		"Helps chemotherapy-induced anemia",
+		"Well-characterized mechanism of action",
+		"Extensively studied safety profile"
+	],
+	"indications": [
+		{
+			"category": "Medical Indications (FDA-Approved)",
+			"items": [
+				{
+					"name": "CKD-Related Anemia",
+					"description": "Primary FDA-approved indication for anemia secondary to chronic kidney disease.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Chemotherapy-Induced Anemia",
+					"description": "FDA-approved for treating anemia in cancer patients receiving chemotherapy.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Surgical Blood Loss",
+					"description": "Used to reduce need for blood transfusions in certain surgical settings.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Performance (Banned in Sports)",
+			"items": [
+				{
+					"name": "Endurance Enhancement",
+					"description": "Increases oxygen delivery to muscles, improving endurance capacity. Banned by WADA.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Altitude Acclimatization",
+					"description": "May accelerate adaptation to high altitude by increasing red blood cell mass.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "EPO is administered via subcutaneous or intravenous injection. Medical use requires prescription and monitoring. Dosing is individualized based on hemoglobin levels, with targets typically kept below 11-12 g/dL to minimize cardiovascular risks.",
+			"protocols": [
+				{
+					"goal": "CKD Anemia (medical)",
+					"dose": "50-100 IU/kg",
+					"frequency": "3x weekly",
+					"route": "SubQ or IV"
+				},
+				{
+					"goal": "Chemotherapy Anemia (medical)",
+					"dose": "150-300 IU/kg",
+					"frequency": "3x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Maintenance (medical)",
+					"dose": "Individualized",
+					"frequency": "1-3x weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Pre-filled syringes (most common)",
+					"Or lyophilized powder with diluent",
+					"Alcohol swabs",
+					"Cold storage"
+				],
+				"steps": [
+					"Most EPO comes in pre-filled syringes",
+					"Allow to reach room temperature before injection",
+					"Inject subcutaneously or intravenously as directed",
+					"Do not shake vials or syringes"
+				]
+			},
+			"keyBenefits": [
+				"Well-established dosing protocols",
+				"Pre-filled syringes available",
+				"Extensive clinical experience"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Iron supplementation",
+			"status": "synergistic",
+			"notes": "Iron is essential for hemoglobin production; often co-administered with EPO therapy."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "compatible",
+			"notes": "Different mechanisms; no known interactions."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms; no known interactions."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-3",
+			"effects": "Bone marrow stimulation begins"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Reticulocyte count increases"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Hemoglobin begins rising"
+		},
+		{
+			"period": "Week 4-12",
+			"effects": "Target hemoglobin achieved with proper dosing"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions",
+			"Headache",
+			"Hypertension",
+			"Joint pain",
+			"Flu-like symptoms"
+		],
+		"rare": [
+			"Pure red cell aplasia (very rare)",
+			"Thromboembolic events",
+			"Stroke",
+			"Myocardial infarction",
+			"Tumor progression (theoretical)"
+		],
+		"stopSigns": [
+			"Severe headache or vision changes",
+			"Chest pain or shortness of breath",
+			"Signs of blood clots (leg swelling, pain)",
+			"Sudden loss of response to EPO"
+		],
+		"contraindications": [
+			"Uncontrolled hypertension",
+			"Pure red cell aplasia history",
+			"Hemoglobin >12 g/dL (increased cardiovascular risk)",
+			"Active malignancy (relative contraindication)"
+		],
+		"monitoring": [
+			"Regular hemoglobin monitoring essential",
+			"Blood pressure monitoring",
+			"Iron status assessment",
+			"Keep hemoglobin below 11-12 g/dL to reduce risks"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, colorless solution",
+			"Pharmaceutical grade product",
+			"Proper cold chain maintained",
+			"Intact packaging and seals"
+		],
+		"warning": [
+			"Research-grade products lack quality assurance",
+			"Temperature excursions may affect potency"
+		],
+		"bad": ["Cloudy or discolored solution", "Particulates visible", "Exposed to room temperature"]
+	},
+	"references": [
+		{
+			"title": "Erythropoietin regulation of red blood cell production",
+			"journal": "PMC/NCBI",
+			"year": "2020",
+			"keyFindings": "Comprehensive review of EPO's oxygen-sensing mechanism and regulation of RBC production."
+		},
+		{
+			"title": "Erythropoietin Stimulating Agents",
+			"journal": "StatPearls (NCBI Bookshelf)",
+			"year": "2024",
+			"keyFindings": "FDA-approved indications include CKD anemia and chemotherapy-induced anemia. Risks increase when hemoglobin exceeds 11-12 g/dL."
+		},
+		{
+			"title": "Erythropoiesis-stimulating agents and other methods to enhance oxygen transport",
+			"journal": "PMC",
+			"year": "2008",
+			"keyFindings": "rHuEPO increases O2 supply to muscles and boosts performance in endurance sports."
+		},
+		{
+			"title": "The mechanism of erythropoietin action",
+			"journal": "PubMed",
+			"year": "1992",
+			"keyFindings": "EPO promotes survival of erythroid progenitors by protecting from apoptosis."
+		}
+	],
+	"categories": ["metabolic"],
+	"quickStats": {
+		"typicalDose": "50-300 IU/kg based on medical indication",
+		"frequency": "1-3 times weekly depending on response",
+		"cycleDuration": "Variable - ongoing medical therapy adjusted based on hemoglobin levels",
+		"storage": "2-8°C refrigerated; do not freeze; do not shake vials or syringes"
+	}
+}

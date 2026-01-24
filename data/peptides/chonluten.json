@@ -1,0 +1,234 @@
+{
+	"id": "chonluten",
+	"name": "Chonluten",
+	"subtitle": "EDG Tripeptide | Bronchial/Lung Bioregulator",
+	"aliases": ["EDG", "Glu-Asp-Gly", "T-34", "Bronchial Bioregulator", "Respiratory Peptide"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "319 Da",
+		"length": "3 amino acids",
+		"type": "Tripeptide bioregulator",
+		"sequence": "Glu-Asp-Gly",
+		"halfLife": "Minutes (short peptide); effects persist via epigenetic changes"
+	},
+	"overview": "Chonluten is a Khavinson bioregulator tripeptide (EDG) derived from respiratory lung tissue. Developed at Russia's St. Petersburg Institute of Bioregulation and Gerontology, it targets the bronchopulmonary system with secondary activity in the GI tract. Research shows it regulates genes related to inflammation, antioxidant activity, and proliferation responses. Chonluten inhibits TNF production in monocytes and has been studied as a potential geroprotective agent that may support lung function in conditions like COPD.",
+	"mechanism": "Chonluten works through epigenetic regulation, penetrating cell and nuclear membranes to bind promoter or suppressor regions of DNA and modulate transcriptional control. It regulates genes including c-Fos, HSP70 (heat-shock protein), SOD (superoxide dismutase), COX-2, and TNF-alpha related to oxidative stress and proliferative regulation. The peptide inhibits TNF production in monocytes exposed to pro-inflammatory LPS, promoting attenuation of inflammatory action through TNF tolerance mechanisms.",
+	"keyBenefits": [
+		"Normalizes respiratory system function",
+		"Regulates protein synthesis in lung tissue",
+		"Inhibits inflammatory TNF production",
+		"Restores lung alveolar tissues",
+		"Maintains bronchial mucous membranes",
+		"Supports antioxidant gene expression",
+		"May slow cell aging (geroprotective)",
+		"Modulates mucosal function"
+	],
+	"indications": [
+		{
+			"category": "Respiratory Support",
+			"items": [
+				{
+					"name": "Bronchial Function",
+					"description": "Normalizes respiratory system function through gene expression regulation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Lung Tissue Health",
+					"description": "Restores and maintains lung alveolar tissues and bronchial mucous membranes.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "COPD Support",
+					"description": "May modulate mucosal function in chronic obstructive pulmonary disease.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Inflammatory",
+			"items": [
+				{
+					"name": "TNF Modulation",
+					"description": "Inhibits TNF production in monocytes, reducing inflammatory responses.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Oxidative Stress",
+					"description": "Supports SOD and antioxidant gene expression.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Geroprotection",
+					"description": "Researched as potential agent that may slow cell aging.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Gene Expression Regulation",
+					"description": "Modulates c-Fos and proliferative gene activity.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. As a tripeptide, Chonluten has favorable permeability across cellular compartments. Typical protocol involves 10-20 day cycles.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Short peptide allows GI absorption",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "sublingual",
+			"available": true,
+			"overview": "Sublingual (lingual) form available for enhanced absorption.",
+			"protocols": [
+				{
+					"goal": "Enhanced absorption",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Sublingual"
+				}
+			],
+			"keyBenefits": ["Bypasses GI metabolism", "Faster absorption", "Convenient administration"]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Bronchogen",
+			"status": "synergistic",
+			"notes": "Related respiratory bioregulators; complementary mechanisms."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "Crystagen",
+			"status": "compatible",
+			"notes": "Both have immune-modulating properties; different tissue targets."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Both support mucosal health through different mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Gene expression modulation and anti-inflammatory effects begin"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Respiratory function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual respiratory symptoms"],
+		"contraindications": [
+			"Active respiratory emergencies (seek medical care)",
+			"Known hypersensitivity",
+			"Pregnancy or breastfeeding"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Peptides Regulating Proliferative Activity and Inflammatory Pathways in THP-1 Cells",
+			"journal": "PMC/NCBI",
+			"year": "2022",
+			"keyFindings": "Chonluten tripeptide inhibits TNF production in monocytes exposed to pro-inflammatory LPS."
+		},
+		{
+			"title": "Chonluten and Gene Expression Regulation",
+			"journal": "Advances in Gerontology",
+			"year": "2018",
+			"keyFindings": "Chonluten regulates c-Fos, HSP70, SOD, COX-2, and TNF-alpha gene expression."
+		},
+		{
+			"title": "Bronchial Bioregulator Peptides",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2016",
+			"keyFindings": "Short peptides derived from bronchial tissue regulate protein synthesis in lung cells."
+		},
+		{
+			"title": "Khavinson Peptide Bioregulators",
+			"journal": "Advances in Gerontology",
+			"year": "2020",
+			"keyFindings": "Comprehensive review of bioregulator peptides including Chonluten and their mechanisms."
+		}
+	],
+	"categories": ["immune", "longevity"],
+	"quickStats": {
+		"typicalDose": "10-20 mg daily",
+		"frequency": "Once daily for 10-20 consecutive days",
+		"cycleDuration": "10-20 days per cycle",
+		"storage": "Capsules: room temperature; Injectable lyophilized: 2-8°C; Reconstituted: 2-8°C refrigerated"
+	}
+}

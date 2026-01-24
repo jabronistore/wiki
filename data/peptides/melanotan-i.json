@@ -1,0 +1,210 @@
+{
+	"id": "melanotan-i",
+	"name": "Melanotan I",
+	"subtitle": "Melanocortin Receptor Agonist",
+	"aliases": ["MT-I", "Afamelanotide", "SCENESSE"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"type": "Synthetic peptide analog",
+		"sequence": "α-melanocyte stimulating hormone analog",
+		"weight": "1646.88 Da",
+		"halfLife": "~30 minutes",
+		"halfLifeSeconds": 1800
+	},
+	"overview": "Synthetic analog of α-MSH that selectively targets MC1 receptors for melanin stimulation. FDA-approved as SCENESSE implant for erythropoietic protoporphyria (EPP). Research-grade injectable form enables flexible dosing versus the implant version.",
+	"mechanism": "Subcutaneous injection delivers peptide directly into systemic circulation. Selectively activates MC1R receptors to stimulate melanin production. Short half-life of approximately 30 minutes necessitates multiple daily dosing for sustained effect.",
+	"keyBenefits": [
+		"Precise dosing control with rapid tanning onset",
+		"Flexible home administration unlike implant version",
+		"Visible tanning within 1-2 weeks with UV exposure",
+		"Enhanced photoprotection through increased melanin",
+		"More selective for MC1R than Melanotan II"
+	],
+	"indications": [
+		{
+			"category": "Skin Health",
+			"items": [
+				{
+					"name": "Enhanced Tanning Response",
+					"description": "Stimulates melanin for deeper, longer-lasting tans with reduced UV requirements",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Photoprotection",
+					"description": "Increased melanin density provides natural UV protection and reduces sunburn",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Even Pigmentation",
+					"description": "Promotes uniform melanin distribution minimizing patchy tanning",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Medical Applications",
+			"items": [
+				{
+					"name": "Erythropoietic Protoporphyria",
+					"description": "FDA-approved indication for SCENESSE implant",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection with rotation between abdomen, thigh, and upper arm.",
+			"protocols": [
+				{
+					"goal": "Loading phase",
+					"dose": "0.25-0.5mg",
+					"frequency": "1-2x daily for 1-2 weeks",
+					"route": "Subcutaneous"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "0.25-0.5mg",
+					"frequency": "2-3x weekly",
+					"route": "Subcutaneous"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"10mg Melanotan I vial",
+					"Bacteriostatic water",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Clean vial top with alcohol pad",
+					"Add 2mL bacteriostatic water for 5mg/mL concentration",
+					"Gently swirl - do not shake",
+					"Solution should be clear and colorless",
+					"Store refrigerated for up to 4 weeks"
+				]
+			}
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Lower bioavailability (20-30%) compared to injection but more convenient.",
+			"protocols": [
+				{
+					"goal": "Standard dosing",
+					"dose": "0.5mg per spray",
+					"frequency": "2-3x daily",
+					"route": "Intranasal"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Melanotan II",
+			"status": "avoid",
+			"notes": "Overlapping mechanisms; avoid combining"
+		},
+		{
+			"peptide": "UV Exposure",
+			"status": "synergistic",
+			"notes": "Reduces required UV dose by approximately 50%"
+		},
+		{
+			"peptide": "Beta-Carotene",
+			"status": "compatible",
+			"notes": "Provides additional photoprotection"
+		},
+		{
+			"peptide": "Tretinoin/Retinoids",
+			"status": "monitor",
+			"notes": "Retinoids increase photosensitivity; monitor skin reactions"
+		},
+		{
+			"peptide": "Photosensitizing Medications",
+			"status": "monitor",
+			"notes": "Enhanced monitoring recommended"
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-3",
+			"effects": "Possible mild nausea, facial flushing, reduced appetite"
+		},
+		{
+			"period": "Days 3-7",
+			"effects": "Initial skin darkening, increased mole/freckle pigmentation"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Noticeable tanning with minimal UV exposure"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Peak effects, maintained pigmentation with reduced frequency"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild nausea",
+			"Facial flushing",
+			"Reduced appetite",
+			"Increased mole/freckle pigmentation"
+		],
+		"rare": ["Injection site reactions"],
+		"stopSigns": [
+			"Severe nausea/vomiting lasting >24 hours",
+			"Rapid concerning mole/freckle changes",
+			"Injection site infection signs",
+			"Unusual skin reactions",
+			"Allergic reaction symptoms"
+		],
+		"monitoring": [
+			"Monitor moles regularly via self-examination",
+			"Maintain UV protection despite enhanced tanning"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party HPLC testing confirming >98% purity",
+			"Proper lyophilized powder storage",
+			"Clear, colorless reconstitution",
+			"Minimal side effects profile"
+		],
+		"warning": ["Check expiration dates"],
+		"bad": ["Pre-mixed liquid solutions (degrade rapidly)", "Cloudy or discolored solution"]
+	},
+	"references": [
+		{
+			"title": "MT-I Photoprotection Study",
+			"year": "2004",
+			"journal": "PubMed",
+			"keyFindings": "Demonstrated significant photoprotection effects",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15262693"
+		},
+		{
+			"title": "Melanocortin Receptor Binding Study",
+			"year": "1997",
+			"journal": "PubMed",
+			"keyFindings": "Characterized MC1R selectivity",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9409624"
+		},
+		{
+			"title": "Pharmacokinetics Injectable MT-I",
+			"year": "1997",
+			"journal": "PubMed",
+			"keyFindings": "Established half-life and bioavailability parameters",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9288095"
+		}
+	],
+	"categories": ["skin"],
+	"quickStats": {
+		"typicalDose": "Loading: 0.25-0.5mg daily; Maintenance: 0.25-0.5mg 2-3x weekly",
+		"frequency": "Loading phase: 1-2x daily for 1-2 weeks, then maintenance 2-3x weekly",
+		"cycleDuration": "2-4 week loading phase, then ongoing maintenance as needed",
+		"storage": "Refrigerate reconstituted solution at 2-8°C, use within 4 weeks"
+	}
+}

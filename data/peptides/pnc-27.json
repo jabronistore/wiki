@@ -1,0 +1,191 @@
+{
+	"id": "pnc-27",
+	"name": "PNC-27",
+	"subtitle": "Anti-Cancer Peptide | p53-HDM-2 Disruptor",
+	"aliases": ["PNC27", "p53-Penetratin Chimeric Peptide"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~3,500 Da",
+		"type": "Chimeric peptide",
+		"modifications": ["p53 binding domain (residues 12-26)", "Transmembrane-penetrating domain"],
+		"halfLife": "Less than 24 hours (requires daily dosing in studies)",
+		"halfLifeSeconds": 43200
+	},
+	"overview": "PNC-27 is an experimental anti-cancer peptide created by a supercomputer at SUNY Downstate Medical Center in 2000. It contains an HDM-2 binding domain from p53 (residues 12-26) linked to a cell-penetrating domain. The peptide selectively kills cancer cells by binding to HDM-2 (MDM2) expressed on cancer cell membranes, forming pores that cause cell necrosis. Critically, PNC-27 has no effect on normal cells because healthy cells don't express HDM-2 on their membranes. Research shows effectiveness against pancreatic cancer, breast cancer, leukemia, and melanoma.",
+	"mechanism": "PNC-27 exploits a unique vulnerability of cancer cells: the presence of HDM-2 (human double minute 2, also called MDM2) on their cell surface. The peptide's p53 residues adopt a conformation that binds directly to membrane-bound HDM-2, inducing transmembrane pore formation. This causes rapid tumor cell necrosis (not apoptosis). Additionally, PNC-27 enters cancer cells and disrupts mitochondrial membranes. Normal cells lack surface HDM-2 expression and are completely spared.",
+	"keyBenefits": [
+		"Selectively kills cancer cells only",
+		"No effect on normal healthy cells",
+		"Induces rapid cancer cell necrosis",
+		"Works on multiple cancer types",
+		"Unique membrane pore mechanism",
+		"Does not require p53 function in target cells",
+		"Eradicates tumors in mouse models",
+		"Spares human stem cells"
+	],
+	"indications": [
+		{
+			"category": "Cancer Research",
+			"items": [
+				{
+					"name": "Pancreatic Cancer",
+					"description": "PNC-27 shows selective cytotoxicity against pancreatic cancer cells in research.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Breast Cancer",
+					"description": "Demonstrated effectiveness against breast cancer cell lines.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Leukemia",
+					"description": "Induces necrosis of K-562 leukemia cells through HDM-2 binding.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Melanoma",
+					"description": "Shows selective targeting of melanoma cells.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Mechanism Studies",
+			"items": [
+				{
+					"name": "HDM-2 Expressing Tumors",
+					"description": "Most effective against cancers with high membrane HDM-2 expression.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Tumor Selectivity Research",
+					"description": "Model compound for studying cancer-selective therapies.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "PNC-27 is currently in preclinical research stages. All dosing data comes from in vitro and animal model studies. No human dosing protocols have been approved. The peptide has shown tumor eradication in nude mice xenograft models.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "Variable by study",
+					"frequency": "Research protocols",
+					"route": "IP or direct tumor injection (research)"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Sterile water or buffer", "Syringes", "Sterile work surface"],
+				"steps": [
+					"Handle as research chemical",
+					"Reconstitute according to research protocol",
+					"Store reconstituted solution refrigerated",
+					"Use appropriate safety precautions"
+				]
+			},
+			"keyBenefits": [
+				"Cancer cell selectivity",
+				"Spares normal cells",
+				"Promising preclinical results"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Chemotherapy agents",
+			"status": "unknown",
+			"notes": "Potential for combination therapy being researched."
+		},
+		{
+			"peptide": "Other anti-cancer peptides",
+			"status": "unknown",
+			"notes": "Combination studies not yet published."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Hours",
+			"effects": "Binding to membrane HDM-2 begins"
+		},
+		{
+			"period": "Hours-Days",
+			"effects": "Pore formation and cancer cell necrosis"
+		},
+		{
+			"period": "Days-Weeks",
+			"effects": "Tumor reduction in animal models"
+		},
+		{
+			"period": "Research ongoing",
+			"effects": "Human clinical trials not yet conducted"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Limited data - primarily preclinical research",
+			"Generally well-tolerated in animal studies"
+		],
+		"rare": ["Unknown - insufficient human data"],
+		"stopSigns": ["Not applicable - not approved for human use"],
+		"contraindications": [
+			"Not approved for human use",
+			"Experimental research peptide only",
+			"Cancers without membrane HDM-2 may not respond"
+		],
+		"monitoring": [
+			"Research compound - medical supervision essential",
+			"No human clinical trials completed"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder",
+			"High purity (>95%)",
+			"Clear solution after reconstitution",
+			"Proper storage conditions"
+		],
+		"warning": [
+			"Research chemical - limited quality standards",
+			"Not all cancers express membrane HDM-2"
+		],
+		"bad": ["Discoloration", "Cloudy solution", "Particulates visible"]
+	},
+	"references": [
+		{
+			"title": "Anticancer peptide PNC-27 adopts an HDM-2-binding conformation and kills cancer cells by binding to HDM-2 in their membranes",
+			"journal": "PNAS",
+			"year": "2010",
+			"keyFindings": "PNC-27 binds membrane-bound HDM-2, inducing pore formation and cancer cell necrosis while sparing normal cells."
+		},
+		{
+			"title": "Anti-Cancer Peptide PNC-27 Kills Cancer Cells by Unique Interactions with Plasma Membrane-Bound hdm-2 and with Mitochondrial Membranes",
+			"journal": "PubMed",
+			"year": "2024",
+			"keyFindings": "PNC-27 also enters cancer cells and disrupts mitochondrial membranes."
+		},
+		{
+			"title": "PNC-27 Induces Tumor Cell Necrosis of Leukemia Cells",
+			"journal": "Annals of Clinical & Laboratory Science",
+			"year": "2014",
+			"keyFindings": "PNC-27 induces necrosis of K-562 leukemia cells lacking p53 through p53-independent pathway."
+		},
+		{
+			"title": "PNC-27, a Chimeric p53-Penetratin Peptide",
+			"journal": "PubMed",
+			"year": "2022",
+			"keyFindings": "PNC-27 binds HDM-2 in p53 peptide-like structure, induces selective membrane-pore formation leading to cancer cell lysis."
+		}
+	],
+	"categories": ["longevity"],
+	"quickStats": {
+		"typicalDose": "Not established - preclinical research only",
+		"frequency": "Research protocols vary by study",
+		"cycleDuration": "Not established - no human clinical trials",
+		"storage": "Refrigerate at 2-8°C"
+	}
+}

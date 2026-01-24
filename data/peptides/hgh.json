@@ -1,0 +1,318 @@
+{
+	"id": "hgh",
+	"name": "HGH",
+	"subtitle": "Human Growth Hormone | Somatropin",
+	"aliases": ["Somatropin", "Somatotropin", "rhGH", "Recombinant Human Growth Hormone"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "22,124 Da",
+		"length": "191 amino acids",
+		"type": "Single-chain polypeptide with two disulfide bridges",
+		"modifications": [
+			"4 cysteine residues forming 2 intrachain disulfide bonds",
+			"Bioidentical to natural pituitary HGH",
+			"Recombinant via E. coli DNA technology"
+		],
+		"halfLife": "3-4 hours (SC), 20-30 minutes (IV)",
+		"halfLifeSeconds": 12600,
+		"halfLifeRoute": "SC"
+	},
+	"overview": "Human Growth Hormone (HGH/Somatropin) is a 191-amino acid polypeptide hormone FDA-approved for pediatric and adult growth hormone deficiency, HIV-associated wasting, and other conditions. It provides both direct and indirect (IGF-1 mediated) anabolic effects.",
+	"mechanism": "Binds to GH receptors on target tissues, triggering JAK2-STAT5 signaling pathway. Direct effects include lipolysis, protein synthesis, and metabolic regulation. Indirect effects via IGF-1 promote growth and anabolism. Half-life ~3 hours subcutaneously.",
+	"keyBenefits": [
+		"Improved body composition (increased lean mass, decreased fat)",
+		"Enhanced bone mineral density",
+		"Improved lipid profile",
+		"Increased exercise capacity",
+		"Better quality of life and mood",
+		"Skin, hair, and nail improvements",
+		"Enhanced recovery and healing"
+	],
+	"indications": [
+		{
+			"category": "Growth Hormone Deficiency",
+			"items": [
+				{
+					"name": "Pediatric GH Deficiency",
+					"description": "FDA-approved for idiopathic and organic causes, Turner syndrome, Prader-Willi syndrome, SGA, Noonan syndrome, SHOX deficiency.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Adult GH Deficiency",
+					"description": "FDA-approved for childhood-onset or adult-onset causes (pituitary tumors, surgery, radiation, trauma).",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "HIV-Associated Wasting",
+					"description": "FDA-approved to increase lean body mass and body weight in cachexia.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Fat Loss",
+					"description": "Significant fat loss especially abdominal/visceral fat over 1-3 months.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Lean Mass",
+					"description": "Increased muscle mass and improved body composition.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Recovery Enhancement",
+					"description": "Enhanced exercise recovery and tissue healing.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Skin and Hair Quality",
+					"description": "Improved skin elasticity, texture, and hair/nail growth.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Energy and Well-being",
+					"description": "Improved energy, sleep, and quality of life.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the only effective route. Morning fasted injection maximizes fat-burning potential; evening mimics natural nocturnal GH pulse.",
+			"protocols": [
+				{
+					"goal": "Medical GHD (Starting)",
+					"dose": "0.15-0.3mg/day (0.5-1 IU)",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Medical GHD (Maintenance)",
+					"dose": "0.4-0.8mg/day (1.2-2.4 IU)",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Anti-Aging/Wellness",
+					"dose": "1-2 IU/day (0.33-0.67mg)",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Body Recomposition",
+					"dose": "2-4 IU/day (0.67-1.33mg)",
+					"frequency": "Once or twice daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Performance (Higher Risk)",
+					"dose": "4-8 IU/day (1.33-2.67mg)",
+					"frequency": "Split twice daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"HGH lyophilized powder vial (typically 10 IU or 36 IU)",
+					"Bacteriostatic water for injection",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol prep pads"
+				],
+				"steps": [
+					"Allow vial to reach room temperature (15-20 minutes)",
+					"Clean rubber stoppers with alcohol swab",
+					"Determine reconstitution volume (typical: 1mL BAC water per 10 IU)",
+					"Draw bacteriostatic water slowly, removing air bubbles",
+					"Insert needle at angle, aiming stream at vial wall - not directly on powder",
+					"Inject water slowly down inside wall, drop by drop",
+					"Remove needle and gently swirl in circular motion - never shake",
+					"Allow to sit if cloudy, then swirl again until crystal clear",
+					"Solution must be crystal clear; discard if cloudy or contains particles",
+					"Label with reconstitution date and concentration",
+					"Store refrigerated at 2-8°C; use within 14-28 days"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen (most common), thigh, upper arm injection sites",
+				"Rotate sites to prevent lipohypertrophy",
+				"Morning fasted or evening dosing"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "HGH decreases insulin sensitivity; may require increased insulin doses in diabetics."
+		},
+		{
+			"peptide": "IGF-1/IGF-1 LR3",
+			"status": "monitor",
+			"notes": "Synergistic but caution: enhanced effects with increased hypoglycemia and side effect risk."
+		},
+		{
+			"peptide": "Thyroid Hormones (T3/T4)",
+			"status": "monitor",
+			"notes": "Increases T4 to T3 conversion; unmasks hypothyroidism in 36-47% of patients."
+		},
+		{
+			"peptide": "CJC-1295",
+			"status": "synergistic",
+			"notes": "GHRH analog can enhance effects though may be redundant with exogenous HGH."
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "synergistic",
+			"notes": "Ghrelin mimetic works via different pathway."
+		},
+		{
+			"peptide": "GHRP-6/GHRP-2",
+			"status": "synergistic",
+			"notes": "Enhances natural pulsatile release."
+		},
+		{
+			"peptide": "Cortisol/Hydrocortisone",
+			"status": "monitor",
+			"notes": "Can unmask cortisol deficiency; replacement should precede HGH."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "Commonly combined in hormone replacement therapy."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "monitor",
+			"notes": "May manage insulin resistance; may reduce IGF-1 levels."
+		},
+		{
+			"peptide": "Semaglutide/Tirzepatide",
+			"status": "compatible",
+			"notes": "GLP-1 agonists help manage insulin resistance during HGH therapy."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Improved sleep quality, increased energy, possible water retention and joint stiffness"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced exercise recovery, skin improvement, possible carpal tunnel symptoms"
+		},
+		{
+			"period": "Month 1-2",
+			"effects": "Noticeable fat loss (especially abdominal), improved skin elasticity and texture"
+		},
+		{
+			"period": "Month 2-3",
+			"effects": "Continued fat loss, lean mass improvements, hair/nail growth, reduced recovery time"
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Significant body composition changes, improved bone density, sustained energy/well-being"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Maintained benefits; effects diminish weeks-months after discontinuation"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Water retention and fluid accumulation",
+			"Joint pain and stiffness",
+			"Carpal tunnel syndrome (usually resolves with dose reduction)",
+			"Headaches",
+			"Numbness/tingling in hands"
+		],
+		"stopSigns": [
+			"Severe or worsening carpal tunnel symptoms",
+			"Signs of diabetes (increased thirst, frequent urination, blurred vision)",
+			"Severe edema (facial, hand, or feet swelling)",
+			"Severe joint/muscle pain unresponsive to dose reduction",
+			"New lumps, masses, or rapidly growing moles",
+			"Severe headaches or vision changes",
+			"Signs of allergic reaction",
+			"Gynecomastia (breast tissue growth in males)",
+			"Hypothyroid symptoms (fatigue, weight gain, cold intolerance)"
+		],
+		"contraindications": [
+			"Active cancer (may accelerate tumor growth)",
+			"Acute critical illness (increased mortality in ICU patients)",
+			"Closed epiphyses in children (for growth promotion)",
+			"Pregnancy/breastfeeding"
+		],
+		"monitoring": [
+			"Blood glucose - HGH causes insulin resistance and can unmask diabetes",
+			"Thyroid function - can unmask hypothyroidism; may require T4 supplementation",
+			"IGF-1 levels to assess dosing adequacy",
+			"Intracranial pressure if headaches develop"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder or solid cake (not liquid/collapsed)",
+			"Crystal clear reconstituted solution with no particles",
+			"Intact vacuum in sealed vial (resistance when inserting needle)",
+			"Pharmaceutical grade with certificate of analysis (Genotropin, Norditropin, Humatrope preferred)"
+		],
+		"warning": [
+			"Generic/underground lab products have highly variable quality and potency",
+			"Common counterfeits exist; third-party testing recommended"
+		],
+		"bad": [
+			"Cloudy, discolored, or particles visible indicates degradation",
+			"Powder appears melted or stuck to vial (improper storage)",
+			"Yellow/brown coloring"
+		]
+	},
+	"references": [
+		{
+			"title": "KIMS Long-Term Safety Study",
+			"year": "2020",
+			"keyFindings": "15,809 patients, mean 5.3 years follow-up. Largest long-term safety study showing de novo cancer incidence comparable to general population (SIR 0.92)."
+		},
+		{
+			"title": "Long-term Efficacy and Safety in Adult GHD",
+			"year": "2018",
+			"keyFindings": "Systematic review demonstrating improvements in body composition, muscle strength, quality of life, bone mass/density, and lipoprotein patterns."
+		},
+		{
+			"title": "Effects on Morbidity - Systematic Review",
+			"year": "2016",
+			"keyFindings": "Demonstrated positive effects on cardiovascular surrogate markers and bone metabolism."
+		},
+		{
+			"title": "GH-Thyroid Hormone Interaction Study",
+			"year": "2015",
+			"keyFindings": "GH replacement unmasks central hypothyroidism in 36-47% of apparently euthyroid patients."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Long-Acting Somatropin Formulations",
+			"date": "2023",
+			"source": "FDA",
+			"summary": "Sogroya and Skytrofa FDA-approved for improved once-weekly dosing convenience."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss", "healing"],
+	"quickStats": {
+		"typicalDose": "1-4 IU daily (0.33-1.33mg); start low and titrate up",
+		"frequency": "Once daily or split into 2 doses (morning and evening)",
+		"cycleDuration": "3-6+ months or ongoing for medical GHD",
+		"storage": "Lyophilized: Room temperature. Reconstituted: 2-8°C, use within 14-28 days"
+	}
+}

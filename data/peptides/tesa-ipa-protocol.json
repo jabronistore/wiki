@@ -1,0 +1,286 @@
+{
+	"id": "tesa-ipa-protocol",
+	"name": "Tesa/IPA Protocol",
+	"subtitle": "Tesamorelin + Ipamorelin GH Secretagogue Blend",
+	"aliases": ["Tesa-IPA", "Tesamorelin-Ipamorelin Blend", "TI Blend"],
+	"categories": ["growth-hormone"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"molecular": {
+		"type": "Dual GH secretagogue combination",
+		"sequence": "Tesamorelin (GHRH analog) + Ipamorelin (GHRP)"
+	},
+	"overview": "The Tesa/IPA blend combines two complementary growth hormone secretagogues: Tesamorelin (a GHRH analog that stimulates GH release from the pituitary) and Ipamorelin (a selective ghrelin mimetic/GHRP that amplifies GH pulses). This combination addresses both the GHRH and GHRP pathways for synergistic GH release. Common formulations include 5mg/5mg (1:1 ratio) and 10mg/3mg (higher Tesamorelin) variants. Tesamorelin is FDA-approved for HIV-associated lipodystrophy, while Ipamorelin remains investigational.",
+	"mechanism": "The blend leverages two distinct GH-releasing pathways: Tesamorelin is a synthetic GHRH analog that directly stimulates growth hormone-releasing hormone receptors on pituitary somatotrophs, triggering GH synthesis and secretion in a pulsatile, physiological manner. Ipamorelin is a selective ghrelin receptor (GHS-R1a) agonist that amplifies GH pulses without significantly affecting cortisol or prolactin. Together, they produce synergistic GH release greater than either compound alone, while maintaining the body's natural feedback mechanisms.",
+	"keyBenefits": [
+		"Synergistic GH release from dual pathways",
+		"More physiological pulsatile GH secretion",
+		"Tesamorelin's proven lipodystrophy benefits",
+		"Ipamorelin's clean side effect profile",
+		"Does not significantly affect cortisol or prolactin",
+		"Single injection convenience",
+		"May improve body composition, sleep, and recovery"
+	],
+	"indications": [
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Fat Reduction",
+					"description": "Tesamorelin has demonstrated fat reduction in clinical trials; synergy with Ipamorelin may enhance effects.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Visceral Fat Loss",
+					"description": "Tesamorelin specifically reduces visceral adipose tissue (FDA-approved indication).",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Lean Mass Support",
+					"description": "Enhanced GH promotes protein synthesis and lean tissue preservation.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Recovery & Wellness",
+			"items": [
+				{
+					"name": "Sleep Quality",
+					"description": "GH secretagogues often improve deep sleep quality.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Recovery Enhancement",
+					"description": "Enhanced GH supports tissue repair and recovery from exercise.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Anti-Aging Support",
+					"description": "Restoring more youthful GH levels may provide anti-aging benefits.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Metabolic Health",
+			"items": [
+				{
+					"name": "Lipid Profile",
+					"description": "Tesamorelin has shown improvements in lipid parameters in studies.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "IGF-1 Optimization",
+					"description": "Increased GH leads to increased IGF-1 production.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection, typically administered before bed or in the morning on an empty stomach. Evening dosing may enhance natural nighttime GH pulse. Avoid eating 2-3 hours before and 30-60 minutes after injection for optimal results.",
+			"protocols": [
+				{
+					"goal": "Standard protocol (5/5 blend)",
+					"dose": "200-400mcg total",
+					"frequency": "Once daily (evening)",
+					"route": "SubQ",
+					"notes": "Inject on empty stomach; avoid food 30-60 min after"
+				},
+				{
+					"goal": "Enhanced protocol (10/3 blend)",
+					"dose": "300-500mcg total",
+					"frequency": "Once daily (evening)",
+					"route": "SubQ",
+					"notes": "Higher Tesamorelin for fat loss focus"
+				},
+				{
+					"goal": "Twice daily (advanced)",
+					"dose": "200-300mcg per dose",
+					"frequency": "Morning and evening",
+					"route": "SubQ",
+					"notes": "Split dosing for sustained GH support"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Tesa/IPA vial (5/5mg or 10/3mg)",
+					"Bacteriostatic water (2-3mL)",
+					"Insulin syringes",
+					"Alcohol prep pads"
+				],
+				"steps": [
+					"Clean vial top with alcohol pad",
+					"Add 2mL bacteriostatic water for convenient dosing",
+					"Gently swirl - do not shake",
+					"Solution should appear clear",
+					"Label with date and concentration",
+					"Store refrigerated immediately",
+					"Use within 4-6 weeks"
+				]
+			},
+			"keyBenefits": [
+				"Evening dosing enhances natural GH pulse",
+				"Empty stomach optimizes absorption",
+				"Flexible once or twice daily options"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Tesamorelin (standalone)",
+			"status": "avoid",
+			"notes": "Already contains Tesamorelin - do not add more."
+		},
+		{
+			"peptide": "Ipamorelin (standalone)",
+			"status": "avoid",
+			"notes": "Already contains Ipamorelin - do not add more."
+		},
+		{
+			"peptide": "CJC-1295",
+			"status": "monitor",
+			"notes": "Both Tesamorelin and CJC-1295 are GHRH analogs; combining may cause excessive stimulation."
+		},
+		{
+			"peptide": "GHRP-6/GHRP-2",
+			"status": "monitor",
+			"notes": "Already has GHRP pathway covered by Ipamorelin; adding more GHRPs may be excessive."
+		},
+		{
+			"peptide": "MK-677",
+			"status": "monitor",
+			"notes": "Both affect GH release; combination may be excessive and affect glucose."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms; can complement for healing with GH support."
+		},
+		{
+			"peptide": "Semaglutide",
+			"status": "compatible",
+			"notes": "Different pathways; some combine for body composition goals."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "GH affects glucose metabolism; diabetics should monitor carefully."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Improved sleep quality often noticed first; initial GH response"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced recovery; subtle body composition changes beginning"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Noticeable fat loss (especially visceral); improved energy"
+		},
+		{
+			"period": "Week 8-16",
+			"effects": "Full body composition benefits; continued improvements"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions (redness, itching)",
+			"Water retention (usually transient)",
+			"Tingling or numbness in extremities",
+			"Joint stiffness",
+			"Increased hunger (Ipamorelin effect)"
+		],
+		"rare": ["Headache", "Carpal tunnel-like symptoms", "Changes in blood glucose", "Fatigue"],
+		"stopSigns": [
+			"Severe injection site reactions",
+			"Significant swelling or edema",
+			"Signs of glucose dysregulation",
+			"Severe joint pain",
+			"Allergic reactions"
+		],
+		"contraindications": [
+			"Active malignancy (GH may promote tumor growth)",
+			"Diabetic retinopathy",
+			"Pregnancy or breastfeeding",
+			"Pituitary disorders",
+			"Hypersensitivity to components"
+		],
+		"monitoring": [
+			"IGF-1 levels periodically",
+			"Fasting glucose",
+			"Body composition changes",
+			"Sleep quality",
+			"General well-being"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party testing confirming both components",
+			"Certificate of Analysis with ratios verified",
+			"Reputable research supplier",
+			"Proper cold chain shipping"
+		],
+		"warning": [
+			"Tesamorelin is FDA-approved as Egrifta - research blends are not",
+			"Ipamorelin remains investigational"
+		],
+		"bad": [
+			"No Certificate of Analysis",
+			"Cannot verify Tesamorelin:Ipamorelin ratio",
+			"Discolored or particulate solution"
+		]
+	},
+	"references": [
+		{
+			"title": "Tesamorelin FDA Approval for HIV Lipodystrophy",
+			"journal": "FDA/Clinical Studies",
+			"year": "2010",
+			"keyFindings": "Tesamorelin (Egrifta) approved for reduction of excess abdominal fat in HIV patients."
+		},
+		{
+			"title": "Tesamorelin Effects on Visceral Fat",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"keyFindings": "Tesamorelin significantly reduces visceral adipose tissue and improves lipid profiles."
+		},
+		{
+			"title": "Ipamorelin Selectivity Profile",
+			"journal": "Growth Hormone & IGF Research",
+			"keyFindings": "Ipamorelin selectively releases GH without affecting cortisol, prolactin, or ACTH."
+		},
+		{
+			"title": "GHRH + GHRP Synergy",
+			"journal": "Endocrine Reviews",
+			"keyFindings": "Combining GHRH and GHRP pathways produces synergistic GH release greater than either alone."
+		}
+	],
+	"blendComposition": {
+		"totalAmount": 10,
+		"unit": "mg",
+		"components": [
+			{
+				"name": "Tesamorelin",
+				"amount": 5,
+				"ratio": 1
+			},
+			{
+				"name": "Ipamorelin",
+				"amount": 5,
+				"ratio": 1
+			}
+		]
+	},
+	"quickStats": {
+		"typicalDose": "200-500mcg total blend per injection",
+		"frequency": "Once daily (evening preferred) or twice daily for advanced protocols",
+		"cycleDuration": "8-16 weeks continuous",
+		"storage": "Reconstituted: 2-8°C, use within 4-6 weeks"
+	}
+}

@@ -1,0 +1,204 @@
+{
+	"id": "vesugen",
+	"name": "Vesugen",
+	"subtitle": "KED | Vascular Bioregulator Peptide",
+	"aliases": ["KED", "Lys-Glu-Asp", "Vascular Bioregulator", "Ventfort", "Vezugen"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "390 Da",
+		"length": "3 amino acids",
+		"type": "Tripeptide bioregulator",
+		"sequence": "Lys-Glu-Asp",
+		"halfLife": "Not established"
+	},
+	"overview": "Vesugen is a Khavinson bioregulator tripeptide developed at Russia's St. Petersburg Institute of Bioregulation and Gerontology. Composed of three amino acids (lysine, glutamic acid, aspartic acid), it targets the vascular system and protects blood vessels from age-related decline. Research shows it limits atherosclerosis development, decreases endothelial dysfunction, and activates stem cells. Like other short Khavinson peptides, Vesugen penetrates to the nucleus where it influences gene expression.",
+	"mechanism": "Vesugen works through epigenetic regulation by interacting with DNA promoter regions, particularly affecting Ki-67 gene expression which controls cell division. It plays a prominent role in regulating sirtuin 1 (SIRT1) protein levels - a key anti-aging protein activated during calorie restriction. Vesugen enhances mesenchymal stem cell proliferation, reduces senescence markers, improves cell differentiation, and may reverse the Senescence-Associated Secretory Phenotype (SASP) implicated in age-related cardiovascular disease.",
+	"keyBenefits": [
+		"Protects vascular system from aging effects",
+		"Limits atherosclerosis development",
+		"Decreases endothelial cell dysfunction",
+		"Activates SIRT1 anti-aging pathway",
+		"Enhances stem cell proliferation",
+		"Reduces cellular senescence markers",
+		"Reverses SASP phenotype",
+		"Works synergistically with Cardiogen"
+	],
+	"indications": [
+		{
+			"category": "Vascular Health",
+			"items": [
+				{
+					"name": "Vascular Aging",
+					"description": "Protects blood vessels from age-related deterioration through gene expression regulation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Atherosclerosis Prevention",
+					"description": "Limits development of atherosclerotic plaques in blood vessels.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Endothelial Function",
+					"description": "Decreases endothelial dysfunction that contributes to cardiovascular disease.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "SIRT1 Activation",
+					"description": "Regulates sirtuin 1 levels, mimicking some benefits of calorie restriction.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Stem Cell Activation",
+					"description": "Enhances mesenchymal stem cell proliferation and reduces senescence.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cellular Rejuvenation",
+					"description": "Reverses senescence-associated secretory phenotype in aging cells.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. Short peptides can be absorbed orally and reach target tissues. Typical protocol involves 10-20 day cycles, often repeated 2-3 times per year.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Short peptide allows GI absorption",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration, bypassing GI tract.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Cardiogen",
+			"status": "synergistic",
+			"notes": "Complementary cardiovascular bioregulators - Vesugen for vessels, Cardiogen for heart tissue."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "Thymalin",
+			"status": "compatible",
+			"notes": "Different organ targets; can be used in comprehensive bioregulator protocols."
+		},
+		{
+			"peptide": "Pinealon",
+			"status": "compatible",
+			"notes": "Part of Khavinson bioregulator family; targets different tissue."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Gene expression modulation and SIRT1 activation begins"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Months",
+			"effects": "Vascular function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual cardiovascular symptoms"],
+		"contraindications": [
+			"Active cardiovascular emergencies (seek medical care)",
+			"Known hypersensitivity",
+			"Pregnancy or breastfeeding"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Khavinson Peptide Bioregulators Research",
+			"journal": "Advances in Gerontology",
+			"year": "2020",
+			"keyFindings": "Comprehensive review of bioregulator peptides including Vesugen and their epigenetic mechanisms."
+		},
+		{
+			"title": "Short Peptides and Vascular Aging",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2018",
+			"keyFindings": "Short peptides regulate sirtuin 1 levels and protect vascular tissue from aging."
+		},
+		{
+			"title": "Mesenchymal Stem Cell Activation by Peptide Bioregulators",
+			"journal": "Cell Technologies in Biology and Medicine",
+			"year": "2019",
+			"keyFindings": "Vesugen enhances MSC proliferation and reduces senescence markers in stem cells."
+		}
+	],
+	"categories": ["longevity", "healing"],
+	"quickStats": {
+		"typicalDose": "10-20 mg per day (oral capsules) or 10 mg (injectable)",
+		"frequency": "Daily for 10-20 consecutive days (Khavinson bioregulator cycle)",
+		"cycleDuration": "10-20 day cycle",
+		"storage": "Oral capsules: room temperature; Lyophilized powder/reconstituted: 2-8°C refrigerated"
+	}
+}

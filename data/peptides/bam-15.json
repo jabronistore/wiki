@@ -1,0 +1,225 @@
+{
+	"id": "bam-15",
+	"name": "BAM-15",
+	"subtitle": "Mitochondrial Uncoupler | Metabolic Enhancer",
+	"aliases": ["BAM15", "Mitochondrial protonophore"],
+	"categories": ["weight-loss", "metabolic"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "326.28 Da",
+		"type": "Small molecule (not a peptide)",
+		"sequence": "C16H10F2N6O",
+		"halfLife": "~1.7 hours",
+		"halfLifeSeconds": 6120
+	},
+	"overview": "BAM-15 is a synthetic mitochondrial uncoupler that has emerged as a promising research compound for obesity and metabolic disorders. Unlike traditional uncouplers like DNP which have serious toxicity concerns, BAM-15 demonstrates a superior safety profile while effectively increasing energy expenditure and fat oxidation. Research in mice shows BAM-15 reduces body fat without affecting food intake, lean mass, or body temperature. It is approximately 7-fold more potent than DNP and does not induce the dangerous hyperthermia associated with older uncouplers. Note: BAM-15 is a small molecule compound, not a peptide, but is commonly sold alongside peptide products.",
+	"mechanism": "BAM-15 targets the inner mitochondrial membrane, enhancing proton permeability and dissipating the proton gradient. This uncouples electron transport from ATP synthesis, forcing mitochondria to increase respiration and burn more substrates (particularly fat) to maintain energy production. BAM-15 activates AMP-activated protein kinase (AMPK) in response to ATP depletion, promoting glucose uptake and fatty acid oxidation. It also activates PGC-1α (peroxisome proliferator-activated receptor gamma coactivator 1-alpha), enhancing mitochondrial biogenesis. Unlike DNP or FCCP, BAM-15 does not depolarize plasma membranes or induce apoptosis at effective concentrations, explaining its improved safety profile.",
+	"keyBenefits": [
+		"Increases fat oxidation without affecting food intake",
+		"Reduces body fat mass in research models",
+		"7-fold more potent than DNP with better safety",
+		"Does not cause dangerous hyperthermia",
+		"No effect on lean body mass",
+		"Improves insulin sensitivity",
+		"Orally bioavailable",
+		"Activates AMPK and PGC-1α pathways",
+		"Synergistic with GLP-1 agonists (semaglutide)"
+	],
+	"indications": [
+		{
+			"category": "Metabolic Research",
+			"items": [
+				{
+					"name": "Obesity/Fat Loss",
+					"description": "Reduces body fat by increasing energy expenditure and fat oxidation without reducing food intake.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Insulin Resistance",
+					"description": "Research shows reversal of diet-induced insulin resistance in mouse models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Metabolic Syndrome",
+					"description": "Addresses multiple components of metabolic syndrome through enhanced energy expenditure.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Combination Therapy Research",
+			"items": [
+				{
+					"name": "With Semaglutide/GLP-1 Agonists",
+					"description": "2024 research shows combining BAM-15 with semaglutide produces stronger metabolic benefits than either alone by countering metabolic adaptation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Caloric Restriction Enhancement",
+					"description": "May help overcome weight loss plateaus by preventing metabolic adaptation/efficiency.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Other Research Areas",
+			"items": [
+				{
+					"name": "Liver Triglycerides",
+					"description": "Research shows decreased liver triglycerides in treated animals.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Glucose Tolerance",
+					"description": "Improved glucose tolerance observed in research models.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "BAM-15 is orally bioavailable and is typically administered as an oral supplement in tablet or capsule form. Research in mice used dietary supplementation (0.1% of diet) or oral gavage dosing. Human dosing protocols are still being established through ongoing research. The compound has a relatively short half-life, which researchers are working to improve through structural modifications.",
+			"protocols": [
+				{
+					"goal": "Metabolic enhancement",
+					"dose": "25-50 mg",
+					"frequency": "Once or twice daily",
+					"route": "Oral"
+				},
+				{
+					"goal": "Research protocol (mouse equivalent)",
+					"dose": "~10 mg/kg",
+					"frequency": "Daily",
+					"route": "Oral gavage",
+					"notes": "Based on animal research; human doses extrapolated"
+				}
+			],
+			"keyBenefits": [
+				"Oral bioavailability",
+				"No injection required",
+				"Can be combined with other compounds"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semaglutide/GLP-1 Agonists",
+			"status": "synergistic",
+			"notes": "2024 research shows combination produces stronger metabolic benefits by countering metabolic adaptation that limits GLP-1 efficacy."
+		},
+		{
+			"peptide": "Tirzepatide",
+			"status": "synergistic",
+			"notes": "Similar synergy expected as with semaglutide; helps overcome weight loss plateaus."
+		},
+		{
+			"peptide": "DNP/FCCP",
+			"status": "avoid",
+			"notes": "Do not combine with other mitochondrial uncouplers - dangerous additive effects possible."
+		},
+		{
+			"peptide": "Thyroid hormones",
+			"status": "monitor",
+			"notes": "Both increase metabolic rate; combination requires careful monitoring."
+		},
+		{
+			"peptide": "MOTS-c",
+			"status": "compatible",
+			"notes": "Both affect mitochondrial function but through different mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Hours",
+			"effects": "Increased oxygen consumption and metabolic rate"
+		},
+		{
+			"period": "Days 1-7",
+			"effects": "Shift toward fat oxidation (lower respiratory exchange ratio)"
+		},
+		{
+			"period": "Weeks 2-4",
+			"effects": "Measurable fat mass reduction in research"
+		},
+		{
+			"period": "Weeks 4-8",
+			"effects": "Improved insulin sensitivity and glucose tolerance"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well-tolerated in research",
+			"Possible mild increase in body temperature (less than DNP)"
+		],
+		"rare": ["Unknown in humans (limited clinical data)", "Theoretical GI disturbance"],
+		"stopSigns": [
+			"Significant hyperthermia/overheating",
+			"Excessive sweating",
+			"Rapid heart rate",
+			"Difficulty breathing"
+		],
+		"contraindications": [
+			"Hyperthyroidism or thyroid disorders",
+			"Heart conditions",
+			"Pregnancy or breastfeeding",
+			"Use of other mitochondrial uncouplers (DNP, FCCP)",
+			"Fever or active infection"
+		],
+		"monitoring": [
+			"Body temperature",
+			"Heart rate",
+			"Energy levels",
+			"No clinical monitoring protocols established yet"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white powder or tablets",
+			"Certificate of analysis with purity >98%",
+			"Proper packaging protected from light",
+			"Reputable supplier"
+		],
+		"warning": ["No third-party testing available", "Unclear sourcing"],
+		"bad": ["Discolored product", "No purity information", "Unknown origin"]
+	},
+	"references": [
+		{
+			"title": "Mitochondrial uncoupler BAM15 reverses diet-induced obesity and insulin resistance in mice",
+			"journal": "Nature Communications",
+			"year": "2020",
+			"url": "https://www.nature.com/articles/s41467-020-16298-2",
+			"keyFindings": "BAM15 is orally bioavailable, increases nutrient oxidation, decreases body fat mass without altering food intake, lean mass, body temperature, or markers of toxicity."
+		},
+		{
+			"title": "BAM15-mediated mitochondrial uncoupling protects against obesity and improves glycemic control",
+			"journal": "EMBO Molecular Medicine",
+			"year": "2020",
+			"url": "https://www.embopress.org/doi/full/10.15252/emmm.202012088",
+			"keyFindings": "BAM15 is 7-fold more potent than DNP, does not depolarize plasma membranes, and does not induce apoptosis at effective doses."
+		},
+		{
+			"title": "BAM15 as a mitochondrial uncoupler: a promising therapeutic agent for diverse diseases",
+			"journal": "PMC Review",
+			"year": "2023",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10600450/",
+			"keyFindings": "Comprehensive review of BAM15 mechanisms including AMPK and PGC-1α activation pathways."
+		},
+		{
+			"title": "Beneficial effects of simultaneously targeting calorie intake and calorie efficiency in diet-induced obese mice",
+			"journal": "Clinical Science",
+			"year": "2024",
+			"url": "https://portlandpress.com/clinsci/article/138/4/173/234024",
+			"keyFindings": "Combining semaglutide and BAM15 produces stronger metabolic benefits than either alone; helps overcome metabolic adaptation."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "25-50 mg oral",
+		"frequency": "Once or twice daily with meals",
+		"cycleDuration": "4-8 weeks based on research protocols",
+		"storage": "Room temperature, protect from light and moisture"
+	}
+}

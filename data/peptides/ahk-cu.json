@@ -1,0 +1,324 @@
+{
+	"id": "ahk-cu",
+	"name": "AHK-Cu",
+	"subtitle": "Hair Growth Copper Peptide | Dermal Papilla Stimulator",
+	"aliases": ["Copper Tripeptide-3", "Alanine-Histidine-Lysine Copper Complex"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "416.9 Da",
+		"length": "3 amino acids",
+		"type": "Copper tripeptide complex",
+		"sequence": "L-Alanyl-L-Histidyl-L-Lysine (Ala-His-Lys)",
+		"modifications": [
+			"Complexed with divalent copper ion (Cu²⁺)",
+			"Synthetic analog of GHK-Cu with alanine replacing glycine"
+		],
+		"halfLife": "Not established"
+	},
+	"overview": "Synthetic copper-binding tripeptide targeting dermal papilla cells and hair follicles. Stimulates hair follicle elongation, promotes cell proliferation, increases VEGF production, and inhibits TGF-β1. Supports skin regeneration through fibroblast activation and collagen synthesis.",
+	"mechanism": "AHK-Cu penetrates scalp delivering copper directly to dermal papilla cells. Activates proliferation pathways, elevates Bcl-2/Bax ratio (anti-apoptotic), increases VEGF for blood flow, reduces TGF-β1, and promotes SOD production for oxidative stress reduction.",
+	"keyBenefits": [
+		"Hair follicle elongation stimulation",
+		"Dermal papilla cell proliferation",
+		"VEGF upregulation for improved scalp circulation",
+		"TGF-β1 reduction (counters DHT effects)",
+		"Anti-apoptotic protection for follicles",
+		"Collagen synthesis support",
+		"Convenient topical application",
+		"Fibroblast activation for skin regeneration"
+	],
+	"indications": [
+		{
+			"category": "Hair Growth",
+			"items": [
+				{
+					"name": "Hair Follicle Elongation",
+					"description": "Ex vivo studies demonstrate AHK-Cu stimulates human hair follicle elongation at concentrations as low as 10⁻¹² M, promoting longer anagen phase.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Dermal Papilla Cell Proliferation",
+					"description": "Increases proliferation of dermal papilla cells, the key regulatory cells for hair follicle cycling and hair growth.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "VEGF Upregulation",
+					"description": "Boosts vascular endothelial growth factor production, improving blood flow and nutrient delivery to hair follicles.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Anti-DHT Mechanism",
+					"description": "Reduces TGF-β1 secretion and oxidative stress (via SOD), both contributing to DHT-induced follicle miniaturization.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Skin Regeneration",
+			"items": [
+				{
+					"name": "Fibroblast Stimulation",
+					"description": "Activates fibroblast proliferation and collagen synthesis for improved skin structure and wound healing.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Anti-Apoptotic Effects",
+					"description": "Elevates Bcl-2/Bax ratio and reduces caspase-3 activation, protecting cells from programmed death.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Extracellular Matrix Support",
+					"description": "Promotes collagen and ECM component deposition for tissue renewal and repair.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Primary and most researched delivery route. Penetrates scalp and skin to target dermal papilla cells and fibroblasts. Most effective for hair growth and skin regeneration applications.",
+			"protocols": [
+				{
+					"goal": "Hair Growth - Scalp Application",
+					"dose": "0.5-1% solution/serum",
+					"frequency": "Once or twice daily",
+					"route": "Topical to scalp"
+				},
+				{
+					"goal": "Hair Growth - Combined Protocol",
+					"dose": "0.3-0.5% AHK-Cu with minoxidil",
+					"frequency": "Once or twice daily",
+					"route": "Topical to scalp"
+				},
+				{
+					"goal": "Skin Regeneration",
+					"dose": "0.3-1% in serum/cream",
+					"frequency": "Once or twice daily",
+					"route": "Topical to skin"
+				},
+				{
+					"goal": "DIY Formulation",
+					"dose": "Add 0.3-1% to water phase",
+					"frequency": "Cool-down phase (<40°C)",
+					"route": "Custom formulation"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"AHK-Cu powder (99% purity)",
+					"Distilled water or suitable carrier (alcohol-free)",
+					"pH meter or strips (target pH 5.5-7.0)",
+					"Dark glass dropper bottle for storage",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Calculate amount needed for desired concentration (e.g., 100mg for 1% in 10mL)",
+					"Dissolve AHK-Cu powder in distilled water or water phase of formulation",
+					"Verify pH is between 5.5-7.0 - adjust if necessary (avoid pH below 5)",
+					"Add to cool-down phase of formulation (<40°C / 104°F) - heat degrades peptide",
+					"Mix gently until fully incorporated - do not shake vigorously",
+					"Transfer to dark glass container to protect from light",
+					"Store refrigerated at 2-8°C",
+					"Use within 30 days of preparation"
+				]
+			},
+			"keyBenefits": [
+				"Non-invasive application method",
+				"Well-researched and established protocols",
+				"Easy daily incorporation into skincare routine",
+				"Direct local delivery to target tissues",
+				"Minimal systemic absorption"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Limited research compared to topical. Some practitioners use injectable AHK-Cu via mesotherapy (microinjections) for scalp and facial rejuvenation.",
+			"protocols": [
+				{
+					"goal": "Mesotherapy - Scalp (Practitioner)",
+					"dose": "0.1-0.5 mg per injection site",
+					"frequency": "Weekly sessions",
+					"route": "Intradermal microinjections"
+				},
+				{
+					"goal": "Research Protocol",
+					"dose": "1-5 mg",
+					"frequency": "2-3 times weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"AHK-Cu lyophilized powder (pharmaceutical grade)",
+					"Bacteriostatic water for injection",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol prep pads"
+				],
+				"steps": [
+					"Use only pharmaceutical-grade AHK-Cu for injection",
+					"Reconstitute with bacteriostatic water to desired concentration",
+					"Verify solution is clear with characteristic light blue color",
+					"Filter through 0.22 μm sterile filter before use",
+					"Store refrigerated at 2-8°C",
+					"Use within 14-21 days of reconstitution"
+				]
+			},
+			"keyBenefits": [
+				"Direct delivery bypassing skin barrier",
+				"Potentially higher bioavailability",
+				"Systemic effects possible"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "GHK-Cu",
+			"status": "synergistic",
+			"notes": "Complementary copper peptides targeting different aspects of tissue regeneration. GHK-Cu excels at skin repair while AHK-Cu targets hair follicles."
+		},
+		{
+			"peptide": "Minoxidil",
+			"status": "synergistic",
+			"notes": "Both promote hair growth via different mechanisms - minoxidil via potassium channel opening and vasodilation, AHK-Cu via dermal papilla stimulation."
+		},
+		{
+			"peptide": "Finasteride/Dutasteride",
+			"status": "synergistic",
+			"notes": "5-alpha reductase inhibitors block DHT production while AHK-Cu may help counter DHT effects on follicles."
+		},
+		{
+			"peptide": "Copper Supplements",
+			"status": "avoid",
+			"notes": "Risk of copper toxicity when combined with additional copper sources. Monitor total copper intake."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different tissue repair mechanisms - BPC-157 promotes systemic healing while AHK-Cu targets skin/hair."
+		},
+		{
+			"peptide": "Vitamin C (L-Ascorbic Acid)",
+			"status": "monitor",
+			"notes": "Low pH of ascorbic acid can destabilize copper peptides. Use at different times."
+		},
+		{
+			"peptide": "AHA/BHA Acids",
+			"status": "monitor",
+			"notes": "Acidic exfoliants can destabilize copper peptide complexes. Use at different times."
+		},
+		{
+			"peptide": "Retinol/Retinoids",
+			"status": "monitor",
+			"notes": "Both are potent actives that can cause irritation. Introduce slowly or use at different times."
+		},
+		{
+			"peptide": "Hyaluronic Acid",
+			"status": "synergistic",
+			"notes": "Excellent combination - hyaluronic acid provides hydration and supports peptide penetration."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "No visible changes; peptide is working at cellular level"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Some users report reduced hair shedding; scalp may feel healthier"
+		},
+		{
+			"period": "Month 1-2",
+			"effects": "Vellus (fine) hairs may begin appearing in thinning areas"
+		},
+		{
+			"period": "Month 2-3",
+			"effects": "New growth becoming visible; existing hairs may appear thicker"
+		},
+		{
+			"period": "Month 3-4",
+			"effects": "Noticeable improvement in hair density and quality"
+		},
+		{
+			"period": "Month 4-6",
+			"effects": "Significant results visible; continued improvement expected"
+		},
+		{
+			"period": "Month 6-12",
+			"effects": "Full results achieved with consistent use"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well-tolerated with excellent safety profile in topical applications",
+			"Rare scalp irritation (patch test recommended)",
+			"Potential for mild redness on sensitive skin"
+		],
+		"stopSigns": [
+			"Persistent scalp irritation, itching, or burning",
+			"Allergic reaction: rash, hives, swelling",
+			"Increased hair shedding that doesn't improve after 4-6 weeks",
+			"Signs of copper sensitivity: metallic taste, nausea",
+			"Skin discoloration at application site",
+			"Any unexpected adverse reactions"
+		],
+		"contraindications": [
+			"Not for use on broken or infected skin",
+			"Avoid eye area - may cause irritation",
+			"Do not use if allergic to copper or peptides",
+			"Not recommended during acute skin infections"
+		],
+		"monitoring": [
+			"Avoid use with acidic products (AHAs, BHAs, Vitamin C) - use at different times",
+			"Do not combine with additional copper supplements - risk of copper toxicity",
+			"Keep pH between 5.5-7.0 for stability and skin compatibility",
+			"Store properly - degrades with heat, light, and improper pH",
+			"Patch test before full application if sensitive skin"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Light blue powder - characteristic color from copper complex",
+			"99%+ purity with COA - pharmaceutical/cosmetic grade",
+			"Proper copper complexation - dissolves to clear light blue solution",
+			"pH-stable formulation - between 5.5-7.0"
+		],
+		"warning": ["Liposomal delivery preferred for enhanced penetration and stability"],
+		"bad": [
+			"Discolored or degraded appearance - brown, green, or colorless indicates degradation",
+			"pH below 5.0 - destabilizes copper peptide complex"
+		]
+	},
+	"references": [
+		{
+			"title": "Tripeptide-Copper Complex Effect on Human Hair Growth In Vitro",
+			"year": "2007",
+			"keyFindings": "AHK-Cu (10⁻¹² to 10⁻⁹ M) stimulated human hair follicle elongation ex vivo and dermal papilla cell proliferation in vitro. Elevated Bcl-2/Bax ratio and reduced cleaved caspase-3/PARP levels indicate anti-apoptotic mechanism."
+		},
+		{
+			"title": "Copper Tripeptide Effects on VEGF and TGF-β1",
+			"year": "N/A",
+			"keyFindings": "Copper tripeptide complexes increase VEGF production while decreasing TGF-β1 secretion by dermal fibroblasts."
+		},
+		{
+			"title": "Human Skin Penetration of Copper Tripeptide In Vitro",
+			"year": "N/A",
+			"keyFindings": "Evaluated transdermal delivery of copper tripeptide, demonstrating penetration through skin layers with potential for topical therapeutic applications."
+		},
+		{
+			"title": "Ionic Liquid Microemulsions for Topical Peptide Delivery",
+			"year": "2023",
+			"keyFindings": "Novel delivery system using thermodynamically stable ionic liquid microemulsions to improve topical delivery and stability of copper tripeptides."
+		}
+	],
+	"categories": ["skin", "healing"],
+	"quickStats": {
+		"typicalDose": "0.5-1% topical solution/serum",
+		"frequency": "Once or twice daily application",
+		"cycleDuration": "12-24 weeks minimum for hair growth, ongoing for maintenance",
+		"storage": "Topical preparations: 2-8°C refrigerated in dark glass container, use within 30 days. Protect from light and heat"
+	}
+}

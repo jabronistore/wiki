@@ -1,0 +1,283 @@
+{
+	"id": "thymogen",
+	"name": "Thymogen",
+	"subtitle": "EW Dipeptide | Thymus Immune Bioregulator",
+	"aliases": ["Thymagen", "EW", "Glu-Trp", "L-Glu-L-Trp", "Oglufanide", "Timogen", "IM-862"],
+	"categories": ["immune", "longevity"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "333 Da",
+		"length": "2 amino acids",
+		"type": "Dipeptide bioregulator",
+		"sequence": "Glu-Trp (EW)",
+		"halfLife": "Not established"
+	},
+	"overview": "Thymogen (EW dipeptide) is a Khavinson bioregulator consisting of glutamic acid and tryptophan, originally isolated from calf thymus extracts (Thymalin) in the late 1980s. Developed by Professor Vladimir Khavinson, it has been registered in Russia since 1990 in multiple forms including injectable solution, nasal spray, and topical cream. Thymogen modulates both humoral and cellular immunity, activates T-cell differentiation, and has demonstrated geroprotective (anti-aging) and antitumor activities in research studies.",
+	"mechanism": "Thymogen works through multiple immunomodulatory mechanisms: (1) activates T-cell differentiation and T-cell recognition of peptide-MHC complexes, (2) induces changes in intracellular cyclic nucleotide composition, (3) activates neutrophilic chemotaxis and phagocytosis, (4) normalizes T-lymphocyte concentrations and ratios (CD3+, CD4+, CD8+), (5) stimulates production of immunoglobulins (IgA, IgG, IgE, IgM), and (6) enhances lymphocyte differentiation receptor expression. Research suggests Thymogen may interact specifically with the AACG DNA sequence, affecting gene expression. The peptide is rapidly distributed to thymus, lymph nodes, liver, adrenals, and kidneys.",
+	"keyBenefits": [
+		"Modulates humoral and cellular immunity",
+		"Activates T-cell differentiation",
+		"Normalizes T-lymphocyte populations (CD3+, CD4+, CD8+)",
+		"Stimulates immunoglobulin production",
+		"Enhances regeneration and cellular metabolism",
+		"Demonstrated geroprotective (anti-aging) activity",
+		"Antitumor activity in research models",
+		"Registered pharmaceutical in Russia",
+		"Multiple delivery forms available"
+	],
+	"indications": [
+		{
+			"category": "Immune Support",
+			"items": [
+				{
+					"name": "Immune System Modulation",
+					"description": "Modulates both humoral and cellular immune responses for balanced immunity.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "T-Cell Function",
+					"description": "Activates T-cell differentiation and normalizes CD3+, CD4+, CD8+ populations.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Immunoglobulin Production",
+					"description": "Stimulates production of IgA, IgG, IgE, and IgM antibodies.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Post-Operative Recovery",
+					"description": "Studied for improving surgical outcomes through immune support.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging Research",
+			"items": [
+				{
+					"name": "Geroprotection",
+					"description": "Demonstrated geroprotector activity in aging research.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Lifespan Extension",
+					"description": "In combination with pineal peptides, showed significant mean lifespan increases in animal models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Antitumor Activity",
+					"description": "Inhibits spontaneous carcinogenesis and shows robust antitumor effects in research.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Clinical Research Areas",
+			"items": [
+				{
+					"name": "Cancer Support",
+					"description": "Studied in Russia for regulating immune response in oncology patients.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Heart Disease",
+					"description": "Research interest in cardiovascular applications.",
+					"effectiveness": "emerging"
+				},
+				{
+					"name": "Diabetes Support",
+					"description": "Investigated for metabolic and immune aspects of diabetes.",
+					"effectiveness": "emerging"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form for intramuscular or subcutaneous administration. This is the original delivery method registered in Russia. Typical protocols involve 10-20 day cycles repeated 2-3 times per year.",
+			"protocols": [
+				{
+					"goal": "Standard immune support",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "IM or SubQ"
+				},
+				{
+					"goal": "Maintenance protocol",
+					"dose": "20 mg",
+					"frequency": "2-3 cycles per year",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area and hands",
+					"Reconstitute with bacteriostatic water",
+					"Inject slowly down vial wall",
+					"Gently swirl until dissolved",
+					"Store refrigerated at 2-8°C",
+					"Use within 4 weeks"
+				]
+			},
+			"keyBenefits": ["Direct systemic absorption", "Precise dosing", "Well-established protocol"]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Metered-dose nasal spray form registered in Russia. Convenient for non-injection administration with good absorption through nasal mucosa.",
+			"protocols": [
+				{
+					"goal": "Nasal administration",
+					"dose": "As per product directions",
+					"frequency": "Daily during cycle",
+					"route": "Intranasal spray"
+				}
+			],
+			"keyBenefits": [
+				"Non-invasive delivery",
+				"Convenient administration",
+				"Good mucosal absorption"
+			]
+		},
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "0.05% cream formulation registered in Russia for external use. Applied to skin for local effects.",
+			"protocols": [
+				{
+					"goal": "Topical use",
+					"dose": "Apply thin layer",
+					"frequency": "As directed",
+					"route": "Topical cream"
+				}
+			],
+			"keyBenefits": ["Non-invasive", "Local application", "Easy to use"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Combination showed significant lifespan increases and robust antitumor activity in research."
+		},
+		{
+			"peptide": "Thymalin",
+			"status": "synergistic",
+			"notes": "Thymogen was isolated from Thymalin; they share complementary thymus-supporting mechanisms."
+		},
+		{
+			"peptide": "Vilon",
+			"status": "synergistic",
+			"notes": "Both are Khavinson thymus dipeptides; often combined in comprehensive immune protocols."
+		},
+		{
+			"peptide": "Thymosin Alpha-1",
+			"status": "compatible",
+			"notes": "Different thymic peptides with complementary immune mechanisms."
+		},
+		{
+			"peptide": "Thymulin",
+			"status": "compatible",
+			"notes": "Different structures and mechanisms; can be used together."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Hours",
+			"effects": "Rapid tissue distribution to thymus, lymph nodes, liver, kidneys"
+		},
+		{
+			"period": "Days 1-10",
+			"effects": "T-cell activation and differentiation begins"
+		},
+		{
+			"period": "During cycle",
+			"effects": "Immunoglobulin production stimulated; immune markers improve"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to cellular and epigenetic changes"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative geroprotective benefits with regular cycling"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well-tolerated",
+			"Injection site reactions (mild)",
+			"Minimal side effects reported in clinical use"
+		],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": [
+			"Signs of allergic reaction",
+			"Unusual immune symptoms",
+			"Severe injection site reactions"
+		],
+		"contraindications": [
+			"Active autoimmune diseases (use with caution)",
+			"Organ transplant recipients on immunosuppression",
+			"Known hypersensitivity to component amino acids",
+			"Pregnancy or breastfeeding"
+		],
+		"monitoring": [
+			"Immune function if testing available",
+			"T-cell subsets for research protocols",
+			"General well-being"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution",
+			"Certificate of analysis with purity verification",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or unverified purity"],
+		"bad": [
+			"Discolored powder",
+			"Cloudy or particulate solution",
+			"Damaged packaging or broken seal"
+		]
+	},
+	"references": [
+		{
+			"title": "Immunomodulatory synthetic dipeptide L-Glu-L-Trp slows down aging and inhibits spontaneous carcinogenesis in rats",
+			"authors": "Khavinson VKh, Morozov VG",
+			"journal": "Biogerontology",
+			"year": "2001",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11707921/",
+			"keyFindings": "Thymogen demonstrated geroprotector activity and inhibited spontaneous carcinogenesis in aging rat models."
+		},
+		{
+			"title": "Natural and synthetic thymic peptides as therapeutics for immune dysfunction",
+			"journal": "Journal of Immunopharmacology",
+			"year": "1997",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9637345/",
+			"keyFindings": "Review of thymic peptide therapeutics including Thymogen for immune modulation."
+		},
+		{
+			"title": "Peptide Bioregulators from Thymus and Pineal Gland",
+			"authors": "Khavinson VKh et al.",
+			"journal": "Biogerontology",
+			"year": "2003",
+			"keyFindings": "Significant lifespan increases and antitumor activity with combined Thymogen and Epitalon treatment."
+		},
+		{
+			"title": "Thymogen: Mechanism of Action Studies",
+			"journal": "Russian Medical Research",
+			"keyFindings": "Thymogen activates T-cell differentiation, modulates cyclic nucleotides, and may interact with AACG DNA sequences."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "10-20mg daily during cycle",
+		"frequency": "Daily for 10-20 days, then break",
+		"cycleDuration": "10-20 day cycles (bioregulator protocol)",
+		"storage": "Injectable: 2-8°C. Nasal/topical: per product directions. Powder: room temp"
+	}
+}

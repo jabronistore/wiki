@@ -1,0 +1,269 @@
+{
+	"id": "glutathione",
+	"name": "Glutathione",
+	"subtitle": "L-Glutathione | Master Antioxidant Tripeptide",
+	"aliases": ["GSH", "L-Glutathione", "Reduced Glutathione", "γ-glutamylcysteinylglycine"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "307.32 Da",
+		"length": "3 amino acids",
+		"type": "Tripeptide",
+		"sequence": "γ-Glu-Cys-Gly",
+		"halfLife": "~10-14 minutes (IV)",
+		"halfLifeSeconds": 720,
+		"halfLifeRoute": "IV"
+	},
+	"overview": "Glutathione is the body's master antioxidant, a tripeptide produced naturally by the liver. It protects cells against free radicals, peroxides, and heavy metals while eliminating toxins including drugs and pollutants. Injectable glutathione bypasses gastrointestinal breakdown for superior bioavailability compared to oral supplements. Research supports benefits for neurological health, immune function, skin health, and anti-aging.",
+	"mechanism": "Glutathione acts as the primary intracellular antioxidant, directly neutralizing reactive oxygen species and regenerating other antioxidants like vitamins C and E. It plays crucial roles in detoxification by conjugating with toxins for elimination, supports immune function through T-cell regulation, protects mitochondria, and maintains cellular redox balance. The thiol group of cysteine provides its antioxidant activity.",
+	"keyBenefits": [
+		"Master antioxidant - protects against oxidative stress",
+		"Detoxification of heavy metals and toxins",
+		"Immune system support and T-cell function",
+		"Neuroprotective effects",
+		"Skin health and potential brightening effects",
+		"Liver protection and function",
+		"Mitochondrial support",
+		"Anti-aging properties"
+	],
+	"indications": [
+		{
+			"category": "Antioxidant & Detox",
+			"items": [
+				{
+					"name": "Oxidative Stress Reduction",
+					"description": "Primary cellular antioxidant that neutralizes free radicals and protects against oxidative damage.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Heavy Metal Detoxification",
+					"description": "Binds and facilitates elimination of heavy metals and environmental toxins.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Liver Support",
+					"description": "Essential for hepatic detoxification pathways and liver protection.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neurological",
+			"items": [
+				{
+					"name": "Parkinson's Disease Support",
+					"description": "IV glutathione showed improvements in mental function and speech quality in case studies.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Neuroprotection",
+					"description": "Protects neurons against oxidative damage and supports brain health.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Immune & Skin",
+			"items": [
+				{
+					"name": "Immune Enhancement",
+					"description": "Improved Th1 cytokines and immune markers in HIV patients with supplementation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Skin Health",
+					"description": "Supports skin health with potential brightening effects through melanin modulation.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Anti-Aging",
+					"description": "Combats age-related oxidative stress and supports cellular longevity.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable glutathione is the most effective delivery method, bypassing GI breakdown for direct absorption. Subcutaneous injections are typically administered 2-3 times weekly. IV administration is fastest-acting but requires clinical supervision. Start with lower doses to assess tolerance.",
+			"protocols": [
+				{
+					"goal": "General wellness",
+					"dose": "100-200 mg",
+					"frequency": "2-3x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Intensive therapy",
+					"dose": "200-600 mg",
+					"frequency": "2-3x weekly",
+					"route": "SubQ or IV"
+				},
+				{
+					"goal": "Detoxification",
+					"dose": "600-1000 mg",
+					"frequency": "Weekly IV",
+					"route": "IV (clinical)"
+				},
+				{
+					"goal": "Parkinson's support",
+					"dose": "1400 mg",
+					"frequency": "2-3x weekly",
+					"route": "IV (clinical)"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water or sterile saline",
+					"Insulin syringes",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required water volume",
+					"Draw diluent into syringe",
+					"Inject slowly into vial",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator, protect from light"
+				]
+			},
+			"keyBenefits": [
+				"Bypasses GI degradation",
+				"Superior bioavailability",
+				"Direct cellular uptake",
+				"Faster onset than oral"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oral glutathione has poor bioavailability due to GI breakdown. Liposomal formulations may offer improved absorption but are still less effective than injection.",
+			"protocols": [
+				{
+					"goal": "Daily supplementation",
+					"dose": "250-1000 mg",
+					"frequency": "Daily",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": ["Convenient", "Non-invasive", "Liposomal forms have better absorption"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "NAD+",
+			"status": "synergistic",
+			"notes": "Both support cellular energy and antioxidant systems; commonly combined in longevity protocols."
+		},
+		{
+			"peptide": "Vitamin C",
+			"status": "synergistic",
+			"notes": "Glutathione regenerates oxidized vitamin C, creating synergistic antioxidant effects."
+		},
+		{
+			"peptide": "SS-31",
+			"status": "synergistic",
+			"notes": "Both protect mitochondria; different mechanisms complement each other."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Immediately",
+			"effects": "Antioxidant activity begins"
+		},
+		{
+			"period": "Days-Week 1",
+			"effects": "Improved energy and well-being may be noticed"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Cumulative detoxification benefits"
+		},
+		{
+			"period": "Week 4-12",
+			"effects": "Full benefits for skin, immunity, and cellular health"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions",
+			"Mild nausea (usually with higher doses)",
+			"Abdominal cramping"
+		],
+		"rare": [
+			"Allergic reactions",
+			"Zinc depletion with long-term use",
+			"Skin lightening (with high doses)"
+		],
+		"stopSigns": [
+			"Signs of allergic reaction (rash, difficulty breathing)",
+			"Severe abdominal pain",
+			"Signs of zinc deficiency"
+		],
+		"contraindications": [
+			"Known allergy to glutathione",
+			"Pregnancy or breastfeeding (insufficient safety data)",
+			"Asthma (may trigger bronchospasm in some)"
+		],
+		"monitoring": [
+			"Consider zinc supplementation with long-term use",
+			"IV administration requires clinical supervision"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution",
+			"Reduced (not oxidized) form",
+			"Intact vacuum seal"
+		],
+		"warning": ["Slight yellowing may indicate oxidation"],
+		"bad": [
+			"Dark yellow or brown coloration",
+			"Cloudy solution",
+			"Strong sulfur odor (beyond mild)"
+		]
+	},
+	"references": [
+		{
+			"title": "IV Glutathione in Parkinson's Disease",
+			"journal": "Movement Disorders",
+			"year": "2009",
+			"keyFindings": "IV glutathione 1,400 mg 3x weekly showed possible mild symptomatic effect in small trial."
+		},
+		{
+			"title": "Liposomal Glutathione in HIV Patients",
+			"journal": "European Journal of Clinical Nutrition",
+			"year": "2019",
+			"keyFindings": "13-week supplementation improved Th1 cytokines including IL-12, IFN-γ, and TNF-α."
+		},
+		{
+			"title": "Glutathione Supplementation for Skin Lightening",
+			"journal": "Dermatology Reports",
+			"year": "2025",
+			"keyFindings": "Narrative review of efficacy and safety for skin lightening applications."
+		},
+		{
+			"title": "Glutathione Metabolism and Function",
+			"journal": "Annual Review of Nutrition",
+			"year": "2018",
+			"keyFindings": "Comprehensive review of glutathione as master antioxidant and its roles in health."
+		}
+	],
+	"categories": ["longevity", "immune"],
+	"quickStats": {
+		"typicalDose": "100-600 mg injectable (100-200mg wellness, 200-600mg intensive); IV dosing higher (600-1400mg clinical)",
+		"frequency": "2-3 times weekly for subcutaneous; weekly for IV infusions",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Lyophilized: 2-8°C refrigerated, protect from light; Reconstituted: 2-8°C refrigerated, protect from light"
+	}
+}

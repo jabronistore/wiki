@@ -1,0 +1,295 @@
+{
+	"id": "retatrutide",
+	"name": "Retatrutide",
+	"subtitle": "Triple GLP-1/GIP/Glucagon Agonist | Weight Loss & Diabetes",
+	"aliases": ["LY3437943"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "4,731.33 Da",
+		"length": "39 amino acids",
+		"type": "Triple GLP-1/GIP/glucagon agonist",
+		"sequence": "His-Aib-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Val-Ser-Ser-Tyr-Leu-Glu-Gly-Gln-Ala-Ala-Lys-Glu-Phe-Ile-Ala-Trp-Leu-Val-Arg-Gly-Arg-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser",
+		"modifications": ["C20 fatty acid conjugation", "Aib residues for DPP-4 resistance"],
+		"halfLife": "~6 days",
+		"halfLifeSeconds": 518400
+	},
+	"overview": "Novel triple hormone receptor agonist targeting GLP-1, GIP, and glucagon receptors. Phase II trials demonstrated 24.2% weight loss at 48 weeks—the highest recorded for obesity medications.",
+	"mechanism": "Activates GLP-1 for appetite suppression, GIP for insulin sensitivity, and glucagon for increased energy expenditure and hepatic fat oxidation.",
+	"keyBenefits": [
+		"Superior weight loss (24.2% at 48 weeks)",
+		"Improved glycemic control (HbA1c reduction up to 2.16%)",
+		"Enhanced cardiovascular benefits",
+		"Hepatic fat reduction (up to 82%)",
+		"Triple mechanism addresses obesity through multiple pathways"
+	],
+	"indications": [
+		{
+			"category": "Weight Loss",
+			"items": [
+				{
+					"name": "Superior Weight Reduction",
+					"description": "Clinical trials show 17.5% weight loss at 24 weeks and 24.2% at 48 weeks.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sustained Weight Management",
+					"description": "Continuous weight loss with no plateau at 48 weeks suggests greater long-term potential.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Triple Mechanism",
+					"description": "Addresses obesity through appetite suppression, energy expenditure, and metabolic efficiency.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Type 2 Diabetes",
+			"items": [
+				{
+					"name": "Superior Glycemic Control",
+					"description": "HbA1c reductions up to 2.16% with 82% achieving target levels below 6.5%.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Glucose-Dependent Regulation",
+					"description": "Balanced glycemic control with minimal hypoglycemia risk.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Insulin Sensitivity",
+					"description": "Marked improvements in sensitivity with potential for reduced exogenous insulin requirements.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cardiovascular/Metabolic",
+			"items": [
+				{
+					"name": "Lipid Improvement",
+					"description": "Non-HDL cholesterol reductions up to 26.9%, triglyceride reductions up to 40.6%.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Blood Pressure Optimization",
+					"description": "Consistent decreases in systolic and diastolic blood pressure across trials.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Hepatic Fat Reduction",
+					"description": "Up to 82% reduction in liver fat with normalization in 90% of participants.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Weekly subcutaneous injection into abdomen, thigh, or upper arm with site rotation.",
+			"protocols": [
+				{
+					"goal": "Starting Dose (Week 1-4)",
+					"dose": "0.5mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Low Maintenance (Week 4-8)",
+					"dose": "1mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Escalation (Week 8-12)",
+					"dose": "2mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Moderate (Week 12-16)",
+					"dose": "4mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Advanced (Week 16-20)",
+					"dose": "8mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Maximum Efficacy (Week 20+)",
+					"dose": "12mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Sterile bacteriostatic water for injection",
+					"Lyophilized Retatrutide vial",
+					"Insulin syringes (0.3-1mL capacity)",
+					"Alcohol swabs",
+					"Sharps disposal container"
+				],
+				"steps": [
+					"Allow vial to reach room temperature (15-20 minutes)",
+					"Clean vial top with alcohol swab and air dry completely",
+					"Add calculated bacteriostatic water slowly down vial side",
+					"Gently swirl in circular motions—avoid vigorous shaking",
+					"Allow full dissolution (2-3 minutes); solution should be clear and colorless",
+					"Store reconstituted solution refrigerated at 2-8°C for up to 28 days",
+					"Inject subcutaneously; rotate sites weekly"
+				]
+			},
+			"keyBenefits": [
+				"Once-weekly administration improves compliance",
+				"Extended half-life enables consistent hormone regulation",
+				"Minimal systemic burden compared to daily dosing"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Tirzepatide",
+			"status": "avoid",
+			"notes": "Do not combine with other dual/triple agonists—risk of severe hypoglycemia and excessive GI effects."
+		},
+		{
+			"peptide": "Semaglutide",
+			"status": "avoid",
+			"notes": "Do not combine—overlapping GLP-1 agonist mechanisms increase severe hypoglycemia risk."
+		},
+		{
+			"peptide": "Cagrilintide",
+			"status": "monitor",
+			"notes": "Both cause significant GI effects. Not recommended without specialist supervision."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "May significantly reduce insulin requirements. Monitor blood glucose and adjust insulin doses accordingly."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "compatible",
+			"notes": "Safe combination tested in clinical trials. Different mechanisms work complementarily for glucose control."
+		},
+		{
+			"peptide": "SGLT2 Inhibitors",
+			"status": "compatible",
+			"notes": "Clinical trials included SGLT2 inhibitors with no safety concerns."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Safe combination; BPC-157 may provide GI protective benefits during retatrutide use."
+		},
+		{
+			"peptide": "Oral Contraceptives",
+			"status": "monitor",
+			"notes": "Space oral contraceptives by 1 hour before retatrutide due to delayed gastric emptying."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Initial appetite suppression and mild GI effects as body adapts to triple hormone activation"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Noticeable food cravings reduction and portion size decrease; early weight loss (2-5%)"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Significant appetite control and steady weight loss (5-10%); improved glucose control"
+		},
+		{
+			"period": "Week 8-16",
+			"effects": "Substantial weight reduction (10-18%) with enhanced energy expenditure"
+		},
+		{
+			"period": "Week 16-24",
+			"effects": "Major weight loss milestone (15-22%) with cardiovascular benefits and liver fat reduction"
+		},
+		{
+			"period": "Week 24-48",
+			"effects": "Maximum clinical efficacy (20-24.2%) with comprehensive metabolic improvements"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Gastrointestinal effects (nausea, vomiting, diarrhea)—typically mild to moderate",
+			"Heart rate increases—common especially in first 24 weeks",
+			"Appetite suppression",
+			"Mild dehydration"
+		],
+		"stopSigns": [
+			"Severe persistent nausea or vomiting preventing adequate nutrition",
+			"Signs of pancreatitis: severe abdominal pain radiating to back",
+			"Severe hypoglycemia symptoms: confusion, dizziness, sweating",
+			"Excessive weight loss (>3 lbs per week consistently or >25% total body weight)",
+			"Gallbladder problems: severe right upper abdominal pain"
+		],
+		"contraindications": [
+			"Personal or family history of medullary thyroid carcinoma",
+			"MEN2 syndrome",
+			"Severe renal impairment"
+		],
+		"monitoring": [
+			"Cardiovascular status (especially heart rate)",
+			"Blood glucose if diabetic",
+			"Weight loss rate",
+			"Signs of pancreatitis",
+			"Gastrointestinal tolerability"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade white powder with uniform texture",
+			"Proper cold chain maintenance (2-8°C refrigeration)",
+			"Clear, colorless reconstituted solution without particles",
+			"Stable extended half-life effects (consistent appetite suppression between doses)"
+		],
+		"warning": [
+			"Source verification critical—counterfeit versions circulate due to investigational status"
+		],
+		"bad": [
+			"Rapid tolerance or effectiveness loss suggests degraded or counterfeit product",
+			"Unusual side effect profile may indicate contamination"
+		]
+	},
+	"references": [
+		{
+			"title": "Phase II Obesity Trial",
+			"year": "2023",
+			"keyFindings": "Landmark RCT in 338 participants showing dose-dependent weight loss; 12mg dose achieved 24.2% reduction—highest recorded for any obesity medication. NEJM."
+		},
+		{
+			"title": "Phase II Type 2 Diabetes Study",
+			"year": "2023",
+			"keyFindings": "Trial in 281 participants with type 2 diabetes: 16.9% weight loss and HbA1c reductions up to 2.16%. The Lancet."
+		},
+		{
+			"title": "MASLD Substudy",
+			"year": "2024",
+			"keyFindings": "Metabolic dysfunction-associated steatotic liver disease study: 82% liver fat reduction with normalization in >90% at highest doses. Nature Medicine."
+		},
+		{
+			"title": "Structural Insights into Triple Agonism",
+			"year": "2024",
+			"keyFindings": "Cryo-EM structures reveal simultaneous activation of GLP-1R, GIPR, and GCGR, explaining superior clinical efficacy. Cell Discovery."
+		}
+	],
+	"categories": ["weight-loss", "metabolic"],
+	"quickStats": {
+		"typicalDose": "0.5mg starting, titrate up to 8-12mg weekly",
+		"frequency": "Once weekly (same day each week)",
+		"cycleDuration": "Continuous therapy as prescribed",
+		"storage": "Reconstituted: 2-8°C, use within 28 days"
+	}
+}

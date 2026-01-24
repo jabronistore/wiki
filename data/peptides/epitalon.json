@@ -1,0 +1,360 @@
+{
+	"id": "epitalon",
+	"name": "Epitalon",
+	"subtitle": "Synthetic Pineal Tetrapeptide | Telomerase Activator",
+	"aliases": ["Epithalon", "AEDG", "Endoluten"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "390.35 Da",
+		"length": "4 amino acids",
+		"type": "Tetrapeptide",
+		"sequence": "Ala-Glu-Asp-Gly",
+		"modifications": ["Synthetic analog of natural pineal gland epithalamin"],
+		"halfLife": "Not established (short peptide)"
+	},
+	"overview": "Epitalon is a synthetic tetrapeptide developed by Russian scientist Vladimir Khavinson with 35+ years of research. It activates telomerase at extremely low concentrations to maintain telomere length, stimulates melatonin production, and modulates gene expression through epigenetic mechanisms.",
+	"mechanism": "Activates telomerase at extremely low concentrations (10⁻¹⁷ to 10⁻¹⁵ M) to maintain telomere length, stimulates melatonin production from the pineal gland, and modulates gene expression through epigenetic mechanisms.",
+	"keyBenefits": [
+		"Telomere extension and cellular replicative lifespan extension",
+		"Enhanced melatonin production",
+		"Improved immune function",
+		"Potential lifespan extension (25-33% in animal studies)",
+		"Systemic anti-aging through cellular rejuvenation",
+		"Short cycle duration with long-lasting effects"
+	],
+	"indications": [
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Telomere Extension",
+					"description": "Activates telomerase at microgram doses to extend telomeres and cellular replicative lifespan.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Cellular Rejuvenation",
+					"description": "Reverses aging markers and improves mitochondrial function at the cellular level.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Lifespan Extension",
+					"description": "Animal studies show 25-33% lifespan increases using 30-40mcg/kg doses.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Pineal Function Restoration",
+					"description": "Restores pineal gland function and circadian melatonin rhythm in elderly.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neurogenesis Support",
+					"description": "Supports new neuron formation at nanogram concentrations.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Retinal Protection",
+					"description": "90% response rate for retinal degeneration at 5mcg per eye dosing.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Immunity",
+			"items": [
+				{
+					"name": "Thymus Regeneration",
+					"description": "Supports thymus gland regeneration for improved immune function.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Immune Surveillance",
+					"description": "Enhanced immune surveillance and countering of immunosenescence.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the primary and most researched route. Short cycles of 10-20 days with 4-6 month breaks between cycles.",
+			"protocols": [
+				{
+					"goal": "Standard anti-aging",
+					"dose": "200-500mcg",
+					"frequency": "1x daily for 10-20 days",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Conservative start",
+					"dose": "100mcg",
+					"frequency": "1x daily for 10-20 days",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Russian clinical equivalent",
+					"dose": "300mcg",
+					"frequency": "1x daily for 10-20 days",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Ultra-low dose",
+					"dose": "50mcg",
+					"frequency": "1x daily for 10-20 days",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Epitalon lyophilized powder vial (typically 10mg)",
+					"Bacteriostatic water (5mL creates 2mg/mL)",
+					"Insulin syringes (0.3mL for accurate microgram dosing)",
+					"Alcohol swabs",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean vial tops with alcohol swabs",
+					"Add 5mL bacteriostatic water to 10mg vial (creates 2mg/mL)",
+					"Inject water slowly at vial side wall",
+					"Gently swirl - do not shake vigorously",
+					"Solution should be clear and colorless",
+					"Refrigerate immediately",
+					"Use 0.3mL insulin syringes for accurate microgram dosing",
+					"Use within 30 days of reconstitution"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen, thigh, or upper arm injection sites",
+				"Short 10-20 day cycles",
+				"4-6 month breaks between cycles",
+				"Long-lasting effects after cycle completion"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal spray offers non-invasive administration with potentially faster absorption, though less research data available.",
+			"protocols": [
+				{
+					"goal": "Nasal administration",
+					"dose": "1-2mg daily (corrected from traditional 5mg)",
+					"frequency": "1x daily for 10-20 days",
+					"route": "Nasal spray"
+				}
+			],
+			"keyBenefits": ["Non-invasive", "Potentially faster absorption", "No injection required"]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oral administration has reduced bioavailability due to digestive breakdown. Less predictable effects compared to injectable.",
+			"protocols": [
+				{
+					"goal": "Oral administration",
+					"dose": "2-3mg",
+					"frequency": "2x daily for 10-20 days",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": ["No injection required", "Convenient administration"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Melatonin",
+			"status": "synergistic",
+			"notes": "Both work through pineal pathways; may enhance circadian rhythm effects."
+		},
+		{
+			"peptide": "Thymalin",
+			"status": "synergistic",
+			"notes": "Enhanced immunomodulation - commonly combined in Russian protocols."
+		},
+		{
+			"peptide": "NAD+ Precursors",
+			"status": "compatible",
+			"notes": "Different anti-aging pathways; complementary mechanisms."
+		},
+		{
+			"peptide": "Growth Hormone Peptides",
+			"status": "compatible",
+			"notes": "Different axis activation; no known interactions."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different regenerative mechanisms."
+		},
+		{
+			"peptide": "Cortexin",
+			"status": "monitor",
+			"notes": "Both are neuroprotective; monitor for cumulative effects."
+		},
+		{
+			"peptide": "Semax/Selank",
+			"status": "compatible",
+			"notes": "Different neurocognitive focus."
+		},
+		{
+			"peptide": "Cancer Therapeutics",
+			"status": "avoid",
+			"notes": "Telomerase activation may theoretically affect malignancy; avoid with active cancer."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-3",
+			"effects": "Subtle energy improvement possible"
+		},
+		{
+			"period": "Days 3-7",
+			"effects": "Better sleep quality, vivid dreams (melatonin effect)"
+		},
+		{
+			"period": "Week 2",
+			"effects": "Enhanced morning energy, mood stability"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Skin quality improvements, enhanced wound healing"
+		},
+		{
+			"period": "Months 2-3",
+			"effects": "Laboratory markers may show telomere changes"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative anti-aging benefits with repeated cycles"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well-tolerated with minimal side effects",
+			"Mild injection site reactions",
+			"Vivid dreams (melatonin-related)",
+			"Possible mild digestive upset (oral route)"
+		],
+		"stopSigns": [
+			"Signs of allergic reaction",
+			"Persistent injection site inflammation",
+			"New or changing moles (monitor skin)",
+			"Cancer diagnosis (discontinue immediately)",
+			"Unusual fatigue or weakness"
+		],
+		"contraindications": [
+			"Active malignancy (telomerase activation concern)",
+			"Chronic sinusitis (nasal route)",
+			"Known peptide allergies",
+			"Pregnancy or breastfeeding"
+		],
+		"monitoring": [
+			"Skin changes and mole monitoring",
+			"Sleep quality assessment",
+			"Energy levels",
+			"Optional: telomere length testing before/after cycles"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear, colorless solution when reconstituted",
+			"Certificate of analysis available (>98% purity)",
+			"Medical-grade pharmaceutical appearance",
+			"Proper cold-chain shipping"
+		],
+		"warning": [
+			"Widespread dosing misinformation exists",
+			"Many sources recommend 5-10mg based on translation errors",
+			"Original research demonstrates microgram efficacy",
+			"Verify supplier credentials carefully"
+		],
+		"bad": [
+			"Yellow or discolored powder (degradation)",
+			"Cloudy solution after mixing (contamination)",
+			"Missing or questionable sourcing documentation"
+		]
+	},
+	"references": [
+		{
+			"title": "Telomerase Activation Study",
+			"year": "2003",
+			"keyFindings": "Human fibroblasts showed extended replicative lifespan (34→44+ passages) at 0.1μM concentration while maintaining telomere length comparable to young cells."
+		},
+		{
+			"title": "Russian Clinical Trials",
+			"year": "1992-2007",
+			"keyFindings": "Long-term observations showed significantly lower all-cause mortality in elderly subjects receiving periodic epithalamin courses with improved cardiovascular and immune parameters."
+		},
+		{
+			"title": "Pineal Function Study",
+			"year": "2001",
+			"keyFindings": "Elderly patients showed restoration of circadian melatonin rhythm and improved sleep/emotional stability using low-dose synthetic treatment."
+		},
+		{
+			"title": "Retinal Degeneration Study",
+			"year": "2019",
+			"keyFindings": "AMD patients achieved 90% positive response with only 5mcg per eye daily dosing."
+		},
+		{
+			"title": "Lifespan Extension Study",
+			"year": "2003",
+			"keyFindings": "Aging mice using 30-40mcg/kg showed 25% lifespan increase and reduced chromosomal aberrations."
+		},
+		{
+			"title": "Neurogenesis Study",
+			"year": "2020",
+			"keyFindings": "Human stem cells showed 1.6-1.8 fold upregulation of neurogenic markers at extremely low concentrations (0.01mcg/mL)."
+		}
+	],
+	"protocolVariants": [
+		{
+			"name": "Research-Based Low Dose",
+			"source": "Published Clinical Studies",
+			"sourceUrl": "https://www.gethealthspan.com/research/article/epitalon",
+			"philosophy": "Use doses validated in peer-reviewed human research",
+			"description": "Based on actual human clinical trials, including a study of 75 women using 0.5mg/day sublingually for 20 days. Animal studies typically used 0.1-10mcg/mouse/day. This approach prioritizes evidence-based dosing over anecdotal community protocols.",
+			"keyDifferences": [
+				"0.5-1mg daily (10-20x lower than community protocols)",
+				"Supported by peer-reviewed human clinical data",
+				"20-day cycle length from clinical trials",
+				"More economical per cycle",
+				"Aligns with research showing microgram-level efficacy"
+			],
+			"doses": [
+				{ "phase": "Standard", "dose": "0.5-1mg", "frequency": "Daily", "duration": "20 days" },
+				{ "phase": "Break", "dose": "None", "frequency": "N/A", "duration": "4-6 months" }
+			]
+		},
+		{
+			"name": "High-Dose Community Protocol",
+			"source": "Biohacking Communities",
+			"philosophy": "Higher doses for potentially stronger effects",
+			"description": "Widely circulated protocol recommending 5-10mg daily injections. This dosing lacks peer-reviewed human clinical data and may stem from translation errors of Russian research or extrapolation from other peptides. No published studies validate this dose range in humans.",
+			"keyDifferences": [
+				"5-10mg daily (10-20x higher than research protocols)",
+				"No peer-reviewed human data at these doses",
+				"Significantly more expensive per cycle",
+				"Unknown if higher doses provide additional benefit",
+				"May have originated from translation errors"
+			],
+			"doses": [
+				{ "phase": "Loading", "dose": "5-10mg", "frequency": "Daily", "duration": "10-20 days" },
+				{ "phase": "Break", "dose": "None", "frequency": "N/A", "duration": "4-6 months" }
+			]
+		}
+	],
+	"categories": ["longevity", "immune"],
+	"quickStats": {
+		"typicalDose": "100-500mcg per injection",
+		"frequency": "Once daily for 10-20 consecutive days",
+		"cycleDuration": "10-20 days per cycle",
+		"storage": "Lyophilized: 2-8°C refrigerated; Reconstituted: 2-8°C refrigerated, use within 30 days"
+	}
+}

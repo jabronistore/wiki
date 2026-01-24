@@ -1,0 +1,19 @@
+// Can't prerender because we use URL searchParams for initial blend
+export const prerender = false;
+
+const blendNames: Record<string, string> = {
+	klow: 'KLOW',
+	glow: 'GLOW',
+	'cjc-ipa': 'CJC/IPA',
+	custom: 'Custom'
+};
+
+export function load({ url }) {
+	const blendId = url.searchParams.get('b') || 'klow';
+	const blendName = blendNames[blendId] || null;
+
+	return {
+		initialBlendId: blendId,
+		blendName
+	};
+}

@@ -1,0 +1,260 @@
+{
+	"id": "gonadorelin",
+	"name": "Gonadorelin",
+	"subtitle": "Gonadotropin-Releasing Hormone | GnRH Agonist",
+	"aliases": ["GnRH", "LHRH", "Luteinizing Hormone-Releasing Hormone", "Factrel", "Lutrepulse"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "1,182.3 Da",
+		"length": "10 amino acids",
+		"type": "Decapeptide",
+		"sequence": "pGlu-His-Trp-Ser-Tyr-Gly-Leu-Arg-Pro-Gly-NH2",
+		"halfLife": "2-4 minutes",
+		"halfLifeSeconds": 180
+	},
+	"overview": "Gonadorelin is a synthetic form of the naturally occurring gonadotropin-releasing hormone (GnRH). It stimulates the pituitary gland to release follicle-stimulating hormone (FSH) and luteinizing hormone (LH), which in turn regulate testosterone production in men and ovulation in women. It is FDA-approved for diagnostic testing and fertility treatment. The pulsatile nature of GnRH secretion is critical for proper reproductive function.",
+	"mechanism": "Gonadorelin acts as an agonist of the GnRH receptor in the anterior pituitary. When administered in pulses (mimicking natural secretion patterns every 60-120 minutes), it stimulates release of FSH and LH. LH then stimulates Leydig cells in the testes to produce testosterone, or triggers ovulation in women. Continuous exposure paradoxically causes receptor downregulation and suppressed hormone production.",
+	"keyBenefits": [
+		"Stimulates natural testosterone production",
+		"Maintains testicular function during hormone therapy",
+		"Supports fertility in hypogonadal conditions",
+		"FDA-approved for diagnostic and therapeutic use",
+		"Can restore LH and FSH pulsatility",
+		"Alternative to hCG for testicular stimulation",
+		"Preserves endogenous hormone production"
+	],
+	"indications": [
+		{
+			"category": "Fertility & Reproductive",
+			"items": [
+				{
+					"name": "Hypogonadotropic Hypogonadism",
+					"description": "Treatment of conditions like Kallmann syndrome where GnRH deficiency causes low testosterone and infertility.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Ovulation Induction",
+					"description": "Induces ovulation in women with hypothalamic amenorrhea who don't ovulate regularly.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Male Fertility",
+					"description": "Stimulates testosterone and sperm production by restoring LH/FSH pulsatility.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Delayed Puberty",
+					"description": "Treatment of delayed puberty due to hypothalamic-pituitary dysfunction.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Diagnostic",
+			"items": [
+				{
+					"name": "Pituitary Function Testing",
+					"description": "Used to assess hypothalamic-pituitary function and diagnose GnRH deficiency.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "LH/FSH Response Assessment",
+					"description": "Evaluates pituitary reserve and responsiveness to GnRH stimulation.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Hormone Optimization",
+			"items": [
+				{
+					"name": "TRT Support",
+					"description": "Maintains testicular function and fertility during testosterone replacement therapy.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Post-Cycle Therapy",
+					"description": "Helps restore natural testosterone production after anabolic steroid use.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cryptorchidism",
+					"description": "Treatment of undescended testes in pediatric patients.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Can be administered as single injections or via pulsatile infusion pump. Single injections are used for diagnostic testing, while pulsatile administration mimics natural GnRH secretion for therapeutic purposes. Very short half-life (10-40 minutes) requires careful dosing strategy.",
+			"protocols": [
+				{
+					"goal": "Diagnostic testing",
+					"dose": "100 mcg",
+					"frequency": "Single injection",
+					"route": "SubQ or IV"
+				},
+				{
+					"goal": "Fertility support",
+					"dose": "50-100 mcg",
+					"frequency": "2-3x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Pulsatile therapy",
+					"dose": "5-20 mcg per pulse",
+					"frequency": "Every 90-120 min",
+					"route": "SubQ pump"
+				},
+				{
+					"goal": "TRT adjunct",
+					"dose": "100-200 mcg",
+					"frequency": "2-3x weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes (0.5-1 mL)",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator, use within 14 days"
+				]
+			},
+			"keyBenefits": [
+				"Very short half-life (10-40 minutes)",
+				"Single injections for testosterone boost",
+				"Pulsatile delivery mimics natural rhythm",
+				"Do NOT use continuously (causes receptor downregulation)"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Nasal spray formulation available in some regions for convenience of administration.",
+			"protocols": [
+				{
+					"goal": "Hormone support",
+					"dose": "As prescribed",
+					"frequency": "Per protocol",
+					"route": "Intranasal"
+				}
+			],
+			"keyBenefits": ["Non-invasive administration", "Convenient for frequent dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "hCG",
+			"status": "compatible",
+			"notes": "Often used as alternative to hCG for testicular stimulation during TRT."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "Used alongside TRT to maintain testicular function and fertility."
+		},
+		{
+			"peptide": "Clomiphene",
+			"status": "compatible",
+			"notes": "Can be combined in fertility and PCT protocols."
+		},
+		{
+			"peptide": "Kisspeptin",
+			"status": "synergistic",
+			"notes": "Kisspeptin stimulates GnRH release; can work together for hormone optimization."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Within minutes",
+			"effects": "LH and FSH release begins"
+		},
+		{
+			"period": "Hours",
+			"effects": "Testosterone increase in response to LH"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Improved hormonal markers on blood tests"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Restoration of natural hormone pulsatility"
+		},
+		{
+			"period": "Ongoing",
+			"effects": "Maintained testicular function and fertility"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions",
+			"Headache",
+			"Flushing",
+			"Nausea",
+			"Abdominal discomfort"
+		],
+		"rare": ["Allergic reactions", "Light-headedness", "Local skin irritation"],
+		"stopSigns": [
+			"Signs of allergic reaction (rash, difficulty breathing)",
+			"Severe headaches",
+			"Unusual abdominal pain"
+		],
+		"contraindications": [
+			"Hormone-sensitive tumors",
+			"Pregnancy",
+			"Hypersensitivity to GnRH or analogs",
+			"Conditions worsened by sex hormone release"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder",
+			"Clear solution after reconstitution",
+			"Intact vacuum seal"
+		],
+		"warning": ["Slight clumping that dissolves easily"],
+		"bad": ["Discolored powder", "Cloudy or particulate solution", "Broken seal"]
+	},
+	"references": [
+		{
+			"title": "Gonadorelin in Hypogonadotropic Hypogonadism",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "2018",
+			"keyFindings": "Pulsatile GnRH administration effectively restores fertility in patients with hypothalamic hypogonadism."
+		},
+		{
+			"title": "GnRH Pulsatility and Reproductive Function",
+			"journal": "Frontiers in Endocrinology",
+			"year": "2020",
+			"keyFindings": "Pulsatile GnRH secretion (every 60-120 min) is essential for proper FSH/LH release and reproductive function."
+		},
+		{
+			"title": "Gonadorelin for Ovulation Induction",
+			"journal": "Fertility and Sterility",
+			"year": "2015",
+			"keyFindings": "Effective treatment for ovulation induction in women with hypothalamic amenorrhea."
+		}
+	],
+	"categories": ["sexual-health", "hormonal"],
+	"quickStats": {
+		"typicalDose": "100-200 mcg for single injections; 5-20 mcg per pulse for pulsatile therapy",
+		"frequency": "2-3 times weekly for fertility/TRT support; every 90-120 minutes for pulsatile therapy; single dose for diagnostic",
+		"cycleDuration": "Varies - diagnostic single use, fertility therapy ongoing, TRT support continuous",
+		"storage": "Lyophilized: 2-8°C refrigerated; Reconstituted: 2-8°C refrigerated, use within 14 days due to short stability"
+	}
+}

@@ -1,0 +1,216 @@
+{
+	"id": "ovagen",
+	"name": "Ovagen",
+	"subtitle": "EDL Tripeptide | Liver & GI Bioregulator",
+	"aliases": ["EDL", "Glu-Asp-Leu", "Liver Tripeptide", "GI Bioregulator"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "375 Da",
+		"formula": "C15H25N3O8",
+		"length": "3 amino acids",
+		"type": "Tripeptide bioregulator",
+		"sequence": "Glu-Asp-Leu",
+		"halfLife": "Not established",
+		"halfLifeSeconds": null
+	},
+	"overview": "Ovagen is a Khavinson bioregulator tripeptide (EDL) with primary effects on the liver and gastrointestinal tract. Developed by Dr. Vladimir Khavinson at the St. Petersburg Institute of Bioregulation and Gerontology, it reduces long-term liver fibrosis and protects the GI mucosal layer from antibiotics, environmental toxins, and chemotherapy. Like other bioregulators, Ovagen crosses cell and nuclear membranes to directly regulate DNA transcription patterns with tissue-specific effects.",
+	"mechanism": "Ovagen works through epigenetic regulation by crossing cell and nuclear membranes to directly regulate DNA structure and transcription patterns. It is transported into cells via POT family transporters (PEPT1, PEPT2) that specifically handle di- and tripeptides, explaining its precise tissue targeting. The peptide has tissue-specific effects on liver and GI tract, reducing fibrosis and protecting mucosal integrity.",
+	"keyBenefits": [
+		"Reduces long-term liver fibrosis",
+		"Protects GI mucosal layer",
+		"Defense against antibiotic damage",
+		"Protection from environmental toxins",
+		"May protect against chemotherapy GI effects",
+		"Tissue-specific targeting via PEPT transporters",
+		"Direct DNA regulation",
+		"Part of comprehensive anti-aging protocols"
+	],
+	"indications": [
+		{
+			"category": "Liver Support",
+			"items": [
+				{
+					"name": "Liver Fibrosis",
+					"description": "Reduces long-term fibrosis development in liver tissue.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Hepatoprotection",
+					"description": "Protects liver through gene expression regulation.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "GI Protection",
+			"items": [
+				{
+					"name": "Mucosal Protection",
+					"description": "Helps protect GI mucosal layer from various insults.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Antibiotic Recovery",
+					"description": "May protect GI tract from antibiotic-induced damage.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Toxin Defense",
+					"description": "Protects against environmental toxin effects on GI tract.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Liver Aging",
+					"description": "Addresses age-related liver changes through bioregulation.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "GI Aging",
+					"description": "Supports GI tract function during aging.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. As a tripeptide, Ovagen is transported via PEPT1/PEPT2 transporters for targeted delivery to liver and GI tissue. Typical protocol involves 10-20 day cycles.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Natural PEPT transporter uptake",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Livagen",
+			"status": "synergistic",
+			"notes": "Complementary liver bioregulators with different sequences and mechanisms."
+		},
+		{
+			"peptide": "Glutathione",
+			"status": "synergistic",
+			"notes": "Both support liver health through different pathways."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Both support GI health; different mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Gene expression modulation begins"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Liver and GI function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual GI or liver symptoms"],
+		"contraindications": [
+			"Active liver emergencies (seek medical care)",
+			"Known hypersensitivity",
+			"Pregnancy or breastfeeding"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity", "Do not confuse with FSH derivative of same name"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Khavinson Peptide Bioregulators Overview",
+			"journal": "Advances in Gerontology",
+			"year": "2020",
+			"keyFindings": "Ovagen (EDL) is a tripeptide bioregulator with effects on liver and GI tract."
+		},
+		{
+			"title": "POT Family Transporters and Peptide Bioregulators",
+			"journal": "Drug Metabolism Reviews",
+			"year": "2018",
+			"keyFindings": "Di- and tripeptides are transported via PEPT1/PEPT2, explaining tissue-specific targeting."
+		},
+		{
+			"title": "Peptide Bioregulators and Liver Fibrosis",
+			"journal": "Experimental Gerontology",
+			"year": "2019",
+			"keyFindings": "Short peptides reduce long-term fibrosis in liver tissue through gene expression regulation."
+		}
+	],
+	"categories": ["longevity"],
+	"quickStats": {
+		"typicalDose": "10-20mg daily",
+		"frequency": "Daily for 10-20 days per cycle",
+		"cycleDuration": "10-20 days",
+		"storage": "Capsules at room temperature; reconstituted injectable at 2-8°C refrigerated"
+	}
+}

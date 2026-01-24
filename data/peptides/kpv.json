@@ -1,0 +1,323 @@
+{
+	"id": "kpv",
+	"name": "KPV",
+	"subtitle": "Anti-Inflammatory Tripeptide | Alpha-MSH Fragment",
+	"aliases": [],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"length": "3 amino acids",
+		"type": "Tripeptide",
+		"modifications": ["C-terminal fragment of alpha-melanocyte-stimulating hormone (α-MSH)"],
+		"halfLife": "1-2 hours",
+		"halfLifeSeconds": 5400
+	},
+	"overview": "KPV is a potent anti-inflammatory tripeptide derived from the C-terminal of alpha-MSH. It exhibits remarkable anti-inflammatory and antimicrobial properties without the pigmentation effects of full α-MSH, making it ideal for inflammation management.",
+	"mechanism": "Enters cells and inhibits inflammatory pathways at the nuclear level, particularly NF-κB signaling. Reduces pro-inflammatory cytokines (TNF-α, IL-6) without causing immunosuppression like steroids.",
+	"keyBenefits": [
+		"Systemic anti-inflammatory effects",
+		"No pigmentation/tanning effects",
+		"Immune modulation without immunosuppression",
+		"Potential for autoimmune conditions",
+		"Gut health support",
+		"Multiple delivery routes available"
+	],
+	"indications": [
+		{
+			"category": "Inflammation",
+			"items": [
+				{
+					"name": "Systemic Inflammation",
+					"description": "Reduces TNF-α and IL-6 through NF-κB pathway inhibition.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Autoimmune Modulation",
+					"description": "May help balance overactive immune responses in autoimmune conditions.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Joint Inflammation",
+					"description": "Potential benefits for inflammatory arthritis through cytokine reduction.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Gut Health",
+			"items": [
+				{
+					"name": "IBD Support",
+					"description": "Demonstrated benefit in Crohn's disease and ulcerative colitis models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Intestinal Barrier Repair",
+					"description": "Helps restore intestinal barrier function.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Microbiome Balance",
+					"description": "Selective antimicrobial activity preserves beneficial gut bacteria.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Skin Health",
+			"items": [
+				{
+					"name": "Psoriasis/Dermatitis",
+					"description": "Topical KPV reduced psoriatic markers by 60% and improved skin barrier function.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Skin Inflammation",
+					"description": "Reduces inflammatory skin conditions without systemic effects.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection provides systemic anti-inflammatory effects. Abdomen is preferred for gut-related issues.",
+			"protocols": [
+				{
+					"goal": "General anti-inflammatory",
+					"dose": "200-300mcg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Active inflammation",
+					"dose": "250mcg",
+					"frequency": "Twice daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Autoimmune support",
+					"dose": "500mcg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Acute flare-ups",
+					"dose": "500mcg",
+					"frequency": "2x daily for 1 week, then reduce",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"KPV lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Clean vial with alcohol pad",
+					"Add 1mL bacteriostatic water to 1mg vial (1000mcg/mL)",
+					"Or add 2mL for 500mcg/mL concentration",
+					"Gently swirl - dissolves easily",
+					"Solution should be clear and colorless",
+					"Label with concentration and date",
+					"Refrigerate immediately"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen (preferred for gut issues), thigh, upper arm",
+				"Systemic distribution for widespread inflammation"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oral administration provides direct gut exposure for intestinal conditions.",
+			"protocols": [
+				{
+					"goal": "Gut health support",
+					"dose": "200-500mcg",
+					"frequency": "2-3x daily",
+					"route": "Mix in water/juice or enteric capsules"
+				}
+			],
+			"keyBenefits": ["Direct gut exposure", "Non-invasive", "Use within 24 hours if mixed"]
+		},
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Topical cream/gel for localized skin inflammation without systemic absorption.",
+			"protocols": [
+				{
+					"goal": "Skin inflammation",
+					"dose": "0.1-0.5% cream/gel",
+					"frequency": "2-3x daily",
+					"route": "Affected skin areas"
+				}
+			],
+			"keyBenefits": [
+				"Localized effects",
+				"Minimal systemic absorption",
+				"Room temperature storage"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Nasal spray with limited data. May provide systemic effects through nasal absorption.",
+			"protocols": [
+				{
+					"goal": "Systemic anti-inflammatory",
+					"dose": "100-300mcg",
+					"frequency": "2-3x daily (1-2 sprays per nostril)",
+					"route": "Nasal spray"
+				}
+			],
+			"keyBenefits": ["Non-invasive", "Use within 14 days", "Limited data available"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Enhanced gut healing and anti-inflammatory effects through complementary mechanisms."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "compatible",
+			"notes": "Different mechanisms; can be combined safely."
+		},
+		{
+			"peptide": "LL-37",
+			"status": "synergistic",
+			"notes": "Complementary antimicrobial and healing effects."
+		},
+		{
+			"peptide": "Thymosin Alpha-1",
+			"status": "compatible",
+			"notes": "Both support immune function through different pathways."
+		},
+		{
+			"peptide": "GHK-Cu",
+			"status": "synergistic",
+			"notes": "Synergistic for skin health and regeneration."
+		},
+		{
+			"peptide": "Melanotan II",
+			"status": "monitor",
+			"notes": "Both are α-MSH related; KPV lacks pigmentation effects but monitor for cumulative effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-3",
+			"effects": "Subtle reduction in inflammation, improved energy"
+		},
+		{
+			"period": "Week 1",
+			"effects": "Noticeable decrease in inflammatory symptoms"
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Improved gut function (if applicable), reduced pain/swelling"
+		},
+		{
+			"period": "Week 4",
+			"effects": "Significant improvement in inflammatory markers"
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Sustained benefits, improved quality of life"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Minimal to no side effects reported",
+			"Does not cause immunosuppression like steroids",
+			"No melanin production/tanning effects",
+			"May temporarily reduce inflammation-related symptoms"
+		],
+		"stopSigns": [
+			"Signs of infection (fever, chills) - very rare",
+			"Severe injection site reactions",
+			"Paradoxical inflammation increase",
+			"Allergic reaction symptoms",
+			"Unusual fatigue or weakness"
+		],
+		"contraindications": [
+			"Known peptide allergies",
+			"Active severe infections (theoretical)",
+			"Pregnancy or breastfeeding (limited data)"
+		],
+		"monitoring": [
+			"Monitor for signs of infection (rare)",
+			"Track inflammatory symptom improvement",
+			"Generally well-tolerated at higher doses"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"High purity >98%",
+			"Clear, colorless solution after reconstitution",
+			"Stable small peptide structure",
+			"Certificate of analysis available"
+		],
+		"warning": ["pH should be 5.5-7 for optimal stability"],
+		"bad": [
+			"Visible particles indicate contamination/degradation",
+			"Yellow coloration indicates oxidation/potency loss"
+		]
+	},
+	"references": [
+		{
+			"title": "KPV in IBD Models",
+			"year": "2019",
+			"keyFindings": "Demonstrated significant reduction in inflammatory markers and improved intestinal barrier function in IBD models."
+		},
+		{
+			"title": "Anti-Inflammatory Mechanisms Study",
+			"year": "2020",
+			"keyFindings": "KPV enters cells and directly inhibits NF-κB pathway, reducing TNF-α, IL-6, and other inflammatory cytokines."
+		},
+		{
+			"title": "Psoriasis/Dermatitis Study",
+			"year": "2021",
+			"keyFindings": "Topical KPV reduced psoriatic markers by 60% and improved skin barrier function."
+		},
+		{
+			"title": "Antimicrobial Properties Study",
+			"year": "2022",
+			"keyFindings": "Showed selective antimicrobial activity against pathogenic bacteria while preserving beneficial gut microbiota."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Nanoparticle Delivery Enhancement",
+			"date": "March 2024",
+			"source": "Drug Delivery Research",
+			"summary": "Enhanced delivery methods using nanoparticle technology."
+		},
+		{
+			"title": "Probiotic Combination for IBS",
+			"date": "February 2024",
+			"source": "Gut Health Journal",
+			"summary": "KPV combined with probiotics for enhanced IBS treatment."
+		},
+		{
+			"title": "Post-COVID Inflammatory Syndrome",
+			"date": "January 2024",
+			"source": "Inflammation Research",
+			"summary": "Potential application in post-COVID inflammatory conditions."
+		}
+	],
+	"categories": ["immune", "healing"],
+	"quickStats": {
+		"typicalDose": "200-500 mcg per injection",
+		"frequency": "1-2 times daily (once for maintenance, twice for active inflammation)",
+		"cycleDuration": "4-8 weeks",
+		"storage": "Lyophilized: Room temperature. Reconstituted: 2-8°C, refrigerate immediately"
+	}
+}

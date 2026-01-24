@@ -1,0 +1,240 @@
+{
+	"id": "survodutide",
+	"name": "Survodutide",
+	"subtitle": "Dual GLP-1/Glucagon Receptor Agonist | Weight Loss & Diabetes",
+	"aliases": ["BI 456906"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~4,500 Da",
+		"length": "29 amino acids",
+		"type": "Peptide with fatty acid acylation",
+		"sequence": "29-amino acid peptide",
+		"modifications": ["C18 fatty acid acylation for extended half-life (~6 days)"],
+		"halfLife": "Approximately 6 days (109-115 hours)",
+		"halfLifeSeconds": 403200
+	},
+	"overview": "Investigational dual receptor agonist targeting metabolic disease through balanced GLP-1R and GCGR activation. Phase 2/3 clinical trials demonstrate superior weight loss and MASH treatment efficacy.",
+	"mechanism": "Dual agonism: GLP-1R reduces appetite and slows gastric emptying; GCGR increases energy expenditure and hepatic fat oxidation. EC50 0.52nM GCGR, 0.33nM GLP-1R.",
+	"keyBenefits": [
+		"Superior weight loss vs monotherapy (14.9% at 46 weeks)",
+		"Once-weekly convenient dosing",
+		"Proven efficacy in obesity, MASH, and Type 2 diabetes",
+		"62% MASH improvement in clinical trials"
+	],
+	"indications": [
+		{
+			"category": "Weight Loss",
+			"items": [
+				{
+					"name": "Obesity Without Diabetes",
+					"description": "14.9% mean weight loss at 46 weeks (4.8mg); 55% achieved ≥15% reduction.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Obesity With Type 2 Diabetes",
+					"description": "Superior to semaglutide: -8.7% vs -5.3% at 16 weeks.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sustained Weight Management",
+					"description": "Dual mechanism addresses both energy intake and expenditure.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "MASH Treatment",
+					"description": "62% achieved MASH improvement without fibrosis worsening at 4.8mg.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Liver Fat Reduction",
+					"description": "63-67% achieved ≥30% liver fat reduction.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Type 2 Diabetes Control",
+					"description": "HbA1c reduction up to -1.6% at highest doses.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection to abdomen (2+ inches from navel), upper thigh, or upper arm. Any time of day, with or without food.",
+			"protocols": [
+				{
+					"goal": "Obesity - Conservative Start",
+					"dose": "0.6mg titrated over 24 weeks",
+					"frequency": "Once weekly with 4-week intervals",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Obesity - Standard Protocol",
+					"dose": "3.6-6.0mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "MASH Treatment",
+					"dose": "2.4-4.8mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Type 2 Diabetes",
+					"dose": "0.3-2.7mg",
+					"frequency": "Once weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Survodutide lyophilized powder vial",
+					"Bacteriostatic water (1-2mL)",
+					"Insulin syringe (29-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Remove vial from refrigerator; allow 15-30 minutes to reach room temperature",
+					"Clean rubber stoppers with alcohol swabs",
+					"Draw prescribed amount of bacteriostatic water",
+					"Insert needle at 45-degree angle into vial",
+					"Inject BAC water down vial side slowly to minimize foaming",
+					"Gently swirl (do not shake vigorously)",
+					"Allow 2-3 minutes for complete dissolution",
+					"Solution should be clear to slightly opalescent without particles",
+					"Store reconstituted solution in refrigerator immediately"
+				]
+			},
+			"keyBenefits": ["Once-weekly dosing convenience", "~6 day half-life", "Balanced dual agonism"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semaglutide/Tirzepatide",
+			"status": "monitor",
+			"notes": "Both GLP-1 agonists; combining risks excessive activation and GI side effects."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "compatible",
+			"notes": "Demonstrated together in Phase 2 diabetes trials."
+		},
+		{
+			"peptide": "SGLT2 Inhibitors",
+			"status": "compatible",
+			"notes": "No known interactions; allowed in Phase 3 with monitoring."
+		},
+		{
+			"peptide": "Sulfonylureas",
+			"status": "monitor",
+			"notes": "Hypoglycemia risk; consider dose reduction."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "May require insulin dose reduction due to improved glycemic control."
+		},
+		{
+			"peptide": "Oral Contraceptives",
+			"status": "monitor",
+			"notes": "Take 1+ hour before survodutide due to delayed gastric emptying."
+		},
+		{
+			"peptide": "Other Glucagon Agonists",
+			"status": "avoid",
+			"notes": "Risk of excessive glucagon receptor activation."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Weeks 1-4",
+			"effects": "Possible nausea, reduced appetite (most common during escalation)"
+		},
+		{
+			"period": "Weeks 4-8",
+			"effects": "Initial weight loss begins; improved satiety between meals"
+		},
+		{
+			"period": "Weeks 8-16",
+			"effects": "Progressive weight loss; potential energy level improvements"
+		},
+		{
+			"period": "Weeks 16-24",
+			"effects": "Approaching steady-state; more consistent effects"
+		},
+		{
+			"period": "Weeks 24+",
+			"effects": "Sustained weight loss; average 15-19% by week 46"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Nausea (40-66%)",
+			"Diarrhea (25-49%)",
+			"Vomiting (15-41%)",
+			"Slight heart rate increase (mean 2-5 bpm)"
+		],
+		"stopSigns": [
+			"Severe persistent nausea/vomiting preventing oral intake",
+			"Signs of pancreatitis (severe abdominal pain radiating to back)",
+			"Allergic reactions (rash, itching, difficulty breathing)",
+			"Severe hypoglycemia with insulin/sulfonylureas",
+			"Gallbladder symptoms (right upper quadrant pain)",
+			"Significant tachycardia or arrhythmias"
+		],
+		"contraindications": [
+			"Not recommended in pregnancy or breastfeeding",
+			"Use contraception during treatment"
+		],
+		"monitoring": [
+			"Monitor blood glucose if on diabetes medications",
+			"No dose adjustment needed for hepatic impairment (including cirrhosis)",
+			"Monitor heart rate in patients with cardiac conditions"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear to slightly opalescent solution without visible particles",
+			"Sealed vial with intact rubber stopper",
+			"Within expiration date"
+		],
+		"warning": ["Slight foam after reconstitution is normal if disappears within minutes"],
+		"bad": [
+			"Cloudy solution or visible particles indicates contamination",
+			"Discoloration of powder or solution"
+		]
+	},
+	"references": [
+		{
+			"title": "Phase 2 Obesity Trial Without Diabetes",
+			"year": "2024",
+			"keyFindings": "387 participants; BMI ≥27 kg/m²; 46 weeks. 14.9% mean weight loss at 4.8mg; 83% achieved ≥5%, 69% achieved ≥10%, 55% achieved ≥15%."
+		},
+		{
+			"title": "Phase 2 MASH and Fibrosis Trial",
+			"year": "2024",
+			"keyFindings": "293 participants with biopsy-confirmed MASH; 48 weeks. MASH improvement: 62% (4.8mg) vs 14% placebo; 63-67% achieved ≥30% liver fat reduction."
+		},
+		{
+			"title": "Phase 2 Type 2 Diabetes Trial",
+			"year": "2023",
+			"keyFindings": "Head-to-head vs semaglutide 1.0mg; 16 weeks. Survodutide -8.7% weight loss vs semaglutide -5.3%; HbA1c reduction up to -1.6%."
+		}
+	],
+	"categories": ["weight-loss", "metabolic"],
+	"quickStats": {
+		"typicalDose": "0.6mg starting, titrate up to 3.6-6.0mg weekly",
+		"frequency": "Once weekly (same day each week)",
+		"cycleDuration": "24-76+ weeks continuous therapy",
+		"storage": "Reconstituted: 2-8°C immediately after mixing"
+	}
+}

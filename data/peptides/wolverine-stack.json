@@ -1,0 +1,271 @@
+{
+	"id": "wolverine-stack",
+	"name": "Wolverine Stack",
+	"subtitle": "BPC-157 + TB-500 | Tissue Repair & Recovery Protocol",
+	"aliases": ["BPC-157/TB-500 combination", "Wolverine blend"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "N/A",
+		"length": "N/A",
+		"type": "Peptide blend",
+		"sequence": "N/A",
+		"modifications": ["BPC-157: 15 amino acids", "TB-500: 43 amino acids"]
+	},
+	"overview": "Combines BPC-157 and TB-500 for synergistic tissue repair and recovery. 87.5% improvement in knee pain patients per Lee & Padgett 2021 study.",
+	"mechanism": "BPC-157 increases actin production and modulates nitric oxide for vascular effects; TB-500 sequesters actin for cell migration; synergistic enhancement of fibroblast and immune cell movement to injury sites.",
+	"keyBenefits": [
+		"Complementary healing mechanisms",
+		"87.5% improvement in knee pain patients",
+		"Reduced inflammation and enhanced cell migration",
+		"Promotes angiogenesis and reduces scarring"
+	],
+	"indications": [
+		{
+			"category": "Tissue Repair",
+			"items": [
+				{
+					"name": "Tendon & Ligament Healing",
+					"description": "Both peptides show evidence for accelerated repair; BPC-157 improved Achilles tendon healing in animal models.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Muscle Injury Recovery",
+					"description": "BPC-157 demonstrates enhanced muscle regeneration; TB-500 promotes cell migration essential for repair.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Joint Pain & Cartilage",
+					"description": "Lee & Padgett study showed 87.5% of knee pain patients improved with BPC-157/TB4 combination.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Wound Healing",
+			"items": [
+				{
+					"name": "Accelerated Wound Closure",
+					"description": "TB-500 Phase 2 trials showed approximately one month faster healing in ulcer patients.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anti-Inflammatory",
+			"items": [
+				{
+					"name": "Inflammatory Cytokine Reduction",
+					"description": "Both peptides modulate inflammatory pathways through different mechanisms.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection recommended; most studied and effective route.",
+			"protocols": [
+				{
+					"goal": "General Recovery Protocol",
+					"dose": "BPC-157: 250mcg 2x/day + TB-500: 2mg 2x/week",
+					"frequency": "BPC-157 daily, TB-500 twice weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Intensive Injury Recovery",
+					"dose": "BPC-157: 500mcg 2x/day + TB-500: 2.5mg 2x/week",
+					"frequency": "BPC-157 daily, TB-500 twice weekly",
+					"route": "SubQ near injury site"
+				},
+				{
+					"goal": "Maintenance/Prevention Protocol",
+					"dose": "BPC-157: 250mcg 1x/day + TB-500: 2mg 1x/week",
+					"frequency": "BPC-157 daily, TB-500 weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"BPC-157 vial (5mg)",
+					"TB-500 vial (2-5mg)",
+					"Bacteriostatic water",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Reconstitute each peptide separately",
+					"BPC-157: Add 2mL BAC water to 5mg vial = 250mcg per 0.1mL",
+					"TB-500: Add 2mL BAC water to 5mg vial = 250mcg per 0.1mL",
+					"Inject slowly along vial wall; swirl gently—never shake",
+					"Store reconstituted peptides refrigerated at 2-8°C",
+					"Do NOT mix peptides in same syringe unless pre-made blend",
+					"Use separate injection sites if administering same day"
+				]
+			},
+			"keyBenefits": [
+				"Most studied and effective route",
+				"Synergistic healing effects",
+				"Targeted delivery near injury site"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "BPC-157 stable in gastric acid; TB-500 oral bioavailability less established.",
+			"protocols": [
+				{
+					"goal": "GI Support Protocol",
+					"dose": "BPC-157: 500mcg-1mg",
+					"frequency": "Once daily on empty stomach",
+					"route": "Oral capsule or sublingual"
+				}
+			],
+			"keyBenefits": ["Non-invasive", "Good for GI-specific applications"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Growth Hormone (HGH)",
+			"status": "synergistic",
+			"notes": "BPC-157 upregulates GH receptors; combined use may accelerate recovery."
+		},
+		{
+			"peptide": "CJC-1295/Ipamorelin",
+			"status": "synergistic",
+			"notes": "GH secretagogues complement stack by increasing endogenous growth hormone."
+		},
+		{
+			"peptide": "PEG-MGF",
+			"status": "synergistic",
+			"notes": "MGF activates satellite cells; combined mechanisms may enhance muscle recovery."
+		},
+		{
+			"peptide": "GHK-Cu",
+			"status": "compatible",
+			"notes": "Copper peptide promotes collagen; no negative interactions expected."
+		},
+		{
+			"peptide": "NSAIDs",
+			"status": "monitor",
+			"notes": "BPC-157 shows protective effects against NSAID-induced damage; long-term effects unknown."
+		},
+		{
+			"peptide": "Corticosteroids",
+			"status": "monitor",
+			"notes": "Steroids may counteract healing; BPC-157 shown to reverse some steroid-induced damage in models."
+		},
+		{
+			"peptide": "Anticoagulants",
+			"status": "monitor",
+			"notes": "Both peptides promote angiogenesis; monitor for bleeding issues."
+		},
+		{
+			"peptide": "Chemotherapy Agents",
+			"status": "avoid",
+			"notes": "Angiogenesis promotion could theoretically support tumor growth; contraindicated with cancer history."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Possible reduction in acute inflammation and pain at injury sites"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Noticeable improvement in recovery between workouts; reduced soreness"
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Significant improvement in chronic injuries; improved joint comfort"
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Optimal healing effects; structural improvements in damaged tissues"
+		},
+		{
+			"period": "Post-Cycle",
+			"effects": "Benefits may persist as healed tissue maintains integrity"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Not extensively documented in human studies",
+			"Generally well-tolerated in available research"
+		],
+		"stopSigns": [
+			"Any unusual lumps, growths, or rapid tissue changes",
+			"Severe injection site reactions or infections",
+			"Signs of allergic reaction (rash, swelling, difficulty breathing)",
+			"Unexpected bleeding or bruising",
+			"Persistent headaches or vision changes",
+			"Any symptoms suggesting abnormal growth"
+		],
+		"contraindications": [
+			"ANY history of cancer or suspicious growths",
+			"Active malignancy or concurrent chemotherapy",
+			"Pregnancy or breastfeeding"
+		],
+		"monitoring": [
+			"Tissue growth or changes",
+			"Injection site reactions",
+			"Allergic responses",
+			"Bleeding episodes",
+			"Not FDA approved—research chemical only",
+			"Banned by WADA and major sports organizations"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White or off-white lyophilized powder cake indicating proper freeze-drying",
+			"Crystal clear solution after reconstitution with bacteriostatic water",
+			"Certificate of Analysis with HPLC purity testing (>98%) and mass spectrometry verification"
+		],
+		"warning": ["Minor clumping acceptable if dissolves completely with gentle swirling"],
+		"bad": [
+			"Collapsed, yellowed, or powder stuck to vial sides—may indicate degradation from heat",
+			"Persistent cloudiness or visible particles after reconstitution—indicates contamination or degradation"
+		]
+	},
+	"references": [
+		{
+			"title": "BPC-157 + TB4 Knee Pain Study (Lee & Padgett)",
+			"year": "2021",
+			"keyFindings": "16 patients, intra-articular injection: Overall 87.5% (14/16) experienced knee pain relief. BPC-157 alone: 91.6% improvement (11/12). BPC-157 + TB4 combination: 75% improvement (3/4)."
+		},
+		{
+			"title": "BPC-157 Systematic Review (Vasireddi et al.)",
+			"year": "2025",
+			"keyFindings": "36 articles reviewed. Preclinical models showed improvements in muscle tears, tendon ruptures, ligament tears, and fracture healing. Mechanism involves enhanced GH receptor expression and angiogenesis."
+		},
+		{
+			"title": "Thymosin β4 Clinical Wound Healing (Treadwell et al.)",
+			"year": "2012",
+			"keyFindings": "Two Phase 2 clinical trials showed thymosin β4 accelerated wound healing by approximately one month in responsive ulcer patients."
+		},
+		{
+			"title": "Thymosin β4 Regenerative Properties Review (Goldstein et al.)",
+			"year": "2012",
+			"keyFindings": "Comprehensive review establishing thymosin β4 as regenerative, promoting cell migration, reducing inflammation/apoptosis, and decreasing scar formation."
+		},
+		{
+			"title": "BPC-157 Achilles Tendon Healing",
+			"year": "2003",
+			"keyFindings": "Rats, 10 μg/kg i.p. daily, 14 days: BPC-157 demonstrated superior healing of transected Achilles tendons with improved biomechanical properties."
+		},
+		{
+			"title": "Thymosin β4 Wound Healing Acceleration",
+			"year": "1999",
+			"keyFindings": "Rats, full thickness wounds: Topical or intraperitoneal Tβ4 increased re-epithelialization by 42% at 4 days and up to 61% at 7 days."
+		}
+	],
+	"categories": ["healing", "longevity"],
+	"quickStats": {
+		"typicalDose": "BPC-157: 250-500 mcg per dose + TB-500: 2-2.5 mg per dose",
+		"frequency": "BPC-157: 1-2x daily; TB-500: 2x per week (typically Monday/Thursday or Tuesday/Friday)",
+		"cycleDuration": "4-8 weeks for injury recovery; shorter for maintenance",
+		"storage": "Lyophilized powder: room temperature acceptable; Reconstituted: 2-8°C refrigerated for both peptides"
+	}
+}

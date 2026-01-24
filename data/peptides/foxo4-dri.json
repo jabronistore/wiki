@@ -1,0 +1,224 @@
+{
+	"id": "foxo4-dri",
+	"name": "FOXO4-DRI",
+	"subtitle": "Senolytic Peptide | p53-FOXO4 Disruptor",
+	"aliases": ["FOXO4-D-Retro-Inverso", "Proxofim"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~4,800 Da",
+		"length": "~45 amino acids",
+		"type": "D-retro-inverso peptide",
+		"modifications": ["D-amino acids", "Reversed sequence for stability"],
+		"halfLife": "Not established"
+	},
+	"overview": "FOXO4-DRI is a senolytic peptide designed to selectively eliminate senescent 'zombie' cells that accumulate with age and contribute to tissue dysfunction. It works by disrupting the FOXO4-p53 interaction that keeps senescent cells alive. The 'DRI' modification (D-retro-inverso) uses reversed D-amino acids to increase potency and stability. Preclinical research shows restoration of fur density, fitness, and organ function in aged mice.",
+	"mechanism": "FOXO4-DRI competes with FOXO4 for binding to p53, disrupting their protective interaction in senescent cells. This causes p53 to be excluded from the nucleus and triggers cell-intrinsic apoptosis (programmed cell death). Critically, this mechanism is highly selective: the FOXO4-p53 interaction is a specific vulnerability of senescent cells, while FOXO4 is minimally expressed in healthy tissues, leaving functional cells largely unharmed.",
+	"keyBenefits": [
+		"Selective elimination of senescent cells",
+		"Restoration of tissue homeostasis",
+		"Improved fitness and physical function in aged models",
+		"Restored fur density in aged mice",
+		"Improved kidney function",
+		"Alleviates chemotherapy-induced senescence",
+		"Restores testosterone in aged males",
+		"Reduces senescent chondrocytes in cartilage",
+		"High selectivity spares healthy cells"
+	],
+	"indications": [
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Senescent Cell Clearance",
+					"description": "Selectively induces apoptosis in senescent cells while sparing healthy tissue.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Tissue Rejuvenation",
+					"description": "Restores tissue homeostasis and function in naturally aged animal models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Physical Function",
+					"description": "Improved fitness, mobility, and physical appearance in aged mice.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Organ Function",
+			"items": [
+				{
+					"name": "Kidney Function",
+					"description": "Restored renal function in aged and fast-aging mouse models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Testicular Function",
+					"description": "Improved testicular microenvironment and testosterone secretion in aged mice.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cartilage Health",
+					"description": "Removes senescent chondrocytes, potentially benefiting joint health.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Chemoprotection",
+			"items": [
+				{
+					"name": "Chemotherapy Recovery",
+					"description": "Neutralizes doxorubicin-induced chemotoxicity by clearing treatment-induced senescent cells.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Currently in experimental stages. The original 2017 mouse study used 5 mg/kg intraperitoneally, three times on alternate days. For a 60kg human, this translates to approximately 25 mg per dose. Self-experimenters have reported using subcutaneous injection. Storage at -20°C required due to peptide stability concerns.",
+			"protocols": [
+				{
+					"goal": "Standard senolytic protocol",
+					"dose": "25-33 mg",
+					"frequency": "3 doses, every other day (6 days total)",
+					"route": "SubQ or IV"
+				},
+				{
+					"goal": "Mouse study equivalent",
+					"dose": "5 mg/kg (translates to ~25 mg for 60kg human)",
+					"frequency": "3 doses on alternate days",
+					"route": "IP (original study)"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Sterile water or appropriate buffer",
+					"Syringes",
+					"Alcohol swabs",
+					"Cold storage capability"
+				],
+				"steps": [
+					"Store peptide at -20°C until use",
+					"Reconstitute according to research protocol",
+					"Use immediately or store at 4°C short-term",
+					"Avoid repeated freeze-thaw cycles"
+				]
+			},
+			"keyBenefits": [
+				"D-retro-inverso modification increases stability",
+				"Selective mechanism spares healthy cells",
+				"DRI peptides have precedent in clinical trials"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Fisetin",
+			"status": "synergistic",
+			"notes": "Other senolytics may have additive effects on senescent cell clearance."
+		},
+		{
+			"peptide": "Dasatinib + Quercetin",
+			"status": "compatible",
+			"notes": "Different senolytic mechanisms; sequential use may be considered."
+		},
+		{
+			"peptide": "Humanin",
+			"status": "compatible",
+			"notes": "Different mechanisms; Humanin protects healthy cells while FOXO4-DRI clears senescent ones."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Hours-Days",
+			"effects": "Senescent cell apoptosis initiated"
+		},
+		{
+			"period": "Days-Weeks",
+			"effects": "Clearance of senescent cells"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Tissue regeneration and functional improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Sustained benefits with periodic treatment"
+		}
+	],
+	"sideEffects": {
+		"common": ["Limited human data available", "Generally well-tolerated in animal studies"],
+		"rare": ["Unknown - ongoing research"],
+		"stopSigns": ["Allergic reactions", "Unexpected adverse effects"],
+		"contraindications": [
+			"Not yet approved for human use",
+			"Pregnancy or breastfeeding",
+			"Unknown safety in immunocompromised individuals",
+			"Active cancer (theoretical - consult oncologist)"
+		],
+		"monitoring": [
+			"Experimental peptide - medical supervision essential",
+			"Monitor organ function during treatment"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Stored at -20°C or below",
+			"White lyophilized powder",
+			"High purity (>95%)",
+			"Clear solution after reconstitution"
+		],
+		"warning": ["Temperature excursions may affect potency"],
+		"bad": [
+			"Exposed to room temperature for extended periods",
+			"Discoloration",
+			"Repeated freeze-thaw cycles"
+		]
+	},
+	"references": [
+		{
+			"title": "Targeted Apoptosis of Senescent Cells Restores Tissue Homeostasis",
+			"journal": "Cell",
+			"year": "2017",
+			"keyFindings": "FOXO4-DRI restored fitness, fur density, and renal function in aged mice using 5 mg/kg IP, 3 doses on alternate days. Well-tolerated under therapeutic conditions."
+		},
+		{
+			"title": "An Example of Senolytic Self-Experimentation with FOXO4-DRI",
+			"journal": "Fight Aging!",
+			"year": "2017",
+			"url": "https://www.fightaging.org/archives/2017/05/an-example-of-senolytic-self-experimentation-with-foxo4-dri/",
+			"keyFindings": "Self-experimenters have translated the mouse protocol to ~25 mg per injection subcutaneously, 3 doses every other day, for 75-100 mg total per treatment cycle."
+		},
+		{
+			"title": "FOXO4-DRI Alleviates Age-Related Testosterone Secretion Insufficiency",
+			"journal": "Theranostics",
+			"year": "2020",
+			"keyFindings": "FOXO4-DRI improved testicular microenvironment and testosterone secretion by clearing senescent Leydig cells."
+		},
+		{
+			"title": "FOXO4-DRI Removes Senescent Cells from Human Chondrocytes",
+			"journal": "Frontiers in Bioengineering and Biotechnology",
+			"year": "2021",
+			"keyFindings": "Removed >50% of senescent chondrocytes without affecting healthy early-passage cells."
+		},
+		{
+			"title": "The Disordered p53 Transactivation Domain is the Target of FOXO4-DRI",
+			"journal": "Nature Communications",
+			"year": "2025",
+			"keyFindings": "Structural analysis revealed FOXO4-DRI binds disordered p53TAD2, forming transiently folded complex."
+		}
+	],
+	"categories": ["longevity"],
+	"quickStats": {
+		"typicalDose": "25-33 mg per injection (based on mouse study 5 mg/kg)",
+		"frequency": "3 doses total, administered every other day (Day 1, 3, 5)",
+		"cycleDuration": "6 days (3 doses total = 75-100 mg per treatment cycle)",
+		"storage": "Lyophilized: -20°C frozen; Reconstituted: 2-8°C refrigerated, use immediately or within short term; avoid freeze-thaw cycles"
+	}
+}

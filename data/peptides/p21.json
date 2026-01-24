@@ -1,0 +1,221 @@
+{
+	"id": "p21",
+	"name": "P21",
+	"subtitle": "P021 | CNTF-Derived Neurogenic Peptide",
+	"aliases": ["P021", "CNTF peptide derivative"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~1,100 Da",
+		"type": "CNTF-derived peptide",
+		"modifications": ["Contains adamantane for BBB penetration"],
+		"halfLife": "Over 3 hours (mouse plasma)",
+		"halfLifeSeconds": 10800
+	},
+	"overview": "P21 is a nootropic peptide derived from ciliary neurotrophic factor (CNTF) that enhances neurogenesis and cognitive function. It contains an adamantane moiety that enables blood-brain barrier penetration. Research shows it increases BDNF expression, inhibits LIF signaling to promote neurogenesis, and reduces tau and amyloid pathology in Alzheimer's disease models. Remarkably, P21 can boost neurogenesis in diseased brains above levels seen in healthy untreated brains.",
+	"mechanism": "P21 operates through multiple pathways: it inhibits leukemia inhibitory factor (LIF) signaling, removing a key roadblock to neurogenesis and shifting the brain toward a more embryologic state favoring neuron growth. It increases brain-derived neurotrophic factor (BDNF) expression and activates the BDNF/TrkB/PI3-K/AKT/GSK3β pathway. This pathway modulation improves cognitive function and reduces tau and amyloid pathologies.",
+	"keyBenefits": [
+		"Potent promotion of neurogenesis in the dentate gyrus",
+		"Increased BDNF expression",
+		"Reduced tau protein pathology",
+		"Reduced amyloid-beta plaque formation",
+		"Improved cognitive function and memory",
+		"Restored synaptic deficits in cortex and hippocampus",
+		"Reduced mortality rate in AD models",
+		"Crosses blood-brain barrier effectively"
+	],
+	"indications": [
+		{
+			"category": "Neurodegenerative Disease",
+			"items": [
+				{
+					"name": "Alzheimer's Disease",
+					"description": "P021 markedly reduced tau pathology, attenuated Aβ generation, and rescued episodic memory impairment in 3xTg-AD mice.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neurodegeneration Prevention",
+					"description": "Treatment during synaptic compensation period can prevent neurodegeneration and reduce mortality.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Tau Pathology",
+					"description": "Robust attenuation of tau pathologies through BDNF/TrkB/PI3-K/AKT/GSK3β pathway.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cognitive Enhancement",
+			"items": [
+				{
+					"name": "Neurogenesis",
+					"description": "Enhances dentate gyrus neurogenesis so effectively it exceeds levels in healthy untreated brains.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Memory Processes",
+					"description": "Enhances memory processes through increased BDNF and restored synaptic function.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Age-Related Cognitive Decline",
+					"description": "May reduce natural decline in learning and memory in aged models by rescuing neurogenesis deficit.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Synaptic Plasticity",
+					"description": "Restores synaptic deficits in cortex and hippocampus.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neuronal Plasticity",
+					"description": "Rescues deficits in neuronal plasticity.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "P21 has not yet been tested in human clinical trials. Research protocols in animal models use subcutaneous or intraperitoneal injection. The adamantane moiety enables blood-brain barrier penetration for CNS effects.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "Variable by study",
+					"frequency": "Daily",
+					"route": "SubQ or IP"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator"
+				]
+			},
+			"keyBenefits": [
+				"Adamantane enables BBB penetration",
+				"Promising preclinical results",
+				"Oral availability being researched"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semax",
+			"status": "compatible",
+			"notes": "Different nootropic mechanisms; may complement each other."
+		},
+		{
+			"peptide": "Dihexa",
+			"status": "compatible",
+			"notes": "Both promote neurogenesis through different pathways."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions; different mechanisms."
+		},
+		{
+			"peptide": "NA-Semax Amidate",
+			"status": "compatible",
+			"notes": "Different cognitive enhancement mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days-Weeks",
+			"effects": "BDNF elevation begins"
+		},
+		{
+			"period": "Weeks",
+			"effects": "Neurogenesis enhancement measurable"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Cognitive improvements in research models"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Disease-modifying effects in AD models"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Limited data - primarily preclinical research",
+			"Generally well-tolerated in animal studies"
+		],
+		"rare": ["Unknown - insufficient human data"],
+		"stopSigns": ["Allergic reactions", "Unusual neurological symptoms"],
+		"contraindications": [
+			"Not approved for human use",
+			"Pregnancy or breastfeeding",
+			"Unknown safety profile in humans"
+		],
+		"monitoring": [
+			"Experimental peptide - medical supervision essential",
+			"No human clinical trials completed"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder",
+			"Clear solution after reconstitution",
+			"High purity (>95%)",
+			"Intact vacuum seal"
+		],
+		"warning": ["Research chemical - limited quality standards"],
+		"bad": ["Discoloration", "Cloudy solution", "Particulates visible"]
+	},
+	"references": [
+		{
+			"title": "P021 Treatment in 3xTg-AD Mice",
+			"journal": "Journal of Alzheimer's Disease",
+			"year": "2018",
+			"keyFindings": "P021 markedly reduced tau pathology, attenuated Aβ, rescued episodic memory, and reduced mortality in AD mice."
+		},
+		{
+			"title": "P21 and BDNF/TrkB Pathway",
+			"journal": "Neuropharmacology",
+			"year": "2019",
+			"keyFindings": "Disease-modifying effect via BDNF/TrkB/PI3-K/AKT/GSK3β pathway; rescued neurogenesis and cognition."
+		},
+		{
+			"title": "P21 in Cognitive Aging",
+			"journal": "Neurobiology of Aging",
+			"year": "2017",
+			"keyFindings": "May reduce age-related cognitive decline by restoring BDNF expression and synaptic function."
+		},
+		{
+			"title": "P21 as Promising AD Drug Candidate",
+			"journal": "Alzheimer's Research & Therapy",
+			"year": "2020",
+			"keyFindings": "Beneficial effects in preclinical studies make P21 highly promising for AD drug development."
+		}
+	],
+	"categories": ["cognitive", "longevity"],
+	"quickStats": {
+		"typicalDose": "Research compound - dosing not established for humans",
+		"frequency": "Daily in animal research protocols",
+		"cycleDuration": "Not established - experimental peptide without human trials",
+		"storage": "Refrigerate at 2-8°C"
+	}
+}

@@ -1,0 +1,224 @@
+{
+	"id": "cyclic-glycine-proline",
+	"name": "Cyclic Glycine-Proline",
+	"subtitle": "IGF-1 Bioavailability Regulator & Neuroprotective Peptide",
+	"aliases": ["cGP"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "154.17 Da",
+		"length": "2 amino acids (cyclic)",
+		"sequence": "cyclo(Gly-Pro)",
+		"type": "Cyclic dipeptide (2,5-diketopiperazine)",
+		"halfLife": "Extended stability (more stable than linear GPE precursor)"
+	},
+	"overview": "Endogenous cyclic dipeptide found in plasma, breast milk, and cerebrospinal fluid. Functions as metabolite of IGF-1, regulating its bioavailability through competitive binding to IGFBP-3. Demonstrates neuroprotective, cognitive-enhancing, and cardioprotective properties supported by clinical trials.",
+	"mechanism": "Competes with IGF-1 for IGFBP-3 binding, normalizing bioavailable IGF-1 levels. Acts as positive allosteric modulator of AMPA and GABA-A receptors. Increases BDNF levels via Akt/MDM2-p53 pathway activation.",
+	"keyBenefits": [
+		"Neuroprotection and cognitive enhancement",
+		"IGF-1 optimization",
+		"Cardiovascular support",
+		"Metabolic health improvement",
+		"Blood-brain barrier penetration",
+		"Convenient oral administration"
+	],
+	"indications": [
+		{
+			"category": "Neurological",
+			"items": [
+				{
+					"name": "Cognitive Enhancement",
+					"description": "Higher cGP levels correlate with improved memory retention in elderly populations",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neuroprotection",
+					"description": "Protects neural stem cells from oxidative stress; efficacy demonstrated in stroke models",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Alzheimer's Disease",
+					"description": "Mouse studies show reduced amyloid plaque load and improved spatial memory",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Parkinson's Disease",
+					"description": "Clinical study showed increased CSF cGP and reduced anxiety/depression scores",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Type-2 Diabetes",
+					"description": "Clinical trial improved vascular complications and normalized HbA1c%",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Blood Pressure Regulation",
+					"description": "Demonstrated systolic blood pressure reduction in clinical observations",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Recovery",
+			"items": [
+				{
+					"name": "Stroke Recovery",
+					"description": "Higher cGP/IGF-1 ratios associated with favorable clinical outcomes",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Healthy Aging",
+					"description": "Maintained ratios correlate with preserved cognitive function with age",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Preferred route with excellent bioavailability and blood-brain barrier crossing.",
+			"protocols": [
+				{
+					"goal": "General cognitive support",
+					"dose": "20-40 μg",
+					"frequency": "1x daily",
+					"route": "Oral capsule"
+				},
+				{
+					"goal": "Neuroprotection/anti-aging",
+					"dose": "40-50 μg",
+					"frequency": "1x daily",
+					"route": "Oral capsule"
+				},
+				{
+					"goal": "Metabolic/cardiovascular support",
+					"dose": "40-100 μg",
+					"frequency": "1x daily",
+					"route": "Oral capsule"
+				},
+				{
+					"goal": "Via blackcurrant extract",
+					"dose": "300 mg BCA",
+					"frequency": "2x daily",
+					"route": "Oral capsule"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "IGF-1",
+			"status": "synergistic",
+			"notes": "cGP is metabolite of IGF-1; regulates bioavailability through competitive IGFBP-3 binding"
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different pathways; BPC-157 promotes tissue repair, cGP modulates IGF-1"
+		},
+		{
+			"peptide": "Semax",
+			"status": "compatible",
+			"notes": "Both offer neuroprotection and nootropic effects through distinct pathways"
+		},
+		{
+			"peptide": "Selank",
+			"status": "compatible",
+			"notes": "Complementary cognitive effects; Selank addresses anxiety, cGP optimizes IGF-1"
+		},
+		{
+			"peptide": "GH Secretagogues",
+			"status": "monitor",
+			"notes": "Both affect growth hormone/IGF-1 axis; monitor combined effects on levels"
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Possible subtle improvements in mental clarity"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced cognitive function and focus may become noticeable"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Neuroprotective and metabolic benefits accumulating"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Optimal IGF-1 regulation and sustained cognitive support"
+		}
+	],
+	"sideEffects": {
+		"common": [],
+		"rare": ["Individual sensitivity reactions"],
+		"stopSigns": [
+			"Allergic reactions (rash, difficulty breathing, swelling)",
+			"Unexpected blood glucose changes",
+			"Unusual fatigue or weakness"
+		],
+		"contraindications": [
+			"Consult healthcare provider if taking IGF-1 or growth hormone medications",
+			"Limited long-term human data available",
+			"Not studied in pregnancy"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party tested for purity and potency",
+			"Clear cGP content labeling (typically in micrograms per serving)",
+			"Natural blackcurrant-derived sources from New Zealand",
+			"Sealed containers protected from moisture and light"
+		],
+		"warning": ["Products lacking clear cGP content specification"],
+		"bad": [
+			"Extreme therapeutic claims unsupported by research",
+			"Vague concentration descriptions"
+		]
+	},
+	"references": [
+		{
+			"title": "IGF-1 Homeostasis Regulation Study",
+			"year": "2014",
+			"journal": "Scientific Reports",
+			"keyFindings": "cGP regulates IGF-1 bioavailability through IGFBP-3 competitive binding",
+			"url": "https://www.nature.com/articles/srep04388"
+		},
+		{
+			"title": "Alzheimer's Mouse Model Study",
+			"year": "2023",
+			"journal": "PMC",
+			"keyFindings": "Significantly improved spatial memory; reduced hippocampal plaques 42.3→14.5 per mm²",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9995210/"
+		},
+		{
+			"title": "Parkinson's Disease Clinical Study",
+			"year": "2018",
+			"journal": "PMC",
+			"keyFindings": "Blackcurrant supplementation increased CSF cGP 74%; reduced anxiety/depression",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6024688/"
+		},
+		{
+			"title": "Stroke Recovery & Cognitive Function Review",
+			"year": "2023",
+			"journal": "PMC",
+			"keyFindings": "Higher cGP/IGF-1 ratios associated with favorable stroke outcomes",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9919809/"
+		}
+	],
+	"categories": ["cognitive", "longevity"],
+	"quickStats": {
+		"typicalDose": "20-100 μg daily (or 300mg blackcurrant extract 2x daily)",
+		"frequency": "Once daily, preferably in the morning",
+		"cycleDuration": "4-12 weeks",
+		"storage": "Room temperature in sealed container, protected from moisture and light"
+	}
+}

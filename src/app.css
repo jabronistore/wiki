@@ -1,0 +1,746 @@
+@import '@fontsource-variable/inter/index.css';
+@import '@fontsource/source-serif-pro/400.css';
+@import '@fontsource/source-serif-pro/600.css';
+@import '@fontsource/source-serif-pro/700.css';
+@import '@fontsource/jetbrains-mono';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Peptide Database Brand Theme */
+html,
+body {
+	--font-sans: 'Inter Variable', 'Inter', system-ui, sans-serif;
+	--font-serif: 'Source Serif Pro', Georgia, serif;
+	--font-mono: 'JetBrains Mono', monospace;
+	width: 100%;
+	max-width: 100vw;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@layer base {
+	:root {
+		/* Light Mode - Ivory base */
+		--background: 60 14% 97%; /* Ivory Light #FAFAF7 */
+		--foreground: 60 3% 10%; /* Slate Dark #191919 */
+
+		--muted: 60 9% 92%; /* Ivory Medium #F0F0EB */
+		--muted-foreground: 60 2% 40%; /* Cloud Dark #666663 */
+
+		--popover: 0 0% 100%; /* White */
+		--popover-foreground: 60 3% 10%;
+
+		--card: 0 0% 100%; /* White */
+		--card-foreground: 60 3% 10%;
+
+		--border: 60 9% 90%; /* Ivory Dark #E5E4DF */
+		--input: 60 9% 90%;
+
+		/* Slate primary */
+		--primary: 60 2% 15%; /* Slate Medium #262625 */
+		--primary-foreground: 60 14% 97%;
+
+		/* Book Cloth accent */
+		--accent: 15 51% 58%; /* Book Cloth #CC785C */
+		--accent-foreground: 0 0% 100%;
+
+		--secondary: 60 9% 92%;
+		--secondary-foreground: 60 3% 10%;
+
+		/* Status colors */
+		--success: 158 45% 40%;
+		--success-foreground: 0 0% 100%;
+
+		--warning: 30 52% 66%; /* Kraft #D4A27F */
+		--warning-foreground: 60 3% 10%;
+
+		--destructive: 5 50% 51%; /* Error #BF4D43 */
+		--destructive-foreground: 0 0% 100%;
+
+		--ring: 210 68% 66%; /* Focus #61AAF2 */
+		--radius: 0.5rem;
+
+		/* Category colors - muted warm tones */
+		--healing: 158 45% 40%;
+		--growth-hormone: 210 50% 50%;
+		--weight-loss: 15 51% 58%;
+		--cognitive: 30 52% 66%;
+		--longevity: 340 40% 50%;
+		--skin: 320 35% 50%;
+		--immune: 158 45% 45%;
+		--sleep: 250 40% 55%;
+	}
+
+	.dark {
+		/* Dark Mode - Slate base */
+		--background: 60 3% 10%; /* Slate Dark #191919 */
+		--foreground: 60 9% 92%; /* Ivory Medium #F0F0EB */
+
+		--muted: 60 2% 15%; /* Slate Medium #262625 */
+		--muted-foreground: 60 2% 57%; /* Cloud Medium #91918D */
+
+		--popover: 60 2% 12%;
+		--popover-foreground: 60 9% 92%;
+
+		--card: 60 2% 12%;
+		--card-foreground: 60 9% 92%;
+
+		--border: 60 1% 25%; /* Slate Light #40403E */
+		--input: 60 1% 25%;
+
+		/* Ivory primary for dark mode */
+		--primary: 60 9% 92%; /* Ivory Medium */
+		--primary-foreground: 60 3% 10%;
+
+		/* Book Cloth accent */
+		--accent: 15 51% 58%;
+		--accent-foreground: 0 0% 100%;
+
+		--secondary: 60 2% 18%;
+		--secondary-foreground: 60 9% 92%;
+
+		--success: 158 40% 45%;
+		--success-foreground: 60 3% 10%;
+
+		--warning: 30 52% 66%;
+		--warning-foreground: 60 3% 10%;
+
+		--destructive: 5 50% 55%;
+		--destructive-foreground: 0 0% 100%;
+
+		--ring: 210 68% 66%;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+
+	body {
+		@apply bg-background text-foreground antialiased;
+		font-family: var(--font-sans);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: var(--font-serif);
+		@apply font-semibold tracking-tight;
+	}
+
+	h1 {
+		@apply text-4xl font-bold md:text-5xl lg:text-6xl;
+	}
+
+	h2 {
+		@apply text-2xl md:text-3xl lg:text-4xl;
+	}
+
+	h3 {
+		@apply text-xl md:text-2xl;
+	}
+}
+
+/* Elegant scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply rounded-full bg-muted-foreground/20;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	@apply bg-muted-foreground/40;
+}
+
+/* ============================================
+   BRAND COLOR SYSTEM
+   Using warm neutrals from brand palette
+   ============================================ */
+
+/* Status badge styles - Category badges */
+.badge-healing {
+	@apply border-success/20 bg-success/10 text-success;
+}
+
+.badge-growth-hormone {
+	@apply border-accent/20 bg-accent/10 text-accent;
+}
+
+.badge-weight-loss {
+	@apply border-warning/30 bg-warning/20 text-warning-foreground;
+}
+
+.badge-cognitive {
+	@apply border-warning/25 bg-warning/15 text-warning-foreground;
+}
+
+.badge-longevity {
+	@apply border-accent/25 bg-accent/15 text-accent;
+}
+
+/* Research status badges */
+.badge-extensively-studied {
+	@apply border-success/20 bg-success/10 text-success;
+}
+
+.badge-well-studied {
+	@apply border-success/20 bg-success/10 text-success;
+}
+
+.badge-moderate-research {
+	@apply border-accent/20 bg-accent/10 text-accent;
+}
+
+.badge-emerging {
+	@apply border-warning/25 bg-warning/15 text-warning-foreground;
+}
+
+.badge-fda-approved {
+	@apply border-success/30 bg-success/15 text-success;
+}
+
+/* ============================================
+   SEMANTIC STATUS CLASSES
+   For quality indicators, interactions, etc.
+   ============================================ */
+
+/* Section icon containers */
+.section-icon {
+	@apply flex h-10 w-10 items-center justify-center rounded-xl bg-accent/10 text-accent;
+}
+
+.section-icon-muted {
+	@apply flex h-10 w-10 items-center justify-center rounded-xl bg-muted text-muted-foreground;
+}
+
+/* Status indicators - Good/Success */
+.status-good {
+	@apply border-success/20 bg-success/10;
+}
+
+.status-good-text {
+	@apply text-success;
+}
+
+/* Status indicators - Warning/Caution */
+.status-warning {
+	@apply border-warning/25 bg-warning/15;
+}
+
+.status-warning-text {
+	@apply text-warning-foreground;
+}
+
+/* Status indicators - Bad/Danger */
+.status-danger {
+	@apply border-destructive/20 bg-destructive/10;
+}
+
+.status-danger-text {
+	@apply text-destructive;
+}
+
+/* Interaction status badges */
+.interaction-synergistic {
+	@apply border-success/20 bg-success/10 text-success;
+}
+
+.interaction-compatible {
+	@apply border-accent/20 bg-accent/10 text-accent;
+}
+
+.interaction-monitor {
+	@apply border-warning/25 bg-warning/15 text-warning-foreground;
+}
+
+.interaction-avoid {
+	@apply border-destructive/20 bg-destructive/10 text-destructive;
+}
+
+.interaction-requires-timing {
+	@apply border-border bg-muted text-muted-foreground;
+}
+
+/* Card hover effects */
+.card-hover {
+	@apply transition-all duration-200 ease-out;
+}
+
+.card-hover:hover {
+	@apply -translate-y-0.5 shadow-lg;
+}
+
+/* Prose styles for content */
+.prose-peptide {
+	@apply leading-relaxed text-foreground/90;
+}
+
+.prose-peptide h2 {
+	@apply mb-4 mt-12 border-b border-border pb-2;
+}
+
+.prose-peptide h3 {
+	@apply mb-3 mt-8;
+}
+
+.prose-peptide p {
+	@apply my-4;
+}
+
+.prose-peptide ul,
+.prose-peptide ol {
+	@apply my-4 pl-6;
+}
+
+.prose-peptide li {
+	@apply my-2;
+}
+
+/* Animation keyframes */
+@keyframes fade-in {
+	from {
+		opacity: 0;
+		transform: translateY(8px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes slide-in-right {
+	from {
+		opacity: 0;
+		transform: translateX(16px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.animate-fade-in {
+	animation: fade-in 0.4s ease-out forwards;
+}
+
+.animate-slide-in {
+	animation: slide-in-right 0.3s ease-out forwards;
+}
+
+/* Stagger animations */
+.stagger-1 {
+	animation-delay: 0.05s;
+}
+.stagger-2 {
+	animation-delay: 0.1s;
+}
+.stagger-3 {
+	animation-delay: 0.15s;
+}
+.stagger-4 {
+	animation-delay: 0.2s;
+}
+.stagger-5 {
+	animation-delay: 0.25s;
+}
+
+/* Focus states */
+:focus-visible {
+	@apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+}
+
+/* Glass effect - simplified */
+.glass {
+	@apply border border-border bg-card/90 backdrop-blur-sm;
+}
+
+.glass-strong {
+	@apply border-b border-border bg-card/95 backdrop-blur-md;
+}
+
+/* ============================================
+   SEARCH MODAL
+   ============================================ */
+
+.search-modal {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding-top: 10vh;
+}
+
+.search-backdrop {
+	position: fixed;
+	inset: 0;
+	background: hsl(var(--foreground) / 0.4);
+	backdrop-filter: blur(8px);
+	border: none;
+	cursor: default;
+	animation: search-backdrop-in 0.2s ease-out;
+}
+
+@keyframes search-backdrop-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.search-container {
+	position: relative;
+	width: 100%;
+	max-width: 32rem;
+	padding: 0 1rem;
+	animation: search-panel-in 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes search-panel-in {
+	from {
+		opacity: 0;
+		transform: scale(0.96) translateY(-8px);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1) translateY(0);
+	}
+}
+
+.search-panel {
+	background: hsl(var(--card));
+	border: 1px solid hsl(var(--border));
+	border-radius: 1rem;
+	box-shadow:
+		0 0 0 1px hsl(var(--border) / 0.5),
+		0 20px 40px -12px hsl(var(--foreground) / 0.25),
+		0 8px 16px -8px hsl(var(--foreground) / 0.1);
+	overflow: hidden;
+}
+
+.search-input-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	padding: 1rem 1.25rem;
+	border-bottom: 1px solid hsl(var(--border));
+}
+
+.search-icon {
+	flex-shrink: 0;
+	color: hsl(var(--accent));
+}
+
+.search-input {
+	flex: 1;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 1.0625rem;
+	font-weight: 450;
+	color: hsl(var(--foreground));
+	letter-spacing: -0.01em;
+}
+
+.search-input::placeholder {
+	color: hsl(var(--muted-foreground));
+	font-weight: 400;
+}
+
+.search-kbd {
+	display: none;
+	padding: 0.25rem 0.5rem;
+	background: hsl(var(--muted));
+	border: 1px solid hsl(var(--border));
+	border-radius: 0.375rem;
+	font-family: var(--font-mono);
+	font-size: 0.6875rem;
+	font-weight: 500;
+	color: hsl(var(--muted-foreground));
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+@media (min-width: 640px) {
+	.search-kbd {
+		display: inline-flex;
+	}
+}
+
+.search-results {
+	max-height: 24rem;
+	overflow-y: auto;
+}
+
+/* Empty state */
+.search-empty {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem 1.5rem;
+	text-align: center;
+}
+
+.search-empty-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 3rem;
+	height: 3rem;
+	margin-bottom: 1rem;
+	background: hsl(var(--muted));
+	border-radius: 0.75rem;
+	color: hsl(var(--muted-foreground));
+}
+
+.search-empty-title {
+	font-size: 0.9375rem;
+	font-weight: 500;
+	color: hsl(var(--foreground));
+	margin-bottom: 0.25rem;
+}
+
+.search-empty-hint {
+	font-size: 0.8125rem;
+	color: hsl(var(--muted-foreground));
+}
+
+/* Placeholder state */
+.search-placeholder {
+	padding: 2rem 1.5rem;
+	text-align: center;
+}
+
+.search-placeholder-text {
+	font-size: 0.875rem;
+	color: hsl(var(--muted-foreground));
+	margin-bottom: 1rem;
+}
+
+.search-suggestions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.search-suggestion-label {
+	font-size: 0.75rem;
+	font-weight: 500;
+	color: hsl(var(--muted-foreground));
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.search-suggestion {
+	padding: 0.375rem 0.75rem;
+	background: hsl(var(--muted));
+	border: 1px solid hsl(var(--border));
+	border-radius: 9999px;
+	font-size: 0.8125rem;
+	font-weight: 500;
+	color: hsl(var(--foreground));
+	cursor: pointer;
+	transition: all 0.15s ease;
+}
+
+.search-suggestion:hover {
+	background: hsl(var(--accent) / 0.1);
+	border-color: hsl(var(--accent) / 0.3);
+	color: hsl(var(--accent));
+}
+
+/* Results list */
+.search-results-header {
+	padding: 0.625rem 1.25rem 0.375rem;
+}
+
+.search-results-count {
+	font-size: 0.6875rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: hsl(var(--muted-foreground));
+}
+
+.search-results-list {
+	list-style: none;
+	padding: 0.25rem 0.5rem 0.5rem;
+	margin: 0;
+}
+
+.search-results-list li {
+	animation: search-result-in 0.2s ease-out backwards;
+	animation-delay: var(--delay, 0ms);
+}
+
+@keyframes search-result-in {
+	from {
+		opacity: 0;
+		transform: translateY(4px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.search-result-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	width: 100%;
+	padding: 0.75rem 1rem;
+	border: none;
+	border-radius: 0.625rem;
+	background: transparent;
+	text-align: left;
+	cursor: pointer;
+	transition: all 0.15s ease;
+}
+
+.search-result-item:hover {
+	background: hsl(var(--muted));
+}
+
+.search-result-item:hover .search-result-arrow {
+	opacity: 1;
+	transform: translateX(0);
+	color: hsl(var(--accent));
+}
+
+.search-result-content {
+	display: flex;
+	flex-direction: column;
+	gap: 0.125rem;
+	min-width: 0;
+}
+
+.search-result-name {
+	font-size: 0.9375rem;
+	font-weight: 500;
+	color: hsl(var(--foreground));
+}
+
+.search-result-subtitle {
+	font-size: 0.8125rem;
+	color: hsl(var(--muted-foreground));
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.search-result-arrow {
+	flex-shrink: 0;
+	width: 1rem;
+	height: 1rem;
+	color: hsl(var(--muted-foreground));
+	opacity: 0;
+	transform: translateX(-4px);
+	transition: all 0.15s ease;
+}
+
+/* Footer */
+.search-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+	padding: 0.75rem 1.25rem;
+	background: hsl(var(--muted) / 0.5);
+	border-top: 1px solid hsl(var(--border));
+}
+
+.search-footer-hint {
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+	font-size: 0.75rem;
+	color: hsl(var(--muted-foreground));
+}
+
+.search-footer-hint kbd {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 1.25rem;
+	height: 1.25rem;
+	padding: 0 0.25rem;
+	background: hsl(var(--background));
+	border: 1px solid hsl(var(--border));
+	border-radius: 0.25rem;
+	font-family: inherit;
+	font-size: 0.625rem;
+	font-weight: 500;
+	color: hsl(var(--muted-foreground));
+}
+
+/* ============================================
+   VIEW TRANSITIONS
+   Elegant page transitions using View Transitions API
+   ============================================ */
+
+/* Default transition timing */
+::view-transition-old(root),
+::view-transition-new(root) {
+	animation-duration: 0.25s;
+	animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Crossfade with subtle slide */
+::view-transition-old(root) {
+	animation-name: fade-out-slide;
+}
+
+::view-transition-new(root) {
+	animation-name: fade-in-slide;
+}
+
+@keyframes fade-out-slide {
+	from {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateY(-8px);
+	}
+}
+
+@keyframes fade-in-slide {
+	from {
+		opacity: 0;
+		transform: translateY(8px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+	::view-transition-old(root),
+	::view-transition-new(root) {
+		animation-duration: 0.01ms;
+	}
+}

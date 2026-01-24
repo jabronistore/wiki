@@ -1,0 +1,233 @@
+{
+	"id": "pancragen",
+	"name": "Pancragen",
+	"subtitle": "KEDW Tetrapeptide | Pancreas Bioregulator",
+	"aliases": [
+		"KEDW",
+		"Lys-Glu-Asp-Trp",
+		"Pancreas Bioregulator",
+		"Pancreatic Peptide",
+		"Suprefort"
+	],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "576 Da",
+		"formula": "C26H36N6O9",
+		"length": "4 amino acids",
+		"type": "Tetrapeptide bioregulator",
+		"sequence": "Lys-Glu-Asp-Trp",
+		"halfLife": "Not established",
+		"halfLifeSeconds": null
+	},
+	"overview": "Pancragen is a Khavinson bioregulator tetrapeptide (KEDW) originally isolated from bovine pancreatic cells. Developed at Russia's St. Petersburg Institute of Bioregulation and Gerontology, it directly interacts with DNA to regulate pancreatic gene expression. Research in old rhesus monkeys demonstrated that Pancragen corrected impaired glucose tolerance, normalized insulin and C-peptide levels, and improved endocrine pancreatic function. It is considered safe and effective for age-related metabolic disturbances.",
+	"mechanism": "Pancragen works through epigenetic regulation by interacting with chromatin complexes and DNA structures to modulate pancreatic gene expression. Research shows it upregulates critical transcription factors for pancreatic cell maturation including Pdx1, Pax6, Ptf1a, Foxa2, Nkx2.2, and Pax4. Its small size (4 amino acids, ~576 Da) allows it to traverse cellular membranes and interact with nuclear components including histones and DNA.",
+	"keyBenefits": [
+		"Corrects impaired glucose tolerance",
+		"Normalizes insulin levels",
+		"Normalizes C-peptide levels",
+		"Improves endocrine pancreatic function",
+		"Supports pancreatic cell differentiation",
+		"Regulates melatonin expression",
+		"Reduces metabolic syndrome incidence",
+		"Upregulates key pancreatic transcription factors"
+	],
+	"indications": [
+		{
+			"category": "Metabolic Support",
+			"items": [
+				{
+					"name": "Impaired Glucose Tolerance",
+					"description": "Corrects age-related glucose tolerance disturbances in primate studies.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Metabolic Syndrome",
+					"description": "Reduces incidence and magnitude of metabolic syndrome.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Blood Sugar Regulation",
+					"description": "Helps control blood sugar through pancreatic function support.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Pancreatic Health",
+			"items": [
+				{
+					"name": "Pancreatic Cell Differentiation",
+					"description": "Impacts differentiation of pancreatic cells during aging.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Endocrine Function",
+					"description": "Improves endocrine function of the pancreas.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Age-Related Pancreatic Decline",
+					"description": "Addresses age-related imbalance of pancreatic function.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Gene Expression Regulation",
+					"description": "Directly interacts with DNA to regulate pancreatic gene expression.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. Short peptides can be absorbed orally and reach target tissues. Typical protocol involves 10-20 day cycles.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Short peptide allows GI absorption",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration. Primate studies used intramuscular injection.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "0.05 mg/kg",
+					"frequency": "Daily for 10 days",
+					"route": "IM"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing", "Used in primate studies"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "Livagen",
+			"status": "compatible",
+			"notes": "Different organ targets; can be used in comprehensive bioregulator protocols."
+		},
+		{
+			"peptide": "Vilon",
+			"status": "compatible",
+			"notes": "Part of Khavinson bioregulator family; targets different tissue."
+		},
+		{
+			"peptide": "GLP-1 agonists",
+			"status": "unknown",
+			"notes": "Both affect glucose metabolism; interaction unknown."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Gene expression modulation begins"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Glucose tolerance and pancreatic function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual blood sugar changes", "Signs of hypoglycemia"],
+		"contraindications": [
+			"Active pancreatic emergencies (seek medical care)",
+			"Known hypersensitivity",
+			"Pregnancy or breastfeeding",
+			"Type 1 diabetes (consult physician)"
+		],
+		"monitoring": [
+			"Blood glucose monitoring recommended",
+			"Consider HbA1c testing with long-term use"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Correction of Impaired Glucose Tolerance Using Tetrapeptide (Pancragen) in Old Female Rhesus Monkeys",
+			"journal": "PubMed",
+			"year": "2017",
+			"keyFindings": "Pancragen normalized insulin and C-peptide levels, suggesting recovery of disturbed glucose tolerance in old animals."
+		},
+		{
+			"title": "Tetrapeptide KEDW Interacts with DNA and Regulates Gene Expression",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2015",
+			"keyFindings": "KEDW directly interacts with DNA and regulates pancreatic gene expression."
+		},
+		{
+			"title": "Impacts of Pancragen on Differentiation of Pancreatic Cells During Aging",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2013",
+			"keyFindings": "Pancragen affects pancreatic cell differentiation during aging process."
+		},
+		{
+			"title": "Prospects of Using Pancragen for Metabolic Disorders in Elderly",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2011",
+			"keyFindings": "Pancragen shows promise for correction of metabolic disorders in elderly people."
+		}
+	],
+	"categories": ["longevity", "metabolic"],
+	"quickStats": {
+		"typicalDose": "10-20mg daily",
+		"frequency": "Daily for 10-20 days per cycle",
+		"cycleDuration": "10-20 days",
+		"storage": "Capsules at room temperature; reconstituted injectable at 2-8°C refrigerated"
+	}
+}

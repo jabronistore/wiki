@@ -1,0 +1,253 @@
+{
+	"id": "mk-677",
+	"name": "MK-677",
+	"subtitle": "Ghrelin Receptor Agonist | Oral Growth Hormone Secretagogue",
+	"aliases": ["Ibutamoren"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "624.77 Da",
+		"type": "Non-peptide ghrelin receptor agonist",
+		"modifications": ["Oral bioavailability >60%"],
+		"halfLife": "~24 hours",
+		"halfLifeSeconds": 86400
+	},
+	"overview": "Oral compound activating ghrelin receptors to trigger growth hormone release while preserving natural production. Achieves superior oral bioavailability exceeding 60% with a 24-hour half-life, making it unique among GH secretagogues for its convenient once-daily oral dosing.",
+	"mechanism": "Selectively binds GHS-R1a receptors in hypothalamus and pituitary, triggering pulsatile growth hormone release while maintaining natural circadian patterns.",
+	"keyBenefits": [
+		"97% increase in 24-hour growth hormone secretion",
+		"40-72% elevation in IGF-1 levels",
+		"Enhanced sleep quality with improved REM patterns",
+		"Preferential lean tissue gains of 1.1-2.7kg over 8-12 months",
+		"15% basal metabolic rate increase within 2 weeks",
+		"Oral administration (no injections required)"
+	],
+	"indications": [
+		{
+			"category": "Growth Hormone",
+			"items": [
+				{
+					"name": "GH Restoration",
+					"description": "Restores youthful growth hormone levels in elderly subjects with 97% increase in 24-hour secretion.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "IGF-1 Enhancement",
+					"description": "Sustained 40-72% IGF-1 elevation over extended periods.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sleep Enhancement",
+					"description": "20% REM increase in younger adults; 50% improvement in elderly.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Muscle Preservation",
+					"description": "Demonstrates +2.69g/day nitrogen retention versus -8.97g/day placebo, protecting lean mass during caloric restriction.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Fat-Free Mass",
+					"description": "Increases fat-free mass with preferential lean tissue accrual.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Metabolic Rate",
+					"description": "15% basal metabolic rate elevation documented at 2 weeks.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Bone Health",
+			"items": [
+				{
+					"name": "Bone Formation",
+					"description": "39-45% increase in bone formation markers within 6-8 weeks.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Optimal bioavailability eliminates injection requirements with convenient daily dosing. Take at bedtime on empty stomach for best results.",
+			"protocols": [
+				{
+					"goal": "Body composition/anti-aging",
+					"dose": "25mg",
+					"frequency": "1x daily",
+					"route": "Oral (bedtime, empty stomach)"
+				},
+				{
+					"goal": "Sleep quality improvement",
+					"dose": "25mg",
+					"frequency": "1x nightly",
+					"route": "Oral (30 minutes before bed)"
+				},
+				{
+					"goal": "Conservative initiation",
+					"dose": "12.5mg",
+					"frequency": "1x daily",
+					"route": "Oral (assess tolerance)"
+				}
+			],
+			"keyBenefits": [
+				"No injections required",
+				"Room temperature storage",
+				"Convenient once-daily dosing"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "CJC-1295",
+			"status": "synergistic",
+			"notes": "Complementary GH pathways providing combined pulsatile and baseline elevation."
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "synergistic",
+			"notes": "Both stimulate GH release through different mechanisms."
+		},
+		{
+			"peptide": "GHRP-2",
+			"status": "synergistic",
+			"notes": "MK-677 baseline elevation combines with GHRP-2 pulsatile spikes."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "compatible",
+			"notes": "Non-competing mechanisms enhancing recovery effects."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Systemic growth factors complement localized healing."
+		},
+		{
+			"peptide": "HGH",
+			"status": "avoid",
+			"notes": "Redundant effects without proportional benefits."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "MK-677 decreases insulin sensitivity; requires blood glucose monitoring."
+		},
+		{
+			"peptide": "LGD-4033",
+			"status": "monitor",
+			"notes": "Case report documents 85.7% testosterone suppression and significant liver enzyme elevation when combined."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Improved sleep quality, vivid dreams, possible appetite increase"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced recovery, better sleep architecture, initial body composition changes"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Noticeable lean mass gains, continued sleep benefits"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Maximum body composition improvements, sustained GH elevation"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Appetite stimulation (>50% of users)",
+			"Water retention (30-40%)",
+			"Lethargy (20-30%)",
+			"Fasting glucose elevation (5-15mg/dL)"
+		],
+		"stopSigns": [
+			"Shortness of breath, chest pain, or unusual fatigue",
+			"Blood glucose levels >100mg/dL or diabetes symptoms",
+			"Liver enzyme elevation (ALT/AST >2x upper normal)",
+			"Severe fluid retention or unexplained swelling",
+			"Any concerning cardiovascular symptoms"
+		],
+		"contraindications": [
+			"Heart disease or congestive heart failure",
+			"Diabetes or pre-diabetes",
+			"Active cancer",
+			"Severe cardiovascular disease",
+			"Pregnancy or breastfeeding"
+		],
+		"monitoring": [
+			"Blood glucose and HbA1c",
+			"Liver function tests",
+			"IGF-1 levels",
+			"Blood pressure"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade capsules with professional labeling",
+			"Batch numbers and expiration dates",
+			"Third-party testing documentation",
+			"Certificate of analysis showing >98% purity"
+		],
+		"warning": ["Products labeled 'for research only' may lack quality control"],
+		"bad": [
+			"Dietary supplement claims (FDA prohibits MK-677 in supplements)",
+			"Unknown purity or source without certificates of analysis",
+			"Unusually low prices suggesting counterfeit product"
+		]
+	},
+	"references": [
+		{
+			"title": "Growth Hormone Stimulation in Elderly",
+			"year": "1996",
+			"keyFindings": "25mg oral daily for 2 weeks showed 97% increase in 24-hour GH secretion in elderly adults."
+		},
+		{
+			"title": "Body Composition in Obese Subjects",
+			"year": "1998",
+			"keyFindings": "25mg oral daily for 2 months increased fat-free mass and energy expenditure in obese adults."
+		},
+		{
+			"title": "Reversal of Diet-Induced Catabolism",
+			"year": "1998",
+			"keyFindings": "25mg oral daily for 7 days showed nitrogen retention of +2.69g/day versus placebo -8.97g/day."
+		},
+		{
+			"title": "Sleep Quality Improvement Study",
+			"year": "1997",
+			"keyFindings": "25mg oral daily for 1 week showed 20% REM increase in young adults; 50% in elderly."
+		},
+		{
+			"title": "Bone Turnover Markers Study",
+			"year": "1999",
+			"keyFindings": "25mg oral daily for 2 months showed 39-45% increase in bone formation markers in elderly adults."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "FDA Warning: Potential Health Risks of MK-677",
+			"date": "July 2024",
+			"source": "DEA Get Smart About Drugs",
+			"summary": "Official communication highlighting significant cardiovascular risks and investigational drug status."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss", "sleep"],
+	"quickStats": {
+		"typicalDose": "Start 12.5mg daily, increase to 25mg based on tolerance",
+		"frequency": "Once daily, preferably at bedtime on empty stomach",
+		"cycleDuration": "8-12 weeks for body composition goals",
+		"storage": "Room temperature in cool, dry place; no refrigeration required"
+	}
+}

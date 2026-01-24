@@ -1,0 +1,262 @@
+{
+	"id": "hexarelin",
+	"name": "Hexarelin",
+	"subtitle": "Examorelin | Synthetic Growth Hormone Secretagogue",
+	"aliases": ["Examorelin", "HEX", "EP-23905"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "887 Da",
+		"length": "6 amino acids",
+		"type": "Synthetic hexapeptide",
+		"sequence": "His-D-2-methyl-Trp-Ala-Trp-D-Phe-Lys-NH2",
+		"halfLife": "1-2 hours",
+		"halfLifeSeconds": 5400
+	},
+	"overview": "Hexarelin is one of the most potent synthetic growth hormone secretagogues available. It stimulates GH release by binding to the GHS-R1a receptor in the pituitary and hypothalamus, mimicking the action of ghrelin. Notably, Hexarelin demonstrates synergistic effects when combined with GHRH, producing GH responses greater than the arithmetic sum of either peptide alone. It also shows unique cardioprotective properties mediated through the CD36 receptor.",
+	"mechanism": "Hexarelin binds to the growth hormone secretagogue receptor 1a (GHS-R1a) in the brain and pituitary gland. This binding initiates a signaling cascade that stimulates somatotroph cells in the anterior pituitary to produce and release growth hormone. Hexarelin also has slight, dose-dependent effects on prolactin, ACTH, and cortisol release. Its cardioprotective effects are mediated through CD36 receptor activation and modulation of calcium channels in cardiomyocytes.",
+	"keyBenefits": [
+		"Most potent GHRP for GH stimulation",
+		"Powerful synergy with GHRH peptides",
+		"Cardioprotective effects via CD36 receptor",
+		"Enhanced muscle growth and strength",
+		"Improved fat metabolism",
+		"Better recovery and tissue repair",
+		"Maintains natural GH pulsatility",
+		"Stable against proteolytic enzymes"
+	],
+	"indications": [
+		{
+			"category": "Growth Hormone Enhancement",
+			"items": [
+				{
+					"name": "GH Secretion",
+					"description": "Most potent GHRP for stimulating endogenous growth hormone release from the pituitary.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Synergy with GHRH",
+					"description": "Produces synergistic GH release when combined with GHRH, greater than sum of individual effects.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "IGF-1 Elevation",
+					"description": "Significant increases in IGF-1 levels through enhanced GH secretion.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cardiovascular",
+			"items": [
+				{
+					"name": "Cardioprotection",
+					"description": "Protective effects on cardiac tissue mediated through CD36 receptor activation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cardiomyocyte Protection",
+					"description": "Reduces apoptosis of cardiomyocytes and controls cardiac action potential.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Calcium Channel Modulation",
+					"description": "Cardiotropic effects mediated by elevation of Ca2+ influx through voltage-gated calcium channels.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Fat Metabolism",
+					"description": "Beneficial effects on lipid metabolism via CD36 receptor in non-obese insulin-resistant models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Body Composition",
+					"description": "Improved lean mass to fat ratio through GH and IGF-1 elevation.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous or intramuscular injection. Hexarelin is rapidly absorbed after subcutaneous administration and demonstrates stability against proteolytic enzymes. Best administered on empty stomach.",
+			"protocols": [
+				{
+					"goal": "GH optimization",
+					"dose": "100 mcg",
+					"frequency": "2-3x daily",
+					"route": "SubQ or IM"
+				},
+				{
+					"goal": "Enhanced results",
+					"dose": "200 mcg",
+					"frequency": "2-3x daily",
+					"route": "SubQ or IM"
+				},
+				{
+					"goal": "With GHRH (synergy)",
+					"dose": "100 mcg each",
+					"frequency": "2-3x daily",
+					"route": "SubQ (combined)"
+				},
+				{
+					"goal": "Cardioprotection",
+					"dose": "100-200 mcg",
+					"frequency": "1-2x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes (0.5-1 mL)",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator, use within 28 days"
+				]
+			},
+			"keyBenefits": [
+				"Administer on empty stomach for best GH release",
+				"Half-life approximately 75 minutes",
+				"Stable against proteolytic breakdown",
+				"Can combine with GHRH for synergistic effects"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "CJC-1295",
+			"status": "synergistic",
+			"notes": "Powerful synergy; combination produces GH response greater than sum of individual effects."
+		},
+		{
+			"peptide": "GHRH 1-29",
+			"status": "synergistic",
+			"notes": "Research confirms synergistic GH release when co-administered."
+		},
+		{
+			"peptide": "GHRP-2",
+			"status": "compatible",
+			"notes": "Similar mechanism; typically not stacked together but can be alternated."
+		},
+		{
+			"peptide": "GHRP-6",
+			"status": "compatible",
+			"notes": "Same receptor target; Hexarelin is more potent with less appetite stimulation."
+		},
+		{
+			"peptide": "Ipamorelin",
+			"status": "compatible",
+			"notes": "Both are GHRPs; Hexarelin is more potent but may have more side effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Immediately",
+			"effects": "GH spike within 15-30 minutes of injection"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Improved sleep quality and recovery"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Enhanced energy and well-being"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Noticeable improvements in body composition"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Maximum benefits; consider cycling to prevent desensitization"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Increased appetite (less than GHRP-6)",
+			"Water retention",
+			"Tingling or numbness",
+			"Tiredness after injection",
+			"Mild headache"
+		],
+		"rare": ["Elevated cortisol levels", "Elevated prolactin levels", "Elevated ACTH levels"],
+		"stopSigns": [
+			"Severe or persistent headaches",
+			"Unusual swelling",
+			"Signs of carpal tunnel syndrome",
+			"Allergic reactions"
+		],
+		"contraindications": [
+			"Active cancer or history of cancer",
+			"Pregnancy or breastfeeding",
+			"Pituitary disorders",
+			"WADA prohibited for competitive athletes"
+		],
+		"monitoring": [
+			"May cause receptor desensitization with prolonged use",
+			"Consider cycling (8-12 weeks on, 4 weeks off)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution",
+			"Intact vacuum seal on vial"
+		],
+		"warning": ["Slight clumping that dissolves easily"],
+		"bad": [
+			"Discolored or yellow powder",
+			"Cloudy solution after reconstitution",
+			"Particles or precipitates in solution"
+		]
+	},
+	"references": [
+		{
+			"title": "Hexarelin Improves Lipid Metabolic Aberrations in Insulin-Resistant Mice",
+			"journal": "Endocrinology",
+			"year": "2017",
+			"keyFindings": "Hexarelin treatment improved lipid metabolism via CD36 receptor in non-obese insulin-resistant MKR mice."
+		},
+		{
+			"title": "Effect of Repeated Hexarelin Administration on GH Responsivity",
+			"journal": "European Journal of Endocrinology",
+			"year": "1996",
+			"keyFindings": "Demonstrated synergistic GH response when hexarelin co-administered with GHRH, greater than arithmetic sum."
+		},
+		{
+			"title": "Hexarelin Modulates GHS-R1a Expression",
+			"journal": "Neuroendocrinology",
+			"year": "2004",
+			"keyFindings": "Hexarelin significantly increased pituitary and hypothalamic GHS-R1a mRNA levels."
+		},
+		{
+			"title": "Kinetics and Disposition of Hexarelin in Rats",
+			"journal": "Drug Metabolism and Disposition",
+			"year": "1999",
+			"keyFindings": "Half-life of 75.9 min; rapidly absorbed subcutaneously; stable against proteolytic enzymes."
+		}
+	],
+	"categories": ["growth-hormone", "weight-loss"],
+	"quickStats": {
+		"typicalDose": "100-200 mcg per injection",
+		"frequency": "2-3 times daily for optimal GH pulses",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Lyophilized: Room temperature. Reconstituted: 2-8°C, use within 28 days"
+	}
+}

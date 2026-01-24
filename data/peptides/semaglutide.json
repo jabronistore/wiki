@@ -1,0 +1,334 @@
+{
+	"id": "semaglutide",
+	"name": "Semaglutide",
+	"subtitle": "GLP-1 Receptor Agonist | Weight Loss & Diabetes",
+	"aliases": ["Ozempic", "Wegovy", "Rybelsus"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "4,113.64 Da",
+		"length": "31 amino acids",
+		"type": "GLP-1 receptor agonist",
+		"sequence": "His-Aib-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Val-Ser-Ser-Tyr-Leu-Glu-Gly-Gln-Ala-Ala-Lys-Glu-Phe-Ile-Ala-Trp-Leu-Val-Arg-Gly-Arg-Gly",
+		"modifications": ["Acylated with C18 fatty diacid via γ-Glu spacer"],
+		"halfLife": "~7 days (168 hours)",
+		"halfLifeSeconds": 604800
+	},
+	"overview": "Long-acting GLP-1 receptor agonist approved for type 2 diabetes and chronic weight management. Over 17,000 trial participants have demonstrated significant efficacy through appetite suppression and glycemic control. The 7-day half-life enables convenient weekly dosing.",
+	"mechanism": "Mimics native GLP-1, binding to receptors to stimulate glucose-dependent insulin secretion, suppress glucagon, slow gastric emptying, and reduce appetite via hypothalamic pathways.",
+	"keyBenefits": [
+		"15-20% average body weight reduction",
+		"Established cardiovascular protection",
+		"Convenient once-weekly dosing options",
+		"Comprehensive safety data from extensive trials",
+		"Flexible injectable and oral formulations"
+	],
+	"indications": [
+		{
+			"category": "Weight Loss",
+			"items": [
+				{
+					"name": "Clinically Significant Weight Reduction",
+					"description": "FDA-approved for chronic weight management with average 15-20% body weight loss in clinical trials.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Appetite and Craving Control",
+					"description": "Reduces hunger and food cravings through central nervous system GLP-1 receptor activation.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sustained Weight Maintenance",
+					"description": "Long-term studies show maintained weight loss with continued treatment over 2+ years.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Diabetes",
+			"items": [
+				{
+					"name": "Glycemic Control",
+					"description": "FDA-approved for type 2 diabetes with HbA1c reductions of 1.5-2% in clinical trials.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Cardiovascular Protection",
+					"description": "Proven 26% reduction in cardiovascular death, MI, or stroke in high-risk diabetes patients.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Beta Cell Preservation",
+					"description": "Improves insulin secretion and may preserve pancreatic beta cell function.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Metabolic Syndrome Improvement",
+					"description": "Addresses multiple components: weight, glucose, blood pressure, and lipids.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "NASH/Fatty Liver",
+					"description": "Emerging evidence for improvements in non-alcoholic fatty liver disease.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Inflammation Reduction",
+					"description": "Decreases systemic inflammation markers independent of weight loss.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Pre-filled pen devices for once-weekly subcutaneous injection. Brands include Ozempic (diabetes) and Wegovy (weight loss).",
+			"protocols": [
+				{
+					"goal": "Weight Loss Initiation",
+					"dose": "0.25mg",
+					"frequency": "Weekly x 4 weeks, then increase",
+					"route": "Subcutaneous"
+				},
+				{
+					"goal": "Weight Loss Maintenance",
+					"dose": "2.4mg",
+					"frequency": "Weekly (after 16-week titration)",
+					"route": "Subcutaneous"
+				},
+				{
+					"goal": "Diabetes Management",
+					"dose": "0.5-1mg",
+					"frequency": "Weekly",
+					"route": "Subcutaneous"
+				},
+				{
+					"goal": "Cardiovascular Protection",
+					"dose": "0.5-1mg",
+					"frequency": "Weekly",
+					"route": "Subcutaneous"
+				},
+				{
+					"goal": "Tolerability-Based",
+					"dose": "0.25-2.4mg",
+					"frequency": "Weekly (individualized)",
+					"route": "Subcutaneous"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Semaglutide pre-filled pen or vial",
+					"Pen needles (if using pen device)",
+					"Alcohol swabs",
+					"Sharps disposal container",
+					"Injection site rotation chart"
+				],
+				"steps": [
+					"If using pre-filled pen, attach new needle and prime per instructions",
+					"If using vial, draw prescribed dose with appropriate syringe",
+					"Clean injection site with alcohol swab and let dry",
+					"Inject subcutaneously at 90-degree angle (45-degree if lean)",
+					"Hold for 6 seconds after injection to ensure full dose delivery",
+					"Dispose of needle safely and rotate injection sites weekly"
+				]
+			},
+			"keyBenefits": [
+				"Once-weekly dosing",
+				"Abdomen, thigh, or upper arm injection sites",
+				"Pre-filled pens available"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Rybelsus tablets use SNAC technology for enhanced absorption. Requires strict administration protocol.",
+			"protocols": [
+				{
+					"goal": "Diabetes Initiation",
+					"dose": "3mg",
+					"frequency": "Daily x 30 days",
+					"route": "Oral (empty stomach)"
+				},
+				{
+					"goal": "Standard Diabetes Dose",
+					"dose": "7mg",
+					"frequency": "Once daily",
+					"route": "Oral (empty stomach)"
+				},
+				{
+					"goal": "Maximum Diabetes Dose",
+					"dose": "14mg",
+					"frequency": "Once daily",
+					"route": "Oral (empty stomach)"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Rybelsus tablets (3mg, 7mg, or 14mg)",
+					"Plain water only (maximum 4 ounces/120mL)",
+					"Timer or alarm for 30-minute wait"
+				],
+				"steps": [
+					"Take first thing in morning on completely empty stomach",
+					"Swallow tablet whole with no more than 4 ounces plain water",
+					"Do not crush, chew, or split tablet",
+					"Wait at least 30 minutes before eating, drinking, or taking other medications",
+					"After 30 minutes, resume normal activities and meals",
+					"Take at same time each day for consistency"
+				]
+			},
+			"keyBenefits": [
+				"No injection required",
+				"Daily dosing maintains consistent levels",
+				"SNAC technology enhances absorption"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Insulin",
+			"status": "monitor",
+			"notes": "May increase hypoglycemia risk when combined; requires blood glucose monitoring."
+		},
+		{
+			"peptide": "Tirzepatide",
+			"status": "avoid",
+			"notes": "Both are incretin mimetics with overlapping mechanisms; concurrent use increases side effects."
+		},
+		{
+			"peptide": "Cagrilintide",
+			"status": "synergistic",
+			"notes": "Combined as CagriSema in clinical trials for enhanced weight loss efficacy."
+		},
+		{
+			"peptide": "Metformin",
+			"status": "compatible",
+			"notes": "Commonly used together for diabetes management with good safety profile."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No contraindications; may help with GI side effects."
+		},
+		{
+			"peptide": "Sulfonylureas",
+			"status": "monitor",
+			"notes": "Increased hypoglycemia risk; may require sulfonylurea dose reduction."
+		},
+		{
+			"peptide": "Oral Medications",
+			"status": "requires-timing",
+			"notes": "Delayed gastric emptying may affect absorption of oral medications."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-4",
+			"effects": "Mild appetite reduction, possible nausea during initial dose"
+		},
+		{
+			"period": "Month 2-3",
+			"effects": "Noticeable weight loss (5-10% typical), improved satiety"
+		},
+		{
+			"period": "Month 4-6",
+			"effects": "Continued weight loss (10-15% common), stable glucose levels"
+		},
+		{
+			"period": "Month 6+",
+			"effects": "Weight loss plateau possible, focus on maintenance"
+		},
+		{
+			"period": "Diabetes",
+			"effects": "Blood sugar improvements within 1-2 weeks"
+		}
+	],
+	"sideEffects": {
+		"common": ["Nausea", "Diarrhea", "Vomiting", "Constipation", "Abdominal pain"],
+		"stopSigns": [
+			"Severe persistent abdominal pain (possible pancreatitis)",
+			"Persistent vomiting preventing fluid intake",
+			"Signs of thyroid tumor (neck lump, hoarseness, trouble swallowing)",
+			"Severe allergic reaction (rash, itching, difficulty breathing)",
+			"Vision changes (possible diabetic retinopathy progression)",
+			"Severe hypoglycemia (if combined with insulin/sulfonylureas)",
+			"Kidney problems (decreased urination, swelling)"
+		],
+		"contraindications": [
+			"Personal or family history of medullary thyroid cancer",
+			"Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)",
+			"Pregnancy or breastfeeding",
+			"History of pancreatitis"
+		],
+		"monitoring": [
+			"Blood glucose levels",
+			"Signs of pancreatitis",
+			"Thyroid nodules",
+			"Kidney function"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"FDA-approved branded products (Ozempic, Wegovy, Rybelsus)",
+			"Proper refrigeration verified and not expired",
+			"Clear, colorless to slightly yellow solution in pen/vial"
+		],
+		"warning": ["Compounded versions - FDA warns about untested compounded semaglutide"],
+		"bad": [
+			"Cloudy or discolored solution",
+			"Particles or precipitation visible",
+			"Non-pharmacy sources or unverified online sellers"
+		]
+	},
+	"references": [
+		{
+			"title": "STEP 1 Trial - Weight Management",
+			"year": "2021",
+			"participants": "1,961 participants",
+			"keyFindings": "14.9% average weight loss versus 2.4% with placebo over 68 weeks with 2.4mg weekly."
+		},
+		{
+			"title": "SELECT Cardiovascular Outcomes",
+			"year": "2023",
+			"participants": "17,604 participants",
+			"keyFindings": "20% reduction in major adverse cardiovascular events over 5 years with 2.4mg weekly."
+		},
+		{
+			"title": "SUSTAIN Diabetes Program",
+			"year": "2016-2019",
+			"keyFindings": "Average HbA1c reductions of 1.5-1.8% across multiple trials."
+		},
+		{
+			"title": "STEP 5 Two-Year Maintenance",
+			"year": "2022",
+			"participants": "304 participants",
+			"keyFindings": "Sustained weight loss of 15.2% at week 104 with 2.4mg weekly."
+		},
+		{
+			"title": "PIONEER Oral Semaglutide",
+			"year": "2019",
+			"participants": "9,543 participants",
+			"keyFindings": "Oral efficacy comparable to injectable formulations at 3-14mg daily."
+		},
+		{
+			"title": "STEP TEENS Adolescent Study",
+			"year": "2022",
+			"participants": "201 adolescents (12-17 years)",
+			"keyFindings": "16.1% BMI reduction in adolescent population over 68 weeks."
+		}
+	],
+	"categories": ["weight-loss", "metabolic"],
+	"quickStats": {
+		"typicalDose": "0.25mg starting, titrate to 1-2.4mg weekly",
+		"frequency": "Once weekly (same day each week)",
+		"cycleDuration": "Ongoing therapy as prescribed",
+		"storage": "Pen: 2-8°C before first use, room temp up to 56 days after. Compounded: 2-8°C"
+	}
+}

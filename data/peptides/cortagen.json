@@ -1,0 +1,220 @@
+{
+	"id": "cortagen",
+	"name": "Cortagen",
+	"subtitle": "AEDP | Brain Cortex Bioregulator Peptide",
+	"aliases": ["AEDP", "Ala-Glu-Asp-Pro", "Brain Cortex Bioregulator"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "416 Da",
+		"length": "4 amino acids",
+		"type": "Tetrapeptide bioregulator",
+		"sequence": "Ala-Glu-Asp-Pro",
+		"halfLife": "Minutes (short peptide); effects persist via epigenetic changes"
+	},
+	"overview": "Cortagen is a Khavinson bioregulator tetrapeptide (AEDP) with primary effects on the brain and central nervous system. Developed at Russia's St. Petersburg Institute of Bioregulation and Gerontology, it regulates inflammatory responses in the nervous system, restores balance between pro- and anti-oxidative processes, and stimulates interleukin-2 expression. Research shows potential benefits for ischemic brain injury recovery, nerve regeneration, and reducing autoimmune reactions affecting the CNS.",
+	"mechanism": "Cortagen works through epigenetic regulation by penetrating cell nuclei and interacting with DNA to modulate gene expression. In the heart, it affects genes including Pass1, Hsc70, Bmp2, Wnt4, Eps15, and Eps15-rs. It powerfully regulates inflammatory responses in the nervous system, helping restore proper balance between oxidative and anti-oxidative processes. Cortagen stimulates IL-2 expression and helps regulate immune function, particularly by reducing autoimmune reactions.",
+	"keyBenefits": [
+		"Regulates central nervous system function",
+		"Powerful anti-inflammatory effects in brain",
+		"Supports nerve regeneration",
+		"Restores oxidative balance",
+		"Stimulates interleukin-2 expression",
+		"Reduces autoimmune reactions",
+		"Beneficial after ischemic brain injury",
+		"Modulates gene expression in neural tissue"
+	],
+	"indications": [
+		{
+			"category": "Neurological Support",
+			"items": [
+				{
+					"name": "Ischemic Brain Injury Recovery",
+					"description": "Shows beneficial long-term results in research following ischemic brain injury.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Nerve Regeneration",
+					"description": "Research demonstrates effects on restoration of injured nerve function.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Neuroinflammation",
+					"description": "Regulates inflammatory response in the nervous system.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Immune Regulation",
+			"items": [
+				{
+					"name": "Autoimmune Modulation",
+					"description": "Helps regulate immune function by reducing autoimmune reactions.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "IL-2 Stimulation",
+					"description": "Stimulates interleukin-2 expression for immune regulation.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Oxidative Balance",
+					"description": "Restores balance between pro- and anti-oxidative processes.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Brain Aging",
+					"description": "Addresses age-related CNS changes through bioregulation.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. Short peptides can be absorbed orally and reach target tissues. Typical protocol involves 10-20 day cycles, often repeated 2-3 times per year.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Short peptide allows GI absorption",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration, bypassing GI tract.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Pinealon",
+			"status": "synergistic",
+			"notes": "Complementary CNS bioregulators; Cortagen for cortex, Pinealon for general brain."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "Thymalin",
+			"status": "compatible",
+			"notes": "Different organ targets; can be used in comprehensive bioregulator protocols."
+		},
+		{
+			"peptide": "Cardiogen",
+			"status": "compatible",
+			"notes": "Part of Khavinson bioregulator family; targets different tissue."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Gene expression modulation begins"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Neurological function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Unusual neurological symptoms"],
+		"contraindications": [
+			"Active neurological emergencies (seek medical care)",
+			"Known hypersensitivity",
+			"Pregnancy or breastfeeding"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Effect of Cortagen on Gene Expression in Mouse Heart",
+			"journal": "Neuroendocrinology Letters",
+			"year": "2004",
+			"keyFindings": "Cortagen affects expression of genes including Pass1, Hsc70, Bmp2, Wnt4, Eps15 in heart tissue."
+		},
+		{
+			"title": "Delayed Effect of Cortagen on Restoration of Injured Nerve Function",
+			"journal": "Doklady Biological Sciences",
+			"year": "2002",
+			"keyFindings": "Demonstrated effects on nerve function restoration following injury."
+		},
+		{
+			"title": "Effect of Tetrapeptide Cortagen on Regeneration of Sciatic Nerve",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2000",
+			"keyFindings": "Research on nerve regeneration effects of Cortagen tetrapeptide."
+		},
+		{
+			"title": "Khavinson Peptide Bioregulators",
+			"journal": "Advances in Gerontology",
+			"year": "2020",
+			"keyFindings": "Comprehensive review of bioregulator peptides and their epigenetic mechanisms."
+		}
+	],
+	"categories": ["cognitive", "longevity"],
+	"quickStats": {
+		"typicalDose": "10-20 mg daily",
+		"frequency": "Once daily for 10-20 consecutive days",
+		"cycleDuration": "10-20 days per cycle",
+		"storage": "Capsules: room temperature; Injectable lyophilized: 2-8°C; Reconstituted: 2-8°C refrigerated"
+	}
+}

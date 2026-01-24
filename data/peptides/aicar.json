@@ -1,0 +1,211 @@
+{
+	"id": "aicar",
+	"name": "AICAR",
+	"subtitle": "5-Aminoimidazole-4-carboxamide Ribonucleotide | AMPK Activator",
+	"aliases": ["Acadesine", "AICA-Riboside", "ZMP precursor"],
+	"researchStatus": "limited",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "338.21 Da",
+		"type": "Nucleoside analog",
+		"halfLife": "~2-3 hours",
+		"halfLifeSeconds": 9000
+	},
+	"overview": "AICAR is a cell-permeable nucleoside analog that activates AMP-activated protein kinase (AMPK), a key regulator of cellular energy homeostasis. Originally studied for cardiac ischemia protection, it gained attention as an 'exercise mimetic' due to its metabolic effects.",
+	"mechanism": "Once inside cells, AICAR is phosphorylated to ZMP, which mimics AMP and activates AMPK. This triggers metabolic pathways typically activated during exercise: increased glucose uptake, fatty acid oxidation, and mitochondrial biogenesis.",
+	"keyBenefits": [
+		"AMPK pathway activation",
+		"Enhanced fatty acid oxidation",
+		"Improved glucose uptake",
+		"Potential endurance enhancement",
+		"Mitochondrial biogenesis stimulation"
+	],
+	"indications": [
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "AMPK Activation",
+					"description": "Directly activates the master metabolic regulator through ZMP accumulation.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Fatty Acid Oxidation",
+					"description": "Increases fat burning through AMPK-mediated pathways.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Glucose Metabolism",
+					"description": "Enhances glucose uptake independent of insulin in some tissues.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Performance",
+			"items": [
+				{
+					"name": "Endurance Enhancement",
+					"description": "Animal studies showed increased running endurance; human data limited.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Mitochondrial Biogenesis",
+					"description": "AMPK activation promotes new mitochondria formation over time.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Cardioprotection",
+			"items": [
+				{
+					"name": "Ischemia Protection",
+					"description": "Original clinical interest; may protect heart tissue during reduced blood flow.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection once daily. Progressive dosing protocols are common to assess tolerance.",
+			"protocols": [
+				{
+					"goal": "Standard Protocol",
+					"dose": "1-3mg",
+					"frequency": "Daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Gradual Introduction",
+					"dose": "1mg → 2mg → 3mg",
+					"frequency": "Daily, titrating over 4 weeks",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Advanced Protocol",
+					"dose": "3-5mg",
+					"frequency": "Daily for 8-12 weeks",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"AICAR lyophilized powder (typically 50mg vial)",
+					"Bacteriostatic water (3.0mL recommended)",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Clean rubber stopper with alcohol swab",
+					"Add 3.0mL bacteriostatic water for ~16.7mg/mL concentration",
+					"Inject slowly along vial wall to avoid foaming",
+					"Gently swirl to dissolve; never shake",
+					"Label with date and store refrigerated at 2-8°C",
+					"Use within 4 weeks of reconstitution"
+				]
+			},
+			"keyBenefits": [
+				"Direct AMPK activation",
+				"Once daily dosing",
+				"Stable when reconstituted properly"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Metformin",
+			"status": "monitor",
+			"notes": "Both activate AMPK through different mechanisms. Combined use may have additive effects on glucose metabolism."
+		},
+		{
+			"peptide": "GW501516",
+			"status": "synergistic",
+			"notes": "Different pathways (AMPK vs PPARδ) that may complement metabolic effects. Popular research combination."
+		},
+		{
+			"peptide": "SR9009",
+			"status": "synergistic",
+			"notes": "Rev-ErbA agonist with complementary metabolic effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Subtle changes in energy levels; body adjusting to AMPK activation"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Potential improvements in endurance capacity and metabolic markers"
+		},
+		{
+			"period": "Week 5-8",
+			"effects": "Cumulative metabolic adaptations; enhanced fat oxidation"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Full effects on mitochondrial density and metabolic efficiency"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions",
+			"Mild fatigue during adaptation",
+			"Potential hypoglycemia"
+		],
+		"stopSigns": [
+			"Severe hypoglycemia symptoms",
+			"Lactic acidosis symptoms (muscle pain, weakness, difficulty breathing)",
+			"Unusual cardiac symptoms",
+			"Severe fatigue or weakness"
+		],
+		"contraindications": [
+			"Diabetes (risk of hypoglycemia)",
+			"Cardiac conditions",
+			"Pregnancy or breastfeeding",
+			"Competitive athletes (WADA prohibited)"
+		],
+		"monitoring": [
+			"Not FDA-approved for any indication",
+			"WADA prohibited substance",
+			"Monitor blood glucose, especially if diabetic",
+			"Limited human safety data at research doses"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution",
+			"Certificate of Analysis with purity testing"
+		],
+		"warning": ["Slight yellowing may occur but should dissolve clearly"],
+		"bad": [
+			"Discolored or clumped powder",
+			"Cloudy solution after reconstitution",
+			"Particulate matter visible"
+		]
+	},
+	"references": [
+		{
+			"title": "AMPK and Exercise: Glucose Uptake and Insulin Sensitivity",
+			"year": "2012",
+			"keyFindings": "Review of AMPK role in exercise-induced metabolic adaptations and AICAR as pharmacological activator."
+		},
+		{
+			"title": "AICAR Mouse Endurance Study",
+			"year": "2008",
+			"keyFindings": "Mice treated with AICAR showed 44% increase in running endurance without training."
+		}
+	],
+	"categories": ["metabolic", "performance"],
+	"quickStats": {
+		"typicalDose": "1-5mg daily",
+		"frequency": "Once daily",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Lyophilized: -20°C; Reconstituted: 2-8°C for 4 weeks"
+	}
+}

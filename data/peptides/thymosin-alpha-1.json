@@ -1,0 +1,293 @@
+{
+	"id": "thymosin-alpha-1",
+	"name": "Thymosin Alpha 1",
+	"subtitle": "Synthetic Thymic Hormone | Immune System Modulator",
+	"aliases": ["Ta1", "Thymalfasin", "Zadaxin"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "3,108 Da",
+		"length": "28 amino acids",
+		"type": "Acetylated polypeptide",
+		"sequence": "Ac-Ser-Asp-Ala-Ala-Val-Asp-Thr-Ser-Ser-Glu-Ile-Thr-Thr-Lys-Asp-Leu-Lys-Glu-Lys-Lys-Glu-Val-Val-Glu-Glu-Ala-Glu-Asn",
+		"modifications": [
+			"N-terminal acetylated",
+			"Synthetically identical to naturally occurring thymic hormone"
+		],
+		"halfLife": "~2 hours",
+		"halfLifeSeconds": 7200
+	},
+	"overview": "Thymosin Alpha 1 is a synthetic 28-amino acid peptide identical to naturally occurring thymic hormone, studied in 11,000+ patients across 30+ clinical trials with less than 1% serious adverse events. Approved in 35+ countries for immune modulation.",
+	"mechanism": "Activates TLR pathways, enhances T-cell maturation, stimulates NK cells, and modulates dendritic cell function via systemic circulation. Injectable route achieves 90-95% bioavailability with 2-hour peak time.",
+	"keyBenefits": [
+		"Primary FDA-studied route with extensive clinical validation",
+		"Maximum immune modulation through systemic circulation",
+		"Established dosing from 35+ countries of clinical use",
+		"Exceptional safety profile (<1% serious adverse events)",
+		"Reduces pro-inflammatory cytokines 40-60%",
+		"Approved in 35+ countries"
+	],
+	"indications": [
+		{
+			"category": "Immunity",
+			"items": [
+				{
+					"name": "Primary Immunodeficiencies",
+					"description": "FDA orphan designation for DiGeorge syndrome; restores T-cell function.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Vaccine Enhancement",
+					"description": "Improved antibody responses in elderly and hemodialysis patients (H1N1, COVID-19).",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "HIV/AIDS Support",
+					"description": "Restores CD4+ counts and reduces opportunistic infections.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Inflammation",
+			"items": [
+				{
+					"name": "Cytokine Reduction",
+					"description": "Reduces pro-inflammatory cytokines TNF-α, IL-1β, IL-6 by 40-60%.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Hepatitis B/C Support",
+					"description": "Enhanced antiviral efficacy when combined with interferon.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Autoimmune Conditions",
+					"description": "Helps manage inflammatory autoimmune conditions.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Recovery",
+			"items": [
+				{
+					"name": "Post-Surgical Immune Restoration",
+					"description": "Restores immune function after surgical stress.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Exercise-Induced Immunosuppression",
+					"description": "Manages immune suppression from intense training.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Aging",
+			"items": [
+				{
+					"name": "Thymic Regeneration Support",
+					"description": "Supports thymus gland function with aging.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Immune Senescence Delay",
+					"description": "Delays age-related immune decline in elderly populations.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the primary route with 90-95% bioavailability. Standard dosing is 1.6mg twice weekly.",
+			"protocols": [
+				{
+					"goal": "Standard immune support",
+					"dose": "1.6mg",
+					"frequency": "2x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Acute conditions (sepsis)",
+					"dose": "1.6mg",
+					"frequency": "2x daily for 5 days, then daily",
+					"route": "SubQ/IM"
+				},
+				{
+					"goal": "Cancer/hepatitis support",
+					"dose": "1.6mg",
+					"frequency": "2x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Maintenance/prevention",
+					"dose": "1.6mg",
+					"frequency": "2x weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Thymosin Alpha 1 lyophilized powder",
+					"Sterile water (1.0mL)",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Clean work surface thoroughly",
+					"Add 1.0mL sterile water slowly to lyophilized powder",
+					"Inject water down vial side (avoid direct powder contact)",
+					"Gently swirl until fully dissolved (never shake)",
+					"Final concentration: 1.6mg/mL",
+					"Use immediately or refrigerate up to 2 hours"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen, thigh injection sites",
+				"Rotate to prevent irritation",
+				"90-95% bioavailability"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal spray with limited data. Requires compounding pharmacy preparation with 40-60% bioavailability vs injectable.",
+			"protocols": [
+				{
+					"goal": "General support",
+					"dose": "500mcg per nostril",
+					"frequency": "2x daily",
+					"route": "Nasal spray"
+				},
+				{
+					"goal": "Enhanced support",
+					"dose": "1000mcg per nostril",
+					"frequency": "2x daily",
+					"route": "Nasal spray"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "500mcg per nostril",
+					"frequency": "1x daily",
+					"route": "Nasal spray"
+				}
+			],
+			"keyBenefits": [
+				"Non-invasive",
+				"40-60% bioavailability vs injectable",
+				"Requires compounding pharmacy"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Immunosuppressive Agents",
+			"status": "avoid",
+			"notes": "Fatal graft rejection risk in transplant patients - contraindicated."
+		},
+		{
+			"peptide": "Corticosteroids",
+			"status": "monitor",
+			"notes": "Pharmacodynamic antagonism possible."
+		},
+		{
+			"peptide": "Interferon-α",
+			"status": "synergistic",
+			"notes": "Enhanced antiviral efficacy in hepatitis treatment."
+		},
+		{
+			"peptide": "Vaccines",
+			"status": "compatible",
+			"notes": "Enhances vaccine immunogenicity."
+		},
+		{
+			"peptide": "Chemotherapy",
+			"status": "compatible",
+			"notes": "Protective against bone marrow damage."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Initial immune system activation"
+		},
+		{
+			"period": "Week 2-6",
+			"effects": "Enhanced immune function, reduced infection risk"
+		},
+		{
+			"period": "Week 6-12",
+			"effects": "Maximum immunomodulatory benefits"
+		},
+		{
+			"period": "Week 12+",
+			"effects": "Sustained immune support with continued use"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild injection site reactions (<10% incidence)",
+			"Generally well-tolerated with exceptional safety record"
+		],
+		"stopSigns": [
+			"Signs of graft rejection in transplant recipients",
+			"Persistent injection site reactions or infection signs",
+			"Unusual immune system hyperactivity",
+			"Severe allergic reactions (rare)"
+		],
+		"contraindications": [
+			"Organ transplant recipients (risk of graft rejection)",
+			"Pregnancy and breastfeeding"
+		],
+		"monitoring": [
+			"Monitor for hypersensitivity with first dose",
+			"Watch for first-dose immune activation symptoms"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White, fluffy lyophilized powder filling vial bottom",
+			"Crystal clear solution after reconstitution (no particles/cloudiness)",
+			"Professional pharmaceutical labeling with batch numbers, expiration"
+		],
+		"warning": ["Minor powder compaction during shipping (acceptable if dissolves cleanly)"],
+		"bad": [
+			"Yellow, brown, or collapsed powder (heat/moisture degradation)",
+			"Persistent cloudiness or particles post-reconstitution",
+			"Non-professional sourcing or unclear labeling"
+		]
+	},
+	"references": [
+		{
+			"title": "COVID-19 Treatment Study",
+			"year": "2020",
+			"keyFindings": "30% vs 11% mortality reduction in severe cases; lymphocyte restoration."
+		},
+		{
+			"title": "TESTS Phase 3 Sepsis Trial",
+			"year": "2020",
+			"keyFindings": "1,106 patients; mixed overall results but subgroup benefits in elderly/diabetic populations."
+		},
+		{
+			"title": "Cytokine Storm Mitigation Study",
+			"year": "2020",
+			"keyFindings": "40-60% reduction in pro-inflammatory cytokines (TNF-α, IL-1β, IL-6)."
+		},
+		{
+			"title": "Comprehensive Safety Review",
+			"year": "2024",
+			"keyFindings": "11,000+ patients, 30+ trials; <1% serious adverse events."
+		}
+	],
+	"categories": ["immune", "longevity"],
+	"quickStats": {
+		"typicalDose": "1.6mg per injection (standard dose across all protocols)",
+		"frequency": "2x weekly (e.g., Monday and Thursday) for standard immune support",
+		"cycleDuration": "6 months continuous for therapeutic protocols",
+		"storage": "Use immediately after reconstitution or refrigerate up to 2 hours"
+	}
+}

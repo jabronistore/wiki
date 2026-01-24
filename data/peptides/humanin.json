@@ -1,0 +1,240 @@
+{
+	"id": "humanin",
+	"name": "Humanin",
+	"subtitle": "Mitochondria-Derived Peptide | HN",
+	"aliases": ["HN", "HNG", "Humanin G", "HN-24"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "2,687 Da",
+		"length": "24 amino acids",
+		"type": "Mitochondria-derived peptide",
+		"sequence": "Met-Ala-Pro-Arg-Gly-Phe-Ser-Cys-Leu-Leu-Leu-Leu-Thr-Ser-Glu-Ile-Asp-Leu-Pro-Val-Lys-Arg-Arg-Ala",
+		"halfLife": "~30 minutes (mice), >4 hours (rats)",
+		"halfLifeSeconds": 1800
+	},
+	"overview": "Humanin was the first mitochondria-derived peptide (MDP) discovered, originally cloned from the occipital lobe of an Alzheimer's patient. It is a 24-amino acid peptide encoded from the 16S rRNA region of mitochondrial DNA with potent neuroprotective, cytoprotective, and anti-apoptotic properties. Research shows humanin levels decline with age but remain stable in long-lived species like naked mole-rats, and offspring of centenarians have significantly higher humanin levels.",
+	"mechanism": "Humanin exerts its effects through multiple mechanisms. It interacts with cell surface receptors including FPRL1 and CNTFR, activating PI3K/AKT signaling pathways that promote cell survival. It blocks pro-apoptotic proteins like Bax, reduces beta-amyloid toxicity in neurons, protects against oxidative stress, and promotes mitochondrial biogenesis. These actions support healthy cellular aging at a fundamental level.",
+	"keyBenefits": [
+		"Potent neuroprotection against Alzheimer's and Parkinson's pathology",
+		"Extended lifespan in animal models (C. elegans)",
+		"Improved metabolic healthspan parameters",
+		"Reduced inflammatory markers",
+		"Cytoprotective effects across multiple cell types",
+		"Anti-apoptotic activity",
+		"Mitochondrial optimization and biogenesis",
+		"Protection against oxidative stress"
+	],
+	"indications": [
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Alzheimer's Disease Protection",
+					"description": "Originally discovered for its ability to protect against amyloid-β toxicity in neuronal cells.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Parkinson's Disease Support",
+					"description": "Promotes mitochondrial biogenesis via PI3K/AKT signaling in PD models.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "General Neuroprotection",
+					"description": "Broad neuroprotective effects against various neurotoxic insults.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Longevity",
+			"items": [
+				{
+					"name": "Lifespan Extension",
+					"description": "Overexpression increases lifespan in C. elegans, dependent on daf-16/Foxo pathway.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Healthspan Improvement",
+					"description": "HNG analog improves metabolic healthspan parameters in middle-aged mice.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Anti-Aging",
+					"description": "Higher levels associated with longevity in centenarians and their offspring.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Cellular Protection",
+			"items": [
+				{
+					"name": "Cytoprotection",
+					"description": "Protects various cell types from stress-induced damage and death.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Anti-Apoptosis",
+					"description": "Blocks pro-apoptotic proteins like Bax to prevent programmed cell death.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Mitochondrial Support",
+					"description": "Promotes mitochondrial function and biogenesis.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous or intravenous injection. Benefits are slow-building and cellular, typically felt over weeks to months as the peptide supports mitochondria and reduces oxidative stress. The more potent analog HNG (glycine substitution at position 14) is 1000-fold more potent than native humanin.",
+			"protocols": [
+				{
+					"goal": "Neuroprotection",
+					"dose": "1-5 mg",
+					"frequency": "2-3x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Longevity/Anti-aging",
+					"dose": "1-3 mg",
+					"frequency": "2x weekly",
+					"route": "SubQ"
+				},
+				{
+					"goal": "HNG analog",
+					"dose": "0.5-2 mg",
+					"frequency": "2x weekly",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes (0.5-1 mL)",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator, protect from light"
+				]
+			},
+			"keyBenefits": [
+				"Effects are slow-building over weeks/months",
+				"Works at the cellular/mitochondrial level",
+				"Detectable up to 12 hours post-administration",
+				"HNG analog is 1000x more potent"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "MOTS-c",
+			"status": "synergistic",
+			"notes": "Both are mitochondria-derived peptides with complementary longevity and metabolic benefits."
+		},
+		{
+			"peptide": "SS-31",
+			"status": "synergistic",
+			"notes": "Both target mitochondrial function; may have additive benefits for cellular health."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "compatible",
+			"notes": "Different mechanisms; can be combined in longevity protocols."
+		},
+		{
+			"peptide": "NAD+",
+			"status": "synergistic",
+			"notes": "Both support mitochondrial function and healthy aging."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Subtle; peptide begins working at cellular level"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Improved energy and reduced fatigue may begin"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Enhanced cellular resilience and stress response"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Cumulative benefits in mitochondrial function and healthspan markers"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Potential longevity and neuroprotective benefits"
+		}
+	],
+	"sideEffects": {
+		"common": ["Injection site reactions", "Mild fatigue initially", "Headache (rare)"],
+		"rare": ["Allergic reactions"],
+		"stopSigns": ["Signs of allergic reaction", "Unusual persistent symptoms"],
+		"contraindications": [
+			"Active cancer (theoretical concern with anti-apoptotic effects)",
+			"Pregnancy or breastfeeding",
+			"Hypersensitivity to peptide components"
+		],
+		"monitoring": [
+			"Limited human clinical data available",
+			"Research peptide - medical supervision recommended"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution",
+			"Intact vacuum seal"
+		],
+		"warning": ["Slight clumping that dissolves easily"],
+		"bad": ["Discolored powder", "Cloudy or particulate solution", "Broken seal"]
+	},
+	"references": [
+		{
+			"title": "The mitochondrial derived peptide humanin is a regulator of lifespan and healthspan",
+			"journal": "Aging",
+			"year": "2020",
+			"keyFindings": "Humanin overexpression extends lifespan in C. elegans; HNG treatment improves metabolic healthspan in middle-aged mice; levels higher in centenarian offspring."
+		},
+		{
+			"title": "Neuroprotective Action of Humanin and Humanin Analogues",
+			"journal": "Biology (MDPI)",
+			"year": "2023",
+			"keyFindings": "Comprehensive review of humanin's neuroprotective effects in Alzheimer's and Parkinson's disease models."
+		},
+		{
+			"title": "Mitochondria-derived peptides in aging and healthspan",
+			"journal": "Journal of Clinical Investigation",
+			"year": "2022",
+			"keyFindings": "Review of mitochondria-derived peptides including humanin and their roles in aging and metabolic health."
+		},
+		{
+			"title": "Original Discovery of Humanin",
+			"journal": "Proceedings of the National Academy of Sciences",
+			"year": "2001",
+			"keyFindings": "Hashimoto et al. cloned humanin from Alzheimer's patient brain; demonstrated protection against amyloid-β toxicity."
+		}
+	],
+	"categories": ["longevity", "cognitive"],
+	"quickStats": {
+		"typicalDose": "1-5 mg per injection (0.5-2 mg for HNG analog)",
+		"frequency": "2-3 times weekly for sustained mitochondrial support",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Lyophilized: Room temperature. Reconstituted: 2-8°C, protect from light"
+	}
+}

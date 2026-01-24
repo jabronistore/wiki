@@ -1,0 +1,294 @@
+{
+	"id": "ll-37",
+	"name": "LL-37",
+	"subtitle": "Human Cathelicidin | Antimicrobial Peptide",
+	"aliases": ["Human Cathelicidin", "hCAP18-derived peptide"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"length": "37 amino acids",
+		"type": "Cationic antimicrobial peptide",
+		"modifications": ["Derived from hCAP18 protein"],
+		"halfLife": "Short (rapid proteolytic degradation)"
+	},
+	"overview": "LL-37 is the only human cathelicidin antimicrobial peptide, a 37-amino acid cationic peptide derived from hCAP18 that exhibits broad-spectrum antimicrobial activity against bacteria, viruses, and fungi while modulating immune responses.",
+	"mechanism": "Provides direct antimicrobial activity through membrane disruption, promotes wound healing by enhancing keratinocyte migration and angiogenesis, and modulates immune responses without systemic exposure when used topically.",
+	"keyBenefits": [
+		"Direct wound healing acceleration",
+		"Broad-spectrum antimicrobial activity",
+		"Activity against resistant bacteria (MRSA, MDRPA)",
+		"Enhanced tissue regeneration",
+		"Immune modulation",
+		"Local antimicrobial protection"
+	],
+	"indications": [
+		{
+			"category": "Wound Healing",
+			"items": [
+				{
+					"name": "Chronic Venous Leg Ulcers",
+					"description": "68% ulcer area reduction demonstrated with 0.5mg/mL concentration in clinical trials.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Diabetic Foot Ulcers",
+					"description": "Enhanced granulation tissue formation and wound closure.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Pressure Ulcers",
+					"description": "Accelerated healing demonstrated in animal models.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Immunity",
+			"items": [
+				{
+					"name": "Innate Immune Enhancement",
+					"description": "Boosts natural immune defenses against pathogens.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Antimicrobial Resistance",
+					"description": "Active against MRSA and multi-drug resistant bacteria with >4 log reduction in biofilms.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Immunomodulation",
+					"description": "Balances immune responses without causing immunosuppression.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Skin Health",
+			"items": [
+				{
+					"name": "Epithelial Cell Proliferation",
+					"description": "Stimulates skin cell growth and regeneration.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Angiogenesis Promotion",
+					"description": "Promotes new blood vessel formation for tissue repair.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Collagen Synthesis",
+					"description": "Supports collagen production for wound healing.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Topical application is the most established route, providing direct access to wound sites with minimal systemic exposure.",
+			"protocols": [
+				{
+					"goal": "Wound healing - Standard",
+					"dose": "0.5mg/mL gel/cream",
+					"frequency": "Daily to twice weekly",
+					"route": "Direct wound application"
+				},
+				{
+					"goal": "Wound healing - Intensive",
+					"dose": "1.6mg/mL gel/cream",
+					"frequency": "Daily",
+					"route": "Direct wound application"
+				}
+			],
+			"reconstitution": {
+				"steps": [
+					"Clean and debride wound area",
+					"Apply thin layer directly to wound surface",
+					"Cover with sterile dressing if needed",
+					"Change per clinical protocol (daily to twice weekly)",
+					"Monitor healing progress and adjust frequency",
+					"Document wound measurements and progression"
+				]
+			},
+			"keyBenefits": [
+				"Direct access to wound site",
+				"Minimal systemic exposure",
+				"Most established clinical data"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection provides systemic distribution for immune modulation. Limited clinical data compared to topical.",
+			"protocols": [
+				{
+					"goal": "Systemic immune support",
+					"dose": "100-150mcg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"LL-37 lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Add bacteriostatic water slowly to peptide",
+					"Gently swirl (don't shake vigorously)",
+					"Calculate dose based on final concentration",
+					"Use sterile injection technique",
+					"Rotate injection sites daily"
+				]
+			},
+			"keyBenefits": ["Systemic distribution", "Abdomen, thigh, upper arm injection sites"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "Enhanced wound healing through complementary mechanisms."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "synergistic",
+			"notes": "Combined anti-inflammatory and healing effects."
+		},
+		{
+			"peptide": "Conventional Antibiotics",
+			"status": "synergistic",
+			"notes": "FICI values 0.25-0.5 against resistant bacteria when combined."
+		},
+		{
+			"peptide": "Vitamin D3",
+			"status": "synergistic",
+			"notes": "Acts as cofactor for endogenous LL-37 production."
+		},
+		{
+			"peptide": "Lactoferrin",
+			"status": "compatible",
+			"notes": "Safe combined use with no negative interactions."
+		},
+		{
+			"peptide": "Physiological Salt Solutions",
+			"status": "monitor",
+			"notes": "High salt concentrations may reduce antimicrobial activity."
+		},
+		{
+			"peptide": "Amino Acid Solutions",
+			"status": "avoid",
+			"notes": "Physical incompatibility, especially with IV formulations."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Reduced bacterial load, initial wound bed preparation"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Increased granulation tissue formation, epithelial migration"
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Significant wound size reduction"
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Continued healing toward wound closure"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Generally well-tolerated",
+			"Mild injection site reactions (injectable)",
+			"Local irritation at application site (topical)"
+		],
+		"stopSigns": [
+			"Severe injection site reactions with spreading inflammation",
+			"Allergic reaction signs (rash, difficulty breathing, swelling)",
+			"Persistent flu-like symptoms",
+			"Signs of wound infection (increased redness, warmth, drainage)",
+			"Worsening wound condition or delayed healing",
+			"Unusual pain or irritation at application site"
+		],
+		"contraindications": [
+			"Pre-existing hypersensitivity to peptides",
+			"Compromised immune status (relative contraindication)",
+			"Non-sterile wound environments"
+		],
+		"monitoring": [
+			"Injection site reactions and excessive irritation",
+			"Signs of wound infection",
+			"Allergic reactions or contact dermatitis",
+			"Wound healing progress"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Sterile, clear formulation",
+			"≥98% purity by HPLC",
+			"White to off-white lyophilized powder",
+			"Proper cold chain maintenance (2-8°C)",
+			"Appropriate gel base compatible with peptide activity",
+			"Clinical-grade concentrations (0.5-1.6mg/mL)"
+		],
+		"warning": [
+			"Brief room temperature exposure acceptable if promptly refrigerated",
+			"Homemade topical formulations may lack sterility"
+		],
+		"bad": [
+			"Discolored or cloudy solutions",
+			"Yellow discoloration or visible particles",
+			"Pre-mixed liquid formulations (LL-37 unstable long-term)",
+			"Non-sterile preparations",
+			"Microbial contamination"
+		]
+	},
+	"references": [
+		{
+			"title": "Venous Leg Ulcer Trial - Grönberg et al.",
+			"year": "2014",
+			"journal": "Wound Repair and Regeneration",
+			"keyFindings": "68% ulcer area reduction demonstrated at optimal doses in chronic venous leg ulcers."
+		},
+		{
+			"title": "Melanoma Phase I Trial",
+			"year": "2015",
+			"keyFindings": "Intratumoral LL-37 in melanoma patients demonstrated safety and immune stimulation (NCT02225366)."
+		},
+		{
+			"title": "MRSA Biofilm Study - Noore et al.",
+			"year": "2019",
+			"journal": "PLOS ONE",
+			"keyFindings": ">4 log reduction in MRSA biofilms compared to conventional antibiotics."
+		},
+		{
+			"title": "Structural Analysis - Wang et al.",
+			"year": "2008",
+			"journal": "Journal of Biological Chemistry",
+			"keyFindings": "NMR spectroscopy determining 3D structure of LL-37."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "LL-37: Master Antimicrobial Peptide Review",
+			"date": "2025",
+			"source": "International Journal of Antimicrobial Agents",
+			"summary": "Comprehensive review of broad functions from infection to cancer immunity."
+		}
+	],
+	"categories": ["immune", "healing"],
+	"quickStats": {
+		"typicalDose": "0.5-1.6 mg/mL topical gel or 100-150 mcg injectable",
+		"frequency": "Topical: Daily to twice weekly on wounds. Injectable: Once daily subcutaneous",
+		"cycleDuration": "2-8 weeks depending on wound healing progress",
+		"storage": "Lyophilized: 2-8°C. Reconstituted: 2-8°C, maintain sterility"
+	}
+}

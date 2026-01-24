@@ -1,0 +1,250 @@
+{
+	"id": "vip",
+	"name": "VIP",
+	"subtitle": "Vasoactive Intestinal Peptide | Neuropeptide",
+	"aliases": ["Vasoactive Intestinal Polypeptide", "PHM-27"],
+	"researchStatus": "extensively-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "3,326 Da",
+		"length": "28 amino acids",
+		"type": "Neuropeptide",
+		"sequence": "His-Ser-Asp-Ala-Val-Phe-Thr-Asp-Asn-Tyr-Thr-Arg-Leu-Arg-Lys-Gln-Met-Ala-Val-Lys-Lys-Tyr-Leu-Asn-Ser-Ile-Leu-Asn-NH2",
+		"halfLife": "1-2 minutes",
+		"halfLifeSeconds": 90
+	},
+	"overview": "Vasoactive Intestinal Peptide (VIP) is a 28-amino acid neuropeptide belonging to the glucagon/secretin superfamily. It is produced in many tissues including the gut, pancreas, and brain. VIP has potent vasodilatory, anti-inflammatory, and immunomodulatory effects. It binds to VPAC1 and VPAC2 receptors, triggering cAMP-mediated signaling cascades. Research shows therapeutic potential for pulmonary hypertension, diabetes, neurological disorders, and autoimmune conditions.",
+	"mechanism": "VIP binds to VPAC1 and VPAC2 G protein-coupled receptors, activating adenylyl cyclase and increasing intracellular cAMP and PKA activity. This triggers phosphorylation of CREB and other transcription factors. VIP causes vasodilation through NO-dependent and independent mechanisms, stimulates intestinal secretion, relaxes smooth muscle, inhibits gastric acid secretion, and has positive inotropic/chronotropic cardiac effects.",
+	"keyBenefits": [
+		"Potent vasodilation and blood pressure reduction",
+		"Strong anti-inflammatory effects",
+		"Immunomodulation (Th1-Th2 balance)",
+		"Neuroprotective effects",
+		"Bronchodilation",
+		"Cardioprotective (positive inotropic effects)",
+		"Insulin secretion enhancement (glucose-dependent)",
+		"Gut barrier and permeability regulation"
+	],
+	"indications": [
+		{
+			"category": "Cardiovascular",
+			"items": [
+				{
+					"name": "Pulmonary Hypertension",
+					"description": "VIP inhalation shows striking efficacy with increased mixed venous oxygen saturation and exercise capacity.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Vasodilation",
+					"description": "Dilates peripheral blood vessels through NO-dependent mechanisms above 100 pmol doses.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Cardiac Support",
+					"description": "Coronary vasodilation with positive inotropic and chronotropic effects on the heart.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neurological",
+			"items": [
+				{
+					"name": "Neuroprotection",
+					"description": "Promising therapeutic target for Alzheimer's, Parkinson's, and other neurological disorders.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Autism Spectrum Disorders",
+					"description": "Potential therapeutic target being researched for ASD.",
+					"effectiveness": "emerging"
+				},
+				{
+					"name": "Circadian Rhythm",
+					"description": "Produced in suprachiasmatic nuclei; involved in circadian regulation.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Metabolic & Immune",
+			"items": [
+				{
+					"name": "Diabetes Support",
+					"description": "Promotes insulin secretion in glucose-dependent manner via VPAC2; low hypoglycemia risk.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Anti-Inflammatory",
+					"description": "Potent anti-inflammatory effects useful in IBD and autoimmune conditions.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Sarcoidosis",
+					"description": "Therapeutic potential for pulmonary and systemic sarcoidosis.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "VIP has a very short half-life of approximately 2 minutes in blood, requiring careful dosing strategies. Subcutaneous or intravenous administration. Rapid degradation limits bioavailability; analogs like stearyl-Nle17-VIP (SNV) are 100-fold more potent.",
+			"protocols": [
+				{
+					"goal": "General use",
+					"dose": "50-100 mcg",
+					"frequency": "1-2x daily",
+					"route": "SubQ or IV"
+				},
+				{
+					"goal": "Research protocols",
+					"dose": "100-200 mcg",
+					"frequency": "As directed",
+					"route": "SubQ or IV"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side",
+					"Gently swirl until dissolved (never shake)",
+					"Use promptly due to short stability"
+				]
+			},
+			"keyBenefits": [
+				"Very short half-life (~2 minutes)",
+				"Multiple daily doses may be needed",
+				"Analogs offer improved stability"
+			]
+		},
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Inhalation route researched for pulmonary hypertension. Safety demonstrated in healthy and asthmatic subjects at 100 μM concentrations.",
+			"protocols": [
+				{
+					"goal": "Pulmonary hypertension",
+					"dose": "100-200 mcg/day",
+					"frequency": "Daily (inhaled)",
+					"route": "Inhalation"
+				}
+			],
+			"keyBenefits": [
+				"Targeted delivery to lungs",
+				"Effective for pulmonary conditions",
+				"Non-invasive"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions; different mechanisms."
+		},
+		{
+			"peptide": "Thymosin Alpha-1",
+			"status": "synergistic",
+			"notes": "Both have immunomodulatory effects; may complement each other."
+		},
+		{
+			"peptide": "LL-37",
+			"status": "compatible",
+			"notes": "Both have anti-inflammatory properties."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Minutes",
+			"effects": "Rapid vasodilation and hemodynamic effects"
+		},
+		{
+			"period": "Hours",
+			"effects": "Anti-inflammatory signaling activated"
+		},
+		{
+			"period": "Days-Weeks",
+			"effects": "Cumulative effects on inflammation and immune balance"
+		},
+		{
+			"period": "Ongoing",
+			"effects": "Sustained benefits with regular administration"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Vasodilation (flushing, warmth)",
+			"Hypotension",
+			"Increased heart rate",
+			"Gastrointestinal effects (diarrhea possible)",
+			"Headache"
+		],
+		"rare": ["Allergic reactions", "Excessive GI stimulation"],
+		"stopSigns": [
+			"Severe hypotension",
+			"Allergic reaction symptoms",
+			"Severe diarrhea",
+			"Cardiac arrhythmias"
+		],
+		"contraindications": [
+			"Severe hypotension",
+			"VIPoma or related tumors",
+			"Pregnancy or breastfeeding",
+			"Severe cardiac conditions"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder",
+			"Clear solution after reconstitution",
+			"Intact vacuum seal"
+		],
+		"warning": ["Use quickly after reconstitution (unstable)"],
+		"bad": ["Discolored powder", "Cloudy solution", "Particulates visible"]
+	},
+	"references": [
+		{
+			"title": "VIP as New Drug for Treatment of Primary Pulmonary Hypertension",
+			"journal": "Journal of Clinical Investigation",
+			"year": "2003",
+			"keyFindings": "VIP inhalation showed striking efficacy with increased mixed venous oxygen saturation and exercise capacity."
+		},
+		{
+			"title": "Therapeutic Potential of VIP and VPAC2 in Type 2 Diabetes",
+			"journal": "Frontiers in Endocrinology",
+			"year": "2022",
+			"keyFindings": "VIP promotes glucose-dependent insulin secretion via VPAC2, reducing hypoglycemia risk."
+		},
+		{
+			"title": "Therapeutic Potential of VIP in Neurological Disorders",
+			"journal": "CNS Neuroscience & Therapeutics",
+			"year": "2010",
+			"keyFindings": "VIP and receptors are promising therapeutic targets for AD, PD, and autism spectrum disorders."
+		},
+		{
+			"title": "VIP Structure and Function for Therapeutic Applications",
+			"journal": "Pharmacology & Therapeutics",
+			"year": "2011",
+			"keyFindings": "Comprehensive review of VIP receptor signaling and therapeutic applications."
+		}
+	],
+	"categories": ["immune", "cognitive"],
+	"quickStats": {
+		"typicalDose": "50-100 mcg per dose (up to 200 mcg in research protocols)",
+		"frequency": "1-2 times daily due to very short 2-minute half-life",
+		"cycleDuration": "As prescribed for specific condition",
+		"storage": "Lyophilized powder: 2-8°C refrigerated; Reconstituted: use immediately (very short stability, ~2 minute half-life)"
+	}
+}

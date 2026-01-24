@@ -1,0 +1,221 @@
+{
+	"id": "testagen",
+	"name": "Testagen",
+	"subtitle": "KEDG Tetrapeptide | Testicular Bioregulator",
+	"aliases": ["KEDG", "Lys-Glu-Asp-Gly", "Testicular Bioregulator", "Testes Peptide", "Testoluten"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "419 Da",
+		"length": "4 amino acids",
+		"type": "Tetrapeptide bioregulator",
+		"sequence": "Lys-Glu-Asp-Gly",
+		"halfLife": "Not established"
+	},
+	"overview": "Testagen is a Khavinson bioregulator tetrapeptide (KEDG) originally isolated from testicular tissue extracts. Developed by Professor Vladimir Khavinson at the St. Petersburg Institute of Bioregulation and Gerontology, it promotes testosterone biosynthesis by stimulating Leydig cell activity and improving cellular metabolism in testicular tissue. Research shows it helps restore normal communication within the hypothalamic-pituitary-gonadal (HPG) axis, governing testosterone production and spermatogenesis.",
+	"mechanism": "Testagen works through epigenetic regulation, crossing both cell and nuclear membranes to interact directly with DNA of target tissues. It penetrates into cytoplasm, nucleus, and nucleolus of cells, interacting with various cellular components including DNA and RNA. The peptide can discriminate between different nucleotide sequences and recognize cytosine methylation status. It interacts with the anterior pituitary gland and endocrine pathways involved in testosterone and TSH synthesis, restoring HPG axis communication.",
+	"keyBenefits": [
+		"Promotes testosterone biosynthesis",
+		"Stimulates Leydig cell activity",
+		"Improves testicular cellular metabolism",
+		"Restores HPG axis communication",
+		"Supports spermatogenesis",
+		"Reduces prostatic inflammation",
+		"Enhances male reproductive balance",
+		"May normalize testosterone at any age"
+	],
+	"indications": [
+		{
+			"category": "Male Hormone Support",
+			"items": [
+				{
+					"name": "Low Testosterone",
+					"description": "Promotes testosterone biosynthesis through Leydig cell stimulation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "HPG Axis Restoration",
+					"description": "Restores normal communication within hypothalamic-pituitary-gonadal axis.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Age-Related Testosterone Decline",
+					"description": "Addresses declining testosterone through cellular metabolism improvement.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Male Reproductive Health",
+			"items": [
+				{
+					"name": "Male Fertility Support",
+					"description": "Supports spermatogenesis and reproductive balance.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Testicular Function",
+					"description": "Normalizes testicular function by reducing peptide deficiency.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Sexual Function",
+					"description": "May enhance male sexual function through testosterone support.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Prostate Support",
+			"items": [
+				{
+					"name": "Prostatic Inflammation",
+					"description": "Research shows reduction in inflammation markers in prostate tissue.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Available in capsule form for oral administration. Short peptides can be absorbed orally and reach target tissues. Typical protocol involves 10-20 day cycles.",
+			"protocols": [
+				{
+					"goal": "Standard protocol",
+					"dose": "10-20 mg",
+					"frequency": "Daily for 10-20 days",
+					"route": "Oral capsules"
+				},
+				{
+					"goal": "Maintenance",
+					"dose": "10 mg",
+					"frequency": "2-3 cycles yearly",
+					"route": "Oral capsules"
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Short peptide allows GI absorption",
+				"Room temperature storage for capsules"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable form available for direct administration.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "10 mg",
+					"frequency": "Daily for 10 days",
+					"route": "IM or SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": ["Bacteriostatic water", "Insulin syringes", "Alcohol swabs", "Sterile vial"],
+				"steps": [
+					"Clean work area thoroughly",
+					"Reconstitute with appropriate volume",
+					"Gently swirl until dissolved",
+					"Store reconstituted solution refrigerated"
+				]
+			},
+			"keyBenefits": ["Direct absorption", "Precise dosing"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Prostamax",
+			"status": "synergistic",
+			"notes": "Complementary male reproductive bioregulators; different tissue targets."
+		},
+		{
+			"peptide": "Gonadorelin",
+			"status": "synergistic",
+			"notes": "Both support HPG axis function through different mechanisms."
+		},
+		{
+			"peptide": "Epitalon",
+			"status": "synergistic",
+			"notes": "Often combined in comprehensive anti-aging Khavinson protocols."
+		},
+		{
+			"peptide": "HCG",
+			"status": "compatible",
+			"notes": "Both support testosterone; different mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "During cycle",
+			"effects": "Gene expression modulation and cellular metabolism changes begin"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects persist due to epigenetic changes"
+		},
+		{
+			"period": "Weeks-Months",
+			"effects": "Testosterone and reproductive function improvements"
+		},
+		{
+			"period": "Long-term",
+			"effects": "Cumulative benefits with periodic cycles"
+		}
+	],
+	"sideEffects": {
+		"common": ["Generally well-tolerated", "Minimal side effects reported"],
+		"rare": ["Allergic reactions (rare)"],
+		"stopSigns": ["Allergic reactions", "Signs of hormone imbalance"],
+		"contraindications": [
+			"Hormone-sensitive cancers (consult oncologist)",
+			"Known hypersensitivity",
+			"Female use not established"
+		],
+		"monitoring": ["Testosterone levels monitoring recommended", "PSA testing for men over 50"]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White powder or capsules",
+			"Clear solution if reconstituted",
+			"Proper packaging and labeling"
+		],
+		"warning": ["Unknown source or purity"],
+		"bad": ["Discoloration", "Unusual odor", "Damaged packaging"]
+	},
+	"references": [
+		{
+			"title": "Testagen Bioregulator Research on Testosterone and Leydig Cells",
+			"journal": "Advances in Gerontology",
+			"year": "2018",
+			"keyFindings": "Testagen promotes testosterone biosynthesis by stimulating Leydig cell activity and improving testicular metabolism."
+		},
+		{
+			"title": "Short Peptides and HPG Axis Function",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2016",
+			"keyFindings": "KEDG peptide helps restore communication within hypothalamic-pituitary-gonadal axis."
+		},
+		{
+			"title": "Epigenetic Effects of Short Peptides",
+			"journal": "Neuroendocrinology Letters",
+			"year": "2014",
+			"keyFindings": "Testagen penetrates cell nuclei and interacts with DNA, recognizing methylation status."
+		},
+		{
+			"title": "Khavinson Peptide Bioregulators",
+			"journal": "Advances in Gerontology",
+			"year": "2020",
+			"keyFindings": "Comprehensive review of bioregulator peptides isolated from testicular and other tissue extracts."
+		}
+	],
+	"categories": ["sexual-health", "longevity"],
+	"quickStats": {
+		"typicalDose": "10-20mg daily during cycle",
+		"frequency": "Daily for 10-20 days, then break",
+		"cycleDuration": "10-20 day cycles (typical bioregulator protocol)",
+		"storage": "Capsules: room temperature. Reconstituted: 2-8°C"
+	}
+}

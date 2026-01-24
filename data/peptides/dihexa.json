@@ -1,0 +1,316 @@
+{
+	"id": "dihexa",
+	"name": "Dihexa",
+	"subtitle": "Synaptogenic Peptide | Cognitive Enhancement",
+	"aliases": ["N-hexanoic-Tyr-Ile-(6)-aminohexanoic amide"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "504.7 Da",
+		"type": "Modified oligopeptide",
+		"sequence": "Hexanoyl-Tyr-Ile-Ahx-NH2",
+		"modifications": [
+			"N-terminal hexanoic acid for BBB penetration",
+			"Enhanced metabolic stability",
+			"Kd = 65 pM for HGF binding"
+		],
+		"halfLife": "8-12 days",
+		"halfLifeSeconds": 864000
+	},
+	"overview": "Dihexa is a synthetic oligopeptide derived from angiotensin IV that potently enhances cognitive function by promoting synaptogenesis. It is 10 million times more potent than BDNF at promoting synapse formation through HGF/c-Met receptor activation.",
+	"mechanism": "Binds to hepatocyte growth factor (HGF) with high affinity (Kd = 65 pM) and potentiates its activity at c-Met receptor, activating PI3K/AKT pathways and promoting new synaptic connections with extraordinary potency.",
+	"keyBenefits": [
+		"Dramatic synaptogenesis promotion",
+		"10 million times more potent than BDNF",
+		"Cognitive enhancement and memory improvement",
+		"Neuroprotection and potential neuroregeneration",
+		"Applications for Alzheimer's, TBI, age-related cognitive decline",
+		"Oral bioavailability"
+	],
+	"indications": [
+		{
+			"category": "Cognitive",
+			"items": [
+				{
+					"name": "Memory Enhancement",
+					"description": "Improvements in spatial, working, and consolidation demonstrated across animal models.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Learning Acceleration",
+					"description": "Enhanced acquisition through increased synaptic plasticity.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Cognitive Recovery",
+					"description": "Restoration in impairment models including scopolamine-induced amnesia.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Amyloid Reduction",
+					"description": "Reduced amyloid burden in Alzheimer's models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neuroinflammation Reduction",
+					"description": "Decreased neuroinflammation and glial activation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Synaptic Preservation",
+					"description": "Protection of synapses in neurodegeneration models.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neuroplasticity",
+			"items": [
+				{
+					"name": "Dendritic Spine Formation",
+					"description": "3-fold increase in dendritic spine formation demonstrated.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "BDNF Upregulation",
+					"description": "Increases brain-derived neurotrophic factor expression.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Angiogenesis Promotion",
+					"description": "Promotes new blood vessel formation in brain.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oral capsules/tablets are the most convenient form. Take in the morning with or without food. No reconstitution required.",
+			"protocols": [
+				{
+					"goal": "Standard cognitive enhancement",
+					"dose": "8-10mg",
+					"frequency": "1x daily (morning)",
+					"route": "Oral"
+				},
+				{
+					"goal": "Low-dose maintenance",
+					"dose": "5mg",
+					"frequency": "1x daily",
+					"route": "Oral"
+				},
+				{
+					"goal": "Intensive learning protocol",
+					"dose": "10-15mg",
+					"frequency": "1x daily",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": [
+				"No injection required",
+				"Room temperature storage (2 year shelf life)",
+				"Convenient once-daily dosing"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous/intraperitoneal injection provides more consistent dosing. Requires refrigerated storage after reconstitution.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "0.5mg/kg daily",
+					"frequency": "Daily or 3x weekly",
+					"route": "SubQ/IP"
+				},
+				{
+					"goal": "Standard injectable",
+					"dose": "2-5mg total",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Dihexa lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Calculate water volume for desired concentration",
+					"Add bacteriostatic water slowly to lyophilized powder",
+					"Gently swirl to dissolve - do not shake",
+					"Store reconstituted solution in refrigerator",
+					"Use within 30 days of reconstitution"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen, thigh, or upper arm injection sites",
+				"More consistent dosing than oral"
+			]
+		},
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Topical cream formulation with limited research data. Experimental route.",
+			"protocols": [
+				{
+					"goal": "Topical application",
+					"dose": "10-20mg cream",
+					"frequency": "1x daily",
+					"route": "Inner forearms, shoulders (rotate sites)"
+				}
+			],
+			"keyBenefits": ["Non-invasive", "Room temperature storage"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semax",
+			"status": "compatible",
+			"notes": "Enhanced cognitive benefits; monitor for overstimulation."
+		},
+		{
+			"peptide": "Selank",
+			"status": "compatible",
+			"notes": "Synergistic effects; watch for neural overstimulation."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms; no negative interactions known."
+		},
+		{
+			"peptide": "P21",
+			"status": "avoid",
+			"notes": "Both affect neuroplasticity strongly; avoid concurrent use."
+		},
+		{
+			"peptide": "Noopept",
+			"status": "compatible",
+			"notes": "Some stack for cognition; limited safety data."
+		},
+		{
+			"peptide": "NAD+",
+			"status": "compatible",
+			"notes": "Complementary mechanisms for cellular health."
+		},
+		{
+			"peptide": "Cerebrolysin",
+			"status": "monitor",
+			"notes": "Both potently neuroactive; may cause overstimulation."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "compatible",
+			"notes": "Different targets; no known interactions."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Subtle cognitive shifts; possible headaches during adaptation"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Improved focus and memory formation"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Peak cognitive benefits and enhanced learning"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects may persist for days to weeks after discontinuation"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Headaches (most frequent side effect)",
+			"Anxiety or overstimulation",
+			"Sleep disruption when dosed late in day",
+			"Mental clarity increase"
+		],
+		"stopSigns": [
+			"Severe or persistent headaches",
+			"Increasing anxiety or panic attacks",
+			"Significant mood changes or depression",
+			"Sleep disturbance beyond 3 days",
+			"Concerning neurological symptoms",
+			"Signs of overstimulation or mania",
+			"Injection site reactions (if injectable)"
+		],
+		"contraindications": [
+			"Not FDA approved - research compound only",
+			"Theoretical cancer risk via c-Met activation",
+			"Cancer history (avoid due to c-Met pathway)",
+			"Pregnancy or breastfeeding",
+			"No long-term human safety data"
+		],
+		"monitoring": [
+			"Cognitive function assessment",
+			"Mood and anxiety levels",
+			"Sleep quality",
+			"Requires cycling to prevent tolerance"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade from licensed compounding pharmacy",
+			"Certificate of analysis showing >98% purity",
+			"Proper storage conditions maintained",
+			"Uniform capsules with clear lot numbers and expiration dates"
+		],
+		"warning": [
+			"Research chemical sources may lack pharmaceutical standards",
+			"Products lacking third-party testing documentation"
+		],
+		"bad": [
+			"No analytical testing or purity reports",
+			"Unverified sources",
+			"Suspicious or extremely cheap pricing",
+			"Discolored or damaged capsules"
+		]
+	},
+	"references": [
+		{
+			"title": "Injectable Route Efficacy Study",
+			"year": "2013",
+			"keyFindings": "Intraperitoneal injection at 0.5mg/kg/day completely reversed scopolamine-induced cognitive deficits (p<0.001), with performance indistinguishable from healthy controls."
+		},
+		{
+			"title": "APP/PS1 Alzheimer's Model Study",
+			"year": "2021",
+			"keyFindings": "Dihexa restored spatial learning and memory in Morris water maze tests, increased neuronal cells and synaptophysin expression, reduced neuroinflammation."
+		},
+		{
+			"title": "Synaptogenic Potency Study",
+			"year": "2014",
+			"keyFindings": "Demonstrated to be 10 million times more effective than BDNF at promoting synapse formation through HGF/c-Met receptor activation."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Fosgonimeton (ATH-1017) Phase 2 Trials",
+			"date": "2024",
+			"source": "Clinical Development",
+			"summary": "Phosphate pro-drug of Dihexa currently in Phase 2 clinical trials for Alzheimer's and Parkinson's disease."
+		}
+	],
+	"categories": ["cognitive", "longevity"],
+	"quickStats": {
+		"typicalDose": "8-10mg oral or 2-5mg injectable (0.5mg/kg based on research)",
+		"frequency": "Once daily in the morning",
+		"cycleDuration": "4-8 weeks on",
+		"storage": "Oral: room temperature (2 year shelf life); Injectable lyophilized: 2-8°C; Reconstituted: 2-8°C, use within 30 days"
+	}
+}

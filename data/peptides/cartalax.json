@@ -1,0 +1,235 @@
+{
+	"id": "cartalax",
+	"name": "Cartalax",
+	"subtitle": "Bioregulatory Tripeptide | Cartilage & Connective Tissue Support",
+	"aliases": ["AED peptide", "T-31", "Sigumir", "Kartalaks"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~350 Da",
+		"length": "3 amino acids",
+		"type": "Tripeptide",
+		"sequence": "Ala-Glu-Asp (AED)",
+		"modifications": ["Isolated from kidney tissue", "Found in alpha-1 chain of type XI collagen"],
+		"halfLife": "Minutes (short peptide); effects persist via epigenetic changes"
+	},
+	"overview": "Synthetic tripeptide developed by Professor Vladimir Khavinson, supporting cartilage, connective tissue, and cellular regeneration through proliferation markers and apoptosis pathway modulation.",
+	"mechanism": "Modulates cell proliferation, suppresses apoptosis, affects fibroblast activity, reduces senescence markers, and influences extracellular matrix preservation.",
+	"keyBenefits": [
+		"Joint and connective tissue support",
+		"Potential anti-aging effects on fibroblasts",
+		"Cartilage regeneration support",
+		"Established safety profile in Russian clinical practice"
+	],
+	"indications": [
+		{
+			"category": "Joint Health",
+			"items": [
+				{
+					"name": "Osteoarthritis",
+					"description": "Clinical efficacy shown in osteochondrosis, osteoarthritis, and osteoporosis treatment.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Degenerative Joint Disease Prevention",
+					"description": "Supports cartilage maintenance and joint function.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Post-Fracture Recovery",
+					"description": "Supports bone and connective tissue healing.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Skin Health",
+			"items": [
+				{
+					"name": "Fibroblast Activation",
+					"description": "Increased Ki-67 expression with suppressed apoptosis in young and aged cells.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Collagen Production",
+					"description": "Enhances collagen synthesis in connective tissue.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cellular Senescence Reduction",
+					"description": "Inhibited MMP-9 synthesis; maintained extracellular matrix integrity.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Capsule form; do not chew, swallow whole with water during meals.",
+			"protocols": [
+				{
+					"goal": "Joint Support",
+					"dose": "100-200mcg (1-2 capsules)",
+					"frequency": "1-2x daily with meals",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": [
+				"Convenient administration",
+				"Room temperature storage",
+				"Established Russian clinical protocols"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Daily subcutaneous injection for enhanced bioavailability.",
+			"protocols": [
+				{
+					"goal": "Tissue Regeneration",
+					"dose": "700-1400mcg (10-20mcg/kg)",
+					"frequency": "Daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Cartalax lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Use bacteriostatic water for reconstitution",
+					"Gentle mixing required",
+					"Store refrigerated after reconstitution"
+				]
+			},
+			"keyBenefits": ["Higher bioavailability", "Precise dosing", "20-30 day cycles"]
+		},
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Solution applied to face, neck, hands, or superficial joint areas.",
+			"protocols": [
+				{
+					"goal": "Skin Rejuvenation",
+					"dose": "0.5-1ml solution",
+					"frequency": "2x daily",
+					"route": "Topical"
+				}
+			],
+			"keyBenefits": ["Direct application to target area", "Non-invasive", "30-60 day cycles"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Other Khavinson Peptides",
+			"status": "synergistic",
+			"notes": "Complementary bioregulatory effects across organ systems."
+		},
+		{
+			"peptide": "Collagen Supplements",
+			"status": "synergistic",
+			"notes": "May enhance synthesis while supplements provide raw materials."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms; no direct interaction."
+		},
+		{
+			"peptide": "TB-500",
+			"status": "compatible",
+			"notes": "Distinct action pathways; may complement effects."
+		},
+		{
+			"peptide": "Growth Factors (IGF-1, GH)",
+			"status": "monitor",
+			"notes": "Both affect tissue growth; monitor for excessive proliferation."
+		},
+		{
+			"peptide": "Glucosamine/Chondroitin",
+			"status": "synergistic",
+			"notes": "Complementary joint support mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Establishing baseline; minimal noticeable changes"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Gradual improvement in joint comfort"
+		},
+		{
+			"period": "Month 2",
+			"effects": "Noticeable mobility improvements"
+		},
+		{
+			"period": "Month 3",
+			"effects": "Maximum therapeutic effect achieved"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"No reported side effects in Russian clinical use when taken properly",
+			"Well-tolerated in elderly patients"
+		],
+		"stopSigns": [
+			"Allergic reactions",
+			"Digestive upset (rare with proper administration)",
+			"No improvement after 3 months",
+			"Unexpected symptoms"
+		],
+		"contraindications": [
+			"Pregnancy and breastfeeding",
+			"Active cancer (theoretical proliferation risk)"
+		],
+		"monitoring": [
+			"Follow official Russian manufacturer timing guidelines",
+			"Take with meals for oral form"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Professional Russian packaging with holographic seals",
+			"Exactly 0.1mg (100mcg) AC-4 peptide complex per capsule",
+			"Clear Russian/English instructions specifying 'with meals'"
+		],
+		"warning": ["Proper documentation required for authenticity", "Import verification needed"],
+		"bad": ["Missing holographic seals or professional packaging", "Unclear dosing instructions"]
+	},
+	"references": [
+		{
+			"title": "Fibroblast Proliferation Study",
+			"year": "2019",
+			"keyFindings": "Human skin fibroblasts; 72 hours at 20 nM. Increased Ki-67 expression with suppressed apoptosis in young and aged cells."
+		},
+		{
+			"title": "Kidney Cell Culture Research",
+			"year": "2020",
+			"keyFindings": "Renal epithelial cells; 7 days. Reduced pro-apoptotic p53 expression in aging kidney cells."
+		},
+		{
+			"title": "Clinical Spine & Joint Study (Russia)",
+			"year": "N/A",
+			"keyFindings": "Human subjects; 1-3 months with 0.1mg capsules daily. Efficacy in osteochondrosis, osteoarthritis, and osteoporosis treatment."
+		},
+		{
+			"title": "Matrix Metalloproteinase Research",
+			"year": "2020",
+			"keyFindings": "Fibroblast cultures; 5 days at 20 nM. Inhibited MMP-9 synthesis; maintained extracellular matrix integrity."
+		}
+	],
+	"categories": ["healing", "longevity"],
+	"quickStats": {
+		"typicalDose": "100-200mcg oral (1-2 capsules) or 700-1400mcg injectable",
+		"frequency": "1-2 times daily with meals (oral) or once daily (injectable)",
+		"cycleDuration": "1-3 months depending on application",
+		"storage": "Oral capsules: room temperature; Injectable lyophilized: 2-8°C; Reconstituted: 2-8°C refrigerated"
+	}
+}

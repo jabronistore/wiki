@@ -1,0 +1,215 @@
+{
+	"id": "adipotide",
+	"name": "Adipotide",
+	"subtitle": "Prohibitin-Targeting Peptidomimetic | Experimental Anti-Obesity",
+	"aliases": ["Prohibitin-TP01", "CKGGRAKDC-GG-D(KLAKLAK)2"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "N/A",
+		"length": "N/A",
+		"type": "Chimeric peptidomimetic",
+		"sequence": "CKGGRAKDC-GG-D(KLAKLAK)2",
+		"modifications": ["D-amino acid motif for apoptosis induction"],
+		"halfLife": "Not established"
+	},
+	"overview": "Chimeric adipose-vasculature-targeted peptidomimetic targeting prohibitin/annexin A2 on white adipose tissue endothelium, delivering pro-apoptotic D-(KLAKLAK)2 motif. In obese primates it produced rapid fat loss with improved insulin resistance, yet development halted after Phase 1 due to kidney safety signals.",
+	"mechanism": "CKGGRAKDC ligand homes to prohibitin/annexin A2 on white-fat endothelium; linked D-(KLAKLAK)2 disrupts mitochondrial membranes post-internalization, triggering localized endothelial apoptosis and adipocyte loss.",
+	"keyBenefits": [
+		"Rapid fat-mass reduction via selective white adipose tissue vascular targeting",
+		"Improved insulin sensitivity following adipose reduction",
+		"Non-CNS peripheral mechanism distinct from appetite suppressants"
+	],
+	"indications": [
+		{
+			"category": "Weight Loss",
+			"items": [
+				{
+					"name": "Adipose Mass Reduction",
+					"description": "Selective white adipose tissue vascular targeting produced 7-15% body-weight loss over 4 weeks in obese macaques.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolic",
+			"items": [
+				{
+					"name": "Insulin Resistance",
+					"description": "Improved insulin response (reduced insulin AUC) following fat-mass reduction in primates.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Appetite Control",
+			"items": [
+				{
+					"name": "Non-CNS Mechanism",
+					"description": "Weight loss without primary appetite suppression; peripheral vascular approach.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Rapid fat-mass reduction in obese non-human primates with improved insulin sensitivity; direct white adipose tissue vascular targeting.",
+			"protocols": [
+				{
+					"goal": "Primate Research Replication",
+					"dose": "0.43 mg/kg",
+					"frequency": "Once daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Dose-Finding (Research)",
+					"dose": "0.10-0.75 mg/kg",
+					"frequency": "Once daily (escalating tiers)",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Lyophilized peptide vial",
+					"Bacteriostatic water (BAC water)",
+					"Alcohol swabs & sterile syringes",
+					"Insulin syringes (0.5-1 mL)"
+				],
+				"steps": [
+					"Sanitize hands and workspace; swab vial septum",
+					"Inject BAC water slowly down vial wall; do not jet onto powder",
+					"Gently swirl until fully dissolved (do not shake)",
+					"Label with concentration/date; store at 2-8°C"
+				]
+			},
+			"keyBenefits": [
+				"Rapid fat-mass reduction",
+				"Improved insulin sensitivity",
+				"Direct tissue targeting"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semaglutide",
+			"status": "monitor",
+			"notes": "Potential additive dehydration/GI effects; monitor renal function."
+		},
+		{
+			"peptide": "Tirzepatide",
+			"status": "monitor",
+			"notes": "Overlapping weight-loss effects; monitor kidney function, volume status, electrolytes."
+		},
+		{
+			"peptide": "Cagrilintide",
+			"status": "monitor",
+			"notes": "No clinical data on co-administration; mechanisms differ."
+		},
+		{
+			"peptide": "AOD-9604",
+			"status": "monitor",
+			"notes": "No published data on combined use or pharmacodynamic interaction."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known direct interaction; distinct mechanisms and targets."
+		},
+		{
+			"peptide": "CJC-1295/Ipamorelin",
+			"status": "monitor",
+			"notes": "Metabolic effects may confound body-composition endpoints."
+		},
+		{
+			"peptide": "Melanotan II",
+			"status": "monitor",
+			"notes": "Theoretical vascular/pressor effects; stagger dosing, monitor BP and hydration."
+		},
+		{
+			"peptide": "Nephrotoxic Drugs",
+			"status": "avoid",
+			"notes": "Adipotide shows dose-dependent proximal tubule injury; avoid additional renal insults."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Early reduction in abdominal circumference"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Progressive weight/fat-mass decline"
+		},
+		{
+			"period": "Post-Discontinuation",
+			"effects": "Partial rebound possible; lab signals include mild creatinine rise and electrolyte shifts"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild creatinine elevation",
+			"Electrolyte shifts",
+			"Dose-dependent proximal tubule changes (reversible in primates)"
+		],
+		"stopSigns": [
+			"Sustained creatinine elevation or oliguria",
+			"Progressive electrolyte abnormalities",
+			"Severe injection-site reactions or systemic symptoms",
+			"Unexpected toxicity"
+		],
+		"contraindications": [
+			"Pregnancy/lactation (not studied)",
+			"Dehydration",
+			"Concurrent nephrotoxic medications"
+		],
+		"monitoring": [
+			"Serum creatinine weekly",
+			"Blood urea nitrogen (BUN) weekly",
+			"Urinalysis weekly",
+			"Electrolytes weekly"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Intact lyophilized cake - white, uniform indicates proper lyophilization",
+			"Clear solution - fully dissolved, particle-free after reconstitution"
+		],
+		"warning": ["Minor clumping may form from shipping; should dissolve with gentle swirl"],
+		"bad": [
+			"Collapsed/moist cake suggests temperature excursion; do not use without QC",
+			"Cloudiness/precipitate indicates degradation or contamination—discard"
+		]
+	},
+	"references": [
+		{
+			"title": "A peptidomimetic targeting white fat causes weight loss and improved insulin resistance in obese monkeys",
+			"year": "2011",
+			"keyFindings": "Rhesus macaques at 0.43 mg/kg SC daily for 28 days showed 7.4-14.7% weight loss; insulin resistance improved; mild, dose-dependent, reversible proximal tubule changes."
+		},
+		{
+			"title": "Reversal of obesity by targeted ablation of adipose tissue",
+			"year": "2004",
+			"keyFindings": "Mice with diet-induced obesity showed ~30% weight reduction; adipose vascular apoptosis; metabolic normalization."
+		},
+		{
+			"title": "Prohibitin/Annexin A2 Interaction Regulates Fatty-Acid Transport",
+			"year": "2016",
+			"keyFindings": "Mechanistic validation of prohibitin/ANXA2 axis in adipose tissue, core to TP01 targeting."
+		},
+		{
+			"title": "Mixed-Chirality Prohibitin Peptide: D-(RLARLAR)2 Enhances Stability",
+			"year": "2025",
+			"keyFindings": "Next-generation prohibitin constructs improve serum stability and efficacy vs. first-generation TP01."
+		}
+	],
+	"categories": ["weight-loss"],
+	"quickStats": {
+		"typicalDose": "0.43 mg/kg",
+		"frequency": "Once daily",
+		"cycleDuration": "28 days",
+		"storage": "Lyophilized: -20°C freezer. Reconstituted: 2-8°C refrigerated"
+	}
+}

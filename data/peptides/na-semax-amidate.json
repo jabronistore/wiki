@@ -1,0 +1,278 @@
+{
+	"id": "na-semax-amidate",
+	"name": "NA Semax Amidate",
+	"subtitle": "Enhanced Nootropic Peptide | Cognitive Enhancement & Neuroprotection",
+	"aliases": ["N-Acetyl Semax Amidate"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "1,007.16 Da",
+		"length": "7 amino acids",
+		"type": "Modified ACTH analog",
+		"sequence": "Asn-Ala-Met-Glu-His-Phe-Pro-Gly-Pro-NH₂",
+		"halfLife": "2-10 hours",
+		"halfLifeSeconds": 21600,
+		"modifications": ["N-acetylated", "C-terminal amidated for enhanced bioavailability"]
+	},
+	"overview": "Enhanced and stabilized version of Russian nootropic Semax with superior stability, extended half-life, and enhanced bioavailability through acetylation and amidation modifications.",
+	"mechanism": "Bypasses blood-brain barrier via olfactory nerves with direct brain access; enhances BDNF upregulation and hippocampal plasticity.",
+	"keyBenefits": [
+		"Direct brain access via olfactory nerves",
+		"Rapid onset (15-30 minutes)",
+		"Proven cognitive efficacy",
+		"Extended half-life vs standard Semax",
+		"Enhanced BDNF upregulation"
+	],
+	"indications": [
+		{
+			"category": "Cognitive",
+			"items": [
+				{
+					"name": "Enhanced Focus and Attention",
+					"description": "Rapid improvement in sustained attention, working memory, and mental clarity within 15-30 minutes.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Memory Formation",
+					"description": "Enhances both short-term and long-term memory consolidation through BDNF upregulation.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Mental Fatigue Resistance",
+					"description": "Significant improvement in cognitive performance during mental fatigue, with lasting effects.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Stroke Recovery Support",
+					"description": "Accelerates functional recovery through enhanced neuroplasticity and BDNF elevation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Oxidative Stress Protection",
+					"description": "Protects against neural oxidative damage and supports cellular repair mechanisms.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neurotrophic Factor Enhancement",
+					"description": "Rapidly increases BDNF and TrkB receptor expression, supporting neuronal survival.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Memory",
+			"items": [
+				{
+					"name": "Episodic Memory Enhancement",
+					"description": "Improves episodic memory formation and recall through default mode network optimization.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Learning Acceleration",
+					"description": "Enhances acquisition of new information through improved synaptic plasticity.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Direct brain access via olfactory nerves with rapid onset and proven efficacy.",
+			"protocols": [
+				{
+					"goal": "Cognitive enhancement",
+					"dose": "600mcg",
+					"frequency": "1x daily",
+					"route": "Intranasal spray"
+				},
+				{
+					"goal": "Mental fatigue resistance",
+					"dose": "800mcg",
+					"frequency": "1x daily",
+					"route": "Intranasal spray"
+				},
+				{
+					"goal": "Memory enhancement",
+					"dose": "600mcg",
+					"frequency": "2x daily",
+					"route": "Intranasal spray"
+				},
+				{
+					"goal": "Neuroprotection",
+					"dose": "1200mcg",
+					"frequency": "1x daily",
+					"route": "Intranasal spray"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"NA Semax Amidate lyophilized powder",
+					"Sterile saline solution (0.9% NaCl)",
+					"Nasal spray bottles (sterile)",
+					"Precision scale for dosing"
+				],
+				"steps": [
+					"Calculate desired concentration (0.1% or 0.3%)",
+					"Add sterile saline slowly to powder",
+					"Swirl gently until dissolved",
+					"Transfer to nasal spray bottle",
+					"Label and refrigerate"
+				]
+			},
+			"keyBenefits": ["Direct brain access", "Rapid onset (15-30 min)", "Non-invasive"]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Research applications with 100% bioavailability and precise dosing control.",
+			"protocols": [
+				{
+					"goal": "Research protocol",
+					"dose": "200mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Neuroprotection study",
+					"dose": "400mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Add BAC water slowly",
+					"Swirl until dissolved",
+					"Store refrigerated",
+					"Use within 28 days"
+				]
+			},
+			"keyBenefits": ["100% bioavailability", "Precise dosing control", "Research applications"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "NA Selank Amidate",
+			"status": "synergistic",
+			"notes": "Excellent combination providing comprehensive cognitive support with nootropic and anxiolytic benefits."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "Different mechanisms with complementary neuroprotective benefits."
+		},
+		{
+			"peptide": "Lion's Mane",
+			"status": "compatible",
+			"notes": "Both enhance BDNF and neuroplasticity; may provide additive cognitive benefits."
+		},
+		{
+			"peptide": "Modafinil",
+			"status": "monitor",
+			"notes": "Both affect focus; combination may cause overstimulation in some individuals."
+		},
+		{
+			"peptide": "Blood Pressure Medications",
+			"status": "monitor",
+			"notes": "Monitor blood pressure as Semax may affect vascular function."
+		},
+		{
+			"peptide": "MAO Inhibitors",
+			"status": "avoid",
+			"notes": "Semax affects neurotransmitter systems; combination may cause unpredictable effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "15-30 minutes",
+			"effects": "Initial cognitive clarity and focus improvement"
+		},
+		{
+			"period": "1-2 hours",
+			"effects": "Peak cognitive enhancement and mental alertness"
+		},
+		{
+			"period": "2-6 hours",
+			"effects": "Sustained attention and memory benefits"
+		},
+		{
+			"period": "6-12 hours",
+			"effects": "Gradual return to baseline with lasting effects"
+		}
+	],
+	"sideEffects": {
+		"common": ["Mild nasal irritation (intranasal)", "Slight headache initially"],
+		"stopSigns": [
+			"Persistent nasal irritation, burning, or bleeding",
+			"Severe headaches or dizziness after administration",
+			"Unusual mood changes, anxiety, or agitation",
+			"Sleep disturbances or insomnia",
+			"Any allergic reactions (swelling, rash, difficulty breathing)",
+			"Significant changes in blood pressure or heart rate"
+		],
+		"contraindications": [
+			"Not recommended during pregnancy",
+			"Active nasal congestion or sinus infection",
+			"Individuals on neurotransmitter-affecting medications without consultation"
+		],
+		"monitoring": [
+			"Use sterile solutions only",
+			"Start with lower doses",
+			"Avoid if nasal congestion present"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White, fluffy powder that reconstitutes clearly",
+			"Clear solution with no particles or cloudiness",
+			"Third-party purity testing certificates showing >98% purity"
+		],
+		"warning": ["Ensure proper cold chain maintained during shipping"],
+		"bad": [
+			"Discolored powder (yellow or brown indicates degradation)",
+			"Cloudiness after reconstitution indicates contamination"
+		]
+	},
+	"references": [
+		{
+			"title": "Cognitive Enhancement in Fatigued Subjects",
+			"year": "1996",
+			"keyFindings": "Improved attention and short-term memory in healthy subjects; 71% vs 41% memory accuracy with pronounced effects when fatigued."
+		},
+		{
+			"title": "Default Mode Network Enhancement",
+			"year": "2018",
+			"keyFindings": "24 subjects fMRI study. Significantly increased default mode network volume, particularly in medial frontal cortex, enhancing episodic memory."
+		},
+		{
+			"title": "Stroke Recovery and BDNF Enhancement",
+			"year": "2018",
+			"keyFindings": "110 participants. Increased brain-derived neurotrophic factor levels and accelerated functional recovery during rehabilitation."
+		},
+		{
+			"title": "Gene Expression and Neuroprotection",
+			"year": "2014",
+			"keyFindings": "Rat model revealed 96+ gene expression changes related to immune response, vascular function, and neuroprotection."
+		}
+	],
+	"categories": ["cognitive", "longevity"],
+	"quickStats": {
+		"typicalDose": "600-1200mcg per administration",
+		"frequency": "1-2x daily for 10-30 days",
+		"cycleDuration": "10-30 days",
+		"storage": "Refrigerate at 2-8°C"
+	}
+}

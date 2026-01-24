@@ -1,0 +1,303 @@
+{
+	"id": "snap-8",
+	"name": "SNAP-8",
+	"subtitle": "Acetyl Octapeptide-3 | Anti-Wrinkle & Expression Line Peptide",
+	"aliases": ["Acetyl Octapeptide-3"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "1,075.16 Da",
+		"length": "8 amino acids",
+		"type": "Acetylated octapeptide",
+		"sequence": "Ac-Glu-Glu-Met-Gln-Arg-Arg-Ala-Asp-NH2",
+		"modifications": ["N-terminal acetylation", "C-terminal amidation for enhanced stability"],
+		"halfLife": "Not established (primarily topical use)",
+		"halfLifeSeconds": null
+	},
+	"overview": "Synthetic octapeptide functioning as topical Botox alternative, targeting dynamic facial wrinkles through SNARE complex modulation. Up to 63% wrinkle depth reduction demonstrated clinically.",
+	"mechanism": "Mimics SNAP-25 protein N-terminal, competitively inhibits SNARE complex formation, reduces acetylcholine release at neuromuscular junctions.",
+	"keyBenefits": [
+		"Non-invasive alternative to botulinum toxin",
+		"Up to 63% wrinkle depth reduction demonstrated clinically",
+		"Safe for sensitive periorbital areas",
+		"No recovery time required",
+		"Gradual, natural-appearing results"
+	],
+	"indications": [
+		{
+			"category": "Anti-Wrinkle",
+			"items": [
+				{
+					"name": "Expression Line Reduction",
+					"description": "Demonstrates up to 63% reduction in wrinkle depth around eyes/forehead over 28 days.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Forehead Wrinkle Treatment",
+					"description": "Targets horizontal lines from repetitive eyebrow-raising and facial expressions.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Crow's Feet Improvement",
+					"description": "Reduces periorbital wrinkles via localized muscle relaxation without affecting natural expressions.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Muscle Relaxation",
+			"items": [
+				{
+					"name": "SNARE Complex Modulation",
+					"description": "43% inhibition efficiency at therapeutic concentrations.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Targeted Muscle Action",
+					"description": "Localized relaxation at application sites without systemic effects.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Skin Health",
+			"items": [
+				{
+					"name": "Preventive Anti-Aging",
+					"description": "Slows new expression line formation before becoming static wrinkles.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Most studied and clinically validated route; applied directly to skin for localized effects.",
+			"protocols": [
+				{
+					"goal": "General Anti-Aging",
+					"dose": "3-5% concentration",
+					"frequency": "2x daily",
+					"route": "Serum/cream"
+				},
+				{
+					"goal": "Intensive Wrinkle Treatment",
+					"dose": "5-10% concentration",
+					"frequency": "2x daily",
+					"route": "Targeted application"
+				},
+				{
+					"goal": "Eye Area Treatment",
+					"dose": "3-5% concentration",
+					"frequency": "2x daily",
+					"route": "Eye cream/serum"
+				},
+				{
+					"goal": "Preventive Use",
+					"dose": "3% concentration",
+					"frequency": "1-2x daily",
+					"route": "Daily moisturizer"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"SNAP-8 peptide solution or powder",
+					"Base serum or cream if mixing",
+					"Clean applicator or dropper",
+					"Gentle pH-balanced cleanser"
+				],
+				"steps": [
+					"Cleanse face with gentle cleanser",
+					"Pat dry and wait 1-2 minutes",
+					"Dissolve powder in distilled water or add to serum base at 3-10%",
+					"Apply pea-sized amount to target areas (forehead, eyes, between brows)",
+					"Gently pat into skin—avoid rubbing",
+					"Wait 2-3 minutes for absorption",
+					"Follow with moisturizer and sunscreen (daytime)"
+				]
+			},
+			"keyBenefits": ["Non-invasive", "Clinically validated", "Safe for sensitive areas"]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Research-only subcutaneous administration; direct tissue delivery with limited clinical data.",
+			"protocols": [
+				{
+					"goal": "Initial Phase (Weeks 1-4)",
+					"dose": "0.33mg (330mcg)",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Mid-Phase (Weeks 5-8)",
+					"dose": "0.5mg (500mcg)",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Target Phase (Weeks 9-12)",
+					"dose": "1.0mg (1000mcg)",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"SNAP-8 lyophilized powder (10mg vial)",
+					"Bacteriostatic water (3.0 mL)",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Clean vial top with alcohol swab; allow to dry",
+					"Draw 3.0 mL bacteriostatic water into syringe",
+					"Inject water slowly down inside wall to minimize foaming",
+					"Gently swirl vial—do NOT shake vigorously",
+					"Allow complete dissolution (clear solution)",
+					"Final concentration: ~3.33 mg/mL",
+					"Store reconstituted solution at 2-8°C; use within 30 days"
+				]
+			},
+			"keyBenefits": ["Direct tissue delivery", "Research applications", "Experimental use only"]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Argireline (Acetyl Hexapeptide-3)",
+			"status": "synergistic",
+			"notes": "Parent compound with same mechanism; SNAP-8 ~30% more potent; may be redundant when combined."
+		},
+		{
+			"peptide": "Leuphasyl",
+			"status": "synergistic",
+			"notes": "Research shows 47% total inhibition combined vs 38% and 7% independently."
+		},
+		{
+			"peptide": "GHK-Cu",
+			"status": "compatible",
+			"notes": "Complementary mechanisms—SNAP-8 reduces expression lines; GHK-Cu promotes collagen synthesis."
+		},
+		{
+			"peptide": "Hyaluronic Acid",
+			"status": "synergistic",
+			"notes": "Excellent combination; hydration and plumping effects enhance wrinkle reduction."
+		},
+		{
+			"peptide": "Niacinamide",
+			"status": "compatible",
+			"notes": "Safe together; niacinamide calms barrier while SNAP-8 targets expression lines."
+		},
+		{
+			"peptide": "Retinol",
+			"status": "monitor",
+			"notes": "Both potent actives; introduce slowly or use separately (SNAP-8 morning, retinol evening)."
+		},
+		{
+			"peptide": "Vitamin C (L-Ascorbic Acid)",
+			"status": "monitor",
+			"notes": "pH differences may affect stability; use Vitamin C morning, SNAP-8 evening."
+		},
+		{
+			"peptide": "AHA/BHA Acids",
+			"status": "monitor",
+			"notes": "Acids destabilize peptides; use at different times—acids morning, peptides evening."
+		},
+		{
+			"peptide": "Matrixyl",
+			"status": "synergistic",
+			"notes": "Complementary anti-aging—Matrixyl stimulates collagen; SNAP-8 relaxes muscles."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-7",
+			"effects": "Skin feels slightly smoother; minimal visible changes as peptide accumulates"
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Initial fine line reduction, especially with expressions; skin appears more relaxed"
+		},
+		{
+			"period": "Week 4",
+			"effects": "Significant wrinkle depth reduction (~35% average); expression lines less pronounced"
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Maximum efficacy (~63% reduction); forehead and eye area show notable improvement"
+		},
+		{
+			"period": "Ongoing",
+			"effects": "Maintained results with continued use; effects diminish over 2-4 weeks if discontinued"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild irritation or redness (especially at 5-10% concentrations initially)",
+			"Minimal risk on sensitive periorbital areas"
+		],
+		"stopSigns": [
+			"Persistent skin irritation, burning, or redness unresolved within days",
+			"Allergic reaction (rash, hives, swelling, difficulty breathing)",
+			"Unusual skin discoloration in treated areas",
+			"Worsening skin condition after 2+ weeks of use",
+			"Eye irritation or vision changes if product enters eyes"
+		],
+		"contraindications": [
+			"Pregnancy and breastfeeding (insufficient safety data)",
+			"Known peptide allergies"
+		],
+		"monitoring": [
+			"Perform patch test on inner arm 24 hours before facial use",
+			"Discontinue if persistent irritation occurs",
+			"Avoid combining with strong acids in same application"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, colorless to slightly yellowish solution with no visible particles",
+			"pH between 3.0-5.0 for stability and skin compatibility",
+			"Airless pump, dark glass, or UV-protected packaging",
+			"Subtle, measurable wrinkle reduction over 2-4 weeks"
+		],
+		"warning": [
+			"Many commercial products contain subtherapeutic concentrations; verify 3-10% SNAP-8"
+		],
+		"bad": [
+			"Cloudy or discolored solution—indicates degradation or contamination",
+			"Strong odor or unusual smell—suggests contamination or degradation"
+		]
+	},
+	"references": [
+		{
+			"title": "Argireline Anti-Wrinkle Efficacy—Randomized Controlled Trial",
+			"year": "2013",
+			"keyFindings": "First multicenter RCT of parent compound; 48.9% anti-wrinkle efficiency vs 0% placebo (P<0.01)."
+		},
+		{
+			"title": "Synthetic Hexapeptide (Argireline) Antiwrinkle Activity",
+			"year": "2002",
+			"keyFindings": "Argireline reduced wrinkle depth up to 30% in 30 days; established SNARE complex destabilization mechanism."
+		},
+		{
+			"title": "Cosmeceutical Peptides—SNARE Complex Inhibition Review",
+			"year": "2020",
+			"keyFindings": "SNAP-8 showed 43% SNARE complex inhibition; synergistic with Leuphasyl (47% total vs 38% and 7% independently)."
+		},
+		{
+			"title": "Dissolving Microneedle Patch Clinical Safety and Efficacy",
+			"year": "2024",
+			"keyFindings": "Microneedle patches enhanced SNAP-8 delivery and wrinkle reduction vs topical alone."
+		}
+	],
+	"categories": ["skin"],
+	"quickStats": {
+		"typicalDose": "3-10% topical concentration (0.33-1mg injectable)",
+		"frequency": "2x daily for topical (morning and evening)",
+		"cycleDuration": "Continuous use for maintained results",
+		"storage": "Topical: 4-25°C. Reconstituted injectable: 2-8°C, use within 30 days"
+	}
+}
