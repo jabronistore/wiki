@@ -58,6 +58,10 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 		}
 	});
 
+	if (!supabase) {
+		return json({ error: 'Authentication service not configured' }, { status: 503 });
+	}
+
 	// Check if username is already taken
 	const { data: existingProfile } = await supabase
 		.from('profiles')

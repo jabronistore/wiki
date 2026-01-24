@@ -1,6 +1,7 @@
 /// <reference types="../../.svelte-kit/ambient.d.ts" />
 import { createBrowserClient, createServerClient } from '@supabase/ssr';
 import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
+import { dev } from '$app/environment';
 import type { Database } from './types/database';
 
 /**
@@ -39,7 +40,7 @@ export function createSupabaseServerClient(
 							path: '/',
 							sameSite: 'lax' as const,
 							httpOnly: true,
-							secure: false // Set to true in production with HTTPS
+							secure: !dev
 						}
 					}))
 				);

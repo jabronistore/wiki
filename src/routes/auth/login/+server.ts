@@ -37,6 +37,10 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 		}
 	});
 
+	if (!supabase) {
+		return json({ error: 'Authentication service not configured' }, { status: 503 });
+	}
+
 	// Sign in the user
 	const { data: authData, error: authError } = await supabase.auth.signInWithPassword({
 		email,
