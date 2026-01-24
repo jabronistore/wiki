@@ -1,9 +1,7 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { goto, invalidateAll } from '$app/navigation';
 	import { AlertCircle, Eye, EyeOff, Info } from 'lucide-svelte';
 	import PasswordStrength from '$lib/components/community/PasswordStrength.svelte';
-	import { loadRecaptcha, executeRecaptcha } from '$lib/utils/recaptcha';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -28,10 +26,6 @@
 	let isSubmitting = $state(false);
 	let error = $state('');
 	let fieldErrors = $state<Record<string, string>>({});
-
-	onMount(() => {
-		loadRecaptcha();
-	});
 
 	function validateForm(): boolean {
 		const errors: Record<string, string> = {};
@@ -67,8 +61,6 @@
 		error = '';
 
 		try {
-			const recaptchaToken = await executeRecaptcha('register');
-
 			const response = await fetch('/auth/register', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
@@ -77,8 +69,7 @@
 					email,
 					password,
 					location,
-					newsletterOptIn,
-					recaptchaToken
+					newsletterOptIn
 				})
 			});
 
@@ -272,12 +263,5 @@
 			</p>
 		</form>
 
-		<p class="text-xs text-center text-muted-foreground mt-4">
-			This site is protected by reCAPTCHA and the Google
-			<a href="https://policies.google.com/privacy" class="hover:underline" target="_blank">Privacy Policy</a>
-			and
-			<a href="https://policies.google.com/terms" class="hover:underline" target="_blank">Terms of Service</a>
-			apply.
-		</p>
-	</div>
+			</div>
 </div>

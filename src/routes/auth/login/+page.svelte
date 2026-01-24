@@ -1,9 +1,7 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { goto, invalidateAll } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { AlertCircle, Eye, EyeOff } from 'lucide-svelte';
-	import { loadRecaptcha, executeRecaptcha } from '$lib/utils/recaptcha';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -28,10 +26,6 @@
 	let isSubmitting = $state(false);
 	let error = $state('');
 
-	onMount(() => {
-		loadRecaptcha();
-	});
-
 	async function handleSubmit(e: Event) {
 		e.preventDefault();
 
@@ -44,15 +38,12 @@
 		error = '';
 
 		try {
-			const recaptchaToken = await executeRecaptcha('login');
-
 			const response = await fetch('/auth/login', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({
 					email,
-					password,
-					recaptchaToken
+					password
 				})
 			});
 
@@ -159,17 +150,5 @@
 				<a href="/auth/register" class="text-accent hover:underline">Create one</a>
 			</p>
 		</form>
-
-		<p class="text-xs text-center text-muted-foreground mt-4">
-			This site is protected by reCAPTCHA and the Google
-			<a href="https://policies.google.com/privacy" class="hover:underline" target="_blank"
-				>Privacy Policy</a
-			>
-			and
-			<a href="https://policies.google.com/terms" class="hover:underline" target="_blank"
-				>Terms of Service</a
-			>
-			apply.
-		</p>
 	</div>
 </div>

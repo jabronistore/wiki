@@ -1,30 +1,13 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { createSupabaseServerClient } from '$lib/supabase';
-import { verifyRecaptcha } from '$lib/utils/recaptcha';
-import { env } from '$env/dynamic/private';
-import { dev } from '$app/environment';
-
-const SECRET_RECAPTCHA_SECRET_KEY = env.SECRET_RECAPTCHA_SECRET_KEY ?? '';
 
 export const POST: RequestHandler = async ({ request, cookies }) => {
-	const { email, password, recaptchaToken } = await request.json();
+	const { email, password } = await request.json();
 
 	// Validate required fields
 	if (!email || !password) {
 		return json({ error: 'Email and password are required' }, { status: 400 });
-	}
-
-	// Verify reCAPTCHA (skip on localhost/dev)
-	if (!dev) {
-		if (!recaptchaToken) {
-			return json({ error: 'reCAPTCHA verification required' }, { status: 400 });
-		}
-
-		const recaptchaResult = await verifyRecaptcha(recaptchaToken, SECRET_RECAPTCHA_SECRET_KEY, 'login');
-		if (!recaptchaResult.valid) {
-			return json({ error: 'reCAPTCHA verification failed. Please try again.' }, { status: 400 });
-		}
 	}
 
 	// Create Supabase client
