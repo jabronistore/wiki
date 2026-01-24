@@ -2,7 +2,7 @@
 	import '../app.css';
 	import { onMount } from 'svelte';
 	import { goto, beforeNavigate, afterNavigate, onNavigate } from '$app/navigation';
-	import { Moon, Sun, Menu, X, Search, FlaskConical, ArrowRight, Calculator } from 'lucide-svelte';
+	import { Moon, Sun, Menu, X, Search, FlaskConical, ArrowRight, Calculator, Github } from 'lucide-svelte';
 	import type { Snippet } from 'svelte';
 	import type { PeptideSummary } from '$lib/types';
 	import type { Profile } from '$lib/types/community';
@@ -299,7 +299,7 @@
 					<div class="flex flex-col">
 						<span class="text-lg font-bold tracking-tight">Peptide Database</span>
 						<span class="text-[10px] uppercase tracking-widest text-muted-foreground"
-							>Research Wiki</span
+							>Open Source Research Wiki</span
 						>
 					</div>
 				</a>
@@ -355,6 +355,17 @@
 							⌘K
 						</kbd>
 					</button>
+
+					<!-- GitHub -->
+					<a
+						href="https://github.com/jabronistore/wiki"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+						aria-label="View on GitHub"
+					>
+						<Github class="h-5 w-5" />
+					</a>
 
 					<!-- Theme toggle -->
 					<button
@@ -443,7 +454,7 @@
 	<!-- Footer -->
 	<footer class="mt-20 border-t border-border bg-muted/30">
 		<div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-			<div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+			<div class="grid grid-cols-2 gap-8 md:grid-cols-5">
 				<div class="col-span-1 md:col-span-2">
 					<div class="mb-4 flex items-center gap-3">
 						<img src="/pep-logo.webp" alt="Peptide Database" class="h-10 w-10 rounded-xl" />
@@ -480,6 +491,42 @@
 						</li>
 						<li>
 							<a href="/privacy" class="transition-colors hover:text-foreground">Privacy Policy</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h4 class="mb-4 font-semibold">Open Source</h4>
+					<ul class="space-y-2 text-sm text-muted-foreground">
+						<li>
+							<a
+								href="https://github.com/jabronistore/wiki"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="inline-flex items-center gap-1.5 transition-colors hover:text-foreground"
+							>
+								<Github class="h-4 w-4" />
+								GitHub
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://github.com/jabronistore/wiki/blob/main/LICENSE"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="transition-colors hover:text-foreground"
+							>
+								MIT License
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://github.com/jabronistore/wiki/issues"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="transition-colors hover:text-foreground"
+							>
+								Report an Issue
+							</a>
 						</li>
 					</ul>
 				</div>
