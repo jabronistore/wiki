@@ -1,17 +1,14 @@
 import type { PageServerLoad } from './$types';
 import { redirect } from '@sveltejs/kit';
-import { createSupabaseServerClient } from '$lib/supabase';
 import { getAllPeptideSummaries } from '$lib/data/peptides';
 
-export const load: PageServerLoad = async ({ cookies }) => {
-	const supabase = createSupabaseServerClient({
-		getAll: () => cookies.getAll(),
-		setAll: (cookiesToSet) => {
-			cookiesToSet.forEach(({ name, value, options }) => {
-				cookies.set(name, value, { path: '/', ...options });
-			});
-		}
-	});
+export const load: PageServerLoad = async ({ locals }) => {
+	const supabase = locals.supabase;
+
+	// Redirect to login if supabase not available or not authenticated
+	if (!supabase) {
+		throw redirect(303, '/auth/login');
+	}
 
 	// Use getUser() instead of getSession() for secure server-side auth
 	const {

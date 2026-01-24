@@ -1,7 +1,6 @@
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import { getPeptideBySlug } from '$lib/data/peptides';
-import { createSupabaseServerClient } from '$lib/supabase';
 import type { Database } from '$lib/types/database';
 
 type AnonymousFinding = Database['public']['Views']['findings_anonymous']['Row'];
@@ -11,20 +10,27 @@ type FindingResult = Database['public']['Tables']['finding_results']['Row'];
 type ConcurrentCompound = Database['public']['Tables']['finding_concurrent_compounds']['Row'];
 type CustomResult = Database['public']['Tables']['finding_custom_results']['Row'];
 
-export const load: PageServerLoad = async ({ params, cookies }) => {
+export const load: PageServerLoad = async ({ params, locals }) => {
 	const peptide = getPeptideBySlug(params.slug);
 	if (!peptide) {
 		throw redirect(303, '/peptides');
 	}
 
-	const supabase = createSupabaseServerClient({
-		getAll: () => cookies.getAll(),
-		setAll: (cookiesToSet) => {
-			cookiesToSet.forEach(({ name, value, options }) => {
-				cookies.set(name, value, { path: '/', ...options });
-			});
-		}
-	});
+	const supabase = locals.supabase;
+
+	// Return empty data if supabase not available
+	if (!supabase) {
+		return {
+			peptide,
+			findings: [],
+			dosingPhases: {} as Record<string, DosingPhase[]>,
+			sideEffects: {} as Record<string, SideEffect[]>,
+			results: {} as Record<string, FindingResult>,
+			concurrentCompounds: {} as Record<string, ConcurrentCompound[]>,
+			customResults: {} as Record<string, CustomResult[]>,
+			aggregateStats: calculateAggregateStats([], {}, [], [], [], [])
+		};
+	}
 
 	// Fetch published findings for this peptide from the anonymized view
 	const { data: findings, error: findingsError } = await supabase

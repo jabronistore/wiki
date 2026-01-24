@@ -14,7 +14,7 @@ declare global {
 			validIndices?: string[];
 		}
 		interface Locals {
-			supabase: SupabaseClient<Database>;
+			supabase: SupabaseClient<Database> | null;
 			safeGetSession: () => Promise<{ session: Session | null; user: User | null }>;
 			session: Session | null;
 			user: User | null;

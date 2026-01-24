@@ -1,6 +1,8 @@
 import { error } from '@sveltejs/kit';
 import type { Guide } from '$lib/types';
 
+export const prerender = true;
+
 export async function load({ params }) {
 	try {
 		const guide = await import(`../../../guides/${params.slug}.md`);

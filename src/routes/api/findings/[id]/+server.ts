@@ -1,16 +1,12 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { createSupabaseServerClient } from '$lib/supabase';
 
-export const DELETE: RequestHandler = async ({ params, cookies }) => {
-	const supabase = createSupabaseServerClient({
-		getAll: () => cookies.getAll(),
-		setAll: (cookiesToSet) => {
-			cookiesToSet.forEach(({ name, value, options }) => {
-				cookies.set(name, value, { path: '/', ...options });
-			});
-		}
-	});
+export const DELETE: RequestHandler = async ({ params, locals }) => {
+	const supabase = locals.supabase;
+
+	if (!supabase) {
+		return json({ error: 'Service not available' }, { status: 503 });
+	}
 
 	// Check authentication using getUser() for secure server-side auth
 	const {

@@ -6,11 +6,40 @@
 	import type { Snippet } from 'svelte';
 	import type { PeptideSummary } from '$lib/types';
 	import type { Profile } from '$lib/types/community';
-	import type { User } from '@supabase/supabase-js';
+	import type { User, Session, SupabaseClient } from '@supabase/supabase-js';
 	import Seo from 'sk-seo';
 	import UserMenu from '$lib/components/community/UserMenu.svelte';
 
-	let { children, data }: { children: Snippet; data: { peptides?: PeptideSummary[]; user?: User | null; profile?: Profile | null } } = $props();
+	let { children, data }: {
+		children: Snippet;
+		data: {
+			peptides?: PeptideSummary[];
+			user?: User | null;
+			profile?: Profile | null;
+			session?: Session | null;
+			supabase?: SupabaseClient | null;
+		}
+	} = $props();
+
+	// Use client-side session user, falling back to server-side user
+	let currentUser = $derived(data.session?.user ?? data.user ?? null);
+	let currentProfile = $state<Profile | null>(data.profile ?? null);
+
+	// Fetch profile client-side if we have session user but no profile (happens on prerendered pages)
+	$effect(() => {
+		if (currentUser && !currentProfile && data.supabase) {
+			data.supabase
+				.from('profiles')
+				.select('*')
+				.eq('id', currentUser.id)
+				.single()
+				.then(({ data: profileData }) => {
+					if (profileData) {
+						currentProfile = profileData as Profile;
+					}
+				});
+		}
+	});
 
 	// Scroll position restoration using sessionStorage for persistence
 	const SCROLL_KEY = 'peptide-scroll-positions';
@@ -382,7 +411,7 @@
 
 					<!-- User menu -->
 					<div class="hidden md:block">
-						<UserMenu user={data.user ?? null} profile={data.profile ?? null} />
+						<UserMenu user={currentUser} profile={currentProfile} />
 					</div>
 
 					<!-- Mobile menu button -->
