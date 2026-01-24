@@ -1,6 +1,8 @@
 # Peptide Database
 
-A comprehensive peptide research database and wiki built with SvelteKit 5. Features 95+ peptides with detailed information on dosing protocols, molecular structures, clinical applications, and safety data.
+An open source peptide research wiki built with SvelteKit 5. Features 95+ peptides with detailed information on dosing protocols, molecular structures, clinical applications, and safety data.
+
+**Live site**: [peptide-db.com](https://peptide-db.com)
 
 ## Features
 
@@ -8,15 +10,15 @@ A comprehensive peptide research database and wiki built with SvelteKit 5. Featu
 - **Dosing Calculators**: Reconstitution calculator, blend calculator, and accumulation plotter
 - **Interactive Visualizations**: Amino acid sequence viewer, molecular structures (SMILES), pharmacokinetic charts
 - **Guides**: Educational content on peptide research
-- **Community Features**: User accounts, discussions, findings submissions (requires Supabase)
+- **Community Features**: User accounts, discussions, findings submissions (optional, requires Supabase)
 
 ## Tech Stack
 
 - **Framework**: SvelteKit 5 (Svelte 5 runes mode)
 - **Styling**: Tailwind CSS
 - **Charts**: D3.js
-- **Database**: Supabase (PostgreSQL + Auth)
-- **Deployment**: Cloudflare Workers
+- **Database**: Supabase (PostgreSQL + Auth) - optional for community features
+- **Deployment**: Cloudflare Pages
 
 ## Getting Started
 
@@ -29,8 +31,8 @@ A comprehensive peptide research database and wiki built with SvelteKit 5. Featu
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/peptide-db.git
-cd peptide-db
+git clone https://github.com/jabronistore/wiki.git
+cd wiki
 
 # Install dependencies
 pnpm install
@@ -39,16 +41,18 @@ pnpm install
 pnpm dev
 ```
 
-### Environment Variables
+The core database and calculators work without any configuration. Community features (auth, discussions, user submissions) require Supabase.
 
-Copy `.env.example` to `.env.local` and configure:
+### Environment Variables (Optional)
+
+For community features, create `.env.local`:
 
 ```
 PUBLIC_SUPABASE_URL=your_supabase_url
 PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
-Community features require a Supabase project. The core database and calculators work without it.
+Then run the migrations in `/supabase/migrations/` against your Supabase project.
 
 ## Development
 
@@ -78,9 +82,9 @@ pnpm format
 └── supabase/          # Database migrations
 ```
 
-## Data
+## Contributing
 
-Peptide data is stored as JSON files in `/data/peptides/`. Each file contains:
+Contributions are welcome! The peptide data lives in `/data/peptides/` as JSON files. Each file contains:
 
 - Molecular information (weight, sequence, half-life)
 - Indications by body system

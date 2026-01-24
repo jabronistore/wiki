@@ -1,5 +1,9 @@
 # Peptide Database
 
+## Git Commits
+
+**IMPORTANT: Do NOT add `Co-Authored-By` lines to commits. Do not add yourself to commits in any way.**
+
 ## Development Commands
 
 **IMPORTANT: Always run `pnpm check` after making changes to verify no TypeScript/Svelte errors exist.**
