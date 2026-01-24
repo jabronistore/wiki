@@ -19,6 +19,11 @@ body {
 	scroll-behavior: smooth;
 }
 
+/* Hide reCAPTCHA badge - required branding is shown inline on auth forms */
+.grecaptcha-badge {
+	visibility: hidden !important;
+}
+
 * {
 	box-sizing: border-box;
 }
