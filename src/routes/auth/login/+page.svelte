@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { goto } from '$app/navigation';
+	import { goto, invalidateAll } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { AlertCircle, Eye, EyeOff } from 'lucide-svelte';
 	import { loadRecaptcha, executeRecaptcha } from '$lib/utils/recaptcha';
@@ -63,7 +63,8 @@
 				return;
 			}
 
-			// Success - redirect
+			// Success - invalidate all data and redirect
+			await invalidateAll();
 			goto(redirectTo);
 		} catch (err) {
 			error = 'An unexpected error occurred. Please try again.';

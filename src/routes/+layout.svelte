@@ -298,7 +298,7 @@
 					/>
 					<div class="flex flex-col">
 						<span class="text-lg font-bold tracking-tight">Peptide Database</span>
-						<span class="text-[10px] uppercase tracking-widest text-muted-foreground"
+						<span class="hidden text-[10px] uppercase tracking-widest text-muted-foreground sm:block"
 							>Open Source Research Wiki</span
 						>
 					</div>
