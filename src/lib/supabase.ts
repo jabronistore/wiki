@@ -1,10 +1,7 @@
 /// <reference types="../../.svelte-kit/ambient.d.ts" />
 import { createBrowserClient, createServerClient } from '@supabase/ssr';
-import { env } from '$env/dynamic/public';
+import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
 import type { Database } from './types/database';
-
-const PUBLIC_SUPABASE_URL = env.PUBLIC_SUPABASE_URL ?? '';
-const PUBLIC_SUPABASE_ANON_KEY = env.PUBLIC_SUPABASE_ANON_KEY ?? '';
 
 /**
  * Create a Supabase client for browser-side usage

@@ -20,6 +20,16 @@ export const load: PageServerLoad = async ({ params, cookies, parent }) => {
 		}
 	});
 
+	if (!supabase) {
+		return {
+			peptide,
+			discussions: [],
+			userUpvotes: [],
+			user,
+			profile
+		};
+	}
+
 	// Fetch top-level discussions (parent_id is null)
 	const { data: discussions, error: discussionsError } = await supabase
 		.from('discussions')

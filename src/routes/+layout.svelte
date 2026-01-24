@@ -5,9 +5,12 @@
 	import { Moon, Sun, Menu, X, Search, FlaskConical, ArrowRight, Calculator } from 'lucide-svelte';
 	import type { Snippet } from 'svelte';
 	import type { PeptideSummary } from '$lib/types';
+	import type { Profile } from '$lib/types/community';
+	import type { User } from '@supabase/supabase-js';
 	import Seo from 'sk-seo';
+	import UserMenu from '$lib/components/community/UserMenu.svelte';
 
-	let { children, data }: { children: Snippet; data: { peptides?: PeptideSummary[] } } = $props();
+	let { children, data }: { children: Snippet; data: { peptides?: PeptideSummary[]; user?: User | null; profile?: Profile | null } } = $props();
 
 	// Scroll position restoration using sessionStorage for persistence
 	const SCROLL_KEY = 'peptide-scroll-positions';
@@ -365,6 +368,11 @@
 							<Moon class="h-5 w-5" />
 						{/if}
 					</button>
+
+					<!-- User menu -->
+					<div class="hidden md:block">
+						<UserMenu user={data.user ?? null} profile={data.profile ?? null} />
+					</div>
 
 					<!-- Mobile menu button -->
 					<button

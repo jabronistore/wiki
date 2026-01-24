@@ -18,6 +18,10 @@ export const load: PageServerLoad = async ({ cookies, parent }) => {
 		}
 	});
 
+	if (!supabase) {
+		return { user, profile, findings: [] };
+	}
+
 	// Fetch user's findings
 	const { data: findings, error: findingsError } = await supabase
 		.from('findings')

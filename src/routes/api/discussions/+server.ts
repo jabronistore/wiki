@@ -12,6 +12,10 @@ export const GET: RequestHandler = async ({ url, cookies }) => {
 		}
 	});
 
+	if (!supabase) {
+		return json({ error: 'Database not configured' }, { status: 503 });
+	}
+
 	const parentId = url.searchParams.get('parentId');
 
 	if (!parentId) {
@@ -46,6 +50,10 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 			});
 		}
 	});
+
+	if (!supabase) {
+		return json({ error: 'Database not configured' }, { status: 503 });
+	}
 
 	// Check authentication using getUser() for secure server-side auth
 	const {

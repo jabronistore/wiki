@@ -18,6 +18,10 @@ export const load: PageServerLoad = async ({ cookies, parent }) => {
 		}
 	});
 
+	if (!supabase) {
+		return { user, profile, favorites: [] };
+	}
+
 	// Fetch user's favorites
 	const { data: favorites, error: favoritesError } = await supabase
 		.from('user_favorite_peptides')

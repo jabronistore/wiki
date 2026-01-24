@@ -26,6 +26,7 @@
 	import TableOfContents from '$lib/components/TableOfContents.svelte';
 	import PeptideSidebar from '$lib/components/PeptideSidebar.svelte';
 	import { CalculatorModal } from '$lib/components/calculator';
+	import PeptideCommunitySection from '$lib/components/community/PeptideCommunitySection.svelte';
 
 	const SITE_URL = 'https://peptide-db.com';
 
@@ -285,6 +286,9 @@
 					</div>
 				</div>
 			</div>
+
+			<!-- Community Section -->
+			<PeptideCommunitySection peptideId={peptide.id} peptideName={peptide.name} />
 
 			<!-- Main Content Sections -->
 			<div class="space-y-6">
@@ -951,7 +955,7 @@
 				{/if}
 
 				<!-- Disclaimer at bottom -->
-				<div class="status-warning rounded-2xl border p-6">
+				<div class="status-warning rounded-2xl border p-6 mt-6">
 					<div class="flex items-start gap-3">
 						<AlertTriangle class="h-5 w-5 flex-shrink-0 text-warning" />
 						<div>

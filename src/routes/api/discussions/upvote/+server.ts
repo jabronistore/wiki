@@ -12,6 +12,10 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 		}
 	});
 
+	if (!supabase) {
+		return json({ error: 'Database not configured' }, { status: 503 });
+	}
+
 	// Check authentication using getUser() for secure server-side auth
 	const {
 		data: { user },
@@ -61,6 +65,10 @@ export const DELETE: RequestHandler = async ({ request, cookies }) => {
 			});
 		}
 	});
+
+	if (!supabase) {
+		return json({ error: 'Database not configured' }, { status: 503 });
+	}
 
 	// Check authentication using getUser() for secure server-side auth
 	const {
