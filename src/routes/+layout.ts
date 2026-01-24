@@ -1,2 +1,42 @@
-// Make all pages prerenderable
-export const prerender = true;
+import { createBrowserClient, createServerClient, isBrowser } from '@supabase/ssr';
+import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
+import type { LayoutLoad } from './$types';
+
+export const load: LayoutLoad = async ({ data, depends, fetch }) => {
+	// Skip if Supabase isn't configured
+	if (!PUBLIC_SUPABASE_URL || !PUBLIC_SUPABASE_ANON_KEY) {
+		return {
+			...data,
+			supabase: null,
+			session: null
+		};
+	}
+
+	// Declare a dependency on Supabase authentication state
+	depends('supabase:auth');
+
+	// Create a Supabase client based on the environment (browser or server)
+	const supabase = isBrowser()
+		? createBrowserClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, {
+				global: { fetch }
+			})
+		: createServerClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, {
+				global: { fetch },
+				cookies: {
+					getAll() {
+						return [];
+					}
+				}
+			});
+
+	// Get session
+	const {
+		data: { session }
+	} = await supabase.auth.getSession();
+
+	return {
+		...data,
+		supabase,
+		session
+	};
+};
