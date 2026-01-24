@@ -1,8 +1,7 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { createSupabaseServerClient } from '$lib/supabase';
 
-export const POST: RequestHandler = async ({ request, cookies }) => {
+export const POST: RequestHandler = async ({ request, locals }) => {
 	const { email, password } = await request.json();
 
 	// Validate required fields
@@ -10,22 +9,12 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 		return json({ error: 'Email and password are required' }, { status: 400 });
 	}
 
-	// Create Supabase client
-	const supabase = createSupabaseServerClient({
-		getAll: () => cookies.getAll(),
-		setAll: (cookiesToSet) => {
-			cookiesToSet.forEach(({ name, value, options }) => {
-				cookies.set(name, value, { path: '/', ...options });
-			});
-		}
-	});
-
-	if (!supabase) {
+	if (!locals.supabase) {
 		return json({ error: 'Authentication service not configured' }, { status: 503 });
 	}
 
 	// Sign in the user
-	const { data: authData, error: authError } = await supabase.auth.signInWithPassword({
+	const { data: authData, error: authError } = await locals.supabase.auth.signInWithPassword({
 		email,
 		password
 	});

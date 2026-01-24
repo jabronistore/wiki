@@ -1,8 +1,7 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { createSupabaseServerClient } from '$lib/supabase';
 
-export const POST: RequestHandler = async ({ request, cookies }) => {
+export const POST: RequestHandler = async ({ request, locals }) => {
 	const { username, email, password, location, newsletterOptIn } =
 		await request.json();
 
@@ -29,22 +28,12 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 		return json({ error: 'Password must be at least 8 characters' }, { status: 400 });
 	}
 
-	// Create Supabase client
-	const supabase = createSupabaseServerClient({
-		getAll: () => cookies.getAll(),
-		setAll: (cookiesToSet) => {
-			cookiesToSet.forEach(({ name, value, options }) => {
-				cookies.set(name, value, { path: '/', ...options });
-			});
-		}
-	});
-
-	if (!supabase) {
+	if (!locals.supabase) {
 		return json({ error: 'Authentication service not configured' }, { status: 503 });
 	}
 
 	// Check if username is already taken
-	const { data: existingProfile } = await supabase
+	const { data: existingProfile } = await locals.supabase
 		.from('profiles')
 		.select('username')
 		.ilike('username', username)
@@ -55,7 +44,7 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 	}
 
 	// Create the user
-	const { data: authData, error: authError } = await supabase.auth.signUp({
+	const { data: authData, error: authError } = await locals.supabase.auth.signUp({
 		email,
 		password,
 		options: {
