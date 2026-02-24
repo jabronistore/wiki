@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.geopera.com/sitemap.xml
+Sitemap: https://peptide-db.com/sitemap.xml
 
 # Prevent crawling of API routes
 Disallow: /api/
