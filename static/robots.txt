@@ -23,6 +23,33 @@ Allow: /
 User-agent: SemrushBot
 Allow: /
 
+# AI crawlers — welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# LLM-friendly content index
+# See https://llmstxt.org for spec
+# llms.txt: https://peptide-db.com/llms.txt
+# llms-full.txt: https://peptide-db.com/llms-full.txt
+
 # Block bad bots
 User-agent: AhrefsBot
 Disallow: /
