@@ -2,20 +2,13 @@ import { createServerClient } from '@supabase/ssr';
 import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
 import type { Handle } from '@sveltejs/kit';
 import type { Database } from '$lib/types/database';
-import { readFileSync } from 'fs';
-import { join } from 'path';
 
-/**
- * Serve raw guide markdown when Accept: text/markdown is requested.
- * This enables AI agents to fetch clean content without HTML parsing.
- */
+// Load raw guide markdown at build time (Cloudflare-compatible, no fs needed)
+const guideRawFiles = import.meta.glob('/src/guides/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+
 function getGuideMarkdown(slug: string): string | null {
-	try {
-		const filePath = join(process.cwd(), 'src', 'guides', `${slug}.md`);
-		return readFileSync(filePath, 'utf-8');
-	} catch {
-		return null;
-	}
+	const key = `/src/guides/${slug}.md`;
+	return guideRawFiles[key] ?? null;
 }
 
 export const handle: Handle = async ({ event, resolve }) => {

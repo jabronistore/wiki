@@ -3,23 +3,23 @@
 
 import type { RequestHandler } from './$types';
 import type { Guide } from '$lib/types';
-import { readFileSync, readdirSync } from 'fs';
-import { join } from 'path';
+
+// Load at build time — no fs needed, works on Cloudflare
+const guideMetaPaths = import.meta.glob('/src/guides/*.md', { eager: true });
+const guideRawPaths = import.meta.glob('/src/guides/*.md', { eager: true, query: '?raw', import: 'default' }) as Record<string, string>;
+const peptideFiles = import.meta.glob('/data/peptides/*.json', { eager: true }) as Record<string, { default: Record<string, unknown> }>;
 
 function getPublishedGuidesWithContent(): { slug: string; title: string; content: string }[] {
-	const guidePaths = import.meta.glob('/src/guides/*.md', { eager: true, query: '?raw', import: 'default' });
-	const metaPaths = import.meta.glob('/src/guides/*.md', { eager: true });
 	const guides: { slug: string; title: string; content: string }[] = [];
 
-	for (const path in metaPaths) {
-		const file = metaPaths[path];
+	for (const path in guideMetaPaths) {
+		const file = guideMetaPaths[path];
 		const slug = path.split('/').at(-1)?.replace('.md', '');
 
 		if (file && typeof file === 'object' && 'metadata' in file && slug) {
 			const metadata = file.metadata as Guide;
 			if (metadata.published) {
-				// Get raw markdown content
-				const raw = guidePaths[path] as string || '';
+				const raw = guideRawPaths[path] || '';
 				guides.push({ slug, title: metadata.title, content: raw });
 			}
 		}
@@ -29,29 +29,29 @@ function getPublishedGuidesWithContent(): { slug: string; title: string; content
 }
 
 function getPeptideData(): { id: string; name: string; overview: string; mechanism: string; keyBenefits: string[] }[] {
-	try {
-		const dataDir = join(process.cwd(), 'data', 'peptides');
-		const files = readdirSync(dataDir).filter((f) => f.endsWith('.json'));
-		return files
-			.map((f) => {
-				try {
-					const data = JSON.parse(readFileSync(join(dataDir, f), 'utf-8'));
-					return {
-						id: data.id || f.replace('.json', ''),
-						name: data.name || '',
-						overview: data.overview || '',
-						mechanism: data.mechanism || '',
-						keyBenefits: data.keyBenefits || []
-					};
-				} catch {
-					return null;
-				}
-			})
-			.filter((p): p is NonNullable<typeof p> => p !== null && !!p.name)
-			.sort((a, b) => a.name.localeCompare(b.name));
-	} catch {
-		return [];
+	const peptides: { id: string; name: string; overview: string; mechanism: string; keyBenefits: string[] }[] = [];
+
+	for (const path in peptideFiles) {
+		try {
+			const raw = peptideFiles[path].default || peptideFiles[path];
+			const data = raw as Record<string, unknown>;
+			const filename = path.split('/').at(-1)?.replace('.json', '') || '';
+			const name = (data.name as string) || '';
+			if (!name) continue;
+
+			peptides.push({
+				id: (data.id as string) || filename,
+				name,
+				overview: (data.overview as string) || '',
+				mechanism: (data.mechanism as string) || '',
+				keyBenefits: (data.keyBenefits as string[]) || []
+			});
+		} catch {
+			// skip malformed files
+		}
 	}
+
+	return peptides.sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export const GET: RequestHandler = async () => {

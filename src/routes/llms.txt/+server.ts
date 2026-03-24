@@ -3,11 +3,12 @@
 
 import type { RequestHandler } from './$types';
 import type { Guide } from '$lib/types';
-import { readFileSync, readdirSync } from 'fs';
-import { join } from 'path';
+
+// Load at build time — no fs needed, works on Cloudflare
+const guidePaths = import.meta.glob('/src/guides/*.md', { eager: true });
+const peptideFiles = import.meta.glob('/data/peptides/*.json', { eager: true }) as Record<string, { default: { id?: string; name?: string; subtitle?: string } }>;
 
 function getPublishedGuides(): { slug: string; title: string; description: string }[] {
-	const guidePaths = import.meta.glob('/src/guides/*.md', { eager: true });
 	const guides: { slug: string; title: string; description: string }[] = [];
 
 	for (const path in guidePaths) {
@@ -26,23 +27,24 @@ function getPublishedGuides(): { slug: string; title: string; description: strin
 }
 
 function getPeptideNames(): { id: string; name: string; subtitle: string }[] {
-	try {
-		const dataDir = join(process.cwd(), 'data', 'peptides');
-		const files = readdirSync(dataDir).filter((f) => f.endsWith('.json'));
-		return files
-			.map((f) => {
-				try {
-					const data = JSON.parse(readFileSync(join(dataDir, f), 'utf-8'));
-					return { id: data.id || f.replace('.json', ''), name: data.name, subtitle: data.subtitle || '' };
-				} catch {
-					return null;
-				}
-			})
-			.filter((p): p is { id: string; name: string; subtitle: string } => p !== null)
-			.sort((a, b) => a.name.localeCompare(b.name));
-	} catch {
-		return [];
+	const peptides: { id: string; name: string; subtitle: string }[] = [];
+
+	for (const path in peptideFiles) {
+		try {
+			const data = peptideFiles[path].default || peptideFiles[path];
+			const filename = path.split('/').at(-1)?.replace('.json', '') || '';
+			const id = (data as Record<string, unknown>).id as string || filename;
+			const name = (data as Record<string, unknown>).name as string || '';
+			const subtitle = ((data as Record<string, unknown>).subtitle as string) || '';
+			if (name) {
+				peptides.push({ id, name, subtitle });
+			}
+		} catch {
+			// skip malformed files
+		}
 	}
+
+	return peptides.sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export const GET: RequestHandler = async () => {
