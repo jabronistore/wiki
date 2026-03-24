@@ -12,10 +12,11 @@
 		peptideName?: string;
 		defaultVialSize?: number;
 		defaultDose?: number;
+		defaultUnit?: 'mcg' | 'mg';
 		compact?: boolean;
 	}
 
-	let { peptideName, defaultVialSize = 10, defaultDose = 250, compact = false }: Props = $props();
+	let { peptideName, defaultVialSize = 10, defaultDose = 250, defaultUnit = 'mcg', compact = false }: Props = $props();
 
 	type DoseUnit = 'mcg' | 'mg';
 
@@ -38,7 +39,7 @@
 	let vialSize = $state(initial?.vial ?? defaultVialSize);
 	let waterVolume = $state(initial?.water ?? 2);
 	let desiredDose = $state(initial?.dose ?? defaultDose);
-	let doseUnit = $state<DoseUnit>(initial?.unit ?? 'mcg');
+	let doseUnit = $state<DoseUnit>(initial?.unit ?? defaultUnit);
 	let syringeSize = $state<SyringeSize>(initial?.syringe ?? 1);
 	let userHasEditedDose = $state(initial?.dose !== null);
 
@@ -144,84 +145,75 @@
 		<div class="calculator-inputs">
 			<!-- Vial Size -->
 			<div class="input-group">
-				<Label for="vial-size" class="text-sm font-medium">Peptide Amount (mg)</Label>
-				<div class="mt-1.5 flex gap-2">
-					<Input
+				<label for="vial-size" class="field-label">Vial Size (peptide amount)</label>
+				<div class="field-box">
+					<input
 						id="vial-size"
 						type="number"
 						bind:value={vialSize}
 						min="0.1"
 						step="0.1"
-						class="flex-1"
+						inputmode="decimal"
+						class="field-input"
 					/>
+					<span class="field-suffix">mg</span>
 				</div>
-				<div class="preset-buttons">
+				<div class="presets">
 					{#each vialPresets as preset}
-						<button
-							type="button"
-							class="preset-btn {vialSize === preset ? 'active' : ''}"
-							onclick={() => selectVialPreset(preset)}
-						>
-							{preset}mg
-						</button>
+						<button type="button" class="preset" class:preset-match={vialSize === preset} onclick={() => selectVialPreset(preset)}>{preset}</button>
 					{/each}
 				</div>
 			</div>
 
 			<!-- Water Volume -->
 			<div class="input-group">
-				<Label for="water-volume" class="text-sm font-medium">BAC Water (mL)</Label>
-				<div class="mt-1.5 flex gap-2">
-					<Input
+				<label for="water-volume" class="field-label">BAC Water (added to vial)</label>
+				<div class="field-box">
+					<input
 						id="water-volume"
 						type="number"
 						bind:value={waterVolume}
 						min="0.1"
 						step="0.1"
-						class="flex-1"
+						inputmode="decimal"
+						class="field-input"
 					/>
+					<span class="field-suffix">mL</span>
 				</div>
-				<div class="preset-buttons">
+				<div class="presets">
 					{#each waterPresets as preset}
-						<button
-							type="button"
-							class="preset-btn {waterVolume === preset ? 'active' : ''}"
-							onclick={() => selectWaterPreset(preset)}
-						>
-							{preset}mL
-						</button>
+						<button type="button" class="preset" class:preset-match={waterVolume === preset} onclick={() => selectWaterPreset(preset)}>{preset}</button>
 					{/each}
 				</div>
 			</div>
 
 			<!-- Desired Dose -->
 			<div class="input-group">
-				<Label for="desired-dose" class="text-sm font-medium">Desired Dose</Label>
-				<div class="dose-row">
-					<Input
+				<label for="desired-dose" class="field-label">Desired Dose</label>
+				<div class="field-box">
+					<input
 						id="desired-dose"
 						type="number"
 						value={desiredDose}
 						oninput={handleDoseInput}
 						min={doseUnit === 'mg' ? 0.1 : 1}
-						step={doseUnit === 'mg' ? 1 : 50}
-						class="dose-input"
+						step={doseUnit === 'mg' ? 0.5 : 50}
+						inputmode="decimal"
+						class="field-input"
 					/>
-					<div class="unit-selector">
+					<div class="unit-seg">
 						<button
 							type="button"
-							class="unit-btn {doseUnit === 'mcg' ? 'active' : ''}"
+							class="unit-seg-btn"
+							class:unit-seg-active={doseUnit === 'mcg'}
 							onclick={() => selectDoseUnit('mcg')}
-						>
-							mcg
-						</button>
+						>mcg</button>
 						<button
 							type="button"
-							class="unit-btn {doseUnit === 'mg' ? 'active' : ''}"
+							class="unit-seg-btn"
+							class:unit-seg-active={doseUnit === 'mg'}
 							onclick={() => selectDoseUnit('mg')}
-						>
-							mg
-						</button>
+						>mg</button>
 					</div>
 				</div>
 			</div>
@@ -377,75 +369,116 @@
 		gap: 0.375rem;
 	}
 
-	.dose-row {
+	.field-label {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: hsl(var(--muted-foreground));
+	}
+
+	/* Input-first field: large tappable number with inline suffix */
+	.field-box {
 		display: flex;
 		align-items: center;
-		gap: 0.5rem;
-	}
-
-	.dose-row :global(.dose-input) {
-		width: 100px;
-	}
-
-	.preset-buttons {
-		display: flex;
-		gap: 0.5rem;
-		margin-top: 0.5rem;
-		flex-wrap: wrap;
-	}
-
-	.preset-btn {
-		padding: 0.25rem 0.75rem;
-		font-size: 0.75rem;
-		border-radius: 9999px;
-		border: 1px solid hsl(var(--border));
+		border: 1.5px solid hsl(var(--border));
+		border-radius: 0.625rem;
 		background: hsl(var(--background));
-		color: hsl(var(--muted-foreground));
-		transition: all 0.15s ease;
-		cursor: pointer;
-	}
-
-	.preset-btn:hover {
-		background: hsl(var(--muted));
-		color: hsl(var(--foreground));
-	}
-
-	.preset-btn.active {
-		background: hsl(var(--primary));
-		color: hsl(var(--primary-foreground));
-		border-color: hsl(var(--primary));
-	}
-
-	.unit-selector {
-		display: flex;
-		border: 1px solid hsl(var(--border));
-		border-radius: 0.5rem;
+		transition: border-color 0.15s;
 		overflow: hidden;
 	}
 
-	.unit-btn {
-		padding: 0.5rem 0.75rem;
-		font-size: 0.875rem;
-		font-weight: 500;
-		background: hsl(var(--background));
-		color: hsl(var(--muted-foreground));
-		border: none;
-		cursor: pointer;
-		transition: all 0.15s ease;
+	.field-box:focus-within {
+		border-color: hsl(var(--accent));
 	}
 
-	.unit-btn:first-child {
+	.field-input {
+		flex: 1;
+		padding: 0.75rem 0.875rem;
+		font-size: 1.25rem;
+		font-weight: 600;
+		font-family: var(--font-mono);
+		background: transparent;
+		color: hsl(var(--foreground));
+		border: none;
+		outline: none;
+		min-width: 0;
+		-moz-appearance: textfield;
+	}
+
+	.field-input::-webkit-outer-spin-button,
+	.field-input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+
+	.field-suffix {
+		padding: 0.75rem 0.875rem 0.75rem 0;
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: hsl(var(--muted-foreground));
+		user-select: none;
+	}
+
+	/* Segmented unit toggle inside field */
+	.unit-seg {
+		display: flex;
+		margin: 0.375rem 0.375rem 0.375rem 0;
+		border-radius: 0.375rem;
+		overflow: hidden;
+		border: 1px solid hsl(var(--border));
+		flex-shrink: 0;
+	}
+
+	.unit-seg-btn {
+		padding: 0.375rem 0.625rem;
+		font-size: 0.75rem;
+		font-weight: 600;
+		color: hsl(var(--muted-foreground));
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		transition: all 0.15s;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	.unit-seg-btn:first-child {
 		border-right: 1px solid hsl(var(--border));
 	}
 
-	.unit-btn:hover {
-		background: hsl(var(--muted));
-		color: hsl(var(--foreground));
+	.unit-seg-active {
+		background: hsl(var(--accent));
+		color: white;
 	}
 
-	.unit-btn.active {
-		background: hsl(var(--primary));
-		color: hsl(var(--primary-foreground));
+	/* Presets — quiet suggestion row below input */
+	.presets {
+		display: flex;
+		gap: 0.25rem;
+		padding-top: 0.125rem;
+	}
+
+	.preset {
+		font-size: 0.75rem;
+		font-family: var(--font-mono);
+		font-weight: 500;
+		color: hsl(var(--muted-foreground));
+		background: none;
+		border: none;
+		padding: 0.125rem 0.375rem;
+		cursor: pointer;
+		border-radius: 0.25rem;
+		transition: all 0.1s;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	.preset:hover {
+		color: hsl(var(--foreground));
+		background: hsl(var(--muted) / 0.5);
+	}
+
+	.preset-match {
+		color: hsl(var(--accent));
 	}
 
 	.syringe-selector {

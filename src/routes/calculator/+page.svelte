@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { PeptideCalculator } from '$lib/components/calculator';
-	import { Droplets, Syringe, FlaskConical } from 'lucide-svelte';
+	import { Droplets, Syringe, FlaskConical, ChevronRight, Home, BookOpen, ExternalLink } from 'lucide-svelte';
 	import SEO from 'sk-seo';
 	import { goto } from '$app/navigation';
 	import { currentReconstitutionPeptide } from '$lib/stores/calculator';
@@ -10,6 +10,8 @@
 	// Use store for reactive updates, fallback to SSR data
 	const peptideName = $derived($currentReconstitutionPeptide.name || data.peptideName);
 	const peptideId = $derived($currentReconstitutionPeptide.id || data.peptideId);
+	const ctx = $derived(data.peptideContext);
+	const guides = $derived(data.relatedGuides || []);
 
 	// Dynamic SEO based on selected peptide
 	const title = $derived(
@@ -35,6 +37,66 @@
 			? `https://peptide-db.com/calculator?peptide=${peptideId}`
 			: 'https://peptide-db.com/calculator'
 	);
+
+	const SITE_URL = 'https://peptide-db.com';
+
+	// JSON-LD with BreadcrumbList + FAQ
+	const jsonld = $derived({
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'WebApplication',
+				name: title,
+				description: description,
+				url: canonical,
+				applicationCategory: 'HealthApplication',
+				operatingSystem: 'Any',
+				offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+				publisher: {
+					'@type': 'Organization',
+					name: 'Peptide Database',
+					url: SITE_URL
+				}
+			},
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+					{ '@type': 'ListItem', position: 2, name: 'Calculator', item: `${SITE_URL}/calculator` },
+					...(peptideName ? [{ '@type': 'ListItem', position: 3, name: peptideName, item: canonical }] : [])
+				]
+			},
+			{
+				'@type': 'FAQPage',
+				mainEntity: [
+					{
+						'@type': 'Question',
+						name: 'How do I reconstitute peptides with bacteriostatic water?',
+						acceptedAnswer: {
+							'@type': 'Answer',
+							text: 'Draw bacteriostatic water into a syringe, inject slowly down the vial wall (not directly onto powder), then gently swirl until dissolved. Never shake. Store refrigerated at 2-8C and use within 28 days.'
+						}
+					},
+					{
+						'@type': 'Question',
+						name: 'How many units should I draw on an insulin syringe?',
+						acceptedAnswer: {
+							'@type': 'Answer',
+							text: '1 mL equals 100 units on a standard insulin syringe. Divide your required volume in mL by 0.01 to get units. For example, 0.25 mL = 25 units. Use the smallest syringe that fits your dose for better precision.'
+						}
+					},
+					{
+						'@type': 'Question',
+						name: 'What syringe size should I use for peptide injections?',
+						acceptedAnswer: {
+							'@type': 'Answer',
+							text: '0.3 mL (30 unit) syringes offer the best precision for small doses under 0.3 mL. 0.5 mL (50 unit) syringes work for most peptides. 1 mL (100 unit) syringes are needed for larger dose volumes.'
+						}
+					}
+				]
+			}
+		]
+	});
 
 	// Handle peptide selection change
 	function handlePeptideChange(e: Event) {
@@ -63,6 +125,11 @@
 			});
 		}
 	});
+
+	// Get first injectable method's protocols for contextual reference
+	const injectableMethod = $derived(
+		ctx?.deliveryMethods?.find(m => m.type === 'injectable')
+	);
 </script>
 
 <SEO
@@ -73,7 +140,30 @@
 	{canonical}
 	twitter={true}
 	openGraph={true}
+	schemaOrg={true}
+	{jsonld}
 />
+
+<!-- Breadcrumb -->
+<nav aria-label="Breadcrumb" class="calc-breadcrumb">
+	<ol>
+		<li>
+			<a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a>
+			<ChevronRight class="h-3.5 w-3.5 sep" />
+		</li>
+		<li>
+			{#if peptideName}
+				<a href="/calculator">Calculator</a>
+				<ChevronRight class="h-3.5 w-3.5 sep" />
+			{:else}
+				<span class="current">Calculator</span>
+			{/if}
+		</li>
+		{#if peptideName}
+			<li><span class="current">{peptideName}</span></li>
+		{/if}
+	</ol>
+</nav>
 
 <!-- Calculator Header with Peptide Selector -->
 <div class="calculator-header">
@@ -84,6 +174,27 @@
 		{:else}
 			<h1 class="calculator-title">Reconstitution Calculator</h1>
 			<p class="calculator-subtitle">Calculate peptide doses with our visual syringe guide</p>
+		{/if}
+
+		<!-- Cross-links (only when peptide selected) -->
+		{#if peptideId}
+			<div class="cross-links">
+				<a href="/peptides/{peptideId}" class="cross-link">
+					<FlaskConical class="h-3.5 w-3.5" />
+					<span>{peptideName} profile</span>
+				</a>
+				{#if ctx?.molecular?.halfLifeSeconds}
+					<a href="/calculator/accumulation?peptide={peptideId}" class="cross-link">
+						<span>Accumulation plotter</span>
+					</a>
+				{/if}
+				{#each guides as guide}
+					<a href="/guides/{guide.slug}" class="cross-link">
+						<BookOpen class="h-3.5 w-3.5" />
+						<span>{guide.title}</span>
+					</a>
+				{/each}
+			</div>
 		{/if}
 	</div>
 	<div class="peptide-selector">
@@ -101,129 +212,226 @@
 	</div>
 </div>
 
-<PeptideCalculator defaultDose={data.defaultDose} />
+<PeptideCalculator defaultDose={data.defaultDose} defaultUnit={data.defaultUnit} />
 
-<!-- Reference Section -->
+<!-- Contextual Reference Section -->
 <div class="reference-section">
-	<h2 class="section-title">Reference Guide</h2>
+	{#if ctx && injectableMethod}
+		<!-- Peptide-specific reference -->
+		<h2 class="section-title">{peptideName} Reference</h2>
 
-	<div class="reference-grid">
-		<!-- Common Vial Sizes -->
-		<div class="reference-card">
-			<div class="reference-icon">
-				<FlaskConical class="h-5 w-5" />
-			</div>
-			<h3 class="reference-heading">Common Vial Sizes</h3>
-			<div class="reference-table">
-				<table>
-					<thead>
-						<tr>
-							<th>Peptide</th>
-							<th>Typical Size</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>BPC-157</td>
-							<td>5mg, 10mg</td>
-						</tr>
-						<tr>
-							<td>TB-500</td>
-							<td>5mg, 10mg</td>
-						</tr>
-						<tr>
-							<td>Semaglutide</td>
-							<td>3mg, 5mg</td>
-						</tr>
-						<tr>
-							<td>Ipamorelin</td>
-							<td>5mg, 10mg</td>
-						</tr>
-						<tr>
-							<td>CJC-1295</td>
-							<td>2mg, 5mg</td>
-						</tr>
-						<tr>
-							<td>Tirzepatide</td>
-							<td>5mg, 10mg, 15mg</td>
-						</tr>
-					</tbody>
-				</table>
+		<div class="reference-grid">
+			<!-- Peptide-specific protocols -->
+			{#if injectableMethod.protocols && injectableMethod.protocols.length > 0}
+				<div class="reference-card">
+					<div class="reference-icon">
+						<Syringe class="h-5 w-5" />
+					</div>
+					<h3 class="reference-heading">{peptideName} Dosing Protocols</h3>
+					<div class="reference-table">
+						<table>
+							<thead>
+								<tr>
+									<th>Goal</th>
+									<th>Dose</th>
+									<th>Frequency</th>
+								</tr>
+							</thead>
+							<tbody>
+								{#each injectableMethod.protocols as protocol}
+									<tr>
+										<td>{protocol.goal}</td>
+										<td class="dose-cell">{protocol.dose}</td>
+										<td>{protocol.frequency}</td>
+									</tr>
+								{/each}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			{/if}
+
+			<!-- Peptide-specific reconstitution -->
+			{#if injectableMethod.reconstitution}
+				<div class="reference-card">
+					<div class="reference-icon">
+						<Droplets class="h-5 w-5" />
+					</div>
+					<h3 class="reference-heading">Reconstitution Steps</h3>
+					<ol class="recon-steps">
+						{#each injectableMethod.reconstitution.steps as step, i}
+							<li>
+								<span class="step-num">{String(i + 1).padStart(2, '0')}</span>
+								<span>{step}</span>
+							</li>
+						{/each}
+					</ol>
+				</div>
+			{/if}
+
+			<!-- Quick stats -->
+			<div class="reference-card">
+				<div class="reference-icon">
+					<FlaskConical class="h-5 w-5" />
+				</div>
+				<h3 class="reference-heading">Quick Reference</h3>
+				<div class="quick-ref">
+					{#if ctx.quickStats?.typicalDose}
+						<div class="quick-ref-row">
+							<span class="quick-ref-label">Typical Dose</span>
+							<span class="quick-ref-value">{ctx.quickStats.typicalDose}</span>
+						</div>
+					{/if}
+					{#if ctx.quickStats?.frequency}
+						<div class="quick-ref-row">
+							<span class="quick-ref-label">Frequency</span>
+							<span class="quick-ref-value">{ctx.quickStats.frequency}</span>
+						</div>
+					{/if}
+					{#if ctx.molecular?.halfLife}
+						<div class="quick-ref-row">
+							<span class="quick-ref-label">Half-life</span>
+							<span class="quick-ref-value">{ctx.molecular.halfLife}</span>
+						</div>
+					{/if}
+					{#if ctx.quickStats?.storage}
+						<div class="quick-ref-row">
+							<span class="quick-ref-label">Storage</span>
+							<span class="quick-ref-value">{ctx.quickStats.storage}</span>
+						</div>
+					{/if}
+					{#if ctx.quickStats?.cycleDuration}
+						<div class="quick-ref-row">
+							<span class="quick-ref-label">Cycle</span>
+							<span class="quick-ref-value">{ctx.quickStats.cycleDuration}</span>
+						</div>
+					{/if}
+				</div>
+				<a href="/peptides/{peptideId}" class="ref-profile-link">
+					View full {peptideName} profile
+					<ExternalLink class="h-3 w-3" />
+				</a>
 			</div>
 		</div>
+	{:else}
+		<!-- Generic reference (no peptide selected) -->
+		<h2 class="section-title">Reference Guide</h2>
 
-		<!-- Syringe Comparison -->
-		<div class="reference-card">
-			<div class="reference-icon">
-				<Syringe class="h-5 w-5" />
+		<div class="reference-grid">
+			<div class="reference-card">
+				<div class="reference-icon">
+					<FlaskConical class="h-5 w-5" />
+				</div>
+				<h3 class="reference-heading">Common Vial Sizes</h3>
+				<div class="reference-table">
+					<table>
+						<thead>
+							<tr>
+								<th>Peptide</th>
+								<th>Typical Size</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr><td>BPC-157</td><td>5mg, 10mg</td></tr>
+							<tr><td>TB-500</td><td>5mg, 10mg</td></tr>
+							<tr><td>Semaglutide</td><td>3mg, 5mg</td></tr>
+							<tr><td>Ipamorelin</td><td>5mg, 10mg</td></tr>
+							<tr><td>CJC-1295</td><td>2mg, 5mg</td></tr>
+							<tr><td>Tirzepatide</td><td>5mg, 10mg, 15mg</td></tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
-			<h3 class="reference-heading">Syringe Types</h3>
-			<div class="reference-table">
-				<table>
-					<thead>
-						<tr>
-							<th>Size</th>
-							<th>Units</th>
-							<th>Best For</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>0.3mL</td>
-							<td>30 units</td>
-							<td>Small doses, precision</td>
-						</tr>
-						<tr>
-							<td>0.5mL</td>
-							<td>50 units</td>
-							<td>Most peptides</td>
-						</tr>
-						<tr>
-							<td>1mL</td>
-							<td>100 units</td>
-							<td>Larger doses</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<p class="reference-note">
-				Smaller syringes offer better precision for small doses. Use the smallest syringe that fits
-				your dose.
-			</p>
-		</div>
 
-		<!-- Reconstitution Tips -->
-		<div class="reference-card">
-			<div class="reference-icon">
-				<Droplets class="h-5 w-5" />
+			<div class="reference-card">
+				<div class="reference-icon">
+					<Syringe class="h-5 w-5" />
+				</div>
+				<h3 class="reference-heading">Syringe Types</h3>
+				<div class="reference-table">
+					<table>
+						<thead>
+							<tr>
+								<th>Size</th>
+								<th>Units</th>
+								<th>Best For</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr><td>0.3mL</td><td>30 units</td><td>Small doses, precision</td></tr>
+							<tr><td>0.5mL</td><td>50 units</td><td>Most peptides</td></tr>
+							<tr><td>1mL</td><td>100 units</td><td>Larger doses</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<p class="reference-note">
+					Smaller syringes offer better precision for small doses. Use the smallest syringe that fits your dose.
+				</p>
 			</div>
-			<h3 class="reference-heading">Reconstitution Tips</h3>
-			<ul class="tips-list">
-				<li>
-					<strong>Use bacteriostatic water (BAC)</strong> - contains 0.9% benzyl alcohol for preservation
-				</li>
-				<li>
-					<strong>Inject water slowly</strong> - aim down the vial wall, not directly onto powder
-				</li>
-				<li>
-					<strong>Never shake</strong> - gently swirl or roll the vial until dissolved
-				</li>
-				<li>
-					<strong>Store properly</strong> - refrigerate at 2-8°C after reconstitution
-				</li>
-				<li>
-					<strong>Use within 28 days</strong> - most reconstituted peptides remain stable for about 4
-					weeks
-				</li>
-				<li>
-					<strong>Keep sterile</strong> - always clean vial tops with alcohol before drawing
-				</li>
-			</ul>
+
+			<div class="reference-card">
+				<div class="reference-icon">
+					<Droplets class="h-5 w-5" />
+				</div>
+				<h3 class="reference-heading">Reconstitution Tips</h3>
+				<ul class="tips-list">
+					<li><strong>Use bacteriostatic water (BAC)</strong> - contains 0.9% benzyl alcohol for preservation</li>
+					<li><strong>Inject water slowly</strong> - aim down the vial wall, not directly onto powder</li>
+					<li><strong>Never shake</strong> - gently swirl or roll the vial until dissolved</li>
+					<li><strong>Store properly</strong> - refrigerate at 2-8C after reconstitution</li>
+					<li><strong>Use within 28 days</strong> - most reconstituted peptides remain stable for about 4 weeks</li>
+					<li><strong>Keep sterile</strong> - always clean vial tops with alcohol before drawing</li>
+				</ul>
+			</div>
 		</div>
-	</div>
+	{/if}
 </div>
 
 <style>
+	/* Breadcrumb */
+	.calc-breadcrumb {
+		margin-bottom: 1rem;
+	}
+
+	.calc-breadcrumb ol {
+		display: flex;
+		align-items: center;
+		gap: 0.375rem;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		font-size: 0.8125rem;
+		color: hsl(var(--muted-foreground));
+	}
+
+	.calc-breadcrumb li {
+		display: flex;
+		align-items: center;
+		gap: 0.375rem;
+	}
+
+	.calc-breadcrumb a {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		color: hsl(var(--muted-foreground));
+		text-decoration: none;
+		transition: color 0.15s;
+	}
+
+	.calc-breadcrumb a:hover {
+		color: hsl(var(--foreground));
+	}
+
+	.calc-breadcrumb .current {
+		color: hsl(var(--foreground));
+		font-weight: 500;
+	}
+
+	.calc-breadcrumb :global(.sep) {
+		color: hsl(var(--border));
+	}
+
 	/* Calculator Header */
 	.calculator-header {
 		display: flex;
@@ -237,7 +445,7 @@
 	@media (min-width: 640px) {
 		.calculator-header {
 			flex-direction: row;
-			align-items: center;
+			align-items: flex-start;
 			justify-content: space-between;
 		}
 	}
@@ -248,7 +456,7 @@
 
 	.calculator-title {
 		font-size: 1.5rem;
-		font-weight: 700;
+		font-weight: 400;
 		color: hsl(var(--foreground));
 		margin: 0;
 	}
@@ -257,6 +465,33 @@
 		font-size: 0.875rem;
 		color: hsl(var(--muted-foreground));
 		margin: 0.25rem 0 0;
+	}
+
+	/* Cross-links */
+	.cross-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin-top: 0.75rem;
+	}
+
+	.cross-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.375rem;
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: hsl(var(--accent));
+		text-decoration: none;
+		padding: 0.25rem 0.625rem;
+		border: 1px solid hsl(var(--accent) / 0.3);
+		border-radius: 999px;
+		transition: all 0.15s;
+	}
+
+	.cross-link:hover {
+		background: hsl(var(--accent) / 0.08);
+		border-color: hsl(var(--accent) / 0.5);
 	}
 
 	.peptide-selector {
@@ -296,62 +531,69 @@
 	.reference-section {
 		margin-top: 2rem;
 		padding-top: 2rem;
-		border-top: 1px solid hsl(var(--border));
+		border-top: 2px solid hsl(var(--foreground) / 0.15);
 	}
 
 	.section-title {
-		font-size: 1.5rem;
-		font-weight: 600;
+		font-size: 1.25rem;
+		font-weight: 400;
 		margin-bottom: 1.5rem;
 	}
 
 	.reference-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-		gap: 1.5rem;
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+
+	@media (min-width: 768px) {
+		.reference-grid {
+			grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		}
 	}
 
 	.reference-card {
-		background: hsl(var(--muted) / 0.3);
+		background: hsl(var(--muted) / 0.2);
 		border: 1px solid hsl(var(--border));
 		border-radius: 0.75rem;
-		padding: 1.5rem;
+		padding: 1.25rem;
 	}
 
 	.reference-icon {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		width: 2.5rem;
-		height: 2.5rem;
+		width: 2rem;
+		height: 2rem;
 		background: hsl(var(--muted));
-		border-radius: 0.5rem;
-		margin-bottom: 1rem;
-		color: hsl(var(--muted-foreground));
+		border-radius: 0.375rem;
+		margin-bottom: 0.75rem;
+		color: hsl(var(--accent));
 	}
 
 	.reference-heading {
-		font-size: 1rem;
+		font-size: 0.9375rem;
 		font-weight: 600;
-		margin-bottom: 1rem;
+		font-family: var(--font-sans);
+		margin-bottom: 0.75rem;
 	}
 
 	.reference-table table {
 		width: 100%;
-		font-size: 0.875rem;
+		font-size: 0.8125rem;
 	}
 
 	.reference-table th,
 	.reference-table td {
-		padding: 0.5rem;
+		padding: 0.5rem 0.375rem;
 		text-align: left;
-		border-bottom: 1px solid hsl(var(--border));
+		border-bottom: 1px solid hsl(var(--border) / 0.5);
 	}
 
 	.reference-table th {
 		font-weight: 500;
 		color: hsl(var(--muted-foreground));
-		font-size: 0.75rem;
+		font-size: 0.6875rem;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
 	}
@@ -360,26 +602,111 @@
 		border-bottom: none;
 	}
 
+	.dose-cell {
+		font-family: var(--font-mono);
+		font-weight: 500;
+		color: hsl(var(--accent));
+	}
+
 	.reference-note {
-		margin-top: 1rem;
+		margin-top: 0.75rem;
 		font-size: 0.75rem;
 		color: hsl(var(--muted-foreground));
 	}
 
+	/* Reconstitution steps */
+	.recon-steps {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.recon-steps li {
+		display: flex;
+		align-items: baseline;
+		gap: 0.625rem;
+		font-size: 0.8125rem;
+		color: hsl(var(--foreground) / 0.8);
+		line-height: 1.5;
+	}
+
+	.step-num {
+		font-family: var(--font-mono);
+		font-size: 0.6875rem;
+		font-weight: 500;
+		color: hsl(var(--accent));
+		flex-shrink: 0;
+	}
+
+	/* Quick reference */
+	.quick-ref {
+		display: flex;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.quick-ref-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		padding: 0.5rem 0;
+		border-bottom: 1px solid hsl(var(--border) / 0.4);
+		gap: 0.75rem;
+	}
+
+	.quick-ref-row:last-child {
+		border-bottom: none;
+	}
+
+	.quick-ref-label {
+		font-size: 0.6875rem;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		color: hsl(var(--muted-foreground));
+		flex-shrink: 0;
+	}
+
+	.quick-ref-value {
+		font-size: 0.8125rem;
+		color: hsl(var(--foreground));
+		text-align: right;
+	}
+
+	.ref-profile-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.375rem;
+		margin-top: 0.75rem;
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: hsl(var(--accent));
+		text-decoration: none;
+	}
+
+	.ref-profile-link:hover {
+		text-decoration: underline;
+	}
+
+	/* Tips list */
 	.tips-list {
 		list-style: none;
 		padding: 0;
 		margin: 0;
 		display: flex;
 		flex-direction: column;
-		gap: 0.75rem;
+		gap: 0.625rem;
 	}
 
 	.tips-list li {
-		font-size: 0.875rem;
+		font-size: 0.8125rem;
 		color: hsl(var(--muted-foreground));
-		padding-left: 1rem;
+		padding-left: 0.875rem;
 		position: relative;
+		line-height: 1.5;
 	}
 
 	.tips-list li::before {

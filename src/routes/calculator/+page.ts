@@ -1,4 +1,5 @@
 import { getPeptideBySlug, getAllPeptides } from '$lib/data/peptides';
+import type { Guide } from '$lib/types';
 
 export const prerender = false;
 
@@ -30,11 +31,44 @@ export function load({ url }) {
 		}
 	}
 
+	// Find related guides for this peptide
+	let relatedGuides: { title: string; slug: string }[] = [];
+	if (peptideId) {
+		const guidePaths = import.meta.glob('/src/guides/*.md', { eager: true });
+		for (const path in guidePaths) {
+			const file = guidePaths[path];
+			if (file && typeof file === 'object' && 'metadata' in file) {
+				const meta = file.metadata as Guide;
+				if (meta.published && meta.relatedPeptides?.includes(peptideId)) {
+					const slug = path.split('/').at(-1)?.replace('.md', '') || '';
+					relatedGuides.push({ title: meta.title, slug });
+				}
+			}
+		}
+	}
+
+	// Pass peptide context for cross-links and contextual reference section
+	const peptideContext = peptide ? {
+		id: peptide.id,
+		name: peptide.name,
+		subtitle: peptide.subtitle,
+		quickStats: peptide.quickStats,
+		deliveryMethods: peptide.deliveryMethods,
+		categories: peptide.categories,
+		molecular: peptide.molecular ? {
+			halfLife: peptide.molecular.halfLife,
+			halfLifeSeconds: peptide.molecular.halfLifeSeconds,
+			weight: peptide.molecular.weight
+		} : undefined
+	} : undefined;
+
 	return {
 		peptideId,
 		peptideName: peptide?.name,
 		defaultDose,
 		defaultUnit,
-		allPeptides
+		allPeptides,
+		peptideContext,
+		relatedGuides
 	};
 }
