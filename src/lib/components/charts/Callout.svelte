@@ -4,17 +4,17 @@
 	export let title = '';
 
 	const icons = {
-		info: '💡',
-		warning: '⚠️',
-		research: '🔬',
-		tldr: '⚡'
+		info: '*',
+		warning: '!',
+		research: '~',
+		tldr: '>'
 	};
 
 	const colors = {
-		info: { bg: 'var(--muted, #F0F0EB)', border: 'var(--accent, #CC785C)' },
-		warning: { bg: '#fef3c7', border: 'var(--warning, #D4A27F)' },
-		research: { bg: 'var(--muted, #F0F0EB)', border: '#6366f1' },
-		tldr: { bg: 'var(--muted, #F0F0EB)', border: 'var(--foreground, #191919)' }
+		info: { bg: 'var(--muted)', border: 'var(--accent)' },
+		warning: { bg: 'var(--muted)', border: 'var(--destructive)' },
+		research: { bg: 'var(--muted)', border: 'var(--ring)' },
+		tldr: { bg: 'var(--muted)', border: 'var(--foreground)' }
 	};
 </script>
 
@@ -52,8 +52,18 @@
 	}
 
 	.callout-icon {
-		font-size: 1.125rem;
+		font-size: 0.75rem;
+		font-weight: 700;
 		line-height: 1;
+		width: 1.25rem;
+		height: 1.25rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		border: 1.5px solid var(--border);
+		color: var(--muted-foreground);
+		flex-shrink: 0;
 	}
 
 	.callout-title {
