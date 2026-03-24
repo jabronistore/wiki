@@ -137,11 +137,6 @@
 		box-shadow: 0 4px 12px hsl(var(--accent) / 0.1);
 	}
 
-	.action-card:hover .card-arrow {
-		transform: translateX(3px);
-		color: hsl(var(--accent));
-	}
-
 	.action-card.cta {
 		background: hsl(var(--accent));
 		border-color: hsl(var(--accent));
@@ -154,8 +149,7 @@
 	}
 
 	.action-card.cta .card-title,
-	.action-card.cta .card-desc,
-	.action-card.cta .card-arrow {
+	.action-card.cta .card-desc {
 		color: white;
 	}
 
@@ -211,15 +205,4 @@
 		text-overflow: ellipsis;
 	}
 
-	.card-arrow {
-		color: hsl(var(--muted-foreground));
-		transition: all 0.2s ease;
-		flex-shrink: 0;
-	}
-
-	@media (max-width: 767px) {
-		.card-arrow {
-			display: none;
-		}
-	}
 </style>

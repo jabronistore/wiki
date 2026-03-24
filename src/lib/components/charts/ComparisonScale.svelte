@@ -42,7 +42,7 @@
 			<div class="scale-row">
 				<span class="item-label">{item.label}</span>
 				<div class="scale-track">
-					<div class="scale-gradient" />
+					<div class="scale-gradient"></div>
 					<div class="tick-marks">
 						{#each Array(max - min + 1) as _, t}
 							<div

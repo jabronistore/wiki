@@ -94,7 +94,7 @@
 								background-color: {item.color || barColor};
 								transition-delay: {i * 80}ms;
 							"
-						/>
+						></div>
 					</div>
 					<span class="bar-label-v">{item.label}</span>
 				</div>

@@ -48,7 +48,7 @@
 	{#if title}
 		<figcaption class="mermaid-title">{title}</figcaption>
 	{/if}
-	<div bind:this={container} class="mermaid-content" class:rendered />
+	<div bind:this={container} class="mermaid-content" class:rendered></div>
 </figure>
 
 <style>

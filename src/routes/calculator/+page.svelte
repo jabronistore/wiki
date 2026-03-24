@@ -126,6 +126,18 @@
 		}
 	});
 
+	// Check if selected peptide is a blend that has a dedicated blend calculator
+	const blendMap: Record<string, string> = {
+		'klow-protocol': 'klow',
+		'glow-protocol': 'glow',
+		'cjc-ipa-protocol': 'cjc-ipa',
+		'wolverine-stack': 'wolverine',
+		'tri-heal-max-protocol': 'tri-heal-max',
+		'tesa-ipa-protocol': 'tesa-ipa',
+		'illumineuro-protocol': 'illumineuro'
+	};
+	const blendCalcId = $derived(peptideId ? blendMap[peptideId] ?? null : null);
+
 	// Get first injectable method's protocols for contextual reference
 	const injectableMethod = $derived(
 		ctx?.deliveryMethods?.find(m => m.type === 'injectable')
@@ -211,6 +223,12 @@
 		</select>
 	</div>
 </div>
+
+{#if blendCalcId}
+	<a href="/calculator/blend?b={blendCalcId}" class="blend-nudge">
+		{peptideName} is a multi-peptide blend. Use the <strong>blend calculator →</strong> to see individual component doses.
+	</a>
+{/if}
 
 <PeptideCalculator defaultDose={data.defaultDose} defaultUnit={data.defaultUnit} />
 
@@ -388,6 +406,25 @@
 </div>
 
 <style>
+	/* Blend nudge */
+	.blend-nudge {
+		display: block;
+		padding: 0.75rem 1rem;
+		margin-bottom: 1rem;
+		font-size: 0.8125rem;
+		color: hsl(var(--accent));
+		background: hsl(var(--accent) / 0.06);
+		border: 1px solid hsl(var(--accent) / 0.2);
+		border-radius: 0.625rem;
+		text-decoration: none;
+		transition: all 0.15s;
+	}
+
+	.blend-nudge:hover {
+		background: hsl(var(--accent) / 0.1);
+		border-color: hsl(var(--accent) / 0.4);
+	}
+
 	/* Breadcrumb */
 	.calc-breadcrumb {
 		margin-bottom: 1rem;

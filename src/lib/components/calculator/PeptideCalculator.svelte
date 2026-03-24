@@ -332,15 +332,6 @@
 			margin: 0 auto;
 		}
 
-		.dose-row {
-			flex-wrap: wrap;
-		}
-
-		.dose-row :global(.dose-input) {
-			width: 100%;
-			flex: 1;
-		}
-
 		.result-display {
 			flex-direction: column;
 			gap: 0.75rem;
@@ -404,11 +395,13 @@
 		outline: none;
 		min-width: 0;
 		-moz-appearance: textfield;
+		appearance: textfield;
 	}
 
 	.field-input::-webkit-outer-spin-button,
 	.field-input::-webkit-inner-spin-button {
 		-webkit-appearance: none;
+		appearance: none;
 		margin: 0;
 	}
 

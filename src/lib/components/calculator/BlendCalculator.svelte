@@ -98,6 +98,49 @@
 				{ name: 'CJC-1295', amount: 2, ratio: 1 },
 				{ name: 'Ipamorelin', amount: 2, ratio: 1 }
 			]
+		},
+		{
+			id: 'wolverine',
+			name: 'Wolverine',
+			totalAmount: 20,
+			unit: 'mg',
+			components: [
+				{ name: 'BPC-157', amount: 10, ratio: 1 },
+				{ name: 'TB-500', amount: 10, ratio: 1 }
+			]
+		},
+		{
+			id: 'tri-heal-max',
+			name: 'Tri-Heal Max',
+			totalAmount: 45,
+			unit: 'mg',
+			components: [
+				{ name: 'TB-500', amount: 25, ratio: 5 },
+				{ name: 'BPC-157', amount: 10, ratio: 2 },
+				{ name: 'KPV', amount: 10, ratio: 2 }
+			]
+		},
+		{
+			id: 'tesa-ipa',
+			name: 'Tesa/IPA',
+			totalAmount: 10,
+			unit: 'mg',
+			components: [
+				{ name: 'Tesamorelin', amount: 5, ratio: 1 },
+				{ name: 'Ipamorelin', amount: 5, ratio: 1 }
+			]
+		},
+		{
+			id: 'illumineuro',
+			name: 'IllumiNeuro',
+			totalAmount: 48,
+			unit: 'mg',
+			components: [
+				{ name: 'NA-Semax', amount: 20, ratio: 4 },
+				{ name: 'PE-22-28', amount: 10, ratio: 2 },
+				{ name: 'Pinealon', amount: 10, ratio: 2 },
+				{ name: 'NA-Selank', amount: 8, ratio: 1.6 }
+			]
 		}
 	];
 
@@ -400,57 +443,55 @@
 
 			<!-- Water Volume -->
 			<div class="input-group">
-				<Label for="water-volume" class="text-sm font-medium">BAC Water Added (mL)</Label>
-				<div class="mt-1.5 flex gap-2">
-					<Input
-						id="water-volume"
+				<label for="blend-water" class="field-label">BAC Water (added to vial)</label>
+				<div class="field-box">
+					<input
+						id="blend-water"
 						type="number"
 						bind:value={waterVolume}
 						min="0.5"
 						step="0.5"
-						class="flex-1"
+						inputmode="decimal"
+						class="field-input"
 					/>
+					<span class="field-suffix">mL</span>
 				</div>
-				<div class="preset-buttons">
+				<div class="presets">
 					{#each waterPresets as preset}
-						<button
-							type="button"
-							class="preset-btn {waterVolume === preset ? 'active' : ''}"
-							onclick={() => selectWaterPreset(preset)}
-						>
-							{preset}mL
-						</button>
+						<button type="button" class="preset" class:preset-match={waterVolume === preset} onclick={() => selectWaterPreset(preset)}>{preset}</button>
 					{/each}
 				</div>
 			</div>
 
-			<!-- Anchor Selection - Single Line -->
+			<!-- Desired Dose -->
 			<div class="input-group">
-				<Label class="text-sm font-medium">Desired Dose</Label>
-				<div class="anchor-row">
-					<Input
-						type="number"
-						value={desiredAnchorDose}
-						oninput={handleDoseInput}
-						min={doseUnit === 'mg' ? 0.1 : 1}
-						step={doseUnit === 'mg' ? 1 : 50}
-						class="anchor-dose-input"
-					/>
-					<div class="unit-selector">
-						<button
-							type="button"
-							class="unit-btn {doseUnit === 'mcg' ? 'active' : ''}"
-							onclick={() => selectDoseUnit('mcg')}
-						>
-							mcg
-						</button>
-						<button
-							type="button"
-							class="unit-btn {doseUnit === 'mg' ? 'active' : ''}"
-							onclick={() => selectDoseUnit('mg')}
-						>
-							mg
-						</button>
+				<label class="field-label" for="desired-dose-input">Desired Dose</label>
+				<div class="dose-anchor-row">
+					<div class="field-box dose-field-box">
+						<input
+							id="desired-dose-input"
+							type="number"
+							value={desiredAnchorDose}
+							oninput={handleDoseInput}
+							min={doseUnit === 'mg' ? 0.1 : 1}
+							step={doseUnit === 'mg' ? 0.5 : 50}
+							inputmode="decimal"
+							class="field-input"
+						/>
+						<div class="unit-seg">
+							<button
+								type="button"
+								class="unit-seg-btn"
+								class:unit-seg-active={doseUnit === 'mcg'}
+								onclick={() => selectDoseUnit('mcg')}
+							>mcg</button>
+							<button
+								type="button"
+								class="unit-seg-btn"
+								class:unit-seg-active={doseUnit === 'mg'}
+								onclick={() => selectDoseUnit('mg')}
+							>mg</button>
+						</div>
 					</div>
 					<span class="anchor-of">of</span>
 					<select bind:value={anchorComponentName} class="component-select">
@@ -565,6 +606,7 @@
 		flex-direction: column;
 		gap: 1.5rem;
 		overflow-x: hidden;
+		max-width: 100%;
 	}
 
 	.calculator-layout {
@@ -586,26 +628,18 @@
 			margin: 0 auto;
 		}
 
-		.anchor-row {
+		.dose-anchor-row {
 			flex-direction: column;
 			align-items: stretch;
-			gap: 0.75rem;
+			gap: 0.5rem;
 		}
 
-		.anchor-row :global(.anchor-dose-input) {
-			width: 100%;
+		.dose-field-box {
+			min-width: 100%;
 		}
 
 		.anchor-of {
 			display: none;
-		}
-
-		.unit-selector {
-			width: 100%;
-		}
-
-		.unit-btn {
-			flex: 1;
 		}
 
 		.component-select {
@@ -677,8 +711,9 @@
 	}
 
 	.component-select {
-		min-width: 120px;
+		min-width: 0;
 		flex: 1;
+		width: 100%;
 	}
 
 	.blend-select:hover,
@@ -690,17 +725,6 @@
 	.component-select:focus {
 		outline: 2px solid hsl(var(--primary));
 		outline-offset: 2px;
-	}
-
-	.anchor-row {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		flex-wrap: wrap;
-	}
-
-	.anchor-row :global(.anchor-dose-input) {
-		width: 90px;
 	}
 
 	.anchor-of {
@@ -858,65 +882,139 @@
 		background: hsl(var(--primary) / 0.05);
 	}
 
-	.preset-buttons {
-		display: flex;
-		gap: 0.5rem;
-		margin-top: 0.5rem;
-		flex-wrap: wrap;
-	}
-
-	.preset-btn {
-		padding: 0.25rem 0.75rem;
-		font-size: 0.75rem;
-		border-radius: 9999px;
-		border: 1px solid hsl(var(--border));
-		background: hsl(var(--background));
+	/* Input-first field pattern (matches reconstitution calculator) */
+	.field-label {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
 		color: hsl(var(--muted-foreground));
-		transition: all 0.15s ease;
-		cursor: pointer;
 	}
 
-	.preset-btn:hover {
-		background: hsl(var(--muted));
-		color: hsl(var(--foreground));
-	}
-
-	.preset-btn.active {
-		background: hsl(var(--primary));
-		color: hsl(var(--primary-foreground));
-		border-color: hsl(var(--primary));
-	}
-
-	.unit-selector {
+	.field-box {
 		display: flex;
-		border: 1px solid hsl(var(--border));
-		border-radius: 0.5rem;
+		align-items: center;
+		border: 1.5px solid hsl(var(--border));
+		border-radius: 0.625rem;
+		background: hsl(var(--background));
+		transition: border-color 0.15s;
 		overflow: hidden;
+		max-width: 100%;
 	}
 
-	.unit-btn {
-		padding: 0.5rem 0.75rem;
+	.field-box:focus-within {
+		border-color: hsl(var(--accent));
+	}
+
+	.field-input {
+		flex: 1;
+		padding: 0.75rem 0.875rem;
+		font-size: 1.125rem;
+		font-weight: 600;
+		font-family: var(--font-mono);
+		background: transparent;
+		color: hsl(var(--foreground));
+		border: none;
+		outline: none;
+		min-width: 0;
+		width: 100%;
+		-moz-appearance: textfield;
+		appearance: textfield;
+	}
+
+	.field-input::-webkit-outer-spin-button,
+	.field-input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		appearance: none;
+		margin: 0;
+	}
+
+	.field-suffix {
+		padding: 0.75rem 0.875rem 0.75rem 0;
 		font-size: 0.875rem;
 		font-weight: 500;
-		background: hsl(var(--background));
 		color: hsl(var(--muted-foreground));
-		border: none;
-		cursor: pointer;
-		transition: all 0.15s ease;
+		user-select: none;
 	}
 
-	.unit-btn:first-child {
+	.presets {
+		display: flex;
+		gap: 0.25rem;
+		padding-top: 0.125rem;
+	}
+
+	.preset {
+		font-size: 0.75rem;
+		font-family: var(--font-mono);
+		font-weight: 500;
+		color: hsl(var(--muted-foreground));
+		background: none;
+		border: none;
+		padding: 0.125rem 0.375rem;
+		cursor: pointer;
+		border-radius: 0.25rem;
+		transition: all 0.1s;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	.preset:hover {
+		color: hsl(var(--foreground));
+		background: hsl(var(--muted) / 0.5);
+	}
+
+	.preset-match {
+		color: hsl(var(--accent));
+	}
+
+	/* Segmented unit toggle */
+	.unit-seg {
+		display: flex;
+		margin: 0.375rem 0.375rem 0.375rem 0;
+		border-radius: 0.375rem;
+		overflow: hidden;
+		border: 1px solid hsl(var(--border));
+		flex-shrink: 0;
+	}
+
+	.unit-seg-btn {
+		padding: 0.375rem 0.625rem;
+		font-size: 0.75rem;
+		font-weight: 600;
+		color: hsl(var(--muted-foreground));
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		transition: all 0.15s;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	.unit-seg-btn:first-child {
 		border-right: 1px solid hsl(var(--border));
 	}
 
-	.unit-btn:hover {
-		background: hsl(var(--muted));
-		color: hsl(var(--foreground));
+	.unit-seg-active {
+		background: hsl(var(--accent));
+		color: white;
 	}
 
-	.unit-btn.active {
-		background: hsl(var(--primary));
-		color: hsl(var(--primary-foreground));
+	/* Dose + anchor row */
+	.dose-anchor-row {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+	}
+
+	.dose-field-box {
+		flex: 1 1 100%;
+		min-width: 0;
+	}
+
+	@media (min-width: 480px) {
+		.dose-field-box {
+			flex: 1 1 auto;
+			min-width: 160px;
+		}
 	}
 
 	.syringe-selector {

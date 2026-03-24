@@ -728,7 +728,7 @@
 							{#if i < currentStep}
 								<CheckCircle2 class="h-5 w-5" />
 							{:else}
-								<svelte:component this={step.icon} class="h-5 w-5" />
+								<step.icon class="h-5 w-5" />
 							{/if}
 						</div>
 						<span class="step-label">{step.label}</span>
@@ -2449,11 +2449,6 @@
 		background: hsl(var(--accent) / 0.1);
 		border-radius: 8px;
 		margin-top: 1.5rem;
-	}
-
-	.info-callout svg {
-		flex-shrink: 0;
-		color: hsl(var(--accent));
 	}
 
 	.info-callout p {

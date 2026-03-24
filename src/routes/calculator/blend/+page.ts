@@ -5,6 +5,10 @@ const blendNames: Record<string, string> = {
 	klow: 'KLOW',
 	glow: 'GLOW',
 	'cjc-ipa': 'CJC/IPA',
+	wolverine: 'Wolverine',
+	'tri-heal-max': 'Tri-Heal Max',
+	'tesa-ipa': 'Tesa/IPA',
+	illumineuro: 'IllumiNeuro',
 	custom: 'Custom'
 };
 
