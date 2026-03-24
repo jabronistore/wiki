@@ -1,7 +1,7 @@
 @import '@fontsource-variable/inter/index.css';
+@import '@fontsource/source-serif-pro/300.css';
 @import '@fontsource/source-serif-pro/400.css';
 @import '@fontsource/source-serif-pro/600.css';
-@import '@fontsource/source-serif-pro/700.css';
 @import '@fontsource/jetbrains-mono';
 @tailwind base;
 @tailwind components;
@@ -139,11 +139,13 @@ body {
 	h5,
 	h6 {
 		font-family: var(--font-serif);
-		@apply font-semibold tracking-tight;
+		font-weight: 400;
+		@apply tracking-tight;
 	}
 
 	h1 {
-		@apply text-4xl font-bold md:text-5xl lg:text-6xl;
+		font-weight: 400;
+		@apply text-4xl md:text-5xl lg:text-6xl;
 	}
 
 	h2 {

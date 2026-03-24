@@ -30,3 +30,6 @@ npm-debug.log*
 
 # Claude commands (local skills)
 .claude/
+
+# Generated social media content
+static/social/

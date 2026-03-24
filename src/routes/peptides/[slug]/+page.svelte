@@ -1,6 +1,5 @@
 <script lang="ts">
 	import {
-		ArrowLeft,
 		FlaskConical,
 		Clock,
 		Thermometer,
@@ -12,8 +11,9 @@
 		Info,
 		BookOpen,
 		Beaker,
-		ChevronDown,
+		ChevronRight,
 		ExternalLink,
+		Home,
 		Menu,
 		X,
 		Calculator,
@@ -27,6 +27,7 @@
 	import PeptideSidebar from '$lib/components/PeptideSidebar.svelte';
 	import { CalculatorModal } from '$lib/components/calculator';
 	import PeptideCommunitySection from '$lib/components/community/PeptideCommunitySection.svelte';
+	import PKSparkline from '$lib/components/PKSparkline.svelte';
 
 	const SITE_URL = 'https://peptide-db.com';
 
@@ -36,19 +37,6 @@
 	const allPeptides = $derived(data.allPeptides);
 
 	let activeDeliveryMethod = $state(0);
-	let expandedSections = $state<Record<string, boolean>>({
-		overview: true,
-		molecular: true,
-		indications: true,
-		protocols: true,
-		protocolVariants: true,
-		interactions: true,
-		timeline: true,
-		safety: true,
-		quality: true,
-		references: true
-	});
-
 	let mobileSidebarOpen = $state(false);
 
 	// Define sections for TOC - derived from what's available in the peptide
@@ -89,10 +77,6 @@
 		}
 	]);
 
-	function toggleSection(section: string) {
-		expandedSections[section] = !expandedSections[section];
-	}
-
 	function getResearchStatusLabel(status: string): string {
 		const labels: Record<string, string> = {
 			'extensively-studied': 'Extensively Studied',
@@ -117,37 +101,74 @@
 	}
 
 	const canonicalUrl = $derived(`${SITE_URL}/peptides/${peptide.id}`);
-	const description = $derived(
-		peptide.overview?.slice(0, 160) || `Research information about ${peptide.name}`
+	const description = $derived.by(() => {
+		const parts: string[] = [];
+		if (peptide.molecular?.type) {
+			parts.push(`${peptide.name} is a ${peptide.molecular.type.toLowerCase()}`);
+		} else {
+			parts.push(`${peptide.name} research guide`);
+		}
+		if (peptide.keyBenefits?.length) {
+			parts.push(`studied for ${peptide.keyBenefits.slice(0, 2).join(' and ').toLowerCase()}`);
+		}
+		if (peptide.molecular?.halfLife) {
+			parts.push(`Half-life: ${peptide.molecular.halfLife}`);
+		}
+		const structured = parts.join('. ') + '. Dosing, safety, interactions | Peptide Database';
+		if (structured.length >= 80 && structured.length <= 160) return structured;
+		if (structured.length > 160) return structured.slice(0, 157) + '...';
+		if (peptide.overview) {
+			const sentences = peptide.overview.match(/[^.!?]+[.!?]+/g) || [];
+			let desc = '';
+			for (const sentence of sentences) {
+				if ((desc + sentence).length <= 155) desc += sentence;
+				else break;
+			}
+			return desc.trim() || peptide.overview.slice(0, 155) + '...';
+		}
+		return `${peptide.name}: dosing protocols, safety profile, interactions, and research. | Peptide Database`;
+	});
+
+	const keywords = $derived(
+		[peptide.name.toLowerCase(), ...(peptide.categories || []), 'peptide', 'dosing', 'research'].join(', ')
 	);
 
-	// JSON-LD structured data for peptide pages
+	// JSON-LD structured data
 	const jsonld = $derived({
 		'@context': 'https://schema.org',
-		'@type': 'Article',
-		headline: `${peptide.name} Overview, Dosing & Safety`,
-		description: description,
-		author: {
-			'@type': 'Organization',
-			name: 'Peptide Database'
-		},
-		publisher: {
-			'@type': 'Organization',
-			name: 'Peptide Database',
-			url: SITE_URL
-		},
-		mainEntityOfPage: {
-			'@type': 'WebPage',
-			'@id': canonicalUrl
-		},
-		keywords: peptide.categories?.join(', ')
+		'@graph': [
+			{
+				'@type': 'Article',
+				headline: `${peptide.name} Overview, Dosing & Safety`,
+				description: description,
+				datePublished: '2025-12-09T00:00:00.000Z',
+				dateModified: new Date().toISOString(),
+				author: { '@type': 'Organization', name: 'Peptide Database' },
+				publisher: {
+					'@type': 'Organization',
+					name: 'Peptide Database',
+					url: SITE_URL,
+					logo: { '@type': 'ImageObject', url: `${SITE_URL}/pep-logo.webp` }
+				},
+				mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
+				keywords: keywords
+			},
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+					{ '@type': 'ListItem', position: 2, name: 'Peptides', item: `${SITE_URL}/peptides` },
+					{ '@type': 'ListItem', position: 3, name: peptide.name, item: canonicalUrl }
+				]
+			}
+		]
 	});
 </script>
 
 <SEO
 	title="{peptide.name} Overview, Dosing & Safety | Peptide Database"
 	{description}
-	keywords={peptide.categories?.join(', ') || 'peptide research'}
+	keywords={keywords}
 	siteName="Peptide Database"
 	canonical={canonicalUrl}
 	twitter={true}
@@ -221,19 +242,30 @@
 	<!-- Main Content - Primary scroll area -->
 	<main class="peptide-main">
 		<div class="peptide-content">
-			<!-- Back button -->
-			<a
-				href="/peptides"
-				class="mb-8 inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
-			>
-				<ArrowLeft class="h-4 w-4" />
-				Back to Peptides
-			</a>
+			<!-- Breadcrumb -->
+			<nav aria-label="Breadcrumb" class="mb-8">
+				<ol class="flex items-center gap-1.5 text-sm text-muted-foreground">
+					<li class="flex items-center gap-1.5">
+						<a href="/" class="flex items-center gap-1 transition-colors hover:text-foreground">
+							<Home class="h-3.5 w-3.5" />
+							<span>Home</span>
+						</a>
+						<ChevronRight class="h-3.5 w-3.5" />
+					</li>
+					<li class="flex items-center gap-1.5">
+						<a href="/peptides" class="transition-colors hover:text-foreground">Peptides</a>
+						<ChevronRight class="h-3.5 w-3.5" />
+					</li>
+					<li>
+						<span class="font-medium text-foreground">{peptide.name}</span>
+					</li>
+				</ol>
+			</nav>
 
 			<!-- Header Section -->
 			<div class="mb-12">
 				<div class="mb-4 flex flex-wrap items-start gap-4">
-					<h1 class="text-3xl font-bold md:text-4xl lg:text-5xl">{peptide.name}</h1>
+					<h1 class="text-3xl md:text-4xl lg:text-5xl">{peptide.name}</h1>
 					<div class="flex gap-2">
 						<span
 							class="inline-flex rounded-full border px-3 py-1.5 text-sm font-medium badge-{peptide.researchStatus}"
@@ -251,6 +283,33 @@
 				</div>
 				{#if peptide.subtitle}
 					<p class="text-lg text-muted-foreground">{peptide.subtitle}</p>
+				{/if}
+
+				<!-- Hero molecular stats -->
+				{#if peptide.molecular && (peptide.molecular.weight || peptide.molecular.halfLife || peptide.molecular.length)}
+					<div class="mt-6 flex flex-wrap items-center gap-3">
+						{#if peptide.molecular.weight}
+							<div class="flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-sm">
+								<Scale class="h-4 w-4 text-muted-foreground" />
+								<span class="text-muted-foreground">Weight:</span>
+								<span class="font-medium">{peptide.molecular.weight}</span>
+							</div>
+						{/if}
+						{#if peptide.molecular.halfLife}
+							<div class="flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-sm">
+								<Clock class="h-4 w-4 text-muted-foreground" />
+								<span class="text-muted-foreground">Half-life:</span>
+								<span class="font-medium">{peptide.molecular.halfLife}</span>
+							</div>
+						{/if}
+						{#if peptide.molecular.length}
+							<div class="flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-sm">
+								<Beaker class="h-4 w-4 text-muted-foreground" />
+								<span class="text-muted-foreground">Chain:</span>
+								<span class="font-medium">{peptide.molecular.length}</span>
+							</div>
+						{/if}
+					</div>
 				{/if}
 			</div>
 
@@ -293,72 +352,35 @@
 			<!-- Main Content Sections -->
 			<div class="space-y-6">
 				<!-- Overview Section -->
-				<section id="overview" class="scroll-mt-8 border-b border-border/50 py-6">
-					<button
-						onclick={() => toggleSection('overview')}
-						class="flex w-full items-center justify-between rounded-r-lg border-l-[3px] border-accent py-2 pl-3 text-left transition-colors hover:bg-muted/30"
-					>
-						<div class="flex items-center gap-3">
-							<div class="section-icon">
-								<Info class="h-5 w-5" />
-							</div>
-							<h2 class="text-xl font-semibold">Overview</h2>
+				<section id="overview" class="sect sect-prose scroll-mt-8">
+					<div class="overview-lead">
+						<p class="overview-text">{peptide.overview}</p>
+					</div>
+
+					{#if peptide.mechanism}
+						<div class="overview-mechanism">
+							<div class="overview-mechanism-label">Mechanism of Action</div>
+							<p class="overview-mechanism-text">{peptide.mechanism}</p>
 						</div>
-						<ChevronDown
-							class="h-5 w-5 text-muted-foreground transition-transform {expandedSections.overview
-								? 'rotate-180'
-								: ''}"
-						/>
-					</button>
-					{#if expandedSections.overview}
-						<div class="animate-fade-in pt-4">
-							<p class="mb-6 leading-relaxed text-foreground/90">{peptide.overview}</p>
+					{/if}
 
-							{#if peptide.mechanism}
-								<div class="mt-6">
-									<h3 class="mb-2 font-semibold">Mechanism of Action</h3>
-									<p class="text-muted-foreground">{peptide.mechanism}</p>
+					{#if peptide.keyBenefits && peptide.keyBenefits.length > 0}
+						<div class="overview-benefits">
+							{#each peptide.keyBenefits as benefit, i}
+								<div class="overview-benefit">
+									<span class="overview-benefit-num">{String(i + 1).padStart(2, '0')}</span>
+									<span class="overview-benefit-text">{benefit}</span>
 								</div>
-							{/if}
-
-							{#if peptide.keyBenefits && peptide.keyBenefits.length > 0}
-								<div class="mt-6">
-									<h3 class="mb-3 font-semibold">Key Benefits</h3>
-									<ul class="grid grid-cols-1 gap-2 md:grid-cols-2">
-										{#each peptide.keyBenefits as benefit}
-											<li class="flex items-start gap-2">
-												<CheckCircle class="mt-0.5 h-5 w-5 flex-shrink-0 text-success" />
-												<span class="text-muted-foreground">{benefit}</span>
-											</li>
-										{/each}
-									</ul>
-								</div>
-							{/if}
+							{/each}
 						</div>
 					{/if}
 				</section>
 
 				<!-- Molecular Information -->
 				{#if peptide.molecular}
-					<section id="molecular" class="scroll-mt-8 border-b border-border/50 py-6">
-						<button
-							onclick={() => toggleSection('molecular')}
-							class="flex w-full items-center justify-between rounded-r-lg border-l-[3px] border-accent py-2 pl-3 text-left transition-colors hover:bg-muted/30"
-						>
-							<div class="flex items-center gap-3">
-								<div class="section-icon">
-									<Beaker class="h-5 w-5" />
-								</div>
-								<h2 class="text-xl font-semibold">Molecular Information</h2>
-							</div>
-							<ChevronDown
-								class="h-5 w-5 text-muted-foreground transition-transform {expandedSections.molecular
-									? 'rotate-180'
-									: ''}"
-							/>
-						</button>
-						{#if expandedSections.molecular}
-							<div class="animate-fade-in pt-4">
+					<section id="molecular" class="sect sect-data scroll-mt-8">
+						<h2 class="sect-heading-data"><Beaker class="sect-icon" />Molecular Data</h2>
+						<div class="sect-body">
 								<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
 									{#if peptide.molecular.weight}
 										<div class="rounded-xl bg-muted/50 p-4">
@@ -385,78 +407,49 @@
 										<SequenceViewer sequence={peptide.molecular.sequence} />
 									</div>
 								{/if}
-							</div>
-						{/if}
+						</div>
+					</section>
+				{/if}
+
+				<!-- Accumulation Curve (inline, collapsible) -->
+				{#if peptide.molecular?.halfLifeSeconds}
+					<section class="scroll-mt-8 border-b border-border/50 py-6">
+						<PKSparkline {peptide} />
 					</section>
 				{/if}
 
 				<!-- Research Indications -->
 				{#if peptide.indications && peptide.indications.length > 0}
-					<section id="indications" class="scroll-mt-8 border-b border-border/50 py-6">
-						<button
-							onclick={() => toggleSection('indications')}
-							class="flex w-full items-center justify-between rounded-r-lg border-l-[3px] border-accent py-2 pl-3 text-left transition-colors hover:bg-muted/30"
-						>
-							<div class="flex items-center gap-3">
-								<div class="section-icon">
-									<FlaskConical class="h-5 w-5" />
-								</div>
-								<h2 class="text-xl font-semibold">Research Indications</h2>
-							</div>
-							<ChevronDown
-								class="h-5 w-5 text-muted-foreground transition-transform {expandedSections.indications
-									? 'rotate-180'
-									: ''}"
-							/>
-						</button>
-						{#if expandedSections.indications}
-							<div class="animate-fade-in pt-4">
-								<div class="space-y-6">
-									{#each peptide.indications as category}
-										<div>
-											<h3 class="mb-3 font-semibold text-primary">{category.category}</h3>
-											<ul class="space-y-2">
-												{#each category.items as item}
-													<li class="flex items-start gap-3 rounded-lg bg-muted/30 p-3">
-														<CheckCircle class="mt-0.5 h-5 w-5 flex-shrink-0 text-success" />
-														<div>
-															<span class="font-medium">{item.name}</span>
-															{#if item.description}
-																<p class="mt-1 text-sm text-muted-foreground">{item.description}</p>
-															{/if}
-														</div>
-													</li>
-												{/each}
-											</ul>
+					<section id="indications" class="sect scroll-mt-8">
+						<h2 class="sect-heading-data"><FlaskConical class="sect-icon" />Research Indications</h2>
+						<div class="indications-grid">
+							{#each peptide.indications as category}
+								<div class="indication-group">
+									<div class="indication-group-label">{category.category}</div>
+									{#each category.items as item}
+										<div class="indication-item">
+											<div class="indication-item-header">
+												<span class="indication-name">{item.name}</span>
+												{#if item.effectiveness}
+													<span class="indication-eff indication-eff-{item.effectiveness}">{item.effectiveness.replace('-', ' ')}</span>
+												{/if}
+											</div>
+											{#if item.description}
+												<p class="indication-desc">{item.description}</p>
+											{/if}
 										</div>
 									{/each}
 								</div>
-							</div>
-						{/if}
+							{/each}
+						</div>
 					</section>
 				{/if}
 
 				<!-- Delivery Methods & Protocols -->
 				{#if peptide.deliveryMethods && peptide.deliveryMethods.length > 0}
-					<section id="protocols" class="scroll-mt-8 border-b border-border/50 py-6">
-						<button
-							onclick={() => toggleSection('protocols')}
-							class="flex w-full items-center justify-between rounded-r-lg border-l-[3px] border-accent py-2 pl-3 text-left transition-colors hover:bg-muted/30"
-						>
-							<div class="flex items-center gap-3">
-								<div class="section-icon">
-									<Syringe class="h-5 w-5" />
-								</div>
-								<h2 class="text-xl font-semibold">Dosing Protocols</h2>
-							</div>
-							<ChevronDown
-								class="h-5 w-5 text-muted-foreground transition-transform {expandedSections.protocols
-									? 'rotate-180'
-									: ''}"
-							/>
-						</button>
-						{#if expandedSections.protocols}
-							<div class="animate-fade-in pt-4">
+					<section id="protocols" class="sect sect-data scroll-mt-8">
+						<h2 class="sect-heading-data"><Syringe class="sect-icon" />Dosing Protocols</h2>
+						<div class="sect-body">
 								<!-- Delivery Method Tabs -->
 								{#if peptide.deliveryMethods.length > 1}
 									<div class="mb-6 flex gap-2 overflow-x-auto pb-2">
@@ -541,39 +534,18 @@
 										</div>
 									{/if}
 								{/if}
-							</div>
-						{/if}
+						</div>
 					</section>
 				{/if}
 
 				<!-- Protocol Variants / Conflicting Protocols -->
 				{#if peptide.protocolVariants && peptide.protocolVariants.length > 0}
-					<section id="protocol-variants" class="scroll-mt-8 border-b border-border/50 py-6">
-						<button
-							onclick={() => toggleSection('protocolVariants')}
-							class="flex w-full items-center justify-between rounded-r-lg border-l-[3px] border-warning py-2 pl-3 text-left transition-colors hover:bg-warning/10"
-						>
-							<div class="flex items-center gap-3">
-								<div
-									class="flex h-10 w-10 items-center justify-center rounded-xl bg-warning/20 text-warning-foreground"
-								>
-									<Scale class="h-5 w-5" />
-								</div>
-								<div>
-									<h2 class="text-xl font-semibold">Protocol Variations</h2>
-									<p class="text-sm text-muted-foreground">
-										Multiple approaches exist - compare before choosing
-									</p>
-								</div>
-							</div>
-							<ChevronDown
-								class="h-5 w-5 text-muted-foreground transition-transform {expandedSections.protocolVariants
-									? 'rotate-180'
-									: ''}"
-							/>
-						</button>
-						{#if expandedSections.protocolVariants}
-							<div class="animate-fade-in pt-4">
+					<section id="protocol-variants" class="sect sect-warn scroll-mt-8">
+						<div class="sect-heading-warn-block">
+							<h2 class="sect-heading-warn"><Scale class="sect-icon" />Protocol Variations</h2>
+							<p class="text-sm text-muted-foreground">Multiple approaches exist - compare before choosing</p>
+						</div>
+						<div class="sect-body">
 								<div class="mb-4 rounded-lg border border-warning/20 bg-warning/10 p-4">
 									<div class="flex items-start gap-3">
 										<AlertTriangle class="mt-0.5 h-5 w-5 flex-shrink-0 text-warning-foreground" />
@@ -656,126 +628,60 @@
 										</div>
 									{/each}
 								</div>
-							</div>
-						{/if}
+						</div>
 					</section>
 				{/if}
 
 				<!-- Interactions -->
 				{#if peptide.interactions && peptide.interactions.length > 0}
-					<section id="interactions" class="scroll-mt-8 border-b border-border/50 py-6">
-						<button
-							onclick={() => toggleSection('interactions')}
-							class="flex w-full items-center justify-between rounded-r-lg border-l-[3px] border-accent py-2 pl-3 text-left transition-colors hover:bg-muted/30"
-						>
-							<div class="flex items-center gap-3">
-								<div class="section-icon">
-									<FlaskConical class="h-5 w-5" />
+					<section id="interactions" class="sect scroll-mt-8">
+						<h2 class="sect-heading-data"><FlaskConical class="sect-icon" />Interactions</h2>
+						<div class="interactions-table">
+							{#each peptide.interactions as interaction}
+								{@const statusMap: Record<string, { color: string; symbol: string }> = {
+									synergistic: { color: 'var(--success, #059669)', symbol: '++' },
+									compatible: { color: 'var(--success, #059669)', symbol: '+' },
+									monitor: { color: 'var(--warning, #D4A27F)', symbol: '~' },
+									avoid: { color: 'var(--destructive, #BF4D43)', symbol: '!' },
+									'requires-timing': { color: 'var(--warning, #D4A27F)', symbol: '%' }
+								}}
+								{@const status = statusMap[interaction.status] || { color: 'var(--muted-foreground)', symbol: '?' }}
+								<div class="ix-row" style="--ix-color: hsl({status.color})">
+									<div class="ix-indicator" style="background: hsl({status.color})">{status.symbol}</div>
+									<div class="ix-content">
+										<div class="ix-name">{interaction.peptide}</div>
+										{#if interaction.notes}
+											<div class="ix-notes">{interaction.notes}</div>
+										{/if}
+									</div>
+									<div class="ix-label" style="color: hsl({status.color})">{interaction.status.replace('-', ' ')}</div>
 								</div>
-								<h2 class="text-xl font-semibold">Peptide Interactions</h2>
-							</div>
-							<ChevronDown
-								class="h-5 w-5 text-muted-foreground transition-transform {expandedSections.interactions
-									? 'rotate-180'
-									: ''}"
-							/>
-						</button>
-						{#if expandedSections.interactions}
-							<div class="animate-fade-in pt-4">
-								<div class="space-y-3">
-									{#each peptide.interactions as interaction}
-										{@const statusColors: Record<string, string> = {
-											synergistic: 'interaction-synergistic',
-											compatible: 'interaction-compatible',
-											monitor: 'interaction-monitor',
-											avoid: 'interaction-avoid',
-											'requires-timing': 'interaction-requires-timing'
-										}}
-										<div class="flex items-center justify-between rounded-xl bg-muted/30 p-4">
-											<div>
-												<span class="font-medium">{interaction.peptide}</span>
-												{#if interaction.notes}
-													<p class="mt-1 text-sm text-muted-foreground">{interaction.notes}</p>
-												{/if}
-											</div>
-											<span
-												class="rounded-full border px-3 py-1 text-xs font-medium capitalize {statusColors[
-													interaction.status
-												] || ''}"
-											>
-												{interaction.status.replace('-', ' ')}
-											</span>
-										</div>
-									{/each}
-								</div>
-							</div>
-						{/if}
+							{/each}
+						</div>
 					</section>
 				{/if}
 
 				<!-- Timeline -->
 				{#if peptide.timeline && peptide.timeline.length > 0}
-					<section id="timeline" class="scroll-mt-8 border-b border-border/50 py-6">
-						<button
-							onclick={() => toggleSection('timeline')}
-							class="flex w-full items-center justify-between rounded-r-lg border-l-[3px] border-accent py-2 pl-3 text-left transition-colors hover:bg-muted/30"
-						>
-							<div class="flex items-center gap-3">
-								<div class="section-icon">
-									<Clock class="h-5 w-5" />
+					<section id="timeline" class="sect scroll-mt-8">
+						<h2 class="sect-heading-data"><Clock class="sect-icon" />What to Expect</h2>
+						<div class="timeline-track">
+							{#each peptide.timeline as entry, i}
+								<div class="tl-entry" style="--tl-delay: {i * 60}ms">
+									<div class="tl-period">{entry.period}</div>
+									<div class="tl-bar"></div>
+									<div class="tl-effects">{entry.effects}</div>
 								</div>
-								<h2 class="text-xl font-semibold">What to Expect</h2>
-							</div>
-							<ChevronDown
-								class="h-5 w-5 text-muted-foreground transition-transform {expandedSections.timeline
-									? 'rotate-180'
-									: ''}"
-							/>
-						</button>
-						{#if expandedSections.timeline}
-							<div class="animate-fade-in pt-4">
-								<div class="relative">
-									<div class="absolute bottom-0 left-4 top-0 w-0.5 bg-border"></div>
-									<div class="space-y-6">
-										{#each peptide.timeline as entry}
-											<div class="relative flex gap-4 pl-10">
-												<div
-													class="absolute left-2 h-4 w-4 rounded-full border-4 border-background bg-primary"
-												></div>
-												<div>
-													<div class="font-semibold text-primary">{entry.period}</div>
-													<p class="mt-1 text-muted-foreground">{entry.effects}</p>
-												</div>
-											</div>
-										{/each}
-									</div>
-								</div>
-							</div>
-						{/if}
+							{/each}
+						</div>
 					</section>
 				{/if}
 
 				<!-- Safety Information -->
 				{#if peptide.sideEffects}
-					<section id="safety" class="scroll-mt-8 border-b border-border/50 py-6">
-						<button
-							onclick={() => toggleSection('safety')}
-							class="flex w-full items-center justify-between rounded-r-lg border-l-[3px] border-accent py-2 pl-3 text-left transition-colors hover:bg-muted/30"
-						>
-							<div class="flex items-center gap-3">
-								<div class="section-icon">
-									<AlertTriangle class="h-5 w-5" />
-								</div>
-								<h2 class="text-xl font-semibold">Side Effects & Safety</h2>
-							</div>
-							<ChevronDown
-								class="h-5 w-5 text-muted-foreground transition-transform {expandedSections.safety
-									? 'rotate-180'
-									: ''}"
-							/>
-						</button>
-						{#if expandedSections.safety}
-							<div class="animate-fade-in pt-4">
+					<section id="safety" class="sect sect-warn scroll-mt-8">
+						<h2 class="sect-heading-warn"><AlertTriangle class="sect-icon" />Side Effects & Safety</h2>
+						<div class="sect-body">
 								{#if peptide.sideEffects.common && peptide.sideEffects.common.length > 0}
 									<div class="mb-6">
 										<h4 class="mb-3 font-semibold">Common Side Effects</h4>
@@ -819,32 +725,15 @@
 										</ul>
 									</div>
 								{/if}
-							</div>
-						{/if}
+						</div>
 					</section>
 				{/if}
 
 				<!-- Quality Checklist -->
 				{#if peptide.qualityChecklist}
-					<section id="quality" class="scroll-mt-8 border-b border-border/50 py-6">
-						<button
-							onclick={() => toggleSection('quality')}
-							class="flex w-full items-center justify-between rounded-r-lg border-l-[3px] border-accent py-2 pl-3 text-left transition-colors hover:bg-muted/30"
-						>
-							<div class="flex items-center gap-3">
-								<div class="section-icon">
-									<CheckCircle class="h-5 w-5" />
-								</div>
-								<h2 class="text-xl font-semibold">Quality Checklist</h2>
-							</div>
-							<ChevronDown
-								class="h-5 w-5 text-muted-foreground transition-transform {expandedSections.quality
-									? 'rotate-180'
-									: ''}"
-							/>
-						</button>
-						{#if expandedSections.quality}
-							<div class="animate-fade-in pt-4">
+					<section id="quality" class="sect sect-warn scroll-mt-8">
+						<h2 class="sect-heading-warn"><CheckCircle class="sect-icon" />Quality Checklist</h2>
+						<div class="sect-body">
 								<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
 									{#if peptide.qualityChecklist.good && peptide.qualityChecklist.good.length > 0}
 										<div class="status-good rounded-xl border p-4">
@@ -888,35 +777,15 @@
 										</div>
 									{/if}
 								</div>
-							</div>
-						{/if}
+						</div>
 					</section>
 				{/if}
 
 				<!-- References -->
 				{#if peptide.references && peptide.references.length > 0}
-					<section
-						id="references"
-						class="scroll-mt-8 border-b border-border/50 py-6 last:border-b-0"
-					>
-						<button
-							onclick={() => toggleSection('references')}
-							class="flex w-full items-center justify-between rounded-r-lg border-l-[3px] border-muted-foreground/30 py-2 pl-3 text-left transition-colors hover:bg-muted/30"
-						>
-							<div class="flex items-center gap-3">
-								<div class="section-icon-muted">
-									<BookOpen class="h-5 w-5" />
-								</div>
-								<h2 class="text-xl font-semibold">References</h2>
-							</div>
-							<ChevronDown
-								class="h-5 w-5 text-muted-foreground transition-transform {expandedSections.references
-									? 'rotate-180'
-									: ''}"
-							/>
-						</button>
-						{#if expandedSections.references}
-							<div class="animate-fade-in pt-4">
+					<section id="references" class="sect sect-muted scroll-mt-8">
+						<h2 class="sect-heading-muted"><BookOpen class="sect-icon" />References</h2>
+						<div class="sect-body">
 								<ul class="space-y-4">
 									{#each peptide.references as ref}
 										<li class="rounded-xl bg-muted/30 p-4">
@@ -949,8 +818,7 @@
 										</li>
 									{/each}
 								</ul>
-							</div>
-						{/if}
+						</div>
 					</section>
 				{/if}
 
@@ -1010,6 +878,402 @@
 </div>
 
 <style>
+	/* ============================================
+	   SECTION SYSTEM — Editorial journal layout
+	   Three variants: prose, data, warn, muted
+	   ============================================ */
+
+	.sect {
+		padding: 2rem 0;
+	}
+
+	.sect + .sect {
+		border-top: none;
+	}
+
+	.sect-body {
+		padding-top: 1rem;
+	}
+
+	/* -- Overview section — editorial lead style -- */
+	.overview-lead {
+		position: relative;
+		padding-left: 1.25rem;
+		border-left: 3px solid hsl(var(--accent));
+	}
+
+	.overview-text {
+		font-family: var(--font-serif);
+		font-size: 1.125rem;
+		font-weight: 400;
+		line-height: 1.75;
+		color: hsl(var(--foreground) / 0.9);
+	}
+
+	.overview-mechanism {
+		margin-top: 1.75rem;
+		padding: 1.25rem 1.5rem;
+		background: hsl(var(--muted) / 0.35);
+		border-radius: 0.75rem;
+	}
+
+	.overview-mechanism-label {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: hsl(var(--accent));
+		margin-bottom: 0.5rem;
+	}
+
+	.overview-mechanism-text {
+		font-size: 0.9375rem;
+		line-height: 1.65;
+		color: hsl(var(--foreground) / 0.8);
+	}
+
+	.overview-benefits {
+		margin-top: 1.75rem;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+
+	@media (min-width: 768px) {
+		.overview-benefits {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	.overview-benefit {
+		display: flex;
+		align-items: baseline;
+		gap: 0.75rem;
+		padding: 0.75rem 0;
+		border-bottom: 1px solid hsl(var(--border) / 0.4);
+	}
+
+	.overview-benefit:last-child,
+	.overview-benefit:nth-last-child(2):nth-child(odd) {
+		border-bottom: none;
+	}
+
+	@media (min-width: 768px) {
+		.overview-benefit:nth-child(odd) {
+			padding-right: 1.5rem;
+			border-right: 1px solid hsl(var(--border) / 0.4);
+		}
+
+		.overview-benefit:nth-child(even) {
+			padding-left: 1.5rem;
+		}
+	}
+
+	.overview-benefit-num {
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: hsl(var(--accent));
+		flex-shrink: 0;
+	}
+
+	.overview-benefit-text {
+		font-size: 0.875rem;
+		line-height: 1.5;
+		color: hsl(var(--foreground) / 0.8);
+	}
+
+	/* Wikipedia-style rule line above every section except the first */
+	.sect + .sect::before {
+		content: '';
+		display: block;
+		height: 2px;
+		background: hsl(var(--foreground) / 0.15);
+		margin-bottom: 2rem;
+	}
+
+	/* -- Data sections (Molecular, Protocols, Indications, Interactions, Timeline, References) -- */
+	.sect-data {
+		background: hsl(var(--muted) / 0.2);
+		border-radius: 1rem;
+		padding: 1.5rem;
+		margin-left: -0.5rem;
+		margin-right: -0.5rem;
+	}
+
+	.sect-data + .sect-data {
+		margin-top: 0.5rem;
+	}
+
+	:global(.sect-heading-data) {
+		display: flex;
+		align-items: center;
+		gap: 0.625rem;
+		font-size: 1.125rem;
+		font-weight: 400;
+		color: hsl(var(--foreground));
+		letter-spacing: -0.01em;
+	}
+
+	:global(.sect-heading-muted) {
+		display: flex;
+		align-items: center;
+		gap: 0.625rem;
+		font-size: 1.125rem;
+		font-weight: 400;
+		color: hsl(var(--muted-foreground));
+	}
+
+	:global(.sect-icon) {
+		width: 1.25rem;
+		height: 1.25rem;
+		color: hsl(var(--accent));
+		flex-shrink: 0;
+	}
+
+	.sect-muted :global(.sect-icon) {
+		color: hsl(var(--muted-foreground));
+	}
+
+	/* -- Warning/safety sections -- */
+	.sect-warn {
+		border-left: 3px solid hsl(var(--destructive));
+		padding-left: 1.25rem;
+		margin-left: -0.25rem;
+	}
+
+	:global(.sect-heading-warn) {
+		display: flex;
+		align-items: center;
+		gap: 0.625rem;
+		font-size: 1.125rem;
+		font-weight: 400;
+		color: hsl(var(--foreground));
+	}
+
+	.sect-warn :global(.sect-icon) {
+		color: hsl(var(--destructive));
+	}
+
+	:global(.sect-heading-warn-block) {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	/* -- Muted sections (References) -- */
+	.sect-muted {
+		opacity: 0.85;
+	}
+
+	/* ============================================
+	   INDICATIONS — grouped card layout
+	   ============================================ */
+
+	.indications-grid {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+		margin-top: 1rem;
+	}
+
+	.indication-group {
+		display: flex;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.indication-group-label {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: hsl(var(--accent));
+		padding-bottom: 0.5rem;
+		margin-bottom: 0;
+		border-bottom: 1px solid hsl(var(--border) / 0.5);
+	}
+
+	.indication-item {
+		padding: 0.625rem 0;
+		border-bottom: 1px solid hsl(var(--border) / 0.3);
+	}
+
+	.indication-item:last-child {
+		border-bottom: none;
+	}
+
+	.indication-item-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+	}
+
+	.indication-name {
+		font-size: 0.9375rem;
+		font-weight: 500;
+		color: hsl(var(--foreground));
+	}
+
+	.indication-eff {
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		padding: 0.1875rem 0.5rem;
+		border-radius: 0.25rem;
+		flex-shrink: 0;
+		white-space: nowrap;
+	}
+
+	.indication-eff-most-effective {
+		background: hsl(var(--success, 142 71% 45%) / 0.12);
+		color: hsl(var(--success, 142 71% 45%));
+	}
+
+	.indication-eff-effective {
+		background: hsl(var(--accent) / 0.12);
+		color: hsl(var(--accent));
+	}
+
+	.indication-eff-moderate {
+		background: hsl(var(--warning, 30 80% 65%) / 0.12);
+		color: hsl(var(--warning, 30 80% 65%));
+	}
+
+	.indication-eff-emerging {
+		background: hsl(var(--muted-foreground) / 0.12);
+		color: hsl(var(--muted-foreground));
+	}
+
+	.indication-desc {
+		font-size: 0.8125rem;
+		line-height: 1.5;
+		color: hsl(var(--muted-foreground));
+		margin-top: 0.25rem;
+	}
+
+	/* ============================================
+	   INTERACTIONS — compact table rows
+	   ============================================ */
+
+	.interactions-table {
+		margin-top: 1rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.ix-row {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.75rem;
+		padding: 0.75rem 0;
+		border-bottom: 1px solid hsl(var(--border) / 0.3);
+	}
+
+	.ix-row:last-child {
+		border-bottom: none;
+	}
+
+	.ix-indicator {
+		width: 1.5rem;
+		height: 1.5rem;
+		border-radius: 0.375rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 0.6875rem;
+		font-weight: 700;
+		color: white;
+		flex-shrink: 0;
+		margin-top: 0.125rem;
+	}
+
+	.ix-content {
+		flex: 1;
+		min-width: 0;
+	}
+
+	.ix-name {
+		font-size: 0.9375rem;
+		font-weight: 500;
+		color: hsl(var(--foreground));
+	}
+
+	.ix-notes {
+		font-size: 0.8125rem;
+		color: hsl(var(--muted-foreground));
+		margin-top: 0.125rem;
+		line-height: 1.45;
+	}
+
+	.ix-label {
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		flex-shrink: 0;
+		margin-top: 0.25rem;
+	}
+
+	/* ============================================
+	   TIMELINE — horizontal stepped layout
+	   ============================================ */
+
+	.timeline-track {
+		margin-top: 1rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.tl-entry {
+		display: grid;
+		grid-template-columns: 7.5rem 3px 1fr;
+		gap: 1rem;
+		min-height: 4rem;
+		align-items: start;
+	}
+
+	.tl-period {
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: hsl(var(--accent));
+		text-align: right;
+		padding-top: 0.125rem;
+		line-height: 1.4;
+	}
+
+	.tl-bar {
+		width: 3px;
+		height: 100%;
+		min-height: 3rem;
+		background: linear-gradient(to bottom, hsl(var(--accent)), hsl(var(--accent) / 0.2));
+		border-radius: 2px;
+		justify-self: center;
+	}
+
+	.tl-effects {
+		font-size: 0.875rem;
+		line-height: 1.6;
+		color: hsl(var(--foreground) / 0.8);
+		padding-bottom: 1rem;
+	}
+
+	@media (max-width: 640px) {
+		.tl-entry {
+			grid-template-columns: 5rem 3px 1fr;
+			gap: 0.75rem;
+		}
+
+		.tl-period {
+			font-size: 0.6875rem;
+		}
+	}
+
 	/* Quick Stats - Mobile */
 	.quick-stats-mobile {
 		display: flex;
