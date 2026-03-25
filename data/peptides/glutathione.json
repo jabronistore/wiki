@@ -235,28 +235,52 @@
 	},
 	"references": [
 		{
-			"title": "IV Glutathione in Parkinson's Disease",
+			"title": "Randomized, double-blind, pilot evaluation of intravenous glutathione in Parkinson's disease",
+			"authors": "Hauser RA, Lyons KE, McClain T, Carter S, Perlmutter D",
 			"journal": "Movement Disorders",
 			"year": "2009",
-			"keyFindings": "IV glutathione 1,400 mg 3x weekly showed possible mild symptomatic effect in small trial."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19230029/",
+			"keyFindings": "21 PD subjects randomized to IV glutathione 1,400 mg or placebo 3x weekly for 4 weeks. Well tolerated with no safety concerns. Preliminary data suggested possibility of mild symptomatic effect."
 		},
 		{
-			"title": "Liposomal Glutathione in HIV Patients",
-			"journal": "European Journal of Clinical Nutrition",
-			"year": "2019",
-			"keyFindings": "13-week supplementation improved Th1 cytokines including IL-12, IFN-γ, and TNF-α."
+			"title": "Liposomal Glutathione Supplementation Restores TH1 Cytokine Response to Mycobacterium tuberculosis Infection in HIV-Infected Individuals",
+			"authors": "Ly J, Lagman M, Saing T, Singh MK, Tudella EV, Morris D, Anderson J, Daliva J, Ochoa C, Patel N, Venketaraman V",
+			"journal": "Journal of Interferon & Cytokine Research",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26133750/",
+			"keyFindings": "13-week liposomal glutathione supplementation in HIV-infected individuals resulted in significant increases in plasma Th1 cytokines IL-12 and IFN-γ, restoring immune response."
 		},
 		{
-			"title": "Glutathione Supplementation for Skin Lightening",
-			"journal": "Dermatology Reports",
+			"title": "Exploring the Safety and Efficacy of Glutathione Supplementation for Skin Lightening: A Narrative Review",
+			"authors": "Various",
+			"journal": "Cureus",
 			"year": "2025",
-			"keyFindings": "Narrative review of efficacy and safety for skin lightening applications."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40013212/",
+			"keyFindings": "Narrative review concluding glutathione has potential as a depigmenting agent. Oral supplementation shows significant but variable melanin reduction. IV use associated with safety concerns including anaphylaxis."
 		},
 		{
-			"title": "Glutathione Metabolism and Function",
-			"journal": "Annual Review of Nutrition",
-			"year": "2018",
-			"keyFindings": "Comprehensive review of glutathione as master antioxidant and its roles in health."
+			"title": "Glutathione metabolism and its implications for health",
+			"authors": "Wu G, Fang YZ, Yang S, Lupton JR, Turner ND",
+			"journal": "Journal of Nutrition",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14988435/",
+			"keyFindings": "Comprehensive review establishing glutathione's roles in antioxidant defense, nutrient metabolism, regulation of gene expression, DNA/protein synthesis, cell proliferation and apoptosis, immune response, and protein glutathionylation."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Glutathione as a skin-lightening agent and in melasma: a systematic review",
+			"date": "October 2024",
+			"source": "Journal of Cosmetic Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39444151/",
+			"summary": "Systematic review of 5 RCTs found oral glutathione at 250-500mg showed significant melanin index reduction vs placebo. Topical formulations also effective. IV use lacks standardized protocols."
+		},
+		{
+			"title": "Randomized Clinical Trial of How Long-Term Glutathione Supplementation Offers Protection from Oxidative Damage and Improves HbA1c in Elderly Type 2 Diabetic Patients",
+			"date": "May 2022",
+			"source": "Antioxidants",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35624890/",
+			"summary": "Long-term oral glutathione supplementation in elderly type 2 diabetic patients significantly increased blood GSH levels, decreased 8-OHdG oxidative damage marker, and improved HbA1c within three months."
 		}
 	],
 	"categories": ["longevity", "immune"],

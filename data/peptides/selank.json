@@ -283,44 +283,74 @@
 	},
 	"references": [
 		{
-			"title": "GABAergic Gene Expression Study",
+			"title": "Selank Administration Affects the Expression of Some Genes Involved in GABAergic Neurotransmission",
+			"authors": "Semenova TP, Kozlovskii II, Zakharova NM, Kozlovskaya MM",
+			"journal": "Frontiers in Pharmacology",
 			"year": "2016",
-			"keyFindings": "Rat frontal cortex study at 300mcg/kg showed modulation of 45 genes involved in neurotransmission; GABAergic mechanism confirmed."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26924987/",
+			"keyFindings": "Rat frontal cortex study at 300mcg/kg showed modulation of 45 genes involved in neurotransmission at 1 hour post-administration; confirmed Selank acts as a positive allosteric modulator of GABA-A receptors."
 		},
 		{
-			"title": "GAD Clinical Trial",
+			"title": "Efficacy and Possible Mechanisms of Action of a New Peptide Anxiolytic Selank in the Therapy of Generalized Anxiety Disorders and Neurasthenia",
+			"authors": "Zozulia AA, Neznamov GG, Siuniakov TS, et al.",
+			"journal": "Zhurnal Nevrologii i Psikhiatrii imeni S.S. Korsakova",
 			"year": "2008",
-			"keyFindings": "Human subjects showed significant anxiolytic and mild nootropic effects lasting up to one week post-administration."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18454096/",
+			"keyFindings": "62 patients with GAD and neurasthenia; anxiolytic effects comparable to medazepam, with additional antiasthenic and psychostimulant effects lasting up to one week post-administration."
 		},
 		{
-			"title": "BDNF Enhancement Study",
+			"title": "Intranasal Administration of the Peptide Selank Regulates BDNF Expression in the Rat Hippocampus In Vivo",
+			"authors": "Inozemtseva LS, Karpenko EA, Dolotov OV, et al.",
+			"journal": "Doklady Biological Sciences",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18841804/",
+			"keyFindings": "Intranasal Selank regulates BDNF gene expression in the rat hippocampus in vivo, supporting its nootropic and neuroprotective properties."
+		},
+		{
+			"title": "Experimental Optimization of Learning and Memory Processes by Selank",
+			"authors": "Semenova TP, Kozlovskii II, Zakharova NM",
+			"journal": "Eksperimental'naia i Klinicheskaia Farmakologiia",
 			"year": "2010",
-			"keyFindings": "Rat hippocampus study at 250-500mcg/kg showed 30% increase in hippocampal BDNF levels."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20919548/",
+			"keyFindings": "Single injection of Selank activated serotonin metabolism in hypothalamus for 30 min to 2 hours and increased memory trace stability over 30 days."
 		},
 		{
-			"title": "Memory Consolidation Study",
-			"year": "2007",
-			"keyFindings": "Significant activation of learning processes in subjects with poor initial learning."
+			"title": "A Comparison of the Anxiolytic Effect and Tolerability of Selank and Phenazepam in the Treatment of Anxiety Disorders",
+			"authors": "Medvedev VE, Tereshchenko ON, Kost NV, et al.",
+			"journal": "Zhurnal Nevrologii i Psikhiatrii imeni S.S. Korsakova",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25176261/",
+			"keyFindings": "40 patients with anxiety disorders; combined Selank and phenazepam treatment decreased undesirable side-effects during treatment and after withdrawal."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "Inflammation-Related Gene Expression Modulation",
-			"date": "March 2024",
-			"source": "Neuroscience Research",
-			"summary": "New findings on Selank's effects on inflammatory gene expression."
+			"title": "The Influence of Selank on the Level of Cytokines Under the Conditions of Social Stress",
+			"date": "2020",
+			"source": "Bulletin of Experimental Biology and Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32621722/",
+			"summary": "Selank reduced IL-1B, IL-6, TNF-a, and TGF-B1 to near control values in rats under 20-day social stress, demonstrating potent anti-inflammatory immunomodulatory effects."
 		},
 		{
-			"title": "Comparison with Classical Benzodiazepines",
-			"date": "January 2024",
-			"source": "Psychopharmacology Journal",
-			"summary": "Comparative study showing similar efficacy without benzodiazepine side effects."
+			"title": "Selank Protects Against Ethanol-Induced Memory Impairment by Regulating BDNF Content",
+			"date": "2019",
+			"source": "Bulletin of Experimental Biology and Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31625062/",
+			"summary": "Selank produced a cognitive-stimulating effect and prevented formation of ethanol-induced memory and attention disturbances via BDNF regulation in hippocampus and prefrontal cortex."
 		},
 		{
-			"title": "Antiviral Activity Study",
-			"date": "November 2023",
-			"source": "Antiviral Research",
-			"summary": "Demonstrated activity against influenza, HSV, and cytomegalovirus."
+			"title": "Antiviral Activity of Immunomodulator Selank in Experimental Influenza Infection",
+			"date": "2009",
+			"source": "Voprosy Virusologii",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19882898/",
+			"summary": "Selank completely suppressed influenza A/Aichi 2/68 (H3N2) viral reproduction in preventive use scheme; antiviral mechanism linked to IFN-alpha gene expression and Th1/Th2 cytokine modulation."
+		},
+		{
+			"title": "Peptide-based Anxiolytics: The Molecular Aspects of Heptapeptide Selank Biological Activity",
+			"date": "2018",
+			"source": "Protein & Peptide Letters",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/30255741/",
+			"summary": "Comprehensive review establishing Selank's anxiolytic effect is comparable to benzodiazepines via subtype-selective allosteric modulation of GABA-A receptors, without sedation or dependence."
 		}
 	],
 	"categories": ["cognitive", "longevity", "immune"],

@@ -247,24 +247,67 @@
 	},
 	"references": [
 		{
-			"title": "CAPTAIN II Trial - Traumatic Brain Injury",
+			"title": "Efficacy and Safety of Cerebrolysin in Neurorecovery After Moderate-Severe Traumatic Brain Injury: Results from the CAPTAIN II Trial",
+			"authors": "Muresanu DF, Florian S, et al.",
+			"journal": "Neurological Sciences",
 			"year": "2020",
-			"keyFindings": "Randomized controlled trial demonstrating efficacy and safety in moderate-severe TBI with improved GCS and GOS scores."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31897941/",
+			"keyFindings": "Phase IIIb/IV RCT: patients with GCS 7-12 received 50 mL Cerebrolysin daily for 10 days + two additional 10 mL cycles; confirmed beneficial effects on overall outcome after moderate-severe TBI."
 		},
 		{
-			"title": "Nine-Trial Stroke Meta-Analysis - Positive Results",
+			"title": "Safety and Efficacy of Cerebrolysin in Early Post-Stroke Recovery: A Meta-Analysis of Nine Randomized Clinical Trials",
+			"authors": "Bornstein NM, Guekht A, Vester J, et al.",
+			"journal": "Neurological Sciences",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29248999/",
+			"keyFindings": "Meta-analysis of 1,879 stroke patients showed NIHSS superiority of Cerebrolysin (MW 0.60, P < 0.0001); NNT = 7.7 for clinically relevant early neurological improvement."
+		},
+		{
+			"title": "Cerebrolysin for Functional Recovery in Patients with Acute Ischemic Stroke: A Meta-Analysis of Randomized Controlled Trials",
+			"authors": "Xue LX, Zhang T, Zhao YW, et al.",
+			"journal": "International Journal of Neuroscience",
 			"year": "2017",
-			"keyFindings": "Largest positive meta-analysis showing significant neurological improvements in 1,879 stroke patients with NNT=7.7."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28458521/",
+			"keyFindings": "Meta-analysis of 1,779 patients found no significant benefit on mRS response (RR 1.33, P=0.28) or Barthel Index; concluded routine use for long-term stroke rehabilitation not supported."
 		},
 		{
-			"title": "Conflicting Stroke Meta-Analysis - Neutral Results",
-			"year": "2017",
-			"keyFindings": "Independent meta-analysis of 1,779 patients found no significant benefits in functional outcomes (mRS/BI)."
-		},
-		{
-			"title": "TBI Systematic Review - Positive Outcomes",
+			"title": "Cerebrolysin in Patients with TBI: Systematic Review and Meta-Analysis",
+			"authors": "Jarosz K, Kojder K, Andrzejewska A, Solek-Pastuszka J, Jurczak A",
+			"journal": "Brain Sciences",
 			"year": "2023",
-			"keyFindings": "Analysis of 8,749 TBI patients across 10 studies confirms statistically significant GCS/GOS improvements."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36979317/",
+			"keyFindings": "10 studies of 8,749 TBI patients; GOS improvement was statistically significant (mean difference 0.422, P = 0.000); mortality and length of stay were not significantly affected."
+		},
+		{
+			"title": "Cerebrolysin in Mild-to-Moderate Alzheimer's Disease: A Meta-Analysis of Randomized Controlled Clinical Trials",
+			"authors": "Gauthier S, Proano JV, Jia J, et al.",
+			"journal": "Dementia and Geriatric Cognitive Disorders",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25832905/",
+			"keyFindings": "6 RCTs in mild-to-moderate AD; Cerebrolysin significantly superior to placebo on ADAS-cog at 4 weeks (SMD -0.40, P=0.003) and CIBIC global clinical change at 4 weeks and 6 months."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Cerebrolysin After Moderate to Severe Traumatic Brain Injury: Prospective Meta-Analysis of the CAPTAIN Trial Series",
+			"date": "2021",
+			"source": "Neurological Sciences",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33620612/",
+			"summary": "Prospective meta-analysis of 185 patients from CAPTAIN I + II trials confirms safety and efficacy of Cerebrolysin after moderate-severe TBI, with mean admission GCS of 10.3."
+		},
+		{
+			"title": "Cerebrolysin in Patients Diagnosed with Subarachnoid Hemorrhage: Observational Cohort Study",
+			"date": "2024",
+			"source": "Brain Sciences",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39595858/",
+			"summary": "47 SAH patients: Cerebrolysin improved mortality rate in combination with neuromonitoring in severe SAH, though raw GOS and length of stay were not significantly affected."
+		},
+		{
+			"title": "The Possible Role of Cerebrolysin in the Management of Vascular Dementia: Leveraging Concepts",
+			"date": "2025",
+			"source": "Neuroscience",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39832667/",
+			"summary": "Review of Cerebrolysin's neuroprotective mechanisms in vascular dementia, focusing on neurogenesis, neuroplasticity, and neurotrophicity via blood-brain barrier-crossing peptides."
 		}
 	],
 	"categories": ["cognitive", "longevity"],

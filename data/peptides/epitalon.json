@@ -283,34 +283,52 @@
 	},
 	"references": [
 		{
-			"title": "Telomerase Activation Study",
+			"title": "Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells",
+			"authors": "Khavinson VKh, Bondarev IE, Butyugov AA",
+			"journal": "Bulletin of Experimental Biology and Medicine",
 			"year": "2003",
-			"keyFindings": "Human fibroblasts showed extended replicative lifespan (34→44+ passages) at 0.1μM concentration while maintaining telomere length comparable to young cells."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12937682/",
+			"keyFindings": "Addition of epithalon to telomerase-negative human fetal fibroblast culture induced expression of catalytic subunit (hTERT), enzymatic activity of telomerase, and telomere elongation. Extended replicative lifespan of cells."
 		},
 		{
-			"title": "Russian Clinical Trials",
-			"year": "1992-2007",
-			"keyFindings": "Long-term observations showed significantly lower all-cause mortality in elderly subjects receiving periodic epithalamin courses with improved cardiovascular and immune parameters."
+			"title": "Peptides of pineal gland and thymus prolong human life",
+			"authors": "Khavinson VKh, Morozov VG",
+			"journal": "Neuroendocrinology Letters",
+			"year": "2003",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14523363/",
+			"keyFindings": "Clinical trial of 266 elderly subjects over 6-8 years: Epithalamin reduced mortality 1.6-1.8 fold. Combined Thymalin + Epithalamin treatment for 6 years reduced mortality 4.1-fold vs control with improved cardiovascular and immune parameters."
 		},
 		{
-			"title": "Pineal Function Study",
+			"title": "Synthetic tetrapeptide epitalon restores disturbed neuroendocrine regulation in senescent monkeys",
+			"authors": "Khavinson VKh, Goncharova ND, Lapin BA",
+			"journal": "Neuroendocrinology Letters",
 			"year": "2001",
-			"keyFindings": "Elderly patients showed restoration of circadian melatonin rhythm and improved sleep/emotional stability using low-dose synthetic treatment."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11524632/",
+			"keyFindings": "Epitalon significantly stimulated melatonin synthesis in senescent monkeys during evening hours, normalizing circadian rhythm of cortisol secretion and restoring neuroendocrine regulation."
 		},
 		{
-			"title": "Retinal Degeneration Study",
-			"year": "2019",
-			"keyFindings": "AMD patients achieved 90% positive response with only 5mcg per eye daily dosing."
+			"title": "Pineal-regulating tetrapeptide epitalon improves eye retina condition in retinitis pigmentosa",
+			"authors": "Khavinson VKh, Razumovsky MI, Trofimova SV, Grigoryan RA, Kharitonova OA",
+			"journal": "Neuroendocrinology Letters",
+			"year": "2002",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12195242/",
+			"keyFindings": "Epitalon therapy in patients with degenerative retinal lesions resulted in positive clinical effect in 90% of cases, intensifying bioelectric and functional activity of retina due to preservation of morphological structure."
 		},
 		{
-			"title": "Lifespan Extension Study",
+			"title": "Effect of Epitalon on biomarkers of aging, life span and spontaneous tumor incidence in female Swiss-derived SHR mice",
+			"authors": "Anisimov VN, Khavinson VKh, Popovich IG, Zabezhinski MA, Alimova IN, Rosenfeld SV, Zavarzina NY, Semenchenko AV, Yashin AI",
+			"journal": "Biogerontology",
 			"year": "2003",
-			"keyFindings": "Aging mice using 30-40mcg/kg showed 25% lifespan increase and reduced chromosomal aberrations."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14501183/",
+			"keyFindings": "Epitalon injected from 3 months until natural death increased maximum lifespan by 12.3% and last 10% survivors by 13.3%. Slowed age-related estrous function decline and reduced chromosome aberrations by 17.1%. Inhibited leukemia development 6-fold."
 		},
 		{
-			"title": "Neurogenesis Study",
+			"title": "AEDG Peptide (Epitalon) Stimulates Gene Expression and Protein Synthesis during Neurogenesis: Possible Epigenetic Mechanism",
+			"authors": "Khavinson VKh, Diomede F, Mironova E, Linkova N, Trofimova S, Trubiani O, Marconi GD, Paiushina O",
+			"journal": "Molecules",
 			"year": "2020",
-			"keyFindings": "Human stem cells showed 1.6-1.8 fold upregulation of neurogenic markers at extremely low concentrations (0.01mcg/mL)."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32019204/",
+			"keyFindings": "AEDG peptide increased neurogenic differentiation markers (Nestin, GAP43, β-Tubulin III, Doublecortin) 1.6-1.8 fold in human gingival mesenchymal stem cells. Molecular modelling showed preferential binding with H1/6 and H1/3 histones, suggesting epigenetic regulation."
 		}
 	],
 	"protocolVariants": [
@@ -348,6 +366,29 @@
 				{ "phase": "Loading", "dose": "5-10mg", "frequency": "Daily", "duration": "10-20 days" },
 				{ "phase": "Break", "dose": "None", "frequency": "N/A", "duration": "4-6 months" }
 			]
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity",
+			"date": "June 2025",
+			"source": "Biogerontology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40908429/",
+			"summary": "Comprehensive study providing quantitative data on epitalon's telomere-lengthening mechanisms. Demonstrated both telomerase upregulation and alternative lengthening of telomeres (ALT) activation in multiple human cell lines, with PML body colocalization confirming ALT pathway."
+		},
+		{
+			"title": "Overview of Epitalon - Highly Bioactive Pineal Tetrapeptide with Promising Properties",
+			"date": "March 2025",
+			"source": "Molecules",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40141333/",
+			"summary": "Comprehensive review of 25+ years of epitalon research highlighting geroprotective and neuroendocrine effects including antioxidant, neuroprotective, and antimutagenic properties. Confirmed direct influence on melatonin synthesis, IL-2 mRNA levels, and telomerase activity."
+		},
+		{
+			"title": "The Antioxidant Tetrapeptide Epitalon Enhances Delayed Wound Healing in an in Vitro Model of Diabetic Retinopathy",
+			"date": "June 2025",
+			"source": "Pharmaceutics",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40493162/",
+			"summary": "Epitalon shows promise as a therapeutic strategy for diabetic retinopathy, improving retinal wound healing compromised by hyperglycemia in an in vitro model."
 		}
 	],
 	"categories": ["longevity", "immune"],

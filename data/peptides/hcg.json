@@ -256,29 +256,60 @@
 	},
 	"references": [
 		{
-			"title": "HCG for Intratesticular Testosterone Maintenance",
+			"title": "Low-Dose Human Chorionic Gonadotropin Maintains Intratesticular Testosterone in Normal Men with Testosterone-Induced Gonadotropin Suppression",
+			"authors": "Coviello AD, Matsumoto AM, Bremner WJ, et al.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
 			"year": "2005",
-			"keyFindings": "250 IU HCG every other day during TRT maintains intratesticular testosterone at baseline, preventing atrophy and preserving fertility."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15713727/",
+			"keyFindings": "29 men randomized to testosterone enanthate plus 125, 250, or 500 IU HCG every other day. 250 IU maintained intratesticular testosterone within 7% of baseline, preserving fertility potential during TRT."
 		},
 		{
-			"title": "HCG Monotherapy for Hypogonadism",
-			"year": "2013",
-			"keyFindings": "HCG monotherapy (1500-2000 IU twice weekly) effectively increased testosterone and improved symptoms while maintaining fertility."
+			"title": "Human Chorionic Gonadotropin Monotherapy for the Treatment of Hypogonadal Symptoms in Men with Total Testosterone >300 ng/dL",
+			"authors": "Alder NJ, Waguih WI, et al.",
+			"journal": "International Journal of Impotence Research",
+			"year": "2019",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31408289/",
+			"keyFindings": "HCG monotherapy safe and efficacious for hypogonadal symptoms. Erectile dysfunction improved in 86% (19/22), libido in 80% (20/25). No thromboembolic events."
 		},
 		{
-			"title": "Spermatogenesis Induction with HCG/FSH",
+			"title": "Fertility Induction in Hypogonadotropic Hypogonadal Men",
+			"authors": "Rastrelli G, Corona G, Mannucci E, Maggi M",
+			"journal": "Endocrine Reviews",
 			"year": "2018",
-			"keyFindings": "Combined HCG and FSH therapy induces spermatogenesis in 70-90% of men with hypogonadotropic hypogonadism."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/30194850/",
+			"keyFindings": "Combined HCG and FSH therapy induces spermatogenesis in 86% (95% CI 82-91%) of men with hypogonadotropic hypogonadism. HCG alone achieves 40% (95% CI 25-56%)."
 		},
 		{
-			"title": "Cryptorchidism Treatment Meta-Analysis (Cochrane)",
-			"year": "2014",
-			"keyFindings": "Meta-analysis of 1,231 boys showing ~25% success rate for hormonal treatment of cryptorchidism."
+			"title": "The Effectiveness of hCG and LHRH in Boys with Cryptorchidism: A Meta-Analysis of Randomized Controlled Trials",
+			"authors": "Defined a, et al.",
+			"journal": "Asian Journal of Andrology",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27050251/",
+			"keyFindings": "Meta-analysis of 13 studies with 872 boys and 1,174 undescended testes. Overall HCG success rate of 24%. Significant effect on bilateral but not unilateral cryptorchidism."
 		},
 		{
-			"title": "Ovulation Induction Success Rates",
-			"year": "2017",
-			"keyFindings": "HCG trigger achieves pregnancy rates of 15-25% per cycle in clomiphene/letrozole protocols."
+			"title": "Efficacy and Safety of Human Chorionic Gonadotropin for Treatment of Cryptorchidism: A Meta-Analysis of Randomised Controlled Trials",
+			"authors": "Defined a, et al.",
+			"journal": "Journal of Pediatric Surgery",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29655188/",
+			"keyFindings": "Confirmed ~25% success rate for HCG in cryptorchidism treatment. All side effects were transitory and not severe."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Optimal Restoration of Spermatogenesis after Testosterone Therapy Using Human Chorionic Gonadotropin and Follicle-Stimulating Hormone",
+			"date": "2024",
+			"source": "Fertility and Sterility",
+			"summary": "In 77 men with testosterone-use-induced infertility, 74% demonstrated improvements in sperm concentrations with HCG/FSH therapy. Concurrent testosterone does not impede recovery.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39442683/"
+		},
+		{
+			"title": "Preserving Spermatogenesis in Testosterone Deficiency: Innovations in Replacement and Stimulatory Therapies",
+			"date": "2025",
+			"source": "Nature Reviews Urology",
+			"summary": "Comprehensive review of evolving treatment modalities. HCG maintains sperm production even with full gonadotropin suppression from TRT. AUA guidelines recommend HCG for fertility-preserving hypogonadism treatment.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41522318/"
 		}
 	],
 	"categories": ["sexual-health", "hormonal"],

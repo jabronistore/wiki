@@ -261,38 +261,75 @@
 	},
 	"references": [
 		{
-			"title": "Dermal Wound Healing Study",
+			"title": "The regenerative peptide thymosin beta-4 accelerates the rate of dermal healing in preclinical animal models and in patients",
+			"authors": "Treadwell, T., Kleinman, H.K., Crockford, D., Hardy, M.A., Guarnera, G.T., Goldstein, A.L.",
+			"journal": "Annals of the New York Academy of Sciences",
 			"year": "2012",
-			"keyFindings": "Significant acceleration in wound healing rates in patients with chronic pressure ulcers and venous stasis ulcers compared to placebo in Phase 2 human trial."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23050815/",
+			"keyFindings": "In two Phase 2 clinical trials, thymosin beta-4 accelerated healing of chronic pressure ulcers and venous stasis ulcers by almost a month compared to placebo, with confirmed safety and tolerability."
 		},
 		{
-			"title": "Cardiac Tissue Regeneration",
-			"year": "2016",
-			"keyFindings": "TB-500 pre-treated endothelial cells improved left ventricular function by greater than 50% in post-MI subjects in human clinical trial."
+			"title": "Development of thymosin beta4 for treatment of patients with ischemic heart disease",
+			"authors": "Crockford, D.",
+			"journal": "Annals of the New York Academy of Sciences",
+			"year": "2007",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17947592/",
+			"keyFindings": "Synthetic thymosin beta-4 given intravenously was well tolerated with no dose-limiting toxicity; promotes cardiomyocyte migration and survival, and stimulates coronary vasculogenesis for cardiac ischemia treatment."
 		},
 		{
-			"title": "Muscle Fiber Regeneration",
+			"title": "Evaluation of skeletal and cardiac muscle function after chronic administration of thymosin beta-4 in the dystrophin deficient mouse",
+			"authors": "Spurney, C.F., et al.",
+			"journal": "PLoS One",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20126456/",
+			"keyFindings": "Chronic thymosin beta-4 administration increased the number of regenerating skeletal muscle fibers in exercised dystrophin-deficient (mdx) mice, showing potential for Duchenne muscular dystrophy treatment."
+		},
+		{
+			"title": "Thymosin beta-4 significantly improves signs and symptoms of severe dry eye in a phase 2 randomized trial",
+			"authors": "Sosne, G., Dunn, S.P., Kim, C.",
+			"journal": "Cornea",
 			"year": "2015",
-			"keyFindings": "Improved skeletal muscle fiber regeneration in dystrophin-deficient mice, showing potential for muscular dystrophy treatment."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25826322/",
+			"keyFindings": "Phase 2 randomized trial in 9 severe dry eye patients showed RGN-259 (0.1% thymosin beta-4) eye drops achieved statistically significant improvements in both signs and symptoms, with effects lasting 28 days post-treatment."
 		},
 		{
-			"title": "Corneal Healing Research",
-			"year": "2014",
-			"keyFindings": "Topical TB-500 significantly improved signs and symptoms of moderate to severe dry eye with lasting effects in Phase 2 human trial."
+			"title": "A first-in-human, randomized, double-blind, single- and multiple-dose, phase I study of recombinant human thymosin beta-4 in healthy Chinese volunteers",
+			"authors": "Wang, X., et al.",
+			"journal": "Journal of Cellular and Molecular Medicine",
+			"year": "2021",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34346165/",
+			"keyFindings": "Phase I study in 54 healthy subjects with ascending doses (0.05-25.0 mcg/kg) demonstrated mild to moderate adverse events with no dose-limiting toxicities or serious adverse events."
+		},
+		{
+			"title": "0.1% RGN-259 (Thymosin beta-4) Ophthalmic Solution Promotes Healing and Improves Comfort in Neurotrophic Keratopathy Patients in a Randomized, Placebo-Controlled, Double-Masked Phase III Clinical Trial",
+			"authors": "Sosne, G., Kleinman, H.K., Springs, C., Gross, R.H., Sung, J., Kang, S.",
+			"journal": "International Journal of Molecular Sciences",
+			"year": "2022",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36613994/",
+			"keyFindings": "Phase III trial demonstrated thymosin beta-4 ophthalmic solution promotes corneal healing and improves comfort in neurotrophic keratopathy, advancing toward FDA approval."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "TB-500 Metabolism and Detection in Clinical Applications",
-			"date": "March 2024",
-			"source": "Journal of Chromatography B",
-			"summary": "Analysis of TB-500 metabolic pathways and bioavailability in human subjects for clinical dosing protocols."
+			"title": "Engineered Tandem Thymosin Peptide Promotes Corneal Wound Healing",
+			"date": "November 2025",
+			"source": "Investigative Ophthalmology & Visual Science",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41235866/",
+			"summary": "Engineered tandem thymosin beta-4 peptide showed superior bioactivity and enhanced corneal wound-healing efficacy over native TB4, with improved scalability via bacterial fermentation."
 		},
 		{
-			"title": "Thymosin Beta-4 in Anti-Aging Regenerative Therapies",
-			"date": "June 2021",
-			"source": "Cells Journal",
-			"summary": "Review of TB-500's ability to reactivate embryonic developmental processes in adult organs for regenerative medicine."
+			"title": "Thymosin beta-4 denotes new directions towards developing prosperous anti-aging regenerative therapies",
+			"date": "March 2023",
+			"source": "International Immunopharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36709593/",
+			"summary": "Comprehensive review by Bock-Marquette et al. on thymosin beta-4's role in reversing aging processes and accelerating organ regeneration through reactivation of embryonic developmental programs."
+		},
+		{
+			"title": "Utilizing Developmentally Essential Secreted Peptides Such as Thymosin Beta-4 to Remind the Adult Organs of Their Embryonic State-New Directions in Anti-Aging Regenerative Therapies",
+			"date": "May 2021",
+			"source": "Cells",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34071596/",
+			"summary": "Review of TB-500's ability to reactivate embryonic developmental processes in adult organs, promoting cell migration, stem cell mobilization, and tissue regeneration for anti-aging applications."
 		}
 	],
 	"categories": ["healing", "longevity"],

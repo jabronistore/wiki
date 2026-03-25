@@ -257,44 +257,82 @@
 	},
 	"references": [
 		{
-			"title": "Primary Mitochondrial Myopathy Phase 2 Trial",
+			"title": "Randomized Dose-Escalation Trial of Elamipretide in Adults with Primary Mitochondrial Myopathy (MMPOWER)",
+			"authors": "Karaa, A., et al.",
+			"journal": "Neurology",
 			"year": "2018",
-			"keyFindings": "40mg daily for 12 weeks in 36 patients showed significant improvements in 6-minute walk test and fatigue scores with excellent safety profile."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29500292/",
+			"keyFindings": "Phase I/II trial in 36 patients showed dose-dependent improvement in 6-minute walk test (64.5m vs 20.4m placebo at highest dose) after 5 days of treatment with excellent safety profile."
 		},
 		{
-			"title": "Cardioprotection in Heart Failure Study",
+			"title": "Novel Mitochondria-Targeting Peptide in Heart Failure Treatment (EMBRACE)",
+			"authors": "Daubert, M.A., et al.",
+			"journal": "Circulation: Heart Failure",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29217757/",
+			"keyFindings": "IV infusion in heart failure patients showed significant decrease in left ventricular end-diastolic volume (-18 mL, P=0.009) and end-systolic volume (-14 mL, P=0.005) at the highest dose."
+		},
+		{
+			"title": "Improving Mitochondrial Function with SS-31 Reverses Age-Related Redox Stress and Improves Exercise Tolerance in Aged Mice",
+			"authors": "Siegel, M.P., et al.",
+			"journal": "Free Radical Biology and Medicine",
 			"year": "2019",
-			"keyFindings": "0.25mg/kg/hr infusion during cardiac surgery reduced cardiac injury markers and improved mitochondrial function."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/30597195/",
+			"keyFindings": "8 weeks of SS-31 (3 mg/kg/day) in aged mice reversed age-related decline in mitochondrial ATP production, restored redox homeostasis, and significantly increased treadmill endurance."
 		},
 		{
-			"title": "Age-Related Muscle Dysfunction Study",
-			"year": "2020",
-			"keyFindings": "8 weeks in aged mice reversed age-related decline in muscle function, increased ATP production, and reduced oxidative stress."
-		},
-		{
-			"title": "Barth Syndrome Clinical Trial",
+			"title": "TAZPOWER: Phase 2/3 Randomized Clinical Trial of Elamipretide in Barth Syndrome",
+			"authors": "Thompson, W.R., et al.",
+			"journal": "Genetics in Medicine",
 			"year": "2021",
-			"keyFindings": "Phase 3 trial with 40mg daily for 48 weeks showed trends toward cardiac improvement in this rare mitochondrial disorder."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33077895/",
+			"keyFindings": "40mg daily in Barth syndrome patients. Primary endpoints not met at 12 weeks, but open-label extension showed cumulative 96.1m improvement in 6MWT at 168 weeks (P=0.003) with sustained fatigue improvements."
+		},
+		{
+			"title": "Efficacy and Safety of Elamipretide in Primary Mitochondrial Myopathy: The MMPOWER-3 Randomized Clinical Trial",
+			"authors": "Karaa, A., et al.",
+			"journal": "JAMA Neurology",
+			"year": "2023",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37268435/",
+			"keyFindings": "Phase 3 trial (218 patients) did not meet primary 6MWT endpoint overall, but post-hoc analysis showed improvement in patients with nuclear DNA variants. Well-tolerated with mild-to-moderate adverse events."
+		},
+		{
+			"title": "Elamipretide: A Review of Its Structure, Mechanism of Action, and Therapeutic Potential",
+			"authors": "Machiraju, P., et al.",
+			"journal": "International Journal of Molecular Sciences",
+			"year": "2025",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39940712/",
+			"keyFindings": "Comprehensive review covering PROGRESS-HF, TAZPOWER, MMPOWER-3, and ReCLAIM trials. Highlights elamipretide's unique cardiolipin-binding mechanism and broad therapeutic potential across mitochondrial diseases."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "COVID-19 Cardiac Injury Protection",
-			"date": "February 2024",
-			"source": "Journal of Cardiac Failure",
-			"summary": "Potential cardioprotective effects in COVID-related cardiac injury."
+			"title": "FDA Accelerated Approval for Barth Syndrome",
+			"date": "September 2025",
+			"source": "FDA / Drugs",
+			"summary": "Elamipretide (Forzinity) received FDA accelerated approval as the first cardiolipin-directed mitochondrial therapeutic for Barth syndrome in patients weighing ≥30 kg.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41335372/"
 		},
 		{
-			"title": "Neuroprotective Effects in Alzheimer's",
-			"date": "January 2024",
-			"source": "Neurobiology of Aging",
-			"summary": "Demonstrated neuroprotective effects in Alzheimer's disease models."
+			"title": "Long-Term TAZPOWER Extension Results (168 Weeks)",
+			"date": "April 2024",
+			"source": "Genetics in Medicine",
+			"summary": "168-week open-label extension data showed sustained improvements in 6MWT (96.1m cumulative, P=0.003), fatigue scores, and 3D left ventricular volumes in Barth syndrome patients.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38602181/"
 		},
 		{
-			"title": "Kidney Protection in Acute Injury",
-			"date": "December 2023",
-			"source": "Kidney International",
-			"summary": "Renal protective effects in acute kidney injury models."
+			"title": "ReCLAIM-2 Phase II Trial in Age-Related Macular Degeneration",
+			"date": "November 2024",
+			"source": "Ophthalmology Science",
+			"summary": "Phase II trial evaluated elamipretide for geographic atrophy growth, visual function, and ellipsoid zone preservation in AMD patients.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39605874/"
+		},
+		{
+			"title": "Elamipretide Improves Cardiac and Skeletal Muscle Function During Aging",
+			"date": "March 2025",
+			"source": "GeroScience",
+			"summary": "Demonstrated that elamipretide improves cardiac and skeletal muscle function during aging without detectable changes in tissue epigenetic or transcriptomic age.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40080911/"
 		}
 	],
 	"categories": ["longevity", "metabolic"],

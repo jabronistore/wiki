@@ -246,24 +246,52 @@
 	},
 	"references": [
 		{
-			"title": "CJC-1295 Clinical Efficacy - Teichman et al.",
+			"title": "Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults",
+			"authors": "Teichman SL, Neale A, Lawrence B, et al.",
 			"year": "2006",
-			"keyFindings": "2-10 fold GH increase, 1.5-3 fold IGF-1 increase with 5.8-8.1 day half-life."
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+			"keyFindings": "Single CJC-1295 injection produced dose-dependent 2-10 fold GH increases for 6+ days and 1.5-3 fold IGF-1 increases for 9-11 days; estimated half-life 5.8-8.1 days."
 		},
 		{
-			"title": "Ipamorelin Selectivity - Raun et al.",
+			"title": "Ipamorelin, the first selective growth hormone secretagogue",
+			"authors": "Raun K, Hansen BS, Johansen NL, et al.",
 			"year": "1998",
-			"keyFindings": "First selective GHS with no ACTH/cortisol effects even at 200x effective dose."
+			"journal": "European Journal of Endocrinology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9849822/",
+			"keyFindings": "Ipamorelin is the first GHRP-receptor agonist with selectivity for GH release similar to GHRH; does not release ACTH or cortisol even at doses over 200-fold the ED50 for GH."
 		},
 		{
-			"title": "GH Pulsatility Preservation - Ionescu & Frohman",
+			"title": "Pulsatile secretion of growth hormone (GH) persists during continuous stimulation by CJC-1295, a long-acting GH-releasing hormone analog",
+			"authors": "Ionescu M, Frohman LA",
 			"year": "2006",
-			"keyFindings": "CJC-1295 preserves pulsatile GH secretion while increasing basal levels 7.5-fold."
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17018654/",
+			"keyFindings": "CJC-1295 preserves pulsatile GH secretion with unaltered pulse frequency and magnitude; basal GH levels increased 7.5-fold, mean GH 46%, and IGF-1 45%."
 		},
 		{
-			"title": "GHRH-GHS Receptor Interaction - Cunha & Mayo",
+			"title": "Ghrelin and growth hormone secretagogues potentiate GH-releasing hormone-induced cAMP production in cells expressing transfected GHRH and GH secretagogue receptors",
+			"authors": "Cunha SR, Mayo KE",
 			"year": "2002",
-			"keyFindings": "Cellular study demonstrating potentiation of GHRH signaling with GHS receptors present."
+			"journal": "Endocrinology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12446584/",
+			"keyFindings": "GHS potentiate GHRH-induced cAMP in a dose-dependent manner requiring co-expression of both receptors, providing the cellular basis for GHRH/GHRP synergy."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Efficacy and safety of tesamorelin in people with HIV on integrase inhibitors",
+			"date": "June 2024",
+			"source": "AIDS",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38905488/",
+			"summary": "Recent GHRH-analog data: tesamorelin (a related GHRH analog) reduced visceral and hepatic fat in HIV patients on modern antiretrovirals, supporting continued relevance of the GHRH pathway."
+		},
+		{
+			"title": "Body composition, hepatic fat, metabolic, and safety outcomes of Tesamorelin in HIV-associated lipodystrophy: A meta-analysis",
+			"date": "July 2025",
+			"source": "Clinical Endocrinology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41545261/",
+			"summary": "Meta-analysis of five RCTs of a GHRH analog confirmed significant visceral adipose tissue reduction, reinforcing the therapeutic value of the GHRH signaling axis targeted by CJC-1295."
 		}
 	],
 	"categories": ["growth-hormone", "weight-loss"],

@@ -211,24 +211,52 @@
 	},
 	"references": [
 		{
-			"title": "Kisspeptin for Hypoactive Sexual Desire Disorder in Men",
+			"title": "Effects of Kisspeptin on Sexual Brain Processing and Penile Tumescence in Men With Hypoactive Sexual Desire Disorder: A Randomized Clinical Trial",
+			"authors": "Mills EG, Sheridan H, Bhushan S, et al. (Dhillo WS senior author)",
+			"journal": "JAMA Network Open",
 			"year": "2023",
-			"keyFindings": "Modulated sexual brain activity; increased penile tumescence by 56% vs placebo. JAMA Network Open."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36735255/",
+			"keyFindings": "32 men completed trial. Kisspeptin-54 IV (1 nmol/kg/h for 75 min) significantly modulated sexual brain processing and increased penile tumescence by up to 56% vs placebo. Potential as first pharmacological treatment for male HSDD."
 		},
 		{
-			"title": "Kisspeptin for HSDD in Women",
+			"title": "Effects of Kisspeptin Administration in Women With Hypoactive Sexual Desire Disorder: A Randomized Clinical Trial",
+			"authors": "Sheridan H, Mills EG, Sherwood RA, et al. (Jayasena CD, Dhillo WS senior authors)",
+			"journal": "JAMA Network Open",
 			"year": "2022",
-			"keyFindings": "Modulated sexual and attraction processing; increased self-reported sexiness. JAMA Network Open."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36287566/",
+			"keyFindings": "Double-masked, placebo-controlled, 2-way crossover trial in women with HSDD. Kisspeptin modulated sexual and facial attraction brain processing, with hippocampal activation correlating with distress and reduced sexual aversion."
 		},
 		{
-			"title": "Kisspeptin as IVF Ovulation Trigger",
-			"year": "2017",
-			"keyFindings": "45% live birth rate with zero severe OHSS; safer than hCG trigger. Journal of Clinical Investigation."
+			"title": "Efficacy of Kisspeptin-54 to Trigger Oocyte Maturation in Women at High Risk of OHSS During IVF Therapy",
+			"authors": "Jayasena CN, Abbara A, Comninos AN, et al. (Dhillo WS senior author)",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26192876/",
+			"keyFindings": "Live birth rates of 45% overall per transfer; 62% at optimal 9.6 nmol/kg dose. Zero cases of moderate, severe, or critical OHSS. Oocyte maturation in 95% of women."
 		},
 		{
-			"title": "Intranasal Kisspeptin Administration",
+			"title": "Intranasal Kisspeptin Administration Rapidly Stimulates Gonadotropin Release in Humans",
+			"authors": "Sheridan H, Sherwood RA, Sheridan C, et al. (Dhillo WS senior author)",
+			"journal": "eBioMedicine",
 			"year": "2025",
-			"keyFindings": "Non-invasive delivery with rapid gonadotropin stimulation; stable 60-day formulation. eBioMedicine."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40215751/",
+			"keyFindings": "Intranasal kisspeptin-54 (12.8 nmol/kg) rapidly stimulated LH release in healthy men (+4.4 IU/L), healthy women (+1.4 IU/L), and women with hypothalamic amenorrhea (+4.4 IU/L). Formulation stable for 60 days at 4°C."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Kisspeptin and Neurokinin B: Roles in Reproductive Health",
+			"date": "2025",
+			"source": "Endocrine Reviews",
+			"summary": "Comprehensive review of kisspeptin's role as the natural inductor of ovulation, with expanding research into IVF trigger use and management of reproductive disorders.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39813600/"
+		},
+		{
+			"title": "Kisspeptins Regulating Fertility: Potential Future Therapeutic Approach in Infertility Treatment",
+			"date": "2025",
+			"source": "Reproductive Sciences",
+			"summary": "Exogenous kisspeptins show significant promise in restoring fertility, with studies advancing in ovarian stimulation protocols and cryoprotection during vitrification.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40429279/"
 		}
 	],
 	"categories": ["sexual-health", "hormonal"],

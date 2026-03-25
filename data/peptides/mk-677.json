@@ -210,29 +210,60 @@
 	},
 	"references": [
 		{
-			"title": "Growth Hormone Stimulation in Elderly",
+			"title": "Effects of a 7-day treatment with a novel, orally active, growth hormone (GH) secretagogue, MK-677, on 24-hour GH profiles, insulin-like growth factor I, and adrenocortical function in normal young men",
+			"authors": "Copinschi, G., et al.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
 			"year": "1996",
-			"keyFindings": "25mg oral daily for 2 weeks showed 97% increase in 24-hour GH secretion in elderly adults."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8768828/",
+			"keyFindings": "Randomized, double-blind crossover in 9 healthy young men. 7-day oral MK-677 (5 and 25mg) increased 24-hour GH profiles dose-dependently while preserving circadian patterns."
 		},
 		{
-			"title": "Body Composition in Obese Subjects",
-			"year": "1998",
-			"keyFindings": "25mg oral daily for 2 months increased fat-free mass and energy expenditure in obese adults."
+			"title": "Stimulation of the growth hormone (GH)-insulin-like growth factor I axis by daily oral administration of a GH secretagogue (MK-677) in healthy elderly subjects",
+			"authors": "Chapman, I.M., et al.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "1996",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8954023/",
+			"keyFindings": "Randomized, double-blind trial in 32 elderly subjects (64-81 years). 25mg/day MK-677 for up to 4 weeks increased mean 24-hour GH by 97% and restored IGF-I concentrations to young adult levels."
 		},
 		{
-			"title": "Reversal of Diet-Induced Catabolism",
-			"year": "1998",
-			"keyFindings": "25mg oral daily for 7 days showed nitrogen retention of +2.69g/day versus placebo -8.97g/day."
-		},
-		{
-			"title": "Sleep Quality Improvement Study",
+			"title": "Prolonged oral treatment with MK-677, a novel growth hormone secretagogue, improves sleep quality in man",
+			"authors": "Copinschi, G., et al.",
+			"journal": "Neuroendocrinology",
 			"year": "1997",
-			"keyFindings": "25mg oral daily for 1 week showed 20% REM increase in young adults; 50% in elderly."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9349662/",
+			"keyFindings": "In young adults, 25mg MK-677 increased stage IV sleep duration by 50% and REM sleep by 20%. In older adults, REM sleep increased nearly 50% with decreased REM latency. Sleep deviations dropped from 42% to 8%."
 		},
 		{
-			"title": "Bone Turnover Markers Study",
+			"title": "MK-677, an orally active growth hormone secretagogue, reverses diet-induced catabolism",
+			"authors": "Murphy, M.G., et al.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "1998",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9467534/",
+			"keyFindings": "Double-blind crossover in 8 healthy volunteers under caloric restriction. 25mg/day MK-677 for 7 days reversed nitrogen wasting (+2.69g/day vs -8.97g/day placebo) and significantly increased IGF-I."
+		},
+		{
+			"title": "Two-month treatment of obese subjects with the oral growth hormone (GH) secretagogue MK-677 increases GH secretion, fat-free mass, and energy expenditure",
+			"authors": "Chapman, I.M., et al.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "1998",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9467542/",
+			"keyFindings": "24 obese males treated with 25mg/day for 8 weeks showed sustained increases in GH, IGF-I, fat-free mass, and a transient increase in basal metabolic rate at 2 weeks."
+		},
+		{
+			"title": "Oral administration of the growth hormone secretagogue MK-677 increases markers of bone turnover in healthy and functionally impaired elderly adults",
+			"authors": "Murphy, M.G., et al.",
+			"journal": "Journal of Bone and Mineral Research",
 			"year": "1999",
-			"keyFindings": "25mg oral daily for 2 months showed 39-45% increase in bone formation markers in elderly adults."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10404019/",
+			"keyFindings": "187 elderly adults (65+) across three placebo-controlled studies. 9 weeks of MK-677 increased serum osteocalcin by 29.4%, bone-specific alkaline phosphatase by 10.4%, and urinary NTX by 22.6%."
+		},
+		{
+			"title": "Effects of an oral ghrelin mimetic on body composition and clinical outcomes in healthy older adults: a randomized trial",
+			"authors": "Nass, R., et al.",
+			"journal": "Annals of Internal Medicine",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18981485/",
+			"keyFindings": "12-month RCT in 65 healthy adults (60-81 years). MK-677 increased GH and IGF-I to young adult levels, increased fat-free mass while placebo group declined, and was generally well tolerated."
 		}
 	],
 	"latestResearch": [
@@ -241,6 +272,20 @@
 			"date": "July 2024",
 			"source": "DEA Get Smart About Drugs",
 			"summary": "Official communication highlighting significant cardiovascular risks and investigational drug status."
+		},
+		{
+			"title": "LGD-4033 and MK-677 use impacts body composition, circulating biomarkers, and skeletal muscle androgenic hormone and receptor content: A case report",
+			"date": "October 2022",
+			"source": "Physiological Reports",
+			"summary": "Case report documenting that co-administration of LGD-4033 and MK-677 increased body mass and lean mass but negatively impacted serum lipids, liver enzymes, and testosterone levels (85.7% suppression when combined with the SARM).",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36303408/"
+		},
+		{
+			"title": "Hepatotoxicity induced by MK-677",
+			"date": "July 2025",
+			"source": "BMJ Case Reports",
+			"summary": "Case report of a man in his early 30s who developed transaminitis after 2 months of MK-677 use. Liver function returned to normal after discontinuation, highlighting the need for liver monitoring during use.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40675653/"
 		}
 	],
 	"categories": ["growth-hormone", "weight-loss", "sleep"],

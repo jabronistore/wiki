@@ -231,42 +231,65 @@
 	},
 	"references": [
 		{
-			"title": "Obesity and Insulin Sensitivity Study - Lee et al.",
+			"title": "The Mitochondrial-Derived Peptide MOTS-c Promotes Metabolic Homeostasis and Reduces Obesity and Insulin Resistance",
+			"authors": "Lee, C., et al.",
+			"journal": "Cell Metabolism",
 			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25738453/",
+			"keyFindings": "Landmark discovery paper identifying MOTS-c as a 16-amino-acid peptide encoded by mitochondrial DNA. Prevented age-dependent and high-fat-diet-induced insulin resistance and obesity in mice via AMPK activation in skeletal muscle."
+		},
+		{
+			"title": "The Mitochondrial-Encoded Peptide MOTS-c Translocates to the Nucleus to Regulate Nuclear Gene Expression in Response to Metabolic Stress",
+			"authors": "Kim, S.J., et al.",
 			"journal": "Cell Metabolism",
-			"keyFindings": "Prevented obesity, improved insulin sensitivity by ~30% in high-fat diet mice."
-		},
-		{
-			"title": "Physical Performance Across Age Groups - Reynolds et al.",
-			"year": "2021",
-			"journal": "Nature Communications",
-			"keyFindings": "Enhanced physical performance across age groups; exercise induced 11.9-fold increase in skeletal muscle MOTS-c."
-		},
-		{
-			"title": "Nuclear Translocation Study - Kim et al.",
 			"year": "2018",
-			"journal": "Cell Metabolism",
-			"keyFindings": "Nuclear translocation within 30 minutes under metabolic stress."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29983246/",
+			"keyFindings": "MOTS-c rapidly translocates to the nucleus within 30 minutes under metabolic stress in an AMPK-dependent manner, where it interacts with stress-responsive transcription factors including NRF2 and ATF7 to regulate nuclear gene expression."
 		},
 		{
-			"title": "Running Performance Study - Hyatt et al.",
-			"year": "2022",
+			"title": "MOTS-c Is an Exercise-Induced Mitochondrial-Encoded Regulator of Age-Dependent Physical Decline and Muscle Homeostasis",
+			"authors": "Reynolds, J.C., et al.",
+			"journal": "Nature Communications",
+			"year": "2021",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33473109/",
+			"keyFindings": "Exercise induced an 11.9-fold increase in skeletal muscle MOTS-c. MOTS-c enhanced physical performance across age groups and improved muscle homeostasis in aging mice."
+		},
+		{
+			"title": "MOTS-c Increases in Skeletal Muscle Following Long-Term Physical Activity and Improves Acute Exercise Performance After a Single Dose",
+			"authors": "Hyatt, J.K.",
 			"journal": "Physiological Reports",
-			"keyFindings": "Single dose improved running time 12%, distance 15%."
+			"year": "2022",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35808870/",
+			"keyFindings": "4-8 weeks of voluntary running increased MOTS-c protein expression ~1.5-5-fold in rodent skeletal muscles, sustained for 4-6 weeks of detraining. Single dose improved acute exercise performance."
 		},
 		{
-			"title": "Gestational Diabetes Study - Yin et al.",
-			"year": "2022",
+			"title": "The Mitochondrial-Derived Peptide MOTS-c Relieves Hyperglycemia and Insulin Resistance in Gestational Diabetes Mellitus",
+			"authors": "Yin, Y., et al.",
 			"journal": "Pharmacological Research",
-			"keyFindings": "Alleviated hyperglycemia in gestational diabetes model."
+			"year": "2022",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34798268/",
+			"keyFindings": "MOTS-c significantly alleviated hyperglycemia, improved insulin sensitivity and glucose tolerance, and reduced birth weight and offspring death in a gestational diabetes mouse model."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "Age-Related Macular Degeneration Study",
+			"title": "MOTS-c Prevents Pancreatic Islet Cell Senescence to Delay Diabetes",
+			"date": "August 2025",
+			"source": "Experimental & Molecular Medicine",
+			"summary": "MOTS-c prevents pancreatic islet beta-cell senescence, offering a novel mechanism for delaying diabetes onset through mitochondrial peptide signaling.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40855115/"
+		},
+		{
+			"title": "MOTS-c Restores Mitochondrial Respiration in Type 2 Diabetic Heart",
 			"date": "2025",
-			"source": "Ophthalmology Research",
-			"summary": "Dose-dependent protective effects on retinal cells in AMD models."
+			"source": "Cardiovascular Diabetology",
+			"summary": "Exogenous MOTS-c therapy effectively delayed weight gain in diabetic rats and enhanced cardiac muscle mitochondrial function, emerging as a promising therapeutic strategy for metabolic disorders."
+		},
+		{
+			"title": "MOTS-c Suppresses Ovarian Cancer Progression",
+			"date": "November 2024",
+			"source": "Advanced Science",
+			"summary": "MOTS-c levels are reduced in serum and tumor tissues from ovarian cancer patients; exogenous MOTS-c inhibits proliferation, migration and invasion of OC cells via USP7-mediated LARS1 deubiquitination."
 		}
 	],
 	"categories": ["longevity", "metabolic"],

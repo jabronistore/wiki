@@ -260,24 +260,59 @@
 	},
 	"references": [
 		{
-			"title": "Semax Cognitive Enhancement in Fatigued Volunteers (Parent Compound)",
-			"year": "N/A",
-			"keyFindings": "Single intranasal administration (16 mcg/kg) resulted in 71% accuracy on memory tests versus 41% in controls, with effects lasting 24 hours."
+			"title": "A Nootropic Adrenocorticotropin Analog 4-10 Semax: 15 Years Experience in Its Design and Study (Parent Compound)",
+			"authors": "Ashmarin IP, Nezavibatko VN, Levitskaya NG, et al.",
+			"journal": "Zhurnal Vysshei Nervnoi Deiatelnosti imeni I.P. Pavlova",
+			"year": "1997",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9173745/",
+			"keyFindings": "Foundational Semax review: intranasal doses stimulate operative memory and attention for 20-24 hours. Adamax builds on the Semax core sequence with adamantane modification for enhanced stability and BBB penetration."
 		},
 		{
-			"title": "Semax in Stroke Recovery - BDNF Elevation (Parent Compound)",
-			"year": "N/A",
-			"keyFindings": "110 patients, 6000 mcg/day intranasal showed increased plasma BDNF levels, improved motor performance, enhanced functional independence."
+			"title": "Semax, an Analog of ACTH(4-10), Regulates BDNF and trkB Expression in the Rat Hippocampus (Parent Compound)",
+			"authors": "Dolotov OV, Karpenko EA, Inozemtseva LS, et al.",
+			"journal": "Brain Research",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16996037/",
+			"keyFindings": "Single application at 50 mcg/kg produced 1.4-fold increase in BDNF protein and 1.6-fold increase in trkB tyrosine phosphorylation in rat hippocampus, supporting Adamax's BDNF-TrkB mechanism."
 		},
 		{
-			"title": "Adamax Stroke Recovery Preliminary Reports",
-			"year": "N/A",
-			"keyFindings": "Patients treated shortly after stroke showed better neurological outcomes through oxidative stress reduction."
+			"title": "The Efficacy of Semax in the Treatment of Patients at Different Stages of Ischemic Stroke (Parent Compound)",
+			"authors": "Gusev EI, Barskov IV, et al.",
+			"journal": "Zhurnal Nevrologii i Psikhiatrii imeni S.S. Korsakova",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29798983/",
+			"keyFindings": "110 ischemic stroke patients; Semax (6000 mcg/day intranasal) increased BDNF plasma levels and accelerated functional recovery, providing the clinical basis for Adamax neuroprotective applications."
 		},
 		{
-			"title": "BDNF and TrkB Receptor Upregulation Studies",
-			"year": "N/A",
-			"keyFindings": "Adamax increases BDNF levels and enhances TrkB receptor sensitivity in hippocampus."
+			"title": "The Peptide Semax Affects the Expression of Genes Related to the Immune and Vascular Systems in Rat Brain Focal Ischemia (Parent Compound)",
+			"authors": "Dergunova LV, Limborska SA, et al.",
+			"journal": "BMC Genomics",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24661604/",
+			"keyFindings": "Genome-wide analysis: Semax modulated 24 vascular genes at 3h and enhanced immune-response gene expression at 24h post-ischemia, demonstrating multi-pathway neuroprotection."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "The Potential of the Peptide Drug Semax and Its Derivative for Correcting Pathological Impairments in the Animal Model of Alzheimer's Disease",
+			"date": "2025",
+			"source": "International Journal of Molecular Sciences",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41479572/",
+			"summary": "Semax and its derivative improved cognitive functions in Alzheimer's transgenic mice with 2.8-fold reduction in amyloid plaques, supporting the therapeutic potential of Semax-family derivatives including Adamax."
+		},
+		{
+			"title": "Semax, a Copper Chelator Peptide, Decreases Cu(II)-Catalyzed ROS Production and Cytotoxicity of Abeta",
+			"date": "2025",
+			"source": "Bioinorganic Chemistry and Applications",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40496623/",
+			"summary": "Semax extracts Cu(II) from amyloid-beta complexes and reduces ROS production, demonstrating neuroprotective copper-chelation properties shared by the Semax peptide family."
+		},
+		{
+			"title": "Semax Peptide Targets Mu Opioid Receptor Gene Oprm1 for Functional Recovery After Spinal Cord Injury",
+			"date": "2025",
+			"source": "British Journal of Pharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40692165/",
+			"summary": "Semax improved spinal cord injury functional recovery via mu-opioid receptor targeting and USP18 deubiquitination pathway, expanding understanding of Semax-family neuroprotective mechanisms."
 		}
 	],
 	"categories": ["cognitive", "longevity"],

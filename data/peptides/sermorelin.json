@@ -247,29 +247,53 @@
 	},
 	"references": [
 		{
-			"title": "FDA Approval Study - Geref International Study Group Trial",
-			"year": "1996",
-			"keyFindings": "Pivotal trial with 110 prepubertal GH-deficient children demonstrating sustained efficacy through 36 months. Height velocity increased from 4.1 to 8.0 cm/year."
+			"title": "The effects of intranasal insufflation of growth hormone releasing factor analogue GRF 1-29 NH2 on growth hormone secretion in children with short stature",
+			"authors": "Laron, Z., et al.",
+			"journal": "Clinical Endocrinology",
+			"year": "1988",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/2877535/",
+			"keyFindings": "Intranasal GRF 1-29 at 100mcg/kg induced prompt GH release in prepubertal children with peak values at 15 minutes. Demonstrated feasibility of nasal delivery with minimal side effects."
 		},
 		{
-			"title": "Adult Anti-Aging Study - Corpas et al.",
+			"title": "Growth hormone (GH)-releasing hormone-(1-29) twice daily reverses the decreased GH and insulin-like growth factor-I levels in old men",
+			"authors": "Corpas, E., et al.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
 			"year": "1992",
-			"keyFindings": "Landmark study demonstrating reversal of age-related GH/IGF-1 decline in 60-78 year old males. Doubled 12-hour GH release over 6 weeks."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1379256/",
+			"keyFindings": "Landmark study in healthy old men (68 +/- 6.2 yr). High-dose GHRH(1-29) twice daily for 14 days reversed age-related decreases in GH and IGF-I to levels not significantly different from young men."
 		},
 		{
-			"title": "Pharmacokinetic Profile",
+			"title": "Once daily subcutaneous growth hormone-releasing hormone therapy accelerates growth in growth hormone-deficient children during the first year of therapy",
+			"authors": "Geref International Study Group",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
 			"year": "1996",
-			"keyFindings": "Comprehensive analysis showing 11-12 minute half-life and 6% bioavailability for subcutaneous administration."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8772599/",
+			"keyFindings": "Pivotal multicenter trial with 110 prepubertal GH-deficient children. Sermorelin 30mcg/kg/day at bedtime increased height velocity from 4.1 to 8.0 cm/year at 6 months, with 74% achieving good response."
 		},
 		{
-			"title": "Body Composition in Elderly",
-			"year": "1992",
-			"keyFindings": "1.26kg lean mass increase with improved muscle strength; decreased systolic BP."
+			"title": "Endocrine and metabolic effects of long-term administration of [Nle27]growth hormone-releasing hormone-(1-29)-NH2 in age-advanced men and women",
+			"authors": "Vittone, J., et al.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "1997",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9141536/",
+			"keyFindings": "5-month single-blind RCT in 19 adults (55-71 yr). Nightly GHRH analog for 4 months activated somatotropic axis. Men showed increased lean body mass, insulin sensitivity, and well-being. Skin thickness improved in both genders."
 		},
 		{
-			"title": "Nasal Administration Study",
-			"year": "1990",
-			"keyFindings": "69% patient preference over injection with reliable therapeutic response at 30+ mcg/kg."
+			"title": "Sermorelin: a better approach to management of adult-onset growth hormone insufficiency?",
+			"authors": "Walker, R.F.",
+			"journal": "Clinical Interventions in Aging",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18046908/",
+			"keyFindings": "Review arguing sermorelin preserves pituitary function and physiological GH pulsatility, offering a safer alternative to exogenous GH for adult-onset GH insufficiency."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Growth hormone-releasing hormone and its analogues in health and disease",
+			"date": "November 2024",
+			"source": "Nature Reviews Endocrinology",
+			"summary": "Major review covering GHRH and analogs across oncology, regenerative medicine, metabolic disorders, and neuroprotection. Supports therapeutic potential of GHRH agonists as clinical therapeutics.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39537825/"
 		}
 	],
 	"categories": ["growth-hormone", "weight-loss"],

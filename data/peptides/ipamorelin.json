@@ -226,29 +226,53 @@
 	},
 	"references": [
 		{
-			"title": "Growth Hormone Stimulation Study",
-			"year": "2019",
-			"keyFindings": "200mcg daily for 8 weeks showed consistent GH elevation 30-60 min post-injection in adults."
+			"title": "Ipamorelin, the first selective growth hormone secretagogue",
+			"authors": "Raun, K., et al.",
+			"journal": "European Journal of Endocrinology",
+			"year": "1998",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9849822/",
+			"keyFindings": "Identified ipamorelin as the first GHRP-receptor agonist with selectivity for GH release similar to GHRH. Did not release ACTH or cortisol at doses over 200-fold higher than the ED50 for GH release, distinguishing it from other secretagogues."
 		},
 		{
-			"title": "Body Composition Clinical Trial",
-			"year": "2020",
-			"keyFindings": "250mcg daily for 12 weeks demonstrated lean mass gains and bone density improvements in adults 45+."
+			"title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin, a growth hormone releasing peptide, in human volunteers",
+			"authors": "Zdravkovic, M., et al.",
+			"journal": "British Journal of Clinical Pharmacology",
+			"year": "1999",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+			"keyFindings": "Dose-escalation study in 40 healthy males established terminal half-life of 2 hours, clearance of 0.078 L/h/kg. Ipamorelin induced single-episode GH release peaking at 0.67 hours with dose-proportional pharmacokinetics."
 		},
 		{
-			"title": "Sleep Quality Research",
-			"year": "2021",
-			"keyFindings": "200mcg before bed improved sleep latency and increased slow-wave sleep duration in adults with sleep issues."
+			"title": "Ipamorelin, a new growth-hormone-releasing peptide, induces longitudinal bone growth in rats",
+			"authors": "Johansen, P.B., et al.",
+			"journal": "Growth Hormone & IGF Research",
+			"year": "1999",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10373343/",
+			"keyFindings": "Ipamorelin dose-dependently increased longitudinal bone growth rate from 42 to 52 mcm/day and produced pronounced dose-dependent body weight gain in adult female rats over 15 days."
 		},
 		{
-			"title": "Athletic Performance Study",
-			"year": "2022",
-			"keyFindings": "Enhanced recovery markers and muscle protein synthesis in athletic populations."
+			"title": "The growth hormone secretagogue ipamorelin counteracts glucocorticoid-induced decrease in bone formation of adult rats",
+			"authors": "Svensson, J., et al.",
+			"journal": "Calcified Tissue International",
+			"year": "2001",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11735244/",
+			"keyFindings": "In 8-month-old female rats treated for 3 months, ipamorelin combined with glucocorticoid increased maximum tetanic tension and periosteal bone formation rate 4-fold compared to glucocorticoid alone."
 		},
 		{
-			"title": "Safety and Tolerability Analysis",
-			"year": "2023",
-			"keyFindings": "Confirmed excellent tolerability profile with minimal side effects across multiple studies."
+			"title": "Prospective, randomized, controlled, proof-of-concept study of the ghrelin mimetic ipamorelin for the management of postoperative ileus in bowel resection patients",
+			"authors": "Greenwood-Van Meerveld, B., et al.",
+			"journal": "International Journal of Colorectal Disease",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25331030/",
+			"keyFindings": "Multicenter, double-blind, placebo-controlled trial in 117 bowel resection patients. Ipamorelin 0.03 mg/kg IV twice daily for up to 7 days was well tolerated but did not significantly improve postoperative ileus outcomes versus placebo."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Anamorelin and ipamorelin inhibit cisplatin-induced weight loss in ferrets",
+			"date": "October 2024",
+			"source": "Physiology & Behavior",
+			"summary": "Both ghrelin receptor agonists inhibited cisplatin-induced weight loss by approximately 24% in ferrets. Anamorelin also showed anti-emetic effects via a central mechanism, expanding potential clinical applications for ghrelin mimetics.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39043357/"
 		}
 	],
 	"categories": ["growth-hormone", "weight-loss", "sleep"],

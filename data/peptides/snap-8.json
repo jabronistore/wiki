@@ -273,24 +273,45 @@
 	},
 	"references": [
 		{
-			"title": "Argireline Anti-Wrinkle Efficacy—Randomized Controlled Trial",
+			"title": "The Anti-Wrinkle Efficacy of Argireline, a Synthetic Hexapeptide, in Chinese Subjects: A Randomized, Placebo-Controlled Study",
+			"authors": "Wang Y, Wang M, Xiao S, et al.",
+			"journal": "American Journal of Clinical Dermatology",
 			"year": "2013",
-			"keyFindings": "First multicenter RCT of parent compound; 48.9% anti-wrinkle efficiency vs 0% placebo (P<0.01)."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23417317/",
+			"keyFindings": "60 subjects randomized 3:1 argireline vs placebo. Total anti-wrinkle efficacy 48.9% argireline vs 0% placebo (P<0.01). Roughness parameters significantly decreased. First multicenter RCT of the parent compound."
 		},
 		{
-			"title": "Synthetic Hexapeptide (Argireline) Antiwrinkle Activity",
+			"title": "A Synthetic Hexapeptide (Argireline) with Antiwrinkle Activity",
+			"authors": "Blanes-Mira C, Clemente J, Jodas G, et al.",
+			"journal": "International Journal of Cosmetic Science",
 			"year": "2002",
-			"keyFindings": "Argireline reduced wrinkle depth up to 30% in 30 days; established SNARE complex destabilization mechanism."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18498523/",
+			"keyFindings": "10% argireline emulsion reduced wrinkle depth up to 30% in 30 days. Mechanism: competitive inhibition of SNARE complex formation with potency similar to BoNT-A but non-toxic."
 		},
 		{
-			"title": "Cosmeceutical Peptides—SNARE Complex Inhibition Review",
+			"title": "Cosmeceutical Peptides in the Framework of Sustainable Wellness Economy",
+			"authors": "Katayama S, et al.",
+			"journal": "International Journal of Molecular Sciences",
 			"year": "2020",
-			"keyFindings": "SNAP-8 showed 43% SNARE complex inhibition; synergistic with Leuphasyl (47% total vs 38% and 7% independently)."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33195061/",
+			"keyFindings": "SNAP-8 demonstrated 43% SNARE complex inhibition at therapeutic concentrations. Synergistic with Leuphasyl: 47% total inhibition combined vs 38% and 7% independently."
 		},
 		{
-			"title": "Dissolving Microneedle Patch Clinical Safety and Efficacy",
+			"title": "Clinical Safety and Efficacy Evaluation of a Dissolving Microneedle Patch Having Dual Anti-Wrinkle Effects",
+			"authors": "Kim JH, et al.",
+			"journal": "Annals of Dermatology",
 			"year": "2024",
-			"keyFindings": "Microneedle patches enhanced SNAP-8 delivery and wrinkle reduction vs topical alone."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39082657/",
+			"keyFindings": "24 subjects evaluated dissolving microneedle patch with acetyl octapeptide-3 (SNAP-8). Enhanced wrinkle reduction vs topical alone, improved skin elasticity and lifting with no adverse effects over 28 days."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Acetyl Hexapeptide-8 in Cosmeceuticals: A Review of Skin Permeability and Efficacy",
+			"date": "2025",
+			"source": "Pharmaceutics",
+			"summary": "Comprehensive review of AH-8 (argireline/SNAP-8 parent compound). Demonstrates wrinkle reduction and improved skin elasticity, though limited stratum corneum permeability remains a challenge. Advanced delivery strategies including microneedle patches show promise.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40565185/"
 		}
 	],
 	"categories": ["skin"],

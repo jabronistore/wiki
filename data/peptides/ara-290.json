@@ -235,29 +235,60 @@
 	},
 	"references": [
 		{
-			"title": "Sarcoidosis Neuropathy Phase 2b Trial",
+			"title": "Cibinetide Improves Corneal Nerve Fiber Abundance in Patients With Sarcoidosis-Associated Small Nerve Fiber Loss and Neuropathic Pain",
+			"authors": "Dahan A, Brines M, Niesters M, Cerami A, van Velzen M",
+			"journal": "Investigative Ophthalmology & Visual Science",
 			"year": "2017",
-			"keyFindings": "64 patients, 1-8 mg SC daily for 28 days: 23% increase in corneal nerve fiber area at 4 mg dose."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28475703/",
+			"keyFindings": "Phase 2b trial, 64 subjects with sarcoid neuropathy, 1-8mg SC daily for 28 days. Cibinetide significantly increased corneal and skin small nerve fiber abundance, consistent with disease-modifying effect. 23% increase in corneal nerve fiber area at 4mg dose."
 		},
 		{
-			"title": "Type 2 Diabetes Neuropathy Phase 2",
+			"title": "ARA 290, a Nonerythropoietic Peptide Engineered from Erythropoietin, Improves Metabolic Control and Neuropathic Symptoms in Patients with Type 2 Diabetes",
+			"authors": "Brines M, Dunne AN, van Velzen M, et al.",
+			"journal": "Molecular Medicine",
 			"year": "2015",
-			"keyFindings": "48 patients, 4 mg SC daily for 28 days: Sustained HbA1c improvement and nerve regeneration."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25387363/",
+			"keyFindings": "Phase 2 trial, 4mg SC daily for 28 days in T2DM patients. Improvement in HbA1c and lipid profiles sustained 4 weeks post-dosing. Neuropathic symptoms significantly improved. Corneal nerve fiber density increased."
 		},
 		{
-			"title": "Diabetic Macular Edema Pilot Study",
+			"title": "A Phase 2 Clinical Trial on the Use of Cibinetide for the Treatment of Diabetic Macular Edema",
+			"authors": "Lois N, Gardner E, McFarland M, et al.",
+			"journal": "Translational Vision Science & Technology",
 			"year": "2020",
-			"keyFindings": "9 patients, 4 mg SC daily for 12 weeks: Improved quality of life; good safety profile."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32674280/",
+			"keyFindings": "9 patients, 4mg SC daily for 12 weeks. No serious adverse events. Improvement in NEI VFQ-25 composite quality of life scores. Some participants showed improvements in CRT, tear production, diabetic control, and albuminuria."
 		},
 		{
-			"title": "Myocardial Infarction Protection Study",
-			"year": "2012",
-			"keyFindings": "Preclinical mouse model, 24 μg/kg IV single dose: Reduced infarct size and improved survival."
+			"title": "A Small Nonerythropoietic Helix B Surface Peptide Based Upon Erythropoietin Structure Is Cardioprotective Against Ischemic Myocardial Damage",
+			"authors": "Brines M, Patel NSA, Villa P, et al.",
+			"journal": "Proceedings of the National Academy of Sciences",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18676614/",
+			"keyFindings": "Engineered helix B surface peptide (pHBSP/ARA-290) from EPO structure. Increased reactive oxygen species threshold for mitochondrial permeability transition by 40%. Reduced ischemic myocardial infarct size equivalent to EPO without erythropoietic effects."
 		},
 		{
-			"title": "Stroke Neuroprotection Research",
-			"year": "2011",
-			"keyFindings": "Rat stroke model, 300 μg/kg IV single dose: Reduced stroke volume; BBB penetration confirmed."
+			"title": "Neuroprotection with an Erythropoietin Mimetic Peptide (pHBSP) in a Model of Mild Traumatic Brain Injury Complicated by Hemorrhagic Shock",
+			"authors": "Robertson CS, Garcia R, Gaddam SSK, et al.",
+			"journal": "Journal of Neurotrauma",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21545288/",
+			"keyFindings": "pHBSP reduced contusion volume from 20.8mm3 (control) to 5.9mm3. Improved cerebral blood flow recovery and beam-walking performance. Neuroprotective effects similar to EPO without thrombotic risk."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Erythropoietin-Derived Peptide ARA290 Mediates Brain Tissue Protection Through the Beta-Common Receptor in Mice with Cerebral Ischemic Stroke",
+			"date": "2024",
+			"source": "Neurotherapeutics",
+			"summary": "ARA290 provided significant neuroprotection via beta-common receptor in cerebral ischemic mice, reducing neuronal apoptosis and inflammatory cytokine levels without causing erythropoiesis.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38488446/"
+		},
+		{
+			"title": "A Small Erythropoietin-Derived Non-Hematopoietic Peptide Reduces Cardiac Inflammation, Attenuates Age-Associated Declines in Heart Function and Prolongs Healthspan",
+			"date": "2024",
+			"source": "Aging Cell",
+			"summary": "Chronic ARA-290 treatment mitigated age-related cardiac changes: reduced non-myocyte to myocyte ratio, infiltrating leukocytes, and pro-inflammatory cytokines while maintaining cardiac function.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36741836/"
 		}
 	],
 	"categories": ["healing", "cognitive"],

@@ -292,43 +292,75 @@
 	},
 	"references": [
 		{
-			"title": "Chronic Insomnia Double-Blind Study",
-			"year": "1991",
-			"keyFindings": "15-30 nmol for 6 consecutive nights improved objective sleep quality with higher sleep efficiency and shorter sleep latency compared to placebo."
+			"title": "Effects of Delta Sleep-Inducing Peptide on Sleep of Chronic Insomniac Patients: A Double-Blind Study",
+			"authors": "Schneider-Helmert D",
+			"journal": "Neuropsychobiology",
+			"year": "1992",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1299794/",
+			"keyFindings": "Double-blind placebo-controlled study; DSIP (15-30 nmol for 6 consecutive nights) showed higher sleep efficiency and shorter sleep latency, though statistical effects were weak."
 		},
 		{
-			"title": "Chronic Pain Pilot Study",
+			"title": "Therapeutic Effects of Delta-Sleep-Inducing Peptide (DSIP) in Patients with Chronic, Pronounced Pain Episodes: A Clinical Pilot Study",
+			"authors": "Schoenenberger GA, Schneider-Helmert D",
+			"journal": "European Neurology",
 			"year": "1984",
-			"keyFindings": "25 nmol IV for 10 days significantly reduced pain levels in 6 of 7 patients with chronic pain conditions including migraine and tinnitus."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/6548970/",
+			"keyFindings": "7 patients with chronic pain (migraine, vasomotor headaches); 25 nmol IV DSIP for 10 days significantly reduced pain levels in 6 of 7 patients."
 		},
 		{
-			"title": "Alcohol and Opioid Withdrawal Study",
+			"title": "DSIP in the Treatment of Withdrawal Syndromes from Alcohol and Opiates",
+			"authors": "Dick P, Costa C, Fayolle K, et al.",
+			"journal": "European Neurology",
 			"year": "1984",
-			"keyFindings": "DSIP administration helped manage withdrawal symptoms in both alcohol and opioid-dependent patients over 5-10 days."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/6548969/",
+			"keyFindings": "107 patients (47 alcohol, 60 opiate withdrawal); DSIP (25 nmol/kg IV) produced beneficial effects in 97% of opiate addicts and 87% of alcoholics with immediate onset and lasting symptom relief."
 		},
 		{
-			"title": "Sleep Pressure Induction Study",
+			"title": "Acute and Delayed Effects of DSIP (Delta Sleep-Inducing Peptide) on Human Sleep Behavior",
+			"authors": "Schneider-Helmert D, Schoenenberger GA",
+			"journal": "International Journal of Peptide and Protein Research",
 			"year": "1983",
-			"keyFindings": "Single 25 nmol/kg IV dose showed 59% increase in total sleep time within 130 minutes; improved subsequent night sleep efficiency."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/6895513/",
+			"keyFindings": "6 normal volunteers; 25 nmol/kg IV DSIP induced 59% increase in total sleep time within 130 minutes; improved subsequent night sleep efficiency without sedation."
 		},
 		{
-			"title": "Stroke Recovery in Rats",
+			"title": "Delta Sleep-Inducing Peptide Recovers Motor Function in SD Rats After Focal Stroke",
+			"authors": "Tukhovskaya EA, Ismailova AM, Shaykhutdinova ER, et al.",
+			"journal": "Pharmaceutics",
 			"year": "2021",
-			"keyFindings": "120mcg/kg nasal for 7 days enhanced motor recovery without significantly reducing infarct size."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34500605/",
+			"keyFindings": "120 mcg/kg intranasal DSIP for 8 days accelerated motor function recovery (rotarod test) after focal stroke in rats; brain infarction was smaller but not statistically significant."
+		},
+		{
+			"title": "Successful Treatment of Withdrawal Symptoms with Delta Sleep-Inducing Peptide",
+			"authors": "Larbig W, Gerber WD, Kluck M, Schoenenberger GA",
+			"journal": "Neuropsychobiology",
+			"year": "1984",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/6328354/",
+			"keyFindings": "DSIP (25 nmol/kg IV) administered to 67 patients; beneficial effect in 48 of 49 evaluable patients (22 alcoholics and 26 of 27 opiate addicts) with good tolerance."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "40-Year Stress-Protective Effects Review",
-			"date": "2024",
-			"source": "Neuropeptide Research",
-			"summary": "Comprehensive review of DSIP's stress-protective mechanisms over four decades of research."
+			"title": "Delta Sleep-Inducing Peptide (DSIP): A Still Unresolved Riddle",
+			"date": "2006",
+			"source": "Journal of Neurochemistry",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16539679/",
+			"summary": "Comprehensive review of DSIP research from discovery to current understanding; notes the peptide's diverse neuromodulatory effects beyond sleep, including stress protection, pain modulation, and endocrine regulation."
 		},
 		{
-			"title": "Intranasal Delivery and Bioavailability",
-			"date": "2024",
-			"source": "Drug Delivery Research",
-			"summary": "Enhanced intranasal delivery methods for improved bioavailability."
+			"title": "Delta Sleep-Inducing Peptide Recovers Motor Function After Focal Stroke in Rats",
+			"date": "2021",
+			"source": "Pharmaceutics",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34500605/",
+			"summary": "Intranasal DSIP (120 mcg/kg) for 8 days accelerated motor recovery after focal stroke in rats, suggesting neuroprotective applications beyond sleep modulation."
+		},
+		{
+			"title": "Effects of Delta-Sleep-Inducing Peptide on 24-Hour Sleep-Wake Behaviour in Severe Chronic Insomnia",
+			"date": "1987",
+			"source": "European Neurology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/3622582/",
+			"summary": "7 severe chronic insomniacs treated with 10 DSIP injections; sleep normalized in all but 1 case, with benefits persisting for follow-up periods of 3-7 months."
 		}
 	],
 	"categories": ["sleep", "cognitive"]

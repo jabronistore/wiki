@@ -233,33 +233,52 @@
 	},
 	"references": [
 		{
-			"title": "FDA Approval Trial for HSDD",
+			"title": "Bremelanotide for the Treatment of Hypoactive Sexual Desire Disorder: Two Randomized Phase 3 Trials (RECONNECT)",
+			"authors": "Kingsberg SA, Clayton AH, Portman D, et al.",
+			"journal": "Obstetrics & Gynecology",
 			"year": "2019",
-			"keyFindings": "Phase 3 trials with 1.75mg subcutaneous in premenopausal women showed 24.5% improvement vs 17.2% placebo, achieving statistical significance."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31599840/",
+			"keyFindings": "Two identical phase 3, randomized, double-blind, placebo-controlled trials (NCT02333071 and NCT02338960). Bremelanotide 1.75mg SubQ significantly improved sexual desire and reduced related distress in premenopausal women with HSDD."
 		},
 		{
-			"title": "Male Erectile Dysfunction Clinical Trial",
-			"year": "2017",
-			"keyFindings": "1-20mg intranasal showed dose-dependent erectile response, effective including in PDE5 inhibitor-resistant cases via CNS pathways."
+			"title": "Double-Blind, Placebo-Controlled Evaluation of Intranasal PT-141 in Healthy Males and Patients with Erectile Dysfunction",
+			"authors": "Diamond LE, Earle DC, Rosen RC, et al.",
+			"journal": "Urology",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14963471/",
+			"keyFindings": "Intranasal PT-141 produced dose-dependent increase in erectile activity at doses >7mg, with onset in ~30 minutes. Safe and well-tolerated in both healthy men and ED patients."
 		},
 		{
-			"title": "Mechanism of Action Study",
-			"year": "2016",
-			"keyFindings": "In vitro and animal studies confirmed selective MC3R/MC4R binding activating sexual arousal without peripheral vasodilation."
+			"title": "The Neurobiology of Bremelanotide for the Treatment of HSDD in Premenopausal Women",
+			"authors": "Clayton AH, Kingsberg SA, Goldstein I, et al.",
+			"journal": "CNS Spectrums",
+			"year": "2021",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33455598/",
+			"keyFindings": "Bremelanotide activates MC4R in the medial preoptic area of the hypothalamus, increasing dopamine release. CNS mechanism of action independent of peripheral vascular effects."
+		},
+		{
+			"title": "Salvage of Sildenafil Failures with Bremelanotide: A Randomized, Double-Blind, Placebo-Controlled Study",
+			"authors": "Safarinejad MR",
+			"journal": "Journal of Urology",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18206919/",
+			"keyFindings": "342 men with ED unresponsive to sildenafil randomized to 10mg bremelanotide intranasal spray vs placebo. Demonstrated effectiveness in PDE5 inhibitor-resistant cases."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "Long-term Safety Profile of Bremelanotide in Clinical Practice",
-			"date": "December 2024",
-			"source": "Journal of Sexual Medicine",
-			"summary": "Real-world data of 10,000+ prescriptions shows consistent safety profile."
+			"title": "Safety Profile of Bremelanotide Across the Clinical Development Program",
+			"date": "2022",
+			"source": "Journal of Women's Health",
+			"summary": "Comprehensive safety analysis across all bremelanotide clinical trials. Most treatment-emergent adverse events were mild/moderate, with nausea (40%), flushing (20%), and headache (11%) being most common.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35147466/"
 		},
 		{
-			"title": "PT-141 Efficacy in Treatment-Resistant Sexual Dysfunction",
-			"date": "October 2024",
-			"source": "International Journal of Impotence Research",
-			"summary": "Demonstrates effectiveness in patients who failed traditional ED medications."
+			"title": "Bremelanotide for Treatment of Female Hypoactive Sexual Desire",
+			"date": "2022",
+			"source": "Expert Opinion on Pharmacotherapy",
+			"summary": "Review of bremelanotide's role as the only as-needed FDA-approved treatment for HSDD, with evidence supporting significant improvement in desire and reduced distress.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35076581/"
 		}
 	],
 	"categories": ["sexual-health"],

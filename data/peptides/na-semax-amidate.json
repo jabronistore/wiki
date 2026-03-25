@@ -248,24 +248,67 @@
 	},
 	"references": [
 		{
-			"title": "Cognitive Enhancement in Fatigued Subjects",
-			"year": "1996",
-			"keyFindings": "Improved attention and short-term memory in healthy subjects; 71% vs 41% memory accuracy with pronounced effects when fatigued."
+			"title": "A Nootropic Adrenocorticotropin Analog 4-10 Semax: 15 Years Experience in Its Design and Study (Parent Compound)",
+			"authors": "Ashmarin IP, Nezavibatko VN, Levitskaya NG, et al.",
+			"journal": "Zhurnal Vysshei Nervnoi Deiatelnosti imeni I.P. Pavlova",
+			"year": "1997",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9173745/",
+			"keyFindings": "Foundational Semax review: intranasal doses of 0.015-0.050 mg/kg stimulate operative memory and attention for 20-24 hours. NA-Semax-Amidate modifications extend half-life and enhance bioavailability."
 		},
 		{
-			"title": "Default Mode Network Enhancement",
+			"title": "Effects of Semax on the Default Mode Network of the Brain (Parent Compound)",
+			"authors": "Dolgorukova AM, Klyushnik TP, Gusev EI, et al.",
+			"journal": "Bulletin of Experimental Biology and Medicine",
 			"year": "2018",
-			"keyFindings": "24 subjects fMRI study. Significantly increased default mode network volume, particularly in medial frontal cortex, enhancing episodic memory."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/30225715/",
+			"keyFindings": "24 healthy volunteers; resting-state fMRI showed increased default mode network volume in medial frontal cortex after intranasal 1% Semax vs placebo, enhancing episodic memory."
 		},
 		{
-			"title": "Stroke Recovery and BDNF Enhancement",
+			"title": "The Efficacy of Semax in the Treatment of Patients at Different Stages of Ischemic Stroke (Parent Compound)",
+			"authors": "Gusev EI, Barskov IV, et al.",
+			"journal": "Zhurnal Nevrologii i Psikhiatrii imeni S.S. Korsakova",
 			"year": "2018",
-			"keyFindings": "110 participants. Increased brain-derived neurotrophic factor levels and accelerated functional recovery during rehabilitation."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29798983/",
+			"keyFindings": "110 ischemic stroke patients; Semax (6000 mcg/day intranasal) increased BDNF plasma levels and accelerated functional recovery during rehabilitation."
 		},
 		{
-			"title": "Gene Expression and Neuroprotection",
+			"title": "The Peptide Semax Affects the Expression of Genes Related to the Immune and Vascular Systems in Rat Brain Focal Ischemia (Parent Compound)",
+			"authors": "Dergunova LV, Limborska SA, et al.",
+			"journal": "BMC Genomics",
 			"year": "2014",
-			"keyFindings": "Rat model revealed 96+ gene expression changes related to immune response, vascular function, and neuroprotection."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24661604/",
+			"keyFindings": "Genome-wide analysis of ischemized rat brain cortex: Semax modulated 24 vascular genes and enhanced immune-response gene expression including immunoglobulins and chemokines."
+		},
+		{
+			"title": "Semax, an Analog of ACTH(4-10), Regulates BDNF and trkB Expression in the Rat Hippocampus (Parent Compound)",
+			"authors": "Dolotov OV, Karpenko EA, Inozemtseva LS, et al.",
+			"journal": "Brain Research",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16996037/",
+			"keyFindings": "Single application at 50 mcg/kg produced 1.4-fold increase in BDNF protein and 1.6-fold increase in trkB tyrosine phosphorylation in rat hippocampus."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "The Potential of the Peptide Drug Semax and Its Derivative for Correcting Pathological Impairments in the Animal Model of Alzheimer's Disease",
+			"date": "2025",
+			"source": "International Journal of Molecular Sciences",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41479572/",
+			"summary": "Semax and its derivative improved cognitive functions in transgenic Alzheimer's mice; amyloid plaque count decreased 2.8-fold, supporting potential for enhanced derivatives like NA-Semax-Amidate."
+		},
+		{
+			"title": "Semax, a Synthetic Regulatory Peptide, Affects Copper-Induced Abeta Aggregation and Amyloid Formation",
+			"date": "2022",
+			"source": "ACS Chemical Neuroscience",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35080861/",
+			"summary": "Semax prevents formation of Abeta:Cu2+ complexes and inhibits amyloid fiber formation, demonstrating anti-aggregating properties relevant to Alzheimer's disease."
+		},
+		{
+			"title": "Semax Peptide Targets Mu Opioid Receptor Gene Oprm1 for Functional Recovery After Spinal Cord Injury",
+			"date": "2025",
+			"source": "British Journal of Pharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40692165/",
+			"summary": "Semax improved spinal cord injury functional recovery and inhibited pyroptosis by targeting mu-opioid receptors, expanding understanding of Semax-family peptide neuroprotective mechanisms."
 		}
 	],
 	"categories": ["cognitive", "longevity"],

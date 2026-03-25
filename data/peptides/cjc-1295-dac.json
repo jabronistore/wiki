@@ -215,24 +215,45 @@
 	},
 	"references": [
 		{
-			"title": "Prolonged Growth Hormone Elevation with CJC-1295 DAC",
+			"title": "Prolonged Stimulation of Growth Hormone (GH) and Insulin-Like Growth Factor I Secretion by CJC-1295, a Long-Acting Analog of GH-Releasing Hormone, in Healthy Adults",
+			"authors": "Teichman SL, Neale A, Lawrence B, Gagnon C, Castaigne JP, Bhore R",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
 			"year": "2006",
-			"keyFindings": "12 subjects; sustained GH and IGF-1 elevation for 6-10 days post-injection with peak 2-4x baseline."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+			"keyFindings": "Subcutaneous CJC-1295 produced sustained, dose-dependent increases in GH and IGF-1 in healthy adults. Half-life of ~8 days. Cumulative effect after multiple doses with well-preserved GH pulsatility."
 		},
 		{
-			"title": "Dose-Response Relationship of CJC-1295 DAC",
-			"year": "2008",
-			"keyFindings": "48 subjects, 90 days. Optimal dosing 1-2mg weekly; dose-dependent IGF-1 increases but higher side effects above 2mg."
+			"title": "Pulsatile Secretion of Growth Hormone (GH) Persists During Continuous Stimulation by CJC-1295, a Long-Acting GH-Releasing Hormone Analog",
+			"authors": "Ionescu M, Frohman LA",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17018654/",
+			"keyFindings": "Basal (trough) GH levels increased 7.5-fold. Mean GH levels increased 46% and IGF-1 levels increased 45%. Pulsatile GH secretion preserved despite continuous GHRH receptor stimulation."
 		},
 		{
-			"title": "Long-term Effects on GH/IGF-1 Axis",
-			"year": "2012",
-			"keyFindings": "6-month animal model. Sustained IGF-1 elevation but evidence of reduced GH pulse amplitude suggesting desensitization."
+			"title": "Human Growth Hormone-Releasing Factor (hGRF)1-29-Albumin Bioconjugates Activate the GRF Receptor on the Anterior Pituitary in Rats: Identification of CJC-1295 as a Long-Lasting GRF Analog",
+			"authors": "Jette L, Bhore R, Bhatt DL, et al.",
+			"journal": "Endocrinology",
+			"year": "2005",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15817669/",
+			"keyFindings": "Identified CJC-1295 as a long-acting GHRH analog through albumin bioconjugation (DAC technology). Binds covalently to endogenous albumin, extending half-life from minutes to days."
 		},
 		{
-			"title": "Comparative Pharmacokinetics: DAC vs Non-DAC Variants",
-			"year": "2015",
-			"keyFindings": "DAC: 120-hour half-life vs non-DAC: 30-minute; non-DAC preserves more physiological patterns."
+			"title": "Activation of the GH/IGF-1 Axis by CJC-1295, a Long-Acting GHRH Analog, Results in Serum Protein Profile Changes in Normal Adult Subjects",
+			"authors": "Teichman SL, et al.",
+			"journal": "Growth Hormone & IGF Research",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19386527/",
+			"keyFindings": "Long-acting GHRH stimulation via CJC-1295 produces measurable changes in serum protein profiles reflecting sustained GH/IGF-1 axis activation."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Growth Hormone-Releasing Hormone and Its Analogues in Health and Disease",
+			"date": "2025",
+			"source": "Endocrine Reviews",
+			"summary": "Comprehensive review of GHRH and analogs including CJC-1295 across multiple therapeutic areas: wound healing, inflammation, neuroprotection, diabetes, obesity, and cardiovascular disease.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39537825/"
 		}
 	],
 	"categories": ["growth-hormone", "weight-loss"],

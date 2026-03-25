@@ -133,22 +133,57 @@
 	},
 	"references": [
 		{
-			"title": "BPC-157 Tissue Repair Mechanisms",
-			"year": "2024",
-			"journal": "Laboratory Study",
-			"keyFindings": "Dose range 250-500mcg daily shows wound healing and anti-inflammatory properties"
+			"title": "Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon and in vitro stimulates tendocytes growth",
+			"authors": "Staresinic M, Sebecic B, Patrlj L, et al.",
+			"year": "2003",
+			"journal": "Journal of Orthopaedic Research",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14554208/",
+			"keyFindings": "BPC-157 improved Achilles tendon recovery biomechanically, functionally, and microscopically; reversed HNE-mediated growth inhibition of tendocytes."
 		},
 		{
-			"title": "GHK-Cu Anti-Aging Research",
-			"year": "2023",
-			"journal": "Clinical Studies",
-			"keyFindings": "Demonstrates collagen stimulation and skin improvement at 1-2mg daily doses"
+			"title": "Regenerative and Protective Actions of the GHK-Cu Peptide in the Light of the New Gene Data",
+			"authors": "Pickart L, Vasquez-Soltero JM, Margolina A",
+			"year": "2018",
+			"journal": "International Journal of Molecular Sciences",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29986520/",
+			"keyFindings": "GHK-Cu modulates over 4,000 human genes, stimulates collagen, elastin, and GAG synthesis, and promotes tissue repair across skin, lung, bone, liver, and stomach."
 		},
 		{
-			"title": "TB-500 Angiogenesis Studies",
+			"title": "A first-in-human, randomized, double-blind, single- and multiple-dose, phase I study of recombinant human thymosin β4 in healthy Chinese volunteers",
+			"authors": "Wang X, Liu L, Qi L, et al.",
+			"year": "2021",
+			"journal": "Journal of Cellular and Molecular Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34346165/",
+			"keyFindings": "Phase I trial in 54 healthy subjects demonstrated recombinant thymosin β4 was well tolerated and safe across ascending IV doses up to 25 μg/kg with no significant accumulation."
+		},
+		{
+			"title": "No Published Studies on GLOW Combination",
 			"year": "2024",
-			"journal": "Preclinical Research",
-			"keyFindings": "Shows tissue regeneration effects at 2-5mg twice weekly dosing"
+			"journal": "N/A",
+			"keyFindings": "No clinical or preclinical studies examine the three-peptide GLOW combination; all evidence is extrapolated from individual component research."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Safety of Intravenous Infusion of BPC157 in Humans: A Pilot Study",
+			"date": "March 2025",
+			"source": "Alternative Therapies in Health and Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40131143/",
+			"summary": "First human IV safety study showed no adverse effects at doses up to 20 mg in healthy adults, with no impact on heart, liver, kidney, thyroid, or glucose biomarkers."
+		},
+		{
+			"title": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review",
+			"date": "July 2025",
+			"source": "HSS Journal",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40756949/",
+			"summary": "Systematic review of 36 studies found BPC-157 enhances GH receptor expression and angiogenesis, improving functional and biomechanical outcomes in musculoskeletal injury models."
+		},
+		{
+			"title": "Topically applied GHK as an anti-wrinkle peptide: Advantages, problems and prospective",
+			"date": "February 2025",
+			"source": "Journal of Peptide Science",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39963574/",
+			"summary": "Review of GHK-Cu's tissue regeneration and collagen-stimulating properties, noting strong preclinical evidence but a surprising absence of formal clinical trials for topical anti-aging use."
 		}
 	],
 	"categories": ["skin", "healing"],

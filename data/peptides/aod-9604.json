@@ -208,28 +208,53 @@
 	},
 	"references": [
 		{
-			"title": "Fat Oxidation and Weight Loss in Obese Mice - Heffernan et al.",
+			"title": "Increase of fat oxidation and weight loss in obese mice caused by chronic treatment with human growth hormone or a modified C-terminal fragment",
+			"authors": "Heffernan MA, Thorburn AW, Fam B, Summers R, Conway-Campbell B, Waters MJ, Ng FM",
 			"year": "2001",
 			"journal": "International Journal of Obesity",
-			"keyFindings": "AOD-9604 reduced body weight without hyperglycemia through enhanced fat oxidation."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11673763/",
+			"keyFindings": "Both hGH and AOD-9604 reduced body weight gain, increased fat oxidation, and stimulated lipolysis in obese ob/ob mice after 14 days chronic IP administration, without affecting glucose metabolism."
 		},
 		{
-			"title": "Beta-3 Adrenergic Receptor Mechanism - Heffernan et al.",
+			"title": "The effects of human GH and its lipolytic fragment (AOD9604) on lipid metabolism following chronic treatment in obese mice and beta(3)-AR knock-out mice",
+			"authors": "Heffernan MA, Jiang WJ, Thorburn AW, Ng FM",
 			"year": "2001",
 			"journal": "Endocrinology",
-			"keyFindings": "Increased beta-3 adrenergic receptor expression comparable to lean mice."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11713213/",
+			"keyFindings": "Both hGH and AOD-9604 increased repressed beta-3 adrenergic receptor RNA expression in obese mice to levels comparable with lean mice. Effects abolished in beta-3-AR knockout mice, confirming pathway involvement."
 		},
 		{
-			"title": "Oral Lipid Metabolism Effects - Heffernan et al.",
+			"title": "Effects of oral administration of a synthetic fragment of human growth hormone on lipid metabolism",
+			"authors": "Heffernan MA, Heffernan MJ, Jiang WJ, Thorburn AW, Ng FM",
 			"year": "2000",
-			"journal": "American Journal of Physiology",
-			"keyFindings": "Significantly reduced lipogenic activity and increased lipolytic activity."
+			"journal": "American Journal of Physiology - Endocrinology and Metabolism",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10950816/",
+			"keyFindings": "Oral treatment of ob/ob mice with AOD-9401 for 30 days significantly reduced body weight gain and altered lipogenic and lipolytic activity in adipose tissue."
 		},
 		{
-			"title": "Cartilage Regeneration with Hyaluronic Acid - Kwon & Park",
+			"title": "Metabolic studies of a synthetic lipolytic domain (AOD9604) of human growth hormone",
+			"authors": "Ng FM, Jiang WJ, Gianello R, Pitt C, Heffernan M",
+			"year": "2000",
+			"journal": "Hormone Research",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11146367/",
+			"keyFindings": "Characterized metabolic properties of AOD-9604 as a synthetic lipolytic domain of hGH with antilipogenic activity that does not interact with the GH receptor."
+		},
+		{
+			"title": "Effect of Intra-articular Injection of AOD9604 with or without Hyaluronic Acid in Rabbit Osteoarthritis Model",
+			"authors": "Kwon DR, Park GY, Lee SU",
 			"year": "2015",
 			"journal": "Annals of Clinical and Laboratory Science",
-			"keyFindings": "Combination accelerated cartilage regeneration in osteoarthritis models."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26275694/",
+			"keyFindings": "Intra-articular AOD-9604 injections enhanced cartilage regeneration in collagenase-induced osteoarthritis rabbit model. Combined AOD-9604 and hyaluronic acid injections were more effective than either alone."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Detection and in vitro metabolism of AOD9604",
+			"date": "2014",
+			"source": "Drug Testing and Analysis",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25208511/",
+			"summary": "Characterized in vitro metabolism and developed detection methods for AOD-9604 as a WADA-prohibited substance, relevant for anti-doping analysis."
 		}
 	],
 	"categories": ["weight-loss", "metabolic"],

@@ -252,23 +252,51 @@
 	"references": [
 		{
 			"title": "A Synthetic ERR Agonist Alleviates Metabolic Syndrome",
+			"authors": "Billon C, Schoepke E, Avdagic A, Chatterjee A, Butler AA, Elgendy B, Walker JK, Burris TP",
+			"journal": "Journal of Pharmacology and Experimental Therapeutics",
 			"year": "2024",
-			"keyFindings": "Diet-induced obese mice, 50 mg/kg IP twice daily, 28 days: 12% body weight loss, 25% fatty acid oxidation increase, improved glucose tolerance, reduced hepatic steatosis."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37739806/",
+			"keyFindings": "Diet-induced obese mice, 50 mg/kg IP twice daily, 28 days: 12% body weight loss, 25% fatty acid oxidation increase, improved glucose tolerance, reduced hepatic steatosis. SLU-PP-332 mimics exercise-induced metabolic benefits."
 		},
 		{
-			"title": "Synthetic ERRα/β/γ Agonist Induces Acute Aerobic Exercise Response",
+			"title": "Synthetic ERRα/β/γ Agonist Induces an ERRα-Dependent Acute Aerobic Exercise Response and Enhances Exercise Capacity",
+			"authors": "Billon C, Sitaula S, Banerjee S, Welch R, Elgendy B, Hegazy L, Oh TG, Kazantzis M, Chatterjee A, Chrivia J et al.",
+			"journal": "ACS Chemical Biology",
 			"year": "2023",
-			"keyFindings": "Multiple mouse models, 50 mg/kg IP: 70% increase in running time, 45% increase in running distance, increased type IIa oxidative muscle fibers."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36988910/",
+			"keyFindings": "Multiple mouse models, 50 mg/kg IP: 70% increase in running time, 45% increase in running distance, increased type IIa oxidative muscle fibers. SLU-PP-332 is a synthetic ERR pan agonist with highest potency for ERRα."
 		},
 		{
-			"title": "Estrogen-Related Receptor Agonism Reverses Mitochondrial Dysfunction in Aging Kidney",
+			"title": "Estrogen-Related Receptor Agonism Reverses Mitochondrial Dysfunction and Inflammation in the Aging Kidney",
+			"authors": "Wang XX, Myakala K, Libby AE, Krawczyk E, Panov J, Jones BA, Bhasin K, Shults N, Qi Y, Krausz KW et al.",
+			"journal": "American Journal of Pathology",
 			"year": "2023",
-			"keyFindings": "21-month-old mice, 8-week treatment: Reversed age-related kidney decline, reduced albuminuria, prevented podocyte loss, restored mitochondrial architecture."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37717940/",
+			"keyFindings": "21-month-old mice, 8-week treatment with SLU-PP-332: Reversed age-related increases in albuminuria, podocyte loss, mitochondrial dysfunction, and inflammatory cytokines."
 		},
 		{
-			"title": "Cardiac Protective Effects of Pan-ERR Agonists",
-			"year": "2021",
-			"keyFindings": "Heart failure models, 6-week treatment: Improved ejection fraction, ameliorated cardiac fibrosis, improved survival, enhanced mitochondrial ultrastructure."
+			"title": "Novel Pan-ERR Agonists Ameliorate Heart Failure Through Enhancing Cardiac Fatty Acid Metabolism and Mitochondrial Function",
+			"authors": "Xu W, Billon C, Li H, Wilderman A, Qi L, Graves A, Rideb JRDC, Zhao Y, Hayes M, Yu K et al.",
+			"journal": "Circulation",
+			"year": "2024",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37961903/",
+			"keyFindings": "Both SLU-PP-332 and SLU-PP-915 significantly improved ejection fraction, ameliorated fibrosis, and increased survival in pressure overload-induced heart failure without affecting cardiac hypertrophy. Transcriptionally activated fatty acid metabolism and mitochondrial function genes."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "An orally active estrogen receptor-related receptor agonist, SLU-PP-915, enhances aerobic exercise capacity",
+			"date": "2025",
+			"source": "Molecular Metabolism",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41421047/",
+			"summary": "SLU-PP-915, a chemically distinct orally bioavailable ERR pan-agonist, enhances aerobic exercise performance similarly to SLU-PP-332 when administered by injection, and maintains comparable efficacy when administered orally. Represents a major advance toward clinical translation."
+		},
+		{
+			"title": "Targeting ERRs to counteract age-related muscle atrophy associated with physical inactivity: a pilot study",
+			"date": "2025",
+			"source": "GeroScience",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40692696/",
+			"summary": "Pilot study examining ERR agonism as a strategy to counteract age-related muscle atrophy associated with physical inactivity, supporting clinical relevance of the ERR pathway."
 		}
 	],
 	"categories": ["metabolic", "longevity"],

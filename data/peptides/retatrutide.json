@@ -265,24 +265,73 @@
 	},
 	"references": [
 		{
-			"title": "Phase II Obesity Trial",
+			"title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+			"authors": "Jastreboff, A.M., et al.",
+			"journal": "New England Journal of Medicine",
 			"year": "2023",
-			"keyFindings": "Landmark RCT in 338 participants showing dose-dependent weight loss; 12mg dose achieved 24.2% reduction—highest recorded for any obesity medication. NEJM."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37366315/",
+			"participants": "338 adults with obesity",
+			"keyFindings": "Landmark phase 2 RCT showing dose-dependent weight loss: 24.2% at 48 weeks with 12mg dose — the highest recorded for any obesity medication at the time. Weight reduction of ≥15% achieved in 83% of 12mg recipients."
 		},
 		{
-			"title": "Phase II Type 2 Diabetes Study",
+			"title": "Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a phase 2 trial",
+			"authors": "Rosenstock, J., et al.",
+			"journal": "The Lancet",
 			"year": "2023",
-			"keyFindings": "Trial in 281 participants with type 2 diabetes: 16.9% weight loss and HbA1c reductions up to 2.16%. The Lancet."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37385280/",
+			"participants": "281 adults with type 2 diabetes",
+			"keyFindings": "Phase 2 trial in type 2 diabetes demonstrating clinically meaningful HbA1c reductions and robust weight loss of up to 16.9% at 36 weeks, with safety profile consistent with GLP-1 receptor agonists."
 		},
 		{
-			"title": "MASLD Substudy",
+			"title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial",
+			"authors": "Sanyal, A.J., et al.",
+			"journal": "Nature Medicine",
 			"year": "2024",
-			"keyFindings": "Metabolic dysfunction-associated steatotic liver disease study: 82% liver fat reduction with normalization in >90% at highest doses. Nature Medicine."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38858523/",
+			"participants": "98 participants with MASLD",
+			"keyFindings": "Dose-dependent liver fat reduction: 82.4% at 12mg dose. Normal liver fat (<5%) achieved in 86% of 12mg recipients vs 0% placebo at 24 weeks. Improvements linked to changes in body weight, abdominal fat, and insulin sensitivity."
 		},
 		{
-			"title": "Structural Insights into Triple Agonism",
+			"title": "Structural insights into the triple agonism at GLP-1R, GIPR and GCGR manifested by retatrutide",
+			"authors": "Li, W., et al.",
+			"journal": "Cell Discovery",
 			"year": "2024",
-			"keyFindings": "Cryo-EM structures reveal simultaneous activation of GLP-1R, GIPR, and GCGR, explaining superior clinical efficacy. Cell Discovery."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39019866/",
+			"keyFindings": "Cryo-EM structures reveal how retatrutide simultaneously activates GLP-1R, GIPR, and GCGR through distinct receptor-binding modes, explaining the molecular basis for its triple agonist activity and superior clinical efficacy."
+		},
+		{
+			"title": "TRIUMPH registrational clinical trials: Rationale and design",
+			"authors": "Aronne, L.J., et al.",
+			"journal": "Obesity",
+			"year": "2025",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41090431/",
+			"participants": "5,800+ participants across 4 trials",
+			"keyFindings": "Phase 3 TRIUMPH program design: four multicenter, randomized, double-blind studies assessing weekly retatrutide for obesity, obstructive sleep apnea, knee osteoarthritis, and weight management in cardiovascular disease populations."
+		},
+		{
+			"title": "Effects of retatrutide on body composition in people with type 2 diabetes: a phase 2 substudy",
+			"authors": "Rosenstock, J., et al.",
+			"journal": "The Lancet Diabetes & Endocrinology",
+			"year": "2025",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40609566/",
+			"keyFindings": "Substudy demonstrating significant total body fat mass reduction with retatrutide vs placebo and dulaglutide. Proportion of lean mass loss to total weight loss was similar to other obesity treatments."
+		}
+	],
+	"latestResearch": [
+		{
+			"date": "2025-10",
+			"title": "TRIUMPH Phase 3 Program Design Published",
+			"summary": "Rationale and design of the four TRIUMPH registrational Phase 3 trials published, enrolling 5,800+ participants across obesity, sleep apnea, osteoarthritis, and cardiovascular disease populations. Results expected 2026."
+		},
+		{
+			"date": "2025-06",
+			"title": "Body Composition Substudy Results",
+			"summary": "Phase 2 substudy published in Lancet Diabetes & Endocrinology showing retatrutide significantly reduces total body fat mass with fat mass reductions of up to 26.1% at the 8mg dose in people with type 2 diabetes."
+		},
+		{
+			"date": "2024-06",
+			"title": "MASLD Phase 2a Results Published",
+			"summary": "Nature Medicine published data showing up to 82.4% liver fat reduction with retatrutide 12mg, with normalization of liver fat in 86% of participants at 24 weeks."
 		}
 	],
 	"categories": ["weight-loss", "metabolic"],

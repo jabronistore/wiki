@@ -234,24 +234,53 @@
 	},
 	"references": [
 		{
-			"title": "Pharmacokinetics of Modified GRF(1-29) in Healthy Adults",
+			"title": "Human growth hormone-releasing factor (hGRF)1-29-albumin bioconjugates activate the GRF receptor on the anterior pituitary in rats: identification of CJC-1295 as a long-lasting GRF analog",
+			"authors": "Jette, L., et al.",
+			"journal": "Endocrinology",
+			"year": "2005",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15817669/",
+			"keyFindings": "Identified CJC-1295 as a tetrasubstituted hGRF(1-29) analog that covalently binds albumin. Showed 4-fold increase in GH area under the curve compared to native hGRF(1-29) in rat pituitary cells."
+		},
+		{
+			"title": "Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults",
+			"authors": "Teichman, S.L., et al.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
 			"year": "2006",
-			"keyFindings": "Human study with 100-200mcg single dose in 12 subjects showed rapid absorption with peak GH at 15-30 minutes; established half-life and optimal frequency."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+			"keyFindings": "Single injection of CJC-1295 produced dose-dependent 2- to 10-fold increases in GH for 6+ days and 1.5- to 3-fold increases in IGF-I for 9-11 days in healthy adults. Estimated half-life of 5.8-8.1 days."
 		},
 		{
-			"title": "Growth Hormone Pulsatility with Mod GRF 1-29",
-			"year": "2008",
-			"keyFindings": "Human study with 100mcg 3x daily for 30 days in 24 subjects preserved natural GH pulsatility patterns with no pituitary desensitization."
+			"title": "Pulsatile secretion of growth hormone (GH) persists during continuous stimulation by CJC-1295, a long-acting GH-releasing hormone analog",
+			"authors": "Ionescu, M., et al.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17018654/",
+			"keyFindings": "GH secretion was increased after CJC-1295 with preserved pulsatility. Basal (trough) GH levels were markedly increased (7.5-fold), demonstrating that CJC-1295 maintains natural GH pulse patterns."
 		},
 		{
-			"title": "Comparative Analysis: CJC-1295 vs Native GHRH",
-			"year": "2010",
-			"keyFindings": "In vitro and human receptor binding assays showed 4x greater receptor affinity than native GHRH with enhanced enzymatic degradation resistance."
+			"title": "Once-daily administration of CJC-1295, a long-acting growth hormone-releasing hormone (GHRH) analog, normalizes growth in the GHRH knockout mouse",
+			"authors": "Alba, M., et al.",
+			"journal": "American Journal of Physiology - Endocrinology and Metabolism",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16822960/",
+			"keyFindings": "Once-daily CJC-1295 maintained normal body composition and growth in GHRH knockout mice, demonstrating efficacy in restoring GH axis function in GH-deficient animal models."
 		},
 		{
-			"title": "Long-term Safety Profile of Modified GRF Analogs",
-			"year": "2015",
-			"keyFindings": "Animal model with 6 months daily administration showed no significant pituitary morphology or function changes supporting chronic safety."
+			"title": "Activation of the GH/IGF-1 axis by CJC-1295, a long-acting GHRH analog, results in serum protein profile changes in normal adult subjects",
+			"authors": "Ionescu, M., et al.",
+			"journal": "Growth Hormone & IGF Research",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19386527/",
+			"keyFindings": "CJC-1295 administration in normal adults activated the GH/IGF-1 axis and produced measurable serum protein profile changes, providing biomarker evidence for sustained GHRH analog activity."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Growth hormone-releasing hormone and its analogues in health and disease",
+			"date": "November 2024",
+			"source": "Nature Reviews Endocrinology",
+			"summary": "Comprehensive review of GHRH and analogs spanning oncology, regenerative medicine, and metabolic disorders. Highlights therapeutic potential of GHRH agonists and antagonists across multiple disease states.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39537825/"
 		}
 	],
 	"categories": ["growth-hormone", "weight-loss"],

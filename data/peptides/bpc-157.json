@@ -256,48 +256,98 @@
 	},
 	"references": [
 		{
-			"title": "Achilles Tendon Healing Study",
+			"title": "Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon and in vitro stimulates tendocytes growth",
+			"authors": "Staresinic, M., et al.",
+			"journal": "Journal of Orthopaedic Research",
 			"year": "2003",
-			"keyFindings": "Superior tendon healing with improved biomechanical properties and enhanced tendon-to-bone integration in rat models."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14554208/",
+			"keyFindings": "Superior tendon healing with improved biomechanical properties (increased load of failure and Young's modulus), enhanced tendon-to-bone integration, and stimulated tendocyte growth in rat models."
 		},
 		{
-			"title": "Muscle Healing Research",
+			"title": "Effective therapy of transected quadriceps muscle in rat: Gastric pentadecapeptide BPC 157",
+			"authors": "Staresinic, M., et al.",
+			"journal": "Journal of Orthopaedic Research",
 			"year": "2006",
-			"keyFindings": "Accelerated quadriceps healing with improved histology, reduced inflammation, and restored function in rat models."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16609979/",
+			"keyFindings": "Accelerated quadriceps healing over 72-day period with improved biomechanics, walking recovery, muscle fiber regeneration with desmin positivity, and attenuated atrophy in rat models."
 		},
 		{
-			"title": "Spinal Cord Injury Recovery",
+			"title": "Stable gastric pentadecapeptide BPC 157 can improve the healing course of spinal cord injury and lead to functional recovery in rats",
+			"authors": "Perovic, D., et al.",
+			"journal": "Journal of Orthopaedic Surgery and Research",
 			"year": "2019",
-			"keyFindings": "Significant functional recovery, reduced tissue damage, and improved neurological outcomes in rat models."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31266512/",
+			"keyFindings": "Significant functional recovery with improved motor function, resolved spasticity by day 15, and counteracted axonal necrosis, demyelination, and cyst formation across all stages of secondary injury."
 		},
 		{
-			"title": "Gastric Ulcer Protection",
+			"title": "BPC 157 Rescued NSAID-cytotoxicity Via Stabilizing Intestinal Permeability and Enhancing Cytoprotection",
+			"authors": "Park, J.M., Lee, H.J., Sikiric, P., Hahm, K.B.",
+			"journal": "Current Pharmaceutical Design",
 			"year": "2020",
-			"keyFindings": "Cytoprotective effects against gastric ulcers through multiple protective mechanisms."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32445447/",
+			"keyFindings": "Cytoprotective effects against NSAID-induced gastric and intestinal damage by stabilizing intestinal permeability and protecting mucosal barrier function across multiple epithelia."
 		},
 		{
-			"title": "VEGF and Angiogenesis Study",
+			"title": "Therapeutic potential of pro-angiogenic BPC157 is associated with VEGFR2 activation and up-regulation",
+			"authors": "Hsieh, M.J., et al.",
+			"journal": "Journal of Molecular Medicine",
 			"year": "2017",
-			"keyFindings": "Pro-angiogenic effects via VEGFR2 activation, explaining wound healing mechanisms."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27847966/",
+			"keyFindings": "Pro-angiogenic effects via VEGFR2-Akt-eNOS signaling pathway activation, increased vessel density in vivo and in vitro, and accelerated blood flow recovery in ischemic rat hind limb model."
 		},
 		{
-			"title": "Safety Evaluation Study",
+			"title": "Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds",
+			"authors": "Xu, C., et al.",
+			"journal": "Regulatory Toxicology and Pharmacology",
 			"year": "2020",
-			"keyFindings": "No serious adverse effects at therapeutic doses up to 1000 μg/kg for 90 days; established safety profile."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32334036/",
+			"keyFindings": "Well tolerated in mice, rats, rabbits, and dogs with no serious toxicity in single-dose, repeated-dose, local tolerance, genetic, or embryo-fetal toxicity studies."
+		},
+		{
+			"title": "Effect of BPC-157 on Symptoms in Patients with Interstitial Cystitis: A Pilot Study",
+			"authors": "Lee, E., Walker, C., Ayadi, B.",
+			"journal": "Alternative Therapies in Health and Medicine",
+			"year": "2024",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39325560/",
+			"keyFindings": "Pilot human trial in 12 women (ages 39-76) with interstitial cystitis showed BPC-157 as a potential treatment for this disabling condition with no effective existing therapies."
+		},
+		{
+			"title": "Safety of Intravenous Infusion of BPC157 in Humans: A Pilot Study",
+			"authors": "Lee, E., Burgess, K.",
+			"journal": "Alternative Therapies in Health and Medicine",
+			"year": "2025",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40131143/",
+			"keyFindings": "First human IV safety data: infusions of up to 20 mg BPC-157 in 2 healthy adults showed no adverse effects on cardiac, hepatic, renal, thyroid, or glucose biomarkers."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "Multifunctionality and Possible Medical Application of the BPC 157 Peptide",
+			"title": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review",
+			"date": "July 2025",
+			"source": "HSS Journal",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40756949/",
+			"summary": "Systematic review of 36 studies (35 preclinical, 1 clinical) from 1993-2024 showing BPC-157 enhances GH receptor expression, promotes angiogenesis, and reduces inflammatory cytokines in musculoskeletal injuries."
+		},
+		{
+			"title": "Multifunctionality and Possible Medical Application of the BPC 157 Peptide-Literature and Patent Review",
 			"date": "January 2025",
 			"source": "Pharmaceuticals",
-			"summary": "Comprehensive review of biological activities, mechanisms, and therapeutic potential across multiple organ systems."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40005999/",
+			"summary": "Comprehensive review by Jozwiak et al. of biological activities, mechanisms, and therapeutic potential across multiple organ systems including tissue injury and inflammatory bowel disease."
+		},
+		{
+			"title": "Safety of Intravenous Infusion of BPC157 in Humans: A Pilot Study",
+			"date": "March 2025",
+			"source": "Alternative Therapies in Health and Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40131143/",
+			"summary": "First human IV safety study showing no adverse effects at doses up to 20 mg in healthy adults, establishing initial human safety profile."
 		},
 		{
 			"title": "Pharmacokinetics, Distribution, Metabolism, and Excretion of Body-Protective Compound 157",
-			"date": "October 2022",
+			"date": "December 2022",
 			"source": "Frontiers in Pharmacology",
-			"summary": "IM bioavailability 14-19% in rats, 45-51% in dogs; half-life less than 30 minutes."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36588717/",
+			"summary": "IM bioavailability 14-19% in rats, 45-51% in dogs; half-life less than 30 minutes; rapidly metabolized into small peptide fragments."
 		}
 	],
 	"categories": ["healing", "longevity"],

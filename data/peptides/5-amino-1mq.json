@@ -260,33 +260,44 @@
 	},
 	"references": [
 		{
-			"title": "Mouse Obesity Study - Neelakantan et al.",
+			"title": "Selective and membrane-permeable small molecule inhibitors of nicotinamide N-methyltransferase reverse high fat diet-induced obesity in mice",
+			"authors": "Neelakantan H, Vance V, Wetzel MD, Wang HL, McHardy SF, Finnerty CC, Hommel JD, Watowich SJ",
+			"journal": "Biochemical Pharmacology",
 			"year": "2018",
-			"keyFindings": "Diet-induced obese mice showed 5.1% weight loss, 30% adipocyte size reduction at 60mg/kg/day. Human equivalent ~5mg/kg/day using FDA allometric scaling."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29155147/",
+			"keyFindings": "Diet-induced obese mice showed significant weight loss and adipocyte size reduction with 5-amino-1MQ treatment. Demonstrated that NNMT inhibition increases energy expenditure, reduces body weight and white adipose mass, improves insulin sensitivity, and normalizes glucose tolerance."
 		},
 		{
-			"title": "Rat Pharmacokinetics Study",
+			"title": "Development & validation of LC-MS/MS assay for 5-amino-1-methyl quinolinium in rat plasma: Application to pharmacokinetic and oral bioavailability studies",
+			"authors": "Kannt A et al.",
+			"journal": "Journal of Pharmaceutical and Biomedical Analysis",
 			"year": "2021",
-			"keyFindings": "Demonstrated 38.4% oral bioavailability, half-life 6.9hr (oral) and 3.8hr (IV). Supports oral administration viability."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34304009/",
+			"keyFindings": "Demonstrated 38.4% oral bioavailability, half-life 6.9hr (oral) and 3.8hr (IV). Validated sensitive LC-MS/MS method for pharmacokinetic assessment supporting oral administration viability."
 		},
 		{
-			"title": "Muscle Function in Aged Mice",
+			"title": "Nicotinamide N-methyltransferase inhibition mimics and boosts exercise-mediated improvements in muscle function in aged mice",
+			"authors": "Neelakantan H et al.",
+			"journal": "Scientific Reports",
 			"year": "2024",
-			"keyFindings": "40% grip strength improvement in sedentary mice, 60% with exercise at 10mg/kg/day SubQ for 8 weeks. No adverse effects observed."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38969654/",
+			"keyFindings": "NNMTi-treated aged sedentary mice showed ~40% greater grip strength than controls. Combined with exercise, 60% grip strength increase. Also improved intramuscular lipid content and gastrocnemius fiber cross-sectional area."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "NNMT as a Target for Metabolic Disease and Aging",
-			"date": "March 2024",
-			"source": "Nature Reviews Drug Discovery",
-			"summary": "Comprehensive review of NNMT inhibition for metabolic disease and aging interventions."
+			"title": "Nicotinamide N-methyltransferase inhibition mitigates obesity-related metabolic dysfunction",
+			"date": "August 2024",
+			"source": "Biochemical Pharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39161060/",
+			"summary": "Validated NNMT inhibition with 5A1MQ as a viable pharmacological approach to ameliorate metabolic imbalances and improve liver pathologies in diet-induced obese mice. 5A1MQ dose-dependently limited body weight and fat mass gain without altering food intake."
 		},
 		{
-			"title": "NAD+ Metabolism and Healthy Aging Interventions",
-			"date": "January 2024",
-			"source": "Cell Metabolism",
-			"summary": "Role of NAD+ metabolism in healthy aging and therapeutic interventions."
+			"title": "Identification of nicotinamide N-methyltransferase as a promising therapeutic target for sarcopenia",
+			"date": "June 2024",
+			"source": "Aging Cell",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38838088/",
+			"summary": "Used machine learning to identify NNMT as a key metabolic dysregulation gene in sarcopenia. NNMT inhibition improved grip strength, alleviated age-related decline in muscle mass, and increased NAD+ content and PGC1α expression in aging mice."
 		}
 	],
 	"categories": ["longevity", "metabolic", "weight-loss"],

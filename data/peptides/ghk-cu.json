@@ -258,22 +258,60 @@
 	},
 	"references": [
 		{
-			"title": "Regenerative and Protective Actions of GHK-Cu Peptide",
+			"title": "Regenerative and Protective Actions of the GHK-Cu Peptide in the Light of the New Gene Data",
+			"authors": "Pickart, L., Margolina, A.",
+			"journal": "International Journal of Molecular Sciences",
 			"year": "2018",
-			"journal": "Int J Mol Sci",
-			"keyFindings": "Demonstrates broad regenerative potential across multiple tissue types including skin, hair, and bone."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29986520/",
+			"keyFindings": "Broad regenerative potential demonstrated across skin, lung, bone, liver, and stomach tissue; cell protective actions including anti-cancer, anti-inflammatory, DNA repair, and proteasome activation via gene modulation."
 		},
 		{
-			"title": "GHK Peptide in Skin Regeneration",
+			"title": "GHK Peptide as a Natural Modulator of Multiple Cellular Pathways in Skin Regeneration",
+			"authors": "Pickart, L., Vasquez-Soltero, J.M., Margolina, A.",
+			"journal": "BioMed Research International",
 			"year": "2015",
-			"journal": "Biomed Res Int",
-			"keyFindings": "GHK-Cu increased elastin and collagen production in human dermal fibroblasts by up to 70%."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26236730/",
+			"keyFindings": "GHK-Cu stimulates synthesis of collagen, dermatan sulfate, chondroitin sulfate, and decorin; tightens loose skin, improves elasticity, density, and firmness; reduces fine lines, wrinkles, and photodamage."
 		},
 		{
-			"title": "GHK-Cu in Prevention of Oxidative Stress and Aging",
+			"title": "The human tripeptide GHK-Cu in prevention of oxidative stress and degenerative conditions of aging: implications for cognitive health",
+			"authors": "Pickart, L., Vasquez-Soltero, J.M., Margolina, A.",
+			"journal": "Oxidative Medicine and Cellular Longevity",
 			"year": "2012",
-			"journal": "Oxid Med Cell Longev",
-			"keyFindings": "Shows neuroprotective and antioxidant effects in aged mice at 10 mg/kg dosing."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22666519/",
+			"keyFindings": "GHK possesses antioxidant, anti-inflammatory, and wound healing properties; regulates genes critical for neuronal development and maintenance; implications for cognitive health in aging."
+		},
+		{
+			"title": "Tripeptides GHK and GHK-Cu-modified silver nanoparticles for enhanced antibacterial and wound healing activities",
+			"authors": "Islam, R., Bilal, H., Wang, X., Zhang, L.",
+			"journal": "Colloids and Surfaces B: Biointerfaces",
+			"year": "2024",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38387323/",
+			"keyFindings": "GHK and GHK-Cu modified silver nanoparticles demonstrated enhanced antibacterial activity and accelerated wound healing through improved delivery and bioactivity."
+		},
+		{
+			"title": "Topically applied GHK as an anti-wrinkle peptide: Advantages, problems and prospective",
+			"authors": "Mortazavi, S.M., Mohammadi Vadoud, S.A., Moghimi, H.R.",
+			"journal": "BioImpacts",
+			"year": "2024",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39963574/",
+			"keyFindings": "Comprehensive review confirming GHK and Pal-GHK effectiveness as anti-wrinkle ingredients; skin permeability can be enhanced via metal complexation, chemical modification, and cell-penetrating peptides."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Exploring the beneficial effects of GHK-Cu on an experimental model of colitis and the underlying mechanisms",
+			"date": "July 2025",
+			"source": "Frontiers in Pharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40672369/",
+			"summary": "GHK-Cu demonstrated significant therapeutic effects in an experimental colitis model, expanding its known applications beyond skin to gastrointestinal inflammation."
+		},
+		{
+			"title": "Topically applied GHK as an anti-wrinkle peptide: Advantages, problems and prospective",
+			"date": "April 2024",
+			"source": "BioImpacts",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39963574/",
+			"summary": "Review confirming GHK-Cu's cellular anti-wrinkle efficacy while highlighting delivery challenges and new permeation enhancement strategies including nanocarriers and microneedles."
 		}
 	],
 	"categories": ["skin", "healing", "longevity"]

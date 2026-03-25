@@ -280,32 +280,52 @@
 	},
 	"references": [
 		{
-			"title": "KIMS Long-Term Safety Study",
-			"year": "2020",
-			"keyFindings": "15,809 patients, mean 5.3 years follow-up. Largest long-term safety study showing de novo cancer incidence comparable to general population (SIR 0.92)."
+			"title": "Long-term Safety of Growth Hormone in Adults With Growth Hormone Deficiency: Overview of 15,809 GH-Treated Patients",
+			"authors": "Stochholm K, Kiess W, Gianetti E, et al.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "2022",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35368070/",
+			"keyFindings": "15,809 patients from the KIMS database, mean 5.3 years follow-up. Adverse events in 51.2% of patients, treatment-related in 18.8%. No correlation between GH dose and adverse event rate. Supports long-term safety of GH replacement in adults with GHD."
 		},
 		{
-			"title": "Long-term Efficacy and Safety in Adult GHD",
-			"year": "2018",
-			"keyFindings": "Systematic review demonstrating improvements in body composition, muscle strength, quality of life, bone mass/density, and lipoprotein patterns."
+			"title": "Efficacy and Safety of Growth Hormone Treatment in Adults with Growth Hormone Deficiency: A Systematic Review of Studies on Morbidity",
+			"authors": "Defined a, Sääf M, et al.",
+			"journal": "Clinical Endocrinology",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24750271/",
+			"keyFindings": "Systematic review demonstrating positive effects of GH treatment on cardiovascular disease and fracture risk, improvements in body composition, muscle strength, quality of life, bone mass/density, and lipoprotein patterns."
 		},
 		{
-			"title": "Effects on Morbidity - Systematic Review",
+			"title": "Cardiovascular Risk in Growth Hormone Deficiency: Beneficial Effects of Growth Hormone Replacement Therapy",
+			"authors": "Gazzaruso C, Gola M, Karamouzis I, et al.",
+			"journal": "Endocrine",
 			"year": "2016",
-			"keyFindings": "Demonstrated positive effects on cardiovascular surrogate markers and bone metabolism."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27241971/",
+			"keyFindings": "GH deficiency is associated with several cardiovascular risk factors that significantly increase cardiovascular morbidity and mortality. GH replacement improves cardiovascular risk factors."
 		},
 		{
-			"title": "GH-Thyroid Hormone Interaction Study",
-			"year": "2015",
-			"keyFindings": "GH replacement unmasks central hypothyroidism in 36-47% of apparently euthyroid patients."
+			"title": "Unmasking of Central Hypothyroidism Following Growth Hormone Replacement in Adult Hypopituitary Patients",
+			"authors": "Agha A, Walker D, Perry L, et al.",
+			"journal": "Clinical Endocrinology",
+			"year": "2007",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17201804/",
+			"keyFindings": "In 84 apparently euthyroid patients, 30 (36%) developed hypothyroidism requiring T4 therapy after starting GH. Highest risk in patients with organic pituitary disease or multiple pituitary hormone deficiencies."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "Long-Acting Somatropin Formulations",
-			"date": "2023",
-			"source": "FDA",
-			"summary": "Sogroya and Skytrofa FDA-approved for improved once-weekly dosing convenience."
+			"title": "A 2024 Update on Growth Hormone Deficiency Syndrome in Adults: From Guidelines to Real Life",
+			"date": "2024",
+			"source": "Journal of Endocrinological Investigation",
+			"summary": "Comprehensive update on diagnosing and treating adult GHD, emphasizing individualized evaluation of risks and benefits. Reviewed evidence up to August 2024.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39458028/"
+		},
+		{
+			"title": "Developments in the Management of Growth Hormone Deficiency: Clinical Utility of Somapacitan",
+			"date": "2024",
+			"source": "Drug Design, Development and Therapy",
+			"summary": "Somapacitan (Sogroya) is the first long-acting GH approved for adult GHD in the US, Europe, and Japan, enabling once-weekly dosing convenience.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38333899/"
 		}
 	],
 	"categories": ["growth-hormone", "weight-loss", "healing"],

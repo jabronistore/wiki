@@ -273,44 +273,66 @@
 	},
 	"references": [
 		{
-			"title": "KPV in IBD Models",
-			"year": "2019",
-			"keyFindings": "Demonstrated significant reduction in inflammatory markers and improved intestinal barrier function in IBD models."
+			"title": "Dissection of the Anti-Inflammatory Effect of the Core and C-Terminal (KPV) Alpha-Melanocyte-Stimulating Hormone Peptides",
+			"authors": "Getting, S.J., Schiöth, H.B., Perretti, M.",
+			"journal": "Journal of Pharmacology and Experimental Therapeutics",
+			"year": "2003",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12750433/",
+			"keyFindings": "Established that KPV exerts anti-inflammatory effects distinct from core MSH peptides, likely through inhibition of IL-1β functions rather than melanocortin receptor signaling."
 		},
 		{
-			"title": "Anti-Inflammatory Mechanisms Study",
-			"year": "2020",
-			"keyFindings": "KPV enters cells and directly inhibits NF-κB pathway, reducing TNF-α, IL-6, and other inflammatory cytokines."
+			"title": "PepT1-Mediated Tripeptide KPV Uptake Reduces Intestinal Inflammation",
+			"authors": "Dalmasso, G., et al.",
+			"journal": "Gastroenterology",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18061177/",
+			"keyFindings": "KPV is transported into cells via PepT1, where nanomolar concentrations inhibit NF-κB and MAP kinase signaling pathways. Oral KPV reduced DSS- and TNBS-induced colitis in mice."
 		},
 		{
-			"title": "Psoriasis/Dermatitis Study",
-			"year": "2021",
-			"keyFindings": "Topical KPV reduced psoriatic markers by 60% and improved skin barrier function."
+			"title": "Melanocortin-Derived Tripeptide KPV Has Anti-Inflammatory Potential in Murine Models of Inflammatory Bowel Disease",
+			"authors": "Kannengiesser, K., et al.",
+			"journal": "Inflammatory Bowel Diseases",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18092346/",
+			"keyFindings": "KPV showed significant anti-inflammatory effects in DSS colitis and CD45RBhi transfer colitis models, reducing weight loss, histological damage, and MPO activity. Effects partially independent of MC1R signaling."
 		},
 		{
-			"title": "Antimicrobial Properties Study",
-			"year": "2022",
-			"keyFindings": "Showed selective antimicrobial activity against pathogenic bacteria while preserving beneficial gut microbiota."
+			"title": "Critical Role of PepT1 in Promoting Colitis-Associated Cancer and Therapeutic Benefits of KPV",
+			"authors": "Viennois, E., et al.",
+			"journal": "Cellular and Molecular Gastroenterology and Hepatology",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27458604/",
+			"keyFindings": "PepT1 is highly expressed in human colorectal tumors. PepT1-transported KPV prevented colitis-associated carcinogenesis in wild-type mice, with no effect in PepT1-knockout mice, confirming PepT1-dependent therapeutic mechanism."
+		},
+		{
+			"title": "Orally Targeted Delivery of Tripeptide KPV via Hyaluronic Acid-Functionalized Nanoparticles Efficiently Alleviates Ulcerative Colitis",
+			"authors": "Xiao, B., et al.",
+			"journal": "Molecular Therapy",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28143741/",
+			"keyFindings": "HA-functionalized KPV nanoparticles (~272.3 nm) successfully targeted colonic epithelial cells and macrophages, exerting combined mucosal healing and anti-inflammatory effects superior to free KPV in a UC mouse model."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "Nanoparticle Delivery Enhancement",
-			"date": "March 2024",
-			"source": "Drug Delivery Research",
-			"summary": "Enhanced delivery methods using nanoparticle technology."
+			"title": "KPV and Rapamycin Self-Assembled Nanodrug for Vascular Calcification",
+			"date": "December 2024",
+			"source": "Advanced Healthcare Materials",
+			"summary": "KPV and rapamycin self-assembled into carrier-free nanoparticles that significantly inhibited vascular calcification in mice by suppressing inflammation and activating autophagy.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39252648/"
 		},
 		{
-			"title": "Probiotic Combination for IBS",
-			"date": "February 2024",
-			"source": "Gut Health Journal",
-			"summary": "KPV combined with probiotics for enhanced IBS treatment."
+			"title": "PepT1-Targeted Nanodrug for Combined Treatment of DSS-Induced Colitis",
+			"date": "September 2024",
+			"source": "International Journal of Pharmaceutics",
+			"summary": "Novel PepT1-targeted nanodrug combining anti-inflammatory KPV peptide and immunosuppressant for combined treatment of acute and chronic colitis models.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39211778/"
 		},
 		{
-			"title": "Post-COVID Inflammatory Syndrome",
-			"date": "January 2024",
-			"source": "Inflammation Research",
-			"summary": "Potential application in post-COVID inflammatory conditions."
+			"title": "Peptide-Based Therapeutic and Delivery Strategies for IBD: Challenges and Future Directions",
+			"date": "2025",
+			"source": "Drug Delivery and Translational Research",
+			"summary": "Comprehensive review covering KPV among advanced peptide-based therapeutics and delivery strategies for inflammatory bowel disease treatment."
 		}
 	],
 	"categories": ["immune", "healing"],

@@ -273,38 +273,52 @@
 	},
 	"references": [
 		{
-			"title": "Erectile Dysfunction Phase II Trial",
+			"title": "Melanocortin Receptor Agonists, Penile Erection, and Sexual Motivation: Human Studies with Melanotan II",
+			"authors": "Wessells H, Levine N, Hadley ME, Dorr RT, Hruby VJ",
+			"journal": "International Journal of Impotence Research",
 			"year": "2000",
-			"keyFindings": "0.025mg/kg dose achieved 80% response rate with significant improvement in psychogenic ED over 3 months."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11035391/",
+			"keyFindings": "20 men with psychogenic/organic ED; 0.025mg/kg dose. Melanotan II induced penile erection in 17/20 men without sexual stimulation. Increased sexual desire in 68% vs 19% placebo (P<0.01)."
 		},
 		{
-			"title": "Melanogenesis & UV Protection Study",
-			"year": "1999",
-			"keyFindings": "0.16mg/kg daily for 10 days increased eumelanin and achieved natural tan without UV exposure."
+			"title": "Increased Eumelanin Expression and Tanning Is Induced by a Superpotent Melanotropin [Nle4-D-Phe7]-alpha-MSH in Humans",
+			"authors": "Dorr RT, Lines R, Levine N, et al.",
+			"journal": "Journal of Investigative Dermatology",
+			"year": "2000",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11045725/",
+			"keyFindings": "Seven volunteers received 0.16mg/kg/day subcutaneous injections for 10 days. Mean 49% increase in forehead eumelanin and 98% increase in forearm eumelanin one week post-treatment."
 		},
 		{
-			"title": "Female Sexual Arousal Disorder Trial",
-			"year": "2004",
-			"keyFindings": "Single dose of 0.025mg/kg resulted in 73% of premenopausal women reporting arousal within 24 hours."
+			"title": "Discovery that a Melanocortin Regulates Sexual Functions in Male and Female Humans",
+			"authors": "Hadley ME, Dorr RT",
+			"journal": "Peptides",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15996790/",
+			"keyFindings": "Melanotan II enhances sexual function in both males and females by working at the brain level, triggering a natural sexual response via melanocortin receptor activation."
 		},
 		{
-			"title": "Appetite Reduction Study",
-			"year": "2001",
-			"keyFindings": "15% reduction in caloric intake observed through MC4R activation."
+			"title": "Evaluation of Melanotan-II, a Superpotent Cyclic Melanotropic Peptide in a Pilot Phase-I Clinical Study",
+			"authors": "Dorr RT, Lines R, Levine N, Brooks C, et al.",
+			"journal": "Life Sciences",
+			"year": "1996",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8637402/",
+			"keyFindings": "Phase I study in 3 normal male volunteers. Daily subcutaneous injections for 2 weeks produced visible skin darkening in the face, upper body, and buttock after only 5 low doses."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "Melanocortin Receptor Selectivity",
+			"title": "Afamelanotide and Narrowband UV-B Phototherapy for the Treatment of Vitiligo: A Randomized Multicenter Trial",
 			"date": "2024",
-			"source": "Melanocortin Research",
-			"summary": "Advancing toward more selective analogs with fewer side effects."
+			"source": "JAMA Dermatology",
+			"summary": "Combination of afamelanotide (a related MC1R agonist) with NB-UVB produced statistically superior and faster repigmentation compared to NB-UVB alone.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25230094/"
 		},
 		{
-			"title": "Vitiligo Repigmentation Study",
+			"title": "Risks of Unregulated Use of Alpha-Melanocyte-Stimulating Hormone Analogues: A Review",
 			"date": "2024",
-			"source": "Dermatology Research",
-			"summary": "Potential for repigmentation when combined with narrow-band UVB therapy."
+			"source": "BMJ Open",
+			"summary": "Comprehensive risk assessment of unregulated melanotan use. Clinicians should monitor pigmented lesions, infectious disease transmission, and sunbed exposure in users.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28266027/"
 		}
 	],
 	"protocolVariants": [

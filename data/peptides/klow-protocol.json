@@ -175,22 +175,72 @@
 	},
 	"references": [
 		{
-			"title": "Individual Component Research—GHK-Cu",
-			"year": "Various",
-			"journal": "Multiple Studies",
-			"keyFindings": "GHK-Cu demonstrates wound healing, anti-aging, and gene modulation effects in isolation"
+			"title": "Regenerative and Protective Actions of the GHK-Cu Peptide in the Light of the New Gene Data",
+			"authors": "Pickart L, Vasquez-Soltero JM, Margolina A",
+			"year": "2018",
+			"journal": "International Journal of Molecular Sciences",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29986520/",
+			"keyFindings": "GHK-Cu modulates over 4,000 human genes, stimulates collagen/elastin/GAG synthesis, promotes blood vessel and nerve outgrowth, and supports tissue repair in skin, lung, bone, liver, and stomach."
 		},
 		{
-			"title": "BPC-157 Limited Human Data",
-			"year": "2020",
-			"journal": "Human pilot study",
-			"keyFindings": "Small pilot showed 10 of 12 patients achieved complete symptom resolution in interstitial cystitis"
+			"title": "Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon and in vitro stimulates tendocytes growth",
+			"authors": "Staresinic M, Sebecic B, Patrlj L, et al.",
+			"year": "2003",
+			"journal": "Journal of Orthopaedic Research",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14554208/",
+			"keyFindings": "BPC-157 fully improved Achilles tendon recovery biomechanically, functionally, and microscopically; reversed HNE growth inhibition of tendocytes in vitro."
+		},
+		{
+			"title": "A first-in-human, randomized, double-blind, single- and multiple-dose, phase I study of recombinant human thymosin β4 in healthy Chinese volunteers",
+			"authors": "Wang X, Liu L, Qi L, et al.",
+			"year": "2021",
+			"journal": "Journal of Cellular and Molecular Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34346165/",
+			"keyFindings": "Phase I trial in 54 healthy subjects demonstrated recombinant thymosin β4 (TB-500 analog) was well tolerated and safe across ascending IV doses with no significant accumulation."
+		},
+		{
+			"title": "PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation",
+			"authors": "Dalmasso G, Charrier-Hisamuddin L, Nguyen HT, et al.",
+			"year": "2008",
+			"journal": "Gastroenterology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18061177/",
+			"keyFindings": "KPV inhibits NF-κB activation and reduces intestinal inflammation via PepT1-mediated transport; demonstrated anti-inflammatory effects in murine IBD models."
 		},
 		{
 			"title": "No Published Studies on KLOW Combination",
 			"year": "2024",
 			"journal": "N/A",
-			"keyFindings": "Scientific studies examining safety or efficacy of the four-peptide KLOW combination do not exist"
+			"keyFindings": "No clinical or preclinical studies examine the safety or efficacy of the four-peptide KLOW combination; all evidence is extrapolated from individual component research."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Safety of Intravenous Infusion of BPC157 in Humans: A Pilot Study",
+			"date": "March 2025",
+			"source": "Alternative Therapies in Health and Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40131143/",
+			"summary": "First human IV safety study showed no adverse effects at doses up to 20 mg in 2 healthy adults, with no measurable impact on heart, liver, kidney, thyroid, or glucose biomarkers."
+		},
+		{
+			"title": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review",
+			"date": "July 2025",
+			"source": "HSS Journal",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40756949/",
+			"summary": "Systematic review of 36 studies (1993-2024) found BPC-157 enhances GH receptor expression and angiogenesis pathways, improving outcomes in muscle, tendon, ligament, and bone injury models."
+		},
+		{
+			"title": "Topically applied GHK as an anti-wrinkle peptide: Advantages, problems and prospective",
+			"date": "February 2025",
+			"source": "Journal of Peptide Science",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39963574/",
+			"summary": "Review highlighting GHK-Cu's regenerative, collagen-stimulating, and anti-wrinkle properties, noting a surprising absence of clinical trials despite strong preclinical evidence."
+		},
+		{
+			"title": "KPV and RAPA Self-Assembled into Carrier-Free Nanodrugs for Vascular Calcification Therapy",
+			"date": "December 2024",
+			"source": "Advanced Healthcare Materials",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39252648/",
+			"summary": "Novel KPV-rapamycin nanoparticles significantly inhibited vascular calcification in mice by suppressing inflammatory responses and activating autophagy."
 		}
 	],
 	"categories": ["weight-loss", "metabolic"],

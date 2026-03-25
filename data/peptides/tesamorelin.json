@@ -231,24 +231,60 @@
 	},
 	"references": [
 		{
-			"title": "LIPO-010 FDA Pivotal Trial",
+			"title": "Metabolic Effects of a Growth Hormone-Releasing Factor in Patients with HIV (LIPO-010)",
+			"authors": "Falutz, J., et al.",
+			"journal": "New England Journal of Medicine",
+			"year": "2007",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18057338/",
+			"keyFindings": "Pivotal Phase III trial in 412 HIV patients. Tesamorelin 2mg daily for 26 weeks significantly decreased visceral fat and improved lipid profiles compared to placebo."
+		},
+		{
+			"title": "Effects of Tesamorelin in HIV-Infected Patients with Abdominal Fat Accumulation: Randomized Placebo-Controlled Trial with Safety Extension (CTR-1011)",
+			"authors": "Falutz, J., et al.",
+			"journal": "Journal of Acquired Immune Deficiency Syndromes",
 			"year": "2010",
-			"keyFindings": "Significant visceral adipose tissue reduction (-24 ± 41 cm² vs +2 ± 35 cm² placebo, p < 0.001) in HIV patients over 26 weeks."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20101189/",
+			"keyFindings": "404 HIV patients treated for up to 12 months. 69% achieved ≥8% VAT reduction vs 33% placebo. VAT benefits were lost upon discontinuation, confirming need for continuous therapy."
 		},
 		{
-			"title": "CTR-1011 Extended Safety Study",
-			"year": "2011",
-			"keyFindings": "69% achieved ≥8% VAT reduction vs 33% placebo at 26-52 weeks."
-		},
-		{
-			"title": "NAFLD Treatment Trial",
-			"year": "2019",
-			"keyFindings": "37% liver fat reduction over 12 months with fibrosis progression prevention."
-		},
-		{
-			"title": "Cognitive Enhancement Study",
+			"title": "Effects of Growth Hormone-Releasing Hormone on Cognitive Function in Adults with MCI and Healthy Older Adults",
+			"authors": "Baker, L.D., et al.",
+			"journal": "Archives of Neurology",
 			"year": "2012",
-			"keyFindings": "Improved executive function and verbal memory in healthy elderly and mild cognitive impairment cohorts at 1mg daily."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22869065/",
+			"keyFindings": "152 adults (ages 55-87) treated with tesamorelin 1mg daily for 20 weeks. Favorable effect on cognition (P=0.03), with particular benefit on executive function (P=0.005) and IGF-1 increase of 117%."
+		},
+		{
+			"title": "Effects of Tesamorelin on Non-Alcoholic Fatty Liver Disease in HIV: A Randomised, Double-Blind, Multicentre Trial",
+			"authors": "Stanley, T.L., et al.",
+			"journal": "Lancet HIV",
+			"year": "2019",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31611038/",
+			"keyFindings": "61 HIV patients with NAFLD randomized to tesamorelin 2mg vs placebo for 12 months. 37% relative reduction in hepatic fat fraction (P=0.02), with prevention of fibrosis progression on liver biopsy."
+		},
+		{
+			"title": "Body Composition, Hepatic Fat, Metabolic, and Safety Outcomes of Tesamorelin: A Meta-Analysis of Randomized Controlled Trials",
+			"authors": "Elgenidy, A., et al.",
+			"journal": "HIV Medicine",
+			"year": "2025",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41545261/",
+			"keyFindings": "Meta-analysis of 5 RCTs showing significant VAT reduction (MD=-27.71 cm², P<0.001), increased lean body mass (MD=1.42 kg, P<0.001), and improved hepatic fat and IGF-1 levels without serious safety concerns."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Tesamorelin for Neurocognitive Impairment in HIV with Abdominal Obesity",
+			"date": "June 2025",
+			"source": "Journal of Infectious Diseases",
+			"summary": "Phase 2 open-label trial in 73 HIV patients. Tesamorelin group showed trend toward improved neurocognition and greater waist circumference reduction (median -2.7 cm) vs standard of care, though between-group cognitive differences were not significant.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39813152/"
+		},
+		{
+			"title": "Efficacy and Safety of Tesamorelin in People with HIV on Integrase Inhibitors",
+			"date": "June 2024",
+			"source": "AIDS",
+			"summary": "First dedicated data on tesamorelin efficacy in HIV patients on INSTI-based regimens. Tesamorelin had beneficial effects on body composition with no exacerbation of glycemic control.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38905488/"
 		}
 	],
 	"categories": ["growth-hormone", "weight-loss"],

@@ -211,28 +211,75 @@
 	},
 	"references": [
 		{
-			"title": "NAD+ Restoration Strategies in Clinical Practice",
-			"year": "2024",
-			"journal": "Regenerative Medicine Journal",
-			"keyFindings": "Review of clinical applications and restoration strategies"
+			"title": "NAD+ and Sirtuins in Aging and Disease",
+			"authors": "Imai, S., Guarente, L.",
+			"journal": "Trends in Cell Biology",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24786309/",
+			"keyFindings": "Seminal review establishing that NAD+ decline is central to aging, driving defects in sirtuin-mediated nuclear and mitochondrial functions and resulting in age-associated pathologies."
 		},
 		{
-			"title": "Clinical Evidence for NAD+ Therapeutic Applications",
-			"year": "2024",
-			"journal": "Clinical Interventions in Aging",
-			"keyFindings": "Evidence for anti-aging and therapeutic applications"
+			"title": "Chronic Nicotinamide Riboside Supplementation Is Well-Tolerated and Elevates NAD+ in Healthy Middle-Aged and Older Adults",
+			"authors": "Martens, C.R., et al.",
+			"journal": "Nature Communications",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29599478/",
+			"keyFindings": "Randomized crossover trial showing NR (1000 mg/day for 6 weeks) is well tolerated and effectively elevates NAD+ in healthy middle-aged and older adults, with preliminary evidence for reduced blood pressure and arterial stiffness."
 		},
 		{
-			"title": "NAD+ Precursor Safety and Efficacy Meta-Analysis",
-			"year": "2024",
-			"journal": "Nature Metabolism",
-			"keyFindings": "Meta-analysis of safety and efficacy data"
+			"title": "Nicotinamide Mononucleotide Increases Muscle Insulin Sensitivity in Prediabetic Women",
+			"authors": "Yoshino, M., et al.",
+			"journal": "Science",
+			"year": "2021",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33888596/",
+			"keyFindings": "First human clinical trial showing NMN (250 mg/day for 10 weeks) increases skeletal muscle insulin signaling and sensitivity in overweight/obese postmenopausal women with prediabetes."
 		},
 		{
-			"title": "Intranasal NAD+ Delivery for Neurological Applications",
-			"year": "2023",
-			"journal": "Neuropharmacology Research",
-			"keyFindings": "Demonstrated efficacy of intranasal delivery for brain access"
+			"title": "NAD+ Metabolism and Its Roles in Cellular Processes During Ageing",
+			"authors": "Covarrubias, A.J., et al.",
+			"journal": "Nature Reviews Molecular Cell Biology",
+			"year": "2021",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33353981/",
+			"keyFindings": "Comprehensive review of NAD+ metabolism during aging, detailing how senescent cells drive NAD+ decline via CD38+ macrophage activation and outlining therapeutic restoration strategies."
+		},
+		{
+			"title": "Efficacy of Oral NMN Supplementation on Glucose and Lipid Metabolism: A Systematic Review with Meta-Analysis of RCTs",
+			"authors": "Zhong, O., et al.",
+			"journal": "Journal of Translational Medicine",
+			"year": "2024",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39116016/",
+			"keyFindings": "Meta-analysis of 8 RCTs (342 adults) found NMN significantly elevates blood NAD+ levels, but short-term supplementation (250-2000 mg/d) did not show significant improvements in glucose control or lipid profile in the general population."
+		},
+		{
+			"title": "A Randomized Placebo-Controlled Trial of Nicotinamide Riboside in Older Adults with Mild Cognitive Impairment",
+			"authors": "Orr, M.E., et al.",
+			"journal": "GeroScience",
+			"year": "2024",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37994989/",
+			"keyFindings": "NR was well tolerated and significantly increased blood NAD+ concentrations in older adults with MCI. Global methylation analyses indicated modest NR-associated reduction in epigenetic age by PhenoAge and GrimAge clocks."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "NR and NAD+ in Long-COVID: Randomized Controlled Trial",
+			"date": "November 2025",
+			"source": "EClinicalMedicine",
+			"summary": "Double-blind, placebo-controlled trial of NR (2000 mg/day) in 58 long-COVID participants evaluating NAD+ levels, cognition, fatigue, sleep quality, and mood symptoms over 24 weeks.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41357333/"
+		},
+		{
+			"title": "NR Benefits in Werner Syndrome (Accelerated Aging)",
+			"date": "May 2025",
+			"source": "Aging Cell",
+			"summary": "Double-blind randomized crossover trial showing NR supplementation benefits in patients with Werner syndrome, a genetic accelerated aging disorder.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40459998/"
+		},
+		{
+			"title": "NMN and NR Effects on Skeletal Muscle: Systematic Review and Meta-Analysis",
+			"date": "April 2025",
+			"source": "Journal of Cachexia, Sarcopenia and Muscle",
+			"summary": "Meta-analysis evaluating NMN and NR supplementation effects on skeletal muscle mass and function in adults over 60, with mixed results on clinical outcomes despite NAD+ elevation.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40275690/"
 		}
 	],
 	"categories": ["longevity", "metabolic"],

@@ -269,28 +269,98 @@
 	},
 	"references": [
 		{
-			"title": "SURMOUNT-1 Phase 3 Trial",
+			"title": "Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1)",
+			"authors": "Jastreboff, A.M., et al.",
+			"journal": "New England Journal of Medicine",
 			"year": "2022",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35658024/",
 			"participants": "2,539 adults with obesity",
-			"keyFindings": "15mg weekly achieved 22.5% weight loss vs 2.4% placebo over 72 weeks—largest weight loss in pharmaceutical trials."
+			"keyFindings": "Landmark phase 3 trial: 15mg weekly achieved 22.5% weight loss vs 2.4% placebo over 72 weeks. Weight reduction of ≥20% achieved in 57% of 15mg recipients."
 		},
 		{
-			"title": "SURPASS Clinical Program",
-			"year": "2021-2022",
-			"participants": "13,000+ T2DM patients",
-			"keyFindings": "Superior HbA1c reduction and weight loss compared to insulin, semaglutide, and existing diabetes medications."
+			"title": "Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes (SURPASS-2)",
+			"authors": "Frías, J.P., et al.",
+			"journal": "New England Journal of Medicine",
+			"year": "2021",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34170647/",
+			"participants": "1,879 patients with type 2 diabetes",
+			"keyFindings": "Tirzepatide was noninferior and superior to semaglutide 1mg for HbA1c reduction and weight loss in type 2 diabetes. The 15mg dose achieved nearly twice the weight loss of semaglutide."
 		},
 		{
-			"title": "SURMOUNT-2 T2DM Trial",
+			"title": "Tirzepatide once weekly for the treatment of obesity in people with type 2 diabetes (SURMOUNT-2)",
+			"authors": "Garvey, W.T., et al.",
+			"journal": "The Lancet",
 			"year": "2023",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37385275/",
 			"participants": "938 adults with T2DM and obesity",
-			"keyFindings": "15mg dose achieved 15.7% weight loss with significant cardiometabolic improvements over 72 weeks."
+			"keyFindings": "15mg dose achieved 15.7% weight loss over 72 weeks with significant cardiometabolic improvements. 79-83% of tirzepatide recipients achieved ≥5% weight loss vs 32% placebo."
 		},
 		{
-			"title": "SURPASS-CVOT Cardiovascular Outcomes",
-			"year": "2023",
-			"participants": "12,785 T2DM patients over 3.5 years",
-			"keyFindings": "26% reduction in major adverse cardiovascular events, establishing cardioprotective benefits."
+			"title": "Cardiovascular Outcomes with Tirzepatide versus Dulaglutide in Type 2 Diabetes (SURPASS-CVOT)",
+			"authors": "Nicholls, S.J., et al.",
+			"journal": "New England Journal of Medicine",
+			"year": "2025",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41406444/",
+			"participants": "13,299 patients with T2DM and atherosclerotic CVD",
+			"keyFindings": "Tirzepatide was noninferior to dulaglutide for MACE (composite of CV death, MI, or stroke). Several secondary endpoints favored tirzepatide, including reduced all-cause mortality after 4-year median follow-up."
+		},
+		{
+			"title": "Tirzepatide for Obesity Treatment and Diabetes Prevention (SURMOUNT-1 3-Year Extension)",
+			"authors": "Jastreboff, A.M., et al.",
+			"journal": "New England Journal of Medicine",
+			"year": "2025",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39536238/",
+			"participants": "1,032 participants with obesity and prediabetes",
+			"keyFindings": "Three years of tirzepatide resulted in sustained weight reduction of up to 19.7% (15mg) and 93% lower risk of progression to type 2 diabetes vs placebo (HR 0.07)."
+		},
+		{
+			"title": "Tirzepatide for Heart Failure with Preserved Ejection Fraction and Obesity (SUMMIT)",
+			"authors": "Packer, M., et al.",
+			"journal": "New England Journal of Medicine",
+			"year": "2024",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39555826/",
+			"participants": "731 patients with HFpEF and obesity",
+			"keyFindings": "Tirzepatide reduced the composite of CV death or worsening heart failure by 38% (HR 0.62) vs placebo over median 104 weeks. Improved health status scores and 6-minute walk distance."
+		},
+		{
+			"title": "Tirzepatide as Compared with Semaglutide for the Treatment of Obesity (SURMOUNT-5)",
+			"authors": "Aronne, L.J., et al.",
+			"journal": "New England Journal of Medicine",
+			"year": "2025",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40353578/",
+			"participants": "Adults with obesity without type 2 diabetes",
+			"keyFindings": "Head-to-head comparison: tirzepatide achieved 20.2% weight loss vs 13.7% with semaglutide at 72 weeks. Tirzepatide was superior for body weight and waist circumference reduction."
+		},
+		{
+			"title": "Tirzepatide for the Treatment of Obstructive Sleep Apnea and Obesity (SURMOUNT-OSA)",
+			"authors": "Malhotra, A., et al.",
+			"journal": "New England Journal of Medicine",
+			"year": "2024",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38912654/",
+			"participants": "Adults with moderate-to-severe OSA and obesity",
+			"keyFindings": "Tirzepatide significantly reduced AHI with resolution of OSA in approximately 50% of participants. Also reduced body weight, hypoxic burden, hsCRP, and systolic blood pressure."
+		}
+	],
+	"latestResearch": [
+		{
+			"date": "2025-12",
+			"title": "SURPASS-CVOT Results Published",
+			"summary": "Landmark cardiovascular outcomes trial published in NEJM showing tirzepatide noninferior to dulaglutide for MACE in 13,299 patients with T2DM and atherosclerotic CVD, with favorable trends in secondary endpoints including all-cause mortality."
+		},
+		{
+			"date": "2025-05",
+			"title": "SURMOUNT-5 Head-to-Head vs Semaglutide",
+			"summary": "First direct comparison published in NEJM demonstrating tirzepatide superior to semaglutide for weight loss (20.2% vs 13.7%) and waist circumference reduction at 72 weeks in adults with obesity."
+		},
+		{
+			"date": "2025-03",
+			"title": "3-Year SURMOUNT-1 Extension for Diabetes Prevention",
+			"summary": "Three-year data showing sustained weight loss up to 19.7% and 93% reduction in progression to type 2 diabetes in persons with obesity and prediabetes treated with tirzepatide."
+		},
+		{
+			"date": "2024-11",
+			"title": "SUMMIT Trial: Heart Failure Benefits",
+			"summary": "Phase 3 SUMMIT trial showed tirzepatide reduced composite of CV death or worsening heart failure by 38% in patients with HFpEF and obesity, establishing cardiovascular benefits beyond weight loss."
 		}
 	],
 	"categories": ["weight-loss", "metabolic"],

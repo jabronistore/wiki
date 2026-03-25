@@ -263,24 +263,52 @@
 	},
 	"references": [
 		{
-			"title": "COVID-19 Treatment Study",
+			"title": "Thymosin Alpha 1 Reduces the Mortality of Severe Coronavirus Disease 2019 by Restoration of Lymphocytopenia and Reversion of Exhausted T Cells",
+			"authors": "Liu Y, Pang Y, Hu Z, et al.",
+			"journal": "Clinical Infectious Diseases",
 			"year": "2020",
-			"keyFindings": "30% vs 11% mortality reduction in severe cases; lymphocyte restoration."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32442287/",
+			"keyFindings": "Mortality significantly reduced in severe COVID-19: 11.11% with thymosin alpha 1 vs 30.00% untreated (P=0.044). Restored CD4+ and CD8+ T-cell numbers and reversed T-cell exhaustion markers PD-1 and Tim-3."
 		},
 		{
-			"title": "TESTS Phase 3 Sepsis Trial",
-			"year": "2020",
-			"keyFindings": "1,106 patients; mixed overall results but subgroup benefits in elderly/diabetic populations."
+			"title": "The Efficacy and Safety of Thymosin Alpha 1 for Sepsis (TESTS): Multicentre, Double-Blinded, Randomised, Placebo-Controlled, Phase 3 Trial",
+			"authors": "Liu J, Li J, He L, et al.",
+			"journal": "BMJ",
+			"year": "2025",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39814420/",
+			"keyFindings": "1,106 adults with sepsis across 22 centres. 28-day mortality: 23.4% thymosin alpha 1 vs 24.1% placebo (HR 0.99, P=0.93). No overall benefit, but prespecified subgroup analysis showed potential benefit in elderly and diabetic patients."
 		},
 		{
-			"title": "Cytokine Storm Mitigation Study",
-			"year": "2020",
-			"keyFindings": "40-60% reduction in pro-inflammatory cytokines (TNF-α, IL-1β, IL-6)."
+			"title": "Thymosin Alpha 1: A Historical Overview",
+			"authors": "Garaci E",
+			"journal": "Annals of the New York Academy of Sciences",
+			"year": "2007",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17567941/",
+			"keyFindings": "Comprehensive overview of thymosin alpha 1 from discovery to clinical application. Evidence for combined treatments with interferon or IL-2 restoring immune responses depressed by tumor growth and/or cytostatic drugs."
 		},
 		{
-			"title": "Comprehensive Safety Review",
+			"title": "Comprehensive Review of the Safety and Efficacy of Thymosin Alpha 1 in Human Clinical Trials",
+			"authors": "Johnson EK, et al.",
+			"journal": "Expert Opinion on Drug Safety",
 			"year": "2024",
-			"keyFindings": "11,000+ patients, 30+ trials; <1% serious adverse events."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38308608/",
+			"keyFindings": "Narrative review of 11,000+ patients across 30+ clinical trials. Exceptional safety profile with <1% serious adverse events. Applications in COVID-19, autoimmune conditions, hepatitis, and cancer."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Thymosin Alpha 1 Reverses Oncolytic Adenovirus-Induced M2 Polarization of Macrophages to Improve Antitumor Immunity",
+			"date": "2024",
+			"source": "Journal for ImmunoTherapy of Cancer",
+			"summary": "Thymosin alpha 1 reprograms M2-like tumor-associated macrophages toward an antitumoral phenotype, reshaping the tumor microenvironment to enhance antitumor immunity.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39357524/"
+		},
+		{
+			"title": "Integrating Thymosin Alpha 1 into Concurrent Chemoradiotherapy and Consolidative Immunotherapy in Unresectable Locally Advanced NSCLC",
+			"date": "2025",
+			"source": "Translational Lung Cancer Research",
+			"summary": "Preliminary analysis of thymosin alpha 1 combined with chemoradiotherapy and immunotherapy in locally advanced non-small cell lung cancer, showing potential for enhanced immune response.",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40799433/"
 		}
 	],
 	"categories": ["immune", "longevity"],

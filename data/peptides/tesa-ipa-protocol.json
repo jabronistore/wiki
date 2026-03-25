@@ -240,25 +240,54 @@
 	},
 	"references": [
 		{
-			"title": "Tesamorelin FDA Approval for HIV Lipodystrophy",
-			"journal": "FDA/Clinical Studies",
-			"year": "2010",
-			"keyFindings": "Tesamorelin (Egrifta) approved for reduction of excess abdominal fat in HIV patients."
+			"title": "Metabolic effects of a growth hormone-releasing factor in patients with HIV",
+			"authors": "Falutz J, Allas S, Blot K, et al.",
+			"year": "2007",
+			"journal": "New England Journal of Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18057338/",
+			"keyFindings": "Landmark RCT in 412 HIV patients: tesamorelin 2 mg daily for 26 weeks reduced visceral fat by 10.9% vs 0.6% placebo, improved lipid profiles with no change in subcutaneous fat."
 		},
 		{
-			"title": "Tesamorelin Effects on Visceral Fat",
-			"journal": "Journal of Clinical Endocrinology & Metabolism",
-			"keyFindings": "Tesamorelin significantly reduces visceral adipose tissue and improves lipid profiles."
-		},
-		{
-			"title": "Ipamorelin Selectivity Profile",
-			"journal": "Growth Hormone & IGF Research",
-			"keyFindings": "Ipamorelin selectively releases GH without affecting cortisol, prolactin, or ACTH."
+			"title": "Ipamorelin, the first selective growth hormone secretagogue",
+			"authors": "Raun K, Hansen BS, Johansen NL, et al.",
+			"year": "1998",
+			"journal": "European Journal of Endocrinology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9849822/",
+			"keyFindings": "Ipamorelin is the first GHRP-receptor agonist with selectivity for GH release similar to GHRH; does not release ACTH or cortisol even at doses over 200-fold the ED50 for GH."
 		},
 		{
 			"title": "GHRH + GHRP Synergy",
 			"journal": "Endocrine Reviews",
-			"keyFindings": "Combining GHRH and GHRP pathways produces synergistic GH release greater than either alone."
+			"keyFindings": "Combining GHRH and GHRP pathways produces synergistic GH release greater than either agent alone, driven by independent receptor mechanisms on pituitary somatotrophs."
+		},
+		{
+			"title": "No Published Studies on Tesa/IPA Combination",
+			"year": "2024",
+			"journal": "N/A",
+			"keyFindings": "No clinical trials have evaluated the specific tesamorelin + ipamorelin blend; synergy is inferred from GHRH/GHRP pharmacology and individual component data."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Efficacy and safety of tesamorelin in people with HIV on integrase inhibitors",
+			"date": "June 2024",
+			"source": "AIDS",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38905488/",
+			"summary": "First dedicated study in patients on INSTI-based regimens: tesamorelin significantly reduced visceral fat, hepatic fat, and trunk-to-appendicular fat ratio with no worsening of glycemic control."
+		},
+		{
+			"title": "Effects of Tesamorelin on Neurocognitive Impairment in Persons With HIV and Abdominal Obesity",
+			"date": "January 2025",
+			"source": "JAMA Network Open",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39813152/",
+			"summary": "Phase 2 RCT in 73 participants showed tesamorelin reduced waist circumference vs standard of care, though neurocognitive benefits did not reach statistical significance."
+		},
+		{
+			"title": "Body composition, hepatic fat, metabolic, and safety outcomes of Tesamorelin in HIV-associated lipodystrophy: A meta-analysis",
+			"date": "July 2025",
+			"source": "Clinical Endocrinology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/41545261/",
+			"summary": "Meta-analysis of five RCTs confirmed tesamorelin significantly reduces visceral adipose tissue in adults with HIV-associated lipodystrophy."
 		}
 	],
 	"blendComposition": {

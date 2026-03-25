@@ -249,24 +249,52 @@
 	},
 	"references": [
 		{
-			"title": "Rat Muscle Hypertrophy Study - Florini et al.",
-			"year": "1996",
-			"keyFindings": "2.5mg/kg/day for 4 weeks showed 2.5x greater anabolic response compared to native IGF-1. Satellite cell activation and protein synthesis increased 50%."
+			"title": "Insulin-like growth factor-I (IGF-I) and especially IGF-I variants are anabolic in dexamethasone-treated rats",
+			"authors": "Tomas FM, Knowles SE, Owens PC, Chandler CS, Francis GL, Read LC, Ballard FJ",
+			"journal": "Biochemical Journal",
+			"year": "1992",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1371669/",
+			"keyFindings": "LR3IGF-I was approximately 2.5-fold more potent than native IGF-1 in reversing dexamethasone-induced catabolism. 7-day treatment showed significant body weight recovery vs 19g loss in controls."
 		},
 		{
-			"title": "Fetal Sheep Metabolic Study",
-			"year": "2000",
-			"keyFindings": "Acute infusion suppressed insulin secretion by 66%. Study halted early due to 4 animal deaths from hypoglycemia."
-		},
-		{
-			"title": "Cancer Cachexia Rat Model",
-			"year": "1998",
-			"keyFindings": "0.3mg/kg/day for 14 days showed 30% lean mass preservation during cachexia."
-		},
-		{
-			"title": "UK Biobank Cancer Association",
+			"title": "Attenuated glucose-stimulated insulin secretion during an acute IGF-1 LR3 infusion into fetal sheep does not persist in isolated islets",
+			"authors": "Stremming J, White A, Galan HL, Brown LD",
+			"journal": "American Journal of Physiology - Regulatory, Integrative and Comparative Physiology",
 			"year": "2023",
-			"keyFindings": "Elevated IGF-1 associated with multiple cancers including thyroid, colorectal, breast, prostate, melanoma."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37114757/",
+			"keyFindings": "Fetal plasma insulin concentrations decreased 66% with IGF-1 LR3 infusion during hyperglycemic clamp. Insulin secretion suppression was acute and did not persist in isolated islets."
+		},
+		{
+			"title": "Insulin-like growth factor I preserves host lean tissue mass in cancer cachexia",
+			"authors": "Ng EH, Rock CS, Lazarus DD, Stiaino-Coico L, Moldawer LL, Bhatt GR",
+			"journal": "American Journal of Physiology",
+			"year": "1992",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1373040/",
+			"keyFindings": "IGF-1 treatment effectively attenuated host muscle protein and lean tissue depletion in a sarcoma model without stimulating tumor growth. Dose-dependent increases in carcass weight and gastrocnemius muscle protein."
+		},
+		{
+			"title": "Circulating Insulin-like Growth Factor-I Concentrations and Risk of 30 Cancers: Prospective Analyses in UK Biobank",
+			"authors": "Murphy N, Knuppel A, Papadimitriou N, Martin RM, Tsilidis KK, Brennan P et al.",
+			"journal": "Cancer Research",
+			"year": "2020",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32709735/",
+			"keyFindings": "Higher circulating IGF-1 associated with increased risks of colorectal, breast, prostate, and thyroid cancers in the UK Biobank prospective cohort of >395,000 participants."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Intranasal long R3 insulin-like growth factor-1 treatment promotes amyloid plaque remodeling in cerebral cortex but fails to preserve cognitive function in male 5XFAD mice",
+			"date": "November 2024",
+			"source": "Alzheimer's & Dementia",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39610283/",
+			"summary": "7-month intranasal LR3-IGF-1 treatment improved body composition and reduced filamentous plaques in cortex of Alzheimer's model mice, but failed to preserve cognitive function. Suggests potential for combinatorial approaches rather than monotherapy."
+		},
+		{
+			"title": "IGF-1 LR3 does not promote growth in late-gestation growth-restricted fetal sheep",
+			"date": "January 2025",
+			"source": "American Journal of Physiology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39679943/",
+			"summary": "1-week IGF-1 LR3 treatment did not improve growth in growth-restricted fetal sheep. Amino acid concentrations decreased in LR3 group, highlighting species- and context-specific responses."
 		}
 	],
 	"categories": ["growth-hormone", "healing"],

@@ -294,24 +294,52 @@
 	},
 	"references": [
 		{
-			"title": "Tripeptide-Copper Complex Effect on Human Hair Growth In Vitro",
+			"title": "The effect of tripeptide-copper complex on human hair growth in vitro",
+			"authors": "Pyo HK, Yoo HG, Won CH, Lee SH, Kang YJ, Eun HC, Cho KH, Kim KH",
+			"journal": "Archives of Pharmaceutical Research",
 			"year": "2007",
-			"keyFindings": "AHK-Cu (10⁻¹² to 10⁻⁹ M) stimulated human hair follicle elongation ex vivo and dermal papilla cell proliferation in vitro. Elevated Bcl-2/Bax ratio and reduced cleaved caspase-3/PARP levels indicate anti-apoptotic mechanism."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17703734/",
+			"keyFindings": "AHK-Cu (10⁻¹² to 10⁻⁹ M) stimulated human hair follicle elongation ex vivo and dermal papilla cell proliferation in vitro. Elevated Bcl-2/Bax ratio and reduced cleaved caspase-3/PARP levels indicate anti-apoptotic mechanism. Also increased VEGF production and decreased TGF-β1 secretion."
 		},
 		{
-			"title": "Copper Tripeptide Effects on VEGF and TGF-β1",
-			"year": "N/A",
-			"keyFindings": "Copper tripeptide complexes increase VEGF production while decreasing TGF-β1 secretion by dermal fibroblasts."
+			"title": "Effects of copper tripeptide on the growth and expression of growth factors by normal and irradiated fibroblasts",
+			"authors": "Canapp SO Jr, Farese JP, Schultz GS, Gowda S, Ishak AM, Swaim SF, Vangilov J, Lee-Ambrose L, Martin FG",
+			"journal": "Wound Repair and Regeneration",
+			"year": "2005",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15655171/",
+			"keyFindings": "Copper tripeptide (GHK-Cu) accelerates growth of normal and irradiated fibroblasts. Early increase in bFGF and VEGF production by treated fibroblasts; normal and keloid-producing fibroblasts treated with copper tripeptide secreted less TGF-β1."
 		},
 		{
-			"title": "Human Skin Penetration of Copper Tripeptide In Vitro",
-			"year": "N/A",
-			"keyFindings": "Evaluated transdermal delivery of copper tripeptide, demonstrating penetration through skin layers with potential for topical therapeutic applications."
+			"title": "Human skin penetration of a copper tripeptide in vitro as a function of skin layer",
+			"authors": "Mazurowska L, Mojski M",
+			"journal": "Skin Pharmacology and Physiology",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20721598/",
+			"keyFindings": "Copper tripeptide permeated through dermatomed skin with coefficient of 2.43 × 10⁻⁴ cm/h. 136.2 μg/cm² copper permeated over 48h while 97 μg/cm² retained as depot, demonstrating therapeutically effective amounts for topical delivery."
 		},
 		{
-			"title": "Ionic Liquid Microemulsions for Topical Peptide Delivery",
+			"title": "Thermodynamically stable ionic liquid microemulsions pioneer pathways for topical delivery and peptide application",
+			"authors": "Sikorska C et al.",
+			"journal": "International Journal of Pharmaceutics",
 			"year": "2023",
-			"keyFindings": "Novel delivery system using thermodynamically stable ionic liquid microemulsions to improve topical delivery and stability of copper tripeptides."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38026438/",
+			"keyFindings": "Novel delivery system using thermodynamically stable ionic liquid microemulsions to improve topical delivery and stability of copper tripeptides including AHK-Cu."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Enhanced hair regrowth with minoxidil-dutasteride-copper peptides tattooing for androgenetic alopecia",
+			"date": "March 2025",
+			"source": "Journal of Cosmetic Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40225275/",
+			"summary": "Five monthly sessions of minoxidil-dutasteride-copper peptides tattooing showed enhanced hair regrowth for androgenetic alopecia, assessed by AI and blinded evaluators."
+		},
+		{
+			"title": "Palmitoyl copper peptide and acetyl tyrosine complex enhances melanin production",
+			"date": "December 2024",
+			"source": "International Journal of Molecular Sciences",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/39632290/",
+			"summary": "Novel palmitoyl copper peptide formulation enhances melanin production in both A375 and B16 cell lines, demonstrating continued innovation in copper peptide applications."
 		}
 	],
 	"categories": ["skin", "healing"],

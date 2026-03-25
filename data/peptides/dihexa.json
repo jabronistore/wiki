@@ -283,27 +283,59 @@
 	},
 	"references": [
 		{
-			"title": "Injectable Route Efficacy Study",
+			"title": "Evaluation of Metabolically Stabilized Angiotensin IV Analogs as Procognitive/Antidementia Agents",
+			"authors": "McCoy AT, Benoist CC, Wright JW, Harding JW",
+			"journal": "Journal of Pharmacology and Experimental Therapeutics",
 			"year": "2013",
-			"keyFindings": "Intraperitoneal injection at 0.5mg/kg/day completely reversed scopolamine-induced cognitive deficits (p<0.001), with performance indistinguishable from healthy controls."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23055539/",
+			"keyFindings": "Oral dihexa (2 mg/kg) completely reversed scopolamine-induced cognitive deficits in Morris water maze by day 7; produced near 3-fold increase in hippocampal dendritic spines at picomolar concentrations."
 		},
 		{
-			"title": "APP/PS1 Alzheimer's Model Study",
+			"title": "AngIV-Analog Dihexa Rescues Cognitive Impairment and Recovers Memory in the APP/PS1 Mouse via the PI3K/AKT Signaling Pathway",
+			"authors": "Gao Y, Zhang Y, Wang Z, et al.",
+			"journal": "Brain Research Bulletin",
 			"year": "2021",
-			"keyFindings": "Dihexa restored spatial learning and memory in Morris water maze tests, increased neuronal cells and synaptophysin expression, reduced neuroinflammation."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34827486/",
+			"keyFindings": "Dihexa restored spatial learning in APP/PS1 Alzheimer's mice, increased neuronal cells and synaptophysin expression, decreased astrocyte/microglia activation, and reduced IL-1B and TNF-a via PI3K/AKT pathway."
 		},
 		{
-			"title": "Synaptogenic Potency Study",
+			"title": "The Procognitive and Synaptogenic Effects of Angiotensin IV-Derived Peptides Are Dependent on Activation of the Hepatocyte Growth Factor/c-Met System",
+			"authors": "Benoist CC, Kawas LH, Zhu M, Bhatt D, Wright JW, Harding JW",
+			"journal": "Journal of Pharmacology and Experimental Therapeutics",
 			"year": "2014",
-			"keyFindings": "Demonstrated to be 10 million times more effective than BDNF at promoting synapse formation through HGF/c-Met receptor activation."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25187433/",
+			"keyFindings": "Dihexa binds HGF with high affinity (Kd = 65 pM), induces c-Met phosphorylation and hippocampal spinogenesis/synaptogenesis similar to HGF; effects blocked by c-Met inhibitor confirming HGF/c-Met dependence."
+		},
+		{
+			"title": "The Development of Small Molecule Angiotensin IV Analogs to Treat Alzheimer's and Parkinson's Diseases",
+			"authors": "Wright JW, Harding JW",
+			"journal": "Progress in Neurobiology",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25455861/",
+			"keyFindings": "Comprehensive review establishing dihexa as an orally active, BBB-permeable compound that facilitates compromised memory and motor systems via HGF/c-Met modulation."
 		}
 	],
 	"latestResearch": [
 		{
-			"title": "Fosgonimeton (ATH-1017) Phase 2 Trials",
+			"title": "Fosgonimeton Attenuates Amyloid-Beta Toxicity in Preclinical Models of Alzheimer's Disease",
 			"date": "2024",
-			"source": "Clinical Development",
-			"summary": "Phosphate pro-drug of Dihexa currently in Phase 2 clinical trials for Alzheimer's and Parkinson's disease."
+			"source": "Alzheimer's Research & Therapy",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38599894/",
+			"summary": "Fosgonimeton (dihexa prodrug) enhanced pro-survival ERK/AKT signaling, reduced GSK3B activity, and significantly rescued cognitive function in Abeta25-35 rat model of Alzheimer's disease."
+		},
+		{
+			"title": "Safety, Tolerability, and Pharmacodynamics of Fosgonimeton in Healthy Volunteers and Alzheimer's Subjects: Phase I Clinical Trial",
+			"date": "2022",
+			"source": "Journal of Alzheimer's Disease",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35180125/",
+			"summary": "Phase I RCT (NCT03298672): fosgonimeton showed fast-onset normalization of ERP P300 latency in Alzheimer's subjects, suggesting enhancement of synaptic function; well-tolerated across dose ranges."
+		},
+		{
+			"title": "Fosgonimeton Promotes Neurotrophic and Procognitive Effects in Models of Dementia",
+			"date": "2023",
+			"source": "Neurotherapeutics",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36538176/",
+			"summary": "Fosgonimeton demonstrated neurotrophic and procognitive effects in multiple dementia models; clinical trials for mild-to-moderate Alzheimer's disease are ongoing (NCT04488419, NCT04886063)."
 		}
 	],
 	"categories": ["cognitive", "longevity"],

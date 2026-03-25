@@ -231,34 +231,75 @@
 	},
 	"references": [
 		{
-			"title": "BPC-157 + TB4 Knee Pain Study (Lee & Padgett)",
+			"title": "Intra-Articular Injection of BPC 157 for Multiple Types of Knee Pain",
+			"authors": "Lee E, Padgett B",
+			"journal": "Alternative Therapies in Health and Medicine",
 			"year": "2021",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34324435/",
 			"keyFindings": "16 patients, intra-articular injection: Overall 87.5% (14/16) experienced knee pain relief. BPC-157 alone: 91.6% improvement (11/12). BPC-157 + TB4 combination: 75% improvement (3/4)."
 		},
 		{
-			"title": "BPC-157 Systematic Review (Vasireddi et al.)",
+			"title": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review",
+			"authors": "Vasireddi A, et al.",
+			"journal": "HSS Journal",
 			"year": "2025",
-			"keyFindings": "36 articles reviewed. Preclinical models showed improvements in muscle tears, tendon ruptures, ligament tears, and fracture healing. Mechanism involves enhanced GH receptor expression and angiogenesis."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40756949/",
+			"keyFindings": "36 articles reviewed (544 screened, 1993-2024). Preclinical models showed improvements in muscle tears, tendon ruptures, ligament tears, and fracture healing. Mechanism involves enhanced GH receptor expression and angiogenesis."
 		},
 		{
-			"title": "Thymosin β4 Clinical Wound Healing (Treadwell et al.)",
+			"title": "The Regenerative Peptide Thymosin Beta-4 Accelerates the Rate of Dermal Healing in Preclinical Animal Models and in Patients",
+			"authors": "Treadwell T, Kleinman HK, Crockford D, Hardy MA, Goldstein AL",
+			"journal": "Annals of the New York Academy of Sciences",
 			"year": "2012",
-			"keyFindings": "Two Phase 2 clinical trials showed thymosin β4 accelerated wound healing by approximately one month in responsive ulcer patients."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23050815/",
+			"keyFindings": "Two Phase 2 clinical trials of stasis and pressure ulcers showed thymosin beta-4 accelerated wound healing by approximately one month in responsive patients."
 		},
 		{
-			"title": "Thymosin β4 Regenerative Properties Review (Goldstein et al.)",
+			"title": "Thymosin Beta-4: A Multi-Functional Regenerative Peptide. Basic Properties and Clinical Applications",
+			"authors": "Goldstein AL, Hannappel E, Sosne G, Kleinman HK",
+			"journal": "Expert Opinion on Biological Therapy",
 			"year": "2012",
-			"keyFindings": "Comprehensive review establishing thymosin β4 as regenerative, promoting cell migration, reducing inflammation/apoptosis, and decreasing scar formation."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22074294/",
+			"keyFindings": "Comprehensive review: thymosin beta-4 promotes cell migration, mobilizes stem/progenitor cells, forms new blood vessels, regenerates tissue, and reduces inflammation, apoptosis, and scar formation."
 		},
 		{
-			"title": "BPC-157 Achilles Tendon Healing",
+			"title": "Gastric Pentadecapeptide BPC 157 Accelerates Healing of Transected Rat Achilles Tendon and In Vitro Stimulates Tendocytes Growth",
+			"authors": "Staresinic M, Petrovic I, Novinscak T, et al.",
+			"journal": "Journal of Orthopaedic Research",
 			"year": "2003",
-			"keyFindings": "Rats, 10 μg/kg i.p. daily, 14 days: BPC-157 demonstrated superior healing of transected Achilles tendons with improved biomechanical properties."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14554208/",
+			"keyFindings": "Rats, 10 mcg/kg i.p. daily, 14 days: BPC-157 fully improved biomechanical properties (load of failure, Young's modulus), functional recovery (Achilles functional index), and histological healing of transected Achilles tendons."
 		},
 		{
-			"title": "Thymosin β4 Wound Healing Acceleration",
+			"title": "Thymosin Beta-4 Accelerates Wound Healing",
+			"authors": "Malinda KM, Sidhu GS, Mani H, et al.",
+			"journal": "Journal of Investigative Dermatology",
 			"year": "1999",
-			"keyFindings": "Rats, full thickness wounds: Topical or intraperitoneal Tβ4 increased re-epithelialization by 42% at 4 days and up to 61% at 7 days."
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10469335/",
+			"keyFindings": "Rats, full thickness wounds: topical or intraperitoneal thymosin beta-4 increased re-epithelialization by 42% at 4 days and up to 61% at 7 days, with increased collagen deposition and angiogenesis."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review",
+			"date": "2025",
+			"source": "HSS Journal",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40756949/",
+			"summary": "Comprehensive systematic review of 36 studies (1993-2024) confirming BPC-157 enhances GH receptor expression and angiogenesis pathways, with preclinical improvements in muscle, tendon, ligament, and bone injuries."
+		},
+		{
+			"title": "Regeneration or Risk? A Narrative Review of BPC-157 for Musculoskeletal Healing",
+			"date": "2025",
+			"source": "Biomedicines",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/40789979/",
+			"summary": "Narrative review evaluating the regenerative potential and risk profile of BPC-157 for musculoskeletal healing; discusses the gap between promising preclinical results and limited human clinical data."
+		},
+		{
+			"title": "Thymosin Beta-4 Promotes Dermal Healing",
+			"date": "2016",
+			"source": "Annals of the New York Academy of Sciences",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27450738/",
+			"summary": "Updated review of thymosin beta-4 dermal healing mechanisms including cell migration, angiogenesis, and anti-inflammatory effects in wound models and clinical applications."
 		}
 	],
 	"categories": ["healing", "longevity"],
