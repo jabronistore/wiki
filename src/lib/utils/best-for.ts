@@ -14,31 +14,37 @@ export const GOALS: GoalConfig[] = [
 		slug: 'healing',
 		title: 'Healing & Recovery',
 		description: 'Peptides studied for tissue repair, wound healing, tendon and ligament recovery, and post-surgical healing.',
-		matchCategories: ['Wound Healing', 'Tissue Repair', 'Tissue Regeneration', 'Tissue Healing', 'Recovery', 'Recovery & Wellness', 'Post-Surgical Recovery', 'Pain & Recovery', 'Sports Medicine', 'Athletic Recovery']
+		matchCategories: ['Wound Healing', 'Tissue Repair', 'Tissue Regeneration', 'Tissue Healing', 'Skin Regeneration', 'Recovery', 'Recovery & Wellness', 'Post-Surgical Recovery', 'Pain & Recovery', 'Sports Medicine', 'Athletic Recovery', 'Muscle Repair']
 	},
 	{
 		slug: 'weight-loss',
-		title: 'Weight Loss',
-		description: 'Peptides studied for appetite suppression, fat metabolism, and body weight reduction.',
-		matchCategories: ['Weight Loss', 'Fat Loss', 'Appetite Control', 'Body Composition']
+		title: 'Weight Loss & Metabolic',
+		description: 'Peptides studied for appetite suppression, fat metabolism, body weight reduction, and metabolic health.',
+		matchCategories: ['Weight Loss', 'Fat Loss', 'Appetite Control', 'Body Composition', 'Metabolic', 'Metabolic Health', 'Metabolic Support', 'Metabolic Research', 'Metabolic & Immune', 'Metabolism', 'Energy & Metabolism', 'Type 2 Diabetes', 'Diabetes']
 	},
 	{
 		slug: 'muscle-growth',
 		title: 'Muscle Growth',
 		description: 'Peptides studied for lean mass development, muscle protein synthesis, and body composition.',
-		matchCategories: ['Muscle Growth', 'Muscle Repair', 'Body Composition', 'Performance', 'Exercise Performance']
+		matchCategories: ['Muscle Growth', 'Muscle Repair', 'Body Composition', 'Performance', 'Exercise Performance', 'Performance (Banned in Sports)']
 	},
 	{
 		slug: 'anti-aging',
 		title: 'Anti-Aging & Longevity',
 		description: 'Peptides studied for cellular protection, telomere maintenance, skin rejuvenation, and age-related decline.',
-		matchCategories: ['Anti-Aging', 'Anti-Aging Protocol', 'Anti-Aging Research', 'Longevity', 'Cellular Protection']
+		matchCategories: ['Anti-Aging', 'Anti-Aging Protocol', 'Anti-Aging Research', 'Longevity', 'Cellular Protection', 'Quality of Life', 'Antioxidant & Detox', 'Mitochondrial']
 	},
 	{
 		slug: 'cognitive',
 		title: 'Cognitive Enhancement',
 		description: 'Peptides studied for memory, focus, neuroprotection, and cognitive performance.',
-		matchCategories: ['Cognitive', 'Cognitive Enhancement', 'Cognition', 'Memory', 'Neuroprotection', 'Neuroprotective', 'Neuroplasticity', 'Neurogenesis']
+		matchCategories: ['Cognitive', 'Cognitive Enhancement', 'Cognition', 'Memory', 'Neuroprotection', 'Neuroprotective', 'Neuroplasticity', 'Neurogenesis', 'Neurological', 'Neurological Support', 'Neural Health', 'Neurodegenerative Disease']
+	},
+	{
+		slug: 'mood',
+		title: 'Mood & Anxiety',
+		description: 'Peptides studied for anxiolytic effects, stress reduction, mood stabilisation, and mental wellbeing.',
+		matchCategories: ['Mood', 'Anxiety', 'Anxiety & Mood', 'Mood & Anxiety', 'Mental Health', 'Stress Resistance']
 	},
 	{
 		slug: 'sleep',
@@ -50,7 +56,7 @@ export const GOALS: GoalConfig[] = [
 		slug: 'immune',
 		title: 'Immune Support',
 		description: 'Peptides studied for immune modulation, antimicrobial properties, and immune system regulation.',
-		matchCategories: ['Immune Support', 'Immune', 'Immune Regulation', 'Immunity', 'Immune & Skin', 'Immune System Research']
+		matchCategories: ['Immune Support', 'Immune', 'Immune Regulation', 'Immunity', 'Immune & Skin', 'Immune System Research', 'Respiratory Support']
 	},
 	{
 		slug: 'gut-health',
@@ -68,7 +74,7 @@ export const GOALS: GoalConfig[] = [
 		slug: 'growth-hormone',
 		title: 'Growth Hormone',
 		description: 'Peptides that stimulate natural growth hormone release through GHRH and ghrelin receptor pathways.',
-		matchCategories: ['Growth Hormone', 'Growth Hormone Enhancement', 'Growth Hormone Deficiency']
+		matchCategories: ['Growth Hormone', 'Growth Hormone Enhancement', 'Growth Hormone Deficiency', 'Hormonal', 'Hormone Optimization']
 	},
 	{
 		slug: 'inflammation',
@@ -78,9 +84,9 @@ export const GOALS: GoalConfig[] = [
 	},
 	{
 		slug: 'sexual-health',
-		title: 'Sexual Health',
-		description: 'Peptides studied for sexual function, libido, and reproductive health.',
-		matchCategories: ['Sexual Health', 'Sexual Function', 'Male Reproductive Health', 'Female Fertility', 'Reproductive', 'Testosterone Support']
+		title: 'Sexual Health & Fertility',
+		description: 'Peptides studied for sexual function, libido, fertility, and reproductive health.',
+		matchCategories: ['Sexual Health', 'Sexual Function', 'Male Reproductive Health', 'Female Fertility', 'Female Fertility (FDA-Approved)', 'Male Fertility', 'Fertility & Reproductive', 'Reproductive', 'Testosterone Support', 'Male Hormone Support']
 	},
 	{
 		slug: 'cardiovascular',
@@ -90,9 +96,9 @@ export const GOALS: GoalConfig[] = [
 	},
 	{
 		slug: 'joint-health',
-		title: 'Joint Health',
-		description: 'Peptides studied for joint repair, cartilage regeneration, and osteoarthritis.',
-		matchCategories: ['Joint Health', 'Bone Health', 'Bone Health Research']
+		title: 'Joint & Bone Health',
+		description: 'Peptides studied for joint repair, cartilage regeneration, bone density, and osteoarthritis.',
+		matchCategories: ['Joint Health', 'Bone Health', 'Bone Health Research', 'Osteoporosis (FDA-Approved)']
 	}
 ];
 
