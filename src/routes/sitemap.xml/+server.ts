@@ -1,4 +1,5 @@
 import { getAllPeptides } from '$lib/data/peptides';
+import { getPopularComparisons } from '$lib/utils/comparison';
 import type { Guide } from '$lib/types';
 
 export const prerender = true;
@@ -43,6 +44,9 @@ export async function GET() {
 		{ loc: '/calculator', priority: '0.8', changefreq: 'monthly' },
 		{ loc: '/calculator/blend', priority: '0.7', changefreq: 'monthly' },
 		{ loc: '/calculator/accumulation', priority: '0.7', changefreq: 'monthly' },
+		{ loc: '/compare', priority: '0.8', changefreq: 'weekly' },
+		{ loc: '/tools/interactions', priority: '0.7', changefreq: 'monthly' },
+		{ loc: '/tools/cost', priority: '0.7', changefreq: 'monthly' },
 		{ loc: '/disclaimer', priority: '0.3', changefreq: 'yearly' },
 		{ loc: '/privacy', priority: '0.3', changefreq: 'yearly' }
 	];
@@ -75,10 +79,22 @@ export async function GET() {
 
 	// Blend calculator pages
 	const blendPages: SitemapUrl[] = [
-		{ loc: '/calculator/blend?b=klow', priority: '0.6', changefreq: 'monthly' },
-		{ loc: '/calculator/blend?b=glow', priority: '0.6', changefreq: 'monthly' },
-		{ loc: '/calculator/blend?b=cjc-ipa', priority: '0.6', changefreq: 'monthly' }
-	];
+		'klow', 'glow', 'cjc-ipa', 'wolverine', 'tri-heal-max', 'tesa-ipa', 'illumineuro'
+	].map((b) => ({ loc: `/calculator/blend?b=${b}`, priority: '0.6', changefreq: 'monthly' }));
+
+	// Comparison pages (popular synergistic/compatible pairs)
+	const comparisonPages: SitemapUrl[] = getPopularComparisons(peptides).map((pair) => ({
+		loc: `/compare/${pair.comparisonSlug}`,
+		priority: '0.6',
+		changefreq: 'monthly'
+	}));
+
+	// Cost calculator pages for all peptides
+	const costPages: SitemapUrl[] = peptides.map((p) => ({
+		loc: `/tools/cost?peptide=${p.id}`,
+		priority: '0.5',
+		changefreq: 'monthly'
+	}));
 
 	// Category filter pages
 	const categoryPages: SitemapUrl[] = [
@@ -114,7 +130,9 @@ export async function GET() {
 		...accumulationPages,
 		...blendPages,
 		...categoryPages,
-		...reconstitutionPages
+		...reconstitutionPages,
+		...comparisonPages,
+		...costPages
 	];
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

@@ -3,6 +3,7 @@
 	import { Home, ChevronRight, DollarSign } from 'lucide-svelte';
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
+	import { getPeptideBySlug } from '$lib/data/peptides';
 
 	const SITE_URL = 'https://peptide-db.com';
 
@@ -30,6 +31,45 @@
 	function selectPeptide(e: Event) {
 		const id = (e.target as HTMLSelectElement).value;
 		peptideId = id;
+
+		if (id) {
+			const p = getPeptideBySlug(id);
+			peptideName = p?.name || null;
+
+			// Parse dose defaults from the new peptide
+			let newDose = 250;
+			let newUnit: 'mcg' | 'mg' = 'mcg';
+			let newFreq = 1;
+
+			if (p?.quickStats?.typicalDose) {
+				const doseStr = p.quickStats.typicalDose;
+				const mgMatch = doseStr.match(/(\d+(?:\.\d+)?)\s*mg/i);
+				const mcgMatch = doseStr.match(/(\d+(?:\.\d+)?)\s*mcg/i);
+				if (mgMatch) { newDose = parseFloat(mgMatch[1]); newUnit = 'mg'; }
+				else if (mcgMatch) { newDose = parseFloat(mcgMatch[1]); newUnit = 'mcg'; }
+			}
+
+			if (p?.quickStats?.frequency) {
+				const freq = p.quickStats.frequency.toLowerCase();
+				if (freq.includes('twice daily') || freq.includes('2x daily')) newFreq = 2;
+				else if (freq.includes('weekly') || freq.includes('once weekly')) newFreq = 1 / 7;
+				else if (freq.includes('every other day')) newFreq = 0.5;
+				else if (freq.includes('twice weekly')) newFreq = 2 / 7;
+				else newFreq = 1;
+			}
+
+			dose = newDose;
+			doseUnit = newUnit;
+			dosesPerDay = newFreq;
+			vialPrice = 0;
+		} else {
+			peptideName = null;
+			dose = 250;
+			doseUnit = 'mcg';
+			dosesPerDay = 1;
+			vialPrice = 0;
+		}
+
 		if (browser && id) {
 			goto(`/tools/cost?peptide=${id}`, { replaceState: true, noScroll: true });
 		} else if (browser) {
@@ -232,6 +272,7 @@
 		max-width: 48rem;
 		margin: 0 auto;
 		padding: 1.5rem 1rem 4rem;
+		overflow-x: hidden;
 	}
 
 	/* Breadcrumb */
@@ -255,6 +296,8 @@
 
 	@media (max-width: 640px) {
 		.calc-layout { grid-template-columns: 1fr; }
+		.input-row { grid-template-columns: 1fr; }
+		.page-header h1 { font-size: 1.5rem; }
 	}
 
 	.calc-inputs {
@@ -287,6 +330,7 @@
 		display: flex;
 		align-items: center;
 		border: 1.5px solid hsl(var(--border));
+		max-width: 100%;
 		border-radius: 0.625rem;
 		background: hsl(var(--background));
 		overflow: hidden;
@@ -298,7 +342,7 @@
 	.field-input {
 		flex: 1;
 		padding: 0.75rem 0.875rem;
-		font-size: 1.125rem;
+		font-size: 1rem;
 		font-weight: 600;
 		font-family: var(--font-mono);
 		background: transparent;
@@ -306,6 +350,7 @@
 		border: none;
 		outline: none;
 		min-width: 0;
+		width: 100%;
 		appearance: textfield;
 		-moz-appearance: textfield;
 	}
