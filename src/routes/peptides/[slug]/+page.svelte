@@ -311,6 +311,37 @@
 						{/if}
 					</div>
 				{/if}
+
+				<!-- Evidence tracker -->
+				{#if peptide.references && peptide.references.length > 0}
+					{@const refCount = peptide.references.length}
+					{@const latestYear = Math.max(...peptide.references.filter(r => r.year).map(r => parseInt(r.year || '0')))}
+					{@const hasLatest = peptide.latestResearch && peptide.latestResearch.length > 0}
+					<div class="evidence-tracker">
+						<div class="ev-item">
+							<span class="ev-value">{refCount}</span>
+							<span class="ev-label">{refCount === 1 ? 'study' : 'studies'}</span>
+						</div>
+						{#if latestYear > 0}
+							<div class="ev-sep"></div>
+							<div class="ev-item">
+								<span class="ev-value">{latestYear}</span>
+								<span class="ev-label">latest</span>
+							</div>
+						{/if}
+						{#if hasLatest}
+							<div class="ev-sep"></div>
+							<div class="ev-item">
+								<span class="ev-value">{peptide.latestResearch?.length}</span>
+								<span class="ev-label">recent</span>
+							</div>
+						{/if}
+						<div class="ev-sep"></div>
+						<div class="ev-item">
+							<span class="ev-value ev-status">{getResearchStatusLabel(peptide.researchStatus)}</span>
+						</div>
+					</div>
+				{/if}
 			</div>
 
 			<!-- Quick Stats (mobile only) -->
@@ -981,6 +1012,48 @@
 		font-size: 0.875rem;
 		line-height: 1.5;
 		color: hsl(var(--foreground) / 0.8);
+	}
+
+	/* Evidence tracker */
+	.evidence-tracker {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		margin-top: 1rem;
+		padding: 0.625rem 0;
+	}
+
+	.ev-item {
+		display: flex;
+		align-items: baseline;
+		gap: 0.25rem;
+	}
+
+	.ev-value {
+		font-family: var(--font-mono);
+		font-size: 0.875rem;
+		font-weight: 600;
+		color: hsl(var(--foreground));
+	}
+
+	.ev-label {
+		font-size: 0.6875rem;
+		color: hsl(var(--muted-foreground));
+	}
+
+	.ev-status {
+		font-family: var(--font-sans);
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		color: hsl(var(--accent));
+	}
+
+	.ev-sep {
+		width: 1px;
+		height: 1rem;
+		background: hsl(var(--border));
 	}
 
 	/* Wikipedia-style rule line above every section except the first */

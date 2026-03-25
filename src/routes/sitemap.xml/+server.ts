@@ -1,5 +1,6 @@
 import { getAllPeptides } from '$lib/data/peptides';
 import { getPopularComparisons } from '$lib/utils/comparison';
+import { GOALS } from '$lib/utils/best-for';
 import type { Guide } from '$lib/types';
 
 export const prerender = true;
@@ -47,6 +48,7 @@ export async function GET() {
 		{ loc: '/compare', priority: '0.8', changefreq: 'weekly' },
 		{ loc: '/tools/interactions', priority: '0.7', changefreq: 'monthly' },
 		{ loc: '/tools/cost', priority: '0.7', changefreq: 'monthly' },
+		{ loc: '/get-started', priority: '0.8', changefreq: 'monthly' },
 		{ loc: '/disclaimer', priority: '0.3', changefreq: 'yearly' },
 		{ loc: '/privacy', priority: '0.3', changefreq: 'yearly' }
 	];
@@ -123,6 +125,13 @@ export async function GET() {
 
 	const today = new Date().toISOString().split('T')[0];
 
+	// Best-for pages
+	const bestForPages: SitemapUrl[] = GOALS.map((g) => ({
+		loc: `/peptides/best-for/${g.slug}`,
+		priority: '0.7',
+		changefreq: 'weekly'
+	}));
+
 	const urls = [
 		...staticPages,
 		...peptidePages,
@@ -132,7 +141,8 @@ export async function GET() {
 		...categoryPages,
 		...reconstitutionPages,
 		...comparisonPages,
-		...costPages
+		...costPages,
+		...bestForPages
 	];
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
