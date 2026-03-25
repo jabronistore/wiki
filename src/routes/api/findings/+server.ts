@@ -227,9 +227,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 		// Insert custom results (observed effects)
 		if (customResults && Array.isArray(customResults) && customResults.length > 0) {
 			const customResultsData = customResults
-				.filter(
-					(result: { name: string; rating: number }) => result.name && result.name.trim()
-				)
+				.filter((result: { name: string; rating: number }) => result.name && result.name.trim())
 				.map(
 					(result: {
 						name: string;
@@ -267,9 +265,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			concurrentCompounds.length > 0
 		) {
 			const compoundsData = concurrentCompounds
-				.filter(
-					(compound: { name: string }) => compound.name && compound.name.trim()
-				)
+				.filter((compound: { name: string }) => compound.name && compound.name.trim())
 				.map(
 					(compound: {
 						name: string;

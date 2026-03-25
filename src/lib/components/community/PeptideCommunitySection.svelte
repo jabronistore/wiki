@@ -16,7 +16,9 @@
 		</div>
 		<div class="header-text">
 			<h2>Community Research</h2>
-			<p>Join others researching {peptideName} — share findings, ask questions, and learn from real experiences</p>
+			<p>
+				Join others researching {peptideName} — share findings, ask questions, and learn from real experiences
+			</p>
 		</div>
 	</div>
 
@@ -29,7 +31,7 @@
 				<span class="card-title">View Results</span>
 				<span class="card-desc">Aggregated community findings</span>
 			</div>
-			<ArrowRight class="h-4 w-4 card-arrow" />
+			<ArrowRight class="card-arrow h-4 w-4" />
 		</a>
 
 		<a href="/peptides/{peptideId}/discussion" class="action-card">
@@ -40,7 +42,7 @@
 				<span class="card-title">Discussion</span>
 				<span class="card-desc">Questions & experiences</span>
 			</div>
-			<ArrowRight class="h-4 w-4 card-arrow" />
+			<ArrowRight class="card-arrow h-4 w-4" />
 		</a>
 
 		<a href="/peptides/{peptideId}/submit-findings" class="action-card cta">
@@ -51,14 +53,18 @@
 				<span class="card-title">Submit Your Findings</span>
 				<span class="card-desc">Contribute your research data</span>
 			</div>
-			<ArrowRight class="h-4 w-4 card-arrow" />
+			<ArrowRight class="card-arrow h-4 w-4" />
 		</a>
 	</div>
 </section>
 
 <style>
 	.community-section {
-		background: linear-gradient(135deg, hsl(var(--accent) / 0.08) 0%, hsl(var(--accent) / 0.02) 100%);
+		background: linear-gradient(
+			135deg,
+			hsl(var(--accent) / 0.08) 0%,
+			hsl(var(--accent) / 0.02) 100%
+		);
 		border: 2px solid hsl(var(--accent) / 0.2);
 		border-radius: 1rem;
 		padding: 1.5rem;
@@ -204,5 +210,4 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
-
 </style>

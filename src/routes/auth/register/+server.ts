@@ -2,8 +2,7 @@ import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
 export const POST: RequestHandler = async ({ request, locals }) => {
-	const { username, email, password, location, newsletterOptIn } =
-		await request.json();
+	const { username, email, password, location, newsletterOptIn } = await request.json();
 
 	// Validate required fields
 	if (!username || !email || !password) {
@@ -13,7 +12,10 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 	// Validate username format
 	if (!/^[a-zA-Z0-9_-]{3,30}$/.test(username)) {
 		return json(
-			{ error: 'Username must be 3-30 characters and contain only letters, numbers, underscores, and hyphens' },
+			{
+				error:
+					'Username must be 3-30 characters and contain only letters, numbers, underscores, and hyphens'
+			},
 			{ status: 400 }
 		);
 	}

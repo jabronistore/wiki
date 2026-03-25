@@ -83,9 +83,8 @@ Ipamorelin works through the ghrelin receptor, a completely separate signalling 
 That's the core argument for this stack. Not two peptides doing the same thing twice, but two peptides each removing a different bottleneck in GH secretion.
 
 <MermaidDiagram
-  title="CJC-1295 + Ipamorelin: Dual-Pathway GH Stimulation"
-  chart={`
-    graph TD
+title="CJC-1295 + Ipamorelin: Dual-Pathway GH Stimulation"
+chart={`     graph TD
       A[CJC-1295] -->|Binds GHRH Receptor| B[Pituitary Somatotrophs]
       C[Ipamorelin] -->|Binds Ghrelin Receptor GHSR1a| B
       B --> D[cAMP Production Increased]
@@ -122,19 +121,19 @@ A 2019 GH stimulation study found consistent elevation 30-60 minutes post-inject
 **Molecular weight**: 711.85 Da | **Half-life**: ~2 hours | **5 amino acids**
 
 <ComparisonScale
-  title="Side Effect Profile: Ipamorelin vs Other GH Secretagogues (1 = minimal, 10 = significant)"
-  items={[
-    { label: 'Ipamorelin - Cortisol', position: 1, color: '#059669' },
-    { label: 'Ipamorelin - Hunger', position: 2, color: '#059669' },
-    { label: 'GHRP-2 - Cortisol', position: 5, color: '#CC785C' },
-    { label: 'GHRP-2 - Hunger', position: 6, color: '#CC785C' },
-    { label: 'GHRP-6 - Cortisol', position: 6, color: '#BF4D43' },
-    { label: 'GHRP-6 - Hunger', position: 9, color: '#BF4D43' }
-  ]}
-  min={1}
-  max={10}
-  leftLabel="Negligible impact"
-  rightLabel="Major impact"
+title="Side Effect Profile: Ipamorelin vs Other GH Secretagogues (1 = minimal, 10 = significant)"
+items={[
+{ label: 'Ipamorelin - Cortisol', position: 1, color: '#059669' },
+{ label: 'Ipamorelin - Hunger', position: 2, color: '#059669' },
+{ label: 'GHRP-2 - Cortisol', position: 5, color: '#CC785C' },
+{ label: 'GHRP-2 - Hunger', position: 6, color: '#CC785C' },
+{ label: 'GHRP-6 - Cortisol', position: 6, color: '#BF4D43' },
+{ label: 'GHRP-6 - Hunger', position: 9, color: '#BF4D43' }
+]}
+min={1}
+max={10}
+leftLabel="Negligible impact"
+rightLabel="Major impact"
 />
 
 ## DAC vs No-DAC: The Half-Life Trade-Off
@@ -147,16 +146,16 @@ Sounds better, right? Longer duration, fewer injections. One shot a week instead
 
 The problem is physiology. Your body doesn't maintain GH at a constant elevated level. It pulses. The [CJC-1295 DAC](/peptides/cjc-1295-dac) variant provides continuous GHRH receptor stimulation, which is closer to exogenous HGH than to natural GH patterns. A 2012 animal study over 6 months found evidence of reduced GH pulse amplitude with prolonged DAC use, suggesting receptor desensitization. A 2015 pharmacokinetic comparison confirmed that the non-DAC variant preserves more physiological secretion patterns.
 
-| | CJC-1295 (No DAC) | CJC-1295 with DAC |
-|---|---|---|
-| **Half-life** | 30 min - 2 hours | 6-8 days |
-| **Dosing** | 100-300mcg, 2-3x daily | 1-2mg, once weekly |
-| **GH pattern** | Pulsatile (natural) | Sustained elevation |
-| **Desensitization risk** | Low | Higher with prolonged use |
-| **Ipamorelin pairing** | Strong (matched pulsatile timing) | Reduced (continuous vs pulsatile conflict) |
-| **Side effects** | Fewer, milder | More water retention, joint issues |
-| **Convenience** | Low (daily injections) | High (weekly) |
-| **Best for** | Long-term protocols, pairing with Ipamorelin | Short cycles prioritizing convenience |
+|                          | CJC-1295 (No DAC)                            | CJC-1295 with DAC                          |
+| ------------------------ | -------------------------------------------- | ------------------------------------------ |
+| **Half-life**            | 30 min - 2 hours                             | 6-8 days                                   |
+| **Dosing**               | 100-300mcg, 2-3x daily                       | 1-2mg, once weekly                         |
+| **GH pattern**           | Pulsatile (natural)                          | Sustained elevation                        |
+| **Desensitization risk** | Low                                          | Higher with prolonged use                  |
+| **Ipamorelin pairing**   | Strong (matched pulsatile timing)            | Reduced (continuous vs pulsatile conflict) |
+| **Side effects**         | Fewer, milder                                | More water retention, joint issues         |
+| **Convenience**          | Low (daily injections)                       | High (weekly)                              |
+| **Best for**             | Long-term protocols, pairing with Ipamorelin | Short cycles prioritizing convenience      |
 
 <Callout type="info" title="Which Pairs Better with Ipamorelin?">
 
@@ -170,13 +169,13 @@ The [CJC/IPA protocol](/peptides/cjc-ipa-protocol) is typically dosed at a 1:1 r
 
 ### Protocol Options
 
-| Goal | CJC-1295 Dose | Ipamorelin Dose | Frequency | Notes |
-|------|---------------|-----------------|-----------|-------|
-| General health | 100mcg | 100mcg | 1x daily (bedtime) | Conservative starting point |
-| Anti-aging/sleep | 150-200mcg | 200mcg | 1x daily (bedtime) | Most common protocol |
-| Body composition | 200-300mcg | 250-300mcg | 2x daily (AM + PM) | More aggressive |
-| Performance | 200mcg | 200-250mcg | 2-3x daily | Empty stomach required |
-| Conservative | 150mcg | 150mcg | 5 days/week | Weekend breaks |
+| Goal             | CJC-1295 Dose | Ipamorelin Dose | Frequency          | Notes                       |
+| ---------------- | ------------- | --------------- | ------------------ | --------------------------- |
+| General health   | 100mcg        | 100mcg          | 1x daily (bedtime) | Conservative starting point |
+| Anti-aging/sleep | 150-200mcg    | 200mcg          | 1x daily (bedtime) | Most common protocol        |
+| Body composition | 200-300mcg    | 250-300mcg      | 2x daily (AM + PM) | More aggressive             |
+| Performance      | 200mcg        | 200-250mcg      | 2-3x daily         | Empty stomach required      |
+| Conservative     | 150mcg        | 150mcg          | 5 days/week        | Weekend breaks              |
 
 ### Timing Rules
 
@@ -189,15 +188,15 @@ Timing matters more for this stack than for most peptides. GH release is blunted
 - Post-workout is an option for a third daily dose, but only if you haven't eaten recently
 
 <SpectrumBar
-  title="Optimal Injection Timing Windows"
-  segments={[
-    { label: 'Morning Fasted', sublabel: 'Strong', width: 2, color: '#059669' },
-    { label: 'Mid-day', sublabel: 'Weak', width: 2, color: '#91918D' },
-    { label: 'Post-Workout', sublabel: 'Moderate', width: 2, color: '#D4A27F' },
-    { label: 'Pre-Bed', sublabel: 'Optimal', width: 3, color: '#059669' }
-  ]}
-  leftLabel="Wake"
-  rightLabel="Sleep"
+title="Optimal Injection Timing Windows"
+segments={[
+{ label: 'Morning Fasted', sublabel: 'Strong', width: 2, color: '#059669' },
+{ label: 'Mid-day', sublabel: 'Weak', width: 2, color: '#91918D' },
+{ label: 'Post-Workout', sublabel: 'Moderate', width: 2, color: '#D4A27F' },
+{ label: 'Pre-Bed', sublabel: 'Optimal', width: 3, color: '#059669' }
+]}
+leftLabel="Wake"
+rightLabel="Sleep"
 />
 
 ### Cycle Structure
@@ -228,16 +227,16 @@ That said, Sermorelin has the strongest human evidence base of any GHRH analog. 
 MK-677 is an oral ghrelin mimetic. Convenient (no injections), but it provides continuous GH elevation similar to CJC-1295 DAC, raising desensitization concerns. It also significantly increases appetite and can cause insulin resistance with extended use. CJC-1295 + Ipamorelin offers more precise control over GH timing and magnitude.
 
 <BarChart
-  title="Relative GH Pulse Magnitude (approximate, based on published data)"
-  data={[
-    { label: 'Ipamorelin alone', value: 3, suffix: 'x baseline' },
-    { label: 'CJC-1295 alone', value: 4, suffix: 'x baseline' },
-    { label: 'CJC-1295 + Ipamorelin', value: 8, suffix: 'x baseline', color: '#059669' },
-    { label: 'GHRH + GHRP-2', value: 12, suffix: 'x baseline', color: '#CC785C' },
-    { label: 'CJC-1295 DAC (sustained)', value: 3, suffix: 'x baseline' }
-  ]}
-  maxValue={14}
-  barColor="#6366f1"
+title="Relative GH Pulse Magnitude (approximate, based on published data)"
+data={[
+{ label: 'Ipamorelin alone', value: 3, suffix: 'x baseline' },
+{ label: 'CJC-1295 alone', value: 4, suffix: 'x baseline' },
+{ label: 'CJC-1295 + Ipamorelin', value: 8, suffix: 'x baseline', color: '#059669' },
+{ label: 'GHRH + GHRP-2', value: 12, suffix: 'x baseline', color: '#CC785C' },
+{ label: 'CJC-1295 DAC (sustained)', value: 3, suffix: 'x baseline' }
+]}
+maxValue={14}
+barColor="#6366f1"
 />
 
 ## Side Effects and Safety

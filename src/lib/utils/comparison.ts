@@ -78,10 +78,7 @@ export function getPopularComparisons(allPeptides: Peptide[]): ComparisonPair[] 
 		for (const interaction of peptide.interactions) {
 			if (interaction.status !== 'synergistic' && interaction.status !== 'compatible') continue;
 
-			const otherId = findPeptideIdByName(
-				interaction.peptide,
-				summaries as PeptideSummary[]
-			);
+			const otherId = findPeptideIdByName(interaction.peptide, summaries as PeptideSummary[]);
 			if (!otherId) continue;
 
 			const slug = buildComparisonSlug(peptide.id, otherId);

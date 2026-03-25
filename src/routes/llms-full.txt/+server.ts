@@ -6,8 +6,15 @@ import type { Guide } from '$lib/types';
 
 // Load at build time — no fs needed, works on Cloudflare
 const guideMetaPaths = import.meta.glob('/src/guides/*.md', { eager: true });
-const guideRawPaths = import.meta.glob('/src/guides/*.md', { eager: true, query: '?raw', import: 'default' }) as Record<string, string>;
-const peptideFiles = import.meta.glob('/data/peptides/*.json', { eager: true }) as Record<string, { default: Record<string, unknown> }>;
+const guideRawPaths = import.meta.glob('/src/guides/*.md', {
+	eager: true,
+	query: '?raw',
+	import: 'default'
+}) as Record<string, string>;
+const peptideFiles = import.meta.glob('/data/peptides/*.json', { eager: true }) as Record<
+	string,
+	{ default: Record<string, unknown> }
+>;
 
 function getPublishedGuidesWithContent(): { slug: string; title: string; content: string }[] {
 	const guides: { slug: string; title: string; content: string }[] = [];
@@ -28,8 +35,20 @@ function getPublishedGuidesWithContent(): { slug: string; title: string; content
 	return guides.sort((a, b) => a.title.localeCompare(b.title));
 }
 
-function getPeptideData(): { id: string; name: string; overview: string; mechanism: string; keyBenefits: string[] }[] {
-	const peptides: { id: string; name: string; overview: string; mechanism: string; keyBenefits: string[] }[] = [];
+function getPeptideData(): {
+	id: string;
+	name: string;
+	overview: string;
+	mechanism: string;
+	keyBenefits: string[];
+}[] {
+	const peptides: {
+		id: string;
+		name: string;
+		overview: string;
+		mechanism: string;
+		keyBenefits: string[];
+	}[] = [];
 
 	for (const path in peptideFiles) {
 		try {
@@ -74,17 +93,21 @@ Total peptides: ${peptides.length}
 
 `;
 
-	const guidesSection = guides.length > 0
-		? `## Guides\n\n${guides.map((g) => `### ${g.title}\n\nURL: https://peptide-db.com/guides/${g.slug}\n\n${g.content}`).join('\n\n---\n\n')}`
-		: '## Guides\n\nNo published guides yet.';
+	const guidesSection =
+		guides.length > 0
+			? `## Guides\n\n${guides.map((g) => `### ${g.title}\n\nURL: https://peptide-db.com/guides/${g.slug}\n\n${g.content}`).join('\n\n---\n\n')}`
+			: '## Guides\n\nNo published guides yet.';
 
-	const peptidesSection = `## Peptide Profiles\n\n${peptides.map((p) => {
-		let entry = `### ${p.name}\n\nURL: https://peptide-db.com/peptides/${p.id}\n\n`;
-		if (p.overview) entry += `${p.overview}\n\n`;
-		if (p.mechanism) entry += `**Mechanism:** ${p.mechanism}\n\n`;
-		if (p.keyBenefits.length > 0) entry += `**Key Benefits:**\n${p.keyBenefits.map((b) => `- ${b}`).join('\n')}\n`;
-		return entry;
-	}).join('\n\n---\n\n')}`;
+	const peptidesSection = `## Peptide Profiles\n\n${peptides
+		.map((p) => {
+			let entry = `### ${p.name}\n\nURL: https://peptide-db.com/peptides/${p.id}\n\n`;
+			if (p.overview) entry += `${p.overview}\n\n`;
+			if (p.mechanism) entry += `**Mechanism:** ${p.mechanism}\n\n`;
+			if (p.keyBenefits.length > 0)
+				entry += `**Key Benefits:**\n${p.keyBenefits.map((b) => `- ${b}`).join('\n')}\n`;
+			return entry;
+		})
+		.join('\n\n---\n\n')}`;
 
 	const footer = `
 

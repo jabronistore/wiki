@@ -148,7 +148,11 @@
 				class:upvoted={userUpvotes.has(discussion.id)}
 				onclick={() => onUpvote(discussion.id)}
 				disabled={!user}
-				title={user ? (userUpvotes.has(discussion.id) ? 'Remove upvote' : 'Upvote') : 'Log in to upvote'}
+				title={user
+					? userUpvotes.has(discussion.id)
+						? 'Remove upvote'
+						: 'Upvote'
+					: 'Log in to upvote'}
 			>
 				<ChevronUp class="h-4 w-4" />
 			</button>

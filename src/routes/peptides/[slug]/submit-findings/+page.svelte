@@ -40,7 +40,7 @@
 		{ value: 'muscle_strain', label: 'Muscle strain' },
 		{ value: 'ligament_sprain', label: 'Ligament sprain' },
 		{ value: 'rotator_cuff', label: 'Rotator cuff injury' },
-		{ value: 'tennis_elbow', label: 'Tennis/golfer\'s elbow' },
+		{ value: 'tennis_elbow', label: "Tennis/golfer's elbow" },
 		{ value: 'plantar_fasciitis', label: 'Plantar fasciitis' },
 		{ value: 'joint_pain', label: 'Joint pain/arthritis' },
 		{ value: 'back_injury', label: 'Back injury' },
@@ -209,7 +209,14 @@
 
 	// Injectable details (Step 2)
 	let injectableDetails = $state({
-		injectionSite: 'abdomen' as 'abdomen' | 'love_handles' | 'thigh' | 'deltoid' | 'gluteal' | 'vastus_lateralis' | 'rotated',
+		injectionSite: 'abdomen' as
+			| 'abdomen'
+			| 'love_handles'
+			| 'thigh'
+			| 'deltoid'
+			| 'gluteal'
+			| 'vastus_lateralis'
+			| 'rotated',
 		needleGauge: '29g' as '27g' | '29g' | '30g' | '31g' | 'insulin_syringe',
 		storageCondition: 'refrigerated' as 'refrigerated' | 'room_temp',
 		daysSinceReconstitution: 0
@@ -253,7 +260,9 @@
 	let effectivenessRating = $state(7);
 	let timeToNoticeDays = $state(14);
 	let timeToPeakDays = $state(30);
-	let effectPersistence = $state<'ongoing' | 'less_than_week' | '1_to_4_weeks' | '1_to_3_months' | 'more_than_3_months'>('ongoing');
+	let effectPersistence = $state<
+		'ongoing' | 'less_than_week' | '1_to_4_weeks' | '1_to_3_months' | 'more_than_3_months'
+	>('ongoing');
 	let doseResponseNoticed = $state(false);
 	let doseResponseNotes = $state('');
 	let qualitativeNotes = $state('');
@@ -657,37 +666,37 @@
 	// Helper functions to get display labels for categorical values
 	function getInjuryTypeLabel(value: string, otherText?: string): string {
 		if (value === 'other' && otherText) return otherText;
-		const option = INJURY_TYPE_OPTIONS.find(o => o.value === value);
+		const option = INJURY_TYPE_OPTIONS.find((o) => o.value === value);
 		return option?.label || value;
 	}
 
 	function getTopicalAreaLabel(value: string, otherText?: string): string {
 		if (value === 'other' && otherText) return otherText;
-		const option = TOPICAL_AREA_OPTIONS.find(o => o.value === value);
+		const option = TOPICAL_AREA_OPTIONS.find((o) => o.value === value);
 		return option?.label || value;
 	}
 
 	function getEffectLabel(value: string, otherText?: string): string {
 		if (value === 'other' && otherText) return otherText;
-		const option = OBSERVED_EFFECT_OPTIONS.find(o => o.value === value);
+		const option = OBSERVED_EFFECT_OPTIONS.find((o) => o.value === value);
 		return option?.label || value;
 	}
 
 	function getSideEffectLabel(value: string, otherText?: string): string {
 		if (value === 'other' && otherText) return otherText;
-		const option = COMMON_SIDE_EFFECT_OPTIONS.find(o => o.value === value);
+		const option = COMMON_SIDE_EFFECT_OPTIONS.find((o) => o.value === value);
 		return option?.label || value;
 	}
 
 	function getCompoundLabel(value: string, otherText?: string): string {
 		if (value === 'other' && otherText) return otherText;
-		const option = COMMON_COMPOUND_OPTIONS.find(o => o.value === value);
+		const option = COMMON_COMPOUND_OPTIONS.find((o) => o.value === value);
 		return option?.label || value;
 	}
 
 	function getManagementLabel(value: string, otherText?: string): string {
 		if (value === 'other' && otherText) return otherText;
-		const option = MANAGEMENT_STRATEGY_OPTIONS.find(o => o.value === value);
+		const option = MANAGEMENT_STRATEGY_OPTIONS.find((o) => o.value === value);
 		return option?.label || value;
 	}
 </script>
@@ -699,22 +708,26 @@
 <div class="min-h-screen bg-background">
 	<!-- Header -->
 	<div class="wizard-header">
-		<div class="max-w-4xl mx-auto px-4 py-6">
-			<div class="flex items-center gap-3 mb-2">
-				<a href="/peptides/{peptide.id}" class="text-muted-foreground hover:text-foreground transition-colors">
+		<div class="mx-auto max-w-4xl px-4 py-6">
+			<div class="mb-2 flex items-center gap-3">
+				<a
+					href="/peptides/{peptide.id}"
+					class="text-muted-foreground transition-colors hover:text-foreground"
+				>
 					← Back to {peptide.name}
 				</a>
 			</div>
 			<h1 class="wizard-title">Submit Research Findings</h1>
-			<p class="text-muted-foreground mt-1">
-				Share your experience with <span class="text-accent font-medium">{peptide.name}</span> to help the research community
+			<p class="mt-1 text-muted-foreground">
+				Share your experience with <span class="font-medium text-accent">{peptide.name}</span> to help
+				the research community
 			</p>
 		</div>
 	</div>
 
 	<!-- Progress indicator -->
 	<div class="wizard-progress">
-		<div class="max-w-4xl mx-auto px-4">
+		<div class="mx-auto max-w-4xl px-4">
 			<div class="progress-track">
 				{#each steps as step, i}
 					<button
@@ -743,7 +756,7 @@
 	</div>
 
 	<!-- Main content -->
-	<div class="max-w-4xl mx-auto px-4 py-8">
+	<div class="mx-auto max-w-4xl px-4 py-8">
 		{#if error}
 			<div class="error-banner">
 				<AlertTriangle class="h-5 w-5" />
@@ -806,7 +819,11 @@
 													step="1"
 													class="dose-value"
 												/>
-												<select bind:value={phase.doseUnit} class="dose-unit" aria-label="Dose unit">
+												<select
+													bind:value={phase.doseUnit}
+													class="dose-unit"
+													aria-label="Dose unit"
+												>
 													<option value="mcg">mcg</option>
 													<option value="mg">mg</option>
 													<option value="iu">IU</option>
@@ -819,7 +836,11 @@
 											<select
 												id="frequency-{i}"
 												value={getSelectedPresetValue(phase, i)}
-												onchange={(e) => handleFrequencyChange(i, parseFloat((e.target as HTMLSelectElement).value))}
+												onchange={(e) =>
+													handleFrequencyChange(
+														i,
+														parseFloat((e.target as HTMLSelectElement).value)
+													)}
 											>
 												{#each FREQUENCY_PRESETS as preset}
 													<option value={preset.value}>{preset.label}</option>
@@ -830,7 +851,11 @@
 													<input
 														type="number"
 														value={customFrequencyInputs[i]}
-														onchange={(e) => handleCustomFrequencyInput(i, parseFloat((e.target as HTMLInputElement).value))}
+														onchange={(e) =>
+															handleCustomFrequencyInput(
+																i,
+																parseFloat((e.target as HTMLInputElement).value)
+															)}
 														min="0.5"
 														max="28"
 														step="0.5"
@@ -883,13 +908,12 @@
 
 										<div class="field-group full-width">
 											<label class="checkbox-label">
-												<input
-													type="checkbox"
-													bind:checked={phase.isLoadingDose}
-												/>
+												<input type="checkbox" bind:checked={phase.isLoadingDose} />
 												<span>This is a loading/saturation dose phase</span>
 											</label>
-											<p class="field-hint">Check if this phase uses a higher initial dose to reach saturation faster</p>
+											<p class="field-hint">
+												Check if this phase uses a higher initial dose to reach saturation faster
+											</p>
 										</div>
 									</div>
 								{/if}
@@ -918,7 +942,10 @@
 
 					<div class="info-callout">
 						<Info class="h-5 w-5" />
-						<p>Include all phases of your protocol, including titration periods and breaks. This helps us understand dosing patterns and their effects.</p>
+						<p>
+							Include all phases of your protocol, including titration periods and breaks. This
+							helps us understand dosing patterns and their effects.
+						</p>
 					</div>
 				</div>
 			{/if}
@@ -945,7 +972,8 @@
 
 					{#if availableAdministrationMethods().length < allAdministrationMethods.length}
 						<p class="method-note">
-							Showing methods available for {peptide.name}. <button
+							Showing methods available for {peptide.name}.
+							<button
 								class="link-btn"
 								onclick={() => {
 									/* Show all */
@@ -962,7 +990,13 @@
 								<div class="field-group">
 									<label for="vial-size">Vial Size</label>
 									<div class="input-with-unit">
-										<input id="vial-size" type="number" bind:value={reconstitution.vialSizeMg} min="0" step="0.5" />
+										<input
+											id="vial-size"
+											type="number"
+											bind:value={reconstitution.vialSizeMg}
+											min="0"
+											step="0.5"
+										/>
 										<span>mg</span>
 									</div>
 								</div>
@@ -980,7 +1014,13 @@
 								<div class="field-group">
 									<label for="diluent-volume">Diluent Volume</label>
 									<div class="input-with-unit">
-										<input id="diluent-volume" type="number" bind:value={reconstitution.diluentVolumeMl} min="0" step="0.1" />
+										<input
+											id="diluent-volume"
+											type="number"
+											bind:value={reconstitution.diluentVolumeMl}
+											min="0"
+											step="0.1"
+										/>
 										<span>mL</span>
 									</div>
 								</div>
@@ -1060,7 +1100,13 @@
 								<div class="field-group">
 									<label for="days-since-recon">Days Since Reconstitution</label>
 									<div class="input-with-unit">
-										<input id="days-since-recon" type="number" bind:value={injectableDetails.daysSinceReconstitution} min="0" max="60" />
+										<input
+											id="days-since-recon"
+											type="number"
+											bind:value={injectableDetails.daysSinceReconstitution}
+											min="0"
+											max="60"
+										/>
 										<span>days avg</span>
 									</div>
 								</div>
@@ -1073,20 +1119,39 @@
 								<div class="field-group">
 									<label for="nasal-concentration">Spray Concentration</label>
 									<div class="input-with-unit">
-										<input id="nasal-concentration" type="number" bind:value={nasalDetails.concentration} min="0" step="0.1" />
+										<input
+											id="nasal-concentration"
+											type="number"
+											bind:value={nasalDetails.concentration}
+											min="0"
+											step="0.1"
+										/>
 										<span>mg/mL</span>
 									</div>
 								</div>
 								<div class="field-group">
 									<label for="nasal-spray-volume">Volume per Spray</label>
 									<div class="input-with-unit">
-										<input id="nasal-spray-volume" type="number" bind:value={nasalDetails.sprayVolume} min="0" step="0.01" placeholder="0.1" />
+										<input
+											id="nasal-spray-volume"
+											type="number"
+											bind:value={nasalDetails.sprayVolume}
+											min="0"
+											step="0.01"
+											placeholder="0.1"
+										/>
 										<span>mL</span>
 									</div>
 								</div>
 								<div class="field-group">
 									<label for="nasal-sprays">Sprays per Dose</label>
-									<input id="nasal-sprays" type="number" bind:value={nasalDetails.spraysPerDose} min="1" max="10" />
+									<input
+										id="nasal-sprays"
+										type="number"
+										bind:value={nasalDetails.spraysPerDose}
+										min="1"
+										max="10"
+									/>
 								</div>
 								<div class="field-group">
 									<label for="nasal-nostril">Application</label>
@@ -1171,7 +1236,13 @@
 								<div class="field-group">
 									<label for="sublingual-duration">Hold Duration</label>
 									<div class="input-with-unit">
-										<input id="sublingual-duration" type="number" bind:value={sublingualDetails.holdDuration} min="0" max="30" />
+										<input
+											id="sublingual-duration"
+											type="number"
+											bind:value={sublingualDetails.holdDuration}
+											min="0"
+											max="30"
+										/>
 										<span>minutes</span>
 									</div>
 								</div>
@@ -1273,10 +1344,7 @@
 
 						<div class="field-group">
 							<label class="checkbox-label">
-								<input
-									type="checkbox"
-									bind:checked={doseResponseNoticed}
-								/>
+								<input type="checkbox" bind:checked={doseResponseNoticed} />
 								<span>Did you notice effects change with different doses?</span>
 							</label>
 							{#if doseResponseNoticed}
@@ -1346,7 +1414,12 @@
 								<div class="field-group">
 									<label for="healing-timeline">Healing Timeline</label>
 									<div class="input-with-unit">
-										<input id="healing-timeline" type="number" bind:value={healingResults.healingTimelineDays} min="0" />
+										<input
+											id="healing-timeline"
+											type="number"
+											bind:value={healingResults.healingTimelineDays}
+											min="0"
+										/>
 										<span>days</span>
 									</div>
 								</div>
@@ -1375,7 +1448,13 @@
 									<div class="field-group">
 										<label for="starting-weight">Starting Weight</label>
 										<div class="input-with-unit">
-											<input id="starting-weight" type="number" bind:value={weightLossResults.startingWeightKg} min="0" step="0.1" />
+											<input
+												id="starting-weight"
+												type="number"
+												bind:value={weightLossResults.startingWeightKg}
+												min="0"
+												step="0.1"
+											/>
 											<span>kg</span>
 										</div>
 									</div>
@@ -1383,7 +1462,13 @@
 									<div class="field-group">
 										<label for="ending-weight">Current/Ending Weight</label>
 										<div class="input-with-unit">
-											<input id="ending-weight" type="number" bind:value={weightLossResults.endingWeightKg} min="0" step="0.1" />
+											<input
+												id="ending-weight"
+												type="number"
+												bind:value={weightLossResults.endingWeightKg}
+												min="0"
+												step="0.1"
+											/>
 											<span>kg</span>
 										</div>
 									</div>
@@ -1425,12 +1510,7 @@
 							<div class="category-questions">
 								<h3>Cognitive Effects</h3>
 
-								{#each [
-									{ key: 'focusImprovement', label: 'Focus Improvement' },
-									{ key: 'memoryImprovement', label: 'Memory Improvement' },
-									{ key: 'moodStability', label: 'Mood Stability' },
-									{ key: 'anxietyReduction', label: 'Anxiety Reduction' }
-								] as item}
+								{#each [{ key: 'focusImprovement', label: 'Focus Improvement' }, { key: 'memoryImprovement', label: 'Memory Improvement' }, { key: 'moodStability', label: 'Mood Stability' }, { key: 'anxietyReduction', label: 'Anxiety Reduction' }] as item}
 									<div class="slider-group">
 										<label for="cognitive-{item.key}">{item.label}</label>
 										<input
@@ -1453,7 +1533,9 @@
 						<!-- Custom Results Section - always show so users can add any effects they noticed -->
 						<div class="custom-results-section">
 							<h3>Observed Effects</h3>
-							<p class="text-sm text-muted-foreground mb-4">Add each effect you noticed from {peptide.name} and rate it individually</p>
+							<p class="mb-4 text-sm text-muted-foreground">
+								Add each effect you noticed from {peptide.name} and rate it individually
+							</p>
 
 							{#if customResults.length > 0}
 								<div class="custom-results-list">
@@ -1523,14 +1605,17 @@
 
 											<div class="result-meta">
 												<div class="confidence-rating">
-													<span class="rating-label-small">Confidence this was from the peptide:</span>
+													<span class="rating-label-small"
+														>Confidence this was from the peptide:</span
+													>
 													<div class="confidence-scale">
 														{#each [1, 2, 3, 4, 5] as n}
 															<button
 																type="button"
 																class="confidence-btn"
 																class:selected={result.confidenceAttribution === n}
-																onclick={() => (result.confidenceAttribution = n as 1|2|3|4|5)}
+																onclick={() =>
+																	(result.confidenceAttribution = n as 1 | 2 | 3 | 4 | 5)}
 															>
 																{n}
 															</button>
@@ -1540,10 +1625,7 @@
 												</div>
 
 												<label class="checkbox-label-small">
-													<input
-														type="checkbox"
-														bind:checked={result.wasExpected}
-													/>
+													<input type="checkbox" bind:checked={result.wasExpected} />
 													<span>This was an expected effect based on my research</span>
 												</label>
 											</div>
@@ -1589,7 +1671,9 @@
 					{#if knownSideEffects.length > 0}
 						<div class="side-effects-list">
 							<h3>Known Side Effects for {peptide.name}</h3>
-							<p class="text-sm text-muted-foreground mb-4">Select any that you experienced and rate their severity</p>
+							<p class="mb-4 text-sm text-muted-foreground">
+								Select any that you experienced and rate their severity
+							</p>
 
 							{#each knownSideEffects as effect}
 								<div class="side-effect-item" class:selected={selectedSideEffects[effect]}>
@@ -1675,7 +1759,9 @@
 
 					<div class="custom-effects">
 						<h3>Other Side Effects</h3>
-						<p class="text-sm text-muted-foreground mb-4">Add any side effects you experienced that aren't listed above</p>
+						<p class="mb-4 text-sm text-muted-foreground">
+							Add any side effects you experienced that aren't listed above
+						</p>
 
 						{#if customSideEffects.length > 0}
 							<div class="custom-effects-list">
@@ -1748,7 +1834,13 @@
 						<div class="field-group">
 							<label for="cycle-length">Total Cycle Length</label>
 							<div class="input-with-unit">
-								<input id="cycle-length" type="number" bind:value={cycleLengthWeeks} min="1" max="104" />
+								<input
+									id="cycle-length"
+									type="number"
+									bind:value={cycleLengthWeeks}
+									min="1"
+									max="104"
+								/>
 								<span>weeks</span>
 							</div>
 						</div>
@@ -1798,18 +1890,17 @@
 							<select id="repeat-cycle" bind:value={isRepeatCycle}>
 								<option value="first_time">First time using this peptide</option>
 								<option value="repeat_positive">Repeat cycle (previous positive experience)</option>
-								<option value="repeat_different_protocol">Repeat cycle (trying different protocol)</option>
+								<option value="repeat_different_protocol"
+									>Repeat cycle (trying different protocol)</option
+								>
 							</select>
 						</div>
 
 						<div class="field-group">
-							<span class="field-label" id="use-again-label">Would you use this peptide again?</span>
+							<span class="field-label" id="use-again-label">Would you use this peptide again?</span
+							>
 							<div class="use-again-options" role="group" aria-labelledby="use-again-label">
-								{#each [
-									{ value: 'yes' as const, label: 'Yes, definitely' },
-									{ value: 'maybe' as const, label: 'Maybe, depends' },
-									{ value: 'no' as const, label: 'No' }
-								] as option}
+								{#each [{ value: 'yes' as const, label: 'Yes, definitely' }, { value: 'maybe' as const, label: 'Maybe, depends' }, { value: 'no' as const, label: 'No' }] as option}
 									<button
 										class="use-again-btn"
 										class:selected={wouldUseAgain === option.value}
@@ -1822,7 +1913,9 @@
 						</div>
 
 						<div class="rating-group">
-							<span class="rating-label" id="recommend-label">How likely are you to recommend this peptide? (0-10)</span>
+							<span class="rating-label" id="recommend-label"
+								>How likely are you to recommend this peptide? (0-10)</span
+							>
 							<div class="rating-scale" role="group" aria-labelledby="recommend-label">
 								{#each [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] as n}
 									<button
@@ -1843,7 +1936,9 @@
 						<!-- Lifestyle Factors -->
 						<div class="lifestyle-section">
 							<h3>Lifestyle During Cycle</h3>
-							<p class="text-sm text-muted-foreground mb-4">These factors can significantly affect peptide results</p>
+							<p class="mb-4 text-sm text-muted-foreground">
+								These factors can significantly affect peptide results
+							</p>
 
 							<div class="lifestyle-grid">
 								<div class="field-group">
@@ -1887,7 +1982,10 @@
 						<!-- Concurrent Compounds -->
 						<div class="concurrent-compounds-section">
 							<h3>Concurrent Compounds</h3>
-							<p class="text-sm text-muted-foreground mb-4">Were you taking any other peptides or compounds during this cycle? (e.g., TRT, other peptides, supplements)</p>
+							<p class="mb-4 text-sm text-muted-foreground">
+								Were you taking any other peptides or compounds during this cycle? (e.g., TRT, other
+								peptides, supplements)
+							</p>
 
 							{#if concurrentCompounds.length > 0}
 								<div class="compounds-list">
@@ -1972,7 +2070,11 @@
 										{#if phase.isBreak}
 											Break period - {phase.durationWeeks} weeks
 										{:else}
-											{phase.dose} {phase.doseUnit}, {getFrequencyLabel(phase.dosesPerWeek)}{#if phase.hoursBetweenDoses}, {phase.hoursBetweenDoses}h apart{/if} for {phase.durationWeeks} weeks
+											{phase.dose}
+											{phase.doseUnit}, {getFrequencyLabel(
+												phase.dosesPerWeek
+											)}{#if phase.hoursBetweenDoses}, {phase.hoursBetweenDoses}h apart{/if} for {phase.durationWeeks}
+											weeks
 										{/if}
 									</p>
 								{/each}
@@ -1982,10 +2084,22 @@
 						<div class="review-section">
 							<h3>Administration</h3>
 							<div class="review-content">
-								<p><strong>Method:</strong> {allAdministrationMethods.find((m) => m.value === administrationMethod)?.label}</p>
+								<p>
+									<strong>Method:</strong>
+									{allAdministrationMethods.find((m) => m.value === administrationMethod)?.label}
+								</p>
 								{#if ['subq', 'im', 'iv'].includes(administrationMethod)}
-									<p><strong>Vial:</strong> {reconstitution.vialSizeMg}mg in {reconstitution.diluentVolumeMl}mL {reconstitution.diluentType.replace('_', ' ')}</p>
-									<p><strong>Injection frequency:</strong> {getFrequencyLabel(reconstitution.injectionDosesPerWeek || 7)}</p>
+									<p>
+										<strong>Vial:</strong>
+										{reconstitution.vialSizeMg}mg in {reconstitution.diluentVolumeMl}mL {reconstitution.diluentType.replace(
+											'_',
+											' '
+										)}
+									</p>
+									<p>
+										<strong>Injection frequency:</strong>
+										{getFrequencyLabel(reconstitution.injectionDosesPerWeek || 7)}
+									</p>
 								{/if}
 							</div>
 						</div>
@@ -1999,12 +2113,18 @@
 									<div class="review-effects">
 										<strong>Observed Effects:</strong>
 										{#each customResults.filter((r) => r.name) as result}
-											<p class="review-effect-item">• {getEffectLabel(result.name, result.nameOther)}: {result.rating}/10 ({result.timeToNoticeDays} days to notice)</p>
+											<p class="review-effect-item">
+												• {getEffectLabel(result.name, result.nameOther)}: {result.rating}/10 ({result.timeToNoticeDays}
+												days to notice)
+											</p>
 										{/each}
 									</div>
 								{/if}
 								{#if qualitativeNotes}
-									<p><strong>Notes:</strong> {qualitativeNotes.slice(0, 200)}{qualitativeNotes.length > 200 ? '...' : ''}</p>
+									<p>
+										<strong>Notes:</strong>
+										{qualitativeNotes.slice(0, 200)}{qualitativeNotes.length > 200 ? '...' : ''}
+									</p>
 								{/if}
 							</div>
 						</div>
@@ -2017,7 +2137,10 @@
 										<p>{effect.name} (severity: {effect.severity}/5)</p>
 									{/each}
 									{#each customSideEffects.filter((e) => e.name) as effect}
-										<p>{getSideEffectLabel(effect.name, effect.nameOther)} (severity: {effect.severity}/5) <span class="text-muted-foreground text-xs">- custom</span></p>
+										<p>
+											{getSideEffectLabel(effect.name, effect.nameOther)} (severity: {effect.severity}/5)
+											<span class="text-xs text-muted-foreground">- custom</span>
+										</p>
 									{/each}
 								{:else}
 									<p class="text-muted-foreground">No side effects reported</p>
@@ -2029,14 +2152,21 @@
 							<h3>Cycle Info</h3>
 							<div class="review-content">
 								<p><strong>Duration:</strong> {cycleLengthWeeks} weeks</p>
-								<p><strong>Status:</strong> {currentlyOnCycle ? 'Currently on cycle' : 'Completed'}</p>
+								<p>
+									<strong>Status:</strong>
+									{currentlyOnCycle ? 'Currently on cycle' : 'Completed'}
+								</p>
 								<p><strong>Would use again:</strong> {wouldUseAgain}</p>
 								<p><strong>Recommend score:</strong> {recommendScore}/10</p>
 								{#if concurrentCompounds.length > 0}
 									<div class="review-compounds">
 										<strong>Concurrent compounds:</strong>
 										{#each concurrentCompounds.filter((c) => c.name) as compound}
-											<p class="review-compound-item">• {getCompoundLabel(compound.name, compound.nameOther)}{compound.dose ? ` (${compound.dose})` : ''}</p>
+											<p class="review-compound-item">
+												• {getCompoundLabel(compound.name, compound.nameOther)}{compound.dose
+													? ` (${compound.dose})`
+													: ''}
+											</p>
 										{/each}
 									</div>
 								{/if}
@@ -2049,12 +2179,20 @@
 						<h3>Data Quality</h3>
 						<div class="quality-fields">
 							<div class="field-group">
-								<label for="data-confidence">How confident are you in the accuracy of your reported data?</label>
+								<label for="data-confidence"
+									>How confident are you in the accuracy of your reported data?</label
+								>
 								<select id="data-confidence" bind:value={dataConfidence}>
 									<option value="very_confident">Very confident - I kept detailed notes</option>
-									<option value="somewhat_confident">Somewhat confident - I remember most details</option>
-									<option value="some_uncertainty">Some uncertainty - A few details may be approximate</option>
-									<option value="significant_guessing">Significant guessing - Many details are estimates</option>
+									<option value="somewhat_confident"
+										>Somewhat confident - I remember most details</option
+									>
+									<option value="some_uncertainty"
+										>Some uncertainty - A few details may be approximate</option
+									>
+									<option value="significant_guessing"
+										>Significant guessing - Many details are estimates</option
+									>
 								</select>
 							</div>
 
@@ -2070,10 +2208,7 @@
 
 							<div class="field-group">
 								<label class="checkbox-label">
-									<input
-										type="checkbox"
-										bind:checked={followUpConsent}
-									/>
+									<input type="checkbox" bind:checked={followUpConsent} />
 									<span>I would be willing to provide a follow-up report in the future</span>
 								</label>
 							</div>
@@ -2118,11 +2253,7 @@
 <style>
 	/* Scientific-editorial aesthetic with warm tones */
 	.wizard-header {
-		background: linear-gradient(
-			180deg,
-			hsl(var(--muted)) 0%,
-			hsl(var(--background)) 100%
-		);
+		background: linear-gradient(180deg, hsl(var(--muted)) 0%, hsl(var(--background)) 100%);
 		border-bottom: 1px solid hsl(var(--border));
 	}
 
@@ -2286,7 +2417,9 @@
 		background: hsl(var(--background));
 		color: hsl(var(--foreground));
 		font-size: 1rem;
-		transition: border-color 0.2s, box-shadow 0.2s;
+		transition:
+			border-color 0.2s,
+			box-shadow 0.2s;
 	}
 
 	.field-group input:focus,

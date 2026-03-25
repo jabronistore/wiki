@@ -5,7 +5,8 @@
 
 	const SITE_URL = 'https://peptide-db.com';
 
-	let { data }: { data: { goal: GoalConfig; ranked: RankedPeptide[]; allGoals: GoalConfig[] } } = $props();
+	let { data }: { data: { goal: GoalConfig; ranked: RankedPeptide[]; allGoals: GoalConfig[] } } =
+		$props();
 
 	const goal = $derived(data.goal);
 	const ranked = $derived(data.ranked);
@@ -75,8 +76,12 @@
 	<!-- Breadcrumb -->
 	<nav aria-label="Breadcrumb" class="bf-breadcrumb">
 		<ol>
-			<li><a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a><ChevronRight class="h-3.5 w-3.5 sep" /></li>
-			<li><a href="/peptides">Peptides</a><ChevronRight class="h-3.5 w-3.5 sep" /></li>
+			<li>
+				<a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a><ChevronRight
+					class="sep h-3.5 w-3.5"
+				/>
+			</li>
+			<li><a href="/peptides">Peptides</a><ChevronRight class="sep h-3.5 w-3.5" /></li>
 			<li><span class="current">Best for {goal.title}</span></li>
 		</ol>
 	</nav>
@@ -103,9 +108,14 @@
 					<div class="bf-indications">
 						{#each peptide.indications as ind}
 							<div class="bf-ind">
-								<span class="bf-ind-dot" style="background: {effColors[ind.effectiveness] || '#91918D'}"></span>
+								<span
+									class="bf-ind-dot"
+									style="background: {effColors[ind.effectiveness] || '#91918D'}"
+								></span>
 								<span class="bf-ind-name">{ind.name}</span>
-								<span class="bf-ind-eff" style="color: {effColors[ind.effectiveness] || '#91918D'}">{ind.effectiveness.replace('-', ' ')}</span>
+								<span class="bf-ind-eff" style="color: {effColors[ind.effectiveness] || '#91918D'}"
+									>{ind.effectiveness.replace('-', ' ')}</span
+								>
 							</div>
 						{/each}
 					</div>
@@ -126,8 +136,8 @@
 				<a
 					href="/peptides/best-for/{g.slug}"
 					class="bf-goal-link"
-					class:bf-goal-active={g.slug === goal.slug}
-				>{g.title}</a>
+					class:bf-goal-active={g.slug === goal.slug}>{g.title}</a
+				>
 			{/each}
 		</div>
 	</div>
@@ -141,17 +151,57 @@
 	}
 
 	/* Breadcrumb */
-	.bf-breadcrumb ol { display: flex; align-items: center; gap: 0.375rem; list-style: none; padding: 0; margin: 0 0 1.5rem; font-size: 0.8125rem; color: hsl(var(--muted-foreground)); }
-	.bf-breadcrumb li { display: flex; align-items: center; gap: 0.375rem; }
-	.bf-breadcrumb a { display: flex; align-items: center; gap: 0.25rem; color: hsl(var(--muted-foreground)); text-decoration: none; }
-	.bf-breadcrumb a:hover { color: hsl(var(--foreground)); }
-	.bf-breadcrumb .current { color: hsl(var(--foreground)); font-weight: 500; }
-	.bf-breadcrumb :global(.sep) { color: hsl(var(--border)); }
+	.bf-breadcrumb ol {
+		display: flex;
+		align-items: center;
+		gap: 0.375rem;
+		list-style: none;
+		padding: 0;
+		margin: 0 0 1.5rem;
+		font-size: 0.8125rem;
+		color: hsl(var(--muted-foreground));
+	}
+	.bf-breadcrumb li {
+		display: flex;
+		align-items: center;
+		gap: 0.375rem;
+	}
+	.bf-breadcrumb a {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		color: hsl(var(--muted-foreground));
+		text-decoration: none;
+	}
+	.bf-breadcrumb a:hover {
+		color: hsl(var(--foreground));
+	}
+	.bf-breadcrumb .current {
+		color: hsl(var(--foreground));
+		font-weight: 500;
+	}
+	.bf-breadcrumb :global(.sep) {
+		color: hsl(var(--border));
+	}
 
-	.bf-header { margin-bottom: 2rem; }
-	.bf-header h1 { font-size: 2rem; font-weight: 400; margin-bottom: 0.5rem; }
-	.bf-desc { font-size: 0.9375rem; color: hsl(var(--muted-foreground)); margin-bottom: 0.5rem; }
-	.bf-count { font-size: 0.8125rem; font-weight: 600; color: hsl(var(--accent)); }
+	.bf-header {
+		margin-bottom: 2rem;
+	}
+	.bf-header h1 {
+		font-size: 2rem;
+		font-weight: 400;
+		margin-bottom: 0.5rem;
+	}
+	.bf-desc {
+		font-size: 0.9375rem;
+		color: hsl(var(--muted-foreground));
+		margin-bottom: 0.5rem;
+	}
+	.bf-count {
+		font-size: 0.8125rem;
+		font-weight: 600;
+		color: hsl(var(--accent));
+	}
 
 	/* Ranking cards */
 	.bf-list {
@@ -179,7 +229,9 @@
 		border-radius: 0.5rem;
 	}
 
-	.bf-card:last-child { border-bottom: none; }
+	.bf-card:last-child {
+		border-bottom: none;
+	}
 
 	.bf-rank {
 		font-family: var(--font-mono);
@@ -327,7 +379,12 @@
 	}
 
 	@media (max-width: 640px) {
-		.bf-header h1 { font-size: 1.5rem; }
-		.bf-rank { font-size: 1rem; min-width: 1.5rem; }
+		.bf-header h1 {
+			font-size: 1.5rem;
+		}
+		.bf-rank {
+			font-size: 1rem;
+			min-width: 1.5rem;
+		}
 	}
 </style>

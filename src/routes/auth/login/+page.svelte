@@ -70,17 +70,17 @@
 	<title>Sign In | Peptide Database</title>
 </svelte:head>
 
-<div class="min-h-screen flex items-center justify-center py-12 px-4">
+<div class="flex min-h-screen items-center justify-center px-4 py-12">
 	<div class="w-full max-w-md">
-		<div class="text-center mb-8">
+		<div class="mb-8 text-center">
 			<h1 class="text-2xl font-bold">Welcome Back</h1>
-			<p class="text-muted-foreground mt-2">Sign in to your account to continue</p>
+			<p class="mt-2 text-muted-foreground">Sign in to your account to continue</p>
 		</div>
 
-		<form onsubmit={handleSubmit} class="space-y-6 bg-card p-6 rounded-lg border border-border">
+		<form onsubmit={handleSubmit} class="space-y-6 rounded-lg border border-border bg-card p-6">
 			{#if error}
 				<div
-					class="flex items-center gap-2 p-3 bg-destructive/10 text-destructive rounded-md text-sm"
+					class="flex items-center gap-2 rounded-md bg-destructive/10 p-3 text-sm text-destructive"
 				>
 					<AlertCircle class="h-4 w-4 flex-shrink-0" />
 					<span>{error}</span>
@@ -94,7 +94,7 @@
 					type="email"
 					id="email"
 					bind:value={email}
-					class="w-full px-3 py-2 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-ring"
+					class="w-full rounded-md border border-border bg-background px-3 py-2 focus:outline-none focus:ring-2 focus:ring-ring"
 					placeholder="you@example.com"
 					required
 				/>
@@ -108,7 +108,7 @@
 						type={showPassword ? 'text' : 'password'}
 						id="password"
 						bind:value={password}
-						class="w-full px-3 py-2 pr-10 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-ring"
+						class="w-full rounded-md border border-border bg-background px-3 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-ring"
 						placeholder="••••••••"
 						required
 					/>
@@ -128,7 +128,12 @@
 
 			<!-- Remember me -->
 			<div class="flex items-center gap-2">
-				<input type="checkbox" id="remember" bind:checked={rememberMe} class="rounded border-border" />
+				<input
+					type="checkbox"
+					id="remember"
+					bind:checked={rememberMe}
+					class="rounded border-border"
+				/>
 				<label for="remember" class="text-sm">Remember me</label>
 			</div>
 
@@ -136,7 +141,7 @@
 			<button
 				type="submit"
 				disabled={isSubmitting}
-				class="w-full py-2 px-4 bg-accent text-white rounded-md hover:bg-accent/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+				class="w-full rounded-md bg-accent px-4 py-2 text-white transition-colors hover:bg-accent/90 disabled:cursor-not-allowed disabled:opacity-50"
 			>
 				{#if isSubmitting}
 					Signing in...

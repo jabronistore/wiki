@@ -148,13 +148,18 @@
 						</div>
 
 						{#if finding.notes}
-							<p class="notes">{finding.notes.slice(0, 150)}{finding.notes.length > 150 ? '...' : ''}</p>
+							<p class="notes">
+								{finding.notes.slice(0, 150)}{finding.notes.length > 150 ? '...' : ''}
+							</p>
 						{/if}
 					</div>
 
 					<div class="submission-actions">
 						{#if finding.status === 'draft'}
-							<a href="/peptides/{finding.peptide_id}/submit-findings?edit={finding.id}" class="btn-action">
+							<a
+								href="/peptides/{finding.peptide_id}/submit-findings?edit={finding.id}"
+								class="btn-action"
+							>
 								<Edit class="h-4 w-4" />
 								Continue Editing
 							</a>

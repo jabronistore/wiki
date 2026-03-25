@@ -95,27 +95,27 @@
 	<title>Welcome | Peptide Database</title>
 </svelte:head>
 
-<div class="min-h-screen bg-background py-12 px-4">
-	<div class="max-w-4xl mx-auto">
+<div class="min-h-screen bg-background px-4 py-12">
+	<div class="mx-auto max-w-4xl">
 		<!-- Header -->
-		<div class="text-center mb-10">
-			<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent/10 mb-4">
+		<div class="mb-10 text-center">
+			<div class="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-accent/10">
 				<Sparkles class="h-8 w-8 text-accent" />
 			</div>
-			<h1 class="text-3xl font-bold mb-2">Welcome to Peptide Database!</h1>
-			<p class="text-muted-foreground text-lg">
+			<h1 class="mb-2 text-3xl font-bold">Welcome to Peptide Database!</h1>
+			<p class="text-lg text-muted-foreground">
 				Select peptides you're interested in to personalize your experience
 			</p>
 		</div>
 
 		{#if error}
-			<div class="mb-6 p-4 bg-destructive/10 text-destructive rounded-lg text-center">
+			<div class="mb-6 rounded-lg bg-destructive/10 p-4 text-center text-destructive">
 				{error}
 			</div>
 		{/if}
 
 		<!-- Selection count -->
-		<div class="flex items-center justify-between mb-6 p-4 bg-muted rounded-lg">
+		<div class="mb-6 flex items-center justify-between rounded-lg bg-muted p-4">
 			<span class="text-sm text-muted-foreground">
 				{selectedPeptides.size} peptide{selectedPeptides.size !== 1 ? 's' : ''} selected
 			</span>
@@ -134,8 +134,8 @@
 			{#each Object.entries(data.categories) as [category, peptides]}
 				{@const categoryPeptides = peptides as PeptideSummary[]}
 				{@const allSelected = categoryPeptides.every((p) => selectedPeptides.has(p.id))}
-				<div class="bg-card border border-border rounded-xl p-6">
-					<div class="flex items-center justify-between mb-4">
+				<div class="rounded-xl border border-border bg-card p-6">
+					<div class="mb-4 flex items-center justify-between">
 						<h2 class="text-lg font-semibold">
 							{categoryNames[category] || category}
 						</h2>
@@ -147,7 +147,7 @@
 						</button>
 					</div>
 
-					<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+					<div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
 						{#each categoryPeptides as peptide}
 							<button
 								onclick={() => togglePeptide(peptide.id)}
@@ -166,18 +166,18 @@
 		</div>
 
 		<!-- Actions -->
-		<div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+		<div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
 			<button
 				onclick={skip}
 				disabled={isSubmitting}
-				class="px-6 py-3 text-muted-foreground hover:text-foreground transition-colors disabled:opacity-50"
+				class="px-6 py-3 text-muted-foreground transition-colors hover:text-foreground disabled:opacity-50"
 			>
 				Skip for now
 			</button>
 			<button
 				onclick={handleSubmit}
 				disabled={isSubmitting}
-				class="flex items-center gap-2 px-8 py-3 bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors disabled:opacity-50"
+				class="flex items-center gap-2 rounded-lg bg-accent px-8 py-3 text-white transition-colors hover:bg-accent/90 disabled:opacity-50"
 			>
 				{#if isSubmitting}
 					Saving...
@@ -188,7 +188,7 @@
 			</button>
 		</div>
 
-		<p class="text-center text-sm text-muted-foreground mt-4">
+		<p class="mt-4 text-center text-sm text-muted-foreground">
 			You can always change your favorites later in your profile
 		</p>
 	</div>

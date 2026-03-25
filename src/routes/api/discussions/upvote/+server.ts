@@ -1,16 +1,8 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { createSupabaseServerClient } from '$lib/supabase';
 
-export const POST: RequestHandler = async ({ request, cookies }) => {
-	const supabase = createSupabaseServerClient({
-		getAll: () => cookies.getAll(),
-		setAll: (cookiesToSet) => {
-			cookiesToSet.forEach(({ name, value, options }) => {
-				cookies.set(name, value, { path: '/', ...options });
-			});
-		}
-	});
+export const POST: RequestHandler = async ({ request, locals }) => {
+	const supabase = locals.supabase;
 
 	if (!supabase) {
 		return json({ error: 'Database not configured' }, { status: 503 });
@@ -56,15 +48,8 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 	}
 };
 
-export const DELETE: RequestHandler = async ({ request, cookies }) => {
-	const supabase = createSupabaseServerClient({
-		getAll: () => cookies.getAll(),
-		setAll: (cookiesToSet) => {
-			cookiesToSet.forEach(({ name, value, options }) => {
-				cookies.set(name, value, { path: '/', ...options });
-			});
-		}
-	});
+export const DELETE: RequestHandler = async ({ request, locals }) => {
+	const supabase = locals.supabase;
 
 	if (!supabase) {
 		return json({ error: 'Database not configured' }, { status: 503 });

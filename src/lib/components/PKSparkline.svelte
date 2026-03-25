@@ -17,7 +17,12 @@
 	const halfLifeSeconds = $derived(peptide.molecular?.halfLifeSeconds ?? 3600);
 
 	// Infer sensible defaults from the peptide's actual protocol data
-	function inferDefaults(p: Peptide): { doseVal: number; unit: 'mcg' | 'mg'; intervalSec: number; durationD: number } {
+	function inferDefaults(p: Peptide): {
+		doseVal: number;
+		unit: 'mcg' | 'mg';
+		intervalSec: number;
+		durationD: number;
+	} {
 		let doseVal = 250;
 		let unit: 'mcg' | 'mg' = 'mcg';
 		let intervalSec = 86400;
@@ -48,7 +53,11 @@
 				intervalSec = 172800;
 			} else if (freq.includes('twice weekly') || freq.includes('2x week')) {
 				intervalSec = 302400;
-			} else if (freq.includes('weekly') || freq.includes('once weekly') || freq.includes('once a week')) {
+			} else if (
+				freq.includes('weekly') ||
+				freq.includes('once weekly') ||
+				freq.includes('once a week')
+			) {
 				intervalSec = 604800;
 			} else if (freq.includes('every 2 week') || freq.includes('biweekly')) {
 				intervalSec = 1209600;
@@ -83,7 +92,14 @@
 	const postCycleSeconds = $derived(Math.max(halfLifeSeconds * 5, 86400 * 2));
 
 	const result: AccumulationResult = $derived(
-		calculateAccumulation(doseInMcg, halfLifeSeconds, intervalSeconds, durationSeconds, 12, postCycleSeconds)
+		calculateAccumulation(
+			doseInMcg,
+			halfLifeSeconds,
+			intervalSeconds,
+			durationSeconds,
+			12,
+			postCycleSeconds
+		)
 	);
 
 	const chartData = $derived([
@@ -111,10 +127,7 @@
 </script>
 
 <div class="pk-section">
-	<button
-		onclick={() => (showControls = !showControls)}
-		class="pk-toggle"
-	>
+	<button onclick={() => (showControls = !showControls)} class="pk-toggle">
 		<div class="pk-toggle-left">
 			<TrendingUp class="h-4 w-4 text-accent" />
 			<span class="pk-toggle-title">Accumulation Curve</span>
@@ -133,7 +146,14 @@
 				<label class="pk-control">
 					<span class="pk-control-label">Dose</span>
 					<div class="pk-input-group">
-						<input type="number" bind:value={dose} min={0.01} max={10000} step={doseUnit === 'mg' ? 0.5 : 10} class="pk-input" />
+						<input
+							type="number"
+							bind:value={dose}
+							min={0.01}
+							max={10000}
+							step={doseUnit === 'mg' ? 0.5 : 10}
+							class="pk-input"
+						/>
 						<select bind:value={doseUnit} class="pk-select">
 							<option value="mcg">mcg</option>
 							<option value="mg">mg</option>
@@ -142,11 +162,25 @@
 				</label>
 				<label class="pk-control">
 					<span class="pk-control-label">Every (days)</span>
-					<input type="number" bind:value={intervalDays} min={0.5} max={30} step={0.5} class="pk-input" />
+					<input
+						type="number"
+						bind:value={intervalDays}
+						min={0.5}
+						max={30}
+						step={0.5}
+						class="pk-input"
+					/>
 				</label>
 				<label class="pk-control">
 					<span class="pk-control-label">Duration (days)</span>
-					<input type="number" bind:value={durationDays} min={1} max={180} step={1} class="pk-input" />
+					<input
+						type="number"
+						bind:value={durationDays}
+						min={1}
+						max={180}
+						step={1}
+						class="pk-input"
+					/>
 				</label>
 			</div>
 			<a href="/calculator/accumulation?peptide={peptide.id}" class="pk-full-link">
@@ -160,7 +194,7 @@
 		<AccumulationChart
 			data={chartData}
 			durationSeconds={result.totalDuration}
-			doseUnit={doseUnit}
+			{doseUnit}
 			height={220}
 		/>
 	</div>

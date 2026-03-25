@@ -255,7 +255,9 @@
 			<FlaskConical class="h-16 w-16 text-muted-foreground" />
 			<h2>No Results Yet</h2>
 			<p>Be the first to share your experience with {peptide.name}.</p>
-			<a href="/peptides/{peptide.id}/submit-findings" class="btn-primary"> Submit Your Findings </a>
+			<a href="/peptides/{peptide.id}/submit-findings" class="btn-primary">
+				Submit Your Findings
+			</a>
 		</div>
 	{:else}
 		<!-- Aggregate Statistics -->
@@ -263,7 +265,12 @@
 		{#if aggregateStats.totalSubmissions < 5}
 			<div class="data-notice warning">
 				<AlertTriangle class="h-5 w-5" />
-				<span>Limited data: Only {aggregateStats.totalSubmissions} submission{aggregateStats.totalSubmissions !== 1 ? 's' : ''} available. Results should be interpreted with caution.</span>
+				<span
+					>Limited data: Only {aggregateStats.totalSubmissions} submission{aggregateStats.totalSubmissions !==
+					1
+						? 's'
+						: ''} available. Results should be interpreted with caution.</span
+				>
 			</div>
 		{/if}
 
@@ -301,7 +308,9 @@
 							<Target class="h-6 w-6" />
 						</div>
 						<div class="stat-content">
-							<span class="stat-value">{aggregateStats.npsScore > 0 ? '+' : ''}{aggregateStats.npsScore}</span>
+							<span class="stat-value"
+								>{aggregateStats.npsScore > 0 ? '+' : ''}{aggregateStats.npsScore}</span
+							>
 							<span class="stat-label">NPS Score</span>
 						</div>
 					</div>
@@ -455,7 +464,10 @@
 					<h3>Effect Persistence After Stopping</h3>
 					<div class="horizontal-bars">
 						{#each Object.entries(aggregateStats.effectPersistenceDistribution) as [persistence, count]}
-							{@const total = Object.values(aggregateStats.effectPersistenceDistribution).reduce((a, b) => a + b, 0)}
+							{@const total = Object.values(aggregateStats.effectPersistenceDistribution).reduce(
+								(a, b) => a + b,
+								0
+							)}
 							{@const percentage = Math.round((count / total) * 100)}
 							<div class="horizontal-bar-item">
 								<span class="bar-label">{getEffectPersistenceLabel(persistence)}</span>
@@ -482,7 +494,9 @@
 					{#each aggregateStats.topConcurrentCompounds as compound}
 						<div class="compound-item">
 							<span class="compound-name">{compound.name}</span>
-							<span class="compound-count">{compound.count} user{compound.count !== 1 ? 's' : ''}</span>
+							<span class="compound-count"
+								>{compound.count} user{compound.count !== 1 ? 's' : ''}</span
+							>
 						</div>
 					{/each}
 				</div>
@@ -503,7 +517,9 @@
 							<span class="effect-name">{effect.name}</span>
 							<div class="effect-stats">
 								<span class="effect-rating">{effect.avgRating}/10 avg</span>
-								<span class="effect-count">{effect.count} report{effect.count !== 1 ? 's' : ''}</span>
+								<span class="effect-count"
+									>{effect.count} report{effect.count !== 1 ? 's' : ''}</span
+								>
 							</div>
 						</div>
 					{/each}
@@ -514,7 +530,10 @@
 		<!-- Lifestyle Factors Panel -->
 		{#if hasLifestyleData}
 			<section class="data-section collapsible">
-				<button class="section-header-btn" onclick={() => showLifestylePanel = !showLifestylePanel}>
+				<button
+					class="section-header-btn"
+					onclick={() => (showLifestylePanel = !showLifestylePanel)}
+				>
 					<h2 class="section-title">
 						<Activity class="h-5 w-5" />
 						Lifestyle Context
@@ -534,7 +553,10 @@
 								<h4><Dumbbell class="h-4 w-4" /> Training Intensity</h4>
 								<div class="lifestyle-bars">
 									{#each Object.entries(aggregateStats.lifestyleStats.training) as [level, count]}
-										{@const total = Object.values(aggregateStats.lifestyleStats.training).reduce((a, b) => a + b, 0)}
+										{@const total = Object.values(aggregateStats.lifestyleStats.training).reduce(
+											(a, b) => a + b,
+											0
+										)}
 										{@const pct = Math.round((count / total) * 100)}
 										<div class="mini-bar">
 											<span class="mini-label">{level}</span>
@@ -552,7 +574,10 @@
 								<h4><Moon class="h-4 w-4" /> Sleep Quality</h4>
 								<div class="lifestyle-bars">
 									{#each Object.entries(aggregateStats.lifestyleStats.sleep) as [level, count]}
-										{@const total = Object.values(aggregateStats.lifestyleStats.sleep).reduce((a, b) => a + b, 0)}
+										{@const total = Object.values(aggregateStats.lifestyleStats.sleep).reduce(
+											(a, b) => a + b,
+											0
+										)}
 										{@const pct = Math.round((count / total) * 100)}
 										<div class="mini-bar">
 											<span class="mini-label">{level}</span>
@@ -570,7 +595,10 @@
 								<h4><Brain class="h-4 w-4" /> Stress Level</h4>
 								<div class="lifestyle-bars">
 									{#each Object.entries(aggregateStats.lifestyleStats.stress) as [level, count]}
-										{@const total = Object.values(aggregateStats.lifestyleStats.stress).reduce((a, b) => a + b, 0)}
+										{@const total = Object.values(aggregateStats.lifestyleStats.stress).reduce(
+											(a, b) => a + b,
+											0
+										)}
 										{@const pct = Math.round((count / total) * 100)}
 										<div class="mini-bar">
 											<span class="mini-label">{level}</span>
@@ -588,7 +616,10 @@
 								<h4><Utensils class="h-4 w-4" /> Diet Adherence</h4>
 								<div class="lifestyle-bars">
 									{#each Object.entries(aggregateStats.lifestyleStats.diet) as [level, count]}
-										{@const total = Object.values(aggregateStats.lifestyleStats.diet).reduce((a, b) => a + b, 0)}
+										{@const total = Object.values(aggregateStats.lifestyleStats.diet).reduce(
+											(a, b) => a + b,
+											0
+										)}
 										{@const pct = Math.round((count / total) * 100)}
 										<div class="mini-bar">
 											<span class="mini-label">{level}</span>
@@ -609,7 +640,10 @@
 		<!-- Dosing Patterns Panel -->
 		{#if hasDosingPatterns}
 			<section class="data-section collapsible">
-				<button class="section-header-btn" onclick={() => showDosingPatterns = !showDosingPatterns}>
+				<button
+					class="section-header-btn"
+					onclick={() => (showDosingPatterns = !showDosingPatterns)}
+				>
 					<h2 class="section-title">
 						<Clock class="h-5 w-5" />
 						Dosing Patterns
@@ -653,7 +687,10 @@
 						{#if aggregateStats.dosingPatterns.loadingDosePercentage > 0}
 							<div class="pattern-category">
 								<h4>Loading Doses</h4>
-								<p class="pattern-stat">{aggregateStats.dosingPatterns.loadingDosePercentage}% of protocols include a loading dose</p>
+								<p class="pattern-stat">
+									{aggregateStats.dosingPatterns.loadingDosePercentage}% of protocols include a
+									loading dose
+								</p>
 							</div>
 						{/if}
 					</div>
@@ -797,10 +834,15 @@
 														<span class="phase-desc">Break - {phase.duration_weeks} weeks</span>
 													{:else}
 														<span class="phase-desc">
-															{phase.dose} {phase.dose_unit}
+															{phase.dose}
+															{phase.dose_unit}
 															{getFrequencyLabel(phase.frequency)} for {phase.duration_weeks} weeks
 															{#if phase.time_of_day}
-																<span class="phase-timing">({getTimeOfDayLabel(phase.time_of_day)}{#if phase.meal_timing}, {getMealTimingLabel(phase.meal_timing)}{/if})</span>
+																<span class="phase-timing"
+																	>({getTimeOfDayLabel(phase.time_of_day)}{#if phase.meal_timing}, {getMealTimingLabel(
+																			phase.meal_timing
+																		)}{/if})</span
+																>
 															{/if}
 															{#if phase.is_loading_dose}
 																<span class="loading-badge">Loading</span>
@@ -846,7 +888,9 @@
 										{#if finding.injection_site}
 											<div class="detail-item">
 												<span class="detail-label">Injection Site</span>
-												<span class="detail-value">{getInjectionSiteLabel(finding.injection_site)}</span>
+												<span class="detail-value"
+													>{getInjectionSiteLabel(finding.injection_site)}</span
+												>
 											</div>
 										{/if}
 										{#if finding.needle_gauge}
@@ -858,7 +902,11 @@
 										{#if finding.storage_condition}
 											<div class="detail-item">
 												<span class="detail-label">Storage</span>
-												<span class="detail-value">{finding.storage_condition === 'refrigerated' ? 'Refrigerated' : 'Room temp'}</span>
+												<span class="detail-value"
+													>{finding.storage_condition === 'refrigerated'
+														? 'Refrigerated'
+														: 'Room temp'}</span
+												>
 											</div>
 										{/if}
 									</div>
@@ -876,13 +924,21 @@
 											{#if finding.source_verified && finding.source_verified !== 'prefer_not_say'}
 												<div class="detail-item">
 													<span class="detail-label">Verified</span>
-													<span class="detail-value">{finding.source_verified === 'yes' ? 'Yes' : 'No'}</span>
+													<span class="detail-value"
+														>{finding.source_verified === 'yes' ? 'Yes' : 'No'}</span
+													>
 												</div>
 											{/if}
 											{#if finding.same_batch}
 												<div class="detail-item">
 													<span class="detail-label">Same Batch</span>
-													<span class="detail-value">{finding.same_batch === 'yes' ? 'Yes' : finding.same_batch === 'no' ? 'No' : 'Multiple batches'}</span>
+													<span class="detail-value"
+														>{finding.same_batch === 'yes'
+															? 'Yes'
+															: finding.same_batch === 'no'
+																? 'No'
+																: 'Multiple batches'}</span
+													>
 												</div>
 											{/if}
 										</div>
@@ -918,7 +974,9 @@
 										{#if result?.effect_persistence}
 											<div class="detail-item">
 												<span class="detail-label">Effect Persistence</span>
-												<span class="detail-value">{getEffectPersistenceLabel(result.effect_persistence)}</span>
+												<span class="detail-value"
+													>{getEffectPersistenceLabel(result.effect_persistence)}</span
+												>
 											</div>
 										{/if}
 										<div class="detail-item">
@@ -954,16 +1012,24 @@
 										<h4>Lifestyle Context</h4>
 										<div class="lifestyle-tags">
 											{#if finding.training_intensity}
-												<span class="lifestyle-tag"><Dumbbell class="h-3 w-3" /> {finding.training_intensity}</span>
+												<span class="lifestyle-tag"
+													><Dumbbell class="h-3 w-3" /> {finding.training_intensity}</span
+												>
 											{/if}
 											{#if finding.sleep_quality}
-												<span class="lifestyle-tag"><Moon class="h-3 w-3" /> {finding.sleep_quality} sleep</span>
+												<span class="lifestyle-tag"
+													><Moon class="h-3 w-3" /> {finding.sleep_quality} sleep</span
+												>
 											{/if}
 											{#if finding.stress_level}
-												<span class="lifestyle-tag"><Brain class="h-3 w-3" /> {finding.stress_level} stress</span>
+												<span class="lifestyle-tag"
+													><Brain class="h-3 w-3" /> {finding.stress_level} stress</span
+												>
 											{/if}
 											{#if finding.diet_adherence}
-												<span class="lifestyle-tag"><Utensils class="h-3 w-3" /> {finding.diet_adherence} diet</span>
+												<span class="lifestyle-tag"
+													><Utensils class="h-3 w-3" /> {finding.diet_adherence} diet</span
+												>
 											{/if}
 										</div>
 									</div>
@@ -1029,14 +1095,20 @@
 													</div>
 													<div class="effect-meta">
 														{#if effect.onset_timing}
-															<span class="effect-timing">{getOnsetTimingLabel(effect.onset_timing)}</span>
+															<span class="effect-timing"
+																>{getOnsetTimingLabel(effect.onset_timing)}</span
+															>
 														{/if}
 														{#if effect.resolved}
-															<span class="effect-resolved">{getResolutionLabel(effect.resolved)}</span>
+															<span class="effect-resolved"
+																>{getResolutionLabel(effect.resolved)}</span
+															>
 														{/if}
 													</div>
 													{#if effect.management_strategy}
-														<p class="effect-management">Management: {effect.management_strategy}</p>
+														<p class="effect-management">
+															Management: {effect.management_strategy}
+														</p>
 													{/if}
 													{#if effect.notes}
 														<p class="effect-notes">{effect.notes}</p>

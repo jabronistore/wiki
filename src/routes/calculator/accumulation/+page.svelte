@@ -61,8 +61,15 @@
 				itemListElement: [
 					{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
 					{ '@type': 'ListItem', position: 2, name: 'Calculator', item: `${SITE_URL}/calculator` },
-					{ '@type': 'ListItem', position: 3, name: 'Accumulation', item: `${SITE_URL}/calculator/accumulation` },
-					...(peptideName ? [{ '@type': 'ListItem', position: 4, name: peptideName, item: canonical }] : [])
+					{
+						'@type': 'ListItem',
+						position: 3,
+						name: 'Accumulation',
+						item: `${SITE_URL}/calculator/accumulation`
+					},
+					...(peptideName
+						? [{ '@type': 'ListItem', position: 4, name: peptideName, item: canonical }]
+						: [])
 				]
 			}
 		]
@@ -86,16 +93,16 @@
 	<ol>
 		<li>
 			<a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a>
-			<ChevronRight class="h-3.5 w-3.5 sep" />
+			<ChevronRight class="sep h-3.5 w-3.5" />
 		</li>
 		<li>
 			<a href="/calculator">Calculator</a>
-			<ChevronRight class="h-3.5 w-3.5 sep" />
+			<ChevronRight class="sep h-3.5 w-3.5" />
 		</li>
 		<li>
 			{#if peptideName}
 				<a href="/calculator/accumulation">Accumulation</a>
-				<ChevronRight class="h-3.5 w-3.5 sep" />
+				<ChevronRight class="sep h-3.5 w-3.5" />
 			{:else}
 				<span class="current">Accumulation</span>
 			{/if}
@@ -114,7 +121,9 @@
 			<p class="calculator-subtitle">Visualize {peptideName} concentration curves over time</p>
 		{:else}
 			<h1 class="calculator-title">Accumulation Plotter</h1>
-			<p class="calculator-subtitle">Model peptide concentration curves based on dose, frequency, and duration</p>
+			<p class="calculator-subtitle">
+				Model peptide concentration curves based on dose, frequency, and duration
+			</p>
 		{/if}
 
 		<!-- Cross-links (only when peptide selected) -->

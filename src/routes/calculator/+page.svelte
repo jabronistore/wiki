@@ -1,6 +1,14 @@
 <script lang="ts">
 	import { PeptideCalculator } from '$lib/components/calculator';
-	import { Droplets, Syringe, FlaskConical, ChevronRight, Home, BookOpen, ExternalLink } from 'lucide-svelte';
+	import {
+		Droplets,
+		Syringe,
+		FlaskConical,
+		ChevronRight,
+		Home,
+		BookOpen,
+		ExternalLink
+	} from 'lucide-svelte';
 	import SEO from 'sk-seo';
 	import { goto } from '$app/navigation';
 	import { currentReconstitutionPeptide } from '$lib/stores/calculator';
@@ -63,7 +71,9 @@
 				itemListElement: [
 					{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
 					{ '@type': 'ListItem', position: 2, name: 'Calculator', item: `${SITE_URL}/calculator` },
-					...(peptideName ? [{ '@type': 'ListItem', position: 3, name: peptideName, item: canonical }] : [])
+					...(peptideName
+						? [{ '@type': 'ListItem', position: 3, name: peptideName, item: canonical }]
+						: [])
 				]
 			},
 			{
@@ -136,12 +146,10 @@
 		'tesa-ipa-protocol': 'tesa-ipa',
 		'illumineuro-protocol': 'illumineuro'
 	};
-	const blendCalcId = $derived(peptideId ? blendMap[peptideId] ?? null : null);
+	const blendCalcId = $derived(peptideId ? (blendMap[peptideId] ?? null) : null);
 
 	// Get first injectable method's protocols for contextual reference
-	const injectableMethod = $derived(
-		ctx?.deliveryMethods?.find(m => m.type === 'injectable')
-	);
+	const injectableMethod = $derived(ctx?.deliveryMethods?.find((m) => m.type === 'injectable'));
 </script>
 
 <SEO
@@ -161,12 +169,12 @@
 	<ol>
 		<li>
 			<a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a>
-			<ChevronRight class="h-3.5 w-3.5 sep" />
+			<ChevronRight class="sep h-3.5 w-3.5" />
 		</li>
 		<li>
 			{#if peptideName}
 				<a href="/calculator">Calculator</a>
-				<ChevronRight class="h-3.5 w-3.5 sep" />
+				<ChevronRight class="sep h-3.5 w-3.5" />
 			{:else}
 				<span class="current">Calculator</span>
 			{/if}
@@ -226,7 +234,8 @@
 
 {#if blendCalcId}
 	<a href="/calculator/blend?b={blendCalcId}" class="blend-nudge">
-		{peptideName} is a multi-peptide blend. Use the <strong>blend calculator →</strong> to see individual component doses.
+		{peptideName} is a multi-peptide blend. Use the <strong>blend calculator →</strong> to see individual
+		component doses.
 	</a>
 {/if}
 
@@ -383,7 +392,8 @@
 					</table>
 				</div>
 				<p class="reference-note">
-					Smaller syringes offer better precision for small doses. Use the smallest syringe that fits your dose.
+					Smaller syringes offer better precision for small doses. Use the smallest syringe that
+					fits your dose.
 				</p>
 			</div>
 
@@ -393,12 +403,21 @@
 				</div>
 				<h3 class="reference-heading">Reconstitution Tips</h3>
 				<ul class="tips-list">
-					<li><strong>Use bacteriostatic water (BAC)</strong> - contains 0.9% benzyl alcohol for preservation</li>
-					<li><strong>Inject water slowly</strong> - aim down the vial wall, not directly onto powder</li>
+					<li>
+						<strong>Use bacteriostatic water (BAC)</strong> - contains 0.9% benzyl alcohol for preservation
+					</li>
+					<li>
+						<strong>Inject water slowly</strong> - aim down the vial wall, not directly onto powder
+					</li>
 					<li><strong>Never shake</strong> - gently swirl or roll the vial until dissolved</li>
 					<li><strong>Store properly</strong> - refrigerate at 2-8C after reconstitution</li>
-					<li><strong>Use within 28 days</strong> - most reconstituted peptides remain stable for about 4 weeks</li>
-					<li><strong>Keep sterile</strong> - always clean vial tops with alcohol before drawing</li>
+					<li>
+						<strong>Use within 28 days</strong> - most reconstituted peptides remain stable for about
+						4 weeks
+					</li>
+					<li>
+						<strong>Keep sterile</strong> - always clean vial tops with alcohol before drawing
+					</li>
 				</ul>
 			</div>
 		</div>

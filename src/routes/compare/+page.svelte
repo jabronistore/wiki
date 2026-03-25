@@ -5,7 +5,8 @@
 	import { buildComparisonSlug, type ComparisonPair } from '$lib/utils/comparison';
 	import type { PeptideSummary } from '$lib/types';
 
-	let { data }: { data: { popularComparisons: ComparisonPair[]; allPeptides: PeptideSummary[] } } = $props();
+	let { data }: { data: { popularComparisons: ComparisonPair[]; allPeptides: PeptideSummary[] } } =
+		$props();
 
 	let peptideA = $state('');
 	let peptideB = $state('');
@@ -36,14 +37,20 @@
 	<!-- Breadcrumb -->
 	<nav aria-label="Breadcrumb" class="breadcrumb">
 		<ol>
-			<li><a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a><ChevronRight class="h-3.5 w-3.5 sep" /></li>
+			<li>
+				<a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a><ChevronRight
+					class="sep h-3.5 w-3.5"
+				/>
+			</li>
 			<li><span class="current">Compare</span></li>
 		</ol>
 	</nav>
 
 	<header class="page-header">
 		<h1>Peptide Comparisons</h1>
-		<p class="subtitle">Side-by-side data for any two peptides. Dosing, safety, half-life, interactions.</p>
+		<p class="subtitle">
+			Side-by-side data for any two peptides. Dosing, safety, half-life, interactions.
+		</p>
 	</header>
 
 	<!-- Build your own comparison -->
@@ -62,7 +69,11 @@
 					<option value={p.id} disabled={p.id === peptideA}>{p.name}</option>
 				{/each}
 			</select>
-			<button class="compare-btn" onclick={goCompare} disabled={!peptideA || !peptideB || peptideA === peptideB}>
+			<button
+				class="compare-btn"
+				onclick={goCompare}
+				disabled={!peptideA || !peptideB || peptideA === peptideB}
+			>
 				Compare
 			</button>
 		</div>
@@ -81,7 +92,9 @@
 							<span class="pair-name">{pair.nameB}</span>
 						</div>
 						<div class="pair-meta">
-							<span class="pair-status pair-status-{pair.interactionStatus}">{statusLabels[pair.interactionStatus] || pair.interactionStatus}</span>
+							<span class="pair-status pair-status-{pair.interactionStatus}"
+								>{statusLabels[pair.interactionStatus] || pair.interactionStatus}</span
+							>
 							{#each pair.sharedCategories.slice(0, 2) as cat}
 								<span class="pair-cat">{cat}</span>
 							{/each}
@@ -112,11 +125,28 @@
 		color: hsl(var(--muted-foreground));
 	}
 
-	.breadcrumb li { display: flex; align-items: center; gap: 0.375rem; }
-	.breadcrumb a { display: flex; align-items: center; gap: 0.25rem; color: hsl(var(--muted-foreground)); text-decoration: none; }
-	.breadcrumb a:hover { color: hsl(var(--foreground)); }
-	.breadcrumb .current { color: hsl(var(--foreground)); font-weight: 500; }
-	.breadcrumb :global(.sep) { color: hsl(var(--border)); }
+	.breadcrumb li {
+		display: flex;
+		align-items: center;
+		gap: 0.375rem;
+	}
+	.breadcrumb a {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		color: hsl(var(--muted-foreground));
+		text-decoration: none;
+	}
+	.breadcrumb a:hover {
+		color: hsl(var(--foreground));
+	}
+	.breadcrumb .current {
+		color: hsl(var(--foreground));
+		font-weight: 500;
+	}
+	.breadcrumb :global(.sep) {
+		color: hsl(var(--border));
+	}
 
 	.page-header {
 		margin-bottom: 2rem;
@@ -186,14 +216,27 @@
 		flex-shrink: 0;
 	}
 
-	.compare-btn:hover { opacity: 0.9; }
-	.compare-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+	.compare-btn:hover {
+		opacity: 0.9;
+	}
+	.compare-btn:disabled {
+		opacity: 0.4;
+		cursor: not-allowed;
+	}
 
 	@media (max-width: 640px) {
-		.custom-row { flex-direction: column; }
-		.compare-select { width: 100%; }
-		.vs-label { display: none; }
-		.compare-btn { width: 100%; }
+		.custom-row {
+			flex-direction: column;
+		}
+		.compare-select {
+			width: 100%;
+		}
+		.vs-label {
+			display: none;
+		}
+		.compare-btn {
+			width: 100%;
+		}
 	}
 
 	/* Popular comparisons */
@@ -255,7 +298,8 @@
 		flex-wrap: wrap;
 	}
 
-	.pair-status, .pair-cat {
+	.pair-status,
+	.pair-cat {
 		font-size: 0.625rem;
 		font-weight: 600;
 		text-transform: uppercase;

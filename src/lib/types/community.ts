@@ -110,7 +110,14 @@ export interface ConcurrentCompoundInput {
 
 // Administration details by method
 export interface InjectableDetails {
-	injectionSite: 'abdomen' | 'love_handles' | 'thigh' | 'deltoid' | 'gluteal' | 'vastus_lateralis' | 'rotated';
+	injectionSite:
+		| 'abdomen'
+		| 'love_handles'
+		| 'thigh'
+		| 'deltoid'
+		| 'gluteal'
+		| 'vastus_lateralis'
+		| 'rotated';
 	needleGauge: '27g' | '29g' | '30g' | '31g' | 'insulin_syringe';
 	storageCondition: 'refrigerated' | 'room_temp';
 	daysSinceReconstitution: number;
@@ -154,14 +161,29 @@ export interface LifestyleFactors {
 }
 
 // Cycle completion info
-export type WhyStopped = 'achieved_goals' | 'side_effects' | 'cost' | 'availability' | 'planned_end' | 'other';
+export type WhyStopped =
+	| 'achieved_goals'
+	| 'side_effects'
+	| 'cost'
+	| 'availability'
+	| 'planned_end'
+	| 'other';
 export type RepeatCycleStatus = 'first_time' | 'repeat_positive' | 'repeat_different_protocol';
-export type DataConfidence = 'very_confident' | 'somewhat_confident' | 'some_uncertainty' | 'significant_guessing';
+export type DataConfidence =
+	| 'very_confident'
+	| 'somewhat_confident'
+	| 'some_uncertainty'
+	| 'significant_guessing';
 
 // Results metadata
 export interface ResultsMetadata {
 	timeToPeakDays?: number;
-	effectPersistence: 'ongoing' | 'less_than_week' | '1_to_4_weeks' | '1_to_3_months' | 'more_than_3_months';
+	effectPersistence:
+		| 'ongoing'
+		| 'less_than_week'
+		| '1_to_4_weeks'
+		| '1_to_3_months'
+		| 'more_than_3_months';
 	doseResponseNoticed: boolean;
 	doseResponseNotes?: string;
 }

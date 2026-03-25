@@ -63,10 +63,7 @@ export async function executeRecaptcha(action: string): Promise<string> {
 
 	return new Promise((resolve, reject) => {
 		window.grecaptcha.ready(() => {
-			window.grecaptcha
-				.execute(PUBLIC_RECAPTCHA_SITE_KEY, { action })
-				.then(resolve)
-				.catch(reject);
+			window.grecaptcha.execute(PUBLIC_RECAPTCHA_SITE_KEY, { action }).then(resolve).catch(reject);
 		});
 	});
 }

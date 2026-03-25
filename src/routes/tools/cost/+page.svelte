@@ -20,8 +20,12 @@
 
 	// Calculations
 	const doseInMcg = $derived(doseUnit === 'mg' ? dose * 1000 : dose);
-	const dosesPerVial = $derived(doseInMcg > 0 && vialSize > 0 ? Math.floor((vialSize * 1000) / doseInMcg) : 0);
-	const daysPerVial = $derived(dosesPerDay > 0 && dosesPerVial > 0 ? dosesPerVial / dosesPerDay : 0);
+	const dosesPerVial = $derived(
+		doseInMcg > 0 && vialSize > 0 ? Math.floor((vialSize * 1000) / doseInMcg) : 0
+	);
+	const daysPerVial = $derived(
+		dosesPerDay > 0 && dosesPerVial > 0 ? dosesPerVial / dosesPerDay : 0
+	);
 	const costPerDose = $derived(dosesPerVial > 0 && vialPrice > 0 ? vialPrice / dosesPerVial : 0);
 	const costPerDay = $derived(costPerDose * dosesPerDay);
 	const costPerWeek = $derived(costPerDay * 7);
@@ -45,8 +49,13 @@
 				const doseStr = p.quickStats.typicalDose;
 				const mgMatch = doseStr.match(/(\d+(?:\.\d+)?)\s*mg/i);
 				const mcgMatch = doseStr.match(/(\d+(?:\.\d+)?)\s*mcg/i);
-				if (mgMatch) { newDose = parseFloat(mgMatch[1]); newUnit = 'mg'; }
-				else if (mcgMatch) { newDose = parseFloat(mcgMatch[1]); newUnit = 'mcg'; }
+				if (mgMatch) {
+					newDose = parseFloat(mgMatch[1]);
+					newUnit = 'mg';
+				} else if (mcgMatch) {
+					newDose = parseFloat(mcgMatch[1]);
+					newUnit = 'mcg';
+				}
 			}
 
 			if (p?.quickStats?.frequency) {
@@ -89,9 +98,7 @@
 			: 'Calculate peptide cost per dose, per week, and per cycle. Enter your vial price and dosing protocol.'
 	);
 	const canonical = $derived(
-		peptideId
-			? `${SITE_URL}/tools/cost?peptide=${peptideId}`
-			: `${SITE_URL}/tools/cost`
+		peptideId ? `${SITE_URL}/tools/cost?peptide=${peptideId}` : `${SITE_URL}/tools/cost`
 	);
 
 	const jsonld = $derived({
@@ -110,7 +117,12 @@
 				itemListElement: [
 					{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
 					{ '@type': 'ListItem', position: 2, name: 'Tools', item: `${SITE_URL}/tools` },
-					{ '@type': 'ListItem', position: 3, name: 'Cost Calculator', item: `${SITE_URL}/tools/cost` }
+					{
+						'@type': 'ListItem',
+						position: 3,
+						name: 'Cost Calculator',
+						item: `${SITE_URL}/tools/cost`
+					}
 				]
 			}
 		]
@@ -140,14 +152,20 @@
 <div class="cost-page">
 	<nav aria-label="Breadcrumb" class="breadcrumb">
 		<ol>
-			<li><a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a><ChevronRight class="h-3.5 w-3.5 sep" /></li>
+			<li>
+				<a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a><ChevronRight
+					class="sep h-3.5 w-3.5"
+				/>
+			</li>
 			<li><span class="current">Cost Calculator</span></li>
 		</ol>
 	</nav>
 
 	<header class="page-header">
 		<h1>{peptideName ? `${peptideName} Cost Calculator` : 'Peptide Cost Calculator'}</h1>
-		<p class="subtitle">Enter your vial price and protocol to see cost per dose, per week, and per cycle.</p>
+		<p class="subtitle">
+			Enter your vial price and protocol to see cost per dose, per week, and per cycle.
+		</p>
 	</header>
 
 	<div class="calc-layout">
@@ -169,7 +187,15 @@
 				<div class="input-group">
 					<label for="cost-vial" class="field-label">Vial Size</label>
 					<div class="field-box">
-						<input id="cost-vial" type="number" bind:value={vialSize} min="0.1" step="0.1" inputmode="decimal" class="field-input" />
+						<input
+							id="cost-vial"
+							type="number"
+							bind:value={vialSize}
+							min="0.1"
+							step="0.1"
+							inputmode="decimal"
+							class="field-input"
+						/>
 						<span class="field-suffix">mg</span>
 					</div>
 				</div>
@@ -177,7 +203,16 @@
 					<label for="cost-price" class="field-label">Vial Price</label>
 					<div class="field-box">
 						<span class="field-prefix">$</span>
-						<input id="cost-price" type="number" bind:value={vialPrice} min="0" step="1" inputmode="decimal" class="field-input" placeholder="0" />
+						<input
+							id="cost-price"
+							type="number"
+							bind:value={vialPrice}
+							min="0"
+							step="1"
+							inputmode="decimal"
+							class="field-input"
+							placeholder="0"
+						/>
 					</div>
 				</div>
 			</div>
@@ -186,10 +221,28 @@
 			<div class="input-group">
 				<label for="cost-dose" class="field-label">Dose per injection</label>
 				<div class="field-box">
-					<input id="cost-dose" type="number" bind:value={dose} min="0.1" step={doseUnit === 'mg' ? 0.5 : 50} inputmode="decimal" class="field-input" />
+					<input
+						id="cost-dose"
+						type="number"
+						bind:value={dose}
+						min="0.1"
+						step={doseUnit === 'mg' ? 0.5 : 50}
+						inputmode="decimal"
+						class="field-input"
+					/>
 					<div class="unit-seg">
-						<button type="button" class="unit-seg-btn" class:unit-seg-active={doseUnit === 'mcg'} onclick={() => (doseUnit = 'mcg')}>mcg</button>
-						<button type="button" class="unit-seg-btn" class:unit-seg-active={doseUnit === 'mg'} onclick={() => (doseUnit = 'mg')}>mg</button>
+						<button
+							type="button"
+							class="unit-seg-btn"
+							class:unit-seg-active={doseUnit === 'mcg'}
+							onclick={() => (doseUnit = 'mcg')}>mcg</button
+						>
+						<button
+							type="button"
+							class="unit-seg-btn"
+							class:unit-seg-active={doseUnit === 'mg'}
+							onclick={() => (doseUnit = 'mg')}>mg</button
+						>
 					</div>
 				</div>
 			</div>
@@ -203,8 +256,8 @@
 							type="button"
 							class="freq-btn"
 							class:freq-active={Math.abs(dosesPerDay - fp.value) < 0.001}
-							onclick={() => (dosesPerDay = fp.value)}
-						>{fp.label}</button>
+							onclick={() => (dosesPerDay = fp.value)}>{fp.label}</button
+						>
 					{/each}
 				</div>
 			</div>
@@ -213,7 +266,16 @@
 			<div class="input-group">
 				<label for="cost-cycle" class="field-label">Cycle Length</label>
 				<div class="field-box">
-					<input id="cost-cycle" type="number" bind:value={cycleDays} min="1" max="365" step="1" inputmode="numeric" class="field-input" />
+					<input
+						id="cost-cycle"
+						type="number"
+						bind:value={cycleDays}
+						min="1"
+						max="365"
+						step="1"
+						inputmode="numeric"
+						class="field-input"
+					/>
 					<span class="field-suffix">days</span>
 				</div>
 			</div>
@@ -251,9 +313,7 @@
 					<span>{daysPerVial.toFixed(1)} days per vial</span>
 				</div>
 			{:else}
-				<div class="result-empty">
-					Enter a vial price above to see cost breakdown.
-				</div>
+				<div class="result-empty">Enter a vial price above to see cost breakdown.</div>
 			{/if}
 		</div>
 	</div>
@@ -276,16 +336,51 @@
 	}
 
 	/* Breadcrumb */
-	.breadcrumb ol { display: flex; align-items: center; gap: 0.375rem; list-style: none; padding: 0; margin: 0 0 1.5rem; font-size: 0.8125rem; color: hsl(var(--muted-foreground)); }
-	.breadcrumb li { display: flex; align-items: center; gap: 0.375rem; }
-	.breadcrumb a { display: flex; align-items: center; gap: 0.25rem; color: hsl(var(--muted-foreground)); text-decoration: none; }
-	.breadcrumb a:hover { color: hsl(var(--foreground)); }
-	.breadcrumb .current { color: hsl(var(--foreground)); font-weight: 500; }
-	.breadcrumb :global(.sep) { color: hsl(var(--border)); }
+	.breadcrumb ol {
+		display: flex;
+		align-items: center;
+		gap: 0.375rem;
+		list-style: none;
+		padding: 0;
+		margin: 0 0 1.5rem;
+		font-size: 0.8125rem;
+		color: hsl(var(--muted-foreground));
+	}
+	.breadcrumb li {
+		display: flex;
+		align-items: center;
+		gap: 0.375rem;
+	}
+	.breadcrumb a {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		color: hsl(var(--muted-foreground));
+		text-decoration: none;
+	}
+	.breadcrumb a:hover {
+		color: hsl(var(--foreground));
+	}
+	.breadcrumb .current {
+		color: hsl(var(--foreground));
+		font-weight: 500;
+	}
+	.breadcrumb :global(.sep) {
+		color: hsl(var(--border));
+	}
 
-	.page-header { margin-bottom: 2rem; }
-	.page-header h1 { font-size: 2rem; font-weight: 400; margin-bottom: 0.5rem; }
-	.subtitle { font-size: 0.9375rem; color: hsl(var(--muted-foreground)); }
+	.page-header {
+		margin-bottom: 2rem;
+	}
+	.page-header h1 {
+		font-size: 2rem;
+		font-weight: 400;
+		margin-bottom: 0.5rem;
+	}
+	.subtitle {
+		font-size: 0.9375rem;
+		color: hsl(var(--muted-foreground));
+	}
 
 	.calc-layout {
 		display: grid;
@@ -295,9 +390,15 @@
 	}
 
 	@media (max-width: 640px) {
-		.calc-layout { grid-template-columns: 1fr; }
-		.input-row { grid-template-columns: 1fr; }
-		.page-header h1 { font-size: 1.5rem; }
+		.calc-layout {
+			grid-template-columns: 1fr;
+		}
+		.input-row {
+			grid-template-columns: 1fr;
+		}
+		.page-header h1 {
+			font-size: 1.5rem;
+		}
 	}
 
 	.calc-inputs {
@@ -337,7 +438,9 @@
 		transition: border-color 0.15s;
 	}
 
-	.field-box:focus-within { border-color: hsl(var(--accent)); }
+	.field-box:focus-within {
+		border-color: hsl(var(--accent));
+	}
 
 	.field-input {
 		flex: 1;
@@ -356,7 +459,11 @@
 	}
 
 	.field-input::-webkit-outer-spin-button,
-	.field-input::-webkit-inner-spin-button { -webkit-appearance: none; appearance: none; margin: 0; }
+	.field-input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		appearance: none;
+		margin: 0;
+	}
 
 	.field-suffix {
 		padding: 0.75rem 0.875rem 0.75rem 0;
@@ -385,7 +492,10 @@
 		cursor: pointer;
 	}
 
-	.field-select:focus { outline: none; border-color: hsl(var(--accent)); }
+	.field-select:focus {
+		outline: none;
+		border-color: hsl(var(--accent));
+	}
 
 	/* Unit toggle */
 	.unit-seg {
@@ -409,8 +519,13 @@
 		-webkit-tap-highlight-color: transparent;
 	}
 
-	.unit-seg-btn:first-child { border-right: 1px solid hsl(var(--border)); }
-	.unit-seg-active { background: hsl(var(--accent)); color: white; }
+	.unit-seg-btn:first-child {
+		border-right: 1px solid hsl(var(--border));
+	}
+	.unit-seg-active {
+		background: hsl(var(--accent));
+		color: white;
+	}
 
 	/* Frequency presets */
 	.freq-presets {
@@ -432,8 +547,14 @@
 		-webkit-tap-highlight-color: transparent;
 	}
 
-	.freq-btn:hover { border-color: hsl(var(--accent) / 0.5); }
-	.freq-active { background: hsl(var(--accent)); color: white; border-color: hsl(var(--accent)); }
+	.freq-btn:hover {
+		border-color: hsl(var(--accent) / 0.5);
+	}
+	.freq-active {
+		background: hsl(var(--accent));
+		color: white;
+		border-color: hsl(var(--accent));
+	}
 
 	/* Results */
 	.calc-results {
@@ -529,5 +650,8 @@
 		transition: all 0.15s;
 	}
 
-	.link-pill:hover { background: hsl(var(--accent) / 0.08); border-color: hsl(var(--accent) / 0.5); }
+	.link-pill:hover {
+		background: hsl(var(--accent) / 0.08);
+		border-color: hsl(var(--accent) / 0.5);
+	}
 </style>

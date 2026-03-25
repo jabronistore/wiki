@@ -1,24 +1,15 @@
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import { getPeptideBySlug } from '$lib/data/peptides';
-import { createSupabaseServerClient } from '$lib/supabase';
 
-export const load: PageServerLoad = async ({ params, cookies, parent }) => {
+export const load: PageServerLoad = async ({ params, locals, parent }) => {
 	const peptide = getPeptideBySlug(params.slug);
 	if (!peptide) {
 		throw redirect(303, '/peptides');
 	}
 
 	const { user, profile } = await parent();
-
-	const supabase = createSupabaseServerClient({
-		getAll: () => cookies.getAll(),
-		setAll: (cookiesToSet) => {
-			cookiesToSet.forEach(({ name, value, options }) => {
-				cookies.set(name, value, { path: '/', ...options });
-			});
-		}
-	});
+	const supabase = locals.supabase;
 
 	if (!supabase) {
 		return {

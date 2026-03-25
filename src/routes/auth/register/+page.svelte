@@ -96,18 +96,20 @@
 	<title>Register | Peptide Database</title>
 </svelte:head>
 
-<div class="min-h-screen flex items-center justify-center py-12 px-4">
+<div class="flex min-h-screen items-center justify-center px-4 py-12">
 	<div class="w-full max-w-md">
-		<div class="text-center mb-8">
+		<div class="mb-8 text-center">
 			<h1 class="text-2xl font-bold">Create an Account</h1>
-			<p class="text-muted-foreground mt-2">
+			<p class="mt-2 text-muted-foreground">
 				Join the community to share research findings and discuss peptides
 			</p>
 		</div>
 
-		<form onsubmit={handleSubmit} class="space-y-6 bg-card p-6 rounded-lg border border-border">
+		<form onsubmit={handleSubmit} class="space-y-6 rounded-lg border border-border bg-card p-6">
 			{#if error}
-				<div class="flex items-center gap-2 p-3 bg-destructive/10 text-destructive rounded-md text-sm">
+				<div
+					class="flex items-center gap-2 rounded-md bg-destructive/10 p-3 text-sm text-destructive"
+				>
 					<AlertCircle class="h-4 w-4 flex-shrink-0" />
 					<span>{error}</span>
 				</div>
@@ -118,8 +120,10 @@
 				<label for="username" class="text-sm font-medium">
 					Username <span class="text-destructive">*</span>
 				</label>
-				<div class="flex items-start gap-2 p-2 bg-muted/50 rounded text-xs text-muted-foreground mb-2">
-					<Info class="h-4 w-4 flex-shrink-0 mt-0.5" />
+				<div
+					class="mb-2 flex items-start gap-2 rounded bg-muted/50 p-2 text-xs text-muted-foreground"
+				>
+					<Info class="mt-0.5 h-4 w-4 flex-shrink-0" />
 					<span>
 						Choose an anonymous username. <strong>DO NOT</strong> use your real name or email address!
 					</span>
@@ -128,12 +132,12 @@
 					type="text"
 					id="username"
 					bind:value={username}
-					class="w-full px-3 py-2 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-ring"
+					class="w-full rounded-md border border-border bg-background px-3 py-2 focus:outline-none focus:ring-2 focus:ring-ring"
 					placeholder="peptide_researcher_42"
 					required
 				/>
 				{#if fieldErrors.username}
-					<p class="text-destructive text-xs">{fieldErrors.username}</p>
+					<p class="text-xs text-destructive">{fieldErrors.username}</p>
 				{/if}
 			</div>
 
@@ -142,22 +146,25 @@
 				<label for="email" class="text-sm font-medium">
 					Email <span class="text-destructive">*</span>
 				</label>
-				<div class="flex items-start gap-2 p-2 bg-muted/50 rounded text-xs text-muted-foreground mb-2">
-					<Info class="h-4 w-4 flex-shrink-0 mt-0.5" />
+				<div
+					class="mb-2 flex items-start gap-2 rounded bg-muted/50 p-2 text-xs text-muted-foreground"
+				>
+					<Info class="mt-0.5 h-4 w-4 flex-shrink-0" />
 					<span>
-						For enhanced privacy, consider using a throwaway email from Proton.me, Gmail, or Outlook.
+						For enhanced privacy, consider using a throwaway email from Proton.me, Gmail, or
+						Outlook.
 					</span>
 				</div>
 				<input
 					type="email"
 					id="email"
 					bind:value={email}
-					class="w-full px-3 py-2 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-ring"
+					class="w-full rounded-md border border-border bg-background px-3 py-2 focus:outline-none focus:ring-2 focus:ring-ring"
 					placeholder="anonymous@example.com"
 					required
 				/>
 				{#if fieldErrors.email}
-					<p class="text-destructive text-xs">{fieldErrors.email}</p>
+					<p class="text-xs text-destructive">{fieldErrors.email}</p>
 				{/if}
 			</div>
 
@@ -171,7 +178,7 @@
 						type={showPassword ? 'text' : 'password'}
 						id="password"
 						bind:value={password}
-						class="w-full px-3 py-2 pr-10 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-ring"
+						class="w-full rounded-md border border-border bg-background px-3 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-ring"
 						placeholder="••••••••"
 						required
 					/>
@@ -189,20 +196,18 @@
 				</div>
 				<PasswordStrength {password} />
 				{#if fieldErrors.password}
-					<p class="text-destructive text-xs">{fieldErrors.password}</p>
+					<p class="text-xs text-destructive">{fieldErrors.password}</p>
 				{/if}
 			</div>
 
 			<!-- Location -->
 			<div class="space-y-2">
-				<label for="location" class="text-sm font-medium">
-					From (optional)
-				</label>
+				<label for="location" class="text-sm font-medium"> From (optional) </label>
 				<input
 					type="text"
 					id="location"
 					bind:value={location}
-					class="w-full px-3 py-2 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-ring"
+					class="w-full rounded-md border border-border bg-background px-3 py-2 focus:outline-none focus:ring-2 focus:ring-ring"
 					placeholder="e.g., US, EU, Asia-Pacific"
 				/>
 				<p class="text-xs text-muted-foreground">
@@ -218,9 +223,7 @@
 					bind:checked={newsletterOptIn}
 					class="rounded border-border"
 				/>
-				<label for="newsletter" class="text-sm">
-					Receive news and updates by email
-				</label>
+				<label for="newsletter" class="text-sm"> Receive news and updates by email </label>
 			</div>
 
 			<!-- Terms -->
@@ -230,17 +233,20 @@
 						type="checkbox"
 						id="terms"
 						bind:checked={termsAccepted}
-						class="rounded border-border mt-1"
+						class="mt-1 rounded border-border"
 						required
 					/>
 					<label for="terms" class="text-sm">
-						I agree to the <a href="/terms" class="text-accent hover:underline">Terms & Conditions</a>,
-						<a href="/privacy" class="text-accent hover:underline">Privacy Policy</a>, and community guidelines.
+						I agree to the <a href="/terms" class="text-accent hover:underline"
+							>Terms & Conditions</a
+						>,
+						<a href="/privacy" class="text-accent hover:underline">Privacy Policy</a>, and community
+						guidelines.
 						<span class="text-destructive">*</span>
 					</label>
 				</div>
 				{#if fieldErrors.terms}
-					<p class="text-destructive text-xs">{fieldErrors.terms}</p>
+					<p class="text-xs text-destructive">{fieldErrors.terms}</p>
 				{/if}
 			</div>
 
@@ -248,7 +254,7 @@
 			<button
 				type="submit"
 				disabled={isSubmitting}
-				class="w-full py-2 px-4 bg-accent text-white rounded-md hover:bg-accent/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+				class="w-full rounded-md bg-accent px-4 py-2 text-white transition-colors hover:bg-accent/90 disabled:cursor-not-allowed disabled:opacity-50"
 			>
 				{#if isSubmitting}
 					Creating account...
@@ -262,6 +268,5 @@
 				<a href="/auth/login" class="text-accent hover:underline">Sign in</a>
 			</p>
 		</form>
-
-			</div>
+	</div>
 </div>

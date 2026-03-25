@@ -343,8 +343,7 @@ function calculateAggregateStats(
 	findings
 		.filter((f) => !f.currently_on_cycle && f.why_stopped)
 		.forEach((f) => {
-			whyStoppedDistribution[f.why_stopped!] =
-				(whyStoppedDistribution[f.why_stopped!] || 0) + 1;
+			whyStoppedDistribution[f.why_stopped!] = (whyStoppedDistribution[f.why_stopped!] || 0) + 1;
 		});
 
 	// Dose response percentage

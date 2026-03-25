@@ -15,8 +15,13 @@ export function load({ url }) {
 		const doseStr = peptide.quickStats.typicalDose;
 		const mgMatch = doseStr.match(/(\d+(?:\.\d+)?)\s*mg/i);
 		const mcgMatch = doseStr.match(/(\d+(?:\.\d+)?)\s*mcg/i);
-		if (mgMatch) { defaultDose = parseFloat(mgMatch[1]); defaultUnit = 'mg'; }
-		else if (mcgMatch) { defaultDose = parseFloat(mcgMatch[1]); defaultUnit = 'mcg'; }
+		if (mgMatch) {
+			defaultDose = parseFloat(mgMatch[1]);
+			defaultUnit = 'mg';
+		} else if (mcgMatch) {
+			defaultDose = parseFloat(mcgMatch[1]);
+			defaultUnit = 'mcg';
+		}
 	}
 
 	// Parse frequency

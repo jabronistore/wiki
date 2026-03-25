@@ -8,7 +8,7 @@ export function load({ url }) {
 	const peptide = peptideId ? getPeptideBySlug(peptideId) : undefined;
 
 	// Get all peptides for the dropdown selector
-	const allPeptides = getAllPeptides().map(p => ({
+	const allPeptides = getAllPeptides().map((p) => ({
 		id: p.id,
 		name: p.name
 	}));
@@ -48,19 +48,23 @@ export function load({ url }) {
 	}
 
 	// Pass peptide context for cross-links and contextual reference section
-	const peptideContext = peptide ? {
-		id: peptide.id,
-		name: peptide.name,
-		subtitle: peptide.subtitle,
-		quickStats: peptide.quickStats,
-		deliveryMethods: peptide.deliveryMethods,
-		categories: peptide.categories,
-		molecular: peptide.molecular ? {
-			halfLife: peptide.molecular.halfLife,
-			halfLifeSeconds: peptide.molecular.halfLifeSeconds,
-			weight: peptide.molecular.weight
-		} : undefined
-	} : undefined;
+	const peptideContext = peptide
+		? {
+				id: peptide.id,
+				name: peptide.name,
+				subtitle: peptide.subtitle,
+				quickStats: peptide.quickStats,
+				deliveryMethods: peptide.deliveryMethods,
+				categories: peptide.categories,
+				molecular: peptide.molecular
+					? {
+							halfLife: peptide.molecular.halfLife,
+							halfLifeSeconds: peptide.molecular.halfLifeSeconds,
+							weight: peptide.molecular.weight
+						}
+					: undefined
+			}
+		: undefined;
 
 	return {
 		peptideId,

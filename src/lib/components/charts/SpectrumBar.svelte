@@ -159,7 +159,7 @@
 		justify-content: space-between;
 		margin-top: 0.5rem;
 		font-size: 0.6875rem;
-		color: var(--muted-foreground, #91918D);
+		color: var(--muted-foreground, #91918d);
 		font-style: italic;
 	}
 

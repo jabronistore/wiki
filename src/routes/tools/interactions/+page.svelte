@@ -8,7 +8,10 @@
 
 	const SITE_URL = 'https://peptide-db.com';
 
-	let { data }: { data: { allPeptides: PeptideSummary[]; initialPeptides: Peptide[]; initialIds: string[] } } = $props();
+	let {
+		data
+	}: { data: { allPeptides: PeptideSummary[]; initialPeptides: Peptide[]; initialIds: string[] } } =
+		$props();
 
 	let selectedIds = $state<string[]>(data.initialIds.length > 0 ? [...data.initialIds] : ['']);
 	let peptides = $state<(Peptide | null)[]>(
@@ -88,7 +91,9 @@
 	});
 
 	const hasConflicts = $derived(pairs.some((p) => p.status === 'avoid'));
-	const hasMonitor = $derived(pairs.some((p) => p.status === 'monitor' || p.status === 'requires-timing'));
+	const hasMonitor = $derived(
+		pairs.some((p) => p.status === 'monitor' || p.status === 'requires-timing')
+	);
 	const loadedCount = $derived(peptides.filter((p) => p !== null).length);
 
 	const statusConfig: Record<string, { label: string; color: string; icon: string }> = {
@@ -101,7 +106,9 @@
 	};
 
 	// Dynamic SEO
-	const peptideNames = $derived(peptides.filter((p): p is Peptide => p !== null).map((p) => p.name));
+	const peptideNames = $derived(
+		peptides.filter((p): p is Peptide => p !== null).map((p) => p.name)
+	);
 	const title = $derived(
 		peptideNames.length >= 2
 			? `${peptideNames.join(' + ')} Interactions | Peptide Database`
@@ -134,7 +141,12 @@
 				itemListElement: [
 					{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
 					{ '@type': 'ListItem', position: 2, name: 'Tools', item: `${SITE_URL}/tools` },
-					{ '@type': 'ListItem', position: 3, name: 'Interaction Checker', item: `${SITE_URL}/tools/interactions` }
+					{
+						'@type': 'ListItem',
+						position: 3,
+						name: 'Interaction Checker',
+						item: `${SITE_URL}/tools/interactions`
+					}
 				]
 			}
 		]
@@ -157,14 +169,20 @@
 	<!-- Breadcrumb -->
 	<nav aria-label="Breadcrumb" class="ix-breadcrumb">
 		<ol>
-			<li><a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a><ChevronRight class="h-3.5 w-3.5 sep" /></li>
+			<li>
+				<a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a><ChevronRight
+					class="sep h-3.5 w-3.5"
+				/>
+			</li>
 			<li><span class="current">Interaction Checker</span></li>
 		</ol>
 	</nav>
 
 	<header class="ix-header">
 		<h1>Interaction Checker</h1>
-		<p class="ix-subtitle">Add your peptides to check all pairwise interactions, conflicts, and timing requirements.</p>
+		<p class="ix-subtitle">
+			Add your peptides to check all pairwise interactions, conflicts, and timing requirements.
+		</p>
 	</header>
 
 	<!-- Peptide selector slots -->
@@ -178,7 +196,9 @@
 				>
 					<option value="">Select peptide...</option>
 					{#each data.allPeptides as p}
-						<option value={p.id} disabled={selectedIds.includes(p.id) && p.id !== id}>{p.name}</option>
+						<option value={p.id} disabled={selectedIds.includes(p.id) && p.id !== id}
+							>{p.name}</option
+						>
 					{/each}
 				</select>
 				{#if selectedIds.length > 1}
@@ -202,7 +222,9 @@
 		{#if hasConflicts}
 			<div class="ix-banner ix-banner-danger">
 				<AlertTriangle class="h-4 w-4" />
-				<span>This stack contains interactions marked <strong>avoid</strong>. Review the details below.</span>
+				<span
+					>This stack contains interactions marked <strong>avoid</strong>. Review the details below.</span
+				>
 			</div>
 		{:else if hasMonitor}
 			<div class="ix-banner ix-banner-warn">
@@ -239,8 +261,12 @@
 									{#each loaded as colP, j}
 										{#if j > 0}
 											{#if j > i}
-												{@const fromA = rowP?.interactions?.find((ix) => ix.peptide.toLowerCase() === colP?.name?.toLowerCase())}
-												{@const fromB = colP?.interactions?.find((ix) => ix.peptide.toLowerCase() === rowP?.name?.toLowerCase())}
+												{@const fromA = rowP?.interactions?.find(
+													(ix) => ix.peptide.toLowerCase() === colP?.name?.toLowerCase()
+												)}
+												{@const fromB = colP?.interactions?.find(
+													(ix) => ix.peptide.toLowerCase() === rowP?.name?.toLowerCase()
+												)}
 												{@const match = fromA || fromB}
 												{@const status = match?.status || 'unknown'}
 												{@const config = statusConfig[status]}
@@ -248,7 +274,9 @@
 													<div
 														class="ix-matrix-cell"
 														style="background: {config.color}"
-														title="{rowP?.name} + {colP?.name}: {config.label}{match?.notes ? ' — ' + match.notes : ''}"
+														title="{rowP?.name} + {colP?.name}: {config.label}{match?.notes
+															? ' — ' + match.notes
+															: ''}"
 													>
 														{config.icon}
 													</div>
@@ -281,7 +309,12 @@
 						<span class="ix-pair-status" style="color: {config.color}">{config.label}</span>
 					</div>
 					<p class="ix-pair-notes">{pair.notes}</p>
-					<a href="/compare/{pair.idA < pair.idB ? pair.idA : pair.idB}-vs-{pair.idA < pair.idB ? pair.idB : pair.idA}" class="ix-pair-compare">
+					<a
+						href="/compare/{pair.idA < pair.idB ? pair.idA : pair.idB}-vs-{pair.idA < pair.idB
+							? pair.idB
+							: pair.idA}"
+						class="ix-pair-compare"
+					>
 						Compare these two
 					</a>
 				</div>
@@ -294,7 +327,10 @@
 	<!-- Disclaimer -->
 	<div class="ix-disclaimer">
 		<AlertTriangle class="h-4 w-4 flex-shrink-0" />
-		<p>Interaction data is compiled from research literature and community reports. Always consult a healthcare professional before combining peptides.</p>
+		<p>
+			Interaction data is compiled from research literature and community reports. Always consult a
+			healthcare professional before combining peptides.
+		</p>
 	</div>
 </div>
 
@@ -316,11 +352,28 @@
 		font-size: 0.8125rem;
 		color: hsl(var(--muted-foreground));
 	}
-	.ix-breadcrumb li { display: flex; align-items: center; gap: 0.375rem; }
-	.ix-breadcrumb a { display: flex; align-items: center; gap: 0.25rem; color: hsl(var(--muted-foreground)); text-decoration: none; }
-	.ix-breadcrumb a:hover { color: hsl(var(--foreground)); }
-	.ix-breadcrumb .current { color: hsl(var(--foreground)); font-weight: 500; }
-	.ix-breadcrumb :global(.sep) { color: hsl(var(--border)); }
+	.ix-breadcrumb li {
+		display: flex;
+		align-items: center;
+		gap: 0.375rem;
+	}
+	.ix-breadcrumb a {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		color: hsl(var(--muted-foreground));
+		text-decoration: none;
+	}
+	.ix-breadcrumb a:hover {
+		color: hsl(var(--foreground));
+	}
+	.ix-breadcrumb .current {
+		color: hsl(var(--foreground));
+		font-weight: 500;
+	}
+	.ix-breadcrumb :global(.sep) {
+		color: hsl(var(--border));
+	}
 
 	.ix-header {
 		margin-bottom: 1.5rem;
@@ -503,7 +556,9 @@
 		border-bottom: 1px solid hsl(var(--border) / 0.3);
 	}
 
-	.ix-pair:last-child { border-bottom: none; }
+	.ix-pair:last-child {
+		border-bottom: none;
+	}
 
 	.ix-pair-header {
 		display: flex;
@@ -540,7 +595,9 @@
 		text-decoration: none;
 	}
 
-	.ix-pair-name:hover { color: hsl(var(--accent)); }
+	.ix-pair-name:hover {
+		color: hsl(var(--accent));
+	}
 
 	.ix-pair-plus {
 		font-size: 0.75rem;
@@ -573,7 +630,9 @@
 		padding-left: 2.125rem;
 	}
 
-	.ix-pair-compare:hover { text-decoration: underline; }
+	.ix-pair-compare:hover {
+		text-decoration: underline;
+	}
 
 	/* Empty state */
 	.ix-empty {

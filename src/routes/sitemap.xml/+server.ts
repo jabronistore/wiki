@@ -48,6 +48,7 @@ export async function GET() {
 		{ loc: '/compare', priority: '0.8', changefreq: 'weekly' },
 		{ loc: '/tools/interactions', priority: '0.7', changefreq: 'monthly' },
 		{ loc: '/tools/cost', priority: '0.7', changefreq: 'monthly' },
+		{ loc: '/peptides/best-for', priority: '0.8', changefreq: 'weekly' },
 		{ loc: '/disclaimer', priority: '0.3', changefreq: 'yearly' },
 		{ loc: '/privacy', priority: '0.3', changefreq: 'yearly' }
 	];

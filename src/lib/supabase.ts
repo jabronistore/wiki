@@ -18,12 +18,10 @@ export function createSupabaseBrowserClient() {
  * This properly handles cookies for session management
  * Returns null if Supabase is not configured
  */
-export function createSupabaseServerClient(
-	cookies: {
-		getAll: () => { name: string; value: string }[];
-		setAll: (cookies: { name: string; value: string; options?: object }[]) => void;
-	}
-) {
+export function createSupabaseServerClient(cookies: {
+	getAll: () => { name: string; value: string }[];
+	setAll: (cookies: { name: string; value: string; options?: object }[]) => void;
+}) {
 	if (!PUBLIC_SUPABASE_URL || !PUBLIC_SUPABASE_ANON_KEY) return null;
 	return createServerClient<Database>(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, {
 		cookies: {

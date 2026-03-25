@@ -1,12 +1,30 @@
 <script lang="ts">
 	import SEO from 'sk-seo';
-	import { Home, ChevronRight, Scale, Clock, Beaker, FlaskConical, AlertTriangle, CheckCircle, BookOpen } from 'lucide-svelte';
+	import {
+		Home,
+		ChevronRight,
+		Scale,
+		Clock,
+		Beaker,
+		FlaskConical,
+		AlertTriangle,
+		CheckCircle,
+		BookOpen
+	} from 'lucide-svelte';
 	import type { Peptide } from '$lib/types';
-	import { findMutualInteraction, buildComparisonSlug, findPeptideIdByName } from '$lib/utils/comparison';
+	import {
+		findMutualInteraction,
+		buildComparisonSlug,
+		findPeptideIdByName
+	} from '$lib/utils/comparison';
 
 	const SITE_URL = 'https://peptide-db.com';
 
-	let { data }: { data: { peptideA: Peptide; peptideB: Peptide; allPeptides: { id: string; name: string }[] } } = $props();
+	let {
+		data
+	}: {
+		data: { peptideA: Peptide; peptideB: Peptide; allPeptides: { id: string; name: string }[] };
+	} = $props();
 
 	const a = $derived(data.peptideA);
 	const b = $derived(data.peptideB);
@@ -67,13 +85,15 @@
 	};
 
 	// Get injectable protocols for each
-	const protosA = $derived(a.deliveryMethods?.find((m) => m.type === 'injectable')?.protocols || []);
-	const protosB = $derived(b.deliveryMethods?.find((m) => m.type === 'injectable')?.protocols || []);
+	const protosA = $derived(
+		a.deliveryMethods?.find((m) => m.type === 'injectable')?.protocols || []
+	);
+	const protosB = $derived(
+		b.deliveryMethods?.find((m) => m.type === 'injectable')?.protocols || []
+	);
 
 	// Shared categories
-	const sharedCats = $derived(
-		(a.categories || []).filter((c) => (b.categories || []).includes(c))
-	);
+	const sharedCats = $derived((a.categories || []).filter((c) => (b.categories || []).includes(c)));
 
 	// "Compare with others" links
 	const otherComparisons = $derived.by(() => {
@@ -109,8 +129,12 @@
 	<!-- Breadcrumb -->
 	<nav aria-label="Breadcrumb" class="compare-breadcrumb">
 		<ol>
-			<li><a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a><ChevronRight class="h-3.5 w-3.5 sep" /></li>
-			<li><a href="/compare">Compare</a><ChevronRight class="h-3.5 w-3.5 sep" /></li>
+			<li>
+				<a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a><ChevronRight
+					class="sep h-3.5 w-3.5"
+				/>
+			</li>
+			<li><a href="/compare">Compare</a><ChevronRight class="sep h-3.5 w-3.5" /></li>
 			<li><span class="current">{a.name} vs {b.name}</span></li>
 		</ol>
 	</nav>
@@ -128,7 +152,10 @@
 			<span class="badge badge-{b.researchStatus}">{getResearchStatusLabel(b.researchStatus)}</span>
 		</div>
 		{#if interaction}
-			<div class="hero-interaction" style="--ix-color: {statusColors[interaction.status] || '#91918D'}">
+			<div
+				class="hero-interaction"
+				style="--ix-color: {statusColors[interaction.status] || '#91918D'}"
+			>
 				<span class="hero-ix-status">{interaction.status.replace('-', ' ')}</span>
 				{#if interaction.notes}
 					<span class="hero-ix-notes">{interaction.notes}</span>
@@ -338,7 +365,10 @@
 	<!-- Disclaimer -->
 	<div class="compare-disclaimer">
 		<AlertTriangle class="h-4 w-4 flex-shrink-0" />
-		<p>This comparison is for educational and research purposes only. Consult a healthcare professional before use.</p>
+		<p>
+			This comparison is for educational and research purposes only. Consult a healthcare
+			professional before use.
+		</p>
 	</div>
 </div>
 
@@ -376,9 +406,16 @@
 		transition: color 0.15s;
 	}
 
-	.compare-breadcrumb a:hover { color: hsl(var(--foreground)); }
-	.compare-breadcrumb .current { color: hsl(var(--foreground)); font-weight: 500; }
-	.compare-breadcrumb :global(.sep) { color: hsl(var(--border)); }
+	.compare-breadcrumb a:hover {
+		color: hsl(var(--foreground));
+	}
+	.compare-breadcrumb .current {
+		color: hsl(var(--foreground));
+		font-weight: 500;
+	}
+	.compare-breadcrumb :global(.sep) {
+		color: hsl(var(--border));
+	}
 
 	/* Hero */
 	.compare-hero {
@@ -393,7 +430,9 @@
 	}
 
 	@media (min-width: 640px) {
-		.compare-hero h1 { font-size: 2.75rem; }
+		.compare-hero h1 {
+			font-size: 2.75rem;
+		}
 	}
 
 	.hero-name {
@@ -402,7 +441,9 @@
 		transition: color 0.15s;
 	}
 
-	.hero-name:hover { color: hsl(var(--accent)); }
+	.hero-name:hover {
+		color: hsl(var(--accent));
+	}
 
 	.hero-vs {
 		color: hsl(var(--accent));
@@ -508,7 +549,9 @@
 		align-items: baseline;
 	}
 
-	.stats-row:last-child { border-bottom: none; }
+	.stats-row:last-child {
+		border-bottom: none;
+	}
 
 	.stats-header {
 		border-bottom: 1px solid hsl(var(--border));
@@ -545,8 +588,14 @@
 	}
 
 	@media (max-width: 640px) {
-		.two-col { grid-template-columns: 1fr; gap: 1.5rem; }
-		.stats-row { grid-template-columns: 5rem 1fr 1fr; gap: 0.5rem; }
+		.two-col {
+			grid-template-columns: 1fr;
+			gap: 1.5rem;
+		}
+		.stats-row {
+			grid-template-columns: 5rem 1fr 1fr;
+			gap: 0.5rem;
+		}
 	}
 
 	.col-label {
@@ -655,7 +704,8 @@
 		border-top: 2px solid hsl(var(--foreground) / 0.15);
 	}
 
-	.links-row, .other-comparisons {
+	.links-row,
+	.other-comparisons {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.5rem;

@@ -145,7 +145,7 @@
 		flex: 1;
 		min-width: 0;
 		height: 28px;
-		background-color: var(--muted, #F0F0EB);
+		background-color: var(--muted, #f0f0eb);
 		border-radius: 6px;
 		overflow: visible;
 		position: relative;
@@ -213,7 +213,7 @@
 	.bar-value-top {
 		font-size: 0.75rem;
 		font-weight: 600;
-		color: var(--accent, #CC785C);
+		color: var(--accent, #cc785c);
 		opacity: 0;
 		transition: opacity 0.3s ease 0.6s;
 		margin-bottom: 0.25rem;
@@ -226,7 +226,7 @@
 	.bar-track-v {
 		flex: 1;
 		width: 100%;
-		background-color: var(--muted, #F0F0EB);
+		background-color: var(--muted, #f0f0eb);
 		border-radius: 6px 6px 0 0;
 		overflow: hidden;
 		display: flex;

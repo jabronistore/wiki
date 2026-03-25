@@ -62,7 +62,9 @@
 					{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
 					{ '@type': 'ListItem', position: 2, name: 'Calculator', item: `${SITE_URL}/calculator` },
 					{ '@type': 'ListItem', position: 3, name: 'Blend', item: `${SITE_URL}/calculator/blend` },
-					...(blendName ? [{ '@type': 'ListItem', position: 4, name: blendName, item: canonical }] : [])
+					...(blendName
+						? [{ '@type': 'ListItem', position: 4, name: blendName, item: canonical }]
+						: [])
 				]
 			}
 		]
@@ -86,16 +88,16 @@
 	<ol>
 		<li>
 			<a href="/"><Home class="h-3.5 w-3.5" /><span>Home</span></a>
-			<ChevronRight class="h-3.5 w-3.5 sep" />
+			<ChevronRight class="sep h-3.5 w-3.5" />
 		</li>
 		<li>
 			<a href="/calculator">Calculator</a>
-			<ChevronRight class="h-3.5 w-3.5 sep" />
+			<ChevronRight class="sep h-3.5 w-3.5" />
 		</li>
 		<li>
 			{#if blendName}
 				<a href="/calculator/blend">Blend</a>
-				<ChevronRight class="h-3.5 w-3.5 sep" />
+				<ChevronRight class="sep h-3.5 w-3.5" />
 			{:else}
 				<span class="current">Blend</span>
 			{/if}
@@ -114,7 +116,9 @@
 			<p class="calculator-subtitle">Calculate precise doses for each component in {blendName}</p>
 		{:else}
 			<h1 class="calculator-title">Blend Calculator</h1>
-			<p class="calculator-subtitle">Calculate doses for peptide blends with precise per-component dosing</p>
+			<p class="calculator-subtitle">
+				Calculate doses for peptide blends with precise per-component dosing
+			</p>
 		{/if}
 
 		<!-- Cross-links (only when blend selected) -->

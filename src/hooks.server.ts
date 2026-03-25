@@ -4,7 +4,11 @@ import type { Handle } from '@sveltejs/kit';
 import type { Database } from '$lib/types/database';
 
 // Load raw guide markdown at build time (Cloudflare-compatible, no fs needed)
-const guideRawFiles = import.meta.glob('/src/guides/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const guideRawFiles = import.meta.glob('/src/guides/*.md', {
+	query: '?raw',
+	import: 'default',
+	eager: true
+}) as Record<string, string>;
 
 function getGuideMarkdown(slug: string): string | null {
 	const key = `/src/guides/${slug}.md`;

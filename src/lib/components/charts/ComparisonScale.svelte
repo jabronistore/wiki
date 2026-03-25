@@ -129,7 +129,7 @@
 		position: absolute;
 		inset: 0;
 		border-radius: 8px;
-		background: linear-gradient(to right, var(--muted, #F0F0EB), var(--border, #E5E4DF));
+		background: linear-gradient(to right, var(--muted, #f0f0eb), var(--border, #e5e4df));
 	}
 
 	.tick-marks {
@@ -151,7 +151,7 @@
 		left: 50%;
 		transform: translateX(-50%);
 		font-size: 0.5625rem;
-		color: var(--muted-foreground, #91918D);
+		color: var(--muted-foreground, #91918d);
 	}
 
 	.marker {
@@ -184,7 +184,7 @@
 
 	.edge-label {
 		font-size: 0.6875rem;
-		color: var(--muted-foreground, #91918D);
+		color: var(--muted-foreground, #91918d);
 		font-style: italic;
 	}
 

@@ -82,9 +82,7 @@
 
 				// Update count in discussions
 				discussions = discussions.map((d) =>
-					d.id === discussionId
-						? { ...d, upvote_count: d.upvote_count + (wasUpvoted ? -1 : 1) }
-						: d
+					d.id === discussionId ? { ...d, upvote_count: d.upvote_count + (wasUpvoted ? -1 : 1) } : d
 				);
 			}
 		} catch (e) {

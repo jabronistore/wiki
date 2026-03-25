@@ -458,7 +458,12 @@
 				</div>
 				<div class="presets">
 					{#each waterPresets as preset}
-						<button type="button" class="preset" class:preset-match={waterVolume === preset} onclick={() => selectWaterPreset(preset)}>{preset}</button>
+						<button
+							type="button"
+							class="preset"
+							class:preset-match={waterVolume === preset}
+							onclick={() => selectWaterPreset(preset)}>{preset}</button
+						>
 					{/each}
 				</div>
 			</div>
@@ -483,14 +488,14 @@
 								type="button"
 								class="unit-seg-btn"
 								class:unit-seg-active={doseUnit === 'mcg'}
-								onclick={() => selectDoseUnit('mcg')}
-							>mcg</button>
+								onclick={() => selectDoseUnit('mcg')}>mcg</button
+							>
 							<button
 								type="button"
 								class="unit-seg-btn"
 								class:unit-seg-active={doseUnit === 'mg'}
-								onclick={() => selectDoseUnit('mg')}
-							>mg</button>
+								onclick={() => selectDoseUnit('mg')}>mg</button
+							>
 						</div>
 					</div>
 					<span class="anchor-of">of</span>

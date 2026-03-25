@@ -31,7 +31,13 @@
 		const normalized = Math.min(4, Math.floor((score / 7) * 4));
 
 		const labels = ['Very Weak', 'Weak', 'Fair', 'Good', 'Strong'];
-		const colors = ['bg-destructive', 'bg-orange-500', 'bg-yellow-500', 'bg-lime-500', 'bg-green-500'];
+		const colors = [
+			'bg-destructive',
+			'bg-orange-500',
+			'bg-yellow-500',
+			'bg-lime-500',
+			'bg-green-500'
+		];
 
 		return {
 			score: normalized,
@@ -64,7 +70,7 @@
 		</div>
 
 		<!-- Requirements checklist -->
-		<ul class="text-xs text-muted-foreground space-y-0.5">
+		<ul class="space-y-0.5 text-xs text-muted-foreground">
 			<li class:text-green-600={strength.checks?.length}>
 				{strength.checks?.length ? '✓' : '○'} At least 8 characters
 			</li>

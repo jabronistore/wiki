@@ -76,9 +76,8 @@ That's a problem when healing needs to happen alongside an active inflammatory r
 KPV is different. It walks straight into the cell nucleus and shuts down NF-kB, the master switch controlling inflammatory cytokine production (Kannengiesser et al., Anti-Inflammatory Mechanisms, 2020). No other peptide in the GLOW stack does that.
 
 <MermaidDiagram
-  title="KLOW Protocol: Four Mechanisms of Action"
-  chart={`
-    graph TD
+title="KLOW Protocol: Four Mechanisms of Action"
+chart={`     graph TD
       A[KLOW Blend Injected] --> B[GHK-Cu 50mg]
       A --> C[KPV 10mg]
       A --> D[BPC-157 10mg]
@@ -102,12 +101,12 @@ KPV is different. It walks straight into the cell nucleus and shuts down NF-kB, 
 
 A standard KLOW vial contains 80mg total across four peptides in a fixed 5:1:1:1 ratio.
 
-| Component | Amount | % of Blend | Role | Research Status |
-|-----------|--------|------------|------|----------------|
-| [GHK-Cu](/peptides/ghk-cu) | 50mg | 62.5% | Collagen synthesis, gene modulation | Well-studied individually |
-| [KPV](/peptides/kpv) | 10mg | 12.5% | Anti-inflammatory (NF-kB inhibition) | Emerging research |
-| [BPC-157](/peptides/bpc-157) | 10mg | 12.5% | Tissue repair, angiogenesis | Extensively studied (animals) |
-| [TB-500](/peptides/tb-500) | 10mg | 12.5% | Cell migration, wound healing | Well-studied individually |
+| Component                    | Amount | % of Blend | Role                                 | Research Status               |
+| ---------------------------- | ------ | ---------- | ------------------------------------ | ----------------------------- |
+| [GHK-Cu](/peptides/ghk-cu)   | 50mg   | 62.5%      | Collagen synthesis, gene modulation  | Well-studied individually     |
+| [KPV](/peptides/kpv)         | 10mg   | 12.5%      | Anti-inflammatory (NF-kB inhibition) | Emerging research             |
+| [BPC-157](/peptides/bpc-157) | 10mg   | 12.5%      | Tissue repair, angiogenesis          | Extensively studied (animals) |
+| [TB-500](/peptides/tb-500)   | 10mg   | 12.5%      | Cell migration, wound healing        | Well-studied individually     |
 
 GHK-Cu dominates the blend at 62.5%. That ratio reflects its naturally lower potency per milligram compared to the other three peptides and the fact that effective GHK-Cu doses (1-3mg daily) are significantly higher than effective BPC-157 doses (250-500mcg daily).
 
@@ -160,33 +159,33 @@ The longer half-life (approximately 2 hours versus BPC-157's 30 minutes) means T
 **Molecular weight**: 4,963.44 Da | **Half-life**: ~2 hours | **43 amino acids**
 
 <ComparisonScale
-  title="Human Clinical Evidence by Component (1 = anecdotal only, 10 = Phase III trials)"
-  items={[
-    { label: 'GHK-Cu (topical)', position: 6, color: '#059669' },
-    { label: 'TB-500', position: 5, color: '#6366f1' },
-    { label: 'BPC-157', position: 3, color: '#CC785C' },
-    { label: 'KPV', position: 2, color: '#D4A27F' },
-    { label: 'KLOW combo', position: 1, color: '#BF4D43' }
-  ]}
-  min={1}
-  max={10}
-  leftLabel="Anecdotal reports"
-  rightLabel="Phase III randomised trials"
+title="Human Clinical Evidence by Component (1 = anecdotal only, 10 = Phase III trials)"
+items={[
+{ label: 'GHK-Cu (topical)', position: 6, color: '#059669' },
+{ label: 'TB-500', position: 5, color: '#6366f1' },
+{ label: 'BPC-157', position: 3, color: '#CC785C' },
+{ label: 'KPV', position: 2, color: '#D4A27F' },
+{ label: 'KLOW combo', position: 1, color: '#BF4D43' }
+]}
+min={1}
+max={10}
+leftLabel="Anecdotal reports"
+rightLabel="Phase III randomised trials"
 />
 
 ## KLOW vs GLOW: Which One?
 
 This is the question everyone asks. The answer depends on what problem you're trying to address.
 
-| | GLOW | KLOW |
-|---|---|---|
-| **Components** | GHK-Cu + BPC-157 + TB-500 | GHK-Cu + KPV + BPC-157 + TB-500 |
-| **Total vial** | 70mg | 80mg |
-| **Primary focus** | Skin rejuvenation, tissue repair | Tissue repair + systemic inflammation |
-| **KPV included** | No | Yes (10mg) |
-| **Best for** | Aesthetic recovery, wound healing, anti-aging | Gut inflammation, autoimmune, complex recovery |
-| **Injection site reactions** | More common (anecdotally) | Less common (KPV may reduce them) |
-| **Price** | Lower (3 peptides) | Higher (4 peptides) |
+|                              | GLOW                                          | KLOW                                           |
+| ---------------------------- | --------------------------------------------- | ---------------------------------------------- |
+| **Components**               | GHK-Cu + BPC-157 + TB-500                     | GHK-Cu + KPV + BPC-157 + TB-500                |
+| **Total vial**               | 70mg                                          | 80mg                                           |
+| **Primary focus**            | Skin rejuvenation, tissue repair              | Tissue repair + systemic inflammation          |
+| **KPV included**             | No                                            | Yes (10mg)                                     |
+| **Best for**                 | Aesthetic recovery, wound healing, anti-aging | Gut inflammation, autoimmune, complex recovery |
+| **Injection site reactions** | More common (anecdotally)                     | Less common (KPV may reduce them)              |
+| **Price**                    | Lower (3 peptides)                            | Higher (4 peptides)                            |
 
 The practical decision point: **is active inflammation part of your picture?**
 
@@ -207,6 +206,7 @@ Running KLOW alongside separate GHK-Cu, BPC-157, or TB-500 injections risks exce
 The [KLOW blend calculator](/calculator/blend) handles the maths, but here's the reference protocol from the community:
 
 **Reconstitution**: Add 3-4mL bacteriostatic water to the 80mg vial.
+
 - With 4mL: concentration = 20mg/mL total blend
 - With 3mL: concentration = 26.7mg/mL total blend
 
@@ -215,14 +215,14 @@ The [KLOW blend calculator](/calculator/blend) handles the maths, but here's the
 At 20mg/mL concentration and a 500mcg daily dose, you're drawing 0.025mL (2.5 units on a standard insulin syringe). That's tiny. Use a [reconstitution calculator](/calculator) if you're unsure about the volume.
 
 <SpectrumBar
-  title="KLOW Dosing Phases"
-  segments={[
-    { label: 'Conservative', sublabel: '200mcg/day', width: 2, color: '#059669' },
-    { label: 'Standard', sublabel: '200-500mcg/day', width: 3, color: '#CC785C' },
-    { label: 'Aggressive', sublabel: '>500mcg/day', width: 2, color: '#BF4D43' }
-  ]}
-  leftLabel="Lower risk, slower response"
-  rightLabel="Higher risk, no evidence of better outcomes"
+title="KLOW Dosing Phases"
+segments={[
+{ label: 'Conservative', sublabel: '200mcg/day', width: 2, color: '#059669' },
+{ label: 'Standard', sublabel: '200-500mcg/day', width: 3, color: '#CC785C' },
+{ label: 'Aggressive', sublabel: '>500mcg/day', width: 2, color: '#BF4D43' }
+]}
+leftLabel="Lower risk, slower response"
+rightLabel="Higher risk, no evidence of better outcomes"
 />
 
 ### Cycle Structure
@@ -248,15 +248,15 @@ At 20mg/mL concentration and a 500mcg daily dose, you're drawing 0.025mL (2.5 un
 At 500mcg total KLOW blend daily, the individual component doses break down to:
 
 <BarChart
-  title="Individual Peptide Dose per 500mcg KLOW Injection"
-  data={[
-    { label: 'GHK-Cu', value: 312, suffix: 'mcg', color: '#059669' },
-    { label: 'KPV', value: 62, suffix: 'mcg', color: '#6366f1' },
-    { label: 'BPC-157', value: 62, suffix: 'mcg', color: '#CC785C' },
-    { label: 'TB-500', value: 62, suffix: 'mcg', color: '#D4A27F' }
-  ]}
-  maxValue={350}
-  barColor="#CC785C"
+title="Individual Peptide Dose per 500mcg KLOW Injection"
+data={[
+{ label: 'GHK-Cu', value: 312, suffix: 'mcg', color: '#059669' },
+{ label: 'KPV', value: 62, suffix: 'mcg', color: '#6366f1' },
+{ label: 'BPC-157', value: 62, suffix: 'mcg', color: '#CC785C' },
+{ label: 'TB-500', value: 62, suffix: 'mcg', color: '#D4A27F' }
+]}
+maxValue={350}
+barColor="#CC785C"
 />
 
 Those individual doses are below the typical standalone ranges for each peptide (GHK-Cu 1-3mg, KPV 200-500mcg, BPC-157 250-500mcg, TB-500 2-5mg). The theory behind blends is that synergistic effects compensate for lower individual doses. That theory has not been tested in any published study.
@@ -268,17 +268,20 @@ Those individual doses are below the typical standalone ranges for each peptide 
 The KLOW combination hasn't been studied for safety. What we know comes from individual component research and user reports:
 
 **Common (reported frequently in community forums):**
+
 - Injection site redness, irritation, or mild swelling
 - Light blue-green tint at injection site (from GHK-Cu copper complex — cosmetic only)
 - Mild fatigue during the first week
 - Temporary digestive changes
 
 **Uncommon:**
+
 - Headache or light-headedness
 - Vivid dreams (commonly attributed to BPC-157)
 - Appetite changes
 
 **Rare but serious concerns:**
+
 - **Copper toxicity** from prolonged GHK-Cu use — symptoms include metallic taste, fatigue, nausea, abdominal pain. This is why cycling is mandatory, not optional
 - **Angiogenesis risk**: BPC-157 and TB-500 both promote new blood vessel formation. For most people, this is the desired healing mechanism. For anyone with active cancer or a history of cancer, new blood vessel growth could theoretically support tumour development. This is not theoretical for fun — it's a real pharmacological concern
 
@@ -301,13 +304,13 @@ Both BPC-157 and TB-500 stimulate angiogenesis (new blood vessel formation). Any
 
 Individual responses vary, but the community-reported timeline looks roughly like this:
 
-| Timeframe | What to Expect |
-|-----------|----------------|
-| Days 1-7 | Subtle inflammation reduction (KPV effect). Some injection site adjustment |
-| Week 2-3 | Noticeable decrease in inflammatory symptoms. Early skin texture changes |
-| Week 3-4 | Wound healing acceleration, improved gut function (if applicable) |
-| Week 4-6 | Full cycle assessment point. Collagen/elastin improvements visible |
-| Week 6+ | Diminishing returns begin. Cycle off to clear copper and reset |
+| Timeframe | What to Expect                                                             |
+| --------- | -------------------------------------------------------------------------- |
+| Days 1-7  | Subtle inflammation reduction (KPV effect). Some injection site adjustment |
+| Week 2-3  | Noticeable decrease in inflammatory symptoms. Early skin texture changes   |
+| Week 3-4  | Wound healing acceleration, improved gut function (if applicable)          |
+| Week 4-6  | Full cycle assessment point. Collagen/elastin improvements visible         |
+| Week 6+   | Diminishing returns begin. Cycle off to clear copper and reset             |
 
 The KPV component tends to produce the fastest noticeable effect (days, not weeks) because NF-kB inhibition works quickly. GHK-Cu's collagen effects take the longest — visible skin improvements often require 6-8 weeks of consistent use.
 

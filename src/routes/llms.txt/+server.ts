@@ -6,7 +6,10 @@ import type { Guide } from '$lib/types';
 
 // Load at build time — no fs needed, works on Cloudflare
 const guidePaths = import.meta.glob('/src/guides/*.md', { eager: true });
-const peptideFiles = import.meta.glob('/data/peptides/*.json', { eager: true }) as Record<string, { default: { id?: string; name?: string; subtitle?: string } }>;
+const peptideFiles = import.meta.glob('/data/peptides/*.json', { eager: true }) as Record<
+	string,
+	{ default: { id?: string; name?: string; subtitle?: string } }
+>;
 
 function getPublishedGuides(): { slug: string; title: string; description: string }[] {
 	const guides: { slug: string; title: string; description: string }[] = [];
@@ -33,8 +36,8 @@ function getPeptideNames(): { id: string; name: string; subtitle: string }[] {
 		try {
 			const data = peptideFiles[path].default || peptideFiles[path];
 			const filename = path.split('/').at(-1)?.replace('.json', '') || '';
-			const id = (data as Record<string, unknown>).id as string || filename;
-			const name = (data as Record<string, unknown>).name as string || '';
+			const id = ((data as Record<string, unknown>).id as string) || filename;
+			const name = ((data as Record<string, unknown>).name as string) || '';
 			const subtitle = ((data as Record<string, unknown>).subtitle as string) || '';
 			if (name) {
 				peptides.push({ id, name, subtitle });
@@ -56,7 +59,10 @@ export const GET: RequestHandler = async () => {
 		.join('\n');
 
 	const peptideLinks = peptides
-		.map((p) => `- [${p.name}](https://peptide-db.com/peptides/${p.id})${p.subtitle ? `: ${p.subtitle}` : ''}`)
+		.map(
+			(p) =>
+				`- [${p.name}](https://peptide-db.com/peptides/${p.id})${p.subtitle ? `: ${p.subtitle}` : ''}`
+		)
 		.join('\n');
 
 	const content = `# Peptide Database
