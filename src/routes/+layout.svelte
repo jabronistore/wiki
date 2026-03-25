@@ -2,7 +2,7 @@
 	import '../app.css';
 	import { onMount } from 'svelte';
 	import { goto, beforeNavigate, afterNavigate, onNavigate } from '$app/navigation';
-	import { Moon, Sun, Menu, X, Search, FlaskConical, ArrowRight, Calculator, Github } from 'lucide-svelte';
+	import { Moon, Sun, Menu, X, Search, FlaskConical, ArrowRight, Calculator, Github, ChevronDown, ArrowLeftRight, Zap, DollarSign } from 'lucide-svelte';
 	import type { Snippet } from 'svelte';
 	import type { PeptideSummary } from '$lib/types';
 	import type { Profile } from '$lib/types/community';
@@ -133,6 +133,7 @@
 
 	let darkMode = $state(false);
 	let mobileMenuOpen = $state(false);
+	let toolsOpen = $state(false);
 	let searchOpen = $state(false);
 	let searchQuery = $state('');
 	let searchInputRef = $state<HTMLInputElement | null>(null);
@@ -359,13 +360,50 @@
 					>
 						Guides
 					</a>
-					<a
-						href="/calculator"
-						class="flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-					>
-						<Calculator class="h-4 w-4" />
-						Calculators
-					</a>
+					<div class="relative">
+						<button
+							onclick={() => (toolsOpen = !toolsOpen)}
+							onblur={() => setTimeout(() => (toolsOpen = false), 150)}
+							class="flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+						>
+							Tools
+							<ChevronDown class="h-3.5 w-3.5 transition-transform {toolsOpen ? 'rotate-180' : ''}" />
+						</button>
+						{#if toolsOpen}
+							<div class="tools-dropdown">
+								<div class="tools-dropdown-group">
+									<span class="tools-dropdown-label">Calculators</span>
+									<a href="/calculator" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+										<Calculator class="h-4 w-4" />
+										<div><span class="tools-item-name">Reconstitution</span><span class="tools-item-desc">Dose volumes and syringe guide</span></div>
+									</a>
+									<a href="/calculator/blend" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+										<FlaskConical class="h-4 w-4" />
+										<div><span class="tools-item-name">Blend Calculator</span><span class="tools-item-desc">Multi-peptide blend dosing</span></div>
+									</a>
+									<a href="/calculator/accumulation" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+										<ArrowRight class="h-4 w-4" />
+										<div><span class="tools-item-name">Accumulation Plotter</span><span class="tools-item-desc">PK curves over time</span></div>
+									</a>
+									<a href="/tools/cost" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+										<DollarSign class="h-4 w-4" />
+										<div><span class="tools-item-name">Cost Calculator</span><span class="tools-item-desc">Price per dose and cycle</span></div>
+									</a>
+								</div>
+								<div class="tools-dropdown-group">
+									<span class="tools-dropdown-label">Research</span>
+									<a href="/compare" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+										<ArrowLeftRight class="h-4 w-4" />
+										<div><span class="tools-item-name">Compare Peptides</span><span class="tools-item-desc">Side-by-side data</span></div>
+									</a>
+									<a href="/tools/interactions" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+										<Zap class="h-4 w-4" />
+										<div><span class="tools-item-name">Interaction Checker</span><span class="tools-item-desc">Stack compatibility</span></div>
+									</a>
+								</div>
+							</div>
+						{/if}
+					</div>
 				</div>
 
 				<!-- Right side actions -->
@@ -461,13 +499,24 @@
 						>
 							Guides
 						</a>
-						<a
-							href="/calculator"
-							onclick={() => (mobileMenuOpen = false)}
-							class="flex items-center gap-2 rounded-lg px-4 py-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-						>
-							<Calculator class="h-4 w-4" />
-							Calculators
+						<div class="mobile-tools-label">Tools</div>
+						<a href="/calculator" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+							<Calculator class="h-4 w-4" /> Reconstitution Calculator
+						</a>
+						<a href="/calculator/blend" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+							<FlaskConical class="h-4 w-4" /> Blend Calculator
+						</a>
+						<a href="/calculator/accumulation" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+							<ArrowRight class="h-4 w-4" /> Accumulation Plotter
+						</a>
+						<a href="/tools/cost" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+							<DollarSign class="h-4 w-4" /> Cost Calculator
+						</a>
+						<a href="/compare" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+							<ArrowLeftRight class="h-4 w-4" /> Compare Peptides
+						</a>
+						<a href="/tools/interactions" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+							<Zap class="h-4 w-4" /> Interaction Checker
 						</a>
 					</div>
 				</div>
@@ -509,6 +558,15 @@
 						</li>
 						<li>
 							<a href="/calculator" class="transition-colors hover:text-foreground">Calculators</a>
+						</li>
+						<li>
+							<a href="/compare" class="transition-colors hover:text-foreground">Compare</a>
+						</li>
+						<li>
+							<a href="/tools/interactions" class="transition-colors hover:text-foreground">Interactions</a>
+						</li>
+						<li>
+							<a href="/tools/cost" class="transition-colors hover:text-foreground">Cost Calculator</a>
 						</li>
 					</ul>
 				</div>
@@ -568,3 +626,107 @@
 		</div>
 	</footer>
 </div>
+
+<style>
+	/* Tools dropdown - desktop */
+	.tools-dropdown {
+		position: absolute;
+		top: 100%;
+		right: 0;
+		margin-top: 0.375rem;
+		width: 16rem;
+		background: hsl(var(--background));
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.75rem;
+		box-shadow: 0 8px 30px hsl(var(--foreground) / 0.08);
+		padding: 0.5rem;
+		z-index: 50;
+	}
+
+	.tools-dropdown-group {
+		padding: 0.25rem 0;
+	}
+
+	.tools-dropdown-group + .tools-dropdown-group {
+		border-top: 1px solid hsl(var(--border) / 0.5);
+		margin-top: 0.25rem;
+		padding-top: 0.5rem;
+	}
+
+	.tools-dropdown-label {
+		display: block;
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: hsl(var(--muted-foreground));
+		padding: 0.25rem 0.625rem;
+	}
+
+	.tools-dropdown-item {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.625rem;
+		padding: 0.5rem 0.625rem;
+		border-radius: 0.5rem;
+		text-decoration: none;
+		color: hsl(var(--foreground));
+		transition: background 0.1s;
+	}
+
+	.tools-dropdown-item:hover {
+		background: hsl(var(--muted) / 0.5);
+	}
+
+	.tools-dropdown-item :global(svg) {
+		margin-top: 0.125rem;
+		color: hsl(var(--accent));
+		flex-shrink: 0;
+	}
+
+	:global(.tools-item-name) {
+		display: block;
+		font-size: 0.8125rem;
+		font-weight: 500;
+	}
+
+	:global(.tools-item-desc) {
+		display: block;
+		font-size: 0.6875rem;
+		color: hsl(var(--muted-foreground));
+	}
+
+	/* Mobile tools */
+	.mobile-tools-label {
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: hsl(var(--muted-foreground));
+		padding: 0.75rem 1rem 0.25rem;
+		margin-top: 0.25rem;
+		border-top: 1px solid hsl(var(--border) / 0.5);
+	}
+
+	.mobile-tool-link {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.625rem 1rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: hsl(var(--muted-foreground));
+		text-decoration: none;
+		border-radius: 0.5rem;
+		transition: all 0.1s;
+	}
+
+	.mobile-tool-link:hover {
+		background: hsl(var(--muted));
+		color: hsl(var(--foreground));
+	}
+
+	.mobile-tool-link :global(svg) {
+		color: hsl(var(--accent));
+	}
+</style>

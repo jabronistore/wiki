@@ -216,6 +216,56 @@
 			</div>
 		{/if}
 
+		<!-- Interaction Matrix -->
+		{#if loadedCount >= 3}
+			{@const loaded = peptides.filter((p) => p !== null)}
+			<div class="ix-matrix-wrap">
+				<table class="ix-matrix">
+					<thead>
+						<tr>
+							<th></th>
+							{#each loaded as p, j}
+								{#if j > 0}
+									<th class="ix-matrix-col-header">{p?.name}</th>
+								{/if}
+							{/each}
+						</tr>
+					</thead>
+					<tbody>
+						{#each loaded as rowP, i}
+							{#if i < loaded.length - 1}
+								<tr>
+									<td class="ix-matrix-row-header">{rowP?.name}</td>
+									{#each loaded as colP, j}
+										{#if j > 0}
+											{#if j > i}
+												{@const fromA = rowP?.interactions?.find((ix) => ix.peptide.toLowerCase() === colP?.name?.toLowerCase())}
+												{@const fromB = colP?.interactions?.find((ix) => ix.peptide.toLowerCase() === rowP?.name?.toLowerCase())}
+												{@const match = fromA || fromB}
+												{@const status = match?.status || 'unknown'}
+												{@const config = statusConfig[status]}
+												<td>
+													<div
+														class="ix-matrix-cell"
+														style="background: {config.color}"
+														title="{rowP?.name} + {colP?.name}: {config.label}{match?.notes ? ' — ' + match.notes : ''}"
+													>
+														{config.icon}
+													</div>
+												</td>
+											{:else}
+												<td></td>
+											{/if}
+										{/if}
+									{/each}
+								</tr>
+							{/if}
+						{/each}
+					</tbody>
+				</table>
+			</div>
+		{/if}
+
 		<!-- Pairwise results -->
 		<div class="ix-results">
 			{#each pairs as pair}
@@ -388,6 +438,57 @@
 		background: hsl(142 71% 45% / 0.08);
 		border: 1px solid hsl(142 71% 45% / 0.25);
 		color: hsl(142 71% 35%);
+	}
+
+	/* Interaction Matrix */
+	.ix-matrix-wrap {
+		overflow-x: auto;
+		margin-bottom: 1.5rem;
+		padding-bottom: 0.5rem;
+	}
+
+	.ix-matrix {
+		border-collapse: separate;
+		border-spacing: 0.375rem;
+	}
+
+	.ix-matrix-col-header {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		color: hsl(var(--muted-foreground));
+		text-align: center;
+		padding: 0.25rem 0.5rem;
+		max-width: 5rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.ix-matrix-row-header {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		color: hsl(var(--muted-foreground));
+		text-align: right;
+		padding-right: 0.5rem;
+		white-space: nowrap;
+	}
+
+	.ix-matrix-cell {
+		width: 2.75rem;
+		height: 2.75rem;
+		border-radius: 0.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 0.75rem;
+		font-weight: 700;
+		color: white;
+		cursor: default;
+		transition: transform 0.1s;
+	}
+
+	.ix-matrix-cell:hover {
+		transform: scale(1.1);
 	}
 
 	/* Pairwise results */
