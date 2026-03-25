@@ -2,7 +2,21 @@
 	import '../app.css';
 	import { onMount } from 'svelte';
 	import { goto, beforeNavigate, afterNavigate, onNavigate } from '$app/navigation';
-	import { Moon, Sun, Menu, X, Search, FlaskConical, ArrowRight, Calculator, Github, ChevronDown, ArrowLeftRight, Zap, DollarSign } from 'lucide-svelte';
+	import {
+		Moon,
+		Sun,
+		Menu,
+		X,
+		Search,
+		FlaskConical,
+		ArrowRight,
+		Calculator,
+		Github,
+		ChevronDown,
+		ArrowLeftRight,
+		Zap,
+		DollarSign
+	} from 'lucide-svelte';
 	import type { Snippet } from 'svelte';
 	import type { PeptideSummary } from '$lib/types';
 	import type { Profile } from '$lib/types/community';
@@ -10,7 +24,10 @@
 	import Seo from 'sk-seo';
 	import UserMenu from '$lib/components/community/UserMenu.svelte';
 
-	let { children, data }: {
+	let {
+		children,
+		data
+	}: {
 		children: Snippet;
 		data: {
 			peptides?: PeptideSummary[];
@@ -18,7 +35,7 @@
 			profile?: Profile | null;
 			session?: Session | null;
 			supabase?: SupabaseClient | null;
-		}
+		};
 	} = $props();
 
 	// Use client-side session user, falling back to server-side user
@@ -328,7 +345,8 @@
 					/>
 					<div class="flex flex-col">
 						<span class="text-lg font-bold tracking-tight">Peptide Database</span>
-						<span class="hidden text-[10px] uppercase tracking-widest text-muted-foreground sm:block"
+						<span
+							class="hidden text-[10px] uppercase tracking-widest text-muted-foreground sm:block"
 							>Open Source Research Wiki</span
 						>
 					</div>
@@ -367,38 +385,103 @@
 							class="flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
 						>
 							Tools
-							<ChevronDown class="h-3.5 w-3.5 transition-transform {toolsOpen ? 'rotate-180' : ''}" />
+							<ChevronDown
+								class="h-3.5 w-3.5 transition-transform {toolsOpen ? 'rotate-180' : ''}"
+							/>
 						</button>
 						{#if toolsOpen}
 							<div class="tools-dropdown">
 								<div class="tools-dropdown-group">
 									<span class="tools-dropdown-label">Calculators</span>
-									<a href="/calculator" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+									<a
+										href="/calculator"
+										class="tools-dropdown-item"
+										onclick={() => (toolsOpen = false)}
+									>
 										<Calculator class="h-4 w-4" />
-										<div><span class="tools-item-name">Reconstitution</span><span class="tools-item-desc">Dose volumes and syringe guide</span></div>
+										<div>
+											<span class="tools-item-name">Reconstitution</span><span
+												class="tools-item-desc">Dose volumes and syringe guide</span
+											>
+										</div>
 									</a>
-									<a href="/calculator/blend" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+									<a
+										href="/calculator/blend"
+										class="tools-dropdown-item"
+										onclick={() => (toolsOpen = false)}
+									>
 										<FlaskConical class="h-4 w-4" />
-										<div><span class="tools-item-name">Blend Calculator</span><span class="tools-item-desc">Multi-peptide blend dosing</span></div>
+										<div>
+											<span class="tools-item-name">Blend Calculator</span><span
+												class="tools-item-desc">Multi-peptide blend dosing</span
+											>
+										</div>
 									</a>
-									<a href="/calculator/accumulation" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+									<a
+										href="/calculator/accumulation"
+										class="tools-dropdown-item"
+										onclick={() => (toolsOpen = false)}
+									>
 										<ArrowRight class="h-4 w-4" />
-										<div><span class="tools-item-name">Accumulation Plotter</span><span class="tools-item-desc">PK curves over time</span></div>
+										<div>
+											<span class="tools-item-name">Accumulation Plotter</span><span
+												class="tools-item-desc">PK curves over time</span
+											>
+										</div>
 									</a>
-									<a href="/tools/cost" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+									<a
+										href="/tools/cost"
+										class="tools-dropdown-item"
+										onclick={() => (toolsOpen = false)}
+									>
 										<DollarSign class="h-4 w-4" />
-										<div><span class="tools-item-name">Cost Calculator</span><span class="tools-item-desc">Price per dose and cycle</span></div>
+										<div>
+											<span class="tools-item-name">Cost Calculator</span><span
+												class="tools-item-desc">Price per dose and cycle</span
+											>
+										</div>
 									</a>
 								</div>
 								<div class="tools-dropdown-group">
 									<span class="tools-dropdown-label">Research</span>
-									<a href="/compare" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+									<a
+										href="/compare"
+										class="tools-dropdown-item"
+										onclick={() => (toolsOpen = false)}
+									>
 										<ArrowLeftRight class="h-4 w-4" />
-										<div><span class="tools-item-name">Compare Peptides</span><span class="tools-item-desc">Side-by-side data</span></div>
+										<div>
+											<span class="tools-item-name">Compare Peptides</span><span
+												class="tools-item-desc">Side-by-side data</span
+											>
+										</div>
 									</a>
-									<a href="/tools/interactions" class="tools-dropdown-item" onclick={() => (toolsOpen = false)}>
+									<a
+										href="/tools/interactions"
+										class="tools-dropdown-item"
+										onclick={() => (toolsOpen = false)}
+									>
 										<Zap class="h-4 w-4" />
-										<div><span class="tools-item-name">Interaction Checker</span><span class="tools-item-desc">Stack compatibility</span></div>
+										<div>
+											<span class="tools-item-name">Interaction Checker</span><span
+												class="tools-item-desc">Stack compatibility</span
+											>
+										</div>
+									</a>
+								</div>
+								<div class="tools-dropdown-group">
+									<span class="tools-dropdown-label">Discover</span>
+									<a
+										href="/peptides/best-for"
+										class="tools-dropdown-item"
+										onclick={() => (toolsOpen = false)}
+									>
+										<FlaskConical class="h-4 w-4" />
+										<div>
+											<span class="tools-item-name">Best Peptides For...</span><span
+												class="tools-item-desc">Rankings by goal</span
+											>
+										</div>
 									</a>
 								</div>
 							</div>
@@ -503,10 +586,18 @@
 						<a href="/calculator" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
 							<Calculator class="h-4 w-4" /> Reconstitution Calculator
 						</a>
-						<a href="/calculator/blend" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+						<a
+							href="/calculator/blend"
+							onclick={() => (mobileMenuOpen = false)}
+							class="mobile-tool-link"
+						>
 							<FlaskConical class="h-4 w-4" /> Blend Calculator
 						</a>
-						<a href="/calculator/accumulation" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+						<a
+							href="/calculator/accumulation"
+							onclick={() => (mobileMenuOpen = false)}
+							class="mobile-tool-link"
+						>
 							<ArrowRight class="h-4 w-4" /> Accumulation Plotter
 						</a>
 						<a href="/tools/cost" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
@@ -515,8 +606,19 @@
 						<a href="/compare" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
 							<ArrowLeftRight class="h-4 w-4" /> Compare Peptides
 						</a>
-						<a href="/tools/interactions" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+						<a
+							href="/tools/interactions"
+							onclick={() => (mobileMenuOpen = false)}
+							class="mobile-tool-link"
+						>
 							<Zap class="h-4 w-4" /> Interaction Checker
+						</a>
+						<a
+							href="/peptides/best-for"
+							onclick={() => (mobileMenuOpen = false)}
+							class="mobile-tool-link"
+						>
+							<FlaskConical class="h-4 w-4" /> Best Peptides For...
 						</a>
 					</div>
 				</div>
@@ -563,10 +665,19 @@
 							<a href="/compare" class="transition-colors hover:text-foreground">Compare</a>
 						</li>
 						<li>
-							<a href="/tools/interactions" class="transition-colors hover:text-foreground">Interactions</a>
+							<a href="/tools/interactions" class="transition-colors hover:text-foreground"
+								>Interactions</a
+							>
 						</li>
 						<li>
-							<a href="/tools/cost" class="transition-colors hover:text-foreground">Cost Calculator</a>
+							<a href="/tools/cost" class="transition-colors hover:text-foreground"
+								>Cost Calculator</a
+							>
+						</li>
+						<li>
+							<a href="/peptides/best-for" class="transition-colors hover:text-foreground"
+								>Best For...</a
+							>
 						</li>
 					</ul>
 				</div>

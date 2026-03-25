@@ -130,7 +130,13 @@
 	});
 
 	const keywords = $derived(
-		[peptide.name.toLowerCase(), ...(peptide.categories || []), 'peptide', 'dosing', 'research'].join(', ')
+		[
+			peptide.name.toLowerCase(),
+			...(peptide.categories || []),
+			'peptide',
+			'dosing',
+			'research'
+		].join(', ')
 	);
 
 	// JSON-LD structured data
@@ -168,7 +174,7 @@
 <SEO
 	title="{peptide.name} Overview, Dosing & Safety | Peptide Database"
 	{description}
-	keywords={keywords}
+	{keywords}
 	siteName="Peptide Database"
 	canonical={canonicalUrl}
 	twitter={true}
@@ -289,21 +295,27 @@
 				{#if peptide.molecular && (peptide.molecular.weight || peptide.molecular.halfLife || peptide.molecular.length)}
 					<div class="mt-6 flex flex-wrap items-center gap-3">
 						{#if peptide.molecular.weight}
-							<div class="flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-sm">
+							<div
+								class="flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-sm"
+							>
 								<Scale class="h-4 w-4 text-muted-foreground" />
 								<span class="text-muted-foreground">Weight:</span>
 								<span class="font-medium">{peptide.molecular.weight}</span>
 							</div>
 						{/if}
 						{#if peptide.molecular.halfLife}
-							<div class="flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-sm">
+							<div
+								class="flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-sm"
+							>
 								<Clock class="h-4 w-4 text-muted-foreground" />
 								<span class="text-muted-foreground">Half-life:</span>
 								<span class="font-medium">{peptide.molecular.halfLife}</span>
 							</div>
 						{/if}
 						{#if peptide.molecular.length}
-							<div class="flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-sm">
+							<div
+								class="flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-sm"
+							>
 								<Beaker class="h-4 w-4 text-muted-foreground" />
 								<span class="text-muted-foreground">Chain:</span>
 								<span class="font-medium">{peptide.molecular.length}</span>
@@ -315,7 +327,9 @@
 				<!-- Evidence tracker -->
 				{#if peptide.references && peptide.references.length > 0}
 					{@const refCount = peptide.references.length}
-					{@const latestYear = Math.max(...peptide.references.filter(r => r.year).map(r => parseInt(r.year || '0')))}
+					{@const latestYear = Math.max(
+						...peptide.references.filter((r) => r.year).map((r) => parseInt(r.year || '0'))
+					)}
 					{@const hasLatest = peptide.latestResearch && peptide.latestResearch.length > 0}
 					<div class="evidence-tracker">
 						<div class="ev-item">
@@ -338,7 +352,9 @@
 						{/if}
 						<div class="ev-sep"></div>
 						<div class="ev-item">
-							<span class="ev-value ev-status">{getResearchStatusLabel(peptide.researchStatus)}</span>
+							<span class="ev-value ev-status"
+								>{getResearchStatusLabel(peptide.researchStatus)}</span
+							>
 						</div>
 					</div>
 				{/if}
@@ -412,32 +428,32 @@
 					<section id="molecular" class="sect sect-data scroll-mt-8">
 						<h2 class="sect-heading-data"><Beaker class="sect-icon" />Molecular Data</h2>
 						<div class="sect-body">
-								<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
-									{#if peptide.molecular.weight}
-										<div class="rounded-xl bg-muted/50 p-4">
-											<div class="mb-1 text-sm text-muted-foreground">Molecular Weight</div>
-											<div class="font-semibold">{peptide.molecular.weight}</div>
-										</div>
-									{/if}
-									{#if peptide.molecular.length}
-										<div class="rounded-xl bg-muted/50 p-4">
-											<div class="mb-1 text-sm text-muted-foreground">Chain Length</div>
-											<div class="font-semibold">{peptide.molecular.length}</div>
-										</div>
-									{/if}
-									{#if peptide.molecular.type}
-										<div class="rounded-xl bg-muted/50 p-4">
-											<div class="mb-1 text-sm text-muted-foreground">Type</div>
-											<div class="font-semibold">{peptide.molecular.type}</div>
-										</div>
-									{/if}
-								</div>
-								{#if peptide.molecular.sequence}
-									<div class="mt-6 rounded-xl border border-border bg-muted/30 p-4">
-										<div class="mb-4 text-sm font-medium">Amino Acid Sequence</div>
-										<SequenceViewer sequence={peptide.molecular.sequence} />
+							<div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+								{#if peptide.molecular.weight}
+									<div class="rounded-xl bg-muted/50 p-4">
+										<div class="mb-1 text-sm text-muted-foreground">Molecular Weight</div>
+										<div class="font-semibold">{peptide.molecular.weight}</div>
 									</div>
 								{/if}
+								{#if peptide.molecular.length}
+									<div class="rounded-xl bg-muted/50 p-4">
+										<div class="mb-1 text-sm text-muted-foreground">Chain Length</div>
+										<div class="font-semibold">{peptide.molecular.length}</div>
+									</div>
+								{/if}
+								{#if peptide.molecular.type}
+									<div class="rounded-xl bg-muted/50 p-4">
+										<div class="mb-1 text-sm text-muted-foreground">Type</div>
+										<div class="font-semibold">{peptide.molecular.type}</div>
+									</div>
+								{/if}
+							</div>
+							{#if peptide.molecular.sequence}
+								<div class="mt-6 rounded-xl border border-border bg-muted/30 p-4">
+									<div class="mb-4 text-sm font-medium">Amino Acid Sequence</div>
+									<SequenceViewer sequence={peptide.molecular.sequence} />
+								</div>
+							{/if}
 						</div>
 					</section>
 				{/if}
@@ -452,7 +468,9 @@
 				<!-- Research Indications -->
 				{#if peptide.indications && peptide.indications.length > 0}
 					<section id="indications" class="sect scroll-mt-8">
-						<h2 class="sect-heading-data"><FlaskConical class="sect-icon" />Research Indications</h2>
+						<h2 class="sect-heading-data">
+							<FlaskConical class="sect-icon" />Research Indications
+						</h2>
 						<div class="indications-grid">
 							{#each peptide.indications as category}
 								<div class="indication-group">
@@ -462,7 +480,9 @@
 											<div class="indication-item-header">
 												<span class="indication-name">{item.name}</span>
 												{#if item.effectiveness}
-													<span class="indication-eff indication-eff-{item.effectiveness}">{item.effectiveness.replace('-', ' ')}</span>
+													<span class="indication-eff indication-eff-{item.effectiveness}"
+														>{item.effectiveness.replace('-', ' ')}</span
+													>
 												{/if}
 											</div>
 											{#if item.description}
@@ -481,90 +501,90 @@
 					<section id="protocols" class="sect sect-data scroll-mt-8">
 						<h2 class="sect-heading-data"><Syringe class="sect-icon" />Dosing Protocols</h2>
 						<div class="sect-body">
-								<!-- Delivery Method Tabs -->
-								{#if peptide.deliveryMethods.length > 1}
-									<div class="mb-6 flex gap-2 overflow-x-auto pb-2">
-										{#each peptide.deliveryMethods as method, i}
-											{@const DeliveryIcon = getDeliveryIcon(method.type)}
-											<button
-												onclick={() => (activeDeliveryMethod = i)}
-												class="flex items-center gap-2 whitespace-nowrap rounded-lg px-4 py-2 text-sm font-medium transition-colors {activeDeliveryMethod ===
-												i
-													? 'bg-primary text-primary-foreground'
-													: 'bg-muted text-muted-foreground hover:text-foreground'}"
-											>
-												<DeliveryIcon class="h-4 w-4" />
-												<span class="capitalize">{method.type}</span>
-												{#if !method.available}
-													<span class="text-xs opacity-60">(N/A)</span>
-												{/if}
-											</button>
-										{/each}
+							<!-- Delivery Method Tabs -->
+							{#if peptide.deliveryMethods.length > 1}
+								<div class="mb-6 flex gap-2 overflow-x-auto pb-2">
+									{#each peptide.deliveryMethods as method, i}
+										{@const DeliveryIcon = getDeliveryIcon(method.type)}
+										<button
+											onclick={() => (activeDeliveryMethod = i)}
+											class="flex items-center gap-2 whitespace-nowrap rounded-lg px-4 py-2 text-sm font-medium transition-colors {activeDeliveryMethod ===
+											i
+												? 'bg-primary text-primary-foreground'
+												: 'bg-muted text-muted-foreground hover:text-foreground'}"
+										>
+											<DeliveryIcon class="h-4 w-4" />
+											<span class="capitalize">{method.type}</span>
+											{#if !method.available}
+												<span class="text-xs opacity-60">(N/A)</span>
+											{/if}
+										</button>
+									{/each}
+								</div>
+							{/if}
+
+							{#if peptide.deliveryMethods[activeDeliveryMethod]}
+								{@const method = peptide.deliveryMethods[activeDeliveryMethod]}
+
+								{#if method.overview}
+									<p class="mb-6 text-muted-foreground">{method.overview}</p>
+								{/if}
+
+								<!-- Protocols Table -->
+								{#if method.protocols && method.protocols.length > 0}
+									<div class="overflow-x-auto">
+										<table class="w-full text-sm">
+											<thead>
+												<tr class="border-b border-border">
+													<th class="px-4 py-3 text-left font-semibold">Goal</th>
+													<th class="px-4 py-3 text-left font-semibold">Dose</th>
+													<th class="px-4 py-3 text-left font-semibold">Frequency</th>
+													<th class="px-4 py-3 text-left font-semibold">Route</th>
+												</tr>
+											</thead>
+											<tbody>
+												{#each method.protocols as protocol}
+													<tr class="border-b border-border/50 hover:bg-muted/30">
+														<td class="px-4 py-3">{protocol.goal}</td>
+														<td class="px-4 py-3 font-mono text-primary">{protocol.dose}</td>
+														<td class="px-4 py-3">{protocol.frequency}</td>
+														<td class="px-4 py-3">{protocol.route}</td>
+													</tr>
+												{/each}
+											</tbody>
+										</table>
 									</div>
 								{/if}
 
-								{#if peptide.deliveryMethods[activeDeliveryMethod]}
-									{@const method = peptide.deliveryMethods[activeDeliveryMethod]}
-
-									{#if method.overview}
-										<p class="mb-6 text-muted-foreground">{method.overview}</p>
-									{/if}
-
-									<!-- Protocols Table -->
-									{#if method.protocols && method.protocols.length > 0}
-										<div class="overflow-x-auto">
-											<table class="w-full text-sm">
-												<thead>
-													<tr class="border-b border-border">
-														<th class="px-4 py-3 text-left font-semibold">Goal</th>
-														<th class="px-4 py-3 text-left font-semibold">Dose</th>
-														<th class="px-4 py-3 text-left font-semibold">Frequency</th>
-														<th class="px-4 py-3 text-left font-semibold">Route</th>
-													</tr>
-												</thead>
-												<tbody>
-													{#each method.protocols as protocol}
-														<tr class="border-b border-border/50 hover:bg-muted/30">
-															<td class="px-4 py-3">{protocol.goal}</td>
-															<td class="px-4 py-3 font-mono text-primary">{protocol.dose}</td>
-															<td class="px-4 py-3">{protocol.frequency}</td>
-															<td class="px-4 py-3">{protocol.route}</td>
-														</tr>
+								<!-- Reconstitution -->
+								{#if method.reconstitution}
+									<div class="mt-6 rounded-xl bg-muted/30 p-4">
+										<h4 class="mb-3 font-semibold">Reconstitution Instructions</h4>
+										{#if method.reconstitution.materials && method.reconstitution.materials.length > 0}
+											<div class="mb-4">
+												<div class="mb-2 text-sm text-muted-foreground">Materials Needed:</div>
+												<ul class="flex flex-wrap gap-2">
+													{#each method.reconstitution.materials as material}
+														<li class="rounded-lg bg-card px-3 py-1 text-sm">{material}</li>
 													{/each}
-												</tbody>
-											</table>
-										</div>
-									{/if}
-
-									<!-- Reconstitution -->
-									{#if method.reconstitution}
-										<div class="mt-6 rounded-xl bg-muted/30 p-4">
-											<h4 class="mb-3 font-semibold">Reconstitution Instructions</h4>
-											{#if method.reconstitution.materials && method.reconstitution.materials.length > 0}
-												<div class="mb-4">
-													<div class="mb-2 text-sm text-muted-foreground">Materials Needed:</div>
-													<ul class="flex flex-wrap gap-2">
-														{#each method.reconstitution.materials as material}
-															<li class="rounded-lg bg-card px-3 py-1 text-sm">{material}</li>
-														{/each}
-													</ul>
-												</div>
-											{/if}
-											<ol class="space-y-2">
-												{#each method.reconstitution.steps as step, i}
-													<li class="flex gap-3">
-														<span
-															class="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm font-medium text-primary"
-														>
-															{i + 1}
-														</span>
-														<span class="text-muted-foreground">{step}</span>
-													</li>
-												{/each}
-											</ol>
-										</div>
-									{/if}
+												</ul>
+											</div>
+										{/if}
+										<ol class="space-y-2">
+											{#each method.reconstitution.steps as step, i}
+												<li class="flex gap-3">
+													<span
+														class="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm font-medium text-primary"
+													>
+														{i + 1}
+													</span>
+													<span class="text-muted-foreground">{step}</span>
+												</li>
+											{/each}
+										</ol>
+									</div>
 								{/if}
+							{/if}
 						</div>
 					</section>
 				{/if}
@@ -574,91 +594,93 @@
 					<section id="protocol-variants" class="sect sect-warn scroll-mt-8">
 						<div class="sect-heading-warn-block">
 							<h2 class="sect-heading-warn"><Scale class="sect-icon" />Protocol Variations</h2>
-							<p class="text-sm text-muted-foreground">Multiple approaches exist - compare before choosing</p>
+							<p class="text-sm text-muted-foreground">
+								Multiple approaches exist - compare before choosing
+							</p>
 						</div>
 						<div class="sect-body">
-								<div class="mb-4 rounded-lg border border-warning/20 bg-warning/10 p-4">
-									<div class="flex items-start gap-3">
-										<AlertTriangle class="mt-0.5 h-5 w-5 flex-shrink-0 text-warning-foreground" />
-										<p class="text-sm text-muted-foreground">
-											Different sources recommend different protocols for this peptide. Review each
-											approach and consider your goals, tolerance, and experience level before
-											choosing.
-										</p>
-									</div>
+							<div class="mb-4 rounded-lg border border-warning/20 bg-warning/10 p-4">
+								<div class="flex items-start gap-3">
+									<AlertTriangle class="mt-0.5 h-5 w-5 flex-shrink-0 text-warning-foreground" />
+									<p class="text-sm text-muted-foreground">
+										Different sources recommend different protocols for this peptide. Review each
+										approach and consider your goals, tolerance, and experience level before
+										choosing.
+									</p>
 								</div>
+							</div>
 
-								<div class="grid gap-6 lg:grid-cols-2">
-									{#each peptide.protocolVariants as variant, i}
-										<div class="rounded-xl border border-border bg-card p-5">
-											<div class="mb-4">
-												<div class="mb-2 flex items-start justify-between gap-2">
-													<h3 class="text-lg font-semibold">{variant.name}</h3>
-													{#if i === 0}
-														<span
-															class="rounded-full bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground"
-															>Traditional</span
-														>
-													{:else}
-														<span
-															class="rounded-full bg-accent/10 px-2 py-0.5 text-xs font-medium text-accent"
-															>Alternative</span
-														>
-													{/if}
-												</div>
-												<p class="mb-1 text-sm text-muted-foreground">
-													<span class="font-medium">Source:</span>
-													{#if variant.sourceUrl}
-														<a
-															href={variant.sourceUrl}
-															target="_blank"
-															rel="noopener noreferrer"
-															class="inline-flex items-center gap-1 text-primary hover:underline"
-														>
-															{variant.source}
-															<ExternalLink class="h-3 w-3" />
-														</a>
-													{:else}
+							<div class="grid gap-6 lg:grid-cols-2">
+								{#each peptide.protocolVariants as variant, i}
+									<div class="rounded-xl border border-border bg-card p-5">
+										<div class="mb-4">
+											<div class="mb-2 flex items-start justify-between gap-2">
+												<h3 class="text-lg font-semibold">{variant.name}</h3>
+												{#if i === 0}
+													<span
+														class="rounded-full bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground"
+														>Traditional</span
+													>
+												{:else}
+													<span
+														class="rounded-full bg-accent/10 px-2 py-0.5 text-xs font-medium text-accent"
+														>Alternative</span
+													>
+												{/if}
+											</div>
+											<p class="mb-1 text-sm text-muted-foreground">
+												<span class="font-medium">Source:</span>
+												{#if variant.sourceUrl}
+													<a
+														href={variant.sourceUrl}
+														target="_blank"
+														rel="noopener noreferrer"
+														class="inline-flex items-center gap-1 text-primary hover:underline"
+													>
 														{variant.source}
-													{/if}
-												</p>
-												<p class="text-sm italic text-accent">"{variant.philosophy}"</p>
-											</div>
+														<ExternalLink class="h-3 w-3" />
+													</a>
+												{:else}
+													{variant.source}
+												{/if}
+											</p>
+											<p class="text-sm italic text-accent">"{variant.philosophy}"</p>
+										</div>
 
-											<p class="mb-4 text-sm text-muted-foreground">{variant.description}</p>
+										<p class="mb-4 text-sm text-muted-foreground">{variant.description}</p>
 
-											<!-- Key Differences -->
-											<div class="mb-4">
-												<h4 class="mb-2 text-sm font-semibold">Key Points</h4>
-												<ul class="space-y-1.5">
-													{#each variant.keyDifferences as diff}
-														<li class="flex items-start gap-2 text-sm text-muted-foreground">
-															<span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
-															></span>
-															{diff}
-														</li>
-													{/each}
-												</ul>
-											</div>
+										<!-- Key Differences -->
+										<div class="mb-4">
+											<h4 class="mb-2 text-sm font-semibold">Key Points</h4>
+											<ul class="space-y-1.5">
+												{#each variant.keyDifferences as diff}
+													<li class="flex items-start gap-2 text-sm text-muted-foreground">
+														<span class="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent"
+														></span>
+														{diff}
+													</li>
+												{/each}
+											</ul>
+										</div>
 
-											<!-- Dosing Table -->
-											<div class="rounded-lg bg-muted/50 p-3">
-												<h4 class="mb-2 text-sm font-semibold">Dosing Schedule</h4>
-												<div class="space-y-2">
-													{#each variant.doses as dose}
-														<div class="flex items-center justify-between text-sm">
-															<span class="text-muted-foreground">{dose.phase}</span>
-															<div class="text-right">
-																<span class="font-mono font-medium text-primary">{dose.dose}</span>
-																<span class="text-muted-foreground"> · {dose.frequency}</span>
-															</div>
+										<!-- Dosing Table -->
+										<div class="rounded-lg bg-muted/50 p-3">
+											<h4 class="mb-2 text-sm font-semibold">Dosing Schedule</h4>
+											<div class="space-y-2">
+												{#each variant.doses as dose}
+													<div class="flex items-center justify-between text-sm">
+														<span class="text-muted-foreground">{dose.phase}</span>
+														<div class="text-right">
+															<span class="font-mono font-medium text-primary">{dose.dose}</span>
+															<span class="text-muted-foreground"> · {dose.frequency}</span>
 														</div>
-													{/each}
-												</div>
+													</div>
+												{/each}
 											</div>
 										</div>
-									{/each}
-								</div>
+									</div>
+								{/each}
+							</div>
 						</div>
 					</section>
 				{/if}
@@ -676,16 +698,23 @@
 									avoid: { color: 'var(--destructive, #BF4D43)', symbol: '!' },
 									'requires-timing': { color: 'var(--warning, #D4A27F)', symbol: '%' }
 								}}
-								{@const status = statusMap[interaction.status] || { color: 'var(--muted-foreground)', symbol: '?' }}
+								{@const status = statusMap[interaction.status] || {
+									color: 'var(--muted-foreground)',
+									symbol: '?'
+								}}
 								<div class="ix-row" style="--ix-color: hsl({status.color})">
-									<div class="ix-indicator" style="background: hsl({status.color})">{status.symbol}</div>
+									<div class="ix-indicator" style="background: hsl({status.color})">
+										{status.symbol}
+									</div>
 									<div class="ix-content">
 										<div class="ix-name">{interaction.peptide}</div>
 										{#if interaction.notes}
 											<div class="ix-notes">{interaction.notes}</div>
 										{/if}
 									</div>
-									<div class="ix-label" style="color: hsl({status.color})">{interaction.status.replace('-', ' ')}</div>
+									<div class="ix-label" style="color: hsl({status.color})">
+										{interaction.status.replace('-', ' ')}
+									</div>
 								</div>
 							{/each}
 						</div>
@@ -711,51 +740,53 @@
 				<!-- Safety Information -->
 				{#if peptide.sideEffects}
 					<section id="safety" class="sect sect-warn scroll-mt-8">
-						<h2 class="sect-heading-warn"><AlertTriangle class="sect-icon" />Side Effects & Safety</h2>
+						<h2 class="sect-heading-warn">
+							<AlertTriangle class="sect-icon" />Side Effects & Safety
+						</h2>
 						<div class="sect-body">
-								{#if peptide.sideEffects.common && peptide.sideEffects.common.length > 0}
-									<div class="mb-6">
-										<h4 class="mb-3 font-semibold">Common Side Effects</h4>
-										<ul class="grid grid-cols-1 gap-2 md:grid-cols-2">
-											{#each peptide.sideEffects.common as effect}
-												<li class="flex items-center gap-2 text-muted-foreground">
-													<div class="h-1.5 w-1.5 rounded-full bg-warning"></div>
-													{effect}
-												</li>
-											{/each}
-										</ul>
-									</div>
-								{/if}
+							{#if peptide.sideEffects.common && peptide.sideEffects.common.length > 0}
+								<div class="mb-6">
+									<h4 class="mb-3 font-semibold">Common Side Effects</h4>
+									<ul class="grid grid-cols-1 gap-2 md:grid-cols-2">
+										{#each peptide.sideEffects.common as effect}
+											<li class="flex items-center gap-2 text-muted-foreground">
+												<div class="h-1.5 w-1.5 rounded-full bg-warning"></div>
+												{effect}
+											</li>
+										{/each}
+									</ul>
+								</div>
+							{/if}
 
-								{#if peptide.sideEffects.stopSigns && peptide.sideEffects.stopSigns.length > 0}
-									<div class="status-danger rounded-xl border p-4">
-										<h4 class="status-danger-text mb-3 font-semibold">
-											Stop Signs - Discontinue if:
-										</h4>
-										<ul class="space-y-2">
-											{#each peptide.sideEffects.stopSigns as sign}
-												<li class="status-danger-text flex items-start gap-2">
-													<XCircle class="h-5 w-5 flex-shrink-0" />
-													{sign}
-												</li>
-											{/each}
-										</ul>
-									</div>
-								{/if}
+							{#if peptide.sideEffects.stopSigns && peptide.sideEffects.stopSigns.length > 0}
+								<div class="status-danger rounded-xl border p-4">
+									<h4 class="status-danger-text mb-3 font-semibold">
+										Stop Signs - Discontinue if:
+									</h4>
+									<ul class="space-y-2">
+										{#each peptide.sideEffects.stopSigns as sign}
+											<li class="status-danger-text flex items-start gap-2">
+												<XCircle class="h-5 w-5 flex-shrink-0" />
+												{sign}
+											</li>
+										{/each}
+									</ul>
+								</div>
+							{/if}
 
-								{#if peptide.sideEffects.contraindications && peptide.sideEffects.contraindications.length > 0}
-									<div class="mt-6">
-										<h4 class="mb-3 font-semibold">Contraindications</h4>
-										<ul class="space-y-2">
-											{#each peptide.sideEffects.contraindications as contraindication}
-												<li class="flex items-start gap-2 text-muted-foreground">
-													<AlertTriangle class="h-5 w-5 flex-shrink-0 text-warning" />
-													{contraindication}
-												</li>
-											{/each}
-										</ul>
-									</div>
-								{/if}
+							{#if peptide.sideEffects.contraindications && peptide.sideEffects.contraindications.length > 0}
+								<div class="mt-6">
+									<h4 class="mb-3 font-semibold">Contraindications</h4>
+									<ul class="space-y-2">
+										{#each peptide.sideEffects.contraindications as contraindication}
+											<li class="flex items-start gap-2 text-muted-foreground">
+												<AlertTriangle class="h-5 w-5 flex-shrink-0 text-warning" />
+												{contraindication}
+											</li>
+										{/each}
+									</ul>
+								</div>
+							{/if}
 						</div>
 					</section>
 				{/if}
@@ -765,49 +796,49 @@
 					<section id="quality" class="sect sect-warn scroll-mt-8">
 						<h2 class="sect-heading-warn"><CheckCircle class="sect-icon" />Quality Checklist</h2>
 						<div class="sect-body">
-								<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-									{#if peptide.qualityChecklist.good && peptide.qualityChecklist.good.length > 0}
-										<div class="status-good rounded-xl border p-4">
-											<h4 class="status-good-text mb-3 flex items-center gap-2 font-semibold">
-												<CheckCircle class="h-5 w-5" />
-												Good Signs
-											</h4>
-											<ul class="space-y-2 text-sm">
-												{#each peptide.qualityChecklist.good as item}
-													<li class="status-good-text">{item}</li>
-												{/each}
-											</ul>
-										</div>
-									{/if}
+							<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+								{#if peptide.qualityChecklist.good && peptide.qualityChecklist.good.length > 0}
+									<div class="status-good rounded-xl border p-4">
+										<h4 class="status-good-text mb-3 flex items-center gap-2 font-semibold">
+											<CheckCircle class="h-5 w-5" />
+											Good Signs
+										</h4>
+										<ul class="space-y-2 text-sm">
+											{#each peptide.qualityChecklist.good as item}
+												<li class="status-good-text">{item}</li>
+											{/each}
+										</ul>
+									</div>
+								{/if}
 
-									{#if peptide.qualityChecklist.warning && peptide.qualityChecklist.warning.length > 0}
-										<div class="status-warning rounded-xl border p-4">
-											<h4 class="status-warning-text mb-3 flex items-center gap-2 font-semibold">
-												<AlertTriangle class="h-5 w-5" />
-												Warning Signs
-											</h4>
-											<ul class="space-y-2 text-sm">
-												{#each peptide.qualityChecklist.warning as item}
-													<li class="status-warning-text">{item}</li>
-												{/each}
-											</ul>
-										</div>
-									{/if}
+								{#if peptide.qualityChecklist.warning && peptide.qualityChecklist.warning.length > 0}
+									<div class="status-warning rounded-xl border p-4">
+										<h4 class="status-warning-text mb-3 flex items-center gap-2 font-semibold">
+											<AlertTriangle class="h-5 w-5" />
+											Warning Signs
+										</h4>
+										<ul class="space-y-2 text-sm">
+											{#each peptide.qualityChecklist.warning as item}
+												<li class="status-warning-text">{item}</li>
+											{/each}
+										</ul>
+									</div>
+								{/if}
 
-									{#if peptide.qualityChecklist.bad && peptide.qualityChecklist.bad.length > 0}
-										<div class="status-danger rounded-xl border p-4">
-											<h4 class="status-danger-text mb-3 flex items-center gap-2 font-semibold">
-												<XCircle class="h-5 w-5" />
-												Bad Signs
-											</h4>
-											<ul class="space-y-2 text-sm">
-												{#each peptide.qualityChecklist.bad as item}
-													<li class="status-danger-text">{item}</li>
-												{/each}
-											</ul>
-										</div>
-									{/if}
-								</div>
+								{#if peptide.qualityChecklist.bad && peptide.qualityChecklist.bad.length > 0}
+									<div class="status-danger rounded-xl border p-4">
+										<h4 class="status-danger-text mb-3 flex items-center gap-2 font-semibold">
+											<XCircle class="h-5 w-5" />
+											Bad Signs
+										</h4>
+										<ul class="space-y-2 text-sm">
+											{#each peptide.qualityChecklist.bad as item}
+												<li class="status-danger-text">{item}</li>
+											{/each}
+										</ul>
+									</div>
+								{/if}
+							</div>
 						</div>
 					</section>
 				{/if}
@@ -817,44 +848,44 @@
 					<section id="references" class="sect sect-muted scroll-mt-8">
 						<h2 class="sect-heading-muted"><BookOpen class="sect-icon" />References</h2>
 						<div class="sect-body">
-								<ul class="space-y-4">
-									{#each peptide.references as ref}
-										<li class="rounded-xl bg-muted/30 p-4">
-											<div class="flex items-start justify-between gap-4">
-												<div>
-													<div class="font-medium">{ref.title}</div>
-													{#if ref.authors}
-														<div class="mt-1 text-sm text-muted-foreground">{ref.authors}</div>
-													{/if}
-													{#if ref.year || ref.journal}
-														<div class="text-sm text-muted-foreground">
-															{ref.journal ? ref.journal : ''}{ref.year ? ` (${ref.year})` : ''}
-														</div>
-													{/if}
-													{#if ref.keyFindings}
-														<p class="mt-2 text-sm text-muted-foreground">{ref.keyFindings}</p>
-													{/if}
-												</div>
-												{#if ref.url}
-													<a
-														href={ref.url}
-														target="_blank"
-														rel="noopener noreferrer"
-														class="flex-shrink-0 p-2 text-muted-foreground transition-colors hover:text-foreground"
-													>
-														<ExternalLink class="h-4 w-4" />
-													</a>
+							<ul class="space-y-4">
+								{#each peptide.references as ref}
+									<li class="rounded-xl bg-muted/30 p-4">
+										<div class="flex items-start justify-between gap-4">
+											<div>
+												<div class="font-medium">{ref.title}</div>
+												{#if ref.authors}
+													<div class="mt-1 text-sm text-muted-foreground">{ref.authors}</div>
+												{/if}
+												{#if ref.year || ref.journal}
+													<div class="text-sm text-muted-foreground">
+														{ref.journal ? ref.journal : ''}{ref.year ? ` (${ref.year})` : ''}
+													</div>
+												{/if}
+												{#if ref.keyFindings}
+													<p class="mt-2 text-sm text-muted-foreground">{ref.keyFindings}</p>
 												{/if}
 											</div>
-										</li>
-									{/each}
-								</ul>
+											{#if ref.url}
+												<a
+													href={ref.url}
+													target="_blank"
+													rel="noopener noreferrer"
+													class="flex-shrink-0 p-2 text-muted-foreground transition-colors hover:text-foreground"
+												>
+													<ExternalLink class="h-4 w-4" />
+												</a>
+											{/if}
+										</div>
+									</li>
+								{/each}
+							</ul>
 						</div>
 					</section>
 				{/if}
 
 				<!-- Disclaimer at bottom -->
-				<div class="status-warning rounded-2xl border p-6 mt-6">
+				<div class="status-warning mt-6 rounded-2xl border p-6">
 					<div class="flex items-start gap-3">
 						<AlertTriangle class="h-5 w-5 flex-shrink-0 text-warning" />
 						<div>

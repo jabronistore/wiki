@@ -51,7 +51,9 @@
 				<!-- Left side - Content -->
 				<div class="order-2 text-center lg:order-1 lg:text-left">
 					<!-- Badges -->
-					<div class="animate-fade-in mb-8 flex flex-wrap items-center justify-center gap-3 lg:justify-start">
+					<div
+						class="animate-fade-in mb-8 flex flex-wrap items-center justify-center gap-3 lg:justify-start"
+					>
 						<div
 							class="inline-flex items-center gap-2 rounded-full bg-muted px-4 py-2 text-sm font-medium text-foreground"
 						>
@@ -98,10 +100,10 @@
 							<ArrowRight class="h-5 w-5" />
 						</a>
 						<a
-							href="/categories"
+							href="/peptides/best-for"
 							class="inline-flex items-center gap-2 rounded-xl border border-border bg-card px-8 py-4 font-semibold text-foreground transition-all hover:bg-muted"
 						>
-							Explore Categories
+							Best Peptides For...
 						</a>
 					</div>
 				</div>
@@ -215,47 +217,75 @@
 			<h2 class="text-2xl tracking-tight">Tools</h2>
 		</div>
 		<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-			<a href="/calculator" class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30">
+			<a
+				href="/calculator"
+				class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30"
+			>
 				<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
 					<FlaskConical class="h-5 w-5 text-accent" />
 				</div>
 				<h3 class="mb-1 font-semibold text-foreground">Reconstitution Calculator</h3>
-				<p class="text-sm text-muted-foreground">Calculate dose volumes with a visual syringe guide</p>
+				<p class="text-sm text-muted-foreground">
+					Calculate dose volumes with a visual syringe guide
+				</p>
 			</a>
-			<a href="/compare" class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30">
+			<a
+				href="/compare"
+				class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30"
+			>
 				<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
 					<Scale class="h-5 w-5 text-accent" />
 				</div>
 				<h3 class="mb-1 font-semibold text-foreground">Compare Peptides</h3>
 				<p class="text-sm text-muted-foreground">Side-by-side molecular data, dosing, and safety</p>
 			</a>
-			<a href="/tools/interactions" class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30">
+			<a
+				href="/tools/interactions"
+				class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30"
+			>
 				<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
 					<Beaker class="h-5 w-5 text-accent" />
 				</div>
 				<h3 class="mb-1 font-semibold text-foreground">Interaction Checker</h3>
-				<p class="text-sm text-muted-foreground">Check compatibility between peptides in your stack</p>
+				<p class="text-sm text-muted-foreground">
+					Check compatibility between peptides in your stack
+				</p>
 			</a>
-			<a href="/calculator/blend" class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30">
+			<a
+				href="/calculator/blend"
+				class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30"
+			>
 				<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
 					<FlaskConical class="h-5 w-5 text-accent" />
 				</div>
 				<h3 class="mb-1 font-semibold text-foreground">Blend Calculator</h3>
-				<p class="text-sm text-muted-foreground">Dose each component in KLOW, GLOW, Wolverine, and more</p>
+				<p class="text-sm text-muted-foreground">
+					Dose each component in KLOW, GLOW, Wolverine, and more
+				</p>
 			</a>
-			<a href="/calculator/accumulation" class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30">
+			<a
+				href="/calculator/accumulation"
+				class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30"
+			>
 				<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
 					<TrendingUp class="h-5 w-5 text-accent" />
 				</div>
 				<h3 class="mb-1 font-semibold text-foreground">Accumulation Plotter</h3>
-				<p class="text-sm text-muted-foreground">Visualise PK curves based on half-life and dosing</p>
+				<p class="text-sm text-muted-foreground">
+					Visualise PK curves based on half-life and dosing
+				</p>
 			</a>
-			<a href="/tools/cost" class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30">
+			<a
+				href="/tools/cost"
+				class="group rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:bg-muted/30"
+			>
 				<div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
 					<BookOpen class="h-5 w-5 text-accent" />
 				</div>
 				<h3 class="mb-1 font-semibold text-foreground">Cost Calculator</h3>
-				<p class="text-sm text-muted-foreground">Calculate price per dose, per week, and per cycle</p>
+				<p class="text-sm text-muted-foreground">
+					Calculate price per dose, per week, and per cycle
+				</p>
 			</a>
 		</div>
 	</div>

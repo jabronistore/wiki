@@ -48,7 +48,6 @@ export async function GET() {
 		{ loc: '/compare', priority: '0.8', changefreq: 'weekly' },
 		{ loc: '/tools/interactions', priority: '0.7', changefreq: 'monthly' },
 		{ loc: '/tools/cost', priority: '0.7', changefreq: 'monthly' },
-		{ loc: '/get-started', priority: '0.8', changefreq: 'monthly' },
 		{ loc: '/disclaimer', priority: '0.3', changefreq: 'yearly' },
 		{ loc: '/privacy', priority: '0.3', changefreq: 'yearly' }
 	];
@@ -81,7 +80,13 @@ export async function GET() {
 
 	// Blend calculator pages
 	const blendPages: SitemapUrl[] = [
-		'klow', 'glow', 'cjc-ipa', 'wolverine', 'tri-heal-max', 'tesa-ipa', 'illumineuro'
+		'klow',
+		'glow',
+		'cjc-ipa',
+		'wolverine',
+		'tri-heal-max',
+		'tesa-ipa',
+		'illumineuro'
 	].map((b) => ({ loc: `/calculator/blend?b=${b}`, priority: '0.6', changefreq: 'monthly' }));
 
 	// Comparison pages (popular synergistic/compatible pairs)
