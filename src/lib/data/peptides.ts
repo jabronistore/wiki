@@ -46,13 +46,26 @@ export function getPeptideBySlug(slug: string): Peptide | undefined {
  * Get all peptides as summaries (for listings and navigation)
  */
 export function getAllPeptideSummaries(): PeptideSummary[] {
-	return allPeptides.map((p) => ({
-		id: p.id,
-		name: p.name,
-		subtitle: p.subtitle || '',
-		categories: p.categories || [],
-		researchStatus: p.researchStatus
-	}));
+	return allPeptides.map((p) => {
+		// Build searchable text from indications, aliases, mechanism
+		const parts: string[] = [];
+		if (p.aliases) parts.push(...(Array.isArray(p.aliases) ? p.aliases : [p.aliases]));
+		if (p.mechanism) parts.push(p.mechanism);
+		for (const cat of p.indications || []) {
+			parts.push(cat.category);
+			for (const item of cat.items || []) {
+				parts.push(item.name);
+			}
+		}
+		return {
+			id: p.id,
+			name: p.name,
+			subtitle: p.subtitle || '',
+			categories: p.categories || [],
+			researchStatus: p.researchStatus,
+			searchText: parts.join(' ').toLowerCase()
+		};
+	});
 }
 
 /**

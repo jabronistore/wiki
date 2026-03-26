@@ -884,6 +884,38 @@
 					</section>
 				{/if}
 
+				<!-- Related Peptides -->
+				{#if peptide.interactions && peptide.interactions.length > 0}
+					{@const related = peptide.interactions
+						.filter((ix) => ix.status === 'synergistic' || ix.status === 'compatible')
+						.map((ix) => {
+							const match = allPeptides.find(
+								(p) => p.name.toLowerCase() === ix.peptide.toLowerCase()
+							);
+							return match
+								? { id: match.id, name: ix.peptide, status: ix.status, notes: ix.notes }
+								: null;
+						})
+						.filter((r) => r !== null)
+						.slice(0, 6)}
+					{#if related.length > 0}
+						<section class="sect scroll-mt-8">
+							<h2 class="related-heading">Related Peptides</h2>
+							<div class="related-grid">
+								{#each related as rel}
+									<a href="/peptides/{rel.id}" class="related-card">
+										<span class="related-name">{rel.name}</span>
+										<span class="related-badge related-badge-{rel.status}">{rel.status}</span>
+										{#if rel.notes}
+											<p class="related-notes">{rel.notes}</p>
+										{/if}
+									</a>
+								{/each}
+							</div>
+						</section>
+					{/if}
+				{/if}
+
 				<!-- Disclaimer at bottom -->
 				<div class="status-warning mt-6 rounded-2xl border p-6">
 					<div class="flex items-start gap-3">
@@ -1376,6 +1408,67 @@
 		.tl-period {
 			font-size: 0.6875rem;
 		}
+	}
+
+	/* Related Peptides */
+	.related-heading {
+		font-size: 1.125rem;
+		font-weight: 400;
+		margin-bottom: 1rem;
+	}
+
+	.related-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap: 0.625rem;
+	}
+
+	.related-card {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		padding: 0.875rem;
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.625rem;
+		text-decoration: none;
+		transition: all 0.15s;
+	}
+
+	.related-card:hover {
+		border-color: hsl(var(--accent) / 0.5);
+		background: hsl(var(--muted) / 0.2);
+	}
+
+	.related-name {
+		font-size: 0.9375rem;
+		font-weight: 600;
+		color: hsl(var(--foreground));
+	}
+
+	.related-badge {
+		font-size: 0.5625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		padding: 0.125rem 0.375rem;
+		border-radius: 0.25rem;
+		width: fit-content;
+	}
+
+	.related-badge-synergistic {
+		background: hsl(142 71% 45% / 0.12);
+		color: hsl(142 71% 45%);
+	}
+
+	.related-badge-compatible {
+		background: hsl(var(--accent) / 0.12);
+		color: hsl(var(--accent));
+	}
+
+	.related-notes {
+		font-size: 0.75rem;
+		color: hsl(var(--muted-foreground));
+		line-height: 1.4;
 	}
 
 	/* Quick Stats - Mobile */

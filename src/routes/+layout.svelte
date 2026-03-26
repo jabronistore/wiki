@@ -155,17 +155,104 @@
 	let searchQuery = $state('');
 	let searchInputRef = $state<HTMLInputElement | null>(null);
 
-	const filteredPeptides = $derived(() => {
-		if (!searchQuery || !data.peptides) return [];
+	// Search results: peptides + guides + tools
+	interface SearchResult {
+		id: string;
+		name: string;
+		subtitle?: string;
+		type: 'peptide' | 'guide' | 'tool';
+		href: string;
+	}
+
+	const tools: SearchResult[] = [
+		{
+			id: 'calc',
+			name: 'Reconstitution Calculator',
+			subtitle: 'Dose volumes and syringe guide',
+			type: 'tool',
+			href: '/calculator'
+		},
+		{
+			id: 'blend',
+			name: 'Blend Calculator',
+			subtitle: 'Multi-peptide blend dosing',
+			type: 'tool',
+			href: '/calculator/blend'
+		},
+		{
+			id: 'accum',
+			name: 'Accumulation Plotter',
+			subtitle: 'PK curves over time',
+			type: 'tool',
+			href: '/calculator/accumulation'
+		},
+		{
+			id: 'cost',
+			name: 'Cost Calculator',
+			subtitle: 'Price per dose and cycle',
+			type: 'tool',
+			href: '/tools/cost'
+		},
+		{
+			id: 'compare',
+			name: 'Compare Peptides',
+			subtitle: 'Side-by-side data',
+			type: 'tool',
+			href: '/compare'
+		},
+		{
+			id: 'interactions',
+			name: 'Interaction Checker',
+			subtitle: 'Stack compatibility',
+			type: 'tool',
+			href: '/tools/interactions'
+		},
+		{
+			id: 'bestfor',
+			name: 'Best Peptides For...',
+			subtitle: 'Rankings by goal',
+			type: 'tool',
+			href: '/peptides/best-for'
+		}
+	];
+
+	const searchResults = $derived(() => {
+		if (!searchQuery) return [];
 		const query = searchQuery.toLowerCase();
-		return data.peptides
-			.filter(
-				(p) =>
+		const results: SearchResult[] = [];
+
+		// Search peptides (name, subtitle, categories, indications, mechanism, aliases)
+		if (data.peptides) {
+			for (const p of data.peptides) {
+				if (
 					p.name.toLowerCase().includes(query) ||
 					(p.subtitle && p.subtitle.toLowerCase().includes(query)) ||
-					(p.categories && p.categories.some((c) => c.toLowerCase().includes(query)))
-			)
-			.slice(0, 8);
+					(p.categories && p.categories.some((c) => c.toLowerCase().includes(query))) ||
+					(p.searchText && p.searchText.includes(query))
+				) {
+					results.push({
+						id: p.id,
+						name: p.name,
+						subtitle: p.subtitle,
+						type: 'peptide',
+						href: `/peptides/${p.id}`
+					});
+				}
+				if (results.length >= 12) break;
+			}
+		}
+
+		// Search tools
+		for (const t of tools) {
+			if (
+				t.name.toLowerCase().includes(query) ||
+				(t.subtitle && t.subtitle.toLowerCase().includes(query))
+			) {
+				results.push(t);
+			}
+		}
+
+		return results.slice(0, 10);
 	});
 
 	onMount(() => {
@@ -268,34 +355,34 @@
 
 					<!-- Results -->
 					<div class="search-results">
-						{#if searchQuery && filteredPeptides().length === 0}
+						{#if searchQuery && searchResults().length === 0}
 							<div class="search-empty">
 								<div class="search-empty-icon">
 									<Search class="h-6 w-6" />
 								</div>
-								<p class="search-empty-title">No peptides found</p>
-								<p class="search-empty-hint">Try a different search term</p>
+								<p class="search-empty-title">No results found</p>
+								<p class="search-empty-hint">
+									Try searching for a peptide name, condition, or tool
+								</p>
 							</div>
-						{:else if filteredPeptides().length > 0}
+						{:else if searchResults().length > 0}
 							<div class="search-results-header">
 								<span class="search-results-count"
-									>{filteredPeptides().length} result{filteredPeptides().length !== 1
-										? 's'
-										: ''}</span
+									>{searchResults().length} result{searchResults().length !== 1 ? 's' : ''}</span
 								>
 							</div>
 							<ul class="search-results-list">
-								{#each filteredPeptides() as peptide, i}
+								{#each searchResults() as result, i}
 									<li style="--delay: {i * 30}ms">
-										<button onclick={() => selectPeptide(peptide.id)} class="search-result-item">
+										<a href={result.href} onclick={closeSearch} class="search-result-item">
 											<div class="search-result-content">
-												<span class="search-result-name">{peptide.name}</span>
-												{#if peptide.subtitle}
-													<span class="search-result-subtitle">{peptide.subtitle}</span>
+												<span class="search-result-name">{result.name}</span>
+												{#if result.subtitle}
+													<span class="search-result-subtitle">{result.subtitle}</span>
 												{/if}
 											</div>
-											<ArrowRight class="search-result-arrow" />
-										</button>
+											<span class="search-result-type">{result.type}</span>
+										</a>
 									</li>
 								{/each}
 							</ul>
@@ -483,6 +570,18 @@
 											>
 										</div>
 									</a>
+									<a
+										href="/tools/ask"
+										class="tools-dropdown-item"
+										onclick={() => (toolsOpen = false)}
+									>
+										<Search class="h-4 w-4" />
+										<div>
+											<span class="tools-item-name">Ask AI</span><span class="tools-item-desc"
+												>Chat with our peptide database</span
+											>
+										</div>
+									</a>
 								</div>
 							</div>
 						{/if}
@@ -619,6 +718,9 @@
 							class="mobile-tool-link"
 						>
 							<FlaskConical class="h-4 w-4" /> Best Peptides For...
+						</a>
+						<a href="/tools/ask" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+							<Search class="h-4 w-4" /> Ask AI
 						</a>
 					</div>
 				</div>
@@ -839,5 +941,16 @@
 
 	.mobile-tool-link :global(svg) {
 		color: hsl(var(--accent));
+	}
+
+	/* Search result type badge */
+	:global(.search-result-type) {
+		font-family: var(--font-mono);
+		font-size: 0.5rem;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: hsl(var(--muted-foreground) / 0.5);
+		flex-shrink: 0;
 	}
 </style>

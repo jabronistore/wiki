@@ -189,6 +189,8 @@ export interface PeptideSummary {
 	subtitle?: string;
 	categories: PeptideCategory[];
 	researchStatus: ResearchStatus;
+	/** Flattened searchable text: indication names, aliases, mechanism keywords */
+	searchText?: string;
 }
 
 // Guide types
