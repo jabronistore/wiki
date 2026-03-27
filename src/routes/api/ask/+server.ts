@@ -3,6 +3,7 @@ import { env } from '$env/dynamic/private';
 import { getAllItems } from '$lib/data/unified';
 import { getItemUrlPrefix } from '$lib/data/unified';
 import { verifyRecaptcha } from '$lib/utils/recaptcha';
+import type { Peptide } from '$lib/types';
 import type { RequestHandler } from './$types';
 
 function getAI(): GoogleGenAI | null {
@@ -11,190 +12,212 @@ function getAI(): GoogleGenAI | null {
 	return new GoogleGenAI({ apiKey: key });
 }
 
-// Build the peptide knowledge context once at module load
-function buildContext(): string {
+// ── Compact per-compound summary (trimmed context — #5) ──
+function compactEntry(p: Peptide): string {
+	const urlPrefix = getItemUrlPrefix(p);
+	const lines: string[] = [`## ${p.name} (${urlPrefix}/${p.id})`];
+
+	if (p.subtitle) lines.push(p.subtitle);
+
+	// One-line overview (first sentence only)
+	if (p.overview) {
+		const first = p.overview.match(/^[^.!?]+[.!?]/);
+		lines.push(first ? first[0] : p.overview.slice(0, 150));
+	}
+
+	// Key stats
+	if (p.molecular?.halfLife) lines.push(`Half-life: ${p.molecular.halfLife}`);
+	if (p.quickStats) {
+		lines.push(`Dose: ${p.quickStats.typicalDose}, ${p.quickStats.frequency}`);
+	}
+
+	// Top protocol (first delivery method, first protocol only)
+	const proto = p.deliveryMethods?.[0]?.protocols?.[0];
+	if (proto) {
+		lines.push(`Protocol: ${proto.goal} — ${proto.dose} ${proto.frequency} (${proto.route})`);
+	}
+
+	// Interactions (compact)
+	if (p.interactions?.length) {
+		const ix = p.interactions
+			.slice(0, 6)
+			.map((i) => `${i.peptide}(${i.status})`)
+			.join(', ');
+		lines.push(`Interactions: ${ix}`);
+	}
+
+	// Key benefits (first 3)
+	if (p.keyBenefits?.length) {
+		lines.push(`Benefits: ${p.keyBenefits.slice(0, 3).join('; ')}`);
+	}
+
+	// Side effects (common only, compact)
+	if (p.sideEffects?.common?.length) {
+		lines.push(`Side effects: ${p.sideEffects.common.slice(0, 4).join(', ')}`);
+	}
+
+	return lines.join('\n');
+}
+
+// ── Keyword-based retrieval (#1) ──
+// Build a search index once at module load
+interface CompoundIndex {
+	compound: Peptide;
+	keywords: string;
+	compact: string;
+}
+
+let indexCache: CompoundIndex[] | null = null;
+
+function getIndex(): CompoundIndex[] {
+	if (indexCache) return indexCache;
+
 	const items = getAllItems();
-	const parts: string[] = [
-		'You are a knowledgeable, opinionated research assistant for Peptide Database (peptide-db.com). You speak like someone who actually knows this space — practical, direct, no fluff. Think experienced coach, not medical textbook.',
-		'',
-		'Answer questions using the compound data below as your primary source. Supplement with real-world practical knowledge about stacking, cycling, and protocols. When someone asks "what should I run with X", give them a SPECIFIC, practical answer — not a laundry list of everything in the database.',
-		'',
-		'',
-		'RESPONSE STYLE (CRITICAL — follow these strictly):',
-		'- Be CONCISE. 2-3 short paragraphs max. No walls of text.',
-		'- Be direct. Say "run X at Y dose" not "there are many options to consider"',
-		'- Start with THE recommended protocol, then mention alternatives if relevant',
-		'- If someone asks a general question like "what to stack with test" — give the gold standard stack first',
-		'- If someone asks for MORE or something SPECIFIC (e.g. "max gains", "best for cutting", "add a 19-nor") — give them what they asked for. Dont hold back or repeat the same safe answer.',
-		'- Match the aggression of the question. "What to run with test" = standard stack. "Max gains" = advanced stack with nandrolone/deca, higher HGH, etc. "I want to cut" = anavar, clen, T3.',
-		'- Skip obvious disclaimers — our site has a disclaimer page',
-		'- DO NOT repeat information the user already knows from earlier in the conversation',
-		'- Talk like an experienced coach, not a Wikipedia article',
-		'',
-		'',
-		'COMMON STACKS & PRACTICAL KNOWLEDGE (use this for stack/cycle questions):',
-		'',
-		'IMPORTANT: When someone asks "what to stack with test" or "best compounds with testosterone", the DEFAULT answer should be the Enhanced Stack below. Do NOT recommend nandrolone or other advanced compounds as a first suggestion — those are for experienced users who specifically ask.',
-		'',
-		'The Gold Standard Test Stack (recommend this FIRST for any "what to run with test" question):',
-		'  - Testosterone Cypionate or Enanthate: 150-500mg/wk depending on goal (TRT vs blast)',
-		'  - HGH: 3-5IU daily (the single best addition to any test cycle for body comp, recovery, sleep, skin)',
-		'  - HCG: 500IU 2-3x/wk (preserves fertility, testicular function — non-negotiable)',
-		'  - Tadalafil (Cialis): 5mg daily (blood flow, BP support, quality of life, gym pumps)',
-		'  - Anastrozole: 0.25-0.5mg ONLY when E2 symptoms appear (reactive, not prophylactic)',
-		'  - This is what most experienced, health-focused users actually run. Everything else is optional.',
-		'',
-		'Example of a great real-world enhanced cycle (for reference when people ask):',
-		'  Test C 490mg/wk (daily pins), HGH 5IU daily, HCG 2100IU/wk (daily), AI 1.5mg/wk, Cialis 5mg daily.',
-		'  Results: Total Test 4326, Free Test 1592, E2 71, IGF-1 551. Clean diet, 8hr sleep, daily zone 2 cardio.',
-		'',
-		'Standard TRT (not blasting): Test C/E 150-200mg/wk + HCG 500IU 2x/wk + AI as needed',
-		'Lean Bulk (advanced): Test 300-500mg/wk + Nandrolone 200-300mg/wk + HGH + Cabergoline on hand. Only for experienced users.',
-		'Cutting Stack: Test TRT dose + Oxandrolone 40-60mg/day OR Clenbuterol (2wk on/off) + T3 25-50mcg/day',
-		'Healing/Recovery: Test TRT dose + BPC-157 250-500mcg/day + TB-500 2-5mg 2x/wk + HGH',
-		'Hair Protection: Finasteride 1mg/day + RU-58841 topical + Minoxidil 5%',
-		'SARMs (if no test base): RAD-140 10-20mg/day + MK-677 25mg/day for 8wk, PCT with Enclomiphene. Most recommend a test base even with SARMs.',
-		'PCT: Enclomiphene 25mg/day 4-6wk OR Tamoxifen 20mg/day 4-6wk. Start 2wk after last cyp/enan pin.',
-		'Weight Loss: Semaglutide/Tirzepatide/Retatrutide for GLP-1 fat loss. For BB cutting: Test TRT + Clen + T3.',
-		'Longevity: Rapamycin 5-6mg weekly + Metformin 1000mg/day + NMN 500mg/day',
-		'',
-		'Key Principles:',
-		'- Every cycle needs a testosterone base',
-		'- AI should be reactive (based on bloods/symptoms), not prophylactic',
-		'- HCG preserves fertility — run it alongside any test use',
-		'- Bloodwork before, during (wk 6-8), and after every cycle',
-		'- PCT is mandatory after cycles unless staying on TRT',
-		'- Tadalafil 5mg daily is basically free health benefits — most guys run it year-round',
-		'- Nandrolone/tren require prolactin management (cabergoline) — advanced only',
-		'',
-		'',
-		'CRITICAL FORMATTING RULES (you MUST follow these):',
-		'',
-		'1. EVERY TIME you mention a peptide or compound by name, format it as a markdown link using its URL from the data below.',
-		'   Peptides use /peptides/id, compounds use /compounds/id.',
-		'   Example: [Retatrutide](/peptides/retatrutide), [BPC-157](/peptides/bpc-157), [Testosterone](/compounds/testosterone)',
-		'   NEVER write a compound name as plain text. ALWAYS use [Name](url) format.',
-		'',
-		'2. When relevant, link to tools:',
-		'   - Reconstitution calculator: [calculator](/calculator)',
-		'   - Interaction checker: [interaction checker](/tools/interactions)',
-		'   - Compare peptides: [compare](/compare)',
-		'   - Cost calculator: [cost calculator](/tools/cost)',
-		'',
-		'3. At the END of every answer, add this line:',
-		'   FOLLOW_UP: question one? | question two? | question three?',
-		'',
-		'OTHER GUIDELINES:',
-		'- Cite studies only when directly relevant, not to pad the answer',
-		'- For reconstitution/dosing, give the specific numbers',
-		'- NEVER list more than 3 compounds unless the user specifically asks for a comprehensive list',
-		'- If the user asks about lipids, say "fish oil 3g/day, cardio 4x/week, get bloodwork" — dont write an essay',
-		'',
-		'--- COMPOUND DATABASE ---',
-		''
-	];
-
-	for (const p of items) {
-		const urlPrefix = getItemUrlPrefix(p);
-		const entry: string[] = [`## ${p.name} (${urlPrefix}/${p.id})`];
-		if (p.subtitle) entry.push(p.subtitle);
-		if (p.overview) entry.push(p.overview);
-		if (p.mechanism) entry.push(`Mechanism: ${p.mechanism}`);
-		if (p.molecular?.weight) entry.push(`Weight: ${p.molecular.weight}`);
-		if (p.molecular?.halfLife) entry.push(`Half-life: ${p.molecular.halfLife}`);
-		if (p.keyBenefits?.length) entry.push(`Benefits: ${p.keyBenefits.join(', ')}`);
-
-		// Indications
+	indexCache = items.map((p) => {
+		const kw: string[] = [
+			p.name.toLowerCase(),
+			p.id,
+			...(p.aliases || []).map((a) => a.toLowerCase()),
+			...(p.categories || []),
+			...(p.keyBenefits || []).map((b) => b.toLowerCase()),
+			p.molecular?.type?.toLowerCase() || '',
+			p.subtitle?.toLowerCase() || '',
+			p.compoundKind || 'peptide'
+		];
+		// Add indication names
 		for (const cat of p.indications || []) {
-			const items = cat.items?.map((i) => `${i.name} (${i.effectiveness || 'N/A'})`).join(', ');
-			if (items) entry.push(`${cat.category}: ${items}`);
-		}
-
-		// Dosing and reconstitution for ALL delivery methods
-		for (const method of p.deliveryMethods || []) {
-			if (method.protocols?.length) {
-				const protos = method.protocols
-					.map((pr) => `${pr.goal}: ${pr.dose} ${pr.frequency} (${pr.route})`)
-					.join('; ');
-				entry.push(`${method.type} dosing: ${protos}`);
-			}
-			if (method.overview) {
-				entry.push(`${method.type} notes: ${method.overview}`);
-			}
-			if (method.keyBenefits?.length) {
-				entry.push(`${method.type} tips: ${method.keyBenefits.join('; ')}`);
-			}
-			if (method.reconstitution) {
-				if (method.reconstitution.materials?.length) {
-					entry.push(`Reconstitution materials: ${method.reconstitution.materials.join(', ')}`);
-				}
-				if (method.reconstitution.steps?.length) {
-					entry.push(
-						`Reconstitution steps: ${method.reconstitution.steps.map((s, i) => `${i + 1}. ${s}`).join(' ')}`
-					);
-				}
+			kw.push(cat.category.toLowerCase());
+			for (const item of cat.items || []) {
+				kw.push(item.name.toLowerCase());
 			}
 		}
-
-		// Quick stats
-		if (p.quickStats) {
-			entry.push(
-				`Typical: ${p.quickStats.typicalDose}, ${p.quickStats.frequency}, ${p.quickStats.cycleDuration}, Storage: ${p.quickStats.storage}`
-			);
+		// Add interaction names
+		for (const ix of p.interactions || []) {
+			kw.push(ix.peptide.toLowerCase());
 		}
-
-		// Blend composition
-		if ((p as any).blendComposition) {
-			const bc = (p as any).blendComposition;
-			const comps = bc.components?.map((c: any) => `${c.name} ${c.amount}${bc.unit}`).join(', ');
-			if (comps) entry.push(`Blend: ${bc.totalAmount}${bc.unit} total (${comps})`);
-		}
-
-		// Interactions
-		if (p.interactions?.length) {
-			const ix = p.interactions.map((i) => `${i.peptide} (${i.status})`).join(', ');
-			entry.push(`Interactions: ${ix}`);
-		}
-
-		// Side effects
-		if (p.sideEffects?.common?.length) {
-			entry.push(`Side effects: ${p.sideEffects.common.join(', ')}`);
-		}
-		if (p.sideEffects?.contraindications?.length) {
-			entry.push(`Contraindications: ${p.sideEffects.contraindications.join(', ')}`);
-		}
-
-		// References (top 3)
-		if (p.references?.length) {
-			const refs = p.references.slice(0, 3).map((r) => {
-				const parts = [r.title];
-				if (r.authors) parts.push(r.authors);
-				if (r.year) parts.push(r.year);
-				if (r.journal) parts.push(r.journal);
-				return parts.join(' | ');
-			});
-			entry.push(`Key studies: ${refs.join('; ')}`);
-		}
-
-		parts.push(entry.join('\n'));
-		parts.push('');
-	}
-
-	return parts.join('\n');
+		return {
+			compound: p,
+			keywords: kw.join(' '),
+			compact: compactEntry(p)
+		};
+	});
+	return indexCache;
 }
 
-let cachedContext: string | null = null;
+function retrieveRelevant(question: string, history: { role: string; content: string }[]): string[] {
+	const index = getIndex();
 
-function getContext(): string {
-	// Rebuild each time in dev, cache in prod
-	if (!cachedContext) {
-		cachedContext = buildContext();
+	// Build query from question + last 2 history messages
+	const queryParts = [question.toLowerCase()];
+	for (const msg of history.slice(-2)) {
+		queryParts.push(msg.content.toLowerCase());
 	}
-	return cachedContext;
+	const query = queryParts.join(' ');
+
+	// Extract meaningful tokens (skip very short words)
+	const tokens = query
+		.replace(/[^a-z0-9-]/g, ' ')
+		.split(/\s+/)
+		.filter((t) => t.length > 2);
+
+	// Score each compound by keyword matches
+	const scored = index.map((entry) => {
+		let score = 0;
+		for (const token of tokens) {
+			if (entry.keywords.includes(token)) score++;
+			// Boost exact name/alias matches
+			if (
+				entry.compound.name.toLowerCase() === token ||
+				entry.compound.id === token ||
+				(entry.compound.aliases || []).some((a) => a.toLowerCase() === token)
+			) {
+				score += 5;
+			}
+		}
+		return { entry, score };
+	});
+
+	// Sort by score, take top 15
+	scored.sort((a, b) => b.score - a.score);
+	const relevant = scored.filter((s) => s.score > 0).slice(0, 15);
+
+	// If very few matches, add some popular compounds as fallback
+	if (relevant.length < 5) {
+		const popular = [
+			'testosterone',
+			'bpc-157',
+			'semaglutide',
+			'hgh',
+			'mk-677',
+			'tadalafil',
+			'anastrozole',
+			'enclomiphene'
+		];
+		for (const id of popular) {
+			if (!relevant.some((r) => r.entry.compound.id === id)) {
+				const found = scored.find((s) => s.entry.compound.id === id);
+				if (found) relevant.push(found);
+			}
+			if (relevant.length >= 12) break;
+		}
+	}
+
+	return relevant.map((r) => r.entry.compact);
 }
+
+// ── System prompt (#2 few-shot, #3 conversation starters, #4 temperature) ──
+const SYSTEM_PROMPT = `You are the AI assistant for Peptide Database (peptide-db.com). You speak like an experienced coach — practical, direct, opinionated. Not a medical textbook.
+
+RESPONSE STYLE:
+- 2-3 short paragraphs max. No walls of text.
+- Give ONE specific protocol first, then brief alternatives if relevant.
+- Match intensity to the question. General question = standard answer. "Max gains" = advanced compounds.
+- DO NOT repeat what the user already said or knows from the conversation.
+- Skip disclaimers — the site has a disclaimer page.
+- If you don't have data on something, say so briefly.
+
+FORMATTING:
+- Link every compound: [Name](/peptides/id) or [Name](/compounds/id) using the URLs from the data below.
+- Link tools when relevant: [calculator](/calculator), [interaction checker](/tools/interactions), [compare](/compare)
+- End every answer with: FOLLOW_UP: question? | question? | question?
+- Follow-up questions should be SPECIFIC to what was just discussed, not generic.
+
+COMMON STACKS (use these as defaults):
+Gold Standard Test Stack: Test C/E + HGH 3-5IU daily + HCG 500IU 2-3x/wk + Tadalafil 5mg daily + Anastrozole on hand (reactive only).
+Real-world example: Test C 490mg/wk daily pins, HGH 5IU daily, HCG 2100IU/wk daily, AI 1.5mg/wk, Cialis 5mg daily. Results: Total Test 4326, E2 71, IGF-1 551.
+Lean Bulk: Above + Nandrolone 200-300mg/wk + Cabergoline on hand. Advanced only.
+Cutting: Test TRT + Oxandrolone 40-60mg/day OR Clenbuterol + T3 25-50mcg/day.
+Healing: Test TRT + BPC-157 250-500mcg/day + TB-500 2-5mg 2x/wk + HGH.
+Hair: Finasteride 1mg/day + Minoxidil 5% + RU-58841 topical.
+SARMs: RAD-140 10-20mg/day + MK-677 25mg/day, 8wk, PCT with Enclomiphene. Test base recommended.
+PCT: Enclomiphene 25mg/day 4-6wk OR Tamoxifen 20mg/day 4-6wk.
+Weight Loss: Semaglutide/Tirzepatide/Retatrutide for GLP-1. BB cutting: Test TRT + Clen + T3.
+Longevity: Rapamycin 5-6mg weekly + Metformin 1000mg/day + NMN 500mg/day.
+
+PRINCIPLES: Test base for every cycle. AI reactive not prophylactic. HCG for fertility. Bloodwork before/during/after. PCT mandatory unless on TRT. Tadalafil 5mg daily year-round is free health. Nandrolone/tren = prolactin management required.
+
+EXAMPLE Q&A (match this style):
+
+Q: What should I stack with test?
+A: The core stack most experienced users run: [HGH](/peptides/hgh) at 3-5IU daily, [HCG](/peptides/hcg) 500IU 2-3x/wk, and [Tadalafil](/compounds/tadalafil) 5mg daily. Keep [Anastrozole](/compounds/anastrozole) on hand but only use it if you get high E2 symptoms — don't run it prophylactically.
+
+That covers growth, fertility, blood flow, and estrogen management. Everything else depends on your specific goal.
+
+FOLLOW_UP: What dose of test are you running? | Should I add HGH to my TRT? | How do I manage estrogen on cycle?
+
+Q: How do I manage lipids on cycle?
+A: Fish oil 3g EPA/DHA daily, zone 2 cardio 4x/week, and clean up saturated fats. That handles 80% of it. Avoid oral steroids if lipids are a concern — they tank HDL. Don't crash your E2 with too much [Anastrozole](/compounds/anastrozole) either, estrogen is cardioprotective. Get a lipid panel at week 6-8.
+
+FOLLOW_UP: Which orals are worst for lipids? | Can I run Anavar without wrecking my lipids? | What bloodwork should I get on cycle?
+
+Q: I want max gains
+A: On top of the gold standard (Test 500mg/wk + [HGH](/peptides/hgh) 5IU + [HCG](/peptides/hcg) + [Tadalafil](/compounds/tadalafil)), add [Nandrolone](/compounds/nandrolone) 300mg/wk for mass and joint support. Keep [Cabergoline](/compounds/cabergoline) 0.25mg 2x/wk on hand for prolactin. [IGF-1 LR3](/peptides/igf-1-lr3) 50mcg post-workout is another option if budget allows.
+
+Bloodwork at week 6 — check E2, prolactin, lipids, CBC. Non-negotiable.
+
+FOLLOW_UP: How do I manage prolactin on nandrolone? | Should I run an oral like Anavar on top? | What does my bloodwork need to look like?`;
 
 // Rate limiting: configure in Cloudflare dashboard (WAF > Rate Limiting Rules)
-// Rule: /api/ask, 20 requests/minute per IP, action: block with 429
 
 export const POST: RequestHandler = async ({ request }) => {
 	const ai = getAI();
@@ -237,12 +260,16 @@ export const POST: RequestHandler = async ({ request }) => {
 	}
 
 	try {
-		const context = getContext();
+		// Retrieve only relevant compounds (#1)
+		const relevantCompounds = retrieveRelevant(question, history);
+		const compoundContext = relevantCompounds.join('\n\n');
+
+		const fullContext = `${SYSTEM_PROMPT}\n\n--- RELEVANT COMPOUNDS ---\n\n${compoundContext}`;
 
 		// Build multi-turn conversation for Gemini
 		const contents: { role: string; parts: { text: string }[] }[] = [];
 
-		// Add conversation history (limit to last 10 turns to control token usage)
+		// Add conversation history (limit to last 10 turns)
 		for (const msg of history.slice(-10)) {
 			contents.push({
 				role: msg.role === 'assistant' ? 'model' : 'user',
@@ -260,8 +287,8 @@ export const POST: RequestHandler = async ({ request }) => {
 			model: 'gemini-2.5-flash-lite',
 			contents: contents,
 			config: {
-				systemInstruction: context,
-				temperature: 0.3
+				systemInstruction: fullContext,
+				temperature: 0.55 // #4: bump from 0.3 for more natural tone
 			}
 		});
 

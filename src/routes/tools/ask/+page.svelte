@@ -54,24 +54,27 @@
 
 	const suggestedGroups = [
 		{
-			label: 'Learn',
+			label: 'Stacks',
 			questions: [
-				'What is the difference between BPC-157 and TB-500?',
-				'Which peptides are best for healing?'
+				'What should I stack with test?',
+				'Plan my first cycle',
+				'Best compounds for cutting?'
 			]
 		},
 		{
-			label: 'Dosing',
+			label: 'Protocols',
 			questions: [
-				'How do I reconstitute a 10mg vial of semaglutide?',
-				'What is the KLOW protocol and how is it dosed?'
+				'How do I run PCT after a blast?',
+				'How do I reconstitute BPC-157?',
+				'Best protocol for hair loss prevention?'
 			]
 		},
 		{
-			label: 'Safety',
+			label: 'Compare',
 			questions: [
-				'What are the side effects of retatrutide?',
-				'Which peptides should not be combined?'
+				'Enclomiphene vs tamoxifen for PCT?',
+				'RAD-140 vs LGD-4033?',
+				'Tadalafil vs sildenafil?'
 			]
 		}
 	];
@@ -91,11 +94,11 @@
 
 	function fixLinks(text: string): string {
 		text = text.replace(/\[([^\]]+)\]\(\/([a-z0-9-]+)\)/g, (match, name, slug) => {
-			if (/^(guides|calculator|compare|tools|peptides|categories)/.test(slug)) return match;
+			if (/^(guides|calculator|compare|tools|peptides|compounds|categories|best-for)/.test(slug)) return match;
 			return `[${name}](/peptides/${slug})`;
 		});
 		text = text.replace(/(\w[\w\s-]*?)\s*\(\/([a-z0-9-]+)\)/g, (match, name, slug) => {
-			if (/^(guides|calculator|compare|tools|peptides)/.test(slug))
+			if (/^(guides|calculator|compare|tools|peptides|compounds)/.test(slug))
 				return `[${name.trim()}](/${slug})`;
 			return `[${name.trim()}](/peptides/${slug})`;
 		});
