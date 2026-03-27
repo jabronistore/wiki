@@ -1,0 +1,350 @@
+{
+	"id": "clenbuterol",
+	"name": "Clenbuterol",
+	"subtitle": "Beta-2 Agonist | Thermogenic Fat Loss",
+	"aliases": ["Clen", "Spiropent"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["weight-loss", "metabolic"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "20-120 mcg/day",
+		"frequency": "Once daily (morning)",
+		"cycleDuration": "2 weeks on / 2 weeks off, or continuous with ketotifen",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "277.19 Da",
+		"type": "Sympathomimetic amine (C12H18Cl2N2O)",
+		"modifications": [
+			"Hydrochloride salt form (MW 313.65 Da) - most common commercially available form"
+		],
+		"halfLife": "~36 hours",
+		"halfLifeSeconds": 129600,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Clenbuterol is a potent, long-acting beta-2 adrenergic receptor agonist originally developed for the treatment of asthma and other respiratory conditions. It is approved as a bronchodilator in many countries throughout Europe, Latin America, and Asia, but has never been approved for human use in the United States, where it is only approved for veterinary use in horses (Ventipulmin). In the context of bodybuilding and physique sports, clenbuterol is widely used as a thermogenic agent during cutting phases to accelerate fat loss while preserving lean muscle mass. Its stimulatory effects on the sympathetic nervous system increase basal metabolic rate, core body temperature, and lipolysis. Unlike anabolic steroids, clenbuterol does not directly promote muscle growth in humans at typical doses, though animal studies have demonstrated significant anabolic effects in livestock, which led to its controversial use in meat production in some countries.",
+	"mechanism": "Clenbuterol selectively binds to beta-2 adrenergic receptors on cell surfaces, activating adenylyl cyclase and increasing intracellular cyclic adenosine monophosphate (cAMP) concentrations. Elevated cAMP activates protein kinase A (PKA), which phosphorylates hormone-sensitive lipase (HSL) in adipose tissue, directly stimulating lipolysis and the release of free fatty acids for oxidation. In smooth muscle tissue, beta-2 activation causes relaxation of bronchial airways, which accounts for its therapeutic use in asthma. Clenbuterol also stimulates mitochondrial uncoupling and increases thermogenesis, raising basal metabolic rate by an estimated 5-10%. Additionally, clenbuterol has mild anti-catabolic properties in humans, potentially reducing muscle protein breakdown during caloric restriction through beta-2 receptor-mediated inhibition of the ubiquitin-proteasome pathway. A significant limitation is the downregulation of beta-2 receptors with continuous use, typically occurring within 2-3 weeks, which diminishes the thermogenic effect and necessitates cycling protocols or co-administration of ketotifen (an antihistamine that upregulates beta receptors).",
+	"keyBenefits": [
+		"Increased basal metabolic rate and thermogenesis for accelerated fat loss",
+		"Preferential mobilization of stored body fat through enhanced lipolysis",
+		"Anti-catabolic effects that help preserve lean muscle mass during caloric restriction",
+		"Bronchodilation and improved respiratory capacity during intense exercise",
+		"Appetite suppression in many users, supporting adherence to caloric deficit",
+		"Oral administration with no injections required"
+	],
+	"indications": [
+		{
+			"category": "Fat Loss / Body Composition",
+			"items": [
+				{
+					"name": "Cutting Phase Fat Loss",
+					"description": "Accelerates fat loss during caloric restriction by increasing metabolic rate and stimulating lipolysis. Most commonly used in the final weeks of a cutting phase when body fat is already relatively low and progress has stalled.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Muscle Preservation During Deficit",
+					"description": "Anti-catabolic properties help reduce muscle protein breakdown during aggressive caloric deficits. Effect is modest in humans compared to the dramatic anti-catabolic effects observed in animal studies.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Contest Preparation",
+					"description": "Widely used in bodybuilding and physique competition preparation to achieve very low body fat levels. Typically deployed in the final 4-8 weeks before competition alongside other compounds.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Respiratory",
+			"items": [
+				{
+					"name": "Asthma / Bronchospasm",
+					"description": "Approved in many countries (not the US) as a bronchodilator for the treatment of asthma and chronic obstructive pulmonary disease. Relaxes bronchial smooth muscle and improves airflow.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Clenbuterol is administered orally in tablet form, typically available in 20 mcg or 40 mcg tablets. It is rapidly absorbed from the gastrointestinal tract with high oral bioavailability (~70-80%). Peak plasma concentrations are reached within 2-3 hours of ingestion. The long half-life of approximately 36 hours means that once-daily dosing is sufficient, though some users split the dose to reduce peak-related side effects. Morning administration is strongly recommended to minimize insomnia.",
+			"protocols": [
+				{
+					"goal": "Standard Cutting - 2 Weeks On / 2 Weeks Off",
+					"dose": "20 mcg/day ramping to 80-120 mcg/day",
+					"frequency": "Once daily (morning)",
+					"route": "Oral",
+					"notes": "Start at 20 mcg/day and increase by 20 mcg every 1-2 days until reaching 80-120 mcg/day (dose ceiling varies by individual tolerance). Run for 14 days, then discontinue for 14 days to allow beta-2 receptor upregulation. Repeat as needed."
+				},
+				{
+					"goal": "Continuous Protocol with Ketotifen",
+					"dose": "20 mcg/day ramping to 80-120 mcg/day",
+					"frequency": "Once daily (morning)",
+					"route": "Oral",
+					"notes": "Same ramping protocol as above, but ketotifen (1-2 mg before bed) is added starting at week 2 and continued throughout to prevent beta-2 receptor downregulation. Allows continuous use for 6-8 weeks without loss of efficacy."
+				},
+				{
+					"goal": "Conservative / Female Protocol",
+					"dose": "20 mcg/day ramping to 40-80 mcg/day",
+					"frequency": "Once daily (morning)",
+					"route": "Oral",
+					"notes": "Lower dose ceiling appropriate for women or those with higher sensitivity to stimulants. Start at 20 mcg/day and increase by 10-20 mcg every 2-3 days. Maximum dose of 80 mcg/day for women."
+				}
+			],
+			"keyBenefits": [
+				"Simple oral administration with no injections or reconstitution",
+				"Precise dose titration with scored tablets",
+				"Rapid onset of action within 30-60 minutes",
+				"Long half-life allows convenient once-daily dosing",
+				"Well-characterized dose-response relationship"
+			]
+		}
+	],
+	"protocolVariants": [
+		{
+			"name": "2 Weeks On / 2 Weeks Off",
+			"source": "Traditional Cycling Protocol",
+			"philosophy": "Alternating periods of use and rest to prevent beta-2 receptor downregulation and maintain thermogenic efficacy without ancillary compounds.",
+			"description": "The most widely used clenbuterol protocol. Users ramp the dose up over the first few days, maintain the peak dose for the remainder of two weeks, then discontinue completely for two weeks to allow beta-2 receptors to resensitize. During off weeks, some users substitute ephedrine/caffeine as an alternative thermogenic. This cycle is repeated for the duration of the cutting phase.",
+			"keyDifferences": [
+				"No ancillary compounds required (no ketotifen)",
+				"Regular 2-week breaks allow cardiovascular recovery",
+				"Each on-cycle begins at full dose (no re-ramping needed in subsequent cycles for experienced users)",
+				"Thermogenic effect diminishes noticeably by day 10-14",
+				"Off periods may slow fat loss progress temporarily"
+			],
+			"doses": [
+				{
+					"phase": "Days 1-2",
+					"dose": "20 mcg/day",
+					"frequency": "Once daily",
+					"duration": "2 days"
+				},
+				{
+					"phase": "Days 3-4",
+					"dose": "40 mcg/day",
+					"frequency": "Once daily",
+					"duration": "2 days"
+				},
+				{
+					"phase": "Days 5-6",
+					"dose": "60 mcg/day",
+					"frequency": "Once daily",
+					"duration": "2 days"
+				},
+				{
+					"phase": "Days 7-8",
+					"dose": "80 mcg/day",
+					"frequency": "Once daily",
+					"duration": "2 days"
+				},
+				{
+					"phase": "Days 9-14",
+					"dose": "80-120 mcg/day",
+					"frequency": "Once daily",
+					"duration": "6 days"
+				},
+				{ "phase": "Days 15-28", "dose": "Off", "frequency": "N/A", "duration": "14 days" }
+			]
+		},
+		{
+			"name": "Continuous with Ketotifen",
+			"source": "Extended Use Protocol",
+			"philosophy": "Co-administration of ketotifen to upregulate beta-2 receptors allows for longer continuous use without the loss of thermogenic efficacy that occurs with clenbuterol alone.",
+			"description": "Ketotifen is an antihistamine (H1 receptor antagonist) that has been shown to upregulate beta-2 adrenergic receptors. By adding ketotifen at 1-2 mg nightly starting in the second week, users can extend clenbuterol cycles to 6-8 weeks continuously. This avoids the off periods of the traditional protocol and may produce more consistent fat loss over the cycle duration. The main drawback is that ketotifen causes drowsiness and increased appetite in some users.",
+			"keyDifferences": [
+				"Requires ketotifen (1-2 mg nightly) as an ancillary compound",
+				"Allows continuous use for 6-8 weeks without receptor desensitization",
+				"More consistent thermogenic output over the full cycle duration",
+				"Ketotifen may cause drowsiness (take before bed) and increased appetite",
+				"Overall clenbuterol exposure is higher, which may increase cardiac risk"
+			],
+			"doses": [
+				{
+					"phase": "Week 1",
+					"dose": "20-80 mcg/day clenbuterol (ramp up)",
+					"frequency": "Once daily",
+					"duration": "7 days"
+				},
+				{
+					"phase": "Week 2-6",
+					"dose": "80-120 mcg/day clenbuterol + 1-2 mg ketotifen",
+					"frequency": "Clen AM / Ketotifen PM",
+					"duration": "5-6 weeks"
+				},
+				{
+					"phase": "Taper",
+					"dose": "Reduce by 20 mcg every 2 days",
+					"frequency": "Once daily",
+					"duration": "5-7 days"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Anabolic Steroids",
+			"status": "compatible",
+			"notes": "Frequently combined during cutting cycles. Anabolic steroids provide muscle preservation and anabolic drive while clenbuterol accelerates fat loss. No direct pharmacological interaction, though the combination increases overall cardiovascular strain."
+		},
+		{
+			"peptide": "T3 (Liothyronine)",
+			"status": "synergistic",
+			"notes": "T3 and clenbuterol are commonly stacked for aggressive fat loss. T3 increases basal metabolic rate through thyroid-mediated pathways while clenbuterol provides adrenergic-driven thermogenesis. However, the combination significantly increases cardiac workload, heart rate, and risk of arrhythmia. T3 is also catabolic to muscle tissue, so anabolic support is typically recommended when combining these agents."
+		},
+		{
+			"peptide": "Taurine",
+			"status": "compatible",
+			"notes": "Clenbuterol depletes intracellular taurine levels, which is the primary cause of the muscle cramps commonly experienced during use. Supplementing with 3-5 grams of taurine daily significantly reduces or eliminates cramping. Considered a standard ancillary supplement during any clenbuterol cycle."
+		},
+		{
+			"peptide": "Ketotifen",
+			"status": "synergistic",
+			"notes": "Ketotifen (1-2 mg nightly) upregulates beta-2 adrenergic receptors, preventing the desensitization that limits clenbuterol efficacy after 2-3 weeks of continuous use. This allows extended clenbuterol cycles of 6-8 weeks. Ketotifen also has mild antihistamine sedative properties that can offset clenbuterol-induced insomnia."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-2",
+			"effects": "Onset of stimulant effects: mild tremors (especially in the hands), slight increase in heart rate, and a noticeable rise in body temperature. Appetite suppression may begin. Some users experience restlessness or difficulty sleeping."
+		},
+		{
+			"period": "Day 3-5",
+			"effects": "Tremors typically peak and then begin to subside as the body adjusts. Thermogenic effect is at full strength. Increased sweating during exercise becomes apparent. Heart rate elevation stabilizes. Most users notice improved workout intensity and endurance."
+		},
+		{
+			"period": "Day 6-14",
+			"effects": "Tremors largely resolve in most users. Fat loss becomes noticeable, particularly in individuals already at moderate body fat levels. Muscle cramps may begin (taurine supplementation recommended). Insomnia persists in some users. Cardiovascular endurance may be slightly impaired due to elevated resting heart rate."
+		},
+		{
+			"period": "Week 3-4 (if continuing with ketotifen)",
+			"effects": "Without ketotifen, thermogenic effect diminishes noticeably by this point due to beta-2 receptor downregulation. With ketotifen, effects remain consistent. Cumulative fat loss becomes clearly visible. Muscle cramps may worsen without adequate taurine and electrolyte supplementation."
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Stimulant effects wear off within 2-4 days of cessation due to the long half-life. Metabolic rate returns to baseline within 1-2 weeks. No PCT is required as clenbuterol does not affect the hormonal axis. Some users report mild lethargy and increased appetite in the first few days after stopping."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Tremors and shaking (especially hands) - most pronounced in the first 3-5 days",
+			"Tachycardia (elevated heart rate, typically 10-20 bpm above baseline)",
+			"Insomnia and sleep disturbance, particularly with afternoon or evening dosing",
+			"Muscle cramps (calves, forearms, back) due to taurine depletion",
+			"Increased sweating and elevated body temperature",
+			"Headaches, particularly during dose ramp-up",
+			"Nervousness, anxiety, and restlessness",
+			"Increased blood pressure"
+		],
+		"rare": [
+			"Cardiac hypertrophy (enlargement of the heart muscle) with chronic or high-dose use",
+			"Cardiac arrhythmias including atrial fibrillation and ventricular tachycardia",
+			"Severe hypokalemia (potassium depletion) leading to dangerous cardiac rhythm disturbances",
+			"Myocardial ischemia in individuals with pre-existing cardiovascular disease",
+			"Rhabdomyolysis (muscle breakdown) at very high doses or in combination with intense exercise"
+		],
+		"stopSigns": [
+			"Irregular or rapid heartbeat, palpitations, or chest pain",
+			"Severe difficulty breathing or shortness of breath at rest",
+			"Persistent nausea, vomiting, or feeling of impending doom",
+			"Severe, unrelenting muscle cramps unresponsive to supplementation",
+			"Dizziness, fainting, or near-syncope",
+			"Signs of allergic reaction: rash, swelling, difficulty swallowing"
+		],
+		"contraindications": [
+			"Pre-existing cardiovascular disease, cardiomyopathy, or arrhythmia",
+			"Uncontrolled hypertension",
+			"Hyperthyroidism or thyrotoxicosis",
+			"Hypokalemia or electrolyte imbalances",
+			"Known hypersensitivity to clenbuterol or sympathomimetic amines",
+			"Concurrent use of other stimulants (ephedrine, amphetamines) or MAO inhibitors",
+			"Pregnancy or breastfeeding"
+		],
+		"monitoring": [
+			"Resting heart rate: daily (keep below 100 bpm; reduce dose if consistently elevated above baseline by more than 20 bpm)",
+			"Blood pressure: at least weekly during use",
+			"Serum potassium and taurine status: baseline and mid-cycle if available",
+			"Electrocardiogram (ECG): recommended at baseline for individuals over 40 or with cardiac risk factors",
+			"Body temperature: first few days to confirm thermogenic response (expect 0.5-1.0F increase)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade tablets from a licensed manufacturer (e.g., Sopharma Clenbuterol 0.02 mg)",
+			"Consistent tablet weight, coloring, and markings indicating quality manufacturing standards",
+			"Proper blister packaging with lot number, expiration date, and manufacturer information",
+			"Purchased from a licensed pharmacy with valid prescription (where approved for human use)"
+		],
+		"warning": [
+			"Research chemical liquid formulations with unverified concentrations",
+			"Tablets without pharmaceutical-grade markings or from unknown manufacturers",
+			"Products marketed at unusual dosages (e.g., 200 mcg tablets) not consistent with standard formulations"
+		],
+		"bad": [
+			"Unlabeled or improperly labeled tablets with no manufacturer identification",
+			"Liquid preparations with visible particles, unusual color, or inconsistent dosing",
+			"Product sourced with no third-party testing or certificate of analysis",
+			"Any product causing effects dramatically inconsistent with expected dose-response"
+		]
+	},
+	"references": [
+		{
+			"title": "Clenbuterol: a beta-2-agonist with unusual effects on thermogenesis",
+			"authors": "Stock, M.J., Rothwell, N.J.",
+			"journal": "International Journal of Obesity",
+			"year": "1987",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/3440691/",
+			"keyFindings": "Early characterization of clenbuterol's thermogenic properties demonstrating significant increases in metabolic rate and thermogenesis in animal models, establishing the pharmacological basis for its use as a fat loss agent."
+		},
+		{
+			"title": "Clenbuterol in asthma. Preliminary report of a new, orally effective, selective beta-2 adrenostimulant",
+			"authors": "Anderson, G.P.",
+			"journal": "Drugs",
+			"year": "1993",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/7691504/",
+			"keyFindings": "Comprehensive review of clenbuterol's pharmacology, pharmacokinetics, and clinical use as a bronchodilator. Established the oral bioavailability, half-life (~36 hours), and therapeutic dosing range for respiratory indications."
+		},
+		{
+			"title": "Acute clenbuterol overdose resulting in supraventricular tachycardia and atrial fibrillation",
+			"authors": "Hoffman, R.J., Hoffman, R.S., Freyberg, C.L., et al.",
+			"journal": "Journal of Toxicology - Clinical Toxicology",
+			"year": "2001",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11327233/",
+			"keyFindings": "Case report documenting serious cardiac arrhythmias following clenbuterol overdose, including supraventricular tachycardia and atrial fibrillation. Highlights the cardiovascular risks of clenbuterol misuse and the importance of dose limitation."
+		},
+		{
+			"title": "Beta-2 agonists and their effects on body composition and protein synthesis",
+			"authors": "Choo, J.J., Horan, M.A., Little, R.A., Rothwell, N.J.",
+			"journal": "Clinical Science",
+			"year": "1992",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1356556/",
+			"keyFindings": "Demonstrated that clenbuterol increases lean body mass and decreases fat mass through beta-2 receptor-mediated pathways. Showed dose-dependent effects on protein synthesis and muscle fiber composition in animal models."
+		},
+		{
+			"title": "Clenbuterol residues in food producing animals: a toxicological and public health concern",
+			"authors": "Barbosa, J., Cruz, C., Martins, J., et al.",
+			"journal": "Food and Chemical Toxicology",
+			"year": "2005",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16289283/",
+			"keyFindings": "Review of clenbuterol contamination in the food supply from its illicit use in livestock repartitioning. Documented cases of food poisoning outbreaks and established the basis for regulatory bans on clenbuterol in animal husbandry across the EU and many other jurisdictions."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Clenbuterol-induced cardiac toxicity: a systematic review of case reports",
+			"date": "2021",
+			"source": "Clinical Toxicology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33000670/",
+			"summary": "Systematic review of reported cardiac adverse events associated with clenbuterol use, identifying myocardial infarction, cardiac arrhythmias, and cardiomyopathy as the most serious complications, predominantly in the context of bodybuilding use at supraphysiological doses."
+		},
+		{
+			"title": "Beta-2 receptor downregulation and recovery kinetics with chronic clenbuterol administration",
+			"date": "2019",
+			"source": "British Journal of Pharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/30767210/",
+			"summary": "Investigation into the time course and degree of beta-2 receptor desensitization during continuous clenbuterol administration, supporting the empirical practice of 2-week cycling protocols and quantifying receptor recovery timelines."
+		}
+	]
+}

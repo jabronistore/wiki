@@ -3,7 +3,7 @@
 	import { Home, ChevronRight, DollarSign } from 'lucide-svelte';
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
-	import { getPeptideBySlug } from '$lib/data/peptides';
+	import { getItemBySlug } from '$lib/data/unified';
 
 	const SITE_URL = 'https://peptide-db.com';
 
@@ -37,7 +37,7 @@
 		peptideId = id;
 
 		if (id) {
-			const p = getPeptideBySlug(id);
+			const p = getItemBySlug(id);
 			peptideName = p?.name || null;
 
 			// Parse dose defaults from the new peptide

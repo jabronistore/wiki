@@ -437,6 +437,8 @@
 		border-radius: 0.625rem;
 		text-decoration: none;
 		transition: all 0.15s;
+		overflow-wrap: break-word;
+		word-break: break-word;
 	}
 
 	.blend-nudge:hover {
@@ -508,6 +510,7 @@
 
 	.header-content {
 		flex: 1;
+		min-width: 0;
 	}
 
 	.calculator-title {
@@ -564,6 +567,8 @@
 		color: hsl(var(--foreground));
 		cursor: pointer;
 		min-width: 180px;
+		max-width: 100%;
+		box-sizing: border-box;
 		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
 		background-repeat: no-repeat;
 		background-position: right 0.75rem center;
@@ -613,6 +618,8 @@
 		border: 1px solid hsl(var(--border));
 		border-radius: 0.75rem;
 		padding: 1.25rem;
+		overflow: hidden;
+		min-width: 0;
 	}
 
 	.reference-icon {
@@ -632,6 +639,11 @@
 		font-weight: 600;
 		font-family: var(--font-sans);
 		margin-bottom: 0.75rem;
+	}
+
+	.reference-table {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
 	}
 
 	.reference-table table {
@@ -730,6 +742,8 @@
 		font-size: 0.8125rem;
 		color: hsl(var(--foreground));
 		text-align: right;
+		min-width: 0;
+		word-break: break-word;
 	}
 
 	.ref-profile-link {

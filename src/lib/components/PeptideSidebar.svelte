@@ -3,13 +3,16 @@
 	import { FlaskConical, ChevronRight } from 'lucide-svelte';
 	import type { PeptideSummary } from '$lib/types';
 
+	import { getItemUrlPrefix } from '$lib/data/unified';
+
 	interface Props {
 		peptides: PeptideSummary[];
 		currentPeptideId: string;
 		currentCategory: string;
+		urlPrefix?: string;
 	}
 
-	let { peptides, currentPeptideId, currentCategory }: Props = $props();
+	let { peptides, currentPeptideId, currentCategory, urlPrefix }: Props = $props();
 
 	// Group peptides by category (peptides can appear in multiple categories)
 	const peptidesByCategory = $derived.by(() => {
@@ -43,7 +46,12 @@
 		sleep: 'Sleep',
 		metabolic: 'Metabolic',
 		'sexual-health': 'Sexual Health',
-		protocol: 'Protocols'
+		protocol: 'Protocols',
+		pct: 'PCT & Ancillaries',
+		'hair-loss': 'Hair Loss',
+		anabolic: 'Anabolics',
+		pde5: 'PDE5 Inhibitors',
+		sarm: 'SARMs'
 	};
 
 	// Track expanded categories
@@ -61,9 +69,14 @@
 
 	// Define a consistent category order
 	const categoryOrder = [
+		'anabolic',
+		'sarm',
 		'weight-loss',
 		'growth-hormone',
 		'healing',
+		'hair-loss',
+		'pde5',
+		'pct',
 		'cognitive',
 		'longevity',
 		'skin',
@@ -127,7 +140,7 @@
 					<div class="ml-3 mt-1 space-y-0.5 border-l border-border pl-3">
 						{#each categoryPeptides as peptide}
 							<a
-								href="/peptides/{peptide.id}"
+								href="{urlPrefix ?? getItemUrlPrefix(peptide)}/{peptide.id}"
 								class="block rounded-lg px-3 py-1.5 text-sm transition-all {isActive(peptide.id)
 									? 'bg-primary/10 font-medium text-primary'
 									: 'text-muted-foreground hover:bg-muted hover:text-foreground'}"

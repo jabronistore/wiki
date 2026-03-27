@@ -1,0 +1,277 @@
+{
+	"id": "minoxidil",
+	"name": "Minoxidil",
+	"subtitle": "Vasodilator | Hair Growth Stimulation",
+	"aliases": ["Rogaine", "Regaine"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["hair-loss"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "209.25 Da",
+		"type": "Synthetic pyrimidine derivative (6-amino-1,2-dihydro-1-hydroxy-2-imino-4-piperidinopyrimidine)",
+		"modifications": ["Potassium channel opener", "Vasodilator"],
+		"halfLife": "~4 hours (oral); topical effects persist significantly longer due to local tissue retention",
+		"halfLifeSeconds": 14400
+	},
+	"quickStats": {
+		"typicalDose": "Topical: 1mL of 5% solution twice daily / Oral: 1.25-2.5mg daily",
+		"frequency": "Twice daily (topical) or once daily (oral)",
+		"cycleDuration": "Continuous use; minimum 4-6 months to evaluate efficacy",
+		"storage": "Room temperature (20-25C), protect from heat and light"
+	},
+	"overview": "Minoxidil is an FDA-approved vasodilator originally developed in the 1970s as an oral antihypertensive medication. Its hair growth properties were discovered as a side effect, and topical formulations (2% and 5%) were subsequently approved for the treatment of androgenetic alopecia. It remains one of only two FDA-approved treatments for pattern hair loss and is available over the counter in most countries. In recent years, off-label oral minoxidil at low doses (0.625-5mg) has gained significant traction among dermatologists and the biohacker community as a more convenient and potentially more effective alternative to topical application, particularly for individuals who find the topical formulation inconvenient or who experience scalp irritation.",
+	"mechanism": "Minoxidil is a potassium channel opener that acts on ATP-sensitive potassium channels in vascular smooth muscle cells, causing vasodilation. When applied topically or taken orally, it is converted to its active metabolite minoxidil sulfate by the enzyme sulfotransferase (SULT1A1) in hair follicle outer root sheath cells. The sulfated form opens potassium channels in dermal papilla cells and vascular smooth muscle surrounding hair follicles, increasing local blood flow and nutrient delivery. Beyond vasodilation, minoxidil upregulates vascular endothelial growth factor (VEGF) expression, extends the anagen (growth) phase of the hair cycle, increases follicle size, and stimulates the transition of resting follicles from telogen into anagen. It also has anti-fibrotic properties that may benefit the perifollicular environment. Notably, minoxidil's hair growth effects are androgen-independent, making it effective regardless of DHT levels and complementary to 5-alpha reductase inhibitors like finasteride.",
+	"keyBenefits": [
+		"FDA-approved for androgenetic alopecia with decades of clinical evidence",
+		"Stimulates new hair growth and increases hair follicle size independent of androgen pathways",
+		"Available over the counter as a topical treatment without a prescription",
+		"Effective in both men and women for pattern hair loss",
+		"Low-dose oral formulation offers a convenient once-daily alternative to twice-daily topical application",
+		"Synergistic with finasteride and dutasteride for a multi-mechanism approach to hair loss",
+		"Extends the anagen (growth) phase and shortens the telogen (resting) phase of the hair cycle"
+	],
+	"indications": [
+		{
+			"category": "Hair Loss",
+			"items": [
+				{
+					"name": "Androgenetic Alopecia (Male Pattern Hair Loss)",
+					"description": "FDA-approved as a topical treatment for male pattern hair loss. Topical 5% solution is the standard of care, with clinical trials demonstrating significant increases in hair count, particularly at the vertex. Oral low-dose minoxidil is increasingly used off-label.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Female Pattern Hair Loss",
+					"description": "Topical 2% minoxidil is FDA-approved for female pattern hair loss. The 5% formulation has also shown efficacy in women, though with a higher incidence of facial hypertrichosis. Oral low-dose minoxidil (0.625-1.25mg) is used off-label with favorable results.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Vertex (Crown) Hair Loss",
+					"description": "Strongest clinical evidence for regrowth at the vertex and mid-scalp regions, where blood flow improvements from vasodilation have the greatest impact on follicular recovery.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Diffuse Thinning",
+					"description": "Effective for diffuse thinning across the scalp, particularly when combined with a DHT-blocking agent. The systemic delivery of oral minoxidil may offer advantages over topical application for widespread thinning.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Alopecia Areata (Adjunctive)",
+					"description": "Used off-label as an adjunctive treatment for alopecia areata, particularly in combination with corticosteroids. Evidence is mixed, and it is not a first-line treatment for this condition.",
+					"effectiveness": "limited-evidence"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Topical minoxidil is the FDA-approved formulation for hair loss, available as a 2% or 5% solution or foam. The 5% formulation is more effective than 2% for men, while 2% is the standard approved concentration for women. Applied directly to dry scalp in affected areas, it should be left on for at least 4 hours before washing. The foam formulation dries faster and causes less scalp irritation than the solution, which contains propylene glycol. Consistency is critical, as discontinuation leads to loss of any gained hair within 3-6 months.",
+			"protocols": [
+				{
+					"goal": "Male pattern hair loss (standard)",
+					"dose": "1mL of 5% solution or half a capful of 5% foam",
+					"frequency": "Twice daily (morning and evening)",
+					"route": "Topical application to affected scalp areas"
+				},
+				{
+					"goal": "Female pattern hair loss",
+					"dose": "1mL of 2% solution or 5% foam once daily",
+					"frequency": "Once to twice daily depending on formulation",
+					"route": "Topical application to affected scalp areas"
+				},
+				{
+					"goal": "Maintenance protocol",
+					"dose": "1mL of 5% solution or foam",
+					"frequency": "Once daily (some users step down from twice daily after stabilization)",
+					"route": "Topical application to affected scalp areas"
+				}
+			],
+			"keyBenefits": [
+				"FDA-approved and available over the counter",
+				"Minimal systemic absorption and side effects",
+				"Foam formulation reduces scalp irritation",
+				"Can be combined with topical finasteride in compounded formulations"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Low-dose oral minoxidil (LDOM) has emerged as a popular off-label treatment for hair loss, prescribed by dermatologists at doses far below those used for hypertension (which range from 10-40mg). At doses of 0.625-5mg daily, oral minoxidil provides systemic delivery that eliminates the inconvenience of twice-daily topical application and may be more effective for some individuals, particularly those who are poor sulfotransferase converters in the scalp. However, systemic delivery also means a higher likelihood of systemic side effects including hypertrichosis (unwanted body/facial hair growth), fluid retention, and cardiovascular effects. Regular monitoring is recommended.",
+			"protocols": [
+				{
+					"goal": "Hair loss treatment (conservative start)",
+					"dose": "0.625-1.25mg",
+					"frequency": "Once daily",
+					"route": "Oral tablet"
+				},
+				{
+					"goal": "Hair loss treatment (standard oral dose)",
+					"dose": "2.5mg",
+					"frequency": "Once daily",
+					"route": "Oral tablet"
+				},
+				{
+					"goal": "Hair loss treatment (higher dose, men only)",
+					"dose": "5mg",
+					"frequency": "Once daily",
+					"route": "Oral tablet"
+				},
+				{
+					"goal": "Female pattern hair loss (oral)",
+					"dose": "0.625-1.25mg",
+					"frequency": "Once daily",
+					"route": "Oral tablet"
+				}
+			],
+			"keyBenefits": [
+				"Once-daily dosing is more convenient than twice-daily topical application",
+				"Systemic delivery bypasses the need for local sulfotransferase conversion",
+				"May be more effective than topical for individuals who are poor topical responders",
+				"Growing body of dermatological literature supporting safety at low doses"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Finasteride",
+			"status": "synergistic",
+			"notes": "The gold standard combination for hair loss treatment. Finasteride blocks DHT-mediated follicular miniaturization while minoxidil stimulates hair growth through vasodilation and prolongation of the anagen phase. Multiple studies demonstrate significantly superior outcomes with the combination compared to either agent alone. This dual-mechanism approach addresses hair loss from both the hormonal and vascular/growth factor pathways."
+		},
+		{
+			"peptide": "Dutasteride",
+			"status": "synergistic",
+			"notes": "Similar synergistic rationale as with finasteride. Dutasteride inhibits both Type I and Type II 5-alpha reductase, providing more complete DHT suppression. Combined with minoxidil's androgen-independent growth stimulation, this pairing can be particularly effective for individuals who have not responded adequately to finasteride plus minoxidil."
+		},
+		{
+			"peptide": "GHK-Cu",
+			"status": "compatible",
+			"notes": "GHK-Cu is a copper peptide that supports tissue remodeling, wound healing, and may promote hair follicle health. No known negative interactions with minoxidil. Some users incorporate both into their hair care regimen for complementary follicular support."
+		},
+		{
+			"peptide": "RU-58841",
+			"status": "compatible",
+			"notes": "RU-58841 is a topical non-steroidal androgen receptor antagonist that blocks DHT at the follicular level. It operates through a different mechanism than minoxidil and can be used alongside it. RU-58841 lacks FDA approval and has limited clinical safety data, so users should exercise caution."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-4",
+			"effects": "Initial adjustment period. Topical users may notice mild scalp irritation or dryness. Oral users should monitor for early signs of fluid retention or dizziness. No visible hair changes are expected at this stage."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Shedding phase. Increased hair shedding is common and expected as minoxidil shifts resting (telogen) follicles into a new growth (anagen) cycle. Weak, miniaturized hairs fall out to make way for thicker, healthier growth. This temporary shedding can be alarming but is a positive sign that the treatment is working. Oral minoxidil users may notice early signs of hypertrichosis (increased body or facial hair)."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Shedding subsides and early signs of improvement appear. New vellus (fine) hairs begin to emerge in thinning areas. Existing hairs may appear thicker. Hair loss stabilization is noticeable, with reduced daily shedding compared to baseline. This is the minimum timeframe to assess initial response."
+		},
+		{
+			"period": "Month 6-12",
+			"effects": "Meaningful cosmetic improvement for responders. Vellus hairs transition to thicker terminal hairs. Increased hair density and coverage become visible, particularly at the vertex and mid-scalp. Clinical studies demonstrate statistically significant hair count increases by this point. Non-responders (approximately 30-40% of users) may see minimal change."
+		},
+		{
+			"period": "Year 1-2+",
+			"effects": "Peak results are typically achieved between 12 and 24 months. Continued use is essential to maintain gains, as all regrowth is lost within 3-6 months of discontinuation. Long-term studies show sustained benefit with continued use, though the rate of regrowth may plateau. Combining with finasteride or dutasteride can extend and enhance long-term outcomes."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Scalp irritation, dryness, or flaking (topical, especially solution formulations containing propylene glycol)",
+			"Initial shedding phase during the first 1-3 months of treatment",
+			"Hypertrichosis (unwanted facial and body hair growth, more common with oral administration)",
+			"Fluid retention and mild peripheral edema (oral)",
+			"Mild dizziness or lightheadedness upon standing (oral, due to vasodilation)"
+		],
+		"rare": [
+			"Pericardial effusion (fluid around the heart, primarily associated with higher oral doses used for hypertension)",
+			"Reflex tachycardia (increased heart rate as a compensatory response to vasodilation)",
+			"Significant hypotension (low blood pressure), especially when combined with other antihypertensives",
+			"Allergic contact dermatitis (topical, typically a reaction to propylene glycol rather than minoxidil itself)",
+			"Changes in hair color or texture"
+		],
+		"stopSigns": [
+			"Chest pain, rapid or irregular heartbeat, or shortness of breath",
+			"Rapid unexplained weight gain (more than 2-3 pounds in a few days) suggesting significant fluid retention",
+			"Swelling of hands, feet, ankles, or face",
+			"Severe dizziness, fainting, or persistent lightheadedness",
+			"Signs of allergic reaction (rash, hives, swelling of lips or tongue)"
+		],
+		"contraindications": [
+			"Known hypersensitivity to minoxidil or any component of the formulation",
+			"Pheochromocytoma (minoxidil may stimulate catecholamine release)",
+			"Significant cardiovascular disease, including history of pericardial effusion or congestive heart failure",
+			"Concurrent use of potent antihypertensive medications without physician supervision (risk of additive hypotension)",
+			"Pregnancy and breastfeeding (Category C; oral minoxidil has shown evidence of fetal harm in animal studies)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Manufactured by a reputable pharmaceutical company (e.g., Johnson & Johnson for Rogaine) or licensed generic manufacturer",
+			"Topical solution or foam is clear, colorless to slightly yellow, and free of particulates",
+			"Packaging includes lot number, expiration date, and drug facts label",
+			"Oral tablets prescribed through a licensed healthcare provider or compounding pharmacy with COA",
+			"Stored at room temperature in original packaging away from excessive heat"
+		],
+		"warning": [
+			"Topical formulations purchased from unverified international sellers",
+			"Compounded oral formulations without a certificate of analysis",
+			"Products claiming concentrations above 5% without clinical backing",
+			"Solutions that appear cloudy, discolored, or contain visible particles"
+		],
+		"bad": [
+			"No manufacturer information or lot/batch numbers on packaging",
+			"Products sourced from unregulated online marketplaces with no pharmacy verification",
+			"Oral minoxidil obtained without any medical oversight or prescription",
+			"Formulations with unusual odor, crystallization, or signs of degradation"
+		]
+	},
+	"references": [
+		{
+			"title": "The effectiveness and safety of low-dose oral minoxidil for hair loss: a systematic review and meta-analysis",
+			"authors": "Randolph M, Tosti A",
+			"year": "2021",
+			"journal": "Journal of the American Academy of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33905784/",
+			"keyFindings": "Systematic review of low-dose oral minoxidil for hair loss found that doses of 0.25-5mg daily were effective for various forms of alopecia. Hypertrichosis was the most common side effect, reported in up to 50-70% of patients at higher doses. Serious cardiovascular side effects were rare at hair loss doses. The review supported oral minoxidil as a viable alternative to topical formulations."
+		},
+		{
+			"title": "A randomized clinical trial of 5% topical minoxidil versus 2% topical minoxidil and placebo in the treatment of androgenetic alopecia in men",
+			"authors": "Olsen EA, Dunlap FE, Funicella T, Koperski JA, Swinehart JM, Tschen EH, Trancik RJ",
+			"year": "2002",
+			"journal": "Journal of the American Academy of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12399767/",
+			"keyFindings": "In a 48-week randomized controlled trial, 5% topical minoxidil was significantly superior to 2% minoxidil and placebo in promoting hair regrowth in men with androgenetic alopecia. The 5% group showed 45% more hair regrowth than the 2% group at 48 weeks. Both concentrations were well tolerated, though the 5% group had a slightly higher rate of pruritus and local irritation."
+		},
+		{
+			"title": "Minoxidil: mechanisms of action on hair growth",
+			"authors": "Messenger AG, Rundegren J",
+			"year": "2004",
+			"journal": "British Journal of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15327540/",
+			"keyFindings": "Comprehensive review of minoxidil's mechanisms of action on hair growth. Identified potassium channel opening as the primary mechanism, with downstream effects including increased VEGF expression, stimulation of prostaglandin synthase-1, and direct proliferative effects on dermal papilla cells. Confirmed that the active metabolite minoxidil sulfate is responsible for the hair growth effects."
+		},
+		{
+			"title": "Low-dose oral minoxidil for hair loss: a review",
+			"authors": "Jimenez-Cauhe J, Saceda-Corralo D, Rodrigues-Barata R, Hermosa-Gelbard A, Moreno-Arrones OM, Vano-Galvan S",
+			"year": "2022",
+			"journal": "Indian Dermatology Online Journal",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35647180/",
+			"keyFindings": "Review of the emerging evidence for low-dose oral minoxidil in hair loss treatment, covering dosing protocols, efficacy data, and safety considerations. Doses of 0.625-5mg daily showed efficacy across androgenetic alopecia, alopecia areata, and other forms of hair loss. Recommended baseline ECG and periodic monitoring for patients on oral minoxidil, especially those with cardiovascular risk factors."
+		},
+		{
+			"title": "Combination of finasteride and minoxidil versus either agent alone in the treatment of androgenetic alopecia",
+			"authors": "Hu R, Xu F, Sheng Y, Qi S, Han Y, Miao Y, Rui W, Yang Q",
+			"year": "2015",
+			"journal": "Dermatologic Therapy",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25940793/",
+			"keyFindings": "Meta-analysis of studies comparing finasteride plus minoxidil combination therapy versus either agent alone for androgenetic alopecia. The combination produced significantly greater improvements in hair count and clinical assessments compared to monotherapy with either finasteride or minoxidil. Confirmed the synergistic benefit of addressing hair loss through both DHT reduction and vasodilation/growth stimulation simultaneously."
+		}
+	]
+}

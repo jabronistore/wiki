@@ -1,5 +1,6 @@
 import type { LayoutServerLoad } from './$types';
 import { getAllPeptideSummaries } from '$lib/data/peptides';
+import { getAllCompoundSummaries } from '$lib/data/compounds';
 
 export const load: LayoutServerLoad = async ({ locals }) => {
 	const { session, user } = locals;
@@ -17,6 +18,7 @@ export const load: LayoutServerLoad = async ({ locals }) => {
 
 	return {
 		peptides: getAllPeptideSummaries(),
+		compounds: getAllCompoundSummaries(),
 		session,
 		user,
 		profile

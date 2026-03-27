@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getAllPeptides } from '$lib/data/peptides';
+	import { getAllItems } from '$lib/data/unified';
 	import type { Peptide } from '$lib/types';
 	import {
 		calculateAccumulation,
@@ -34,9 +34,9 @@
 
 	let { initialPeptideId }: Props = $props();
 
-	// Get peptides with halfLifeSeconds
-	const allPeptides = getAllPeptides();
-	const peptides = allPeptides.filter((p) => p.molecular?.halfLifeSeconds);
+	// Get all items (peptides + compounds) with halfLifeSeconds
+	const allItems = getAllItems();
+	const peptides = allItems.filter((p) => p.molecular?.halfLifeSeconds);
 
 	// Testosterone variants
 	interface StaticCompound {

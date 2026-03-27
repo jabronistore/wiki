@@ -236,6 +236,67 @@ export const GOALS: GoalConfig[] = [
 			'Osteoporosis (FDA-Approved)'
 		],
 		pinnedOrder: ['bpc-157', 'tb-500']
+	},
+	{
+		slug: 'pct',
+		title: 'Post-Cycle Therapy',
+		description:
+			'Compounds used for hormonal recovery after anabolic cycles, restoring natural testosterone production and fertility.',
+		matchCategories: [
+			'PCT',
+			'Post-Cycle Therapy',
+			'Hormone Recovery',
+			'SERM',
+			'Aromatase Inhibitor',
+			'Testosterone Restoration'
+		],
+		pinnedOrder: ['enclomiphene', 'hcg', 'gonadorelin']
+	},
+	{
+		slug: 'hair-loss',
+		title: 'Hair Loss Prevention',
+		description:
+			'Compounds studied for hair retention, DHT blocking, follicle health, and androgenetic alopecia treatment.',
+		matchCategories: [
+			'Hair Loss',
+			'Hair Loss Prevention',
+			'Hair Growth',
+			'DHT Blocker',
+			'5-Alpha Reductase Inhibitor',
+			'Androgenetic Alopecia'
+		],
+		pinnedOrder: ['finasteride', 'ghk-cu']
+	},
+	{
+		slug: 'erectile-function',
+		title: 'Erectile Function',
+		description:
+			'Compounds studied for erectile function, PDE5 inhibition, blood flow, and sexual performance.',
+		matchCategories: [
+			'Erectile Function',
+			'Erectile Dysfunction',
+			'PDE5 Inhibitor',
+			'Sexual Function',
+			'Vascular Sexual Health'
+		],
+		pinnedOrder: ['tadalafil', 'pt-141']
+	},
+	{
+		slug: 'anabolic',
+		title: 'Anabolic & Muscle Building',
+		description:
+			'Anabolic compounds and SARMs studied for lean mass, strength gains, and body composition improvement.',
+		matchCategories: [
+			'Anabolic',
+			'SARM',
+			'Muscle Growth',
+			'Body Composition',
+			'Performance',
+			'Lean Mass',
+			'Strength',
+			'Hypertrophy'
+		],
+		pinnedOrder: ['testosterone']
 	}
 ];
 

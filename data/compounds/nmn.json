@@ -1,0 +1,381 @@
+{
+	"id": "nmn",
+	"name": "NMN",
+	"subtitle": "NAD+ Precursor | Cellular Energy & Longevity",
+	"aliases": ["Nicotinamide Mononucleotide", "Beta-NMN"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["longevity", "metabolic"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "250-1000 mg/day",
+		"frequency": "Once daily (morning)",
+		"cycleDuration": "Ongoing daily supplementation",
+		"storage": "Cool, dry place. Refrigeration recommended for long-term storage. Protect from moisture."
+	},
+	"molecular": {
+		"weight": "334.22 Da",
+		"type": "Nucleotide (C11H15N2O8P)",
+		"modifications": [
+			"Beta-nicotinamide mononucleotide - biologically active form",
+			"Phosphorylated form of nicotinamide riboside (NR)",
+			"Direct precursor to NAD+ via the salvage pathway"
+		],
+		"halfLife": "~2-3 hours (oral)",
+		"halfLifeSeconds": 9000,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Nicotinamide mononucleotide (NMN) is a naturally occurring nucleotide and a direct biosynthetic precursor to nicotinamide adenine dinucleotide (NAD+), a coenzyme essential for cellular energy metabolism, DNA repair, sirtuin activation, and hundreds of enzymatic reactions. NAD+ levels decline significantly with age, and this decline is implicated in mitochondrial dysfunction, genomic instability, and many hallmarks of aging. NMN supplementation aims to restore NAD+ levels by providing the immediate substrate for the enzyme nicotinamide mononucleotide adenylyltransferase (NMNAT), which catalyzes the final step of NAD+ biosynthesis in the salvage pathway. Popularized by Harvard geneticist David Sinclair, NMN has become one of the most widely studied and used longevity supplements. While animal data is extensive and compelling, human clinical trial data is still accumulating, with several trials showing increases in blood NAD+ levels and improvements in various biomarkers of aging.",
+	"mechanism": "NMN is converted to NAD+ via the NAD+ salvage pathway. After oral ingestion, NMN is absorbed in the gut, where it may be partially converted to nicotinamide riboside (NR) by the enzyme CD73 for cellular uptake, then re-phosphorylated intracellularly back to NMN. The enzyme NMNAT then converts NMN to NAD+. The resulting increase in NAD+ levels activates multiple longevity-associated pathways: sirtuins (SIRT1-7), a family of NAD+-dependent deacetylases that regulate mitochondrial biogenesis, DNA repair, inflammation, and stress resistance; PARP enzymes involved in DNA damage repair; and CD38/CD157 involved in immune cell signaling. By restoring NAD+ pools, NMN supplementation supports mitochondrial electron transport chain function and ATP production, enhances oxidative metabolism in skeletal muscle, and may counteract age-related metabolic decline. In the Slc12a8 transporter discovery, a dedicated NMN transporter was identified in the small intestine, supporting direct NMN absorption without prior conversion to NR.",
+	"keyBenefits": [
+		"Increases blood and tissue NAD+ levels, counteracting age-related decline",
+		"Supports mitochondrial function and cellular energy production",
+		"Activates sirtuin pathways involved in DNA repair and longevity",
+		"May improve insulin sensitivity and glucose metabolism",
+		"Supports cardiovascular function and vascular health",
+		"May enhance exercise capacity and muscle endurance",
+		"Promotes healthy aging at the cellular level",
+		"Supports cognitive function and neuroprotection"
+	],
+	"indications": [
+		{
+			"category": "Longevity / Anti-Aging",
+			"items": [
+				{
+					"name": "NAD+ Restoration",
+					"description": "Replenishing NAD+ levels that decline 50% or more between ages 40 and 60. NAD+ is essential for over 500 enzymatic reactions and its decline is considered a hallmark of aging.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Sirtuin Activation",
+					"description": "NAD+ is the required co-substrate for all seven sirtuin enzymes. SIRT1 and SIRT3 in particular regulate mitochondrial biogenesis, fat oxidation, and oxidative stress defense. NMN-mediated NAD+ elevation activates these longevity pathways.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "DNA Repair Support",
+					"description": "NAD+ is consumed by PARP enzymes during DNA damage repair. Age-related NAD+ depletion impairs DNA repair capacity, potentially accelerating genomic instability. NMN supplementation may support PARP-mediated repair processes.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Metabolic Health",
+			"items": [
+				{
+					"name": "Insulin Sensitivity",
+					"description": "Human trials have shown NMN supplementation can improve skeletal muscle insulin sensitivity in prediabetic women. NAD+ is critical for metabolic flexibility and glucose utilization in muscle tissue.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Mitochondrial Function",
+					"description": "NMN supports NAD+-dependent mitochondrial electron transport chain activity, improving ATP production efficiency. Animal studies show significant improvements in mitochondrial membrane potential and oxygen consumption rates.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Body Composition",
+					"description": "Animal studies show NMN can reduce age-related weight gain and improve metabolic parameters. Human data on body composition effects is still limited but early results are suggestive of improved metabolic rate.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Physical Performance",
+			"items": [
+				{
+					"name": "Exercise Endurance",
+					"description": "A human trial in recreational runners showed NMN supplementation improved aerobic capacity and ventilatory threshold. NAD+ is critical for oxidative phosphorylation during endurance exercise.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Muscle Recovery",
+					"description": "NAD+ supports mitochondrial recovery and reduces exercise-induced oxidative stress. Preliminary evidence suggests NMN may reduce perceived fatigue and support post-exercise recovery.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Cardiovascular",
+			"items": [
+				{
+					"name": "Vascular Health",
+					"description": "Animal studies demonstrate NMN can improve endothelial function, arterial elasticity, and blood flow. NAD+ supports nitric oxide signaling and vascular smooth muscle function. Human data is emerging.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neurological",
+			"items": [
+				{
+					"name": "Cognitive Support",
+					"description": "NAD+ is critical for neuronal energy metabolism and synaptic function. Animal studies show NMN can improve cognitive function in aging mice and protect against neurodegeneration. Human cognitive trials are underway.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oral capsules and powder are the most common and well-studied delivery methods for NMN. Most human clinical trials have used oral administration at doses of 250-1250 mg per day. NMN is absorbed in the small intestine, with evidence for a dedicated transporter (Slc12a8). Oral bioavailability has been debated but blood NAD+ increases are consistently demonstrated in human trials.",
+			"protocols": [
+				{
+					"goal": "General Longevity Support",
+					"dose": "250-500 mg/day",
+					"frequency": "Once daily, morning",
+					"route": "Oral capsule or powder",
+					"notes": "Most commonly used dose range. Take in the morning to align with circadian NAD+ rhythm. Can be taken with or without food."
+				},
+				{
+					"goal": "Aggressive NAD+ Restoration",
+					"dose": "500-1000 mg/day",
+					"frequency": "Once or twice daily",
+					"route": "Oral capsule or powder",
+					"notes": "Higher dose range used by biohackers and in some clinical trials. May split into morning and early afternoon doses. David Sinclair has publicly stated he takes 1000 mg/day."
+				}
+			],
+			"keyBenefits": [
+				"Well-studied in human clinical trials at oral doses",
+				"Convenient daily supplementation",
+				"Evidence for dedicated intestinal NMN transporter (Slc12a8)",
+				"Consistent blood NAD+ elevation demonstrated across multiple studies",
+				"Widely available in capsule and powder form"
+			]
+		},
+		{
+			"type": "sublingual",
+			"available": true,
+			"overview": "Sublingual administration involves dissolving NMN powder or tablets under the tongue for absorption through the oral mucosa, bypassing first-pass metabolism in the liver and potentially improving bioavailability. While theoretically advantageous, there are fewer clinical trials using this route compared to standard oral dosing.",
+			"protocols": [
+				{
+					"goal": "Enhanced Bioavailability Protocol",
+					"dose": "250-500 mg/day",
+					"frequency": "Once daily, morning",
+					"route": "Sublingual tablet or powder held under tongue for 60-90 seconds",
+					"notes": "Dissolve under the tongue and hold for 1-2 minutes before swallowing. May provide faster absorption and higher peak blood levels than standard oral ingestion."
+				}
+			],
+			"keyBenefits": [
+				"Bypasses first-pass hepatic metabolism",
+				"Potentially faster absorption and higher peak levels",
+				"No need for capsules or water",
+				"Can be combined with standard oral dosing"
+			]
+		}
+	],
+	"protocolVariants": [
+		{
+			"name": "Sinclair Protocol",
+			"source": "David Sinclair (Harvard Medical School)",
+			"philosophy": "Aggressive NAD+ restoration combined with sirtuin-activating compounds for maximal longevity benefit. Based on the premise that NAD+ decline is a root cause of aging.",
+			"description": "David Sinclair, a prominent aging researcher at Harvard, has publicly shared his personal supplementation regimen which centers on NMN as the primary NAD+ precursor. He combines NMN with resveratrol (a sirtuin activator) and other longevity compounds. His rationale is that NMN provides the NAD+ fuel while resveratrol steps on the sirtuin accelerator, creating synergistic activation of longevity pathways.",
+			"keyDifferences": [
+				"1000 mg NMN per day -- on the higher end of studied doses",
+				"Combined with 1000 mg resveratrol in yogurt (fat improves resveratrol absorption)",
+				"Taken in the morning to align with circadian NAD+ biology",
+				"Part of a broader longevity stack including metformin, vitamin D, vitamin K2",
+				"Emphasis on combining NAD+ precursor with sirtuin activator for synergy"
+			],
+			"doses": [
+				{
+					"phase": "NMN",
+					"dose": "1000 mg",
+					"frequency": "Once daily, morning",
+					"duration": "Ongoing"
+				},
+				{
+					"phase": "Resveratrol",
+					"dose": "1000 mg",
+					"frequency": "Once daily, with fat source",
+					"duration": "Ongoing"
+				}
+			]
+		},
+		{
+			"name": "Conservative Longevity Protocol",
+			"source": "Clinical trial-based dosing",
+			"philosophy": "Evidence-based dosing based on doses validated in human clinical trials, prioritizing demonstrated safety and efficacy data.",
+			"description": "This protocol uses the dose range most commonly studied in published human clinical trials (250-500 mg/day). Multiple randomized controlled trials have demonstrated safety and NAD+ elevation at these doses with minimal side effects. Suitable for individuals who prefer to stay within the bounds of peer-reviewed clinical evidence.",
+			"keyDifferences": [
+				"250-500 mg NMN per day -- aligns with most published human trial doses",
+				"Single morning dose for simplicity and circadian alignment",
+				"No requirement for combination with resveratrol or other compounds",
+				"Dose can be titrated up from 250 mg based on subjective response",
+				"Focuses on well-tolerated, clinically validated dosing"
+			],
+			"doses": [
+				{
+					"phase": "Starting Dose",
+					"dose": "250 mg",
+					"frequency": "Once daily, morning",
+					"duration": "4-8 weeks"
+				},
+				{
+					"phase": "Maintenance",
+					"dose": "250-500 mg",
+					"frequency": "Once daily, morning",
+					"duration": "Ongoing"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "NAD+",
+			"status": "synergistic",
+			"notes": "NMN is a direct precursor to NAD+. Combining NMN supplementation with NAD+ IV infusions or other NAD+ precursors (like NR) can provide complementary routes to NAD+ elevation. NMN handles daily maintenance while IV NAD+ provides acute high-level restoration."
+		},
+		{
+			"peptide": "Resveratrol",
+			"status": "synergistic",
+			"notes": "Resveratrol activates SIRT1 but requires NAD+ as a co-substrate. NMN provides the NAD+ fuel while resveratrol accelerates sirtuin activity, creating a synergistic longevity effect. This is the basis of David Sinclair's longevity protocol. Resveratrol should be taken with a fat source for absorption."
+		},
+		{
+			"peptide": "Rapamycin",
+			"status": "compatible",
+			"notes": "Rapamycin (mTOR inhibitor) and NMN (NAD+ precursor) target distinct but complementary aging pathways. Rapamycin modulates mTOR-driven growth signaling while NMN supports NAD+-dependent repair and energy metabolism. No known negative interactions. Some longevity researchers use both as part of comprehensive anti-aging protocols."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Blood NAD+ levels begin to rise measurably within days of consistent supplementation. Some users report improved energy and mental clarity, though this may be partly placebo. No significant physical changes expected yet."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "NAD+ levels reach steady-state elevation. Subjective improvements in energy, sleep quality, and mental sharpness are commonly reported. Some users notice improved exercise recovery and reduced afternoon fatigue."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Metabolic improvements may become measurable on blood work, including fasting glucose and insulin sensitivity. Improved exercise endurance and reduced perceived exertion during workouts. Skin quality improvements occasionally reported."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Sustained NAD+ elevation supports ongoing mitochondrial health and cellular repair processes. Cumulative benefits in cardiovascular markers, metabolic flexibility, and physical performance. Effects on biological aging markers may become detectable with advanced testing (epigenetic clocks, etc.)."
+		},
+		{
+			"period": "Month 6+",
+			"effects": "Long-term benefits are primarily theoretical and extrapolated from animal longevity data. Continued NAD+ support is expected to maintain sirtuin activation, DNA repair capacity, and mitochondrial function over time. Ongoing supplementation is generally recommended as benefits are not permanent."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild gastrointestinal discomfort (nausea, bloating, diarrhea) at higher doses",
+			"Flushing or warmth, particularly at doses above 500 mg",
+			"Mild headache during initial supplementation period",
+			"Increased energy that may affect sleep if taken too late in the day"
+		],
+		"rare": [
+			"Skin itching or mild rash",
+			"Elevated homocysteine levels with long-term use (theoretical concern shared with other NAM-derived compounds)",
+			"Gastrointestinal cramping at very high doses (above 1200 mg)"
+		],
+		"stopSigns": [
+			"Severe or persistent gastrointestinal symptoms not resolving with dose reduction",
+			"Allergic reaction (hives, swelling, difficulty breathing)",
+			"Unexplained skin rashes or systemic symptoms"
+		],
+		"contraindications": [
+			"Known hypersensitivity to nicotinamide mononucleotide or related compounds",
+			"Active cancer (theoretical concern: NAD+ supports rapidly dividing cells; consult oncologist)",
+			"Pregnancy or breastfeeding (insufficient safety data)",
+			"Severe hepatic impairment (altered NAD+ metabolism)"
+		],
+		"monitoring": [
+			"Blood NAD+ levels (if testing is available) at baseline and after 4-8 weeks",
+			"Fasting glucose and insulin: baseline and every 3-6 months",
+			"Complete metabolic panel: baseline and every 6-12 months",
+			"Homocysteine levels: baseline and annually with long-term use",
+			"Liver function tests: baseline and periodically if taking high doses"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party tested for purity (>98% beta-NMN) with certificate of analysis available",
+			"Enzymatically produced NMN (preferred over chemically synthesized for purity)",
+			"Stored in opaque, moisture-proof packaging with desiccant",
+			"Clear labeling of NMN content per serving, form (beta-NMN), and manufacturing date",
+			"GMP-certified manufacturing facility",
+			"Stable white crystalline powder with no discoloration or clumping"
+		],
+		"warning": [
+			"No third-party testing or certificate of analysis available",
+			"Unusually low price compared to established brands (may indicate lower purity)",
+			"Packaging does not protect from moisture or light",
+			"Label does not specify beta-NMN form"
+		],
+		"bad": [
+			"Discolored, yellowed, or clumped powder (indicates degradation or moisture exposure)",
+			"No labeling of NMN content, purity, or manufacturing information",
+			"Product fails independent third-party testing for stated NMN content",
+			"Contains significant impurities or undisclosed ingredients",
+			"Stored in clear packaging exposed to light and heat"
+		]
+	},
+	"references": [
+		{
+			"title": "Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women",
+			"authors": "Yoshino, M., Yoshino, J., Kayser, B.D., et al.",
+			"journal": "Science",
+			"year": "2021",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33888596/",
+			"keyFindings": "Randomized, double-blind, placebo-controlled trial in 25 postmenopausal prediabetic women. 250 mg/day NMN for 10 weeks increased muscle insulin signaling, insulin sensitivity, and muscle remodeling. First rigorous human trial demonstrating metabolic benefits of NMN supplementation."
+		},
+		{
+			"title": "Chronic nicotinamide mononucleotide supplementation elevates blood nicotinamide adenine dinucleotide levels and alters muscle function in healthy older men",
+			"authors": "Igarashi, M., Nakagawa-Nagahama, Y., Miura, M., et al.",
+			"journal": "NPJ Aging",
+			"year": "2022",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35927255/",
+			"keyFindings": "Randomized controlled trial in 42 healthy older men. 250 mg/day NMN for 12 weeks significantly increased blood NAD+ metabolite levels and improved muscle function measures including gait speed and grip strength."
+		},
+		{
+			"title": "Nicotinamide mononucleotide supplementation enhances aerobic capacity in amateur runners: a randomized, double-blind study",
+			"authors": "Liao, B., Zhao, Y., Wang, D., et al.",
+			"journal": "Journal of the International Society of Sports Nutrition",
+			"year": "2021",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34238308/",
+			"keyFindings": "Randomized, double-blind, placebo-controlled trial in 48 recreational runners. NMN supplementation (300-1200 mg/day for 6 weeks) improved aerobic capacity and ventilatory threshold in a dose-dependent manner, with higher doses producing greater improvements in oxygen utilization."
+		},
+		{
+			"title": "Effect of 12-Week Intake of Nicotinamide Mononucleotide on Sleep Quality, Fatigue, and Physical Performance in Older Japanese Adults",
+			"authors": "Kim, M., Seol, J., Sato, T., et al.",
+			"journal": "Nutrients",
+			"year": "2022",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35406088/",
+			"keyFindings": "Randomized controlled trial in 108 older adults. 250 mg/day NMN for 12 weeks significantly reduced drowsiness and improved physical performance measures. Afternoon dosing specifically improved lower limb function and reduced fatigue."
+		},
+		{
+			"title": "NAD+ metabolism and its roles in cellular processes during ageing",
+			"authors": "Covarrubias, A.J., Perrone, R., Grozio, A., Verdin, E.",
+			"journal": "Nature Reviews Molecular Cell Biology",
+			"year": "2021",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33353981/",
+			"keyFindings": "Comprehensive review of NAD+ metabolism in aging. Documents the mechanisms of age-related NAD+ decline, the roles of NAD+-consuming enzymes (sirtuins, PARPs, CD38), and the therapeutic potential of NAD+ precursors including NMN and NR for age-related diseases."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women",
+			"date": "April 2021",
+			"source": "Science",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/33888596/",
+			"summary": "First rigorous human RCT showing NMN (250 mg/day for 10 weeks) improved muscle insulin sensitivity in prediabetic postmenopausal women, providing clinical evidence for metabolic benefits of NMN supplementation."
+		},
+		{
+			"title": "Chronic NMN supplementation elevates blood NAD+ and alters muscle function in healthy older men",
+			"date": "August 2022",
+			"source": "NPJ Aging",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35927255/",
+			"summary": "12-week RCT in 42 older men demonstrating that 250 mg/day NMN significantly elevated blood NAD+ metabolites and improved gait speed and grip strength, supporting NMN's role in healthy aging."
+		},
+		{
+			"title": "NMN supplementation enhances aerobic capacity in amateur runners",
+			"date": "July 2021",
+			"source": "Journal of the International Society of Sports Nutrition",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34238308/",
+			"summary": "Dose-dependent improvements in aerobic capacity and ventilatory threshold in 48 recreational runners taking 300-1200 mg/day NMN for 6 weeks, establishing NMN as a potential ergogenic aid."
+		}
+	]
+}

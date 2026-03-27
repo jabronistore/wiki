@@ -1,0 +1,253 @@
+{
+	"id": "cabergoline",
+	"name": "Cabergoline",
+	"subtitle": "Dopamine Agonist | Prolactin Management",
+	"aliases": ["Dostinex", "Caber", "Cabaser"],
+	"compoundKind": "ancillary",
+	"categories": ["pct", "sexual-health"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "451.60 Da",
+		"type": "Ergoline-derived dopamine D2 receptor agonist",
+		"modifications": [
+			"Ergoline scaffold with high selectivity for dopamine D2 receptors",
+			"Long-acting structure enabling twice-weekly oral dosing"
+		],
+		"halfLife": "~63-69 hours",
+		"halfLifeSeconds": 237600
+	},
+	"overview": "Cabergoline is a potent, long-acting dopamine D2 receptor agonist that powerfully suppresses prolactin secretion from the anterior pituitary. It is FDA-approved under the brand name Dostinex for the treatment of hyperprolactinemic disorders, including prolactin-secreting pituitary adenomas (prolactinomas). In the bodybuilding and performance enhancement community, cabergoline is considered an essential ancillary compound when running 19-nor anabolic steroids such as nandrolone (Deca-Durabolin, NPP) and trenbolone, both of which can elevate prolactin levels through progestogenic activity. Elevated prolactin causes a range of undesirable effects including gynecomastia (particularly the progesterone-mediated variant), sexual dysfunction (erectile dysfunction, decreased libido, anorgasmia), mood disturbances, and lactation. Cabergoline's exceptionally long half-life of 63-69 hours allows for convenient twice-weekly dosing, and its high affinity for D2 receptors makes it significantly more potent and better tolerated than the older dopamine agonist bromocriptine.",
+	"mechanism": "Cabergoline exerts its effects by acting as a potent agonist at dopamine D2 receptors on lactotroph cells in the anterior pituitary gland. Prolactin secretion is tonically inhibited by hypothalamic dopamine acting on these D2 receptors, and cabergoline mimics this inhibitory signal with high affinity and prolonged duration. By activating D2 receptors, cabergoline suppresses prolactin gene transcription, reduces prolactin synthesis, and inhibits prolactin release into the bloodstream. In patients with prolactinomas, cabergoline also induces tumor shrinkage by inhibiting lactotroph cell proliferation and promoting apoptosis. The drug's selectivity for D2 receptors over D1 receptors contributes to its favorable side effect profile compared to less selective dopamine agonists. In the context of 19-nor steroid use, nandrolone and trenbolone stimulate prolactin release through their progestogenic activity, and cabergoline directly counteracts this elevation by restoring dopaminergic inhibition at the pituitary level.",
+	"keyBenefits": [
+		"Potent suppression of prolactin levels, often normalizing them within days",
+		"Prevents and reverses prolactin-related gynecomastia from 19-nor compounds",
+		"Restores sexual function impaired by hyperprolactinemia (libido, erectile function, orgasm)",
+		"Long half-life (63-69 hours) allows convenient twice-weekly dosing",
+		"Significantly better tolerated than bromocriptine with fewer gastrointestinal side effects",
+		"Effective at shrinking prolactin-secreting pituitary tumors",
+		"Low doses required for bodybuilding prolactin management (0.25-0.5mg twice weekly)"
+	],
+	"indications": [
+		{
+			"category": "19-Nor Compound Support",
+			"items": [
+				{
+					"name": "Prolactin Management on Nandrolone",
+					"description": "Nandrolone (Deca-Durabolin and NPP) elevates prolactin through progestogenic activity. Cabergoline is considered the gold standard for preventing and treating prolactin-related side effects during nandrolone cycles, including sexual dysfunction and progesterone-mediated gynecomastia.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Prolactin Management on Trenbolone",
+					"description": "Trenbolone is a potent progestin that can significantly elevate prolactin in some users. Cabergoline controls prolactin-driven side effects such as lactation, nipple sensitivity, erectile dysfunction, and anorgasmia that may occur during trenbolone cycles.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sexual Dysfunction Prevention",
+					"description": "Elevated prolactin from 19-nor compounds commonly causes decreased libido, erectile dysfunction, and difficulty reaching orgasm (often called 'deca dick'). Cabergoline restores normal sexual function by normalizing prolactin levels.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Medical Applications",
+			"items": [
+				{
+					"name": "Hyperprolactinemia Treatment",
+					"description": "FDA-approved for the treatment of hyperprolactinemic disorders of various etiologies, including idiopathic hyperprolactinemia and prolactin-secreting pituitary adenomas (micro- and macroadenomas). Normalizes prolactin in over 85% of patients.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Prolactinoma Tumor Shrinkage",
+					"description": "First-line medical therapy for prolactin-secreting pituitary tumors. Cabergoline achieves significant tumor size reduction in the majority of patients, often avoiding the need for surgical intervention.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Cabergoline is administered orally as a tablet, typically 0.5mg per tablet. It has good oral bioavailability and its absorption is not significantly affected by food, though taking it with food can reduce gastrointestinal side effects. The exceptionally long half-life of 63-69 hours allows for twice-weekly dosing in both medical and bodybuilding contexts, making it one of the most convenient prolactin management options available.",
+			"protocols": [
+				{
+					"goal": "Prolactin management during 19-nor cycle (preventive)",
+					"dose": "0.25mg",
+					"frequency": "Twice weekly",
+					"route": "Oral"
+				},
+				{
+					"goal": "Prolactin management during 19-nor cycle (active symptoms)",
+					"dose": "0.5mg",
+					"frequency": "Twice weekly",
+					"route": "Oral"
+				},
+				{
+					"goal": "Hyperprolactinemia treatment (medical, initial)",
+					"dose": "0.5mg",
+					"frequency": "Once weekly (may split into two 0.25mg doses)",
+					"route": "Oral"
+				},
+				{
+					"goal": "Hyperprolactinemia treatment (medical, maintenance)",
+					"dose": "0.5-1mg",
+					"frequency": "Twice weekly",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": [
+				"No injections or reconstitution required",
+				"Twice-weekly dosing for excellent compliance",
+				"Tablets can be halved for lower dose protocols",
+				"Room temperature storage with long shelf life"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": false
+		},
+		{
+			"type": "topical",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Nandrolone (Deca-Durabolin / NPP)",
+			"status": "synergistic",
+			"notes": "The primary use case for cabergoline in performance enhancement. Nandrolone elevates prolactin through progestogenic activity, causing sexual dysfunction and potential gynecomastia. Cabergoline directly counteracts prolactin elevation, preventing 'deca dick' and prolactin-related side effects. Many experienced users consider cabergoline essential when running nandrolone."
+		},
+		{
+			"peptide": "Testosterone (exogenous)",
+			"status": "compatible",
+			"notes": "Testosterone itself does not significantly elevate prolactin, so cabergoline is not typically needed on testosterone-only cycles. However, cabergoline is fully compatible and commonly run alongside testosterone when testosterone is stacked with 19-nor compounds like nandrolone or trenbolone."
+		},
+		{
+			"peptide": "Dopamine antagonists (antipsychotics, metoclopramide)",
+			"status": "avoid",
+			"notes": "Dopamine antagonists directly oppose cabergoline's mechanism of action by blocking D2 receptors. Concurrent use negates cabergoline's prolactin-suppressing effect and can lead to unpredictable prolactin fluctuations. Avoid combining cabergoline with antipsychotics (haloperidol, risperidone, olanzapine), metoclopramide, or domperidone."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Cabergoline begins binding to D2 receptors within hours of the first dose. Prolactin levels start declining measurably within 24-48 hours. Some users may experience mild nausea or dizziness as the body adjusts to dopaminergic stimulation."
+		},
+		{
+			"period": "Day 3-7",
+			"effects": "Prolactin suppression becomes clinically significant. If prolactin-related sexual dysfunction was present, libido and erectile function often begin to improve. Mild side effects such as nasal congestion or dizziness typically attenuate."
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Prolactin levels are substantially suppressed and approaching nadir. Sexual function is typically restored in users who were experiencing prolactin-related dysfunction. With twice-weekly dosing, steady state drug levels are achieved."
+		},
+		{
+			"period": "Week 2-4+",
+			"effects": "Ongoing prolactin management at steady state. Prolactin levels should be well controlled on bloodwork. At appropriate doses, prolactin remains within normal range without being excessively suppressed. If prolactin is driven too low, some users report emotional blunting or compulsive behaviors, though these are uncommon at bodybuilding doses."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Nausea (especially during initial doses; mitigated by taking with food)",
+			"Dizziness or lightheadedness",
+			"Headache",
+			"Nasal congestion or stuffiness",
+			"Fatigue or drowsiness",
+			"Orthostatic hypotension (feeling faint when standing up quickly)"
+		],
+		"rare": [
+			"Cardiac valve fibrosis or regurgitation (associated with long-term high-dose use, primarily in Parkinson's disease dosing -- far higher than bodybuilding doses)",
+			"Impulse control disorders (compulsive gambling, hypersexuality, compulsive spending -- dose-dependent dopaminergic effect)",
+			"Retroperitoneal fibrosis (extremely rare, associated with chronic high-dose use)",
+			"Psychiatric effects (hallucinations, psychotic episodes -- very rare at standard doses)",
+			"Pleural effusion or pulmonary fibrosis (rare, primarily with ergot-derived dopamine agonists at high doses)"
+		],
+		"stopSigns": [
+			"Signs of cardiac valve dysfunction (new onset shortness of breath, chest pain, peripheral edema, exercise intolerance)",
+			"Severe or persistent dizziness or fainting episodes",
+			"Emergence of compulsive or impulsive behaviors (gambling, spending, hypersexuality)",
+			"Persistent psychiatric symptoms (hallucinations, paranoia, severe mood changes)",
+			"Signs of fibrotic complications (unexplained back pain, leg swelling, breathing difficulty)"
+		],
+		"contraindications": [
+			"Known hypersensitivity to cabergoline or any ergot alkaloid",
+			"History of cardiac valvular disease or clinically significant valvular regurgitation",
+			"History of pulmonary, pericardial, or retroperitoneal fibrotic disorders",
+			"Uncontrolled hypertension",
+			"Concurrent use of dopamine antagonists (antipsychotics, antiemetics acting on D2 receptors)",
+			"Severe hepatic impairment (cabergoline is extensively metabolized by the liver)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white crystalline powder or uniform tablets",
+			"Third-party certificate of analysis (COA) confirming identity and purity (>98%)",
+			"HPLC or mass spectrometry testing verifying cabergoline content and absence of contaminants",
+			"Professional packaging with batch number, expiration date, and proper labeling",
+			"Sourced from a licensed pharmacy, compounding pharmacy, or reputable research supplier",
+			"Standard 0.5mg tablet dosing for easy protocol adherence"
+		],
+		"warning": [
+			"No COA or third-party testing available",
+			"Tablets are inconsistent in size, color, or hardness",
+			"Product labeled generically without specific compound identification",
+			"Packaging lacks batch number or expiration date"
+		],
+		"bad": [
+			"Discolored, crumbling, or visibly degraded tablets",
+			"Unusual chemical odor or taste",
+			"No labeling, batch information, or expiration date",
+			"COA shows significant impurities or incorrect compound identity",
+			"Sourced from unverified vendors with no quality documentation"
+		]
+	},
+	"references": [
+		{
+			"title": "A comparative study of cabergoline and bromocriptine in the treatment of hyperprolactinemia",
+			"authors": "Webster J, Piscitelli G, Polli A, Ferrari CI, Ismail I, Scanlon MF",
+			"journal": "The New England Journal of Medicine",
+			"year": "1994",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/7935686/",
+			"keyFindings": "Landmark randomized trial comparing cabergoline with bromocriptine in 459 hyperprolactinemic women. Cabergoline normalized prolactin in 83% of patients versus 59% for bromocriptine, with significantly fewer side effects including less nausea, vomiting, and dizziness. Established cabergoline as the preferred dopamine agonist for hyperprolactinemia."
+		},
+		{
+			"title": "Cabergoline in the treatment of hyperprolactinemia: a study in 455 patients",
+			"authors": "Verhelst J, Abs R, Maiter D, van den Bruel A, Vandeweghe M, Velkeniers B, Mockel J, Lamberigts G, Petrossians P, Coremans P, Mahler C, Stevenaert A, Verlooy J, Raftopoulos C, Beckers A",
+			"journal": "The Journal of Clinical Endocrinology & Metabolism",
+			"year": "1999",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10199746/",
+			"keyFindings": "Large multicenter study of 455 patients treated with cabergoline for hyperprolactinemia. Normalization of prolactin was achieved in 86% of patients with idiopathic hyperprolactinemia and 89% of patients with microprolactinomas. Tumor shrinkage of greater than 50% was observed in the majority of macroprolactinoma patients. Confirmed excellent long-term tolerability."
+		},
+		{
+			"title": "Prevalence of clinically significant valvular heart disease in patients treated with cabergoline for prolactinoma",
+			"authors": "Colao A, Galderisi M, Di Sarno A, Pardo M, Gaccione M, D'Andrea M, Guerra E, Pivonello R, Lerro G, Lombardi G",
+			"journal": "The Journal of Clinical Endocrinology & Metabolism",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18182454/",
+			"keyFindings": "Prospective study evaluating cardiac valve status in prolactinoma patients on long-term cabergoline therapy at standard doses. Found no significant increase in clinically relevant valvular heart disease compared to controls at the doses used for hyperprolactinemia (typically 0.5-2mg/week), in contrast to the high doses used in Parkinson's disease (3-7mg/day). Provided reassurance for standard-dose, long-term use."
+		},
+		{
+			"title": "Cabergoline: a review of its use in the treatment of pathological hyperprolactinemia",
+			"authors": "Biller BM, Molitch ME, Vance ML, Cannistraro KB, Davis KR, Simons JA, Schoenfelder JR, Klibanski A",
+			"journal": "Clinical Therapeutics",
+			"year": "1996",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8911463/",
+			"keyFindings": "Comprehensive review of cabergoline pharmacology and clinical efficacy. Detailed the drug's pharmacokinetic profile including its 63-69 hour half-life, high D2 receptor affinity, and oral bioavailability. Demonstrated superior efficacy and tolerability compared to bromocriptine across multiple clinical endpoints."
+		},
+		{
+			"title": "Diagnosis and treatment of hyperprolactinemia: an Endocrine Society clinical practice guideline",
+			"authors": "Melmed S, Casanueva FF, Hoffman AR, Kleinberg DL, Montori VM, Schlechte JA, Wass JA",
+			"journal": "The Journal of Clinical Endocrinology & Metabolism",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21296991/",
+			"keyFindings": "Official Endocrine Society guideline recommending cabergoline as the first-line pharmacological treatment for hyperprolactinemia due to its superior efficacy, tolerability, and convenient dosing schedule. Recommended echocardiographic monitoring for patients on long-term therapy, particularly at higher doses, though noted that cardiac risk at standard hyperprolactinemia doses appears low."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "0.25-0.5mg twice weekly (bodybuilding); 0.5-1mg twice weekly (medical)",
+		"frequency": "Twice weekly",
+		"cycleDuration": "Duration of 19-nor compound use; may continue briefly after discontinuation",
+		"storage": "Room temperature (20-25C), protected from light and moisture"
+	}
+}

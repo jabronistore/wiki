@@ -1,0 +1,265 @@
+{
+	"id": "modafinil",
+	"name": "Modafinil",
+	"subtitle": "Eugeroic | Wakefulness & Cognitive Enhancement",
+	"aliases": ["Provigil", "Modalert", "Modvigil", "Armodafinil", "Nuvigil"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cognitive"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "100-200 mg/day",
+		"frequency": "Once daily (morning)",
+		"cycleDuration": "As prescribed, often ongoing",
+		"storage": "Room temperature (68-77F). Protect from moisture."
+	},
+	"molecular": {
+		"weight": "273.35 Da",
+		"type": "Diphenylmethylsulfinylacetamide (C15H15NO2S)",
+		"modifications": [
+			"Armodafinil (Nuvigil) is the R-enantiomer of modafinil with a longer effective half-life and slightly different pharmacokinetic profile"
+		],
+		"halfLife": "~12-15 hours",
+		"halfLifeSeconds": 48600,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Modafinil is a wakefulness-promoting agent (eugeroic) originally developed in France in the late 1970s and approved by the FDA in 1998. It is prescribed for the treatment of excessive daytime sleepiness associated with narcolepsy, shift work sleep disorder, and obstructive sleep apnea. Unlike traditional psychostimulants such as amphetamines, modafinil produces wakefulness and alertness with a markedly lower abuse potential and a more favorable side effect profile. It has become one of the most widely used compounds in the nootropic and biohacker community due to its ability to sustain focus, reduce fatigue, and enhance executive function during extended periods of cognitive demand. Armodafinil, the R-enantiomer, is marketed separately under the brand name Nuvigil and offers a longer duration of action at a lower dose.",
+	"mechanism": "The exact mechanism of action of modafinil is not fully understood, which distinguishes it from most prescription stimulants. The primary mechanism appears to involve inhibition of the dopamine transporter (DAT), leading to increased extracellular dopamine concentrations in the nucleus accumbens and cortical regions. However, modafinil's pharmacological profile is distinct from classical dopaminergic stimulants. It also modulates several other neurotransmitter systems: it increases histamine release from the tuberomammillary nucleus (promoting wakefulness), elevates norepinephrine in the prefrontal cortex and hypothalamus, increases serotonin in the amygdala and frontal cortex, and enhances orexin/hypocretin neuron activation in the lateral hypothalamus. Additionally, modafinil reduces GABA release in the cortex and sleep-promoting regions, tipping the balance toward sustained arousal. This multi-target profile is thought to explain why modafinil promotes wakefulness without the jitteriness, peripheral sympathetic activation, or crash associated with amphetamine-class stimulants.",
+	"keyBenefits": [
+		"Sustained wakefulness and alertness for 10-15 hours without the jitteriness of traditional stimulants",
+		"Enhanced executive function, working memory, and decision-making under fatigue",
+		"Improved focus and concentration during prolonged cognitive tasks",
+		"Reduced impulsivity and improved task completion in sleep-deprived individuals",
+		"Low abuse potential relative to amphetamine-class stimulants (Schedule IV)",
+		"Minimal impact on normal sleep architecture when taken in the morning"
+	],
+	"indications": [
+		{
+			"category": "Sleep Disorders",
+			"items": [
+				{
+					"name": "Narcolepsy",
+					"description": "FDA-approved first-line treatment for excessive daytime sleepiness associated with narcolepsy. Significantly reduces unintended sleep episodes and improves the ability to sustain wakefulness throughout the day.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Shift Work Sleep Disorder",
+					"description": "FDA-approved for excessive sleepiness in individuals who work non-traditional hours (night shifts, rotating shifts). Taken 1 hour before the start of the work shift to maintain alertness during the shift.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Obstructive Sleep Apnea (Adjunct)",
+					"description": "FDA-approved as adjunctive therapy for residual excessive daytime sleepiness in patients with obstructive sleep apnea who are already using CPAP but still experience daytime somnolence. Does not treat the underlying airway obstruction.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cognitive Enhancement",
+			"items": [
+				{
+					"name": "Sustained Attention and Focus",
+					"description": "Well-documented improvements in sustained attention, vigilance, and concentration during prolonged tasks. Benefits are most pronounced under conditions of sleep deprivation or fatigue, but also observed in well-rested individuals performing demanding cognitive work.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Executive Function",
+					"description": "Improvements in planning, decision-making, and cognitive flexibility observed across multiple studies. Effects are more consistent and reliable in sleep-deprived populations than in well-rested individuals.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Working Memory",
+					"description": "Modest improvements in working memory tasks, particularly in individuals experiencing fatigue or sleep deficit. Effects in well-rested, high-baseline individuals are less consistent.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Off-Label / Investigational",
+			"items": [
+				{
+					"name": "ADHD",
+					"description": "Used off-label for attention-deficit/hyperactivity disorder. Some studies show improvements in attention and impulsivity comparable to methylphenidate, though modafinil is not FDA-approved for this indication. FDA declined approval for pediatric ADHD due to skin reaction concerns.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Depression-Related Fatigue",
+					"description": "Investigated as an adjunct to antidepressants for treatment-resistant fatigue and cognitive symptoms in major depressive disorder. May improve residual sleepiness and cognitive dullness that persist despite adequate antidepressant response.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Multiple Sclerosis Fatigue",
+					"description": "Used off-label for fatigue associated with multiple sclerosis, one of the most disabling symptoms of the disease. Evidence is mixed, with some patients reporting meaningful improvement in energy and daily functioning.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Modafinil is administered exclusively via oral tablets. It is well absorbed from the gastrointestinal tract with peak plasma concentrations reached approximately 2-4 hours after ingestion. Food does not significantly affect overall bioavailability but may delay peak concentrations by approximately 1 hour. The standard formulation is a racemic mixture of R- and S-enantiomers. Armodafinil (Nuvigil) contains only the R-enantiomer, which has a longer effective half-life.",
+			"protocols": [
+				{
+					"goal": "Standard - Narcolepsy / Sleep Apnea",
+					"dose": "200 mg",
+					"frequency": "Once daily in the morning",
+					"route": "Oral tablet",
+					"notes": "Standard FDA-approved dose. Take in the morning to avoid insomnia. May split into 100 mg morning + 100 mg early afternoon if needed, though this is less common."
+				},
+				{
+					"goal": "Conservative / Dose Finding",
+					"dose": "100 mg",
+					"frequency": "Once daily in the morning",
+					"route": "Oral tablet",
+					"notes": "Recommended starting dose for first-time users and those sensitive to stimulants. Many individuals find 100 mg sufficient for cognitive enhancement purposes. Lower doses may also reduce headache incidence."
+				},
+				{
+					"goal": "Shift Work Sleep Disorder",
+					"dose": "200 mg",
+					"frequency": "Once, 1 hour before shift start",
+					"route": "Oral tablet",
+					"notes": "Taken approximately 1 hour before the beginning of the work shift. Not intended for daily use on off-days."
+				},
+				{
+					"goal": "Armodafinil Protocol",
+					"dose": "150 mg",
+					"frequency": "Once daily in the morning",
+					"route": "Oral tablet (Nuvigil)",
+					"notes": "Armodafinil (R-enantiomer only) achieves higher plasma concentrations later in the day compared to racemic modafinil, potentially providing longer-lasting wakefulness. 150 mg armodafinil is roughly equivalent to 200 mg modafinil."
+				}
+			],
+			"keyBenefits": [
+				"Simple once-daily oral dosing with no titration required",
+				"Well-absorbed orally with high bioavailability",
+				"Long duration of action (10-15 hours) from a single dose",
+				"No injection, reconstitution, or special handling required",
+				"Can be taken with or without food"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Hormonal Contraceptives",
+			"status": "monitor",
+			"notes": "Modafinil induces CYP3A4 and may reduce the effectiveness of hormonal contraceptives (oral, patch, ring). Women should use alternative or additional non-hormonal contraception during modafinil use and for one month after discontinuation."
+		},
+		{
+			"peptide": "CYP3A4 Substrates",
+			"status": "monitor",
+			"notes": "Modafinil is a moderate inducer of CYP3A4 and an inhibitor of CYP2C19. Drugs metabolized by CYP3A4 (e.g., cyclosporine, midazolam, triazolam, certain statins) may have reduced plasma levels. CYP2C19 substrates (e.g., omeprazole, diazepam, phenytoin) may have increased levels. Dose adjustments may be required."
+		},
+		{
+			"peptide": "Caffeine",
+			"status": "compatible",
+			"notes": "Caffeine and modafinil are frequently combined with no significant pharmacokinetic interaction. Both promote wakefulness through distinct mechanisms (adenosine antagonism vs. dopamine/histamine modulation). Some users may experience increased anxiety or overstimulation when combining high doses of both."
+		}
+	],
+	"timeline": [
+		{
+			"period": "30-60 minutes",
+			"effects": "Onset of wakefulness. Subtle increase in alertness and reduction in drowsiness as modafinil is absorbed. Effects are gradual rather than the abrupt onset seen with amphetamines."
+		},
+		{
+			"period": "2-4 hours",
+			"effects": "Peak plasma concentration reached. Full wakefulness-promoting and cognitive-enhancing effects are felt. Improved focus, motivation, and mental clarity. Appetite suppression commonly begins."
+		},
+		{
+			"period": "4-8 hours",
+			"effects": "Sustained plateau of cognitive enhancement and wakefulness. This is the primary productive window for most users. Effects remain stable without a noticeable peak-and-crash pattern."
+		},
+		{
+			"period": "8-12 hours",
+			"effects": "Gradual tapering of effects. Wakefulness promotion persists but cognitive enhancement begins to wane. Users taking doses after midday may begin to notice difficulty falling asleep at their normal bedtime."
+		},
+		{
+			"period": "12-15+ hours",
+			"effects": "Residual effects dissipate. Most individuals can fall asleep normally if the dose was taken in the early morning. The S-enantiomer clears faster than the R-enantiomer, which is why armodafinil (R-only) may feel longer-lasting."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Headache (most frequently reported side effect, often dose-dependent)",
+			"Insomnia (particularly if taken too late in the day)",
+			"Anxiety and nervousness",
+			"Appetite suppression and mild nausea",
+			"Dry mouth",
+			"Dizziness",
+			"Gastrointestinal discomfort (diarrhea, abdominal pain)"
+		],
+		"rare": [
+			"Stevens-Johnson Syndrome (SJS) and Toxic Epidermal Necrolysis (TEN) -- rare but potentially life-threatening skin reactions, more common in pediatric populations, which led the FDA to deny pediatric ADHD approval",
+			"Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)",
+			"Angioedema and multi-organ hypersensitivity reactions",
+			"Psychiatric symptoms (hallucinations, mania, suicidal ideation) in predisposed individuals",
+			"Elevated liver enzymes",
+			"Tachycardia and palpitations"
+		],
+		"stopSigns": [
+			"Any skin rash, blistering, peeling, or mucosal lesions (potential SJS/TEN -- discontinue immediately and seek emergency medical attention)",
+			"Facial swelling, lip swelling, or difficulty breathing (angioedema)",
+			"Fever combined with skin eruption and lymphadenopathy (potential DRESS syndrome)",
+			"Severe chest pain or persistent tachycardia",
+			"New onset psychiatric symptoms including hallucinations, severe anxiety, or suicidal thoughts",
+			"Jaundice or dark-colored urine (hepatic involvement)"
+		],
+		"contraindications": [
+			"Known hypersensitivity to modafinil or armodafinil",
+			"History of Stevens-Johnson Syndrome, TEN, or DRESS with prior modafinil/armodafinil use",
+			"Severe hepatic impairment (dose reduction required in moderate impairment)",
+			"Unstable angina or recent myocardial infarction",
+			"Left ventricular hypertrophy or clinically significant mitral valve prolapse with prior stimulant use",
+			"Pregnancy (limited human data; animal studies show teratogenicity at high doses)"
+		],
+		"monitoring": [
+			"Blood pressure and heart rate: baseline and periodically, especially in patients with hypertension",
+			"Liver function tests: if prolonged use or signs of hepatic involvement",
+			"Skin assessment: counsel patients to discontinue immediately at any sign of rash",
+			"Psychiatric status: monitor for mood changes, anxiety, or psychotic symptoms, particularly in patients with psychiatric history",
+			"Contraceptive efficacy: ensure patients using hormonal contraceptives are aware of reduced effectiveness"
+		]
+	},
+	"references": [
+		{
+			"title": "Modafinil: A Review of Neurochemical Actions and Effects on Cognition",
+			"authors": "Minzenberg, M.J., Carter, C.S.",
+			"journal": "Neuropsychopharmacology",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17549059/",
+			"keyFindings": "Comprehensive review of modafinil's neurochemical mechanisms and cognitive effects, establishing that modafinil enhances prefrontal cortical function through catecholaminergic and histaminergic pathways, with consistent benefits for executive function, attention, and working memory."
+		},
+		{
+			"title": "Modafinil for Cognitive Neuroenhancement in Healthy Non-Sleep-Deprived Subjects: A Systematic Review",
+			"authors": "Battleday, R.M., Brem, A.K.",
+			"journal": "European Neuropsychopharmacology",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26381811/",
+			"keyFindings": "Systematic review of 24 studies concluded that modafinil enhances attention, executive function, and learning in non-sleep-deprived individuals, particularly on more complex tasks. Established modafinil as the first well-validated pharmacological nootropic agent."
+		},
+		{
+			"title": "Practical Use and Risk of Modafinil, a Novel Waking Drug",
+			"authors": "Bastoji, H., Jouvet, M.",
+			"journal": "Sleep Medicine Reviews",
+			"year": "1988",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/3227575/",
+			"keyFindings": "One of the earliest clinical reviews of modafinil following its development in France, describing its unique wakefulness-promoting properties without the sympathomimetic effects of amphetamines and its favorable safety profile in narcolepsy patients."
+		},
+		{
+			"title": "Randomized Trial of Modafinil as a Treatment for the Excessive Daytime Somnolence of Narcolepsy",
+			"authors": "US Modafinil in Narcolepsy Multicenter Study Group",
+			"journal": "Neurology",
+			"year": "1998",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9443467/",
+			"keyFindings": "Pivotal Phase III trial demonstrating that modafinil 200 mg and 400 mg significantly reduced excessive daytime sleepiness in narcolepsy patients compared to placebo, supporting the FDA approval of modafinil for narcolepsy treatment."
+		},
+		{
+			"title": "Modafinil: Mechanism of Action and Place in the Management of Narcolepsy and Other Disorders",
+			"authors": "Kumar, R.",
+			"journal": "Current Opinion in Pulmonary Medicine",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18812828/",
+			"keyFindings": "Review summarizing modafinil's complex mechanism involving dopamine reuptake inhibition, orexin activation, and histamine modulation, and its established role in narcolepsy, shift work disorder, and obstructive sleep apnea, as well as emerging off-label uses."
+		}
+	]
+}

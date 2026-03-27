@@ -1,0 +1,297 @@
+{
+	"id": "liothyronine",
+	"name": "Liothyronine (T3)",
+	"subtitle": "Thyroid Hormone | Metabolic Optimization",
+	"aliases": ["T3", "Cytomel", "Triiodothyronine"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["metabolic", "weight-loss"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "25-75 mcg/day (replacement)",
+		"frequency": "1-2x daily (oral)",
+		"cycleDuration": "6-8 weeks (fat loss) or ongoing (replacement)",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "650.97 Da",
+		"type": "Thyroid hormone (C15H12I3NO4)",
+		"modifications": [
+			"Active form of thyroid hormone — does not require conversion from T4",
+			"Contains three iodine atoms (triiodothyronine)",
+			"Binds directly to nuclear thyroid hormone receptors (TR-alpha and TR-beta)"
+		],
+		"halfLife": "~1 day",
+		"halfLifeSeconds": 86400,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Liothyronine (T3) is the biologically active form of thyroid hormone, responsible for regulating basal metabolic rate, thermogenesis, protein synthesis, and cellular energy metabolism throughout the body. Unlike levothyroxine (T4), which serves primarily as a prohormone requiring peripheral conversion by deiodinase enzymes, T3 acts directly on nuclear thyroid hormone receptors to exert its metabolic effects. It has been FDA-approved since the 1950s for the treatment of hypothyroidism, myxedema coma, and as a diagnostic agent in thyroid suppression tests. Pharmaceutical T3 is available as Cytomel (brand) and generic liothyronine sodium tablets. In performance and biohacking contexts, T3 is widely used during cutting phases to accelerate fat loss by directly upregulating metabolic rate, and by individuals seeking metabolic optimization when peripheral T4-to-T3 conversion is impaired due to caloric restriction, stress, or other factors.",
+	"mechanism": "Liothyronine enters target cells via monocarboxylate transporter 8 (MCT8) and other thyroid hormone transporters, then binds to nuclear thyroid hormone receptors (primarily TR-beta in metabolic tissues and TR-alpha in cardiac tissue). The T3-receptor complex forms heterodimers with retinoid X receptors (RXR) and binds to thyroid hormone response elements (TREs) on DNA, directly modulating gene transcription. This increases expression of Na+/K+ ATPase (driving cellular energy expenditure), uncoupling proteins (UCP1 in brown adipose tissue, promoting thermogenesis), and enzymes involved in fatty acid oxidation, gluconeogenesis, and protein turnover. T3 also upregulates beta-adrenergic receptor density, which amplifies catecholamine sensitivity and contributes to increased heart rate, lipolysis, and thermogenesis. At physiological doses, T3 supports healthy metabolism; at supraphysiological doses, it shifts the body into a catabolic state where both fat and lean tissue can be catabolized for energy.",
+	"keyBenefits": [
+		"Direct and rapid increase in basal metabolic rate",
+		"Enhanced fat oxidation and lipolysis",
+		"Improved energy levels and reduction of hypothyroid fatigue",
+		"Faster-acting than T4 with effects noticeable within hours to days",
+		"Useful when peripheral T4-to-T3 conversion is impaired (illness, caloric deficit, stress)",
+		"Supports body temperature regulation and thermogenesis",
+		"Can improve cognitive clarity and reduce brain fog associated with low thyroid function"
+	],
+	"indications": [
+		{
+			"category": "Endocrine / Thyroid",
+			"items": [
+				{
+					"name": "Hypothyroidism",
+					"description": "Treatment of overt and subclinical hypothyroidism, either as monotherapy or in combination with levothyroxine (T4). Particularly useful in patients who report persistent symptoms despite normalized TSH on T4 monotherapy, suggesting poor peripheral conversion.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Myxedema Coma",
+					"description": "Emergency treatment of severe hypothyroidism presenting as myxedema coma. Intravenous T3 is preferred due to its rapid onset of action compared to T4.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "T4-to-T3 Conversion Deficit",
+					"description": "Supplementation in individuals with documented poor conversion of T4 to T3 due to deiodinase polymorphisms (DIO2 gene variants), chronic caloric restriction, illness, or elevated reverse T3 levels.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Thyroid Suppression Testing",
+					"description": "Diagnostic use in thyroid suppression tests to differentiate between types of thyroid autonomy.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition / Performance",
+			"items": [
+				{
+					"name": "Fat Loss / Cutting",
+					"description": "Widely used in bodybuilding and physique sports to accelerate fat loss during caloric deficit. T3 increases basal metabolic rate by 10-15% at moderate doses, promoting faster utilization of stored fat. Most effective when combined with adequate protein intake and resistance training to minimize muscle catabolism.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Metabolic Rate Optimization",
+					"description": "Used by biohackers and longevity-focused individuals to maintain optimal metabolic rate, particularly during extended caloric restriction, reverse dieting, or in the context of metabolic adaptation (adaptive thermogenesis).",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Contest Preparation",
+					"description": "Standard component of bodybuilding contest prep stacks, typically combined with anabolic steroids (to offset catabolism) and beta-2 agonists for maximal fat mobilization in the final 6-8 weeks before competition.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Liothyronine is administered orally as tablets, which is the standard and essentially only route used outside of emergency clinical settings. Oral bioavailability is approximately 95%, making it highly effective by mouth. Tablets are available in 5 mcg, 25 mcg, and 50 mcg strengths. The short half-life (~24 hours) means that split dosing throughout the day can provide more stable blood levels, though once-daily dosing is common for replacement therapy.",
+			"protocols": [
+				{
+					"goal": "Thyroid Replacement - Standard",
+					"dose": "25-75 mcg/day",
+					"frequency": "Once daily or split into 2-3 doses",
+					"route": "Oral",
+					"notes": "Start at 25 mcg/day and titrate upward based on TSH, free T3, and symptom response. Take on an empty stomach, 30-60 minutes before food for optimal absorption."
+				},
+				{
+					"goal": "Thyroid Replacement - Conservative Start",
+					"dose": "5-25 mcg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "Starting dose for elderly patients, those with cardiovascular disease, or long-standing hypothyroidism. Increase by 5 mcg every 1-2 weeks as tolerated."
+				},
+				{
+					"goal": "Fat Loss - Moderate",
+					"dose": "25-50 mcg/day",
+					"frequency": "Split into 2 doses (AM and early PM)",
+					"route": "Oral",
+					"notes": "Start at 25 mcg/day, increase by 12.5 mcg every 5-7 days as tolerated. Always taper down over 2 weeks at end of cycle rather than stopping abruptly to allow endogenous thyroid axis recovery."
+				},
+				{
+					"goal": "Fat Loss - Aggressive (Contest Prep)",
+					"dose": "50-75 mcg/day",
+					"frequency": "Split into 2-3 doses",
+					"route": "Oral",
+					"notes": "Higher doses significantly increase risk of muscle wasting and cardiac stress. Should be combined with anabolic agents to preserve lean tissue. Duration should not exceed 6-8 weeks. Taper down mandatory."
+				},
+				{
+					"goal": "T4/T3 Combination Therapy",
+					"dose": "5-15 mcg/day (added to T4)",
+					"frequency": "Once daily or split into 2 doses",
+					"route": "Oral",
+					"notes": "Low-dose T3 added to existing levothyroxine therapy for patients with persistent symptoms. Typical ratio targets are 13:1 to 20:1 (T4:T3) to approximate physiological thyroid output."
+				}
+			],
+			"keyBenefits": [
+				"Excellent oral bioavailability (~95%)",
+				"Rapid onset of action (hours, not days or weeks like T4)",
+				"Precise dose titration with small-increment tablets (5 mcg)",
+				"No injection required",
+				"Well-established pharmaceutical manufacturing standards"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Clenbuterol",
+			"status": "monitor",
+			"notes": "Synergistic for fat loss as T3 increases metabolic rate while clenbuterol stimulates beta-2 adrenergic lipolysis. However, the combination carries significant cardiac risk: both compounds increase heart rate, and T3 upregulates beta-adrenergic receptor density, amplifying clenbuterol's cardiovascular effects. Monitor heart rate and blood pressure closely. Start doses conservatively and do not escalate both simultaneously."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "compatible",
+			"notes": "Commonly stacked during cutting phases. Testosterone helps preserve lean muscle mass that T3 would otherwise catabolize at higher doses. The combination allows for more aggressive T3 dosing with reduced risk of muscle wasting. No direct pharmacological conflict."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "synergistic",
+			"notes": "GH and T3 have complementary metabolic effects. GH promotes lipolysis and directs freed fatty acids toward oxidation, while T3 increases overall metabolic rate and energy expenditure. GH also enhances peripheral T4-to-T3 conversion, and exogenous GH use can deplete T3 levels over time, making concurrent T3 supplementation particularly logical during GH protocols."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Hours 2-6",
+			"effects": "Initial onset of action after first dose. Subtle increase in heart rate, body temperature, and energy. T3 is absorbed rapidly with peak serum levels reached within 2-4 hours of oral administration."
+		},
+		{
+			"period": "Day 1-3",
+			"effects": "Noticeable increase in energy, warmth, and metabolic activity. Some individuals report improved mental clarity and reduced brain fog. Mild appetite increase is common as metabolism accelerates. Heart rate may be slightly elevated."
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Steady-state blood levels achieved. Measurable increase in basal metabolic rate. Visible changes in body composition begin, particularly in individuals already in a caloric deficit. TSH suppression becomes apparent on lab work. Some sweating and heat intolerance at higher doses."
+		},
+		{
+			"period": "Week 3-6",
+			"effects": "Peak fat loss effects. Significant reduction in body fat when combined with proper diet and training. At doses above 50 mcg/day, risk of lean tissue catabolism increases without concurrent anabolic support. Endogenous thyroid production is suppressed."
+		},
+		{
+			"period": "Week 6-8+",
+			"effects": "Diminishing returns at extended durations. Risk of muscle wasting, bone density reduction, and cardiac stress increases with prolonged use. Taper protocol should begin. Endogenous thyroid function typically recovers within 2-6 weeks after discontinuation, though prolonged high-dose use may extend recovery."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Tachycardia and palpitations (increased heart rate, especially at higher doses)",
+			"Anxiety, nervousness, and irritability",
+			"Insomnia and disrupted sleep architecture",
+			"Increased sweating and heat intolerance",
+			"Tremor (fine hand tremor, similar to hyperthyroid presentation)",
+			"Increased appetite despite accelerated metabolism",
+			"Loose stools or increased bowel frequency"
+		],
+		"rare": [
+			"Muscle wasting and significant lean tissue loss at high doses (above 75 mcg/day)",
+			"Bone mineral density loss with prolonged supraphysiological use",
+			"Cardiac arrhythmias (atrial fibrillation at high doses or in predisposed individuals)",
+			"Angina pectoris or exacerbation of existing coronary artery disease",
+			"Adrenal crisis in patients with untreated adrenal insufficiency (T3 accelerates cortisol clearance)",
+			"Menstrual irregularities in women",
+			"Hair thinning or increased hair shedding"
+		],
+		"stopSigns": [
+			"Chest pain, pressure, or significant palpitations",
+			"Resting heart rate consistently above 100-110 bpm",
+			"Severe anxiety or panic attacks",
+			"Significant unexplained muscle weakness or wasting",
+			"Signs of adrenal crisis: severe fatigue, hypotension, nausea, dizziness",
+			"Irregular heartbeat or sensation of skipped beats"
+		],
+		"contraindications": [
+			"Untreated adrenal insufficiency (must correct cortisol deficiency before starting T3)",
+			"Acute myocardial infarction or unstable angina",
+			"Thyrotoxicosis or untreated hyperthyroidism",
+			"Known hypersensitivity to liothyronine or any tablet excipients",
+			"Uncorrected adrenal cortical insufficiency (risk of adrenal crisis)"
+		],
+		"monitoring": [
+			"TSH: baseline, 4-6 weeks after starting, then every 3-6 months (will be suppressed on exogenous T3)",
+			"Free T3 and free T4: at each lab draw to assess thyroid hormone balance",
+			"Resting heart rate and blood pressure: self-monitor daily during dose titration",
+			"Body composition or DEXA: periodically to assess lean tissue preservation",
+			"Bone mineral density (DEXA): annually for prolonged supraphysiological use",
+			"Cortisol / adrenal function: baseline assessment before starting, especially in those with fatigue or suspected adrenal insufficiency"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade tablets from licensed manufacturer (Cytomel or reputable generic)",
+			"Proper labeling with strength (5, 25, or 50 mcg), lot number, and expiration date",
+			"Tablets are uniform in color, size, and shape with clean edges",
+			"Prescribed by licensed physician with documented thyroid lab work",
+			"Stored in original container at room temperature, protected from moisture and light"
+		],
+		"warning": [
+			"Research chemical or compounded liquid T3 without third-party potency verification",
+			"Tablets that crumble easily or show discoloration (potential degradation)",
+			"Product sourced internationally without verification of manufacturer legitimacy"
+		],
+		"bad": [
+			"No labeling, incorrect strength labeling, or missing expiration date",
+			"Tablets with inconsistent sizing or visible damage",
+			"Product sourced from unverified supplier with no testing documentation",
+			"Counterfeit packaging or misspelled brand names"
+		]
+	},
+	"references": [
+		{
+			"title": "Liothyronine Treatment of Hypothyroidism: A Systematic Review and Meta-Analysis",
+			"authors": "Jonklaas, J., Bianco, A.C., Bauer, A.J., et al.",
+			"journal": "The Journal of Clinical Endocrinology & Metabolism",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25222757/",
+			"keyFindings": "Systematic review of T3 and T3/T4 combination therapy for hypothyroidism. Found that while T3 monotherapy normalizes thyroid markers, combination T4/T3 therapy may benefit a subset of patients with persistent symptoms on T4 alone, particularly those with DIO2 polymorphisms."
+		},
+		{
+			"title": "Guidelines for the Treatment of Hypothyroidism: American Thyroid Association Task Force",
+			"authors": "Jonklaas, J., Bianco, A.C., Bauer, A.J., et al.",
+			"journal": "Thyroid",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25266247/",
+			"keyFindings": "Comprehensive ATA guidelines addressing the use of liothyronine in hypothyroidism management. Recommends levothyroxine as first-line therapy but acknowledges a role for T3 combination therapy in patients who remain symptomatic, with careful monitoring of TSH and free T3 levels."
+		},
+		{
+			"title": "Thyroid Hormone Action on Metabolism",
+			"authors": "Mullur, R., Liu, Y.Y., Brent, G.A.",
+			"journal": "Thyroid",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24588711/",
+			"keyFindings": "Detailed review of thyroid hormone mechanisms including T3-mediated regulation of basal metabolic rate, thermogenesis via uncoupling proteins, lipid metabolism, and mitochondrial biogenesis. Clarifies the distinct roles of TR-alpha and TR-beta receptor isoforms in different tissues."
+		},
+		{
+			"title": "Type 2 Deiodinase Polymorphism and Response to Combined T4/T3 Therapy",
+			"authors": "Panicker, V., Saravanan, P., Vaidya, B., et al.",
+			"journal": "The Journal of Clinical Endocrinology & Metabolism",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19567521/",
+			"keyFindings": "Demonstrated that patients carrying the DIO2 Thr92Ala polymorphism showed improved well-being and preference for combination T4/T3 therapy over T4 monotherapy, providing a genetic basis for individual variation in response to thyroid hormone replacement strategies."
+		},
+		{
+			"title": "Triiodothyronine (T3) and Body Composition: A Narrative Review of the Literature",
+			"authors": "De Pergola, G., Ciampolillo, A., Paolotti, S., et al.",
+			"journal": "International Journal of Molecular Sciences",
+			"year": "2023",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36982303/",
+			"keyFindings": "Review of T3's role in body composition regulation, including its effects on resting energy expenditure, lipid oxidation, and the metabolic consequences of both hypothyroid and hyperthyroid states. Highlights the dose-dependent shift from anabolic to catabolic effects."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Combination Levothyroxine Plus Liothyronine vs Levothyroxine Alone for Hypothyroidism",
+			"date": "September 2023",
+			"source": "JAMA Internal Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37578759/",
+			"summary": "Randomized controlled trial comparing T4/T3 combination therapy to T4 monotherapy in hypothyroid patients. Found that combination therapy did not show superiority in overall quality of life measures for the general hypothyroid population, but a subset of patients with specific genetic profiles may benefit."
+		},
+		{
+			"title": "T3 and Metabolic Adaptation During Caloric Restriction",
+			"date": "March 2023",
+			"source": "International Journal of Molecular Sciences",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36982303/",
+			"summary": "Reviewed the role of declining T3 levels in metabolic adaptation during caloric restriction, noting that T3 supplementation can partially offset the decrease in resting energy expenditure seen during prolonged dieting, though at the cost of increased lean tissue catabolism without anabolic support."
+		}
+	]
+}

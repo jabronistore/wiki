@@ -1,0 +1,362 @@
+{
+	"id": "oxandrolone",
+	"name": "Oxandrolone",
+	"subtitle": "Oral Anabolic Steroid | Lean Mass & Recovery",
+	"aliases": ["Anavar", "Var", "Oxandrin"],
+	"compoundKind": "anabolic",
+	"categories": ["anabolic", "healing"],
+	"researchStatus": "well-studied",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "20-50 mg/day (male), 5-20 mg/day (female)",
+		"frequency": "Split into 2 doses daily (morning and evening)",
+		"cycleDuration": "6-8 weeks (typical), ongoing in medical settings",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "306.44 Da",
+		"type": "17-alpha-alkylated anabolic-androgenic steroid (C19H30O3)",
+		"modifications": [
+			"17-alpha-methylation for oral bioavailability",
+			"2-oxo substitution (oxygen atom replacing carbon-2) reducing androgenic potency",
+			"Derived from dihydrotestosterone (DHT) with a modified A-ring"
+		],
+		"halfLife": "~9-10 hours",
+		"halfLifeSeconds": 34200,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Oxandrolone is a synthetic oral anabolic-androgenic steroid derived from dihydrotestosterone (DHT), first synthesized in 1962 by Raphael Pappo at Searle Laboratories and introduced to the market in 1964 under the brand name Anavar. It was designed to be a mild anabolic agent with minimal androgenic activity, achieved through a structural modification where an oxygen atom replaces the carbon-2 atom in the A-ring of the DHT backbone. This modification significantly reduces androgenic potency while preserving anabolic effects on skeletal muscle. Oxandrolone is FDA-approved for the promotion of weight regain following involuntary weight loss due to surgery, chronic infection, severe trauma, and prolonged corticosteroid use, and for the relief of bone pain associated with osteoporosis. It has been extensively studied in burn recovery, HIV/AIDS-related wasting, and pediatric growth disorders. Among oral anabolic steroids, oxandrolone is considered one of the mildest with respect to hepatotoxicity and virilizing side effects, which has made it one of the few anabolic steroids used in women and children in clinical settings.",
+	"mechanism": "Oxandrolone exerts its anabolic effects primarily through binding to the intracellular androgen receptor (AR), promoting nitrogen retention and protein synthesis in skeletal muscle tissue. As a DHT derivative, it cannot be converted to estrogen by the aromatase enzyme, which means it does not cause estrogen-mediated water retention or gynecomastia. The 2-oxo modification in the A-ring reduces its affinity for 5-alpha reductase, limiting conversion to more potent androgens in peripheral tissues and contributing to its relatively low androgenic profile. Oxandrolone increases protein synthesis through direct AR-mediated gene transcription, enhances the expression of genes involved in muscle hypertrophy and repair, and promotes collagen synthesis. It has also been shown to reduce cortisol-binding globulin levels and attenuate the catabolic effects of glucocorticoids, which is particularly relevant in burn patients and those recovering from severe trauma. Additionally, oxandrolone stimulates hepatic production of sex hormone-binding globulin (SHBG) to a lesser degree than other oral steroids, though it does suppress endogenous testosterone production through negative feedback on the hypothalamic-pituitary-gonadal axis.",
+	"keyBenefits": [
+		"Promotes lean muscle mass gains with minimal water retention",
+		"Supports recovery of lost body weight following surgery, trauma, or chronic illness",
+		"Reduces bone pain associated with osteoporosis and improves bone mineral density",
+		"Does not aromatize to estrogen, avoiding estrogen-related side effects",
+		"Well-studied safety profile in women, children, and burn patients",
+		"Enhances nitrogen retention and protein synthesis during caloric deficit",
+		"Attenuates glucocorticoid-induced catabolism in post-surgical and burn patients",
+		"Lower androgenic potency compared to most oral anabolic steroids"
+	],
+	"indications": [
+		{
+			"category": "Weight Recovery & Wasting",
+			"items": [
+				{
+					"name": "Post-Surgical Weight Recovery",
+					"description": "FDA-approved for promoting weight regain following involuntary weight loss due to major surgery. Oxandrolone accelerates lean mass recovery and improves nitrogen balance during the recovery period.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Burn Recovery",
+					"description": "Extensively studied in severe burn patients, where oxandrolone reduces protein catabolism, accelerates wound healing, shortens hospital stays, and improves long-term lean body mass outcomes. Widely used in major burn centers.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "HIV/AIDS-Associated Wasting",
+					"description": "Effective for reversing muscle wasting and weight loss in patients with HIV/AIDS. Increases lean body mass and improves functional capacity in wasting syndrome.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Chronic Infection Weight Loss",
+					"description": "FDA-approved indication for weight recovery after chronic infections that result in significant involuntary weight loss.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Corticosteroid-Induced Muscle Wasting",
+					"description": "Counteracts catabolic effects of prolonged corticosteroid therapy by enhancing nitrogen retention and protein synthesis, helping preserve lean mass during necessary glucocorticoid treatment.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Bone & Joint Health",
+			"items": [
+				{
+					"name": "Osteoporosis-Related Bone Pain",
+					"description": "FDA-approved for relief of bone pain accompanying osteoporosis. Increases bone mineral density and reduces pain scores in osteoporotic patients, particularly postmenopausal women.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Turner Syndrome Growth Support",
+					"description": "Used as adjunctive therapy with growth hormone in girls with Turner syndrome to improve final adult height. Clinical trials show additive benefit when combined with GH therapy.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Mass Preservation During Caloric Deficit",
+					"description": "Promotes nitrogen retention and anti-catabolic effects during energy restriction, preserving lean tissue while facilitating fat loss. Commonly used during cutting phases.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Increases muscular strength through enhanced protein synthesis and creatine phosphate regeneration, without the water retention associated with aromatizing compounds.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Visceral Fat Reduction",
+					"description": "Clinical studies have demonstrated selective reduction in abdominal and visceral adipose tissue with oxandrolone treatment, independent of total caloric intake changes.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oxandrolone is exclusively administered orally as a 17-alpha-alkylated steroid. It is available in tablet form, typically in 2.5 mg, 5 mg, and 10 mg doses. The 17-alpha-methylation provides resistance to first-pass hepatic metabolism, allowing adequate oral bioavailability. Despite the alkylation, oxandrolone is among the least hepatotoxic of oral anabolic steroids, though liver function should still be monitored during use.",
+			"protocols": [
+				{
+					"goal": "Medical - Weight Recovery",
+					"dose": "2.5-20 mg/day",
+					"frequency": "Divided into 2-4 doses daily",
+					"route": "Oral",
+					"notes": "FDA-approved dosing range. Typical starting dose is 5-10 mg/day divided into two doses. Titrate based on clinical response and tolerability. Duration varies from 2-4 weeks to several months depending on clinical need."
+				},
+				{
+					"goal": "Medical - Burn Recovery",
+					"dose": "0.1 mg/kg twice daily",
+					"frequency": "Twice daily",
+					"route": "Oral",
+					"notes": "Standard burn center protocol, typically 10-20 mg/day in adults. Initiated during the acute recovery phase and continued through rehabilitation. Duration often extends to 12 months or longer in severe burn patients."
+				},
+				{
+					"goal": "Performance - Male (Conservative)",
+					"dose": "20-30 mg/day",
+					"frequency": "Split into 2 doses (morning and evening)",
+					"route": "Oral",
+					"notes": "Lower-end performance dose providing noticeable strength and lean tissue preservation with reduced side effect burden. Often used during cutting phases."
+				},
+				{
+					"goal": "Performance - Male (Standard)",
+					"dose": "40-50 mg/day",
+					"frequency": "Split into 2 doses (morning and evening)",
+					"route": "Oral",
+					"notes": "Most common male performance dose. Provides meaningful strength and body composition improvements. Cycle length typically 6-8 weeks. Liver support (NAC, TUDCA) recommended."
+				},
+				{
+					"goal": "Performance - Female",
+					"dose": "5-20 mg/day",
+					"frequency": "Split into 2 doses or taken once daily",
+					"route": "Oral",
+					"notes": "Oxandrolone is one of the most commonly used anabolic steroids in women due to its low androgenic profile. Virilization risk increases above 10 mg/day. Start low at 5 mg/day and assess tolerance over 2-3 weeks before increasing."
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral dosing with no injections required",
+				"Well-established pharmacokinetics with predictable absorption",
+				"Among the mildest oral steroids for hepatic stress",
+				"Flexible dosing range suitable for medical and performance contexts",
+				"Split dosing provides relatively stable serum levels throughout the day"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "Oxandrolone is frequently stacked with a testosterone base in male users. Testosterone provides estrogenic support for libido, joint lubrication, and mood, while oxandrolone adds additional anabolic effect with minimal water retention. A testosterone base also mitigates the suppressive effects of oxandrolone on endogenous production. Typical combination: TRT-dose testosterone (100-200 mg/week) with oxandrolone 20-50 mg/day."
+		},
+		{
+			"peptide": "Finasteride",
+			"status": "compatible",
+			"notes": "Finasteride inhibits 5-alpha reductase, which has limited relevance for oxandrolone since it is a DHT derivative that does not undergo significant 5-alpha reduction. Finasteride will not meaningfully alter oxandrolone's effects. The two can be used concurrently if finasteride is being taken for hair loss prevention related to other androgens."
+		},
+		{
+			"peptide": "N-Acetylcysteine (NAC)",
+			"status": "compatible",
+			"notes": "NAC provides hepatoprotective support through glutathione replenishment and antioxidant activity. Recommended as a concurrent supplement during oxandrolone use to mitigate mild hepatic stress from 17-alpha-alkylation. Typical dose: 600-1200 mg/day."
+		},
+		{
+			"peptide": "TUDCA",
+			"status": "compatible",
+			"notes": "Tauroursodeoxycholic acid (TUDCA) is a bile salt that protects against cholestatic liver injury and supports bile flow. Commonly used alongside oral anabolic steroids as hepatic support. Typical dose: 250-500 mg/day during the cycle."
+		},
+		{
+			"peptide": "Warfarin",
+			"status": "monitor",
+			"notes": "Oxandrolone potentiates the anticoagulant effect of warfarin and other coumarin-type anticoagulants by increasing their half-life and reducing clearance. Concurrent use requires close monitoring of INR and potential dose reduction of the anticoagulant. This is a well-documented pharmacokinetic interaction."
+		},
+		{
+			"peptide": "Oral Hypoglycemics",
+			"status": "monitor",
+			"notes": "Oxandrolone may enhance the hypoglycemic effect of insulin and oral diabetes medications by improving insulin sensitivity. Blood glucose should be monitored closely and diabetes medication doses may need adjustment during oxandrolone therapy."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "synergistic",
+			"notes": "Oxandrolone and growth hormone have complementary mechanisms. GH promotes lipolysis and IGF-1 production while oxandrolone enhances protein synthesis and nitrogen retention. The combination is used in burn centers and has been studied in clinical settings for accelerating recovery and lean mass accrual."
+		},
+		{
+			"peptide": "Corticosteroids",
+			"status": "monitor",
+			"notes": "Oxandrolone can counteract the catabolic effects of corticosteroids, which is therapeutically useful in patients requiring prolonged steroid therapy. However, both compounds affect hepatic metabolism and fluid balance. Monitor liver function and edema when used concurrently."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Subtle improvements in muscle hardness and vascularity. Increased strength may begin to appear in the gym, particularly on compound lifts. Enhanced muscle pumps during training. Mild appetite changes possible."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Noticeable increase in strength and muscular endurance. Visible improvements in muscle definition and vascularity as the compound does not cause water retention. Early body composition changes become apparent, particularly in leaner individuals."
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Peak effects on strength and lean tissue. Meaningful improvements in body composition with reduced subcutaneous fat and preserved or increased lean mass. In clinical settings, measurable weight gain and improved nitrogen balance are documented by this stage."
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Continued lean mass and strength improvements. Lipid changes (HDL suppression) are typically at their most pronounced. Most performance users conclude their cycle at this point. In medical burn protocols, treatment often continues beyond this period with ongoing monitoring."
+		},
+		{
+			"period": "Post-Cycle (Week 1-4 after cessation)",
+			"effects": "Endogenous testosterone production begins to recover. Some strength and fullness may decrease. Lipid values begin normalizing within 2-4 weeks of discontinuation. Liver enzymes, if elevated, typically return to baseline within a few weeks. Post-cycle therapy may be warranted in males depending on cycle length and concurrent compounds."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"HDL cholesterol suppression (dose-dependent, most significant lipid effect)",
+			"LDL cholesterol elevation",
+			"Mild hepatic stress (elevated liver enzymes ALT/AST)",
+			"Suppression of endogenous testosterone production",
+			"Mild headaches",
+			"Nausea or gastrointestinal discomfort",
+			"Changes in libido (increase or decrease depending on hormonal context)",
+			"Oily skin and mild acne"
+		],
+		"rare": [
+			"Hair thinning or accelerated male pattern baldness (dose-dependent, DHT derivative)",
+			"Virilization in women at higher doses (deepening voice, hirsutism, clitoral enlargement)",
+			"Significant hepatotoxicity (much less common than with other 17-alpha-alkylated steroids)",
+			"Peliosis hepatis (blood-filled cysts in the liver, extremely rare)",
+			"Tendon rupture (anecdotal reports of increased tendon fragility with rapid strength gains)",
+			"Mood changes including irritability or anxiety",
+			"Prolonged or persistent suppression of the HPTA axis beyond expected recovery window"
+		],
+		"stopSigns": [
+			"Yellowing of skin or eyes (jaundice, indicating significant hepatic dysfunction)",
+			"Severe or persistent abdominal pain, especially in the upper right quadrant",
+			"Dark-colored urine or clay-colored stools (signs of liver injury)",
+			"Unusual or prolonged bleeding or bruising",
+			"Severe swelling of the extremities",
+			"Signs of virilization in women that persist or worsen (discontinue immediately)",
+			"Chest pain, difficulty breathing, or signs of cardiovascular distress"
+		],
+		"contraindications": [
+			"Known or suspected prostate cancer",
+			"Breast cancer in males",
+			"Breast cancer with hypercalcemia in females",
+			"Pregnancy (Category X - known to cause fetal harm)",
+			"Nephrosis or nephrotic phase of nephritis",
+			"Hypercalcemia",
+			"Severe hepatic dysfunction or active liver disease",
+			"Hypersensitivity to oxandrolone or any formulation component"
+		],
+		"monitoring": [
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline, 4 weeks, and every 4-6 weeks during use",
+			"Liver function tests (ALT, AST, bilirubin, ALP): baseline and every 4-6 weeks during use",
+			"Complete blood count: baseline and periodically during treatment",
+			"Fasting glucose and HbA1c in diabetic patients: increased monitoring frequency",
+			"Total and free testosterone, LH, FSH: baseline and post-cycle to assess HPTA recovery",
+			"Serum calcium levels in patients at risk for hypercalcemia (especially cancer patients)",
+			"Bone age studies in pediatric patients to monitor epiphyseal closure",
+			"Virilization assessment in female patients at each follow-up visit"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade product with valid NDC number and manufacturer lot (Oxandrin or authorized generic)",
+			"Proper labeling with correct dosage per tablet (2.5 mg, 5 mg, or 10 mg), lot number, and expiration date",
+			"Tablets are uniform in size, color, and shape with consistent imprinting",
+			"Prescribed by a licensed physician with documented clinical indication",
+			"Stored in original packaging, protected from moisture and light",
+			"Third-party lab testing confirming identity, potency, and absence of contaminants"
+		],
+		"warning": [
+			"Underground lab (UGL) product without pharmaceutical-grade verification",
+			"Tablets with inconsistent sizing, crumbling, or no imprint",
+			"Product labeled at unusually high doses per tablet (above 50 mg)",
+			"No third-party certificate of analysis available",
+			"Packaging that appears unprofessional or has spelling errors"
+		],
+		"bad": [
+			"Product with no labeling or verifiable source information",
+			"Lab testing reveals underdosed or substituted compound (common with UGL oxandrolone)",
+			"Presence of methyl-1-testosterone or other substituted compounds instead of actual oxandrolone",
+			"Contaminated product with heavy metals, bacteria, or undisclosed active ingredients",
+			"Expired product or product stored improperly (excessive heat, moisture exposure)",
+			"Severe or unexpected side effects suggesting mislabeled or adulterated product"
+		]
+	},
+	"references": [
+		{
+			"title": "Oxandrolone in the Treatment of Burn Injuries: A Systematic Review and Meta-Analysis",
+			"authors": "Li, H., Guo, Y., Yang, Z., Roy, S.K., Tlszczuk, A.",
+			"journal": "Burns",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27613476/",
+			"keyFindings": "Systematic review confirming that oxandrolone significantly improves lean body mass, reduces weight loss, shortens hospital length of stay, and accelerates donor site healing in burn patients. Demonstrated a favorable safety profile with mild transient hepatic enzyme elevations as the primary adverse effect."
+		},
+		{
+			"title": "Long-Term Oxandrolone Use in Children With Severe Burns",
+			"authors": "Porro, L.J., Herndon, D.N., Rodriguez, N.A., et al.",
+			"journal": "Journal of Pediatric Surgery",
+			"year": "2012",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22703796/",
+			"keyFindings": "Long-term administration of oxandrolone (up to 12 months) in severely burned children improved lean body mass, bone mineral content, and muscle strength without clinically significant hepatotoxicity or premature epiphyseal closure, supporting its safety for extended use in pediatric burn patients."
+		},
+		{
+			"title": "Oxandrolone for the Treatment of Weight Loss Associated with HIV Infection",
+			"authors": "Berger, J.R., Pall, L., Hall, C.D., Simpson, D.M., Berry, P.S., Dudley, R.",
+			"journal": "AIDS",
+			"year": "1996",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8828760/",
+			"keyFindings": "Randomized controlled trial demonstrating that oxandrolone at 20 mg/day significantly increased body weight and lean body mass in HIV-infected men with weight loss, while being well-tolerated with minimal adverse effects over the 16-week study period."
+		},
+		{
+			"title": "Effects of Oxandrolone on Outcome Measures in the Severely Burned: A Multicenter Prospective Randomized Double-Blind Trial",
+			"authors": "Wolf, S.E., Thomas, S.J., Dasu, M.R., et al.",
+			"journal": "Journal of Burn Care & Research",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16566567/",
+			"keyFindings": "Multicenter RCT of 81 severely burned adults showing oxandrolone (10 mg twice daily) significantly reduced net nitrogen loss, decreased time to wound closure by 25%, and improved body composition during the acute recovery phase compared to placebo."
+		},
+		{
+			"title": "Oxandrolone in Trauma Patients",
+			"authors": "Demling, R.H., DeSanti, L.",
+			"journal": "Annals of Surgery",
+			"year": "2003",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12560779/",
+			"keyFindings": "Demonstrated that oxandrolone (20 mg/day) in major trauma patients restored lean body mass to pre-injury levels significantly faster than controls, while also improving wound healing rates and functional recovery measures during rehabilitation."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Anabolic Agents for Burn-Injured Patients: Current Practice and Future Directions",
+			"date": "September 2023",
+			"source": "Burns & Trauma",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37868278/",
+			"summary": "Comprehensive review of anabolic strategies in burn care highlighting oxandrolone as the most widely used and best-studied oral anabolic agent for burn recovery, with evidence supporting its use for up to 12 months post-injury to mitigate hypermetabolic muscle wasting."
+		},
+		{
+			"title": "Long-Term Impact of Oxandrolone on Bone Mineral Density in Pediatric Burn Survivors",
+			"date": "January 2022",
+			"source": "Journal of Clinical Endocrinology & Metabolism",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34665254/",
+			"summary": "Follow-up study of pediatric burn patients treated with oxandrolone showing sustained improvements in bone mineral density and lean body mass up to 5 years post-burn, with no long-term adverse effects on growth or endocrine function."
+		},
+		{
+			"title": "Oxandrolone and Exercise in Chronic Obstructive Pulmonary Disease",
+			"date": "March 2023",
+			"source": "Respiratory Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36764036/",
+			"summary": "Clinical trial evaluating oxandrolone combined with exercise training in COPD patients with muscle wasting demonstrated significant improvements in lean body mass, six-minute walk distance, and quality of life scores compared to exercise alone."
+		}
+	]
+}

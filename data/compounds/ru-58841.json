@@ -1,0 +1,215 @@
+{
+	"id": "ru-58841",
+	"name": "RU-58841",
+	"subtitle": "Topical Anti-Androgen | Experimental Hair Loss Treatment",
+	"aliases": ["RU58841", "PSK-3841", "HMR-3841"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["hair-loss"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "369.34 Da",
+		"type": "Non-steroidal anti-androgen",
+		"modifications": ["Androgen receptor antagonist", "Topical application only"],
+		"halfLife": "~1 hour topically (very short systemic half-life)",
+		"halfLifeSeconds": 3600
+	},
+	"quickStats": {
+		"typicalDose": "50mg/mL solution, 1mL applied daily",
+		"frequency": "Once daily",
+		"cycleDuration": "Continuous use; minimum 3-6 months to evaluate efficacy",
+		"storage": "Refrigerated (2-8C) for long-term storage; room temperature for short-term use. Protect from light and moisture."
+	},
+	"overview": "RU-58841 is a non-steroidal anti-androgen originally developed by Roussel Uclaf (later Hoechst Marion Roussel) in the 1970s-80s for topical treatment of androgen-dependent conditions including acne and androgenetic alopecia. It works by competitively binding to androgen receptors at the hair follicle, blocking the effects of dihydrotestosterone (DHT) locally without significantly reducing systemic androgen levels. Development was abandoned after Phase II clinical trials, and the compound was never submitted for regulatory approval. Despite this, RU-58841 has developed a substantial following in the hair loss community, where users source it as a raw research chemical and prepare their own topical solutions. Its extremely short systemic half-life means that even if absorbed through the skin, it is rapidly metabolized, limiting systemic anti-androgenic effects. However, the lack of completed clinical trials means its long-term safety profile remains unknown.",
+	"mechanism": "RU-58841 functions as a competitive antagonist of the androgen receptor (AR). When applied topically to the scalp, it penetrates the skin and binds directly to androgen receptors in dermal papilla cells of hair follicles, preventing dihydrotestosterone (DHT) and testosterone from activating those receptors. This is fundamentally different from 5-alpha reductase inhibitors like finasteride, which reduce DHT production systemically. RU-58841 does not lower DHT or testosterone levels at all; it simply blocks their action at the receptor level in the tissue where it is applied. The compound has a very high binding affinity for the androgen receptor but an extremely short systemic half-life of roughly one hour due to rapid hydrolysis of its amide bond in the bloodstream. This pharmacokinetic profile is intentional: it confines the anti-androgenic activity to the scalp while minimizing the risk of systemic side effects such as sexual dysfunction or hormonal disruption. Animal studies in hamster flank organ and stumptail macaque models demonstrated significant local anti-androgenic effects, including hair regrowth and inhibition of androgen-dependent sebaceous gland activity, without measurable systemic anti-androgenic effects at therapeutic topical doses.",
+	"keyBenefits": [
+		"Blocks DHT directly at the androgen receptor in hair follicles without reducing systemic DHT levels",
+		"Extremely short systemic half-life limits risk of systemic anti-androgenic side effects",
+		"Different mechanism of action from finasteride/dutasteride, allowing combination therapy",
+		"Animal studies demonstrated significant hair regrowth in androgen-dependent alopecia models",
+		"Topical application targets the site of action directly",
+		"Does not interfere with systemic testosterone or DHT levels"
+	],
+	"indications": [
+		{
+			"category": "Hair Loss",
+			"items": [
+				{
+					"name": "Androgenetic Alopecia (Male Pattern Hair Loss)",
+					"description": "Primary intended use. Blocks DHT at the follicular androgen receptor to prevent miniaturization. Animal models showed significant efficacy, and anecdotal reports from the hair loss community are broadly positive, but no completed Phase III trials exist.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "DHT-Sensitive Regions (Vertex and Temples)",
+					"description": "Targeted topical application allows concentration on the most androgen-sensitive areas of the scalp. Users typically apply directly to areas of thinning or recession.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Hair Loss Maintenance (Adjunct Therapy)",
+					"description": "Often used alongside finasteride and/or minoxidil as part of a multi-target approach. The distinct mechanism of action (receptor blockade vs. DHT reduction vs. vasodilation) provides theoretical rationale for combination use.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "RU-58841 is used exclusively as a topical solution applied to the scalp. It is not available as a commercial pharmaceutical product. Users typically purchase raw powder and dissolve it in a vehicle such as ethanol, propylene glycol, or a combination of the two. The standard concentration used in the community is 50mg/mL (5%), applied once daily. The solution is applied with a dropper or spray to affected areas of the scalp and allowed to dry. Consistency of daily application is important for maintaining receptor blockade at the follicle.",
+			"protocols": [
+				{
+					"goal": "Hair loss treatment (standard community protocol)",
+					"dose": "50mg (1mL of 50mg/mL solution)",
+					"frequency": "Once daily",
+					"route": "Topical application to affected scalp areas"
+				},
+				{
+					"goal": "Hair loss treatment (conservative)",
+					"dose": "25mg (1mL of 25mg/mL solution)",
+					"frequency": "Once daily",
+					"route": "Topical application to affected scalp areas"
+				}
+			],
+			"keyBenefits": [
+				"Direct delivery to target tissue",
+				"Minimal systemic absorption due to rapid metabolism",
+				"Can be applied precisely to areas of concern",
+				"Compatible with other topical hair loss treatments"
+			]
+		},
+		{
+			"type": "oral",
+			"available": false
+		},
+		{
+			"type": "injectable",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Finasteride",
+			"status": "synergistic",
+			"notes": "Highly complementary mechanisms. Finasteride reduces systemic DHT production via 5-alpha reductase inhibition, while RU-58841 blocks remaining DHT (and testosterone) from activating androgen receptors at the follicle. This dual approach addresses hair loss from two different angles and is one of the most common combination strategies in the hair loss community."
+		},
+		{
+			"peptide": "Minoxidil",
+			"status": "synergistic",
+			"notes": "Minoxidil promotes hair growth through vasodilation and potassium channel opening, a mechanism entirely independent of androgen signaling. Combining with RU-58841 addresses both the androgen-driven cause of miniaturization and the blood supply to follicles. Many users apply both topicals in the same daily routine, though they should be applied separately to ensure proper absorption of each."
+		},
+		{
+			"peptide": "Dutasteride",
+			"status": "synergistic",
+			"notes": "Similar rationale to the finasteride combination. Dutasteride inhibits both Type I and Type II 5-alpha reductase isoforms, providing more aggressive DHT suppression than finasteride. Adding RU-58841 blocks any remaining androgens at the receptor. This is considered an aggressive combination and is typically reserved for advanced hair loss."
+		},
+		{
+			"peptide": "Ketoconazole (Nizoral)",
+			"status": "compatible",
+			"notes": "Ketoconazole shampoo has mild anti-androgenic properties and antifungal activity that may benefit scalp health. No known negative interactions with RU-58841. Some users include ketoconazole shampoo as part of a comprehensive hair loss regimen."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-4",
+			"effects": "No visible changes expected. RU-58841 begins competing with DHT at androgen receptors in the scalp. Some users report reduced scalp oiliness within the first few weeks as local androgen activity decreases. An initial shedding phase may occur as follicles transition into a new growth cycle."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Shedding may continue or begin during this period as weakened hairs are replaced by stronger ones. Hair loss stabilization typically begins. Reduced hair fall during washing and brushing is commonly reported. Scalp sebum production may decrease noticeably."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Hair loss stabilization should be apparent. Early signs of improved hair density and thickness may be visible, particularly in areas of recent thinning. Vellus (fine, miniaturized) hairs may begin to transition toward terminal (thick, pigmented) hairs in responding follicles."
+		},
+		{
+			"period": "Month 6-12",
+			"effects": "This is the timeframe in which cosmetically noticeable improvement is most commonly reported. Hair density and caliber improvements become more apparent. As with all hair loss treatments, results vary significantly between individuals. Continued daily application is necessary to maintain receptor blockade."
+		},
+		{
+			"period": "Year 1+",
+			"effects": "Maintenance phase. Continued use is required to sustain results, as discontinuation removes the androgen receptor blockade and allows DHT-driven miniaturization to resume. Long-term safety is unknown due to the absence of extended clinical trials."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Scalp irritation, dryness, or itching at the application site (often related to the vehicle/solvent rather than RU-58841 itself)",
+			"Contact dermatitis in sensitive individuals",
+			"Scalp flaking or peeling"
+		],
+		"rare": [
+			"Theoretical systemic anti-androgenic effects at high doses or with compromised skin barrier (reduced libido, fatigue)",
+			"Headache reported by some users (unclear if causally related)",
+			"Allergic reaction to the compound or vehicle components"
+		],
+		"stopSigns": [
+			"Severe or persistent scalp irritation, blistering, or open sores",
+			"Signs of systemic anti-androgenic effects (sexual dysfunction, breast tenderness, significant fatigue)",
+			"Allergic reaction (facial swelling, difficulty breathing, widespread rash)",
+			"Any unexplained systemic symptoms that correlate with use"
+		],
+		"contraindications": [
+			"Women who are pregnant or may become pregnant (anti-androgens can cause feminization of a male fetus)",
+			"Women who are breastfeeding",
+			"Known hypersensitivity to RU-58841 or related non-steroidal anti-androgens",
+			"Active scalp infections, open wounds, or severely compromised skin barrier on the scalp",
+			"Individuals taking systemic anti-androgens (risk of additive anti-androgenic effects)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Purchased from a reputable research chemical supplier with third-party testing",
+			"Certificate of analysis (COA) provided showing purity of 99% or higher",
+			"Powder is fine, white to off-white, and free of clumps or discoloration",
+			"Stored properly (refrigerated, protected from light and moisture)",
+			"Solution prepared with pharmaceutical-grade solvents at accurate concentrations"
+		],
+		"warning": [
+			"Supplier does not provide a certificate of analysis or third-party testing",
+			"Powder has unusual color, odor, or texture",
+			"Purchased from a source with limited or no reputation in the community",
+			"Pre-mixed solutions without clear labeling of concentration or ingredients"
+		],
+		"bad": [
+			"No testing documentation of any kind available",
+			"Purchased from unknown or unverified sources",
+			"Powder that is yellow, brown, or has a strong chemical odor",
+			"Solution that appears cloudy, contains particulates, or has separated",
+			"Product sold with therapeutic claims (illegal for an unapproved compound)"
+		]
+	},
+	"references": [
+		{
+			"title": "RU 58841, a new specific topical antiandrogen: a candidate of choice for the treatment of acne, androgenetic alopecia and hirsutism",
+			"authors": "Battmann T, Bonfils A, Branche C, Wadsworth J, Schladt L, Kuch K, Grob PM",
+			"year": "1994",
+			"journal": "Journal of Steroid Biochemistry and Molecular Biology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8049236/",
+			"keyFindings": "Characterized RU-58841 as a potent non-steroidal anti-androgen with high affinity for the androgen receptor. Demonstrated strong topical anti-androgenic activity with minimal systemic effects in animal models, establishing its pharmacological profile as a locally active anti-androgen suitable for dermatological applications."
+		},
+		{
+			"title": "Topical anti-androgen treatments for androgenetic alopecia and acne in the stumptail macaque model",
+			"authors": "Pan HJ, Wilding G, Uno H, Inui S, Goldsmith LA",
+			"year": "1999",
+			"journal": "Journal of Dermatological Science",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10344973/",
+			"keyFindings": "Evaluated RU-58841 and other anti-androgens in stumptail macaques, a primate model for androgenetic alopecia. Topical RU-58841 application promoted hair regrowth and increased hair follicle size without systemic anti-androgenic side effects, supporting the concept of localized androgen receptor blockade for treating hair loss."
+		},
+		{
+			"title": "Effect of the nonsteroidal antiandrogen, RU 58841, on the hamster flank organ",
+			"authors": "Uno H, Obana N, Bhargava A, Desmond J, Pan HJ",
+			"year": "1994",
+			"journal": "Journal of Investigative Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8006447/",
+			"keyFindings": "Demonstrated that topical application of RU-58841 to the androgen-sensitive hamster flank organ produced significant local anti-androgenic effects, including reduction of sebaceous gland size, without affecting contralateral untreated organs or systemic androgen markers. Confirmed the compound's ability to act locally without systemic absorption."
+		},
+		{
+			"title": "New topical antiandrogens for hair growth disorders",
+			"authors": "Hoffmann R, Happle R",
+			"year": "2000",
+			"journal": "Expert Opinion on Investigational Drugs",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11060677/",
+			"keyFindings": "Reviewed the landscape of topical anti-androgens under development for androgenetic alopecia, with RU-58841 highlighted as one of the most promising candidates. Discussed the rationale for topical anti-androgen therapy, the pharmacokinetics favoring local over systemic activity, and the unmet clinical need for agents that could block androgen action at the follicle without hormonal side effects."
+		}
+	]
+}

@@ -1,0 +1,337 @@
+{
+	"id": "sildenafil",
+	"name": "Sildenafil",
+	"subtitle": "PDE5 Inhibitor | Erectile Function & Pulmonary Hypertension",
+	"aliases": ["Viagra", "Revatio"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["pde5", "sexual-health"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "474.58 Da",
+		"type": "Small molecule phosphodiesterase type 5 (PDE5) inhibitor",
+		"modifications": [
+			"Pyrazolopyrimidinone core structure provides potent PDE5 inhibition",
+			"Sulfonamide moiety contributes to oral bioavailability and selectivity",
+			"Lower PDE5/PDE6 selectivity ratio compared to tadalafil accounts for visual side effects at higher doses"
+		],
+		"halfLife": "~3-5 hours",
+		"halfLifeSeconds": 14400,
+		"halfLifeRoute": "oral"
+	},
+	"overview": "Sildenafil is the first PDE5 inhibitor to reach the market and remains one of the most widely recognized pharmaceuticals in the world. Originally developed by Pfizer scientists investigating treatments for angina and hypertension, sildenafil's pronounced effect on erectile function was discovered during Phase I clinical trials in 1992. It received FDA approval for erectile dysfunction in 1998 under the brand name Viagra, and subsequently gained a second FDA approval in 2005 as Revatio for the treatment of pulmonary arterial hypertension (PAH). Sildenafil is a shorter-acting PDE5 inhibitor with a half-life of 3-5 hours and a therapeutic window of approximately 4-6 hours. Unlike tadalafil, sildenafil absorption is significantly reduced by high-fat meals, and its lower selectivity for PDE5 over PDE6 (the retinal phosphodiesterase) can produce transient visual disturbances such as a blue-tinged color shift at higher doses. Despite the availability of longer-acting alternatives, sildenafil remains a first-line treatment for ED due to its well-established efficacy, extensive safety data spanning over 25 years, and wide generic availability.",
+	"mechanism": "Sildenafil selectively inhibits phosphodiesterase type 5 (PDE5), the enzyme responsible for the hydrolysis and degradation of cyclic guanosine monophosphate (cGMP) in vascular smooth muscle. During sexual arousal, nitric oxide (NO) is released from nerve terminals and endothelial cells in the corpus cavernosum, activating soluble guanylate cyclase and increasing intracellular cGMP concentrations. Elevated cGMP activates protein kinase G (PKG), which phosphorylates multiple targets leading to smooth muscle relaxation, vasodilation of penile arteries, and engorgement of the corpora cavernosa with blood. By inhibiting PDE5, sildenafil prevents cGMP breakdown, prolonging and amplifying this vasodilatory cascade. Sildenafil requires sexual stimulation to be effective, as NO release is the initiating signal. In pulmonary arterial hypertension, the same PDE5 inhibition relaxes pulmonary vascular smooth muscle, reducing pulmonary artery pressure and pulmonary vascular resistance, thereby decreasing right ventricular afterload and improving exercise capacity. Sildenafil also has moderate inhibitory activity against PDE6, the phosphodiesterase isoform in retinal photoreceptors, which underlies the transient visual color changes reported by some users.",
+	"keyBenefits": [
+		"First and most extensively studied PDE5 inhibitor with over 25 years of clinical data",
+		"Rapid onset of action (30-60 minutes) allows event-based dosing",
+		"FDA-approved for both erectile dysfunction (Viagra) and pulmonary arterial hypertension (Revatio)",
+		"Flexible dosing range (25-100mg) permits individualized titration",
+		"Shorter duration of action may be preferred by patients who want time-limited pharmacological effect",
+		"Extensive generic availability makes it one of the most affordable PDE5 inhibitors",
+		"Well-established safety profile across diverse patient populations",
+		"Proven efficacy in difficult-to-treat ED including diabetic and post-prostatectomy patients"
+	],
+	"indications": [
+		{
+			"category": "Sexual Health",
+			"items": [
+				{
+					"name": "Erectile Dysfunction",
+					"description": "First-line pharmacotherapy for ED of various etiologies. Demonstrated efficacy across a broad range of populations including patients with diabetes, spinal cord injury, post-radical prostatectomy, and psychogenic ED. Effective in approximately 70-85% of men with ED.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sexual Performance",
+					"description": "Rapid onset and predictable duration make sildenafil well-suited for planned sexual activity. The shorter therapeutic window provides a defined period of enhanced erectile response without prolonged pharmacological effect.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Cardiovascular",
+			"items": [
+				{
+					"name": "Pulmonary Arterial Hypertension",
+					"description": "FDA-approved as Revatio (20mg TID) for PAH (WHO Group 1) to improve exercise capacity and delay clinical worsening. Reduces mean pulmonary artery pressure, pulmonary vascular resistance, and improves 6-minute walk distance.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Raynaud's Phenomenon",
+					"description": "Evidence from controlled trials demonstrates that sildenafil reduces the frequency and severity of Raynaud's attacks by enhancing digital blood flow through NO-cGMP pathway augmentation. Used off-label in refractory cases.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Endothelial Function",
+					"description": "Acute and chronic PDE5 inhibition with sildenafil improves flow-mediated dilation and endothelial-dependent vasodilation across various cardiovascular risk populations.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Pulmonary",
+			"items": [
+				{
+					"name": "High-Altitude Pulmonary Edema Prevention",
+					"description": "Sildenafil has been studied for the prevention and treatment of high-altitude pulmonary edema (HAPE) by reducing exaggerated hypoxic pulmonary vasoconstriction. Used off-label by climbers and military personnel at extreme altitudes.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Neonatal Persistent Pulmonary Hypertension",
+					"description": "Used off-label in neonatal ICUs for persistent pulmonary hypertension of the newborn (PPHN) when inhaled nitric oxide is unavailable or insufficient. Evidence supports its use as an adjunct therapy.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Performance",
+			"items": [
+				{
+					"name": "Exercise Blood Flow",
+					"description": "Enhanced vasodilation may increase blood flow to working muscles. Some evidence suggests improved exercise performance at altitude via reduced pulmonary artery pressure. Effects at sea level are less well-established.",
+					"effectiveness": "emerging"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Sildenafil is administered orally as film-coated tablets (Viagra: 25, 50, 100mg) or as an oral suspension (Revatio: 10mg/mL). For ED, it should be taken approximately 30-60 minutes before sexual activity. High-fat meals significantly delay absorption and reduce peak plasma concentration by approximately 29%, so taking sildenafil on an empty stomach or after a light meal is recommended for optimal effect.",
+			"protocols": [
+				{
+					"goal": "ED (starting dose)",
+					"dose": "50mg",
+					"frequency": "As needed, 30-60 min before sexual activity",
+					"route": "Oral"
+				},
+				{
+					"goal": "ED (low dose)",
+					"dose": "25mg",
+					"frequency": "As needed, for patients >65 years, hepatic impairment, renal impairment, or CYP3A4 inhibitor use",
+					"route": "Oral"
+				},
+				{
+					"goal": "ED (maximum dose)",
+					"dose": "100mg",
+					"frequency": "As needed, max once per 24 hours",
+					"route": "Oral"
+				},
+				{
+					"goal": "Pulmonary arterial hypertension (Revatio)",
+					"dose": "20mg",
+					"frequency": "Three times daily, approximately 4-6 hours apart",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": [
+				"No injections or reconstitution required",
+				"Rapid onset within 30-60 minutes",
+				"Available in multiple tablet strengths for dose titration",
+				"Oral suspension available for patients who cannot swallow tablets",
+				"Generic versions widely available at low cost"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Revatio is available as a 10mg/12.5mL intravenous injection for PAH patients who are temporarily unable to take oral medication. IV sildenafil is administered as a bolus injection and is not used for erectile dysfunction.",
+			"protocols": [
+				{
+					"goal": "PAH (IV, when oral not feasible)",
+					"dose": "10mg (equivalent to 20mg oral)",
+					"frequency": "Three times daily as IV bolus",
+					"route": "Intravenous"
+				}
+			],
+			"keyBenefits": [
+				"Available for PAH patients unable to take oral formulation",
+				"Equivalent efficacy to oral dosing"
+			]
+		},
+		{
+			"type": "topical",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Nitrates (nitroglycerin, isosorbide)",
+			"status": "avoid",
+			"notes": "Absolutely contraindicated. Concurrent use causes severe, potentially fatal hypotension through synergistic cGMP accumulation and profound vasodilation. Do not use sildenafil within 24 hours of any nitrate medication. This includes recreational nitrate use (amyl nitrite / poppers)."
+		},
+		{
+			"peptide": "Alpha-blockers (tamsulosin, doxazosin)",
+			"status": "monitor",
+			"notes": "Combined use may cause additive hypotension and symptomatic orthostatic drops. Patients should be hemodynamically stable on alpha-blocker therapy before initiating sildenafil. Dosing should be separated by at least 4 hours when used with non-selective alpha-blockers. Start sildenafil at 25mg."
+		},
+		{
+			"peptide": "Tadalafil",
+			"status": "avoid",
+			"notes": "Do not combine PDE5 inhibitors. Additive pharmacological effect on cGMP accumulation increases risk of severe hypotension, priapism, and other adverse events with no additional therapeutic benefit."
+		},
+		{
+			"peptide": "PT-141 (Bremelanotide)",
+			"status": "compatible",
+			"notes": "Different mechanisms of action (melanocortin receptor agonist vs PDE5 inhibitor). PT-141 acts centrally on arousal pathways while sildenafil acts peripherally on blood flow. Can be combined for refractory ED cases. Monitor blood pressure as both agents can produce mild hemodynamic effects."
+		},
+		{
+			"peptide": "Testosterone (TRT)",
+			"status": "synergistic",
+			"notes": "Testosterone replacement restores libido and upregulates androgen-dependent NO synthase expression in the corpus cavernosum, while sildenafil enhances the downstream vasodilatory response. Combined use is more effective than either agent alone for ED in hypogonadal men, as demonstrated in multiple controlled trials."
+		},
+		{
+			"peptide": "CYP3A4 Inhibitors (ketoconazole, ritonavir, erythromycin)",
+			"status": "monitor",
+			"notes": "Potent CYP3A4 inhibitors significantly increase sildenafil plasma concentrations. Ritonavir increases sildenafil AUC by 1,100%. With strong CYP3A4 inhibitors, start at 25mg and consider lower maximum doses. Erythromycin increases sildenafil AUC by 182%. Grapefruit juice should be avoided."
+		},
+		{
+			"peptide": "Antihypertensives (amlodipine, ACE inhibitors, ARBs)",
+			"status": "monitor",
+			"notes": "Additive blood pressure lowering. Sildenafil produces a mean additional reduction of 7-8 mmHg systolic and 3-5 mmHg diastolic when combined with antihypertensives. Usually clinically manageable but monitor for symptomatic hypotension."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known pharmacological interaction. BPC-157's effects on angiogenesis and NO system may theoretically complement sildenafil, though clinical data on the combination is lacking."
+		}
+	],
+	"timeline": [
+		{
+			"period": "30-60 minutes",
+			"effects": "Onset of action. Sildenafil reaches sufficient plasma concentrations for erectile response. Taking on an empty stomach accelerates onset; high-fat meals may delay this to 60-90 minutes."
+		},
+		{
+			"period": "60 minutes (Tmax)",
+			"effects": "Peak plasma concentration reached approximately 1 hour after dosing (range 30-120 minutes). Maximum pharmacological effect with strongest erectile response and vasodilatory activity."
+		},
+		{
+			"period": "2-3 hours",
+			"effects": "Robust therapeutic effect. Plasma levels remain well above the threshold for clinically meaningful PDE5 inhibition. This is the period of peak efficacy for most men."
+		},
+		{
+			"period": "4-6 hours",
+			"effects": "Therapeutic window begins to close. Erectile response to sexual stimulation gradually diminishes as plasma concentrations fall below therapeutic thresholds. Most men experience limited benefit beyond 4-5 hours."
+		},
+		{
+			"period": "3-5 hours (half-life)",
+			"effects": "Elimination half-life. Sildenafil is primarily metabolized by CYP3A4 (major) and CYP2C9 (minor) to its active metabolite N-desmethylsildenafil, which has approximately 50% of the parent compound's PDE5 inhibitory activity."
+		},
+		{
+			"period": "24 hours",
+			"effects": "Sildenafil and its active metabolite are substantially cleared from the body. No residual pharmacological effect in the vast majority of patients. Safe to administer nitrates after 24 hours if needed."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Headache (16% incidence, most common side effect)",
+			"Flushing / warmth (10%, due to systemic vasodilation)",
+			"Dyspepsia / indigestion (7%)",
+			"Nasal congestion / rhinitis (4%)",
+			"Visual disturbances -- blue-tinged vision, increased brightness perception, blurred vision (3%, due to PDE6 cross-reactivity in retinal photoreceptors)",
+			"Dizziness (2%)",
+			"Diarrhea (3%)",
+			"Rash (2%)"
+		],
+		"rare": [
+			"Non-arteritic anterior ischemic optic neuropathy (NAION) -- extremely rare, causal relationship uncertain but FDA black box warning issued",
+			"Sudden sensorineural hearing loss -- extremely rare, usually unilateral, may be accompanied by tinnitus",
+			"Priapism (prolonged erection >4 hours) -- rare but constitutes a medical emergency",
+			"Hypersensitivity reactions (urticaria, facial edema)",
+			"Epistaxis (nosebleed)",
+			"Seizures -- reported in post-marketing surveillance, extremely rare"
+		],
+		"stopSigns": [
+			"Priapism: erection lasting more than 4 hours -- seek emergency medical attention immediately to prevent ischemic damage and permanent erectile tissue injury",
+			"Sudden loss or decrease of vision in one or both eyes (possible NAION) -- discontinue and seek immediate ophthalmological evaluation",
+			"Sudden decrease or loss of hearing, with or without tinnitus and dizziness -- discontinue and seek immediate medical evaluation",
+			"Chest pain, angina, or symptoms of myocardial ischemia during or after sexual activity -- do not take nitrates, call emergency services",
+			"Severe hypotension: fainting, prolonged dizziness, or lightheadedness -- lie down and seek medical attention",
+			"Severe allergic reaction: difficulty breathing, throat swelling, widespread rash"
+		],
+		"contraindications": [
+			"Concurrent use of any organic nitrate medication (absolute contraindication)",
+			"Concurrent use of guanylate cyclase stimulators (e.g., riociguat)",
+			"Known hypersensitivity to sildenafil or any tablet excipient",
+			"Severe hepatic impairment (starting dose 25mg recommended in moderate impairment)",
+			"Severe renal impairment with CrCl <30 mL/min (starting dose 25mg recommended)",
+			"Recent stroke or myocardial infarction (within 6 months per original labeling)",
+			"Unstable angina or angina during sexual intercourse",
+			"Uncontrolled hypertension or symptomatic hypotension (resting BP <90/50 mmHg)",
+			"Hereditary degenerative retinal disorders including retinitis pigmentosa",
+			"History of NAION (relative contraindication -- increased recurrence risk)",
+			"Conditions predisposing to priapism (sickle cell anemia, multiple myeloma, leukemia)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Film-coated tablets with consistent shape, size, and color (branded Viagra: blue, diamond-shaped with 'Pfizer' deboss and 'VGR' + dose strength)",
+			"Clear labeling with manufacturer, lot number, expiration date, and NDC",
+			"Blister packaging or sealed bottle with tamper-evident features",
+			"Purchased from a licensed pharmacy or verified online pharmacy (VIPPS-accredited)",
+			"Generic versions manufactured by reputable pharmaceutical companies with FDA ANDA approval"
+		],
+		"warning": [
+			"Unusually low pricing compared to established generic pricing",
+			"Tablets that vary in size, color, or markings within the same batch",
+			"Packaging with spelling errors, poor print quality, or missing regulatory information",
+			"Sold without requiring a prescription in jurisdictions where one is legally required",
+			"Online pharmacies that do not require any medical history or evaluation"
+		],
+		"bad": [
+			"Tablets that crumble, have an unusual odor, or are discolored",
+			"Products sourced from unregulated overseas pharmacies with no quality verification",
+			"'Herbal' or 'natural' supplements found to contain undeclared sildenafil (a common finding in FDA testing)",
+			"No expiration date, lot number, or manufacturer information on packaging",
+			"Counterfeit packaging -- Pfizer Viagra has specific security features including hologram on box"
+		]
+	},
+	"references": [
+		{
+			"title": "Sildenafil citrate therapy for pulmonary arterial hypertension",
+			"authors": "Galie N, Ghofrani HA, Torbicki A, Barst RJ, Rubin LJ, Badesch D, Fleming T, Parpia T, Burgess G, Branzi A, Grimminger F, Kurzyna M, Simonneau G",
+			"year": "2005",
+			"journal": "New England Journal of Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16291984/",
+			"keyFindings": "The SUPER-1 trial (Sildenafil Use in Pulmonary Arterial Hypertension) demonstrated that sildenafil 20mg, 40mg, and 80mg TID all significantly improved 6-minute walk distance, WHO functional class, and mean pulmonary artery pressure compared to placebo in 278 PAH patients. This pivotal trial led to FDA approval of sildenafil (Revatio) for PAH."
+		},
+		{
+			"title": "Oral sildenafil in the treatment of erectile dysfunction",
+			"authors": "Goldstein I, Lue TF, Padma-Nathan H, Rosen RC, Steers WD, Wicker PA",
+			"year": "1998",
+			"journal": "New England Journal of Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9578024/",
+			"keyFindings": "Landmark pivotal trial establishing sildenafil efficacy for ED. In 532 men with organic, psychogenic, or mixed ED, sildenafil 25-100mg significantly improved erections in 69% of all attempts vs 22% with placebo. Demonstrated dose-dependent improvements in IIEF scores and intercourse success across all ED etiologies."
+		},
+		{
+			"title": "Efficacy and safety of sildenafil citrate in the treatment of men with mild to moderate erectile dysfunction",
+			"authors": "Boolell M, Allen MJ, Ballard SA, Gepi-Attee S, Muirhead GJ, Naylor AM, Osterloh IH, Gingell C",
+			"year": "1996",
+			"journal": "International Journal of Impotence Research",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8858389/",
+			"keyFindings": "One of the earliest published clinical studies of sildenafil for ED. Demonstrated significant dose-dependent improvements in erectile function in men with mild to moderate ED in a double-blind, placebo-controlled crossover study. Established the therapeutic dose range of 25-100mg and confirmed the requirement for sexual stimulation."
+		},
+		{
+			"title": "Hemodynamic effects of sildenafil in men with severe coronary artery disease",
+			"authors": "Herrmann HC, Chang G, Klugherz BD, Mahoney PD",
+			"year": "2000",
+			"journal": "New England Journal of Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10861322/",
+			"keyFindings": "Demonstrated that sildenafil 100mg produced modest hemodynamic effects in patients with severe coronary artery disease during cardiac catheterization, including a 7% reduction in mean arterial pressure and 13% reduction in systemic vascular resistance. Confirmed the safety of sildenafil in cardiac patients when nitrates are not co-administered."
+		},
+		{
+			"title": "Phosphodiesterase type 5 (PDE5) inhibitors in the management of erectile dysfunction: an update",
+			"authors": "Hatzimouratidis K, Hatzichristou DG",
+			"year": "2005",
+			"journal": "Current Pharmaceutical Design",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16305432/",
+			"keyFindings": "Comprehensive pharmacological comparison of PDE5 inhibitors. Sildenafil demonstrated a Tmax of approximately 1 hour, half-life of 3-5 hours, and significant food interaction with high-fat meals. PDE5/PDE6 selectivity ratio of approximately 7:1 (vs >780:1 for tadalafil) accounts for visual disturbance profile unique to sildenafil."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "50mg as-needed (range 25-100mg)",
+		"frequency": "As needed, max once per 24 hours",
+		"cycleDuration": "Ongoing as prescribed; no cycling required",
+		"storage": "Room temperature (20-25C / 68-77F), protect from moisture and light"
+	}
+}

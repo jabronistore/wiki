@@ -1,0 +1,314 @@
+{
+	"id": "mk-2866",
+	"name": "MK-2866",
+	"subtitle": "Selective Androgen Receptor Modulator | Muscle Wasting Research",
+	"aliases": ["Ostarine", "Enobosarm", "GTx-024"],
+	"compoundKind": "sarm",
+	"categories": ["sarm", "anabolic"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "10-25 mg/day oral",
+		"frequency": "Once daily",
+		"cycleDuration": "6-8 weeks (typical), up to 12 weeks",
+		"storage": "Room temperature (59-86F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "389.33 Da",
+		"type": "Non-steroidal selective androgen receptor modulator (C19H14F3N3O3)",
+		"modifications": [
+			"Aryl propionamide scaffold with trifluoromethyl group",
+			"Cyano-substituted phenyl ring conferring AR selectivity",
+			"Non-steroidal structure avoids aromatization to estrogen"
+		],
+		"halfLife": "~24 hours",
+		"halfLifeSeconds": 86400,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "MK-2866 (Ostarine, Enobosarm) is a non-steroidal selective androgen receptor modulator (SARM) originally developed by GTx, Inc. (now Oncternal Therapeutics) for the prevention and treatment of muscle wasting and sarcopenia. It is the most extensively studied SARM in clinical trials, having progressed through Phase I, II, and III trials for cancer-related cachexia, stress urinary incontinence, and age-related muscle loss. MK-2866 selectively binds to androgen receptors in muscle and bone tissue with high affinity while exhibiting minimal activity in prostate and sebaceous glands, which differentiates it from traditional anabolic-androgenic steroids. Despite promising clinical data demonstrating significant lean body mass gains in cancer patients and elderly subjects, the FDA has not granted approval, and GTx's New Drug Application for stress urinary incontinence was not approved in 2018. MK-2866 remains classified as an investigational compound and is prohibited by WADA in competitive sports.",
+	"mechanism": "MK-2866 binds to the androgen receptor (AR) with high affinity and selectivity, functioning as a partial agonist in muscle and bone tissue. Upon binding, the MK-2866-AR complex undergoes a conformational change that promotes nuclear translocation and interaction with androgen response elements (AREs) on DNA, activating transcription of genes involved in protein synthesis, nitrogen retention, and myogenic differentiation. The tissue selectivity of MK-2866 arises from its non-steroidal structure, which produces a distinct AR conformational change compared to testosterone or DHT. This results in differential coactivator and corepressor recruitment across tissues. In skeletal muscle, MK-2866 robustly activates anabolic signaling pathways including PI3K/Akt/mTOR, increasing muscle protein synthesis and reducing protein degradation via suppression of ubiquitin-proteasome and myostatin pathways. In bone, it stimulates osteoblast differentiation and mineralization. Critically, MK-2866 demonstrates reduced androgenic activity in prostate tissue and does not undergo 5-alpha reduction to a more potent metabolite (unlike testosterone), nor does it aromatize to estrogen, which accounts for its lower incidence of androgenic and estrogenic side effects.",
+	"keyBenefits": [
+		"Increases lean body mass in a dose-dependent manner with clinical trial support",
+		"Preserves muscle mass during caloric deficit or catabolic conditions",
+		"Selective tissue activity reduces androgenic side effects compared to anabolic steroids",
+		"Oral bioavailability eliminates the need for injections",
+		"Does not aromatize to estrogen, avoiding gynecomastia and water retention",
+		"Improves physical function and stair-climbing power in clinical populations",
+		"Long 24-hour half-life allows convenient once-daily dosing",
+		"Mild side effect profile at commonly studied doses"
+	],
+	"indications": [
+		{
+			"category": "Muscle Wasting / Cachexia",
+			"items": [
+				{
+					"name": "Cancer Cachexia",
+					"description": "MK-2866 was originally developed for cancer-related muscle wasting. Phase II trials in cancer patients demonstrated statistically significant increases in lean body mass at doses of 1 mg and 3 mg daily over 16 weeks, regardless of cancer type, chemotherapy regimen, or baseline nutritional status.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Sarcopenia",
+					"description": "Age-related loss of muscle mass and strength. MK-2866 has shown improvements in lean body mass and physical function in elderly subjects, though Phase III trial endpoints for regulatory approval were not fully met.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Post-Surgical Muscle Preservation",
+					"description": "Potential application for preserving lean mass during prolonged immobilization or recovery from surgery, based on its anti-catabolic properties demonstrated in clinical populations.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Mass Gain",
+					"description": "At research doses of 12.5-25 mg daily, users report gains of 2-4 kg of lean body mass over 6-8 week cycles. Clinical trials at lower doses (1-3 mg) still showed statistically significant lean mass increases, suggesting a dose-dependent anabolic response.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Body Recomposition",
+					"description": "MK-2866 is commonly used for simultaneous muscle preservation and fat loss during caloric restriction. Its ability to maintain nitrogen balance in a deficit makes it suitable for recomposition protocols.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Fat Loss Support",
+					"description": "While not a direct fat-burning agent, MK-2866 preserves metabolically active lean tissue during a cut, indirectly supporting a higher basal metabolic rate and improved body composition outcomes.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Bone Health",
+			"items": [
+				{
+					"name": "Bone Mineral Density",
+					"description": "Preclinical and early clinical data suggest MK-2866 increases bone mineral density through direct osteoblast stimulation. This effect is consistent with its selective AR agonism in bone tissue and may benefit populations at risk for osteoporosis.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Physical Performance",
+			"items": [
+				{
+					"name": "Strength Improvement",
+					"description": "Users report modest but noticeable improvements in strength, particularly in compound lifts, during MK-2866 cycles. Clinical trials measured improved stair-climbing power as a functional endpoint.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Recovery Enhancement",
+					"description": "Accelerated recovery between training sessions is commonly reported, likely mediated by improved nitrogen retention and reduced exercise-induced muscle damage.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "MK-2866 is administered exclusively via the oral route, either as a liquid solution or in capsule form. Its high oral bioavailability and long half-life of approximately 24 hours make once-daily dosing practical and effective. In clinical trials, MK-2866 was administered as oral capsules at doses of 0.1 mg to 3 mg. Research and off-label use typically involves higher doses in the 10-25 mg range.",
+			"protocols": [
+				{
+					"goal": "Muscle Preservation (Cut / Deficit)",
+					"dose": "10-15 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Lower dose range intended for lean mass preservation during caloric deficit. Minimal suppression expected at this dose in most individuals. Cycle length of 6-8 weeks."
+				},
+				{
+					"goal": "Lean Mass Gain (Recomposition)",
+					"dose": "12.5-20 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Moderate dose for simultaneous lean mass gain and fat reduction at maintenance or slight surplus calories. Commonly used for body recomposition goals. Cycle length of 6-8 weeks."
+				},
+				{
+					"goal": "Lean Mass Gain (Bulk)",
+					"dose": "20-25 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Higher dose for maximizing lean mass gain with caloric surplus. Greater degree of testosterone suppression is expected. PCT may be warranted depending on individual bloodwork. Cycle length of 6-8 weeks."
+				},
+				{
+					"goal": "Female Protocol",
+					"dose": "5-10 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Lower dose range for females to minimize virilization risk. MK-2866 is considered one of the milder SARMs for female use. Cycle length of 4-6 weeks with bloodwork monitoring."
+				}
+			],
+			"keyBenefits": [
+				"No injections or reconstitution required",
+				"Convenient once-daily dosing due to 24-hour half-life",
+				"High oral bioavailability",
+				"Easy dose adjustment with liquid formulations",
+				"Consistent serum levels with regular daily administration"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "RAD-140",
+			"status": "monitor",
+			"notes": "Both are SARMs competing for the same androgen receptor. Stacking MK-2866 with RAD-140 will increase total androgenic load and significantly amplify HPTA suppression beyond what either compound produces alone. If combining, lower doses of each should be used, and bloodwork monitoring of testosterone, LH, and FSH is essential. Most users find RAD-140 alone sufficient and do not benefit meaningfully from adding MK-2866."
+		},
+		{
+			"peptide": "MK-677",
+			"status": "synergistic",
+			"notes": "MK-677 (Ibutamoren) stimulates growth hormone secretion through ghrelin receptor agonism, while MK-2866 provides direct androgen receptor activation in muscle. The combination supports lean mass accrual through complementary mechanisms without additive HPTA suppression, as MK-677 does not affect the androgen axis. Commonly stacked for body recomposition and lean gain goals."
+		},
+		{
+			"peptide": "Enclomiphene",
+			"status": "compatible",
+			"notes": "Enclomiphene is frequently used as a mini-PCT or on-cycle support with MK-2866 to mitigate testosterone suppression. Enclomiphene stimulates endogenous LH and FSH release, counteracting the mild HPTA suppression caused by MK-2866. This combination can help maintain natural testosterone levels during and after a SARM cycle."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "monitor",
+			"notes": "Combining MK-2866 with exogenous testosterone is generally redundant for most users, as testosterone already provides potent androgen receptor activation. However, some use low-dose MK-2866 alongside TRT for additional selective tissue effects. Monitor lipids closely, as both compounds can suppress HDL cholesterol."
+		},
+		{
+			"peptide": "Cardarine",
+			"status": "compatible",
+			"notes": "Cardarine (GW-501516) is a PPAR-delta agonist that enhances fatty acid oxidation and endurance without interacting with the androgen receptor. It does not contribute to HPTA suppression, making it a common addition to MK-2866 cycles targeting body recomposition or cutting goals."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions. BPC-157 supports tendon and connective tissue healing through distinct mechanisms unrelated to androgen receptor signaling. Can be used concurrently to support joint and soft tissue health during training."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1",
+			"effects": "Compound is reaching steady state due to the 24-hour half-life. Most users do not notice significant effects during the first week. Some report subtle improvements in workout recovery and mood by the end of the week."
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Noticeable improvements in recovery between training sessions. Increased muscle fullness and vascularity begin to appear, particularly in users at lower body fat percentages. Strength gains in compound movements may become apparent. Some users report improved joint comfort."
+		},
+		{
+			"period": "Week 4-5",
+			"effects": "Lean mass gains become measurable (1-2 kg). Visible improvements in muscle definition and body composition, especially during a recomposition or mild surplus. Strength continues to progress. Mild suppression symptoms may emerge in sensitive individuals at higher doses (slight fatigue, reduced libido)."
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Peak effects are realized. Lean mass gains of 2-4 kg are typical at 15-25 mg doses. Body fat reduction is noticeable in those training and eating for recomposition. Some degree of HPTA suppression is expected at this point, particularly at 20+ mg doses. HDL cholesterol may be mildly suppressed. Most users conclude their cycle within this window."
+		},
+		{
+			"period": "Post-Cycle (Week 1-4 off)",
+			"effects": "Testosterone levels typically recover within 2-4 weeks of discontinuation due to the relatively mild suppressive nature of MK-2866. Some users experience transient fatigue, reduced libido, or mood changes during the recovery window. Mini-PCT with enclomiphene or tamoxifen can accelerate recovery. Lean mass gains are largely retained with proper training and nutrition."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild testosterone suppression (dose-dependent, typically 10-30% reduction at 25 mg)",
+			"HDL cholesterol reduction (10-20% suppression observed in clinical trials)",
+			"Headaches, particularly during the first 1-2 weeks",
+			"Mild back pain or muscle cramps",
+			"Transient fatigue toward the end of longer cycles",
+			"Slight reduction in libido at higher doses or extended cycle lengths"
+		],
+		"rare": [
+			"Joint dryness or discomfort at higher doses (due to reduced estrogenic signaling)",
+			"Nausea or gastrointestinal discomfort",
+			"Elevated liver enzymes (AST/ALT), typically mild and reversible",
+			"Hair shedding in individuals predisposed to androgenic alopecia",
+			"Skin dryness or mild acne",
+			"Significant HPTA suppression requiring full PCT (more common with prolonged or high-dose use)"
+		],
+		"stopSigns": [
+			"Persistent or severe liver pain (right upper quadrant tenderness)",
+			"Yellowing of skin or eyes (jaundice)",
+			"Severe or persistent headaches not relieved by standard measures",
+			"Chest pain, heart palpitations, or shortness of breath",
+			"Signs of significant hormonal disruption: severe mood changes, persistent erectile dysfunction, or testicular pain",
+			"Unusual swelling in extremities"
+		],
+		"contraindications": [
+			"Active liver disease or significantly elevated liver enzymes",
+			"Hormone-sensitive cancers (breast, prostate) without oncologist clearance",
+			"Pregnancy or breastfeeding (potential endocrine disruption to fetus/infant)",
+			"Individuals under 21 years of age (risk of premature HPTA disruption during development)",
+			"Concurrent use of hepatotoxic medications without liver function monitoring",
+			"Known hypersensitivity to MK-2866 or any formulation excipients",
+			"Competitive athletes subject to WADA or USADA anti-doping testing"
+		],
+		"monitoring": [
+			"Total testosterone, free testosterone, LH, FSH: baseline and 4 weeks into cycle",
+			"Lipid panel (total cholesterol, LDL, HDL, triglycerides): baseline and end of cycle",
+			"Liver function tests (AST, ALT, bilirubin): baseline and every 4-6 weeks",
+			"Complete blood count: baseline and end of cycle",
+			"Post-cycle bloodwork at 4 weeks after discontinuation to confirm hormonal recovery"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party lab testing (HPLC/MS) confirming compound identity and purity above 98%",
+			"Clear labeling with compound name, concentration, batch number, and expiration date",
+			"Certificate of analysis (CoA) available with matching batch number",
+			"Liquid solution is clear with no visible particulates, cloudiness, or discoloration",
+			"Capsules are uniformly filled with consistent weight across the batch",
+			"Vendor has an established reputation with verified independent lab testing"
+		],
+		"warning": [
+			"No third-party lab testing or certificate of analysis available",
+			"Unusually low price compared to market average (potential underdosing or substitution)",
+			"Vague or incomplete labeling missing concentration, batch number, or expiration",
+			"Vendor makes explicit therapeutic or curative claims",
+			"Product marketed as a dietary supplement rather than a research chemical"
+		],
+		"bad": [
+			"Lab testing reveals wrong compound, contamination, or significant underdosing",
+			"Product contains undisclosed active ingredients (prohormones, methylated steroids)",
+			"Liquid is discolored, cloudy, or contains visible particles or precipitate",
+			"No labeling or labeling does not match contents",
+			"Vendor provides no verifiable contact information or has a history of failed third-party testing",
+			"Product seized or flagged by regulatory authorities for adulteration"
+		]
+	},
+	"references": [
+		{
+			"title": "The Safety, Pharmacokinetics, and Effects of LGD-4033, a Novel Nonsteroidal Oral, Selective Androgen Receptor Modulator, in Healthy Young Men (Dalton et al. - Ostarine Phase II)",
+			"authors": "Dalton, J.T., Barnette, K.G., Bohl, C.E., et al.",
+			"journal": "Journal of Cachexia, Sarcopenia and Muscle",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21984690/",
+			"keyFindings": "Phase II randomized, double-blind, placebo-controlled trial of enobosarm (GTx-024/MK-2866) in 120 healthy elderly men and postmenopausal women. Doses of 1 mg and 3 mg daily for 12 weeks produced statistically significant, dose-dependent increases in total lean body mass and improvements in physical function (stair-climbing power). The compound was well tolerated with no serious adverse events."
+		},
+		{
+			"title": "Effects of Enobosarm on Muscle Wasting and Physical Function in Patients with Cancer: A Double-Blind, Randomised Controlled Phase 2 Trial",
+			"authors": "Dobs, A.S., Boccia, R.V., Croot, C.C., et al.",
+			"journal": "The Lancet Oncology",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23499544/",
+			"keyFindings": "Phase II trial of enobosarm in 159 cancer patients with muscle wasting. Both 1 mg and 3 mg doses produced significant increases in lean body mass compared to placebo at 16 weeks, regardless of cancer type or concurrent chemotherapy. Median lean body mass increased by 1.5 kg (3 mg group) versus a loss of 0.02 kg in placebo. The drug was well tolerated with a safety profile comparable to placebo."
+		},
+		{
+			"title": "Enobosarm (GTx-024) Phase III Clinical Trials for Cancer Cachexia: POWER 1 and POWER 2",
+			"authors": "Crawford, J., Prado, C.M., Johnston, M.A., et al.",
+			"journal": "Annals of Oncology",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27604538/",
+			"keyFindings": "Two pivotal Phase III trials (POWER 1 and POWER 2) evaluating enobosarm 3 mg daily in patients with non-small cell lung cancer cachexia. Both trials met the lean body mass co-primary endpoint, demonstrating significantly greater muscle mass versus placebo. The stair-climbing power co-primary endpoint showed a positive trend but did not reach statistical significance in the responder analysis, contributing to the FDA's decision not to approve the drug for this indication."
+		},
+		{
+			"title": "Selective Androgen Receptor Modulators (SARMs) as Function Promoting Therapies",
+			"authors": "Narayanan, R., Coss, C.C., Dalton, J.T.",
+			"journal": "Current Opinion in Clinical Nutrition & Metabolic Care",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/30113903/",
+			"keyFindings": "Comprehensive review of SARM development with focus on enobosarm as the most clinically advanced SARM. Describes the tissue-selective mechanism of action, clinical trial results, and potential therapeutic applications for muscle wasting, sarcopenia, breast cancer, and stress urinary incontinence."
+		},
+		{
+			"title": "Pharmacology of Selective Androgen Receptor Modulators",
+			"authors": "Mohler, M.L., Bohl, C.E., Jones, A., et al.",
+			"journal": "Bioorganic & Medicinal Chemistry",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19162462/",
+			"keyFindings": "Detailed pharmacological characterization of aryl propionamide SARMs including MK-2866. Describes structure-activity relationships, androgen receptor binding kinetics, and the molecular basis for tissue selectivity. Provides the foundational medicinal chemistry context for understanding how MK-2866 achieves selective anabolic activity without significant androgenic effects in non-target tissues."
+		}
+	]
+}

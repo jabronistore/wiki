@@ -1,0 +1,282 @@
+{
+	"id": "finasteride",
+	"name": "Finasteride",
+	"subtitle": "5-Alpha Reductase Inhibitor | DHT Blocker for Hair Loss & BPH",
+	"aliases": ["Propecia", "Proscar"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["hair-loss"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "372.54 Da",
+		"type": "Synthetic 4-azasteroid compound",
+		"modifications": ["Type II 5-alpha reductase inhibitor"],
+		"halfLife": "6-8 hours (DHT suppression persists ~24 hours)",
+		"halfLifeSeconds": 25200
+	},
+	"quickStats": {
+		"typicalDose": "1mg/day (hair loss) or 5mg/day (BPH)",
+		"frequency": "Once daily",
+		"cycleDuration": "Continuous use; minimum 6-12 months to evaluate efficacy",
+		"storage": "Room temperature (15-30C), protect from moisture and light"
+	},
+	"overview": "Finasteride is an FDA-approved 5-alpha reductase inhibitor that blocks the conversion of testosterone to dihydrotestosterone (DHT), the primary androgen responsible for androgenetic alopecia (male pattern hair loss) and benign prostatic hyperplasia (BPH). At 1mg daily, it reduces scalp DHT levels by approximately 66%, slowing or halting hair loss in roughly 90% of men and producing visible regrowth in about 48% over one to two years. Originally developed for prostate enlargement at 5mg (Proscar), the lower 1mg dose (Propecia) was approved specifically for hair loss in 1997. It remains one of only two FDA-approved oral treatments for androgenetic alopecia and has decades of long-term safety data.",
+	"mechanism": "Finasteride competitively and selectively inhibits the Type II isoform of the enzyme 5-alpha reductase, which is predominantly found in hair follicles, the prostate, and the liver. This enzyme converts testosterone into dihydrotestosterone (DHT). By blocking this conversion, finasteride reduces serum DHT levels by approximately 70% and scalp DHT by roughly 66% at the 1mg dose. Since DHT is the primary androgen driving miniaturization of hair follicles in genetically susceptible individuals, lowering DHT levels allows affected follicles to recover, extend the anagen (growth) phase, and produce thicker terminal hairs. Notably, finasteride does not block androgen receptors and has minimal effect on testosterone levels, which may increase slightly (by about 10-15%) as a compensatory response to reduced DHT.",
+	"keyBenefits": [
+		"Reduces scalp DHT by approximately 66% at 1mg daily",
+		"Slows or stops hair loss progression in roughly 90% of men",
+		"Produces visible hair regrowth in approximately 48% of men within 1-2 years",
+		"FDA-approved with over 25 years of clinical use and long-term safety data",
+		"Convenient once-daily oral dosing with no injections required",
+		"Well-characterized side effect profile with low incidence of adverse events",
+		"Can be combined with minoxidil for enhanced efficacy"
+	],
+	"indications": [
+		{
+			"category": "Hair Loss",
+			"items": [
+				{
+					"name": "Androgenetic Alopecia (Male Pattern Hair Loss)",
+					"description": "FDA-approved at 1mg daily for the treatment of male pattern hair loss. Demonstrated to halt progression and promote regrowth, particularly at the vertex and mid-scalp regions.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Vertex (Crown) Hair Loss",
+					"description": "Strongest clinical evidence for regrowth in the vertex region, with significant increases in hair count documented in pivotal clinical trials.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Frontal / Mid-Scalp Hair Loss",
+					"description": "Effective at slowing frontal hairline recession and maintaining mid-scalp density, though regrowth tends to be less dramatic than at the vertex.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Early-Stage Hair Loss Prevention",
+					"description": "Most effective when started early in the hair loss process, before significant miniaturization has occurred. Preservation of existing hair is more reliable than regrowth of lost hair.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Prostate Health",
+			"items": [
+				{
+					"name": "Benign Prostatic Hyperplasia (BPH)",
+					"description": "FDA-approved at 5mg daily (Proscar) for the treatment of symptomatic BPH. Reduces prostate volume and improves urinary flow over 6-12 months of treatment.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Prostate Volume Reduction",
+					"description": "Consistently reduces prostate volume by approximately 20-30% with long-term use, alleviating obstructive urinary symptoms.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Finasteride is administered exclusively as an oral tablet. The 1mg dose (brand name Propecia) is indicated for androgenetic alopecia, while the 5mg dose (brand name Proscar) is indicated for BPH. Tablets should be taken at the same time each day, with or without food. Consistent daily dosing is essential, as DHT levels begin to recover within days of discontinuation.",
+			"protocols": [
+				{
+					"goal": "Hair loss treatment (standard)",
+					"dose": "1mg",
+					"frequency": "Once daily",
+					"route": "Oral tablet"
+				},
+				{
+					"goal": "Hair loss treatment (cost-saving protocol)",
+					"dose": "1.25mg (quarter of 5mg Proscar tablet)",
+					"frequency": "Once daily",
+					"route": "Oral tablet (quartered)"
+				},
+				{
+					"goal": "Hair loss treatment (reduced frequency)",
+					"dose": "1mg",
+					"frequency": "3x per week (Mon/Wed/Fri)",
+					"route": "Oral tablet"
+				},
+				{
+					"goal": "Benign Prostatic Hyperplasia",
+					"dose": "5mg",
+					"frequency": "Once daily",
+					"route": "Oral tablet"
+				}
+			],
+			"keyBenefits": [
+				"Simple once-daily oral dosing",
+				"Can be taken with or without food",
+				"Widely available as generic (low cost)",
+				"Decades of established clinical safety data"
+			]
+		},
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Topical finasteride formulations (typically 0.025-0.1%) have emerged as an alternative that may reduce systemic DHT suppression while maintaining local scalp efficacy. Applied directly to the scalp once daily, topical finasteride targets follicular DHT at the site of action. Some studies suggest comparable hair growth outcomes with lower rates of systemic side effects, though long-term data is more limited than for oral formulations.",
+			"protocols": [
+				{
+					"goal": "Topical hair loss treatment",
+					"dose": "0.025-0.1% solution, 1mL",
+					"frequency": "Once daily",
+					"route": "Topical application to scalp"
+				}
+			],
+			"keyBenefits": [
+				"Potentially reduced systemic side effects",
+				"Direct delivery to the target tissue",
+				"Can be compounded with minoxidil in combination formulations"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone (TRT)",
+			"status": "compatible",
+			"notes": "Commonly co-administered with testosterone replacement therapy to mitigate DHT-driven hair loss associated with exogenous testosterone. Finasteride helps preserve hair while maintaining the benefits of TRT."
+		},
+		{
+			"peptide": "Minoxidil",
+			"status": "synergistic",
+			"notes": "Gold-standard combination for hair loss treatment. Finasteride reduces DHT-mediated miniaturization while minoxidil stimulates follicular blood flow and prolongs the anagen phase. Studies show significantly better outcomes with the combination than either agent alone."
+		},
+		{
+			"peptide": "Dutasteride",
+			"status": "avoid",
+			"notes": "Both are 5-alpha reductase inhibitors. Dutasteride blocks both Type I and Type II isoforms and is more potent. Combining them provides no additional benefit and increases the risk of side effects from excessive DHT suppression."
+		},
+		{
+			"peptide": "RU-58841",
+			"status": "compatible",
+			"notes": "Different mechanisms of action. RU-58841 is a topical androgen receptor antagonist, while finasteride reduces DHT production systemically. Some users combine them for a multi-target approach to hair loss, though RU-58841 lacks FDA approval."
+		},
+		{
+			"peptide": "GHK-Cu",
+			"status": "compatible",
+			"notes": "GHK-Cu supports wound healing and may promote hair follicle health through copper peptide activity. No known negative interactions with finasteride."
+		},
+		{
+			"peptide": "Saw Palmetto",
+			"status": "monitor",
+			"notes": "Saw palmetto has weak 5-alpha reductase inhibitory activity. Combining with finasteride may modestly increase DHT suppression. Generally considered safe but may be redundant."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Month 1-3",
+			"effects": "Initial shedding phase is common and expected. Finasteride shifts follicles from the telogen (resting) phase into a new anagen (growth) cycle, causing weakened hairs to shed before stronger ones replace them. Serum DHT levels decrease rapidly within the first weeks."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Shedding subsides. Hair loss stabilization becomes noticeable, with reduced daily hair fall. Some early signs of improved hair density and quality may appear, particularly at the vertex. Most men notice that their hair loss has slowed or stopped."
+		},
+		{
+			"period": "Month 6-12",
+			"effects": "Visible improvement in hair density and thickness for responders. Clinical studies show measurable increases in hair count by this point. Cosmetically meaningful regrowth begins, especially in the crown area. This is the minimum timeframe to assess whether finasteride is effective for a given individual."
+		},
+		{
+			"period": "Month 12-24",
+			"effects": "Maximum therapeutic benefit is typically reached between 12 and 24 months. Hair count and thickness improvements plateau. Continued use is necessary to maintain results, as discontinuation leads to progressive loss of gained hair over 6-12 months."
+		},
+		{
+			"period": "Year 2+",
+			"effects": "Long-term maintenance phase. Finasteride continues to slow the rate of hair loss relative to untreated men. Five-year and ten-year studies show sustained benefit with continued use, though some natural age-related thinning may still occur over many years."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Decreased libido (reported in 1.8% of men in clinical trials vs 1.3% placebo)",
+			"Erectile dysfunction (reported in 1.3% vs 0.7% placebo)",
+			"Decreased ejaculate volume (reported in 0.8% vs 0.4% placebo)"
+		],
+		"rare": [
+			"Gynecomastia (breast tissue enlargement or tenderness)",
+			"Testicular pain",
+			"Depression or mood changes",
+			"Skin rash or allergic reaction",
+			"Elevated liver enzymes (very rare)"
+		],
+		"stopSigns": [
+			"Persistent sexual dysfunction that does not resolve after dose reduction or discontinuation",
+			"Breast lumps, pain, or nipple discharge (evaluate for gynecomastia)",
+			"Significant mood changes, depression, or suicidal ideation",
+			"Signs of allergic reaction (swelling of lips, tongue, throat, or face)",
+			"Testicular pain that is persistent or worsening"
+		],
+		"contraindications": [
+			"Women who are pregnant or may become pregnant (finasteride is teratogenic and can cause abnormalities of external genitalia in a male fetus; even handling crushed tablets poses a risk)",
+			"Women who are breastfeeding",
+			"Known hypersensitivity to finasteride or any component of the formulation",
+			"Severe hepatic impairment (finasteride is metabolized by the liver)",
+			"Pediatric patients (not indicated for use in children)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Manufactured by a reputable pharmaceutical company or licensed generic manufacturer",
+			"Tablets are uniform in color and size with clear imprint markings",
+			"Packaging includes lot number, expiration date, and NDC code",
+			"Prescribed through a licensed healthcare provider or legitimate telemedicine platform",
+			"Stored at controlled room temperature in original packaging"
+		],
+		"warning": [
+			"Tablets obtained from overseas pharmacies without prescription verification",
+			"Compounded formulations without certificate of analysis",
+			"Unusually low pricing that may indicate counterfeit product",
+			"Tablets that crumble easily or have inconsistent coloration"
+		],
+		"bad": [
+			"No manufacturer information or lot/batch numbers on packaging",
+			"Purchased from unregulated online sources with no pharmacy license",
+			"Tablets with unusual odor, discoloration, or visible defects",
+			"Product that arrives without proper sealed packaging or labeling"
+		]
+	},
+	"references": [
+		{
+			"title": "Long-term (5-year) multinational experience with finasteride 1 mg in the treatment of men with androgenetic alopecia",
+			"authors": "Kaufman KD, Olsen EA, Whiting D, Savin R, DeVillez R, Bergfeld W, Price VH, Van Neste D, Roberts JL, Hordinsky M, Shapiro J, Binkowitz B, Gormley GJ",
+			"year": "1998",
+			"journal": "European Journal of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9865198/",
+			"keyFindings": "In a 5-year study of 1,553 men, finasteride 1mg daily significantly increased hair count and improved hair appearance. At 5 years, treated men maintained a net increase in hair count compared to a progressive decline in the placebo group. The drug was well tolerated with a low incidence of sexual side effects."
+		},
+		{
+			"title": "The effects of finasteride on scalp skin and serum androgen levels in men with androgenetic alopecia",
+			"authors": "Drake L, Hordinsky M, Fiedler V, Swinehart J, Unger WP, Cotterill PC, Thiboutot DM, Lowe N, Jacobson C, Whiting D, Stieglitz S, Savin R, Clemmensen OJ, Therkildsen P, Lange Brock N, Tun P, Stegink AJ, Waldstreicher J",
+			"year": "1999",
+			"journal": "Journal of the American Academy of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10459113/",
+			"keyFindings": "Finasteride 1mg reduced scalp skin DHT levels by 64.1% and serum DHT by 68.6%, while serum testosterone increased 9.1%. Demonstrated that oral finasteride significantly reduces DHT both systemically and at the follicular level, providing the mechanistic basis for its efficacy in androgenetic alopecia."
+		},
+		{
+			"title": "A randomized, placebo-controlled trial of finasteride for the treatment of androgenetic alopecia in men",
+			"authors": "Leyden J, Dunlap F, Miller B, Winters P, Lebwohl M, Hecker D, Kraus S, Baldwin H, Shalita A, Draelos Z, Markou M, Thiboutot D, Rapaport M, Kang S, Kelly T, Pariser D, Webster G, Hordinsky M, Sperling L, Moy R, Shupack J, Stegink AJ, Waldstreicher J",
+			"year": "1999",
+			"journal": "Journal of the American Academy of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10459107/",
+			"keyFindings": "In this pivotal Phase III trial, finasteride 1mg daily significantly increased hair count in men with androgenetic alopecia. At 12 months, finasteride-treated patients showed a mean increase of 107 hairs in a 1-inch diameter circle versus a decrease of 50 hairs in the placebo group. Clinical improvements in hair growth were rated favorably by investigators and patients."
+		},
+		{
+			"title": "Finasteride in the treatment of men with androgenetic alopecia",
+			"authors": "McClellan KJ, Markham A",
+			"year": "1999",
+			"journal": "Drugs",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10090382/",
+			"keyFindings": "Comprehensive review establishing finasteride 1mg as a well-tolerated and effective first-line treatment for male androgenetic alopecia. Confirmed that finasteride produces clinically meaningful increases in hair count and scalp coverage, with drug-related adverse effects occurring at similar rates to placebo in the majority of patients."
+		},
+		{
+			"title": "The importance of dual 5alpha-reductase inhibition in the treatment of male pattern hair loss: results of a randomized placebo-controlled study of dutasteride versus finasteride",
+			"authors": "Olsen EA, Hordinsky M, Whiting D, Stough D, Hobbs S, Ellis ML, Wilson T, Rittmaster RS",
+			"year": "2006",
+			"journal": "Journal of the American Academy of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17110217/",
+			"keyFindings": "Head-to-head comparison of dutasteride 0.5mg versus finasteride 1mg showed dutasteride produced superior hair counts at 12 and 24 weeks, attributed to dual 5-alpha reductase inhibition. Both agents were well tolerated. Study provides context for finasteride's efficacy as a selective Type II inhibitor and its position relative to dual inhibitors."
+		}
+	]
+}

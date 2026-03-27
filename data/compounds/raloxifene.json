@@ -1,0 +1,235 @@
+{
+	"id": "raloxifene",
+	"name": "Raloxifene",
+	"subtitle": "Selective Estrogen Receptor Modulator | Gynecomastia & Bone Health",
+	"aliases": ["Evista", "Ralo"],
+	"compoundKind": "ancillary",
+	"categories": ["pct"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "473.58 Da",
+		"type": "Benzothiophene-derived selective estrogen receptor modulator",
+		"modifications": [
+			"Benzothiophene core structure with 4-hydroxyphenyl and piperidinylethoxy substituents",
+			"Metabolized primarily via glucuronidation (UGT1A1, UGT1A8, UGT1A10) rather than CYP-dependent pathways"
+		],
+		"halfLife": "~28 hours",
+		"halfLifeSeconds": 100800
+	},
+	"overview": "Raloxifene is a second-generation selective estrogen receptor modulator (SERM) FDA-approved for the prevention and treatment of postmenopausal osteoporosis and for breast cancer risk reduction. Unlike tamoxifen, raloxifene has a benzothiophene core rather than a triphenylethylene backbone, giving it a distinct tissue-selectivity profile. In performance enhancement contexts, raloxifene is widely regarded as the preferred SERM for gynecomastia reversal because of its stronger antagonist activity at breast tissue estrogen receptors with fewer off-target effects. However, raloxifene is not an effective standalone post-cycle therapy drug because it does not stimulate the hypothalamic-pituitary-testicular axis as robustly as tamoxifen or enclomiphene. Its weaker antagonism at hypothalamic estrogen receptors means it produces comparatively modest elevations in LH and FSH, making it poorly suited for driving testosterone recovery after anabolic steroid cycles. Raloxifene carries a lower risk of endometrial stimulation than tamoxifen, as it acts as an estrogen antagonist rather than a partial agonist in uterine tissue.",
+	"mechanism": "Raloxifene binds to both estrogen receptor alpha (ERalpha) and estrogen receptor beta (ERbeta), producing tissue-dependent agonist or antagonist effects determined by the local complement of coactivator and corepressor proteins. In breast tissue, raloxifene functions as a potent estrogen antagonist, blocking estradiol-mediated proliferative signaling with high selectivity. This strong breast-tissue antagonism underlies its effectiveness for gynecomastia treatment and breast cancer risk reduction. In bone, raloxifene acts as an estrogen agonist, maintaining bone mineral density by inhibiting osteoclast-mediated resorption. Critically, raloxifene is a weaker antagonist at hypothalamic estrogen receptors compared to tamoxifen, which means it produces less disruption of estrogen-driven negative feedback on GnRH secretion. The result is a more modest increase in LH and FSH compared to tamoxifen, limiting its utility as a standalone PCT agent. In the uterus, raloxifene does not exhibit the partial agonist activity seen with tamoxifen, which translates to a substantially lower risk of endometrial hyperplasia and endometrial cancer with long-term use. Raloxifene is metabolized primarily through glucuronidation rather than CYP450-dependent oxidation, which reduces the potential for drug-drug interactions compared to tamoxifen.",
+	"keyBenefits": [
+		"Superior breast tissue estrogen receptor antagonism makes it the preferred SERM for gynecomastia reversal",
+		"No estrogen agonist activity in the uterus, avoiding the endometrial risks associated with tamoxifen",
+		"Estrogen agonist activity in bone preserves bone mineral density and reduces fracture risk",
+		"Lower overall thromboembolic risk compared to tamoxifen",
+		"Metabolized via glucuronidation rather than CYP2D6, avoiding the drug interaction concerns that affect tamoxifen",
+		"Simple once-daily oral dosing with a manageable 28-hour half-life",
+		"FDA-approved with decades of clinical safety data in postmenopausal women"
+	],
+	"indications": [
+		{
+			"category": "Gynecomastia Treatment",
+			"items": [
+				{
+					"name": "Active Gynecomastia Reversal",
+					"description": "Raloxifene is considered the most effective SERM for reversing existing gynecomastia. Its strong antagonism at breast tissue estrogen receptors directly blocks the estradiol signaling that drives glandular proliferation. Clinical and anecdotal evidence consistently favors raloxifene over tamoxifen for reducing established gynecomastia tissue.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "On-Cycle Gynecomastia Prevention",
+					"description": "Blocks estrogen receptor activation in breast tissue during aromatizable steroid cycles without reducing systemic estrogen levels. Preferred over tamoxifen when the primary goal is gynecomastia prevention rather than HPTA stimulation.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Bone Health",
+			"items": [
+				{
+					"name": "Osteoporosis Prevention and Treatment",
+					"description": "FDA-approved for prevention and treatment of postmenopausal osteoporosis. Raloxifene acts as an estrogen agonist in bone tissue, maintaining bone mineral density and reducing the risk of vertebral fractures. The MORE trial demonstrated a 30-50% reduction in vertebral fracture risk.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Medical (FDA-Approved)",
+			"items": [
+				{
+					"name": "Breast Cancer Risk Reduction",
+					"description": "FDA-approved for reducing the risk of invasive breast cancer in postmenopausal women with osteoporosis and in postmenopausal women at high risk of breast cancer. The STAR trial demonstrated equivalent efficacy to tamoxifen for invasive breast cancer risk reduction with fewer side effects.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Raloxifene is administered orally as a tablet (raloxifene hydrochloride). It has approximately 60% oral absorption, though extensive first-pass glucuronidation results in an absolute bioavailability of about 2%. Despite the low bioavailability, the 60mg dose produces reliable clinical effects. Peak plasma concentrations are reached within 0.5-6 hours. The 28-hour half-life supports once-daily dosing. Can be taken with or without food.",
+			"protocols": [
+				{
+					"goal": "Gynecomastia reversal",
+					"dose": "60mg",
+					"frequency": "Once daily for 3-6 months",
+					"route": "Oral"
+				},
+				{
+					"goal": "On-cycle gynecomastia prevention",
+					"dose": "60mg",
+					"frequency": "Once daily throughout cycle",
+					"route": "Oral"
+				},
+				{
+					"goal": "Osteoporosis prevention/treatment (medical)",
+					"dose": "60mg",
+					"frequency": "Once daily",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": [
+				"Simple once-daily oral tablet dosing",
+				"28-hour half-life provides consistent plasma levels",
+				"No CYP2D6 dependency eliminates a major class of drug interactions",
+				"Room temperature storage with long shelf life"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": false
+		},
+		{
+			"type": "topical",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Tamoxifen",
+			"status": "avoid",
+			"notes": "Both are SERMs that compete for the same estrogen receptors. Combining two SERMs provides no meaningful additive benefit for gynecomastia or PCT and increases the risk of side effects including thromboembolic events. Choose one SERM based on the clinical goal: raloxifene for gynecomastia, tamoxifen for HPTA recovery."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "compatible",
+			"notes": "Raloxifene and anastrozole work through complementary mechanisms. Anastrozole reduces estrogen production via aromatase inhibition, while raloxifene blocks estrogen receptor signaling in breast tissue. Unlike tamoxifen, raloxifene is not metabolized via CYP pathways, so anastrozole does not impair its efficacy. Can be used together when both aromatase inhibition and breast tissue protection are desired."
+		},
+		{
+			"peptide": "Testosterone (exogenous)",
+			"status": "compatible",
+			"notes": "Raloxifene can be used alongside exogenous testosterone for on-cycle gynecomastia prevention or treatment. It blocks estrogen receptors in breast tissue without interfering with testosterone's anabolic effects or the beneficial effects of estradiol in other tissues. Note that raloxifene will not prevent or reverse HPTA suppression caused by exogenous testosterone."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Raloxifene begins binding to estrogen receptors in breast tissue. With a 28-hour half-life, near-steady-state plasma levels are reached within approximately 5 days. Early effects are subclinical."
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Steady-state levels are established. Users treating active gynecomastia may notice a reduction in breast tissue tenderness and sensitivity. The estrogen-blocking effect in breast tissue is building."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Measurable reduction in gynecomastia symptoms in responsive individuals. Breast tissue firmness and size may begin to decrease. Bone-protective estrogen agonist effects are accumulating."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Progressive reduction in gynecomastia glandular tissue in most users. Optimal results for gyno reversal typically require 3-6 months of consistent use. Earlier-stage gynecomastia responds more favorably than long-standing fibrotic tissue."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Hot flashes and increased sweating",
+			"Leg cramps and muscle spasms",
+			"Joint pain or stiffness",
+			"Peripheral edema (mild swelling in extremities)",
+			"Flu-like symptoms during initial weeks"
+		],
+		"rare": [
+			"Deep vein thrombosis or pulmonary embolism (lower incidence than tamoxifen but still elevated over baseline)",
+			"Retinal vein thrombosis or other visual disturbances",
+			"Stroke (risk elevated primarily in women with pre-existing cardiovascular risk factors)",
+			"Elevated triglycerides in individuals with pre-existing hypertriglyceridemia",
+			"Hepatic dysfunction or elevated liver enzymes"
+		],
+		"stopSigns": [
+			"Signs of blood clots: sudden leg pain or swelling, chest pain, shortness of breath, or coughing up blood",
+			"Sudden vision changes: blurred vision, loss of vision in one eye, or visual field deficits",
+			"Severe or persistent headache, confusion, or neurological symptoms suggestive of stroke",
+			"Unexplained calf tenderness with warmth or redness"
+		],
+		"contraindications": [
+			"History of deep vein thrombosis, pulmonary embolism, retinal vein thrombosis, or other venous thromboembolic events",
+			"Active or past history of stroke or transient ischemic attack",
+			"Known hypersensitivity to raloxifene hydrochloride or any excipients",
+			"Pregnancy or planned pregnancy (category X -- contraindicated)",
+			"Prolonged immobilization (e.g., post-surgical recovery, extended bed rest) due to elevated DVT risk",
+			"Severe hepatic impairment"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white tablets with uniform appearance and consistent size",
+			"Pharmaceutical-grade product from a licensed manufacturer or compounding pharmacy",
+			"Third-party certificate of analysis (COA) confirming identity, purity (>98%), and potency",
+			"Proper packaging with batch number, expiration date, and raloxifene hydrochloride content clearly labeled",
+			"HPLC or mass spectrometry testing verifying raloxifene content matches label claim"
+		],
+		"warning": [
+			"No COA or third-party testing documentation available",
+			"Product labeled ambiguously (e.g., generic 'anti-estrogen' or 'SERM' without specifying raloxifene)",
+			"Tablets that crumble easily, vary significantly in size, or have inconsistent coloring"
+		],
+		"bad": [
+			"Discolored, crumbling, or visibly degraded tablets",
+			"Unusual chemical odor or taste",
+			"No labeling, batch information, or expiration date",
+			"COA shows underdosed or contaminated product",
+			"Sourced from unverified vendors with no quality documentation or regulatory oversight"
+		]
+	},
+	"references": [
+		{
+			"title": "Raloxifene for the treatment of pubertal gynecomastia",
+			"authors": "Lawrence SE, Faught KA, Vethamuthu J, Lawson ML",
+			"journal": "Journal of Pediatric Endocrinology and Metabolism",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15055360/",
+			"keyFindings": "Raloxifene 60mg daily produced a significant reduction in breast tissue volume in adolescents with pubertal gynecomastia. Over 90% of subjects experienced measurable reduction in glandular tissue, establishing raloxifene as an effective pharmacological option for gynecomastia treatment."
+		},
+		{
+			"title": "Effect of raloxifene on bone mineral density, serum cholesterol concentrations, and uterine endometrium in postmenopausal women (MORE trial)",
+			"authors": "Ettinger B, Black DM, Mitlak BH, Knickerbocker RK, Nickelsen T, Genant HK, Christiansen C, Delmas PD, Zanchetta JR, Stakkestad J, Gluer CC, Krueger K, Cohen FJ, Eckert S, Ensrud KE, Avioli LV, Lips P, Cummings SR",
+			"journal": "JAMA",
+			"year": "1999",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10446694/",
+			"keyFindings": "The Multiple Outcomes of Raloxifene Evaluation (MORE) trial demonstrated that raloxifene 60mg daily increased bone mineral density by 2-3% and reduced the risk of vertebral fractures by 30-50% over 3 years in postmenopausal women with osteoporosis, without stimulating endometrial tissue. This trial was pivotal for FDA approval."
+		},
+		{
+			"title": "Effects of tamoxifen vs raloxifene on the risk of developing invasive breast cancer and other disease outcomes: the NSABP Study of Tamoxifen and Raloxifene (STAR) P-2 trial",
+			"authors": "Vogel VG, Costantino JP, Wickerham DL, Cronin WM, Cecchini RS, Atkins JN, Bevers TB, Fehrenbacher L, Pajon ER Jr, Wade JL 3rd, Robidoux A, Margolese RG, James J, Lippman SM, Runowicz CD, Ganz PA, Reis SE, McCaskill-Stevens W, Ford LG, Jordan VC, Wolmark N",
+			"journal": "JAMA",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16818903/",
+			"keyFindings": "The STAR trial directly compared raloxifene with tamoxifen for breast cancer risk reduction. Raloxifene was equally effective at reducing invasive breast cancer risk while producing fewer thromboembolic events, fewer cataracts, and no increase in endometrial cancer risk. Established raloxifene as the SERM with the more favorable side effect profile."
+		},
+		{
+			"title": "Raloxifene: a selective estrogen receptor modulator with tissue-specific pharmacological effects",
+			"authors": "Muchmore DB",
+			"journal": "Journal of Clinical Endocrinology and Metabolism",
+			"year": "2000",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10720054/",
+			"keyFindings": "Comprehensive review of raloxifene's tissue-selective mechanism of action, detailing its antagonist effects in breast and uterine tissue and agonist effects in bone. Explained the molecular basis for its distinct profile compared to tamoxifen, including differences in coactivator recruitment across tissue types."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "60mg oral daily",
+		"frequency": "Once daily",
+		"cycleDuration": "3-6 months (gynecomastia) or as directed for medical use",
+		"storage": "Room temperature, protected from light and moisture"
+	}
+}

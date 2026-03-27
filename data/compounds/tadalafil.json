@@ -1,0 +1,345 @@
+{
+	"id": "tadalafil",
+	"name": "Tadalafil",
+	"subtitle": "PDE5 Inhibitor | Erectile Function & Blood Flow",
+	"aliases": ["Cialis"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["pde5", "sexual-health"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "389.40 Da",
+		"type": "Small molecule phosphodiesterase type 5 (PDE5) inhibitor",
+		"modifications": [
+			"Methylenedioxyphenyl group enhances selectivity for PDE5 over PDE6",
+			"Extended duration compared to other PDE5 inhibitors due to slower dissociation kinetics"
+		],
+		"halfLife": "~17.5 hours",
+		"halfLifeSeconds": 63000,
+		"halfLifeRoute": "oral"
+	},
+	"overview": "Tadalafil is a long-acting PDE5 inhibitor FDA-approved for erectile dysfunction (ED), benign prostatic hyperplasia (BPH), and pulmonary arterial hypertension (PAH). Its extended half-life of approximately 17.5 hours provides a therapeutic window of up to 36 hours, earning it the nickname 'the weekend pill.' Unlike shorter-acting PDE5 inhibitors, tadalafil is uniquely suited for daily low-dose use (2.5-5mg), which maintains steady-state plasma levels and allows for spontaneous sexual activity without timing constraints. Originally developed by ICOS Corporation and marketed by Eli Lilly as Cialis, tadalafil received FDA approval in 2003 for ED and has since become one of the most widely prescribed medications in its class. Beyond sexual health, tadalafil has gained attention for its cardiovascular and hemodynamic benefits, including improved endothelial function, reduced blood pressure, and enhanced exercise capacity.",
+	"mechanism": "Tadalafil selectively inhibits phosphodiesterase type 5 (PDE5), the enzyme responsible for degrading cyclic guanosine monophosphate (cGMP) in smooth muscle tissue. During sexual stimulation, nitric oxide (NO) is released in the corpus cavernosum, activating guanylate cyclase and increasing cGMP levels. Elevated cGMP causes smooth muscle relaxation in penile arteries and the corpus cavernosum, facilitating increased blood flow and erection. By blocking PDE5, tadalafil prolongs and amplifies this cGMP-mediated vasodilatory signaling cascade. PDE5 is also expressed in pulmonary vasculature, prostatic smooth muscle, and the bladder neck, which accounts for tadalafil's therapeutic effects in PAH and BPH/LUTS. Tadalafil has high selectivity for PDE5 over PDE6 (the retinal isoform), which contributes to its lower incidence of visual disturbances compared to sildenafil.",
+	"keyBenefits": [
+		"Long-acting duration with a 36-hour therapeutic window",
+		"Daily low-dose option (2.5-5mg) eliminates timing constraints",
+		"FDA-approved for both ED and BPH/LUTS",
+		"Minimal food interaction compared to other PDE5 inhibitors",
+		"Improved endothelial function and blood flow",
+		"Lower incidence of visual side effects vs. sildenafil",
+		"Potential benefits for exercise performance via enhanced blood flow",
+		"Well-established long-term safety profile"
+	],
+	"indications": [
+		{
+			"category": "Sexual Health",
+			"items": [
+				{
+					"name": "Erectile Dysfunction",
+					"description": "First-line pharmacotherapy for ED of various etiologies including psychogenic, vasculogenic, and mixed. Effective in a broad range of patient populations including those with diabetes and post-prostatectomy.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sexual Confidence & Spontaneity",
+					"description": "Daily low-dose tadalafil maintains steady plasma levels, allowing for spontaneous sexual activity without the need to time dosing around intercourse.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Urological",
+			"items": [
+				{
+					"name": "Benign Prostatic Hyperplasia (BPH)",
+					"description": "FDA-approved at 5mg daily for treatment of BPH signs and symptoms, including urinary frequency, urgency, weak stream, and nocturia. Can be used alone or with alpha-blockers.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Lower Urinary Tract Symptoms (LUTS)",
+					"description": "Relaxes smooth muscle in the prostate, bladder neck, and urethra via PDE5 inhibition, improving urinary flow and reducing symptom severity.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Cardiovascular",
+			"items": [
+				{
+					"name": "Pulmonary Arterial Hypertension",
+					"description": "FDA-approved as Adcirca (40mg daily) for PAH (WHO Group 1) to improve exercise ability. Relaxes pulmonary vasculature and reduces right ventricular afterload.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Endothelial Function",
+					"description": "Enhances NO-cGMP signaling in systemic vasculature, improving flow-mediated dilation and arterial compliance. May slow progression of endothelial dysfunction.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Blood Pressure Reduction",
+					"description": "Modest systemic vasodilation produces small but clinically meaningful reductions in systolic and diastolic blood pressure, particularly in patients with mild hypertension.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Performance",
+			"items": [
+				{
+					"name": "Exercise Blood Flow / Muscle Pump",
+					"description": "Enhanced NO-mediated vasodilation may increase blood flow to working muscles during resistance training, producing a more pronounced pump effect. Evidence is largely anecdotal but mechanistically plausible.",
+					"effectiveness": "emerging"
+				},
+				{
+					"name": "High-Altitude Exercise Tolerance",
+					"description": "Some evidence suggests PDE5 inhibition can improve exercise performance at altitude by reducing pulmonary artery pressure and improving oxygen delivery.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Tadalafil is exclusively administered orally as film-coated tablets. It can be taken with or without food, as high-fat meals do not significantly affect absorption rate or extent. Two distinct dosing strategies exist: as-needed dosing for planned sexual activity, and daily low-dose for continuous coverage and BPH management.",
+			"protocols": [
+				{
+					"goal": "As-needed ED (starting dose)",
+					"dose": "10mg",
+					"frequency": "As needed, at least 30 min before sexual activity",
+					"route": "Oral"
+				},
+				{
+					"goal": "As-needed ED (adjusted dose)",
+					"dose": "20mg",
+					"frequency": "As needed, max once per 24 hours",
+					"route": "Oral"
+				},
+				{
+					"goal": "Daily low-dose ED (initiation)",
+					"dose": "2.5mg",
+					"frequency": "Once daily, same time each day",
+					"route": "Oral"
+				},
+				{
+					"goal": "Daily low-dose ED (standard)",
+					"dose": "5mg",
+					"frequency": "Once daily, same time each day",
+					"route": "Oral"
+				},
+				{
+					"goal": "BPH / LUTS",
+					"dose": "5mg",
+					"frequency": "Once daily",
+					"route": "Oral"
+				},
+				{
+					"goal": "Combined ED and BPH",
+					"dose": "5mg",
+					"frequency": "Once daily",
+					"route": "Oral"
+				},
+				{
+					"goal": "Pulmonary arterial hypertension (Adcirca)",
+					"dose": "40mg",
+					"frequency": "Once daily",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": [
+				"No injections or reconstitution required",
+				"Food does not significantly affect absorption",
+				"Room temperature storage",
+				"Available in multiple tablet strengths (2.5, 5, 10, 20mg)",
+				"Generic versions widely available"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": false
+		},
+		{
+			"type": "topical",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Nitrates (nitroglycerin, isosorbide)",
+			"status": "avoid",
+			"notes": "Absolutely contraindicated. Concurrent use causes severe, potentially fatal hypotension. Do not use tadalafil within 48 hours of any nitrate medication. This includes recreational nitrate use (amyl nitrite / poppers)."
+		},
+		{
+			"peptide": "Alpha-blockers (tamsulosin, doxazosin)",
+			"status": "monitor",
+			"notes": "Combined use may cause additive hypotension and symptomatic orthostatic drops. If co-administered, patient should be stable on alpha-blocker therapy first. Start tadalafil at the lowest dose. Tamsulosin (uroselective alpha-1a blocker) carries less risk than non-selective agents."
+		},
+		{
+			"peptide": "PT-141 (Bremelanotide)",
+			"status": "compatible",
+			"notes": "Different mechanisms of action (melanocortin receptor agonist vs PDE5 inhibitor). Can be used in combination for refractory ED cases. PT-141 acts centrally on arousal pathways while tadalafil acts peripherally on blood flow. Monitor blood pressure as both can cause mild BP changes."
+		},
+		{
+			"peptide": "Testosterone (TRT)",
+			"status": "synergistic",
+			"notes": "Testosterone replacement restores libido and androgen-dependent NO synthase expression, while tadalafil enhances the downstream vasodilatory response. Combined use is well-studied for ED in hypogonadal men and is more effective than either agent alone."
+		},
+		{
+			"peptide": "Other PDE5 Inhibitors (sildenafil, vardenafil)",
+			"status": "avoid",
+			"notes": "Do not combine PDE5 inhibitors. Additive pharmacological effect increases risk of hypotension, priapism, and other adverse events with no additional therapeutic benefit."
+		},
+		{
+			"peptide": "CYP3A4 Inhibitors (ketoconazole, ritonavir, grapefruit juice)",
+			"status": "monitor",
+			"notes": "Potent CYP3A4 inhibitors increase tadalafil plasma concentrations significantly. With ritonavir, tadalafil AUC increases 124%. Reduce tadalafil dose: max 10mg every 72 hours (as-needed) or 2.5mg daily with strong CYP3A4 inhibitors."
+		},
+		{
+			"peptide": "Antihypertensives (amlodipine, ACE inhibitors, ARBs)",
+			"status": "monitor",
+			"notes": "Additive blood pressure lowering effect. Usually well-tolerated and clinically manageable, but monitor for symptomatic hypotension especially when initiating tadalafil or increasing dose."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known pharmacological interaction. BPC-157's effects on angiogenesis and NO system may theoretically complement tadalafil, though clinical data on the combination is lacking."
+		}
+	],
+	"timeline": [
+		{
+			"period": "30-60 minutes (as-needed dosing)",
+			"effects": "Onset of action. Some men may respond as early as 15-20 minutes. Sufficient erectile response for intercourse typically achieved within this window."
+		},
+		{
+			"period": "2 hours",
+			"effects": "Peak plasma concentration (Tmax). Maximum pharmacological effect. Strongest erectile response and vasodilatory effects."
+		},
+		{
+			"period": "Up to 36 hours (as-needed dosing)",
+			"effects": "Therapeutic window for as-needed dosing. Erectile response to sexual stimulation remains enhanced throughout this period, though effect gradually diminishes."
+		},
+		{
+			"period": "Days 1-5 (daily dosing)",
+			"effects": "Steady-state plasma concentration reached by day 5 of daily dosing. Progressive improvement in spontaneous erectile function. Urinary symptoms from BPH may begin improving."
+		},
+		{
+			"period": "Weeks 2-4 (daily dosing)",
+			"effects": "Full therapeutic effect for BPH/LUTS typically evident. Consistent improvement in erectile function without timing constraints. Potential endothelial function improvements beginning."
+		},
+		{
+			"period": "Months 1-3 (daily dosing)",
+			"effects": "Sustained ED and BPH symptom management. Some evidence of progressive endothelial function improvement with continued daily use. Long-term tolerability well-established."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Headache (11-15% incidence, most common side effect)",
+			"Dyspepsia / indigestion (4-13%)",
+			"Back pain (3-9%, relatively unique to tadalafil among PDE5 inhibitors)",
+			"Myalgia / muscle aches (1-7%, thought to be related to PDE11 inhibition)",
+			"Nasal congestion / rhinitis (3-5%)",
+			"Flushing (1-4%)",
+			"Limb pain (1-3%)",
+			"Dizziness (1-2%)"
+		],
+		"rare": [
+			"Non-arteritic anterior ischemic optic neuropathy (NAION) -- extremely rare, causal relationship uncertain",
+			"Sudden sensorineural hearing loss -- extremely rare, causal relationship uncertain",
+			"Priapism (prolonged erection >4 hours) -- rare but requires immediate medical attention",
+			"Hypersensitivity reactions (rash, urticaria, facial edema, Stevens-Johnson syndrome)",
+			"Exfoliative dermatitis",
+			"Seizures"
+		],
+		"stopSigns": [
+			"Priapism: erection lasting more than 4 hours -- seek emergency medical attention immediately to prevent permanent tissue damage",
+			"Sudden loss or decrease in vision in one or both eyes (possible NAION)",
+			"Sudden decrease or loss of hearing, with or without tinnitus and dizziness",
+			"Chest pain, angina, or symptoms of a cardiac event during or after sexual activity",
+			"Severe hypotension symptoms: fainting, severe dizziness, lightheadedness upon standing",
+			"Allergic reaction: difficulty breathing, throat swelling, severe rash"
+		],
+		"contraindications": [
+			"Concurrent use of any organic nitrate medication (absolute contraindication)",
+			"Concurrent use of guanylate cyclase stimulators (e.g., riociguat)",
+			"Known hypersensitivity to tadalafil or any tablet excipient",
+			"Severe hepatic impairment (Child-Pugh Class C)",
+			"Recent stroke or myocardial infarction (within 90 days)",
+			"Unstable angina or angina during sexual intercourse",
+			"Uncontrolled hypertension (>170/100 mmHg) or hypotension (<90/50 mmHg)",
+			"NYHA Class IV heart failure",
+			"Hereditary degenerative retinal disorders (including retinitis pigmentosa)",
+			"History of NAION (relative contraindication -- increased recurrence risk)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Film-coated tablets with consistent shape, size, and color (branded Cialis: yellow, almond-shaped)",
+			"Clear labeling with manufacturer, lot number, expiration date, and NDC",
+			"Blister packaging or sealed bottle with tamper-evident features",
+			"Purchased from a licensed pharmacy or verified online pharmacy (VIPPS-accredited)",
+			"Generic versions manufactured by reputable pharmaceutical companies with FDA ANDA approval"
+		],
+		"warning": [
+			"Unusually low pricing compared to established generics",
+			"Tablets that vary in size, color, or markings within the same batch",
+			"Packaging with spelling errors, poor print quality, or missing regulatory information",
+			"Sold without requiring a prescription in jurisdictions where one is legally required",
+			"Online pharmacies that do not require any medical evaluation"
+		],
+		"bad": [
+			"Tablets that crumble, have an unusual odor, or are discolored",
+			"Products sourced from unregulated overseas pharmacies with no quality verification",
+			"'Herbal' or 'natural' supplements found to contain undeclared tadalafil",
+			"No expiration date, lot number, or manufacturer information on packaging",
+			"Counterfeit packaging -- check manufacturer security features (holograms, embossing)"
+		]
+	},
+	"references": [
+		{
+			"title": "Tadalafil for the treatment of benign prostatic hyperplasia",
+			"authors": "Giuliano F, Uckert S, Maggi M, Birder L, Kiber A, Brock GB",
+			"year": "2013",
+			"journal": "European Urology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23352604/",
+			"keyFindings": "Comprehensive review of tadalafil 5mg once daily for BPH/LUTS. Demonstrated statistically significant and clinically meaningful improvements in IPSS total score vs placebo across multiple RCTs. Confirmed that daily tadalafil effectively treats both ED and BPH simultaneously in men with comorbid conditions."
+		},
+		{
+			"title": "Tadalafil administered once daily for lower urinary tract symptoms secondary to benign prostatic hyperplasia: a dose finding study",
+			"authors": "Roehrborn CG, McVary KT, Elion-Mboussa A, Viktrup L",
+			"year": "2008",
+			"journal": "Journal of Urology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18639271/",
+			"keyFindings": "Phase II dose-finding study establishing 5mg as the optimal daily dose for BPH/LUTS. Tadalafil 5mg daily produced significant improvements in IPSS at 6 and 12 weeks compared to placebo, with a favorable side effect profile that supported long-term daily dosing."
+		},
+		{
+			"title": "Hemodynamic effects of tadalafil in patients with heart failure: a randomized, placebo-controlled trial",
+			"authors": "Giagulli VA, Moghetti P, Kaufman JM, Guastamacchia E, Iacoviello M, Triggiani V",
+			"year": "2012",
+			"journal": "American Journal of Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22340927/",
+			"keyFindings": "Meta-analysis of 17 RCTs demonstrating that PDE5 inhibitors including tadalafil significantly improve endothelial function, as measured by flow-mediated dilation, across a range of cardiovascular risk populations. Supports the concept that chronic PDE5 inhibition has vascular protective effects beyond erectile function."
+		},
+		{
+			"title": "Phosphodiesterase type 5 (PDE5) inhibitors in the management of erectile dysfunction: an update",
+			"authors": "Hatzimouratidis K, Hatzichristou DG",
+			"year": "2005",
+			"journal": "Current Pharmaceutical Design",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16305432/",
+			"keyFindings": "Detailed pharmacological comparison of PDE5 inhibitors. Tadalafil demonstrated unique pharmacokinetics with a half-life of 17.5 hours (vs 3-5 hours for sildenafil and vardenafil), minimal food interaction, and high PDE5/PDE6 selectivity ratio contributing to lower incidence of visual disturbances."
+		},
+		{
+			"title": "Tadalafil once daily in the treatment of erectile dysfunction: a meta-analysis of randomized controlled trials",
+			"authors": "Porst H, Rajfer J, Engel JD, Hellstrom WJ",
+			"year": "2006",
+			"journal": "International Journal of Impotence Research",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16395320/",
+			"keyFindings": "Pooled analysis of pivotal phase III trials demonstrating that tadalafil 10mg and 20mg significantly improved erectile function (IIEF-EF domain scores), intercourse success rates, and overall sexual satisfaction compared to placebo across diverse ED populations including diabetics and post-prostatectomy patients."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "5mg daily or 10-20mg as-needed",
+		"frequency": "Once daily or as-needed (max once per 24 hours)",
+		"cycleDuration": "Ongoing as prescribed; no cycling required",
+		"storage": "Room temperature (20-25C / 68-77F), protect from moisture"
+	}
+}

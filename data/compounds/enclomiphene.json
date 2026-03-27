@@ -1,0 +1,285 @@
+{
+	"id": "enclomiphene",
+	"name": "Enclomiphene",
+	"subtitle": "Selective Estrogen Receptor Modulator | Testosterone & Fertility Support",
+	"aliases": ["Androxal", "trans-Clomifene"],
+	"compoundKind": "ancillary",
+	"categories": ["pct", "sexual-health"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "405.96 Da",
+		"type": "Trans-isomer of clomifene (selective estrogen receptor modulator)",
+		"modifications": [
+			"Trans-stereoisomer configuration (lacks zuclomifene estrogenic agonism)",
+			"Triphenylethylene derivative"
+		],
+		"halfLife": "~10 hours",
+		"halfLifeSeconds": 36000
+	},
+	"overview": "Enclomiphene is the trans-isomer of clomifene citrate, a selective estrogen receptor modulator (SERM) that acts primarily as an estrogen antagonist at the hypothalamus and pituitary. Unlike the racemic mixture clomifene (Clomid), which contains both enclomiphene and the cis-isomer zuclomifene, enclomiphene lacks significant estrogenic agonist activity. This makes it better suited for raising endogenous testosterone through increased LH and FSH secretion without the estrogenic side effects commonly associated with clomifene. It was developed under the trade name Androxal for the treatment of secondary hypogonadism in men but has not yet received FDA approval as a standalone product.",
+	"mechanism": "Enclomiphene competitively antagonizes estrogen receptors in the hypothalamus and anterior pituitary, blocking the negative feedback of estradiol on GnRH release. This disinhibition increases pulsatile GnRH secretion, which in turn stimulates the anterior pituitary to release luteinizing hormone (LH) and follicle-stimulating hormone (FSH). Elevated LH drives Leydig cell testosterone synthesis in the testes, while FSH supports Sertoli cell function and spermatogenesis. Because enclomiphene lacks the estrogenic agonist properties of zuclomifene, it provides cleaner HPTA stimulation without paradoxical estrogenic effects on mood, vision, or other tissues.",
+	"keyBenefits": [
+		"Raises endogenous testosterone by stimulating the HPTA axis",
+		"Preserves fertility and spermatogenesis (unlike exogenous testosterone)",
+		"No estrogenic agonist activity (unlike racemic clomifene/Clomid)",
+		"Oral dosing with no injections required",
+		"Does not suppress the HPTA or cause testicular atrophy",
+		"Effective for post-cycle therapy and secondary hypogonadism",
+		"Well-tolerated with a favorable side effect profile"
+	],
+	"indications": [
+		{
+			"category": "Testosterone Restoration",
+			"items": [
+				{
+					"name": "Secondary Hypogonadism",
+					"description": "Restores endogenous testosterone production in men with secondary hypogonadism by increasing LH and FSH through hypothalamic estrogen receptor antagonism. Phase III trials demonstrated significant testosterone normalization.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Low Testosterone Support",
+					"description": "Provides a non-suppressive alternative to exogenous testosterone for men seeking to raise testosterone levels while maintaining natural HPTA function and fertility.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "TRT Alternative",
+					"description": "Can serve as a standalone alternative to testosterone replacement therapy in appropriate candidates, particularly younger men or those concerned about fertility preservation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Post-Cycle Therapy",
+			"items": [
+				{
+					"name": "HPTA Recovery",
+					"description": "Accelerates recovery of the hypothalamic-pituitary-testicular axis after suppression from anabolic steroids or exogenous testosterone by rapidly increasing LH and FSH output.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Testosterone Normalization Post-Cycle",
+					"description": "Helps restore natural testosterone production to baseline levels faster than unassisted recovery, reducing the hypogonadal window after cycle cessation.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Male Fertility",
+			"items": [
+				{
+					"name": "Spermatogenesis Support",
+					"description": "FSH elevation driven by enclomiphene supports Sertoli cell function and spermatogenesis, making it useful for men with oligospermia associated with secondary hypogonadism.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Fertility Preservation on TRT Bridge",
+					"description": "Can be used as a bridge off TRT for men who wish to conceive, maintaining testosterone levels while restoring spermatogenesis.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Enclomiphene is administered orally as a capsule or tablet. It is well absorbed with consistent bioavailability. Take at the same time each day, with or without food. Morning dosing is generally preferred to align with natural hormonal rhythms.",
+			"protocols": [
+				{
+					"goal": "Testosterone restoration (conservative start)",
+					"dose": "12.5mg",
+					"frequency": "Once daily",
+					"route": "Oral"
+				},
+				{
+					"goal": "Testosterone restoration (standard)",
+					"dose": "25mg",
+					"frequency": "Once daily",
+					"route": "Oral"
+				},
+				{
+					"goal": "Post-cycle therapy (standard)",
+					"dose": "25mg",
+					"frequency": "Once daily for 4-8 weeks",
+					"route": "Oral"
+				},
+				{
+					"goal": "Post-cycle therapy (aggressive)",
+					"dose": "50mg",
+					"frequency": "Once daily for 4-6 weeks",
+					"route": "Oral"
+				},
+				{
+					"goal": "Long-term hypogonadism management",
+					"dose": "12.5-25mg",
+					"frequency": "Once daily (ongoing with monitoring)",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": [
+				"No injections or reconstitution required",
+				"Simple once-daily oral dosing",
+				"Room temperature storage",
+				"Consistent absorption and bioavailability"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": false
+		},
+		{
+			"type": "topical",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "HCG",
+			"status": "synergistic",
+			"notes": "HCG directly stimulates Leydig cells via LH receptor agonism while enclomiphene increases endogenous LH/FSH. Combining both provides dual-pathway testicular stimulation, useful in PCT or fertility protocols."
+		},
+		{
+			"peptide": "Gonadorelin",
+			"status": "synergistic",
+			"notes": "Gonadorelin provides pulsatile GnRH stimulation to the pituitary while enclomiphene removes estrogenic negative feedback. The combination can amplify LH/FSH output beyond either agent alone."
+		},
+		{
+			"peptide": "Testosterone (exogenous)",
+			"status": "compatible",
+			"notes": "Can be used concurrently but effects may be partially redundant. More commonly used sequentially -- enclomiphene as a bridge off TRT or as a standalone alternative. Exogenous testosterone suppresses the HPTA that enclomiphene is trying to stimulate."
+		},
+		{
+			"peptide": "Tamoxifen (Nolvadex)",
+			"status": "monitor",
+			"notes": "Both are SERMs with overlapping mechanisms at the hypothalamic estrogen receptor. Concurrent use is generally unnecessary and may not provide additive benefit. If combining during PCT, monitor for excessive estrogen suppression symptoms."
+		},
+		{
+			"peptide": "Anastrozole / Aromatase Inhibitors",
+			"status": "monitor",
+			"notes": "Aromatase inhibitors reduce estradiol levels while enclomiphene blocks estradiol signaling at the hypothalamus. Combining may lead to excessive estrogen suppression, which can impair lipid profiles, bone health, and mood."
+		},
+		{
+			"peptide": "Kisspeptin",
+			"status": "synergistic",
+			"notes": "Kisspeptin stimulates GnRH neurons upstream of the pituitary while enclomiphene blocks estrogen negative feedback. Mechanistically complementary for HPTA activation."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "LH and FSH levels begin to rise as hypothalamic estrogen receptor blockade takes effect. Some users report improved energy and mood within the first week."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Serum testosterone levels begin to increase measurably. Improvements in libido, energy, and sense of well-being commonly reported."
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Testosterone levels approach or reach the normal physiological range. Most users notice significant improvement in symptoms of hypogonadism. PCT users see meaningful HPTA recovery."
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Full steady-state testosterone normalization in most users. PCT protocols typically conclude in this window. Long-term users establish stable hormonal equilibrium with ongoing monitoring."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Headache",
+			"Nausea or mild gastrointestinal discomfort",
+			"Hot flashes or flushing",
+			"Mood changes (irritability or emotional sensitivity)",
+			"Fatigue during initial adjustment"
+		],
+		"rare": [
+			"Visual disturbances (blurred vision, floaters, light sensitivity)",
+			"Elevated liver enzymes",
+			"Thromboembolic events (very rare)",
+			"Ovarian hyperstimulation (in females, off-label use)"
+		],
+		"stopSigns": [
+			"Severe or persistent visual changes (flashes, blurred vision, scotomata)",
+			"Signs of blood clots (leg swelling, chest pain, shortness of breath)",
+			"Persistent severe headaches unresponsive to common analgesics",
+			"Significant mood disturbances or depression",
+			"Jaundice or signs of liver dysfunction"
+		],
+		"contraindications": [
+			"Known hypersensitivity to clomifene or enclomiphene",
+			"Pre-existing liver disease or significantly elevated liver enzymes",
+			"Active or history of thromboembolic disorders",
+			"Pregnancy or women who may become pregnant (teratogenic risk)",
+			"Primary hypogonadism (testicular failure -- enclomiphene requires functional testes)",
+			"Pituitary tumors or undiagnosed pituitary pathology"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white crystalline powder or uniform capsules/tablets",
+			"Third-party certificate of analysis (COA) confirming identity and purity (>98%)",
+			"HPLC testing verifying enclomiphene (trans-isomer) without significant zuclomifene contamination",
+			"Professional packaging with batch number, expiration date, and proper labeling",
+			"Sourced from a licensed compounding pharmacy or reputable research supplier"
+		],
+		"warning": [
+			"No COA or third-party testing available",
+			"Product labeled as 'clomifene' or 'clomiphene' rather than specifically 'enclomiphene' (may be racemic mixture)",
+			"Inconsistent capsule fill weight or tablet appearance"
+		],
+		"bad": [
+			"Discolored, clumped, or visibly degraded powder",
+			"Unusual chemical odor",
+			"No labeling, batch information, or expiration date",
+			"COA shows significant zuclomifene (cis-isomer) contamination indicating racemic product sold as enclomiphene",
+			"Sourced from unverified vendors with no quality documentation"
+		]
+	},
+	"references": [
+		{
+			"title": "Enclomiphene citrate stimulates testosterone production while preventing oligospermia: a randomized phase II clinical trial comparing topical testosterone",
+			"authors": "Kaminetsky J, Werner M, Engelen S, Gallo L, Levy S, Wiehle R",
+			"journal": "Fertility and Sterility",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23391336/",
+			"keyFindings": "Enclomiphene citrate 25mg daily raised total testosterone into the normal range while maintaining or improving sperm counts, in contrast to topical testosterone which suppressed spermatogenesis. Demonstrated enclomiphene as a viable alternative to TRT for secondary hypogonadism."
+		},
+		{
+			"title": "Enclomiphene, an estrogen receptor antagonist for the treatment of testosterone deficiency in men",
+			"authors": "Rodriguez KM, Pastuszak AW, Lipshultz LI",
+			"journal": "Expert Opinion on Investigational Drugs",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27564543/",
+			"keyFindings": "Comprehensive review of enclomiphene pharmacology and clinical trial data. Confirmed that enclomiphene normalizes testosterone, LH, and FSH in hypogonadal men while preserving sperm parameters. Highlighted its advantage over racemic clomifene due to absence of estrogenic agonist effects from zuclomifene."
+		},
+		{
+			"title": "Oral enclomiphene citrate raises testosterone and preserves sperm counts in obese hypogonadal men, unlike topical testosterone: implications for the FDA's REMS program",
+			"authors": "Wiehle RD, Fontenot GK, Wike J, Hsu K, Noonan GP, Nowak A, Goodwin BS",
+			"journal": "Journal of Drug Assessment",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27536463/",
+			"keyFindings": "In obese hypogonadal men, enclomiphene 25mg daily significantly increased total testosterone (mean from ~228 to ~420 ng/dL) while preserving sperm concentrations. Topical testosterone by contrast reduced sperm counts. Supports enclomiphene as a fertility-preserving alternative."
+		},
+		{
+			"title": "Selective estrogen receptor modulators for the treatment of male infertility",
+			"authors": "Wheeler KM, Sharma D, Kavoussi PK, Smith RP, Natali A",
+			"journal": "Asian Journal of Andrology",
+			"year": "2020",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31744997/",
+			"keyFindings": "Review of SERMs including enclomiphene for male infertility. Confirmed that SERMs increase gonadotropins and testosterone through hypothalamic estrogen receptor blockade. Noted enclomiphene's advantage of pure anti-estrogenic activity without the mixed agonist/antagonist profile of clomifene."
+		},
+		{
+			"title": "Enclomiphene citrate for the treatment of secondary male hypogonadism",
+			"authors": "Kim ED, McCullough A, Kaminetsky J",
+			"journal": "Expert Opinion on Pharmacotherapy",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25800085/",
+			"keyFindings": "Phase III trial review showing enclomiphene 12.5mg and 25mg daily both significantly increased total testosterone versus placebo in men with secondary hypogonadism. Mean testosterone increases were dose-dependent and sustained over 6 months. LH and FSH were also significantly elevated, confirming the hypothalamic mechanism of action."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "12.5-25mg oral daily",
+		"frequency": "Once daily (morning preferred)",
+		"cycleDuration": "4-12 weeks (PCT) or ongoing with monitoring",
+		"storage": "Room temperature, protected from light and moisture"
+	}
+}

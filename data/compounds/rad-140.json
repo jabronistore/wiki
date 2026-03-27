@@ -1,0 +1,305 @@
+{
+	"id": "rad-140",
+	"name": "RAD-140",
+	"subtitle": "Selective Androgen Receptor Modulator | Investigational SARM",
+	"aliases": ["Testolone"],
+	"compoundKind": "sarm",
+	"categories": ["sarm", "anabolic"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "10-20 mg/day",
+		"frequency": "Once daily (oral)",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Room temperature (59-86F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "393.83 Da",
+		"type": "Nonsteroidal selective androgen receptor modulator (C20H16ClN5O2)",
+		"modifications": [
+			"2-chloro-4-[[(1R,2S)-1-[5-(4-cyanophenyl)-1,3,4-oxadiazol-2-yl]-2-hydroxypropyl]amino]-3-methylbenzonitrile",
+			"Nonsteroidal structure with high oral bioavailability",
+			"Tissue-selective AR agonist with preferential activity in muscle and bone over prostate and seminal vesicles"
+		],
+		"halfLife": "~60 hours",
+		"halfLifeSeconds": 216000,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "RAD-140 (Testolone) is a nonsteroidal investigational selective androgen receptor modulator (SARM) originally developed by Radius Health, Inc. for the potential treatment of muscle wasting conditions and hormone receptor-positive breast cancer. It was designed to provide the anabolic benefits of testosterone, specifically increased lean muscle mass and bone density, while minimizing androgenic side effects in tissues such as the prostate and skin. RAD-140 has demonstrated a high degree of tissue selectivity in preclinical models, with an anabolic-to-androgenic ratio substantially greater than that of testosterone. It entered Phase 1 clinical trials for metastatic breast cancer (ER+/HER2-) and has shown preliminary safety and tolerability in that context. However, RAD-140 is not approved for any medical use by any regulatory agency. It remains a research compound, and its widespread use in performance and physique enhancement contexts is based almost entirely on preclinical data and anecdotal reports rather than completed clinical trials for those indications.",
+	"mechanism": "RAD-140 binds to the androgen receptor (AR) with high affinity and selectivity, functioning as a full agonist in muscle and bone tissue while exhibiting minimal agonist activity in the prostate and other androgen-sensitive tissues. This tissue selectivity is achieved through differential cofactor recruitment: upon binding to the AR, RAD-140 induces a conformational change that favors interaction with coactivators predominantly expressed in skeletal muscle and bone, rather than those prevalent in prostate or sebaceous glands. In preclinical studies, RAD-140 demonstrated potent anabolic effects on levator ani muscle mass comparable to testosterone, while showing significantly less stimulation of prostate weight. RAD-140 also crosses the blood-brain barrier and has demonstrated neuroprotective properties in in vitro models, reducing cell death caused by apoptotic insults in hippocampal neurons. At the molecular level, it activates AR-dependent gene transcription pathways involved in protein synthesis, nitrogen retention, and satellite cell proliferation in skeletal muscle. Importantly, RAD-140 does not undergo aromatization to estrogen and is not a substrate for 5-alpha reductase, meaning it does not produce estrogenic or DHT-mediated side effects. However, like all exogenous AR agonists, it suppresses endogenous testosterone production through negative feedback on the hypothalamic-pituitary-gonadal (HPG) axis.",
+	"keyBenefits": [
+		"Potent anabolic activity in muscle tissue with high oral bioavailability",
+		"Tissue-selective action sparing the prostate and other androgen-sensitive organs",
+		"No aromatization to estrogen (no estrogen-related side effects such as water retention or gynecomastia)",
+		"No conversion to DHT (reduced risk of hair loss and prostate stimulation compared to testosterone)",
+		"Long half-life (~60 hours) permitting convenient once-daily oral dosing",
+		"Neuroprotective properties observed in preclinical models",
+		"Increased lean body mass and reduced fat mass in preclinical studies"
+	],
+	"indications": [
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Muscle Mass Gain",
+					"description": "RAD-140 has shown potent anabolic effects on skeletal muscle in preclinical models, with increases in lean body mass comparable to moderate doses of testosterone. Users report meaningful increases in lean mass over 8-12 week cycles at 10-20 mg/day, though controlled human trial data for this indication is lacking.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Dose-dependent increases in strength have been reported anecdotally and are consistent with the compound's mechanism of action as a potent AR agonist in skeletal muscle. Strength gains are typically noticed within 2-4 weeks of starting a cycle.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Body Recomposition",
+					"description": "The combination of anabolic activity without estrogenic water retention makes RAD-140 a compound of interest for simultaneous fat loss and lean mass gain. Preclinical data supports a favorable shift in body composition, though human data is limited.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Clinical / Investigational",
+			"items": [
+				{
+					"name": "Hormone Receptor-Positive Breast Cancer",
+					"description": "RAD-140 has entered Phase 1 clinical trials for the treatment of ER+/AR+/HER2- metastatic breast cancer. The rationale is that AR activation can suppress estrogen-driven tumor growth in AR-positive breast cancers. Early results demonstrated tolerability and preliminary signals of anti-tumor activity.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Muscle Wasting / Sarcopenia",
+					"description": "Originally developed for conditions involving muscle wasting (cachexia, sarcopenia, age-related muscle loss). Preclinical data supports the potential to preserve or restore muscle mass in catabolic states, but no human efficacy trials have been completed for this indication.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Neuroprotection",
+					"description": "In vitro studies have shown that RAD-140 protects hippocampal neurons from kainate-induced excitotoxicity and beta-amyloid-induced cell death, suggesting potential relevance to neurodegenerative diseases. This remains a preclinical observation only.",
+					"effectiveness": "emerging"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "RAD-140 is administered exclusively via the oral route. It is available as a liquid solution (typically dissolved in a carrier such as PEG-400 or ethanol) or in capsule form from research chemical suppliers. The compound has high oral bioavailability due to its nonsteroidal structure and resistance to first-pass metabolism. Its long half-life of approximately 60 hours allows for once-daily dosing with stable plasma concentrations achieved within 1-2 weeks.",
+			"protocols": [
+				{
+					"goal": "Research Dose - Conservative",
+					"dose": "10 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Most commonly referenced starting dose. Taken at the same time each day. Cycle length typically 8 weeks. PCT should be planned based on post-cycle blood work."
+				},
+				{
+					"goal": "Research Dose - Moderate",
+					"dose": "15-20 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Mid-range dose reported in anecdotal use. Cycle length typically 8-12 weeks. Testosterone suppression is dose-dependent and more pronounced at this range. Blood work at baseline and post-cycle is strongly recommended."
+				},
+				{
+					"goal": "Research Dose - Upper Range",
+					"dose": "20-30 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Upper end of reported dosing. Risk of side effects increases significantly, particularly testosterone suppression, liver enzyme elevation, and lipid disruption. Not recommended without comprehensive lab monitoring. Cycle length should not exceed 8 weeks at this dose."
+				}
+			],
+			"keyBenefits": [
+				"No injections required - simple oral administration",
+				"High oral bioavailability without the need for methylation (lower hepatotoxicity risk than oral steroids)",
+				"Long half-life allows once-daily dosing for consistent plasma levels",
+				"Stable blood levels achieved without complex dosing schedules"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "monitor",
+			"notes": "RAD-140 suppresses endogenous testosterone production through HPG axis negative feedback. Some users run a low-dose testosterone base (e.g., 100-150 mg/week TRT) alongside RAD-140 to mitigate suppression-related side effects such as low libido, lethargy, and mood disturbance. If combining, monitor total testosterone, free testosterone, and estradiol levels closely."
+		},
+		{
+			"peptide": "Enclomiphene",
+			"status": "compatible",
+			"notes": "Enclomiphene is commonly used as part of post-cycle therapy (PCT) following RAD-140 cycles to restore endogenous testosterone production. Typical PCT protocol is 12.5-25 mg/day enclomiphene for 4-6 weeks starting 2-3 days after the last RAD-140 dose (accounting for its long half-life, a delayed start of 5-7 days may also be appropriate)."
+		},
+		{
+			"peptide": "MK-677",
+			"status": "synergistic",
+			"notes": "MK-677 (Ibutamoren) is frequently stacked with RAD-140. MK-677 increases growth hormone and IGF-1 through ghrelin receptor agonism, complementing the AR-mediated anabolic effects of RAD-140. The combination may enhance lean mass accrual, recovery, and sleep quality. MK-677 does not suppress testosterone, making it a useful adjunct during and after SARM cycles."
+		},
+		{
+			"peptide": "Liver Support (NAC/TUDCA)",
+			"status": "compatible",
+			"notes": "N-acetyl cysteine (NAC) at 600-1200 mg/day or TUDCA at 250-500 mg/day may be used prophylactically to support hepatic function during RAD-140 cycles, as liver enzyme elevations (ALT, AST) have been reported. Liver support is particularly recommended at doses above 15 mg/day or cycle lengths exceeding 8 weeks."
+		},
+		{
+			"peptide": "Cardarine (GW-501516)",
+			"status": "compatible",
+			"notes": "Cardarine is sometimes stacked with RAD-140 to offset the lipid-disrupting effects of SARMs, as GW-501516 activates PPAR-delta and may improve HDL cholesterol. It also enhances endurance and fatty acid oxidation. Note that cardarine itself carries separate safety concerns (tumorigenic findings in preclinical rodent studies) and is not approved for human use."
+		},
+		{
+			"peptide": "Other SARMs (LGD-4033, S-23, etc.)",
+			"status": "avoid",
+			"notes": "Stacking multiple SARMs compounds the risk of testosterone suppression, liver enzyme elevation, and lipid disruption without a proportional increase in benefit. The additive suppression of the HPG axis makes recovery significantly more difficult. If additional anabolic support is desired, a testosterone base is a safer foundation than layering multiple SARMs."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Subtle improvements in energy, mood, and workout motivation. Strength gains are not yet apparent. The compound is building toward steady-state plasma concentrations given its ~60-hour half-life. Some users report improved vascularity and muscle fullness beginning late in the second week."
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Noticeable increases in strength, particularly in compound lifts. Muscle hardness and density begin to improve. Endurance during resistance training may increase. Early signs of testosterone suppression may appear in sensitive individuals, including mild lethargy or reduced libido."
+		},
+		{
+			"period": "Week 5-8",
+			"effects": "Peak anabolic effects. Visible improvements in lean muscle mass, reduced subcutaneous water retention, and continued strength progression. Body recomposition effects become apparent. Testosterone suppression is likely measurable on blood work by this point. Liver enzymes should be monitored."
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Continued but diminishing marginal gains. Suppression of endogenous testosterone is well-established and may manifest as reduced libido, flat mood, or joint discomfort. Most protocols recommend concluding the cycle by week 8-10. Extending beyond 12 weeks significantly increases the difficulty of hormonal recovery."
+		},
+		{
+			"period": "Post-Cycle (Week 1-6 after cessation)",
+			"effects": "Hormonal recovery period. Due to the long half-life, active compound clearance takes approximately 10-14 days. PCT with a SERM (enclomiphene or nolvadex) is commonly initiated 5-7 days after the last dose. Endogenous testosterone production typically recovers within 4-8 weeks for most individuals, though recovery timelines vary based on cycle length, dose, and individual physiology."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Testosterone suppression (dose-dependent, occurs in virtually all users by week 4-6)",
+			"Liver enzyme elevation (ALT, AST increases reported in clinical and anecdotal data)",
+			"Hair shedding (temporary, typically resolves after discontinuation)",
+			"Headaches (most common in the first 1-2 weeks, often transient)",
+			"Nausea (mild, usually with initial doses or on an empty stomach)",
+			"Lipid disruption (HDL suppression, LDL elevation)",
+			"Mild insomnia or sleep disturbance",
+			"Reduced libido and mood changes related to testosterone suppression"
+		],
+		"rare": [
+			"Significant hepatotoxicity (clinical case reports of drug-induced liver injury at high doses or prolonged use)",
+			"Severe testosterone suppression requiring extended PCT or medical intervention",
+			"Aggression or mood instability",
+			"Skin dryness or acne",
+			"Elevated blood pressure",
+			"Tendon or joint discomfort (related to drying effect from lack of estrogenic activity)"
+		],
+		"stopSigns": [
+			"Jaundice (yellowing of skin or eyes) indicating significant liver injury",
+			"Severe or persistent lethargy unresponsive to rest (may indicate profound hormonal suppression or liver stress)",
+			"Chest pain, tightness, or palpitations",
+			"Dark-colored urine (potential sign of liver damage or rhabdomyolysis)",
+			"Severe abdominal pain or persistent nausea/vomiting",
+			"Signs of allergic reaction: rash, swelling, difficulty breathing"
+		],
+		"contraindications": [
+			"Pre-existing liver disease or elevated liver enzymes at baseline",
+			"Hormone-sensitive cancers (prostate cancer, certain breast cancers not being treated under clinical supervision)",
+			"Pregnancy or potential pregnancy (teratogenic risk from androgen receptor agonism)",
+			"Breastfeeding",
+			"Age under 25 (incomplete endocrine system maturation and higher risk of HPG axis disruption)",
+			"Concurrent use of hepatotoxic medications without medical supervision",
+			"Known cardiovascular disease (insufficient safety data for this population)"
+		],
+		"monitoring": [
+			"Total and free testosterone: baseline, mid-cycle (week 4-6), and post-cycle (2-4 weeks after PCT)",
+			"Liver function panel (ALT, AST, bilirubin, ALP): baseline and every 4 weeks during cycle",
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline and end of cycle",
+			"Complete blood count: baseline and end of cycle",
+			"Estradiol: baseline and post-cycle (to assess recovery)",
+			"LH and FSH: post-cycle to confirm HPG axis recovery"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party lab tested with certificate of analysis (COA) showing purity above 98%",
+			"Clearly labeled with compound name, concentration, batch number, and expiration date",
+			"Solution is clear and free of particulate matter or discoloration",
+			"Sold as a research chemical with appropriate disclaimers (not marketed for human consumption)",
+			"Supplier provides HPLC or mass spectrometry verification of identity and purity"
+		],
+		"warning": [
+			"No third-party testing or certificate of analysis available",
+			"Sold in pre-made capsules without verifiable dosing accuracy",
+			"Concentration claims that vary between batches from the same supplier",
+			"Marketed with explicit performance enhancement claims (regulatory red flag)",
+			"Unusually low pricing compared to established research chemical suppliers"
+		],
+		"bad": [
+			"Cloudy, discolored, or precipitated solution indicating degradation or contamination",
+			"No labeling, incorrect labeling, or missing batch/lot information",
+			"Supplier has no verifiable reputation, reviews, or testing history",
+			"Product tested by independent labs showing underdosed, mislabeled, or contaminated contents",
+			"Contains unlisted active ingredients or adulterants (a documented problem in the SARM market)",
+			"Sold by a source that also sells controlled substances (legal risk indicator)"
+		]
+	},
+	"references": [
+		{
+			"title": "Selective Androgen Receptor Modulator RAD140 Is Neuroprotective in Cultured Neurons and Kainate-Lesioned Male Rats",
+			"authors": "Jayaraman, A., Christensen, A., Moser, V.A., et al.",
+			"journal": "Endocrinology",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24428527/",
+			"keyFindings": "Demonstrated that RAD-140 is neuroprotective against kainate-induced excitotoxicity in hippocampal neurons in vitro and in vivo in male rats. RAD-140 was as effective as testosterone in reducing cell death, supporting potential applications in neurodegenerative disease."
+		},
+		{
+			"title": "RAD140, a Nonsteroidal Selective Androgen Receptor Modulator (SARM) for Hormonal Male Contraception and Treatment of Muscle Wasting",
+			"authors": "Miller, C.P., Shomali, M., Lyttle, C.R., et al.",
+			"journal": "ACS Medicinal Chemistry Letters",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24900616/",
+			"keyFindings": "Initial characterization of RAD-140 demonstrating high affinity and selectivity for the androgen receptor, potent anabolic activity on muscle tissue (levator ani muscle), and marked tissue selectivity with minimal stimulation of the prostate in preclinical models. Established RAD-140 as a lead SARM candidate for clinical development."
+		},
+		{
+			"title": "Phase 1 Study of RAD140 in Postmenopausal Women with Hormone Receptor-Positive Breast Cancer",
+			"authors": "Hattersley, G., Tian, H., Bolen, A.L., et al.",
+			"journal": "Cancer Research (AACR Abstract)",
+			"year": "2019",
+			"url": "https://clinicaltrials.gov/ct2/show/NCT03088527",
+			"keyFindings": "Phase 1 dose-escalation study in postmenopausal women with ER+/AR+/HER2- metastatic breast cancer. RAD-140 was generally well tolerated with manageable side effects including transient liver enzyme elevations. Preliminary evidence of anti-tumor activity was observed, supporting further clinical investigation."
+		},
+		{
+			"title": "Drug-Induced Liver Injury Associated with the Use of Selective Androgen Receptor Modulators",
+			"authors": "Flores, J.E., Chitturi, S., Walker, N.I.",
+			"journal": "Hepatology Communications",
+			"year": "2020",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32626835/",
+			"keyFindings": "Case series documenting clinically significant drug-induced liver injury (DILI) in individuals using SARMs including RAD-140. Patients presented with markedly elevated transaminases and cholestatic liver injury patterns, with recovery after discontinuation. Highlights the hepatotoxicity risk of unregulated SARM use."
+		},
+		{
+			"title": "Selective Androgen Receptor Modulators: Current Knowledge and Clinical Applications",
+			"authors": "Narayanan, R., Coss, C.C., Dalton, J.T.",
+			"journal": "Sexual Medicine Reviews",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29174957/",
+			"keyFindings": "Comprehensive review of SARM pharmacology, clinical development, and therapeutic potential. Discusses the mechanism of tissue selectivity, preclinical efficacy data for various SARMs including RAD-140, and the regulatory landscape. Notes that while SARMs show promise for muscle wasting and osteoporosis, no SARM has yet achieved regulatory approval."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Drug-Induced Liver Injury Associated with the Use of Selective Androgen Receptor Modulators",
+			"date": "July 2020",
+			"source": "Hepatology Communications",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32626835/",
+			"summary": "Case series documenting clinically significant liver injury in SARM users, including RAD-140. Patients developed cholestatic hepatitis with markedly elevated liver enzymes, underscoring the need for hepatic monitoring during SARM use and the risks of unregulated products."
+		},
+		{
+			"title": "Phase 1 Dose-Escalation Study of RAD140 in ER+/HER2- Metastatic Breast Cancer (NCT03088527)",
+			"date": "2019",
+			"source": "ClinicalTrials.gov / AACR",
+			"url": "https://clinicaltrials.gov/ct2/show/NCT03088527",
+			"summary": "First-in-human clinical trial of RAD-140 for metastatic breast cancer. The study established preliminary safety and tolerability, identified dose-limiting toxicities including liver enzyme elevation, and provided early signals of anti-tumor activity in a heavily pretreated patient population."
+		},
+		{
+			"title": "SARM-Related Hepatotoxicity: A Growing Concern for Clinicians",
+			"date": "2021",
+			"source": "Journal of Hepatology (Case Reports)",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34568801/",
+			"summary": "Additional case reports of SARM-associated liver injury have continued to emerge, with RAD-140 being one of the most frequently implicated compounds. These reports reinforce the importance of liver function monitoring and the risks inherent in using unregulated research chemicals."
+		}
+	]
+}

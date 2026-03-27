@@ -1,0 +1,301 @@
+{
+	"id": "lgd-4033",
+	"name": "LGD-4033",
+	"subtitle": "Selective Androgen Receptor Modulator | Lean Mass",
+	"aliases": ["Ligandrol", "VK5211", "Anabolicum"],
+	"compoundKind": "sarm",
+	"categories": ["sarm", "anabolic"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "5-10 mg/day",
+		"frequency": "Once daily (oral)",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Room temperature (59-86F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "338.25 Da",
+		"type": "Nonsteroidal selective androgen receptor modulator (C14H12F6N2O)",
+		"modifications": [
+			"4-((R)-2-((R)-2,2,2-trifluoro-1-hydroxyethyl)pyrrolidin-1-yl)-2-(trifluoromethyl)benzonitrile",
+			"Pyrrolidine-based nonsteroidal structure with high oral bioavailability",
+			"Tissue-selective AR agonist with strong preferential activity in muscle and bone over prostate and sebaceous glands"
+		],
+		"halfLife": "~24-36 hours",
+		"halfLifeSeconds": 108000,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "LGD-4033 (Ligandrol) is a nonsteroidal investigational selective androgen receptor modulator (SARM) originally developed by Ligand Pharmaceuticals and later licensed to Viking Therapeutics (under the designation VK5211). It is one of the most widely studied SARMs in clinical trials, having completed Phase 1 safety studies in healthy volunteers and a Phase 2 trial evaluating its efficacy in patients recovering from hip fracture surgery. LGD-4033 was designed to provide anabolic benefits, specifically increased lean muscle mass and improved physical function, with reduced androgenic side effects compared to testosterone. In clinical studies, it demonstrated dose-dependent increases in lean body mass, leg press strength, and stair-climbing speed in hip fracture patients. LGD-4033 is broadly considered the most potent SARM for lean mass accrual, exceeding Ostarine (MK-2866) in anabolic potency at comparable doses. Despite promising clinical data, LGD-4033 is not approved by any regulatory agency for any medical indication. Its widespread use in performance enhancement contexts is based on a combination of clinical trial data, preclinical studies, and anecdotal reports.",
+	"mechanism": "LGD-4033 binds to the androgen receptor with high affinity (Ki of approximately 1 nM), functioning as a potent and selective agonist in muscle and bone tissue. Like other SARMs, its tissue selectivity is mediated by differential cofactor recruitment: upon binding to the AR, LGD-4033 induces a receptor conformation that preferentially recruits coactivators expressed in skeletal muscle and bone, while showing minimal agonist activity in androgen-sensitive tissues such as the prostate and skin. In preclinical studies, LGD-4033 produced dose-dependent increases in muscle mass (levator ani weight) with significantly less stimulation of prostate weight compared to testosterone. At the molecular level, AR activation by LGD-4033 drives gene transcription pathways involved in protein synthesis, nitrogen retention, and myogenic differentiation in skeletal muscle. The compound also promotes osteoblast activity and bone mineral density through AR signaling in bone tissue. LGD-4033 does not undergo aromatization to estrogen and is not a substrate for 5-alpha reductase, so it does not produce estrogenic side effects (gynecomastia, water retention from estrogen) or DHT-mediated side effects (prostate enlargement, androgenic alopecia). However, as a potent exogenous AR agonist, LGD-4033 suppresses endogenous testosterone production through negative feedback on the hypothalamic-pituitary-gonadal (HPG) axis in a dose-dependent manner. This suppression is generally considered more pronounced than that caused by Ostarine at equivalent effective doses, consistent with its greater AR binding affinity and anabolic potency.",
+	"keyBenefits": [
+		"Strongest SARM for lean muscle mass accrual, with clinical trial data supporting dose-dependent increases in lean body mass",
+		"Tissue-selective action with minimal stimulation of the prostate and other androgen-sensitive tissues",
+		"Clinical evidence of improved physical function (leg press strength, stair-climbing speed) in hip fracture patients",
+		"No aromatization to estrogen (no estrogen-related water retention or gynecomastia at the receptor level)",
+		"No conversion to DHT (reduced risk of androgenic hair loss and prostate stimulation compared to testosterone)",
+		"Convenient once-daily oral dosing due to 24-36 hour half-life",
+		"Phase 2 clinical data available, providing a stronger evidence base than most other SARMs"
+	],
+	"indications": [
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Muscle Mass Gain",
+					"description": "LGD-4033 is widely regarded as the most potent SARM for lean mass accrual. In the Phase 2 VK5211 trial in hip fracture patients, subjects receiving 1 mg/day gained an average of 1.21 kg of lean body mass over 12 weeks. Higher doses in healthy volunteer studies have shown even greater lean mass increases. Users consistently report LGD-4033 as superior to Ostarine for mass-building purposes.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Clinical trial data demonstrated statistically significant improvements in leg press strength in hip fracture patients treated with LGD-4033. Anecdotal reports consistently describe notable strength increases within 3-4 weeks, particularly in compound movements. Strength gains are dose-dependent.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Body Recomposition",
+					"description": "The anabolic activity of LGD-4033 without estrogenic water retention makes it suitable for simultaneous lean mass gain and fat reduction. Some water retention can occur due to the compound itself (non-estrogenic mechanism), but overall body composition changes favor a recomposition effect. Clinical data shows favorable shifts in lean-to-fat mass ratio.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Clinical / Investigational",
+			"items": [
+				{
+					"name": "Hip Fracture Recovery",
+					"description": "Viking Therapeutics conducted a Phase 2 trial (VK5211) evaluating LGD-4033 in patients recovering from hip fracture surgery. The trial met its primary endpoint, demonstrating dose-dependent increases in lean body mass at 12 weeks. Secondary endpoints including leg press strength and stair-climbing speed also showed statistically significant improvements versus placebo.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Muscle Wasting / Sarcopenia",
+					"description": "Originally developed for conditions involving muscle wasting and age-related muscle loss. Preclinical and early clinical data support the potential to preserve or restore muscle mass in catabolic states. The hip fracture trial results are directly relevant to sarcopenia and frailty in elderly populations.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Osteoporosis / Bone Health",
+					"description": "Preclinical data demonstrates that LGD-4033 increases bone mineral density and bone formation markers through direct AR-mediated signaling in osteoblasts. While no dedicated human trial has been completed for this indication, the mechanism supports potential utility in osteoporosis, particularly in populations where traditional androgen therapy is contraindicated.",
+					"effectiveness": "emerging"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "LGD-4033 is administered exclusively via the oral route. It is available as a liquid solution (typically dissolved in PEG-400, ethanol, or DMSO carriers) or in capsule form from research chemical suppliers. The compound has high oral bioavailability and its half-life of approximately 24-36 hours supports once-daily dosing. Steady-state plasma concentrations are typically achieved within 5-7 days of consistent dosing.",
+			"protocols": [
+				{
+					"goal": "Research Dose - Conservative",
+					"dose": "5 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Most commonly referenced starting dose. Well-tolerated in clinical studies and sufficient for meaningful lean mass gains. Cycle length typically 8-12 weeks. Testosterone suppression is moderate at this dose but still likely; post-cycle blood work should guide PCT decisions."
+				},
+				{
+					"goal": "Research Dose - Moderate",
+					"dose": "10 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Upper end of the commonly used range and where most users report the best balance of results and tolerability. Suppression is more pronounced than at 5 mg. PCT is generally recommended after cycles at this dose. Blood work at baseline, mid-cycle, and post-cycle is strongly advised."
+				},
+				{
+					"goal": "Research Dose - Upper Range",
+					"dose": "15-20 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Above the typical dosing range. Diminishing returns with disproportionately increased side effects, particularly testosterone suppression and lipid disruption. Not commonly recommended. If used, cycle length should not exceed 8 weeks, and comprehensive lab monitoring is essential."
+				}
+			],
+			"keyBenefits": [
+				"No injections required - simple oral administration",
+				"High oral bioavailability without hepatotoxic methylation (lower liver stress than oral anabolic steroids)",
+				"24-36 hour half-life allows convenient once-daily dosing",
+				"Steady-state levels reached within approximately one week"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "MK-677",
+			"status": "synergistic",
+			"notes": "MK-677 (Ibutamoren) is one of the most common compounds stacked with LGD-4033. MK-677 increases growth hormone and IGF-1 through ghrelin receptor agonism, complementing the AR-mediated anabolic effects of LGD-4033. The combination may enhance lean mass accrual, recovery, sleep quality, and joint health. MK-677 does not suppress testosterone, making it a useful adjunct during and after SARM cycles. Note that MK-677 can increase appetite and water retention independently."
+		},
+		{
+			"peptide": "RAD-140",
+			"status": "monitor",
+			"notes": "Stacking LGD-4033 with RAD-140 compounds the suppression of the HPG axis and increases the risk of liver enzyme elevation and lipid disruption. While some users combine these two SARMs, the additive suppression makes post-cycle recovery significantly more difficult without proportional additional benefit. If this combination is used, a testosterone base and comprehensive blood work monitoring are strongly advised. Most experienced users recommend choosing one SARM per cycle rather than stacking."
+		},
+		{
+			"peptide": "Enclomiphene",
+			"status": "compatible",
+			"notes": "Enclomiphene is commonly used as post-cycle therapy (PCT) following LGD-4033 cycles to restore endogenous testosterone production. A typical PCT protocol is 12.5-25 mg/day enclomiphene for 4-6 weeks, starting approximately 2-3 days after the last LGD-4033 dose (the shorter half-life of LGD-4033 compared to RAD-140 means PCT can begin sooner). Some users also run low-dose enclomiphene on-cycle to mitigate suppression, though this approach is less studied."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "monitor",
+			"notes": "LGD-4033 causes dose-dependent suppression of endogenous testosterone through HPG axis negative feedback. Some users run a low-dose testosterone base (e.g., 100-150 mg/week TRT) alongside LGD-4033 to prevent suppression-related side effects such as low libido, lethargy, fatigue, and mood disturbance. If combining, monitor total testosterone, free testosterone, estradiol, and SHBG levels. Adding exogenous testosterone converts this from a SARM-only cycle to a testosterone cycle with regulatory and health implications."
+		},
+		{
+			"peptide": "Liver Support (NAC/TUDCA)",
+			"status": "compatible",
+			"notes": "N-acetyl cysteine (NAC) at 600-1200 mg/day or TUDCA at 250-500 mg/day may be used as supportive care during LGD-4033 cycles. While LGD-4033 appears to have a milder hepatic impact than RAD-140, liver enzyme elevations have been documented. Liver support is a reasonable precaution, particularly at higher doses or longer cycle durations."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Subtle improvements in workout quality, pump intensity, and recovery between sessions. Weight may begin to increase slightly due to intramuscular water retention and glycogen loading, which is characteristic of LGD-4033. The compound is approaching steady-state plasma concentrations. Strength changes are minimal at this stage."
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Noticeable increases in strength, particularly in compound lifts (squat, bench press, deadlift). Muscle fullness and vascularity improve. Scale weight typically increases by 2-4 lbs, a combination of lean tissue and water retention. Some users report improved mood and confidence. Early signs of testosterone suppression may appear in sensitive individuals."
+		},
+		{
+			"period": "Week 5-8",
+			"effects": "Peak anabolic effects. Visible improvements in muscle size and density. Continued strength progression. Body composition changes become clearly apparent. Testosterone suppression is measurable on blood work for most users at this point. Some users experience reduced libido, mild lethargy, or flat mood as endogenous testosterone declines. HDL cholesterol is likely suppressed."
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Continued but diminishing marginal gains in lean mass and strength. Suppression of endogenous testosterone is well-established. Side effects related to low testosterone (reduced libido, fatigue, joint discomfort, mood changes) become more likely with extended cycle length. Most protocols recommend concluding the cycle by week 8-10 for an optimal benefit-to-risk ratio."
+		},
+		{
+			"period": "Post-Cycle (Week 1-6 after cessation)",
+			"effects": "Hormonal recovery period. Due to the 24-36 hour half-life, active compound clearance occurs within approximately 5-7 days. PCT with a SERM (enclomiphene or tamoxifen) is commonly initiated 2-3 days after the last dose. Some water retention gained during the cycle will dissipate in the first 1-2 weeks. Lean mass retention depends on training, nutrition, and adequacy of hormonal recovery. Endogenous testosterone production typically recovers within 4-6 weeks for most individuals using standard PCT."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Testosterone suppression (dose-dependent; more suppressive than Ostarine at equivalent doses, occurs in most users by week 4-6)",
+			"Water retention (non-estrogenic mechanism, typically mild to moderate, contributes to scale weight increase)",
+			"HDL cholesterol reduction (dose-dependent lipid impact observed in clinical trials)",
+			"Headaches (most common in the first 1-2 weeks, usually transient)",
+			"Fatigue or lethargy (related to testosterone suppression, typically becomes noticeable mid-cycle)",
+			"Reduced libido (related to HPG axis suppression, severity varies by dose and individual)"
+		],
+		"rare": [
+			"Liver enzyme elevation (ALT, AST; documented in clinical studies but generally mild at standard doses)",
+			"Nausea (mild, usually with initial doses or on an empty stomach)",
+			"Skin dryness or mild acne",
+			"Mood changes, irritability, or low mood (secondary to hormonal suppression)",
+			"Elevated blood pressure (uncommon, may relate to water retention in susceptible individuals)",
+			"Hair shedding (rare and typically temporary, less common than with RAD-140)"
+		],
+		"stopSigns": [
+			"Jaundice (yellowing of skin or eyes) indicating significant liver injury",
+			"Severe or persistent lethargy unresponsive to rest",
+			"Chest pain, tightness, or palpitations",
+			"Dark-colored urine (potential sign of liver damage or rhabdomyolysis)",
+			"Severe abdominal pain or persistent nausea/vomiting",
+			"Signs of allergic reaction: rash, swelling, difficulty breathing",
+			"Significant edema or rapid unexplained weight gain"
+		],
+		"contraindications": [
+			"Pre-existing liver disease or elevated liver enzymes at baseline",
+			"Hormone-sensitive cancers (prostate cancer or other androgen-driven malignancies)",
+			"Pregnancy or potential pregnancy (teratogenic risk from androgen receptor agonism)",
+			"Breastfeeding",
+			"Age under 25 (incomplete endocrine system maturation and higher risk of HPG axis disruption)",
+			"Concurrent use of hepatotoxic medications without medical supervision",
+			"Known cardiovascular disease (insufficient long-term safety data for this population)",
+			"History of significant lipid abnormalities (LGD-4033 suppresses HDL)"
+		],
+		"monitoring": [
+			"Total and free testosterone: baseline, mid-cycle (week 4-6), and post-cycle (2-4 weeks after PCT completion)",
+			"Liver function panel (ALT, AST, bilirubin, ALP): baseline and every 4 weeks during cycle",
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline and end of cycle",
+			"Complete blood count: baseline and end of cycle",
+			"Estradiol: baseline and post-cycle (to assess hormonal recovery)",
+			"LH and FSH: post-cycle to confirm HPG axis recovery",
+			"SHBG: baseline and post-cycle (LGD-4033 has been shown to reduce SHBG levels)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party lab tested with certificate of analysis (COA) showing purity above 98%",
+			"Clearly labeled with compound name, concentration, batch number, and expiration date",
+			"Solution is clear and free of particulate matter or discoloration",
+			"Sold as a research chemical with appropriate disclaimers (not marketed for human consumption)",
+			"Supplier provides HPLC or mass spectrometry verification of identity and purity"
+		],
+		"warning": [
+			"No third-party testing or certificate of analysis available",
+			"Sold in pre-made capsules without verifiable dosing accuracy",
+			"Concentration claims that vary between batches from the same supplier",
+			"Marketed with explicit performance enhancement claims (regulatory red flag)",
+			"Unusually low pricing compared to established research chemical suppliers"
+		],
+		"bad": [
+			"Cloudy, discolored, or precipitated solution indicating degradation or contamination",
+			"No labeling, incorrect labeling, or missing batch/lot information",
+			"Supplier has no verifiable reputation, reviews, or testing history",
+			"Product tested by independent labs showing underdosed, mislabeled, or contaminated contents",
+			"Contains unlisted active ingredients or adulterants (a well-documented problem in the SARM market)",
+			"Sold by a source that also sells controlled substances (legal risk indicator)"
+		]
+	},
+	"references": [
+		{
+			"title": "The Safety, Pharmacokinetics, and Effects of LGD-4033, a Novel Nonsteroidal Oral, Selective Androgen Receptor Modulator, in Healthy Young Men",
+			"authors": "Basaria, S., Collins, L., Dillon, E.L., et al.",
+			"journal": "The Journals of Gerontology: Series A",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22459616/",
+			"keyFindings": "First-in-human Phase 1 randomized, double-blind, placebo-controlled study of LGD-4033 in 76 healthy young men. LGD-4033 was well tolerated with no serious adverse events. Dose-dependent increases in lean body mass were observed (up to 1.21 kg at 1.0 mg/day over 21 days). Testosterone, FSH, and SHBG were suppressed in a dose-dependent manner, with recovery after discontinuation. No significant changes in PSA, hematocrit, or liver enzymes were observed."
+		},
+		{
+			"title": "Viking Therapeutics Reports Positive Top-Line Results from Phase 2 Study of VK5211 in Patients Recovering from Hip Fracture",
+			"authors": "Viking Therapeutics, Inc.",
+			"journal": "Press Release / Clinical Trial Results",
+			"year": "2018",
+			"url": "https://www.vikingtherapeutics.com/pipeline/vk5211/",
+			"keyFindings": "Phase 2 double-blind, placebo-controlled trial of VK5211 (LGD-4033) in 108 patients recovering from hip fracture surgery. All three dose groups (0.5 mg, 1.0 mg, 2.0 mg) showed statistically significant increases in lean body mass versus placebo at 12 weeks. The 1.0 mg group also demonstrated significant improvements in functional measures including leg press strength and stair-climbing speed. The compound was well tolerated across all dose groups."
+		},
+		{
+			"title": "Selective Androgen Receptor Modulators: Current Knowledge and Clinical Applications",
+			"authors": "Narayanan, R., Coss, C.C., Dalton, J.T.",
+			"journal": "Sexual Medicine Reviews",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29174957/",
+			"keyFindings": "Comprehensive review of SARM pharmacology and clinical development. Discusses the mechanism of tissue selectivity, preclinical and clinical efficacy data for various SARMs including LGD-4033, and the therapeutic potential for muscle wasting, osteoporosis, and frailty. Notes LGD-4033 as one of the most clinically advanced SARMs with robust Phase 1 and Phase 2 data."
+		},
+		{
+			"title": "Drug-Induced Liver Injury Associated with the Use of Selective Androgen Receptor Modulators",
+			"authors": "Flores, J.E., Chitturi, S., Walker, N.I.",
+			"journal": "Hepatology Communications",
+			"year": "2020",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32626835/",
+			"keyFindings": "Case series documenting clinically significant drug-induced liver injury (DILI) in individuals using SARMs. While RAD-140 was more frequently implicated, LGD-4033 was also associated with hepatotoxicity events. The cases highlight the risk of using unregulated SARM products, which may contain impurities or undisclosed compounds that exacerbate liver injury risk."
+		},
+		{
+			"title": "Body Composition and Functional Outcomes Following Treatment with LGD-4033 (VK5211): Insights from a Phase 2 Hip Fracture Trial",
+			"authors": "Crawford, J., Prado, C.M., Johnston, M.A., et al.",
+			"journal": "Journal of Cachexia, Sarcopenia and Muscle",
+			"year": "2020",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32519539/",
+			"keyFindings": "Detailed analysis of body composition outcomes from the Phase 2 VK5211 hip fracture trial. Confirmed dose-dependent increases in appendicular lean mass measured by DXA, with the 1.0 mg dose group showing the most favorable overall profile of efficacy and safety. Functional improvements correlated with lean mass gains, supporting the clinical relevance of body composition changes."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Phase 2 Study of VK5211 (LGD-4033) in Hip Fracture Recovery",
+			"date": "2018",
+			"source": "Viking Therapeutics / Clinical Trial Results",
+			"url": "https://www.vikingtherapeutics.com/pipeline/vk5211/",
+			"summary": "Phase 2 double-blind, placebo-controlled trial in 108 hip fracture patients demonstrated statistically significant dose-dependent increases in lean body mass, leg press strength, and stair-climbing speed versus placebo at 12 weeks. The compound was well tolerated, and Viking Therapeutics has indicated plans for Phase 3 development."
+		},
+		{
+			"title": "Drug-Induced Liver Injury Associated with Selective Androgen Receptor Modulators",
+			"date": "July 2020",
+			"source": "Hepatology Communications",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32626835/",
+			"summary": "Case series documenting clinically significant liver injury in SARM users. LGD-4033 was among the compounds implicated, reinforcing the importance of hepatic monitoring during use and the risks associated with unregulated research chemical products that may contain contaminants."
+		},
+		{
+			"title": "Body Composition and Functional Outcomes from the VK5211 Phase 2 Trial",
+			"date": "2020",
+			"source": "Journal of Cachexia, Sarcopenia and Muscle",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32519539/",
+			"summary": "Detailed secondary analysis of the Phase 2 hip fracture trial confirmed that LGD-4033 at 1.0 mg/day produced clinically meaningful increases in appendicular lean mass and that these gains correlated with improvements in physical function, supporting VK5211 as a candidate for further development in frailty and sarcopenia populations."
+		}
+	]
+}

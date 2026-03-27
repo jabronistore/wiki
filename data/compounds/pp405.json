@@ -1,0 +1,173 @@
+{
+	"id": "pp405",
+	"name": "PP405",
+	"subtitle": "MPC Inhibitor | Hair Follicle Stem Cell Activation",
+	"aliases": ["JXL-069"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["hair-loss"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~300-400 Da (exact structure not fully published)",
+		"type": "Small molecule mitochondrial pyruvate carrier (MPC) inhibitor",
+		"modifications": ["Dual MPC1/MPC2 inhibitor"],
+		"halfLife": "Topical application; exact pharmacokinetics not published",
+		"halfLifeSeconds": null
+	},
+	"quickStats": {
+		"typicalDose": "0.05% topical gel, once daily",
+		"frequency": "Once daily",
+		"cycleDuration": "Continuous use; minimum 12-24 weeks based on Phase 2a trial design",
+		"storage": "Per manufacturer instructions (not yet commercially available)"
+	},
+	"overview": "PP405 is an investigational topical drug developed by Pelage Pharmaceuticals for the treatment of androgenetic alopecia. Based on research conducted at UCLA, PP405 works through a fundamentally different mechanism than existing hair loss treatments: rather than blocking androgens like finasteride or promoting blood flow like minoxidil, it targets the metabolic dormancy of hair follicle stem cells directly. By inhibiting the mitochondrial pyruvate carrier (MPC1/MPC2), PP405 causes pyruvate accumulation in hair follicle stem cells, stimulating lactate dehydrogenase activity and triggering a metabolic shift that reactivates dormant follicles. Phase 2a clinical trial results showed increased hair count and thickness with a 0.05% gel formulation applied once daily. As of 2025, the drug has completed Phase 2a trials, with Phase 3 trials planned for 2026.",
+	"mechanism": "PP405 is a dual inhibitor of the mitochondrial pyruvate carrier complex, targeting both the MPC1 and MPC2 subunits. Under normal conditions, the MPC transports pyruvate from the cytoplasm into the mitochondrial matrix, where it enters the tricarboxylic acid (TCA) cycle for oxidative metabolism. In hair follicle stem cells (HFSCs), this standard metabolic pathway is associated with quiescence and dormancy. By blocking MPC1/MPC2, PP405 prevents pyruvate from entering the mitochondria, causing it to accumulate in the cytoplasm. This pyruvate buildup stimulates lactate dehydrogenase (LDH) activity, which converts pyruvate to lactate, shifting the cell's metabolic profile toward aerobic glycolysis. This metabolic reprogramming mimics the signaling environment that naturally triggers HFSCs to exit quiescence and re-enter the cell cycle. The activated stem cells then initiate a new anagen (growth) phase in dormant hair follicles. Critically, this mechanism is entirely independent of the androgen/DHT pathway targeted by finasteride and dutasteride, and distinct from the vasodilatory effects of minoxidil, meaning PP405 could be effective regardless of a patient's androgen status.",
+	"keyBenefits": [
+		"Novel non-hormonal mechanism of action targeting hair follicle stem cell metabolism",
+		"Directly addresses the root cause of follicle dormancy rather than downstream hormonal effects",
+		"Potentially effective regardless of androgen status, broadening the treatable population",
+		"Topical application (0.05% gel) limits systemic exposure",
+		"Phase 2a results demonstrated increased hair count and thickness",
+		"Compatible with existing hair loss treatments (finasteride, minoxidil) for combination therapy",
+		"No known sexual or hormonal side effects based on available trial data"
+	],
+	"indications": [
+		{
+			"category": "Hair Loss",
+			"items": [
+				{
+					"name": "Androgenetic Alopecia",
+					"description": "Currently in Phase 2 clinical trials for the treatment of androgenetic alopecia. Phase 2a results showed measurable increases in hair count and thickness with the 0.05% topical gel formulation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Hair Follicle Stem Cell Dormancy",
+					"description": "PP405 directly targets metabolic dormancy in hair follicle stem cells by inhibiting MPC1/MPC2 and promoting anagen re-entry. This mechanism may address follicle miniaturization at an earlier stage than androgen-blocking approaches.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "PP405 is formulated as a 0.05% topical gel for once-daily application to the scalp. This is the only formulation currently under clinical investigation. The topical route delivers the active compound directly to the hair follicle environment while minimizing systemic absorption. Application involves a thin layer of gel spread across affected areas of the scalp.",
+			"protocols": [
+				{
+					"goal": "Androgenetic alopecia treatment (Phase 2 trial protocol)",
+					"dose": "0.05% gel",
+					"frequency": "Once daily",
+					"route": "Topical application to scalp"
+				}
+			],
+			"keyBenefits": [
+				"Direct delivery to hair follicle stem cells at the site of action",
+				"Minimal systemic absorption limits off-target effects",
+				"Simple once-daily application",
+				"Non-hormonal mechanism avoids androgen-related side effects"
+			]
+		},
+		{
+			"type": "oral",
+			"available": false
+		},
+		{
+			"type": "injectable",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Finasteride",
+			"status": "compatible",
+			"notes": "Completely different mechanisms of action. Finasteride blocks DHT production via 5-alpha reductase inhibition, while PP405 targets hair follicle stem cell metabolism via MPC inhibition. Combination could be synergistic by addressing both hormonal miniaturization and stem cell dormancy simultaneously."
+		},
+		{
+			"peptide": "Minoxidil",
+			"status": "compatible",
+			"notes": "Different mechanisms of action. Minoxidil promotes vasodilation and extends the anagen phase through potassium channel opening, while PP405 reactivates dormant stem cells via metabolic reprogramming. No known contraindications for combined use."
+		},
+		{
+			"peptide": "Dutasteride",
+			"status": "compatible",
+			"notes": "Different mechanisms of action. Dutasteride inhibits both Type I and Type II 5-alpha reductase to block DHT, while PP405 acts on mitochondrial pyruvate carriers in hair follicle stem cells. No overlapping pathways suggest safe co-administration."
+		},
+		{
+			"peptide": "RU-58841",
+			"status": "compatible",
+			"notes": "Different mechanisms of action. RU-58841 is a topical androgen receptor antagonist, while PP405 targets stem cell metabolism independently of the androgen pathway. Both are topically applied, but to different molecular targets."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-4",
+			"effects": "No visible changes expected. The drug begins to accumulate in the scalp tissue and modulate mitochondrial pyruvate carrier activity in hair follicle stem cells. Metabolic shifts at the cellular level are initiating, but follicles have not yet transitioned into the anagen growth phase."
+		},
+		{
+			"period": "Week 4-12",
+			"effects": "Early signs of efficacy observed in clinical trials. Hair follicle stem cells begin exiting quiescence and entering the anagen phase. Some subjects in Phase 2a trials showed initial increases in hair count during this period. Fine vellus hairs may begin to appear in previously dormant follicles."
+		},
+		{
+			"period": "Week 12-24",
+			"effects": "Measurable improvements in hair density and thickness based on Phase 2a trial data. New anagen hairs continue to mature and thicken. This is the primary efficacy assessment window used in clinical trials. Cosmetically noticeable changes in hair coverage may become apparent."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Scalp irritation at the application site",
+			"Application site reactions (redness, dryness, itching)"
+		],
+		"rare": [
+			"Long-term safety data not yet available (Phase 2 stage)",
+			"Systemic effects not characterized due to limited clinical data"
+		],
+		"stopSigns": [
+			"Severe or persistent scalp irritation that does not resolve",
+			"Signs of allergic reaction (significant swelling, rash spreading beyond the application site)",
+			"Any unexpected systemic symptoms following application"
+		],
+		"contraindications": [
+			"Known hypersensitivity to PP405 or any component of the gel formulation",
+			"Full contraindication profile has not been established (investigational drug)",
+			"Pregnant or breastfeeding women should avoid use until safety data is available"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Obtained through an authorized clinical trial site or Pelage Pharmaceuticals directly",
+			"Properly labeled with lot number, expiration date, and clinical trial identifiers",
+			"Stored per protocol instructions provided by the trial site",
+			"Prescribed or dispensed by a licensed investigator as part of an approved clinical trial"
+		],
+		"warning": [
+			"Products marketed as 'PP405' or 'JXL-069' from research chemical vendors are NOT verified by Pelage Pharmaceuticals",
+			"Any product claiming to be PP405 that is not sourced from an active clinical trial",
+			"Grey market formulations with unverified concentrations or purity"
+		],
+		"bad": [
+			"Research chemical vendor products sold as PP405 or JXL-069 without regulatory oversight",
+			"Products without certificate of analysis, batch numbers, or manufacturer information",
+			"Any PP405 product purchased outside of a regulated clinical trial or pharmacy setting",
+			"Formulations with undisclosed ingredients or unverifiable provenance"
+		]
+	},
+	"references": [
+		{
+			"title": "Safety, Pharmacokinetics and Efficacy of PP405 in Adults With Androgenetic Alopecia",
+			"authors": "Pelage Pharmaceuticals",
+			"year": "2024",
+			"journal": "ClinicalTrials.gov",
+			"url": "https://clinicaltrials.gov/study/NCT06393452",
+			"keyFindings": "Phase 2a clinical trial evaluating the safety, pharmacokinetics, and efficacy of PP405 topical gel in adults with androgenetic alopecia. The study assessed the 0.05% gel formulation applied once daily, with endpoints including hair count, hair thickness, and safety measures."
+		},
+		{
+			"title": "Lactate and pyruvate promote oxidative stress resistance through hormetic ROS signaling",
+			"authors": "Lowry WE et al.",
+			"year": "2019",
+			"journal": "UCLA / Cell Metabolism (associated research)",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/",
+			"keyFindings": "UCLA research demonstrating that manipulation of the lactate/pyruvate metabolic axis in hair follicle stem cells can drive these cells out of quiescence. Inhibiting mitochondrial pyruvate carriers causes cytoplasmic pyruvate accumulation, activates lactate dehydrogenase, and promotes a glycolytic shift that triggers hair follicle stem cell activation and anagen entry. This foundational research underpins the mechanism of action of PP405."
+		}
+	]
+}

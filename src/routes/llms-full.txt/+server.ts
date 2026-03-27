@@ -15,6 +15,10 @@ const peptideFiles = import.meta.glob('/data/peptides/*.json', { eager: true }) 
 	string,
 	{ default: Record<string, unknown> }
 >;
+const compoundFilesRaw = import.meta.glob('/data/compounds/*.json', { eager: true }) as Record<
+	string,
+	{ default: Record<string, unknown> }
+>;
 
 function getPublishedGuidesWithContent(): { slug: string; title: string; content: string }[] {
 	const guides: { slug: string; title: string; content: string }[] = [];
@@ -73,9 +77,48 @@ function getPeptideData(): {
 	return peptides.sort((a, b) => a.name.localeCompare(b.name));
 }
 
+function getCompoundData(): {
+	id: string;
+	name: string;
+	overview: string;
+	mechanism: string;
+	keyBenefits: string[];
+}[] {
+	const compounds: {
+		id: string;
+		name: string;
+		overview: string;
+		mechanism: string;
+		keyBenefits: string[];
+	}[] = [];
+
+	for (const path in compoundFilesRaw) {
+		try {
+			const raw = compoundFilesRaw[path].default || compoundFilesRaw[path];
+			const data = raw as Record<string, unknown>;
+			const filename = path.split('/').at(-1)?.replace('.json', '') || '';
+			const name = (data.name as string) || '';
+			if (!name) continue;
+
+			compounds.push({
+				id: (data.id as string) || filename,
+				name,
+				overview: (data.overview as string) || '',
+				mechanism: (data.mechanism as string) || '',
+				keyBenefits: (data.keyBenefits as string[]) || []
+			});
+		} catch {
+			// skip malformed files
+		}
+	}
+
+	return compounds.sort((a, b) => a.name.localeCompare(b.name));
+}
+
 export const GET: RequestHandler = async () => {
 	const guides = getPublishedGuidesWithContent();
 	const peptides = getPeptideData();
+	const compounds = getCompoundData();
 
 	const header = `# Peptide Database — Full Content Archive
 
@@ -88,6 +131,7 @@ export const GET: RequestHandler = async () => {
 
 Total guides: ${guides.length}
 Total peptides: ${peptides.length}
+Total compounds: ${compounds.length}
 
 ---
 
@@ -127,7 +171,27 @@ Peptide Database provides research-based information on over 90 peptides, includ
 Peptide Database is an educational resource. It does not sell peptides or provide medical advice.
 `;
 
-	const content = header + guidesSection + '\n\n---\n\n' + peptidesSection + footer;
+	const compoundsSection =
+		compounds.length > 0
+			? `## Compound Profiles\n\n${compounds
+					.map((c) => {
+						let entry = `### ${c.name}\n\nURL: https://peptide-db.com/compounds/${c.id}\n\n`;
+						if (c.overview) entry += `${c.overview}\n\n`;
+						if (c.mechanism) entry += `**Mechanism:** ${c.mechanism}\n\n`;
+						if (c.keyBenefits.length > 0)
+							entry += `**Key Benefits:**\n${c.keyBenefits.map((b) => `- ${b}`).join('\n')}\n`;
+						return entry;
+					})
+					.join('\n\n---\n\n')}`
+			: '';
+
+	const content =
+		header +
+		guidesSection +
+		'\n\n---\n\n' +
+		peptidesSection +
+		(compoundsSection ? '\n\n---\n\n' + compoundsSection : '') +
+		footer;
 
 	return new Response(content, {
 		headers: {

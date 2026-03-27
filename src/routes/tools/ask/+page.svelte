@@ -4,7 +4,7 @@
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 	import { marked } from 'marked';
-	import { getAllPeptideSummaries } from '$lib/data/peptides';
+	import { getAllItemSummaries } from '$lib/data/unified';
 	import { onMount } from 'svelte';
 	import { executeRecaptcha, loadRecaptcha } from '$lib/utils/recaptcha';
 
@@ -25,7 +25,7 @@
 
 	// Peptide lookup for link fixing
 	const peptideLookup = new Map<string, string>();
-	for (const p of getAllPeptideSummaries()) {
+	for (const p of getAllItemSummaries()) {
 		peptideLookup.set(p.name.toLowerCase(), p.id);
 	}
 

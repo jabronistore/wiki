@@ -17,7 +17,7 @@ const config = {
 		adapter: adapter({
 			routes: {
 				include: ['/*'],
-				exclude: ['<build>', '<prerendered>', '/peptides/*']
+				exclude: ['<build>', '<prerendered>', '/peptides/*', '/compounds/*']
 			}
 		}),
 		alias: {

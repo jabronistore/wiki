@@ -1,4 +1,5 @@
 import { getAllPeptides } from '$lib/data/peptides';
+import { getAllCompounds } from '$lib/data/compounds';
 import { getPopularComparisons } from '$lib/utils/comparison';
 import { GOALS } from '$lib/utils/best-for';
 import type { Guide } from '$lib/types';
@@ -34,12 +35,15 @@ interface SitemapUrl {
 
 export async function GET() {
 	const peptides = getAllPeptides();
+	const compounds = getAllCompounds();
 	const guides = getGuides();
 
 	// Static pages
 	const staticPages: SitemapUrl[] = [
 		{ loc: '/', priority: '1.0', changefreq: 'weekly' },
 		{ loc: '/peptides', priority: '0.9', changefreq: 'weekly' },
+		{ loc: '/compounds', priority: '0.9', changefreq: 'weekly' },
+		{ loc: '/best-for', priority: '0.8', changefreq: 'weekly' },
 		{ loc: '/categories', priority: '0.8', changefreq: 'weekly' },
 		{ loc: '/guides', priority: '0.8', changefreq: 'weekly' },
 		{ loc: '/calculator', priority: '0.8', changefreq: 'monthly' },
@@ -48,7 +52,6 @@ export async function GET() {
 		{ loc: '/compare', priority: '0.8', changefreq: 'weekly' },
 		{ loc: '/tools/interactions', priority: '0.7', changefreq: 'monthly' },
 		{ loc: '/tools/cost', priority: '0.7', changefreq: 'monthly' },
-		{ loc: '/peptides/best-for', priority: '0.8', changefreq: 'weekly' },
 		{ loc: '/disclaimer', priority: '0.3', changefreq: 'yearly' },
 		{ loc: '/privacy', priority: '0.3', changefreq: 'yearly' }
 	];
@@ -56,6 +59,13 @@ export async function GET() {
 	// Peptide pages
 	const peptidePages: SitemapUrl[] = peptides.map((p) => ({
 		loc: `/peptides/${p.id}`,
+		priority: '0.7',
+		changefreq: 'monthly'
+	}));
+
+	// Compound pages
+	const compoundPages: SitemapUrl[] = compounds.map((c) => ({
+		loc: `/compounds/${c.id}`,
 		priority: '0.7',
 		changefreq: 'monthly'
 	}));
@@ -131,9 +141,9 @@ export async function GET() {
 
 	const today = new Date().toISOString().split('T')[0];
 
-	// Best-for pages
+	// Best-for pages (top-level)
 	const bestForPages: SitemapUrl[] = GOALS.map((g) => ({
-		loc: `/peptides/best-for/${g.slug}`,
+		loc: `/best-for/${g.slug}`,
 		priority: '0.7',
 		changefreq: 'weekly'
 	}));
@@ -141,6 +151,7 @@ export async function GET() {
 	const urls = [
 		...staticPages,
 		...peptidePages,
+		...compoundPages,
 		...guidePages,
 		...accumulationPages,
 		...blendPages,

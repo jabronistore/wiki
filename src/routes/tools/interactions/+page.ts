@@ -1,4 +1,4 @@
-import { getAllPeptideSummaries, getPeptideBySlug } from '$lib/data/peptides';
+import { getAllItemSummaries, getItemBySlug } from '$lib/data/unified';
 
 export const prerender = false;
 
@@ -9,11 +9,11 @@ export function load({ url }) {
 
 	// Load full data for pre-selected peptides
 	const selectedPeptides = selectedIds
-		.map((id) => getPeptideBySlug(id))
+		.map((id) => getItemBySlug(id))
 		.filter((p) => p !== undefined);
 
 	return {
-		allPeptides: getAllPeptideSummaries(),
+		allPeptides: getAllItemSummaries(),
 		initialPeptides: selectedPeptides,
 		initialIds: selectedIds
 	};

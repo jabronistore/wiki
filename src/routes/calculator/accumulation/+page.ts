@@ -1,4 +1,4 @@
-import { getPeptideBySlug } from '$lib/data/peptides';
+import { getItemBySlug } from '$lib/data/unified';
 
 // Can't prerender because we use URL searchParams for initial peptide
 export const prerender = false;
@@ -19,7 +19,7 @@ export function load({ url }) {
 		}
 	}
 
-	const peptide = peptideId ? getPeptideBySlug(peptideId) : undefined;
+	const peptide = peptideId ? getItemBySlug(peptideId) : undefined;
 
 	return {
 		initialPeptideId: peptideId,

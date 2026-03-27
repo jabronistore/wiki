@@ -1,0 +1,311 @@
+{
+	"id": "methylene-blue",
+	"name": "Methylene Blue",
+	"subtitle": "Mitochondrial Electron Carrier | Cognitive & Neuroprotection",
+	"aliases": ["Methylthioninium Chloride", "MB"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cognitive", "longevity"],
+	"researchStatus": "well-studied",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "0.5-2 mg/kg oral (low-dose nootropic)",
+		"frequency": "Once daily",
+		"cycleDuration": "Varies; often cycled 4-8 weeks on, 2-4 weeks off",
+		"storage": "Room temperature (59-77F). Protect from light. Store in airtight container."
+	},
+	"molecular": {
+		"weight": "319.85 Da",
+		"type": "Phenothiazine dye (C16H18ClN3S)",
+		"modifications": [
+			"Exists in oxidized form (methylene blue, dark blue) and reduced form (leucomethylene blue, colorless)",
+			"Acts as an alternative electron carrier in the mitochondrial electron transport chain",
+			"Can cycle between oxidized and reduced states, shuttling electrons to Complex IV (cytochrome c oxidase)"
+		],
+		"halfLife": "~5-6 hours",
+		"halfLifeSeconds": 19800,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Methylene blue (methylthioninium chloride) is one of the oldest synthetic drugs in medicine, first synthesized in 1876 and originally used as a textile dye before its medicinal properties were discovered. It is FDA-approved for the treatment of methemoglobinemia, a condition in which hemoglobin is unable to carry oxygen effectively. Beyond its approved indication, methylene blue has attracted significant interest as a mitochondrial-enhancing nootropic and neuroprotective agent. At low doses (0.5-2 mg/kg), it acts as an alternative electron carrier in the mitochondrial electron transport chain, bypassing Complex I and Complex III to donate electrons directly to Complex IV (cytochrome c oxidase). This enhances mitochondrial respiration, increases ATP production, and reduces the generation of reactive oxygen species. Methylene blue also inhibits monoamine oxidase (MAO-A), nitric oxide synthase, and has demonstrated anti-inflammatory, antimalarial, and antimicrobial properties. Its neuroprotective potential has been explored in Alzheimer's disease, Parkinson's disease, and traumatic brain injury models.",
+	"mechanism": "Methylene blue functions as a redox cycling agent in mitochondria. In its oxidized form, it accepts electrons from NADH through Complex I and is reduced to leucomethylene blue. The reduced form then donates these electrons directly to cytochrome c, which passes them to Complex IV (cytochrome c oxidase), the terminal enzyme in the electron transport chain. This creates an alternative electron transfer pathway that can bypass dysfunctional Complex I and Complex III, maintaining the proton gradient across the inner mitochondrial membrane and sustaining ATP synthesis even under conditions of mitochondrial stress or inhibition. Additionally, by diverting electron flow away from sites of superoxide generation at Complex I and Complex III, methylene blue reduces mitochondrial production of reactive oxygen species. Methylene blue also inhibits monoamine oxidase A (MAO-A), which slows the degradation of serotonin, norepinephrine, and dopamine, contributing to its mood and cognitive effects. It inhibits nitric oxide synthase (NOS) and guanylate cyclase, which can affect vascular tone and neuroinflammation. At higher concentrations, methylene blue exhibits pro-oxidant behavior rather than antioxidant, which is why therapeutic benefit follows a hormetic dose-response curve where low doses enhance function and high doses become counterproductive.",
+	"keyBenefits": [
+		"Enhances mitochondrial respiration and ATP production by acting as an alternative electron carrier",
+		"Reduces mitochondrial reactive oxygen species generation",
+		"Supports memory consolidation and cognitive performance at low doses",
+		"Neuroprotective effects demonstrated in models of Alzheimer's, Parkinson's, and traumatic brain injury",
+		"Improves mitochondrial function in aging cells and tissues",
+		"FDA-approved treatment for acquired methemoglobinemia",
+		"Anti-inflammatory and antimicrobial properties"
+	],
+	"indications": [
+		{
+			"category": "FDA-Approved",
+			"items": [
+				{
+					"name": "Methemoglobinemia",
+					"description": "Acute treatment of acquired methemoglobinemia caused by drug exposure or chemical toxicity. Methylene blue acts as an electron carrier that reduces methemoglobin back to functional hemoglobin via NADPH-methemoglobin reductase. Administered intravenously at 1-2 mg/kg in clinical settings.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Cognitive / Nootropic",
+			"items": [
+				{
+					"name": "Memory Enhancement",
+					"description": "Low-dose methylene blue has been shown to improve memory consolidation and retention in both animal models and small human studies. The mechanism is attributed to enhanced mitochondrial function in hippocampal neurons, which are highly metabolically active during memory encoding.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cognitive Performance Under Stress",
+					"description": "By maintaining mitochondrial ATP output under conditions of oxidative or metabolic stress, methylene blue may help preserve cognitive function during sleep deprivation, intense mental workload, or aging-related mitochondrial decline.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Alzheimer's Disease",
+					"description": "Methylene blue and its derivative LMTM (TRx0237) have been investigated as tau aggregation inhibitors in Alzheimer's disease. While Phase III trials of LMTM as monotherapy showed mixed results, preclinical evidence for mitochondrial-mediated neuroprotection remains compelling. Not currently approved for this indication.",
+					"effectiveness": "emerging"
+				},
+				{
+					"name": "Traumatic Brain Injury",
+					"description": "Animal studies demonstrate reduced lesion volume, improved behavioral outcomes, and preserved mitochondrial function when methylene blue is administered following TBI. Human clinical data is limited but preclinical evidence is strong.",
+					"effectiveness": "emerging"
+				},
+				{
+					"name": "Parkinson's Disease",
+					"description": "Methylene blue has shown protective effects against mitochondrial Complex I inhibition (a hallmark of Parkinson's pathology) in cell and animal models by providing an alternative electron pathway. Clinical translation is still in early stages.",
+					"effectiveness": "emerging"
+				}
+			]
+		},
+		{
+			"category": "Longevity / Mitochondrial Health",
+			"items": [
+				{
+					"name": "Mitochondrial Dysfunction",
+					"description": "Methylene blue can partially rescue mitochondrial function in cells with impaired electron transport chain activity. It has extended lifespan in some model organisms (C. elegans, fungi) by improving mitochondrial efficiency and reducing oxidative damage.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cellular Senescence",
+					"description": "Preclinical evidence suggests methylene blue may delay cellular senescence markers in skin fibroblasts and other cell types by maintaining mitochondrial membrane potential and reducing ROS accumulation.",
+					"effectiveness": "emerging"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oral administration is the standard route for low-dose nootropic and longevity use. Methylene blue is well absorbed from the gastrointestinal tract with high oral bioavailability (~72%). It crosses the blood-brain barrier readily due to its lipophilicity. Pharmaceutical-grade USP methylene blue solution or capsules are the preferred oral forms. Industrial or laboratory-grade methylene blue should never be used for human consumption as it may contain heavy metal contaminants.",
+			"protocols": [
+				{
+					"goal": "Low-Dose Nootropic",
+					"dose": "0.5-1 mg/kg body weight",
+					"frequency": "Once daily, morning",
+					"route": "Oral (USP-grade solution or capsule)",
+					"notes": "Start at the lower end and titrate up. For a 75 kg individual, this is roughly 35-75 mg. Take on an empty stomach or with a light meal. Urine will turn blue-green; this is normal and expected."
+				},
+				{
+					"goal": "Moderate Cognitive Support",
+					"dose": "1-2 mg/kg body weight",
+					"frequency": "Once daily, morning",
+					"route": "Oral (USP-grade solution or capsule)",
+					"notes": "Higher end of the nootropic dose range. The dose-response for methylene blue is hormetic: exceeding 2 mg/kg shifts from antioxidant to pro-oxidant effects, which is counterproductive."
+				},
+				{
+					"goal": "Methemoglobinemia (Clinical)",
+					"dose": "1-2 mg/kg",
+					"frequency": "Single dose, may repeat once after 1 hour",
+					"route": "Intravenous (clinical setting only)",
+					"notes": "FDA-approved indication. Must be administered IV by healthcare professionals. Not for self-administration."
+				}
+			],
+			"keyBenefits": [
+				"High oral bioavailability (~72%)",
+				"Crosses the blood-brain barrier readily",
+				"Simple once-daily dosing",
+				"No injection required",
+				"Well-established safety profile at low doses"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "SSRIs (Selective Serotonin Reuptake Inhibitors)",
+			"status": "avoid",
+			"notes": "CRITICAL INTERACTION: Methylene blue is a potent monoamine oxidase A (MAO-A) inhibitor. Combining it with SSRIs (fluoxetine, sertraline, paroxetine, escitalopram, citalopram) can cause serotonin syndrome, a potentially life-threatening condition characterized by agitation, hyperthermia, tachycardia, muscle rigidity, and seizures. The FDA has issued a Drug Safety Communication warning against this combination. Methylene blue must not be used concurrently with SSRIs."
+		},
+		{
+			"peptide": "SNRIs (Serotonin-Norepinephrine Reuptake Inhibitors)",
+			"status": "avoid",
+			"notes": "Same serotonin syndrome risk as SSRIs. SNRIs including venlafaxine, duloxetine, and desvenlafaxine should not be combined with methylene blue due to MAO-A inhibition."
+		},
+		{
+			"peptide": "MAO Inhibitors",
+			"status": "avoid",
+			"notes": "Combining methylene blue with other MAO inhibitors (selegiline, phenelzine, tranylcypromine, rasagiline) creates additive MAO inhibition and significantly increases the risk of serotonin syndrome and hypertensive crisis."
+		},
+		{
+			"peptide": "Tramadol / Meperidine",
+			"status": "avoid",
+			"notes": "Opioids with serotonergic activity should not be combined with methylene blue due to additive serotonin syndrome risk."
+		},
+		{
+			"peptide": "CoQ10 / Ubiquinol",
+			"status": "synergistic",
+			"notes": "Both compounds support mitochondrial electron transport chain function through complementary mechanisms. CoQ10 carries electrons between Complex I/II and Complex III, while methylene blue provides an alternative pathway to Complex IV. May provide additive mitochondrial support."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions. Both compounds have demonstrated neuroprotective properties through distinct mechanisms. BPC-157 acts via growth factor modulation while methylene blue acts via mitochondrial enhancement."
+		}
+	],
+	"timeline": [
+		{
+			"period": "First dose",
+			"effects": "Urine turns blue or blue-green within 1-2 hours of ingestion. This is harmless and expected. Some users report mild mental clarity or alertness within 1-2 hours. Blue-green discoloration of the tongue and mouth may occur with liquid formulations."
+		},
+		{
+			"period": "Day 1-3",
+			"effects": "Subtle improvements in focus and mental energy may become noticeable. The blue urine discoloration persists throughout use and for 1-2 days after discontinuation. Some individuals experience mild nausea on the first few doses, which typically resolves."
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Cognitive effects become more consistent. Users commonly report improved mental stamina, clearer thinking, and better memory recall. The degree of benefit varies significantly between individuals."
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Full mitochondrial enhancement effects are realized. Sustained improvements in cognitive performance, mental energy, and potentially mood. Long-term mitochondrial health benefits accrue with continued use."
+		},
+		{
+			"period": "After discontinuation",
+			"effects": "Effects taper over several days as methylene blue is cleared. Blue urine resolves within 24-48 hours. No withdrawal symptoms or rebound effects have been reported. Mitochondrial benefits may persist briefly after cessation."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Blue or blue-green discoloration of urine (expected and harmless)",
+			"Blue-green staining of the tongue and mouth with liquid formulations",
+			"Mild nausea or stomach discomfort, especially at higher doses",
+			"Blue discoloration of stool",
+			"Mild headache during initial use"
+		],
+		"rare": [
+			"Serotonin syndrome when combined with serotonergic drugs (SSRIs, SNRIs, MAOIs)",
+			"Hemolytic anemia in individuals with G6PD deficiency (potentially severe)",
+			"Skin photosensitivity with prolonged use",
+			"Dizziness or confusion at doses exceeding the therapeutic range",
+			"Elevated blood pressure at high doses due to nitric oxide synthase inhibition",
+			"Bluish skin discoloration (reversible) with chronic high-dose use"
+		],
+		"stopSigns": [
+			"Signs of serotonin syndrome: agitation, confusion, rapid heart rate, high fever, muscle rigidity, or seizures",
+			"Signs of hemolytic anemia: dark urine (distinct from normal blue discoloration), jaundice, rapid fatigue, shortness of breath",
+			"Severe allergic reaction: rash, swelling of face or throat, difficulty breathing",
+			"Chest pain or significant changes in heart rhythm",
+			"Persistent vomiting or inability to keep fluids down"
+		],
+		"contraindications": [
+			"Concurrent use of SSRIs, SNRIs, or MAO inhibitors (serotonin syndrome risk)",
+			"Glucose-6-phosphate dehydrogenase (G6PD) deficiency (risk of severe hemolytic anemia)",
+			"Renal insufficiency (methylene blue is primarily renally excreted)",
+			"Known hypersensitivity to methylene blue or phenothiazine compounds",
+			"Pregnancy and breastfeeding (insufficient safety data)"
+		],
+		"monitoring": [
+			"Medication review: ensure no serotonergic drugs are being taken concurrently",
+			"G6PD status: ideally screened before starting, especially in individuals of African, Mediterranean, or Southeast Asian descent",
+			"Renal function: baseline and periodic monitoring in those with kidney concerns",
+			"Blood pressure: periodic checks, particularly at higher doses",
+			"Complete blood count: if prolonged use, to monitor for any hematological changes"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"USP-grade (United States Pharmacopeia) methylene blue, clearly labeled",
+			"Pharmaceutical-grade product with certificate of analysis (CoA) available",
+			"Clear, dark blue solution free of particulate matter or sediment",
+			"Proper concentration labeling (commonly 0.5% or 1% oral solution)",
+			"Third-party tested for heavy metals (arsenic, lead, mercury) and microbial contamination",
+			"Sourced from a compounding pharmacy or reputable pharmaceutical supplier"
+		],
+		"warning": [
+			"Products labeled as 'laboratory grade' or 'reagent grade' without USP designation",
+			"No certificate of analysis or third-party testing documentation available",
+			"Purchased from aquarium or industrial supply sources",
+			"Unusually low price compared to pharmaceutical-grade products"
+		],
+		"bad": [
+			"Industrial or biological staining-grade methylene blue (may contain heavy metals and impurities)",
+			"Aquarium-grade methylene blue (formulated for fish, not human consumption, often contains zinc-free chloride or other additives)",
+			"No labeling, concentration, or purity information",
+			"Solution that appears cloudy, has particulates, or has an unusual odor",
+			"Any product not explicitly designated for human use"
+		]
+	},
+	"references": [
+		{
+			"title": "Methylene blue in the treatment of neuropsychiatric disorders",
+			"authors": "Rojas, J.C., Bruchey, A.K., Gonzalez-Lima, F.",
+			"journal": "CNS Drugs",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28990148/",
+			"keyFindings": "Comprehensive review of methylene blue's mechanisms of action in the central nervous system, including mitochondrial enhancement, MAO-A inhibition, and nitric oxide synthase inhibition. Summarizes clinical evidence for cognitive enhancement and neuroprotection."
+		},
+		{
+			"title": "Low-dose methylene blue increases cerebral oxidative metabolism and memory retention",
+			"authors": "Gonzalez-Lima, F., Bruchey, A.K.",
+			"journal": "Psychopharmacology",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14985004/",
+			"keyFindings": "Demonstrated that low-dose methylene blue (1 mg/kg) enhances memory retention in rats by increasing cytochrome c oxidase activity in the brain. Provided foundational evidence for the mitochondrial mechanism underlying cognitive enhancement."
+		},
+		{
+			"title": "Methylene blue and Alzheimer's disease",
+			"authors": "Wischik, C.M., Staff, R.T., Wischik, D.J., et al.",
+			"journal": "Biochemical Pharmacology",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25575793/",
+			"keyFindings": "Review of methylthioninium (methylene blue) as a tau aggregation inhibitor for Alzheimer's disease. Details the rationale for targeting tau pathology, the preclinical and clinical development of methylene blue derivatives (LMTM), and the challenges of translating mitochondrial and anti-tau mechanisms into clinical therapy."
+		},
+		{
+			"title": "FDA Drug Safety Communication: Serious CNS reactions possible when methylene blue is given to patients taking certain psychiatric medications",
+			"authors": "U.S. Food and Drug Administration",
+			"journal": "FDA Safety Communication",
+			"year": "2011",
+			"url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-updated-information-about-drug-interaction-between-methylene-blue",
+			"keyFindings": "FDA warning that intravenous methylene blue can cause serious serotonin syndrome when administered to patients taking serotonergic psychiatric medications. Established that methylene blue is a potent MAO-A inhibitor at therapeutic doses and should not be combined with SSRIs, SNRIs, or other serotonergic drugs."
+		},
+		{
+			"title": "Neuroprotective actions of methylene blue and its derivatives",
+			"authors": "Tucker, D., Lu, Y., Zhang, Q.",
+			"journal": "CNS & Neurological Disorders - Drug Targets",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28440188/",
+			"keyFindings": "Reviewed methylene blue's neuroprotective mechanisms in ischemic stroke, traumatic brain injury, and neurodegenerative diseases. Highlighted its ability to bypass mitochondrial Complex I/III dysfunction, reduce oxidative stress, and inhibit neuroinflammation as key neuroprotective pathways."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Effects of methylene blue on mitochondrial function and cellular senescence",
+			"date": "2017",
+			"source": "Aging Cell",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28771931/",
+			"summary": "Demonstrated that methylene blue delays replicative senescence in human skin fibroblasts by improving mitochondrial function, reducing ROS production, and maintaining mitochondrial membrane potential, suggesting potential applications for skin aging and longevity."
+		},
+		{
+			"title": "Psychomotor stimulant and memory-enhancing effects of low-dose methylene blue in healthy volunteers",
+			"date": "2016",
+			"source": "Psychopharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27255451/",
+			"summary": "Randomized controlled trial in healthy adults showing that a single low dose of methylene blue (280 mg USP-grade oral) increased sustained attention during a psychomotor vigilance task and improved memory retrieval, with corresponding increases in fMRI activity in brain regions associated with attention and memory."
+		}
+	]
+}

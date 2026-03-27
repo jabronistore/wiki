@@ -61,6 +61,7 @@ export function getAllPeptideSummaries(): PeptideSummary[] {
 			id: p.id,
 			name: p.name,
 			subtitle: p.subtitle || '',
+			compoundKind: p.compoundKind,
 			categories: p.categories || [],
 			researchStatus: p.researchStatus,
 			searchText: parts.join(' ').toLowerCase()

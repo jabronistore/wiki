@@ -1,14 +1,14 @@
-import { getPeptideBySlug, getAllPeptides } from '$lib/data/peptides';
+import { getItemBySlug, getAllItems } from '$lib/data/unified';
 import type { Guide } from '$lib/types';
 
 export const prerender = false;
 
 export function load({ url }) {
 	const peptideId = url.searchParams.get('peptide') ?? undefined;
-	const peptide = peptideId ? getPeptideBySlug(peptideId) : undefined;
+	const peptide = peptideId ? getItemBySlug(peptideId) : undefined;
 
-	// Get all peptides for the dropdown selector
-	const allPeptides = getAllPeptides().map((p) => ({
+	// Get all items for the dropdown selector
+	const allPeptides = getAllItems().map((p) => ({
 		id: p.id,
 		name: p.name
 	}));

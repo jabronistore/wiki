@@ -1,6 +1,7 @@
 import { GoogleGenAI } from '@google/genai';
 import { env } from '$env/dynamic/private';
-import { getAllPeptides } from '$lib/data/peptides';
+import { getAllItems } from '$lib/data/unified';
+import { getItemUrlPrefix } from '$lib/data/unified';
 import { verifyRecaptcha } from '$lib/utils/recaptcha';
 import type { RequestHandler } from './$types';
 
@@ -12,16 +13,17 @@ function getAI(): GoogleGenAI | null {
 
 // Build the peptide knowledge context once at module load
 function buildContext(): string {
-	const peptides = getAllPeptides();
+	const items = getAllItems();
 	const parts: string[] = [
-		'You are a knowledgeable research assistant for Peptide Database (peptide-db.com). Answer questions using the peptide data provided below as your primary source. You can also use your general knowledge to supplement answers about reconstitution techniques, general biology, and practical questions — but always prioritise the specific data below when it exists.',
+		'You are a knowledgeable research assistant for Peptide Database (peptide-db.com). Answer questions using the peptide and compound data provided below as your primary source. You can also use your general knowledge to supplement answers about reconstitution techniques, general biology, and practical questions — but always prioritise the specific data below when it exists.',
 		'',
 		'',
 		'CRITICAL FORMATTING RULES (you MUST follow these):',
 		'',
-		'1. EVERY TIME you mention a peptide by name, format it as a markdown link using its ID from the data below.',
-		'   Example: [Retatrutide](/peptides/retatrutide), [BPC-157](/peptides/bpc-157), [Semaglutide](/peptides/semaglutide)',
-		'   NEVER write a peptide name as plain text. ALWAYS use [Name](/peptides/id) format.',
+		'1. EVERY TIME you mention a peptide or compound by name, format it as a markdown link using its URL from the data below.',
+		'   Peptides use /peptides/id, compounds use /compounds/id.',
+		'   Example: [Retatrutide](/peptides/retatrutide), [BPC-157](/peptides/bpc-157), [Testosterone](/compounds/testosterone)',
+		'   NEVER write a compound name as plain text. ALWAYS use [Name](url) format.',
 		'',
 		'2. When relevant, link to tools:',
 		'   - Reconstitution calculator: [calculator](/calculator)',
@@ -38,12 +40,13 @@ function buildContext(): string {
 		'- For reconstitution/dosing, give the specific steps and doses from the data',
 		'- Keep answers concise (2-4 paragraphs, or lists for step-by-step)',
 		'',
-		'--- PEPTIDE DATABASE ---',
+		'--- COMPOUND DATABASE ---',
 		''
 	];
 
-	for (const p of peptides) {
-		const entry: string[] = [`## ${p.name} (/${p.id})`];
+	for (const p of items) {
+		const urlPrefix = getItemUrlPrefix(p);
+		const entry: string[] = [`## ${p.name} (${urlPrefix}/${p.id})`];
 		if (p.subtitle) entry.push(p.subtitle);
 		if (p.overview) entry.push(p.overview);
 		if (p.mechanism) entry.push(`Mechanism: ${p.mechanism}`);

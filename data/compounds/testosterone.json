@@ -1,0 +1,619 @@
+{
+	"id": "testosterone",
+	"name": "Testosterone",
+	"subtitle": "Anabolic-Androgenic Steroid | Primary Male Sex Hormone",
+	"aliases": [
+		"Test",
+		"Test C",
+		"Test E",
+		"Test P",
+		"Testosterone Cypionate",
+		"Testosterone Enanthate",
+		"Testosterone Propionate",
+		"Depo-Testosterone",
+		"Delatestryl",
+		"TRT",
+		"Testosterone Replacement Therapy"
+	],
+	"compoundKind": "anabolic",
+	"categories": ["anabolic", "sexual-health", "metabolic"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "100-200 mg/week (TRT)",
+		"frequency": "1-2x per week (injectable)",
+		"cycleDuration": "Ongoing (TRT) or 12-16 weeks (cycle)",
+		"storage": "Room temperature (68-77F). Protect from light."
+	},
+	"molecular": {
+		"weight": "288.42 Da (base)",
+		"type": "Steroid hormone (C19H28O2)",
+		"modifications": [
+			"Cypionate ester (MW 412.61 Da) - extends half-life to ~8 days",
+			"Enanthate ester (MW 400.59 Da) - extends half-life to ~7-8 days",
+			"Propionate ester (MW 344.49 Da) - shorter half-life of ~2-3 days",
+			"Undecanoate ester (MW 456.70 Da) - very long half-life for oral or depot injection"
+		],
+		"halfLife": "~8 days (cypionate)",
+		"halfLifeSeconds": 691200,
+		"halfLifeRoute": "Intramuscular (cypionate ester)"
+	},
+	"overview": "Testosterone is the primary endogenous androgenic-anabolic steroid hormone produced mainly by the Leydig cells of the testes in males and in smaller quantities by the ovaries and adrenal glands in females. It is essential for the development and maintenance of male reproductive tissues, secondary sexual characteristics, muscle mass, bone density, red blood cell production, and overall well-being. Exogenous testosterone has been FDA-approved for the treatment of male hypogonadism since the 1950s and remains the gold standard for testosterone replacement therapy (TRT). It is available in multiple pharmaceutical formulations including intramuscular injectables, transdermal gels, transdermal patches, subcutaneous pellets, and oral capsules. In supraphysiological doses, testosterone is also widely used for performance enhancement, though such use falls outside approved medical indications.",
+	"mechanism": "Testosterone exerts its effects primarily through binding to the intracellular androgen receptor (AR), forming a hormone-receptor complex that translocates to the nucleus and modulates gene transcription. This drives protein synthesis in skeletal muscle (anabolic effect), stimulates erythropoietin production in the kidneys to increase red blood cell mass, promotes osteoblast activity and bone mineral density, and regulates libido and cognitive function. Testosterone is also converted to dihydrotestosterone (DHT) by the enzyme 5-alpha reductase in peripheral tissues (skin, prostate, hair follicles), where DHT mediates androgenic effects with greater potency. Additionally, testosterone is aromatized to estradiol by the enzyme aromatase in adipose tissue, which is important for bone health, lipid metabolism, and cardiovascular function but can cause estrogenic side effects at supraphysiological doses.",
+	"keyBenefits": [
+		"Restoration of normal testosterone levels in hypogonadal men",
+		"Increased lean muscle mass and strength",
+		"Improved bone mineral density and reduced fracture risk",
+		"Enhanced libido, sexual function, and erectile quality",
+		"Improved mood, energy, motivation, and cognitive clarity",
+		"Reduction in body fat percentage, particularly visceral fat",
+		"Increased red blood cell production and oxygen-carrying capacity",
+		"Improved insulin sensitivity and metabolic health markers"
+	],
+	"indications": [
+		{
+			"category": "Endocrine / Hormonal",
+			"items": [
+				{
+					"name": "Primary Hypogonadism",
+					"description": "Testicular failure resulting in low testosterone production. Caused by Klinefelter syndrome, undescended testes, testicular injury, or orchitis. Testosterone replacement restores normal androgen levels.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Secondary Hypogonadism",
+					"description": "Hypothalamic or pituitary dysfunction leading to insufficient LH/FSH signaling. Caused by pituitary tumors, head trauma, obesity, or idiopathic HPA axis dysfunction. Often combined with HCG if fertility preservation is desired.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Age-Related Testosterone Decline",
+					"description": "Gradual decline in testosterone production beginning around age 30, accelerating after 50. Symptoms include fatigue, reduced libido, loss of muscle mass, and increased body fat. TRT can reverse symptomatic decline when levels fall below reference ranges.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Delayed Puberty",
+					"description": "Short-term testosterone therapy to initiate puberty in adolescent males with constitutional delay, promoting secondary sexual characteristics and growth.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Muscle Mass Preservation",
+					"description": "Prevention and reversal of sarcopenia and muscle wasting in hypogonadal men. Physiological replacement doses increase lean body mass by 3-5 kg over 6-12 months.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Fat Mass Reduction",
+					"description": "TRT reduces total body fat and visceral adiposity in hypogonadal men, with the greatest reductions seen in those with metabolic syndrome or obesity.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Dose-dependent increases in muscle strength, particularly in the upper body. Effects are more pronounced at supraphysiological doses but clinically meaningful at replacement levels.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Sexual Health",
+			"items": [
+				{
+					"name": "Erectile Dysfunction",
+					"description": "Improvement in erectile function in men with documented low testosterone. Most effective when combined with PDE5 inhibitors in men who do not fully respond to TRT alone.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Libido Restoration",
+					"description": "Consistent and reliable improvement in sexual desire, arousal, and frequency of sexual activity. Often the earliest symptomatic improvement noticed on TRT.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sexual Satisfaction",
+					"description": "Improved orgasmic function, intercourse satisfaction, and overall sexual well-being in hypogonadal men.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolic Health",
+			"items": [
+				{
+					"name": "Insulin Sensitivity",
+					"description": "TRT improves insulin sensitivity, fasting glucose, and HbA1c in hypogonadal men with or at risk for type 2 diabetes.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Metabolic Syndrome",
+					"description": "Reduction in waist circumference, triglycerides, and inflammatory markers with long-term TRT in men with metabolic syndrome.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Bone Mineral Density",
+					"description": "Increases in lumbar spine and femoral neck bone mineral density over 12-36 months of therapy, reducing fracture risk in severely hypogonadal men.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Neurological / Mood",
+			"items": [
+				{
+					"name": "Depression in Hypogonadal Men",
+					"description": "Improvement in depressive symptoms, particularly in men with documented low testosterone. Not a substitute for standard antidepressant therapy in eugonadal men.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cognitive Function",
+					"description": "Some evidence for improved spatial memory and verbal fluency with testosterone normalization, though results in clinical trials have been mixed.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Energy and Vitality",
+					"description": "Reduced fatigue and improved overall sense of vitality and well-being, commonly reported within the first 3-6 weeks of therapy.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Intramuscular or subcutaneous injection of esterified testosterone is the most common and cost-effective route of administration. Testosterone cypionate and enanthate are the most widely prescribed esters, offering steady serum levels with weekly or biweekly dosing. Subcutaneous injection has become increasingly popular due to comparable pharmacokinetics, more stable levels, and reduced injection discomfort.",
+			"protocols": [
+				{
+					"goal": "TRT - Standard Replacement",
+					"dose": "100-200 mg/week",
+					"frequency": "1-2x per week",
+					"route": "IM or SubQ (cypionate or enanthate)",
+					"notes": "Split dosing (e.g., 50-100 mg twice weekly) provides more stable serum levels and fewer estrogen-related side effects"
+				},
+				{
+					"goal": "TRT - Conservative Start",
+					"dose": "80-100 mg/week",
+					"frequency": "2x per week (40-50 mg per injection)",
+					"route": "SubQ or shallow IM",
+					"notes": "Preferred starting dose for men with borderline levels or those concerned about side effects. Titrate up based on labs at 6-8 weeks."
+				},
+				{
+					"goal": "TRT - Propionate Protocol",
+					"dose": "25-50 mg every other day",
+					"frequency": "Every other day or 3x per week",
+					"route": "SubQ or shallow IM",
+					"notes": "Shorter ester provides most stable levels and fastest washout if side effects occur. Higher injection frequency required."
+				},
+				{
+					"goal": "Performance Enhancement - Moderate",
+					"dose": "300-500 mg/week",
+					"frequency": "2x per week",
+					"route": "IM (cypionate or enanthate)",
+					"notes": "Supraphysiological dose. Requires monitoring of hematocrit, liver enzymes, lipids, and estradiol. PCT required after discontinuation."
+				},
+				{
+					"goal": "Performance Enhancement - Advanced",
+					"dose": "500-750 mg/week",
+					"frequency": "2-3x per week",
+					"route": "IM (cypionate or enanthate)",
+					"notes": "High-dose use carries significantly elevated risk of side effects. Aromatase inhibitor likely required. Not recommended without medical oversight."
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Pre-filled testosterone vial (typically 200 mg/mL in 1 mL or 10 mL vials)",
+					"Syringes (1 mL or 3 mL)",
+					"Drawing needle (18-21 gauge)",
+					"Injection needle (25-30 gauge for SubQ, 22-25 gauge for IM)",
+					"Alcohol swabs",
+					"Sharps container"
+				],
+				"steps": [
+					"Wash hands thoroughly and prepare a clean work surface",
+					"Wipe vial stopper with alcohol swab and allow to dry",
+					"Draw air into syringe equal to the volume of testosterone to be withdrawn",
+					"Insert drawing needle through vial stopper and inject air to equalize pressure",
+					"Invert vial and withdraw the prescribed dose, tapping to remove air bubbles",
+					"Switch to injection needle (do not inject with drawing needle)",
+					"Clean injection site with alcohol swab in circular motion outward",
+					"For SubQ: pinch skin at 45-degree angle in abdomen, upper thigh, or love handles",
+					"For IM: insert at 90-degree angle into ventrogluteal, vastus lateralis, or deltoid",
+					"Aspirate briefly (optional per current guidelines), then inject slowly over 10-20 seconds",
+					"Withdraw needle, apply gentle pressure with gauze, dispose of needle in sharps container"
+				]
+			},
+			"keyBenefits": [
+				"Most cost-effective delivery method (cypionate/enanthate)",
+				"Precise dose control and adjustment",
+				"Well-established pharmacokinetics with decades of clinical data",
+				"Subcutaneous injection provides more stable levels than intramuscular",
+				"Split dosing minimizes peak-trough fluctuations and estrogenic side effects"
+			]
+		},
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Transdermal testosterone gels and creams provide daily application for steady-state hormone levels without injections. Absorption varies significantly between individuals (10-35% bioavailability), and levels should be checked 2-4 hours after application for gels. Topical formulations carry a risk of transference to women and children through skin-to-skin contact.",
+			"protocols": [
+				{
+					"goal": "TRT - Gel (AndroGel, Testim)",
+					"dose": "50-100 mg daily (1-2 pumps)",
+					"frequency": "Once daily, morning application",
+					"route": "Topical - shoulders, upper arms, or abdomen",
+					"notes": "Apply to clean, dry skin. Allow to dry completely before dressing. Wash hands thoroughly after application. Avoid contact with others for 2-4 hours."
+				},
+				{
+					"goal": "TRT - Cream (compounded)",
+					"dose": "50-200 mg daily",
+					"frequency": "Once or twice daily",
+					"route": "Topical - scrotal or non-scrotal application",
+					"notes": "Scrotal application provides higher DHT conversion. Compounded creams allow for customized concentrations (typically 100-200 mg/mL)."
+				},
+				{
+					"goal": "TRT - Patch (Androderm)",
+					"dose": "2-6 mg daily",
+					"frequency": "Once daily, applied at night",
+					"route": "Transdermal patch - back, abdomen, upper arm, or thigh",
+					"notes": "Rotate application sites. Skin irritation is common. Do not apply to bony prominences or areas with excessive hair."
+				}
+			],
+			"keyBenefits": [
+				"No injections required",
+				"Relatively stable serum levels with daily application",
+				"Easy dose adjustments",
+				"Mimics natural diurnal testosterone rhythm (morning application)",
+				"Preferred by patients who are needle-averse"
+			]
+		}
+	],
+	"protocolVariants": [
+		{
+			"name": "Testosterone Cypionate",
+			"source": "Standard TRT Protocol",
+			"philosophy": "Most commonly prescribed ester in the US. Long half-life allows weekly or biweekly injections with stable blood levels.",
+			"description": "Cypionate is the most widely prescribed testosterone ester in the United States. Its 8-day half-life provides relatively stable serum levels with once or twice weekly injections. Available as Depo-Testosterone (brand) and generic formulations in cottonseed or sesame oil carriers.",
+			"keyDifferences": [
+				"Half-life: ~8 days — supports weekly or biweekly injection schedules",
+				"Carrier oil: typically cottonseed oil (Depo-Testosterone) or sesame oil",
+				"Most commonly available ester at US pharmacies and clinics",
+				"Slightly longer half-life than enanthate, though clinically interchangeable",
+				"Available in 100mg/mL and 200mg/mL concentrations"
+			],
+			"doses": [
+				{
+					"phase": "TRT Standard",
+					"dose": "100-200 mg",
+					"frequency": "Once weekly",
+					"duration": "Ongoing"
+				},
+				{
+					"phase": "TRT Split Dose",
+					"dose": "50-100 mg",
+					"frequency": "Twice weekly",
+					"duration": "Ongoing"
+				},
+				{
+					"phase": "Performance",
+					"dose": "250-500 mg",
+					"frequency": "Twice weekly",
+					"duration": "12-16 weeks"
+				}
+			]
+		},
+		{
+			"name": "Testosterone Enanthate",
+			"source": "International Standard",
+			"philosophy": "The global standard for injectable testosterone. Virtually interchangeable with cypionate but more widely available internationally.",
+			"description": "Enanthate is the most widely used testosterone ester worldwide and the standard in most countries outside the US. Its pharmacokinetic profile is nearly identical to cypionate with a 7-8 day half-life. Available as Delatestryl (brand) and numerous international generics.",
+			"keyDifferences": [
+				"Half-life: ~7-8 days — virtually identical to cypionate in practice",
+				"Carrier oil: typically sesame oil",
+				"Global standard — more widely available internationally than cypionate",
+				"Slightly lower molecular weight means marginally more testosterone per mg",
+				"Can be used interchangeably with cypionate at the same dose"
+			],
+			"doses": [
+				{
+					"phase": "TRT Standard",
+					"dose": "100-200 mg",
+					"frequency": "Once weekly",
+					"duration": "Ongoing"
+				},
+				{
+					"phase": "TRT Split Dose",
+					"dose": "50-100 mg",
+					"frequency": "Twice weekly",
+					"duration": "Ongoing"
+				},
+				{
+					"phase": "Performance",
+					"dose": "250-500 mg",
+					"frequency": "Twice weekly",
+					"duration": "12-16 weeks"
+				}
+			]
+		},
+		{
+			"name": "Testosterone Propionate",
+			"source": "Short Ester Protocol",
+			"philosophy": "Faster-acting ester that clears quickly. Useful for dialing in dose response, managing side effects, and at the end of cycles before PCT.",
+			"description": "Propionate is the shortest commonly used testosterone ester with a 2-3 day half-life. It requires more frequent injections (every other day or every day) but allows for faster dose adjustments and clears the system quickly. Often preferred at the end of a cycle before PCT, or by those who want rapid dose titration.",
+			"keyDifferences": [
+				"Half-life: ~2-3 days — requires every-other-day or daily injection",
+				"Fastest onset of all common esters — peak levels within 24-48 hours",
+				"Clears the system in ~10 days — allows faster transition to PCT",
+				"Higher mg-for-mg testosterone content due to lighter ester weight",
+				"Known for more injection site pain (PIP) due to shorter ester chain",
+				"Useful for initial TRT dose-finding before switching to longer esters"
+			],
+			"doses": [
+				{
+					"phase": "TRT",
+					"dose": "25-50 mg",
+					"frequency": "Every other day",
+					"duration": "Ongoing"
+				},
+				{
+					"phase": "Cycle Bridge to PCT",
+					"dose": "50 mg",
+					"frequency": "Every other day",
+					"duration": "2-3 weeks"
+				},
+				{
+					"phase": "Performance",
+					"dose": "50-100 mg",
+					"frequency": "Every other day",
+					"duration": "8-12 weeks"
+				}
+			]
+		},
+		{
+			"name": "Testosterone Undecanoate",
+			"source": "Long-Acting / Oral Protocol",
+			"philosophy": "Ultra-long-acting injectable or oral formulation for maximum convenience. Fewer injections per year but less flexibility for dose adjustments.",
+			"description": "Undecanoate is available in two formulations: an ultra-long-acting injectable (Nebido/Aveed) with a half-life of ~21 days given every 10-14 weeks, and an oral capsule (Jatenzo) taken twice daily with food. The injectable version offers maximum convenience with only 4-6 injections per year but requires clinic administration and offers limited dose flexibility.",
+			"keyDifferences": [
+				"Injectable half-life: ~21 days — injection every 10-14 weeks (Nebido/Aveed)",
+				"Oral half-life: ~6 hours — requires twice daily dosing with fatty meal (Jatenzo)",
+				"Injectable must be administered in a clinical setting (REMS program for Aveed in US)",
+				"Oral form avoids first-pass liver toxicity via lymphatic absorption",
+				"Least flexibility for dose adjustment due to depot effect",
+				"Highest convenience for patients who dislike frequent injections"
+			],
+			"doses": [
+				{
+					"phase": "Injectable TRT",
+					"dose": "750 mg",
+					"frequency": "Every 10 weeks (after loading)",
+					"duration": "Ongoing"
+				},
+				{
+					"phase": "Injectable Loading",
+					"dose": "750 mg",
+					"frequency": "Week 0 and Week 4",
+					"duration": "Loading phase"
+				},
+				{
+					"phase": "Oral TRT (Jatenzo)",
+					"dose": "158-396 mg",
+					"frequency": "Twice daily with food",
+					"duration": "Ongoing"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "HCG",
+			"status": "synergistic",
+			"notes": "HCG maintains intratesticular testosterone production, preserves testicular size, and supports fertility during TRT. Typical concurrent dose is 500-1000 IU 2-3x per week. Considered standard of care for men on TRT who wish to preserve fertility."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "compatible",
+			"notes": "Aromatase inhibitor used to control estradiol levels when testosterone aromatization causes elevated E2 (typically above 40-50 pg/mL). Usual dose is 0.25-0.5 mg 2-3x per week. Over-suppression of estradiol should be avoided as it impairs lipid health, bone density, and libido."
+		},
+		{
+			"peptide": "Finasteride",
+			"status": "compatible",
+			"notes": "5-alpha reductase inhibitor that reduces conversion of testosterone to DHT. Used concurrently for hair loss prevention or prostate health. May reduce some androgenic benefits (body hair, libido in some individuals). Standard dose is 1 mg daily for hair loss."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions. BPC-157 may support tendon and joint health during training, which can be beneficial alongside testosterone-driven increases in strength and training volume."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "synergistic",
+			"notes": "Testosterone and GH have complementary anabolic effects. Testosterone increases nitrogen retention and protein synthesis while GH promotes lipolysis, IGF-1 production, and connective tissue repair. The combination produces greater improvements in body composition than either compound alone."
+		},
+		{
+			"peptide": "CJC-1295/Ipamorelin",
+			"status": "synergistic",
+			"notes": "Growth hormone secretagogues complement TRT by enhancing endogenous GH pulsatility. Improved sleep quality, recovery, and body composition when stacked with testosterone replacement."
+		},
+		{
+			"peptide": "Nandrolone",
+			"status": "monitor",
+			"notes": "Often combined with testosterone for joint support and additional anabolic effect. Testosterone base is required to prevent nandrolone-induced sexual dysfunction (deca dick). Monitor prolactin and estradiol levels closely."
+		},
+		{
+			"peptide": "Enclomiphene",
+			"status": "avoid",
+			"notes": "Enclomiphene stimulates endogenous testosterone production via SERM activity at the hypothalamus. Concurrent use with exogenous testosterone is counterproductive as exogenous testosterone suppresses the HPT axis that enclomiphene is trying to stimulate."
+		},
+		{
+			"peptide": "Clomiphene",
+			"status": "avoid",
+			"notes": "Same rationale as enclomiphene. Clomiphene is used as an alternative to TRT or during PCT, not concurrently with exogenous testosterone."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Improved energy, mood elevation, and sense of well-being. Increased libido and morning erections may begin. Some water retention as the body adjusts to rising testosterone levels."
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Noticeable increase in strength and workout recovery. Sexual function improvements become more consistent. Mood stabilization continues. Some acne may appear as sebum production increases."
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Visible improvements in body composition begin. Increased muscle fullness, reduced waist circumference, and improved vascularity. Erythropoiesis increases, improving exercise capacity. Estradiol levels should be checked and managed if needed."
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Significant improvements in lean mass, strength, and body fat reduction. Bone density improvements measurable. Full sexual function benefits realized. Hematocrit should be monitored."
+		},
+		{
+			"period": "Week 12+",
+			"effects": "Full steady-state benefits achieved. Ongoing improvements in insulin sensitivity, body composition, and bone density continue over months to years. Long-term monitoring of hematocrit, PSA, lipids, and estradiol is essential."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Acne and oily skin (increased sebum production via DHT)",
+			"Water retention and bloating (estrogen-mediated)",
+			"Mild mood changes (irritability, increased assertiveness)",
+			"Increased hematocrit and hemoglobin (erythrocytosis)",
+			"Testicular atrophy (suppression of LH/FSH from exogenous testosterone)",
+			"Injection site pain, redness, or irritation",
+			"Increased body hair growth",
+			"Mild elevation in blood pressure"
+		],
+		"rare": [
+			"Gynecomastia (breast tissue growth from excess estradiol conversion)",
+			"Polycythemia vera requiring phlebotomy (hematocrit above 54%)",
+			"Sleep apnea onset or worsening",
+			"Significant HDL cholesterol suppression",
+			"Hepatotoxicity (primarily oral methylated formulations, not injectable esters)",
+			"Left ventricular hypertrophy with long-term supraphysiological doses",
+			"Azoospermia (complete suppression of sperm production)"
+		],
+		"stopSigns": [
+			"Severe chest pain, tightness, or pressure",
+			"Sudden difficulty breathing or shortness of breath at rest",
+			"Swelling, warmth, or pain in one leg (potential deep vein thrombosis)",
+			"Severe persistent headaches or visual disturbances",
+			"Yellowing of skin or eyes (jaundice)",
+			"Blood in urine or significant urinary obstruction",
+			"Signs of stroke: sudden numbness, confusion, trouble speaking, loss of coordination"
+		],
+		"contraindications": [
+			"Prostate cancer (active or history of hormone-sensitive prostate cancer)",
+			"Breast cancer in males",
+			"Polycythemia (hematocrit above 54% at baseline)",
+			"Uncontrolled severe heart failure",
+			"Untreated severe obstructive sleep apnea",
+			"Desire for near-term fertility (without concurrent HCG/FSH)",
+			"Pregnancy or potential exposure to pregnant women (Category X)",
+			"Hypersensitivity to testosterone or any formulation components"
+		],
+		"monitoring": [
+			"Total and free testosterone: 6-8 weeks after starting, then every 6-12 months",
+			"Estradiol (sensitive assay): at each testosterone lab draw",
+			"Complete blood count with hematocrit: baseline, 3-6 months, then annually",
+			"Comprehensive metabolic panel and lipid panel: baseline, 6 months, then annually",
+			"PSA (prostate-specific antigen): baseline, 3-6 months, then annually for men over 40",
+			"Digital rectal exam: annually for men over 40",
+			"DEXA scan for bone density: if indicated by risk factors, at baseline and 1-2 years"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, pale yellow to yellow oil with no visible particles or cloudiness",
+			"Pharmaceutical-grade product with valid NDC number and manufacturer lot",
+			"Proper labeling with concentration (typically 200 mg/mL), ester type, and expiration date",
+			"Intact rubber stopper with no signs of puncture prior to first use",
+			"Oil draws smoothly with appropriate viscosity (carrier oils: cottonseed, grapeseed, or sesame)",
+			"Prescribed by licensed physician with documented lab work indicating need"
+		],
+		"warning": [
+			"Underground lab (UGL) product without pharmaceutical-grade verification",
+			"Concentration claims above 300 mg/mL (higher concentrations often cause severe PIP)",
+			"Vial label with spelling errors, misaligned printing, or unprofessional appearance",
+			"Oil appears slightly darker than expected but is otherwise clear"
+		],
+		"bad": [
+			"Cloudy, discolored, or particulate-containing solution (contamination risk)",
+			"Crashed gear (crystallized testosterone visible in vial) without proper reheating",
+			"Broken or missing tamper-evident seal on vial",
+			"No labeling, incorrect labeling, or missing expiration date",
+			"Pain, redness, or swelling at injection site lasting more than 48-72 hours (potential infection or abscess)",
+			"Product sourced without any testing or third-party verification"
+		]
+	},
+	"references": [
+		{
+			"title": "Testosterone Therapy in Men With Hypogonadism: An Endocrine Society Clinical Practice Guideline",
+			"authors": "Bhasin, S., Brito, J.P., Cunningham, G.R., et al.",
+			"journal": "The Journal of Clinical Endocrinology & Metabolism",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29562364/",
+			"keyFindings": "Comprehensive clinical practice guideline recommending testosterone therapy for men with symptomatic testosterone deficiency confirmed by consistently low morning serum testosterone levels. Provides evidence-based protocols for diagnosis, treatment, and monitoring."
+		},
+		{
+			"title": "Effects of Testosterone Treatment in Older Men",
+			"authors": "Snyder, P.J., Bhasin, S., Cunningham, G.R., et al.",
+			"journal": "The New England Journal of Medicine",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26906150/",
+			"keyFindings": "The Testosterone Trials (TTrials) in 790 men aged 65+ with low testosterone showed that 1 year of testosterone gel treatment improved sexual function, physical activity, vitality, and mood compared to placebo. The largest coordinated set of testosterone trials in older men to date."
+		},
+		{
+			"title": "Testosterone Treatment and Cardiovascular Events in Men with Low Testosterone: The TRAVERSE Randomized Clinical Trial",
+			"authors": "Lincoff, A.M., Bhasin, S., Flevaris, P., et al.",
+			"journal": "The New England Journal of Medicine",
+			"year": "2023",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37334136/",
+			"keyFindings": "Landmark cardiovascular safety trial (TRAVERSE) in 5,246 men aged 45-80 with hypogonadism and elevated cardiovascular risk. Testosterone replacement was noninferior to placebo for major adverse cardiovascular events (MACE), resolving longstanding safety concerns about testosterone and cardiovascular risk."
+		},
+		{
+			"title": "Testosterone dose-response relationships in healthy young men",
+			"authors": "Bhasin, S., Woodhouse, L., Casaburi, R., et al.",
+			"journal": "American Journal of Physiology - Endocrinology and Metabolism",
+			"year": "2001",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11701431/",
+			"keyFindings": "Demonstrated dose-dependent increases in lean body mass, muscle strength, and fat-free mass in healthy young men receiving graded doses of testosterone enanthate (25 to 600 mg/week) over 20 weeks, establishing the dose-response relationship for testosterone's anabolic effects."
+		},
+		{
+			"title": "Testosterone Replacement Therapy and Cardiovascular Risk: A Review",
+			"authors": "Corona, G., Torres, L.O., Maggi, M.",
+			"journal": "The World Journal of Men's Health",
+			"year": "2020",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31385490/",
+			"keyFindings": "Systematic review of cardiovascular risk associated with TRT, concluding that normalization of testosterone levels is not associated with increased cardiovascular risk and may provide cardiovascular benefits in hypogonadal men, particularly regarding metabolic syndrome, insulin resistance, and body composition."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Testosterone Treatment and Cardiovascular Events in Men with Low Testosterone (TRAVERSE Trial)",
+			"date": "June 2023",
+			"source": "The New England Journal of Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37334136/",
+			"summary": "Pivotal cardiovascular safety trial of 5,246 men demonstrating that testosterone replacement was noninferior to placebo for major adverse cardiovascular events, providing the strongest safety signal to date for TRT in high-risk populations."
+		},
+		{
+			"title": "Testosterone Therapy and Bone Density, Strength, and Body Composition in Men (TRAVERSE Bone Substudy)",
+			"date": "March 2024",
+			"source": "JAMA Internal Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38345802/",
+			"summary": "TRAVERSE bone substudy in 1,300+ men showed that testosterone treatment significantly improved spine and hip bone mineral density compared to placebo, with effects persisting over the treatment period."
+		},
+		{
+			"title": "Testosterone and Prostate Safety: TRAVERSE Prostate Substudy",
+			"date": "September 2023",
+			"source": "JAMA Network Open",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37721736/",
+			"summary": "Analysis of prostate outcomes in 5,204 men from TRAVERSE showing that testosterone treatment did not significantly increase the incidence of prostate cancer or high-grade prostate events compared to placebo."
+		},
+		{
+			"title": "Subcutaneous Testosterone Enanthate-Autoinjector for Treatment of Hypogonadism",
+			"date": "December 2022",
+			"source": "Journal of the Endocrine Society",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36578895/",
+			"summary": "FDA-approved subcutaneous testosterone autoinjector (XYOSTED) showed sustained testosterone levels within normal range with weekly self-administration, offering a convenient alternative to traditional intramuscular injection."
+		}
+	]
+}

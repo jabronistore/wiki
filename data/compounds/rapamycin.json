@@ -1,0 +1,371 @@
+{
+	"id": "rapamycin",
+	"name": "Rapamycin",
+	"subtitle": "mTOR Inhibitor | Longevity & Immunosuppression",
+	"aliases": ["Sirolimus", "Rapamune"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["longevity", "immune"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "3-6 mg once weekly (longevity protocol)",
+		"frequency": "Once weekly (pulsed longevity) or daily (immunosuppressive)",
+		"cycleDuration": "Ongoing or cyclical (e.g., 8 weeks on, 2 weeks off)",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "914.17 Da",
+		"type": "Macrolide lactone (C51H79NO13)",
+		"modifications": [
+			"Natural product originally isolated from Streptomyces hygroscopicus on Rapa Nui (Easter Island)",
+			"Forms a complex with FKBP12 that directly inhibits mTORC1",
+			"Lipophilic molecule with high tissue distribution and long terminal half-life"
+		],
+		"halfLife": "~62 hours",
+		"halfLifeSeconds": 223200,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Rapamycin (sirolimus) is a macrolide compound originally discovered in 1972 from a soil bacterium (Streptomyces hygroscopicus) found on Easter Island (Rapa Nui). It was FDA-approved in 1999 as an immunosuppressant for the prevention of organ transplant rejection and has since become the most studied pharmacological intervention for lifespan extension. Rapamycin is the only drug that has consistently extended lifespan in every organism tested, including yeast, worms, flies, and mice, making it the benchmark compound in longevity research. At immunosuppressive doses (daily administration), it prevents transplant rejection and treats certain cancers. At lower pulsed doses (weekly administration), it is increasingly used off-label in the longevity community to target aging-related pathways while minimizing immunosuppressive side effects. The distinction between daily immunosuppressive dosing and weekly pulsed longevity dosing is critical, as the side effect profiles differ substantially between these two regimens.",
+	"mechanism": "Rapamycin exerts its effects by binding to the intracellular protein FKBP12, forming a complex that directly and specifically inhibits mechanistic target of rapamycin complex 1 (mTORC1). mTORC1 is a master nutrient-sensing kinase that integrates signals from growth factors, amino acids, energy status, and stress to regulate cell growth, proliferation, and metabolism. When mTORC1 is active, it promotes anabolic processes including protein synthesis (via S6K1 and 4E-BP1 phosphorylation), lipid synthesis, and nucleotide synthesis while suppressing autophagy. By inhibiting mTORC1, rapamycin shifts the cellular balance from growth toward maintenance and repair: it upregulates autophagy (cellular self-cleaning), enhances mitochondrial function, reduces senescent cell accumulation, improves proteostasis, and reduces chronic low-grade inflammation (inflammaging). With chronic daily dosing, rapamycin can also inhibit mTORC2, which mediates Akt signaling and is responsible for some of the metabolic side effects (insulin resistance, lipid changes). Pulsed weekly dosing preferentially inhibits mTORC1 while allowing mTORC2 to recover between doses, which is believed to account for the improved side effect profile of longevity protocols.",
+	"keyBenefits": [
+		"Lifespan extension demonstrated in every model organism tested (yeast, worms, flies, mice)",
+		"Upregulation of autophagy and cellular quality control mechanisms",
+		"Reduction of senescent cell burden and associated inflammatory secretome",
+		"Improved immune function at low pulsed doses (paradoxical immune enhancement)",
+		"Reduced age-related inflammation (inflammaging) via mTORC1 inhibition",
+		"Enhanced mitochondrial function and biogenesis",
+		"Potential reduction in age-related cancer risk through growth pathway suppression",
+		"Improved vaccine response in elderly populations at low intermittent doses"
+	],
+	"indications": [
+		{
+			"category": "Longevity / Anti-Aging",
+			"items": [
+				{
+					"name": "Geroprotection (Lifespan Extension)",
+					"description": "Rapamycin is the most robust pharmacological lifespan extender identified to date. The NIA Interventions Testing Program demonstrated 9-14% median lifespan extension in genetically heterogeneous mice, even when initiated late in life. These findings have been replicated across multiple independent laboratories and model organisms.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Autophagy Enhancement",
+					"description": "mTORC1 inhibition is the most potent pharmacological inducer of autophagy. Rapamycin promotes clearance of damaged organelles, misfolded proteins, and dysfunctional mitochondria, all of which accumulate with aging and contribute to age-related disease.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Immunosenescence Reversal",
+					"description": "Low-dose intermittent rapamycin (e.g., 5 mg weekly for 6 weeks) improved influenza vaccine response by approximately 20% in elderly volunteers in the Mannick et al. trial. This paradoxical immune enhancement at low doses contrasts with the immunosuppression seen at high chronic doses.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Transplant Medicine",
+			"items": [
+				{
+					"name": "Organ Transplant Rejection Prophylaxis",
+					"description": "FDA-approved indication for prevention of renal transplant rejection in combination with calcineurin inhibitors and corticosteroids. Daily dosing at 2-5 mg/day maintains immunosuppression to prevent graft rejection.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Lymphangioleiomyomatosis (LAM)",
+					"description": "FDA-approved for treatment of LAM, a rare progressive lung disease. Sirolimus stabilizes lung function and reduces chylous effusions by inhibiting the dysregulated mTOR signaling that drives the disease.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Age-Related Disease Prevention",
+			"items": [
+				{
+					"name": "Periodontal Disease / Oral Health",
+					"description": "The Participatory Evaluation of Aging with Rapamycin for Longevity (PEARL) trial demonstrated that topical rapamycin (applied to gums) significantly reduced periodontal inflammation and gingival immune aging markers, supporting localized anti-aging effects.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cognitive Decline",
+					"description": "Preclinical evidence in mouse models of Alzheimer disease shows rapamycin reduces amyloid and tau pathology, improves cognitive performance, and enhances cerebrovascular function. Human trials are underway.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cardiac Aging",
+					"description": "In aged mice, rapamycin reverses age-related cardiac hypertrophy, diastolic dysfunction, and fibrosis. The PEARL cardiac substudy and other trials are evaluating these effects in humans.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Rapamycin is administered orally as tablets or an oral solution. Bioavailability is approximately 15% due to extensive first-pass metabolism by CYP3A4 and efflux by P-glycoprotein in the gut. Absorption is affected by food, particularly high-fat meals, which increase peak concentration but not overall exposure. For consistent pharmacokinetics, it should be taken the same way each time (consistently with or without food).",
+			"protocols": [
+				{
+					"goal": "Longevity - Standard Pulsed Protocol",
+					"dose": "5-6 mg once weekly",
+					"frequency": "Once weekly",
+					"route": "Oral",
+					"notes": "The most commonly used longevity protocol. Weekly dosing preferentially inhibits mTORC1 while allowing mTORC2 recovery. Take consistently with or without food. Monitor blood lipids and CBC at baseline and every 3-6 months."
+				},
+				{
+					"goal": "Longevity - Conservative Start",
+					"dose": "1-3 mg once weekly",
+					"frequency": "Once weekly",
+					"route": "Oral",
+					"notes": "Lower starting dose for those new to rapamycin or concerned about side effects. Titrate upward based on tolerance and biomarker response. Even very low doses produce measurable mTORC1 inhibition."
+				},
+				{
+					"goal": "Longevity - Biweekly Protocol",
+					"dose": "8-10 mg every two weeks",
+					"frequency": "Every 14 days",
+					"route": "Oral",
+					"notes": "Alternative pulsing strategy that provides a higher peak dose with a longer washout period. May offer deeper mTORC1 inhibition followed by more complete mTORC2 recovery."
+				},
+				{
+					"goal": "Immunosuppression - Transplant",
+					"dose": "2-5 mg daily (adjust to trough levels 4-12 ng/mL)",
+					"frequency": "Daily",
+					"route": "Oral",
+					"notes": "FDA-approved immunosuppressive dosing. Requires therapeutic drug monitoring with trough levels drawn immediately before the next dose. Used in combination with other immunosuppressants."
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration",
+				"Well-characterized pharmacokinetics with decades of clinical use",
+				"Tablet and liquid formulations available",
+				"Weekly pulsed dosing is simple and well-tolerated",
+				"Generic sirolimus is relatively affordable"
+			]
+		}
+	],
+	"protocolVariants": [
+		{
+			"name": "Weekly Pulsed Longevity Protocol",
+			"source": "Longevity community consensus / Attia, Green, Blagosklonny",
+			"philosophy": "Intermittent mTORC1 inhibition captures the geroprotective benefits of rapamycin while allowing mTORC2 recovery between doses, minimizing metabolic side effects like insulin resistance and lipid dysregulation.",
+			"description": "The most widely adopted longevity protocol involves taking rapamycin once weekly at a dose of 5-6 mg. This approach is supported by the pharmacokinetic rationale that weekly dosing provides transient mTORC1 inhibition (the target for longevity benefits) while the 62-hour half-life allows sufficient drug clearance for mTORC2 to recover before the next dose. Most practitioners recommend cycling (e.g., 8 weeks on, 2-4 weeks off) or continuous use with regular monitoring.",
+			"keyDifferences": [
+				"Once-weekly dosing rather than daily immunosuppressive dosing",
+				"Preferentially inhibits mTORC1 while sparing mTORC2 during washout",
+				"Significantly fewer side effects than daily transplant dosing",
+				"Does not cause clinically meaningful immunosuppression at these doses",
+				"Paradoxical immune enhancement demonstrated in elderly populations",
+				"Blood trough levels are not typically targeted (unlike transplant dosing)"
+			],
+			"doses": [
+				{
+					"phase": "Conservative Start",
+					"dose": "1-3 mg",
+					"frequency": "Once weekly",
+					"duration": "4-8 weeks"
+				},
+				{
+					"phase": "Standard Longevity",
+					"dose": "5-6 mg",
+					"frequency": "Once weekly",
+					"duration": "Ongoing or cyclical"
+				},
+				{
+					"phase": "Aggressive Protocol",
+					"dose": "8-10 mg",
+					"frequency": "Every 14 days",
+					"duration": "Ongoing or cyclical"
+				}
+			]
+		},
+		{
+			"name": "Immunosuppressive Transplant Protocol",
+			"source": "FDA-approved labeling / Transplant medicine guidelines",
+			"philosophy": "Continuous daily mTOR inhibition to prevent organ transplant rejection, used as part of a multi-drug immunosuppressive regimen.",
+			"description": "The FDA-approved transplant protocol uses daily rapamycin dosing titrated to maintain trough blood levels of 4-12 ng/mL (or 12-20 ng/mL in some protocols). This is combined with calcineurin inhibitors (tacrolimus or cyclosporine) and corticosteroids. Daily dosing results in sustained inhibition of both mTORC1 and mTORC2, which accounts for the more significant side effect profile including immunosuppression, metabolic dysregulation, and impaired wound healing.",
+			"keyDifferences": [
+				"Daily dosing with therapeutic drug monitoring (trough levels)",
+				"Inhibits both mTORC1 and mTORC2 with continuous exposure",
+				"Combined with other immunosuppressants (calcineurin inhibitors, steroids)",
+				"Full immunosuppressive effect -- increased infection and malignancy risk",
+				"Significant metabolic side effects (dyslipidemia, insulin resistance)",
+				"Impaired wound healing is a clinically important consideration"
+			],
+			"doses": [
+				{
+					"phase": "Loading Dose",
+					"dose": "6 mg",
+					"frequency": "Once (day 1)",
+					"duration": "Single dose"
+				},
+				{ "phase": "Maintenance", "dose": "2-5 mg", "frequency": "Daily", "duration": "Ongoing" },
+				{
+					"phase": "Target Trough",
+					"dose": "Adjust to trough 4-12 ng/mL",
+					"frequency": "Daily with monitoring",
+					"duration": "Ongoing"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Metformin",
+			"status": "synergistic",
+			"notes": "Metformin and rapamycin target complementary longevity pathways: metformin activates AMPK (energy-sensing) while rapamycin inhibits mTORC1 (nutrient-sensing). Both promote autophagy and reduce inflammation through distinct mechanisms. Preclinical data suggest additive lifespan extension when combined. Metformin may partially counteract rapamycin-induced insulin resistance via its insulin-sensitizing effects, making the combination metabolically favorable."
+		},
+		{
+			"peptide": "Acarbose",
+			"status": "synergistic",
+			"notes": "Acarbose (alpha-glucosidase inhibitor) independently extends lifespan in the NIA Interventions Testing Program, particularly in male mice. The combination with rapamycin targets different aspects of metabolic aging: acarbose reduces postprandial glucose spikes and improves glycemic variability while rapamycin inhibits mTORC1-driven aging processes. Both are considered top-tier geroprotective compounds."
+		},
+		{
+			"peptide": "Vaccines",
+			"status": "monitor",
+			"notes": "At immunosuppressive daily doses, rapamycin may blunt vaccine-mediated immune responses. However, at low intermittent longevity doses, rapamycin may paradoxically enhance vaccine responses by improving the quality of the immune response (reducing exhausted T cells and promoting memory T cell formation). For optimal vaccine response, some practitioners recommend pausing rapamycin for 1-2 weeks before and after vaccination, though this is precautionary and evidence is mixed at longevity doses."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Initial mTORC1 inhibition begins. Autophagy upregulation detectable at the cellular level. Most users report no noticeable effects at this stage. Occasional mouth sores (aphthous ulcers) may appear in sensitive individuals, particularly at higher starting doses."
+		},
+		{
+			"period": "Week 3-6",
+			"effects": "Autophagy and cellular quality control mechanisms are well established. Some users report improved skin quality, reduced joint stiffness, and subtle improvements in energy. Mouth sores, if present, often resolve with continued use or dose adjustment. Lipid panels may show modest increases in LDL and triglycerides."
+		},
+		{
+			"period": "Month 2-3",
+			"effects": "Measurable reductions in inflammatory markers (hsCRP, IL-6) may become apparent. Subjective improvements in cognitive clarity, exercise recovery, and overall resilience reported by some users. Metabolic biomarkers should be reassessed to ensure lipid and glucose changes remain within acceptable ranges."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Immunosenescence benefits may emerge, including improved immune surveillance and reduced frequency of minor infections. Ongoing autophagy enhancement and senescent cell clearance contribute to gradual improvements in tissue function. Periodic blood work should confirm stable metabolic parameters."
+		},
+		{
+			"period": "Month 6+",
+			"effects": "Long-term geroprotective effects accumulate. Continued improvements in age-related biomarkers, immune function, and tissue quality. The full magnitude of longevity benefits is expected to manifest over years to decades of use, based on extrapolation from animal lifespan data."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mouth sores / aphthous ulcers (most common, usually dose-dependent and self-limiting)",
+			"Mild lipid changes (elevated LDL cholesterol and triglycerides)",
+			"Temporary glucose elevation or mildly impaired fasting glucose",
+			"Mild gastrointestinal discomfort (nausea, loose stools)",
+			"Skin changes (mild acne, slower wound healing at injection/cut sites)"
+		],
+		"rare": [
+			"Clinically significant immunosuppression (primarily at daily transplant doses)",
+			"Severe hyperlipidemia requiring statin intervention",
+			"Insulin resistance or new-onset impaired glucose tolerance",
+			"Interstitial pneumonitis (very rare, primarily at immunosuppressive doses)",
+			"Impaired wound healing requiring dose interruption before elective surgery",
+			"Peripheral edema",
+			"Leukopenia or thrombocytopenia (dose-dependent, mainly at transplant doses)"
+		],
+		"stopSigns": [
+			"Persistent fever, productive cough, or signs of serious infection",
+			"Severe or non-healing mouth ulcers unresponsive to dose reduction",
+			"Significant unexplained shortness of breath (possible pneumonitis)",
+			"Severe wound healing failure or surgical complications",
+			"Marked worsening of metabolic markers (fasting glucose consistently >126 mg/dL, triglycerides >500 mg/dL)"
+		],
+		"contraindications": [
+			"Active serious infection or immunocompromised state",
+			"Hypersensitivity to rapamycin/sirolimus or any macrolide compound",
+			"Severe hepatic impairment (rapamycin is extensively hepatically metabolized)",
+			"Planned major surgery within 2-4 weeks (impaired wound healing)",
+			"Pregnancy or breastfeeding",
+			"Concurrent use of strong CYP3A4 inhibitors without dose adjustment (ketoconazole, itraconazole, clarithromycin, grapefruit juice)"
+		],
+		"monitoring": [
+			"Lipid panel (total cholesterol, LDL, HDL, triglycerides): baseline, 6 weeks, then every 3-6 months",
+			"Fasting glucose and HbA1c: baseline, 6 weeks, then every 3-6 months",
+			"Complete blood count: baseline, then every 6 months",
+			"Liver function tests: baseline, then every 6-12 months",
+			"hsCRP and inflammatory markers: baseline, then every 6 months (optional but informative)",
+			"Oral mucosa inspection at each follow-up visit"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade sirolimus (Rapamune) tablets or generic equivalent with valid NDC",
+			"Proper labeling with dose strength (typically 0.5 mg, 1 mg, or 2 mg tablets), lot number, and expiration date",
+			"Obtained through a licensed pharmacy with a valid prescription",
+			"Stored at room temperature in original packaging, protected from light",
+			"Tablets are intact without discoloration, crumbling, or unusual odor"
+		],
+		"warning": [
+			"Compounded rapamycin from a compounding pharmacy (variable quality depending on pharmacy)",
+			"Product stored improperly (excessive heat, humidity, or light exposure)",
+			"Tablets obtained from unverified international pharmacies"
+		],
+		"bad": [
+			"Product with no verifiable manufacturer, lot number, or expiration date",
+			"Tablets that are discolored, crumbled, or have an unusual smell",
+			"Research-grade rapamycin not intended for human consumption",
+			"Product sourced from unregulated online vendors without any quality verification"
+		]
+	},
+	"references": [
+		{
+			"title": "Rapamycin fed late in life extends lifespan in genetically heterogeneous mice",
+			"authors": "Harrison, D.E., Strong, R., Sharp, Z.D., et al.",
+			"journal": "Nature",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19587680/",
+			"keyFindings": "Landmark NIA Interventions Testing Program study demonstrating that rapamycin extended median and maximum lifespan in genetically heterogeneous mice even when started at 600 days of age (approximately 60 human years). Male lifespan increased by 9% and female lifespan by 14%, establishing rapamycin as the first pharmacological agent to reproducibly extend mammalian lifespan."
+		},
+		{
+			"title": "mTOR inhibition improves immune function in the elderly",
+			"authors": "Mannick, J.B., Del Giudice, G., Lattanzi, M., et al.",
+			"journal": "Science Translational Medicine",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25540326/",
+			"keyFindings": "Randomized controlled trial in elderly volunteers showing that 6 weeks of low-dose mTOR inhibitor (RAD001/everolimus) treatment improved influenza vaccine response by approximately 20%. Demonstrated that mTOR inhibition can paradoxically enhance immune function in aging, challenging the notion that rapamycin is purely immunosuppressive."
+		},
+		{
+			"title": "mTOR is a key modulator of ageing and age-related disease",
+			"authors": "Johnson, S.C., Rabinovitch, P.S., Kaeberlein, M.",
+			"journal": "Nature",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23325215/",
+			"keyFindings": "Comprehensive review establishing mTOR as a central node in aging biology. Details how mTORC1 inhibition by rapamycin recapitulates many benefits of caloric restriction, including enhanced autophagy, improved stem cell function, reduced inflammation, and extended lifespan across species."
+		},
+		{
+			"title": "Rapamycin for longevity: opinion article",
+			"authors": "Blagosklonny, M.V.",
+			"journal": "Aging",
+			"year": "2019",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31348895/",
+			"keyFindings": "Influential opinion article arguing that the side effects observed with rapamycin in transplant patients (immunosuppression, metabolic changes) are largely artifacts of chronic daily dosing and high trough levels. Proposes that intermittent low-dose rapamycin selectively inhibits mTORC1 while sparing mTORC2, providing geroprotective benefits with minimal adverse effects."
+		},
+		{
+			"title": "PEARL Trial: Participatory Evaluation of Aging with Rapamycin for Longevity",
+			"authors": "Kraig, E., Linehan, L.A., Liang, H., et al.",
+			"journal": "GeroScience",
+			"year": "2023",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36856946/",
+			"keyFindings": "Early results from the PEARL trial, one of the first prospective human longevity trials of rapamycin, showing that topical and systemic rapamycin reduced markers of periodontal aging and systemic inflammation in healthy older adults, providing initial clinical evidence for rapamycin as a geroprotective agent in humans."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "PEARL Trial: Rapamycin and Aging Biomarkers in Healthy Older Adults",
+			"date": "March 2023",
+			"source": "GeroScience",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36856946/",
+			"summary": "One of the first prospective human longevity trials evaluating rapamycin in healthy older adults. Initial results demonstrate reductions in periodontal inflammation and systemic aging biomarkers, supporting the translation of rapamycin's geroprotective effects from animal models to humans."
+		},
+		{
+			"title": "Dog Aging Project: Rapamycin in Companion Dogs (TRIAD Trial)",
+			"date": "2023",
+			"source": "Dog Aging Project / University of Washington",
+			"url": "https://dogagingproject.org/triad",
+			"summary": "Large-scale randomized controlled trial of rapamycin in middle-aged companion dogs. Interim data suggest improvements in cardiac function and activity levels. The study serves as a critical bridge between mouse lifespan studies and potential human longevity applications."
+		},
+		{
+			"title": "Rapamycin and Immune Function: Moving Beyond Immunosuppression",
+			"date": "2024",
+			"source": "Nature Reviews Immunology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38049644/",
+			"summary": "Review article synthesizing evidence that low-dose intermittent mTOR inhibition enhances immune function by promoting memory T cell differentiation, reducing T cell exhaustion, and improving antigen-specific immune responses, fundamentally reframing rapamycin from pure immunosuppressant to immune modulator."
+		}
+	]
+}

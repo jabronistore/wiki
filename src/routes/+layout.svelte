@@ -31,6 +31,7 @@
 		children: Snippet;
 		data: {
 			peptides?: PeptideSummary[];
+			compounds?: PeptideSummary[];
 			user?: User | null;
 			profile?: Profile | null;
 			session?: Session | null;
@@ -151,6 +152,7 @@
 	let darkMode = $state(false);
 	let mobileMenuOpen = $state(false);
 	let toolsOpen = $state(false);
+	let browseOpen = $state(false);
 	let searchOpen = $state(false);
 	let searchQuery = $state('');
 	let searchInputRef = $state<HTMLInputElement | null>(null);
@@ -160,7 +162,7 @@
 		id: string;
 		name: string;
 		subtitle?: string;
-		type: 'peptide' | 'guide' | 'tool';
+		type: 'peptide' | 'compound' | 'guide' | 'tool';
 		href: string;
 	}
 
@@ -209,10 +211,10 @@
 		},
 		{
 			id: 'bestfor',
-			name: 'Best Peptides For...',
+			name: 'Best Compounds For...',
 			subtitle: 'Rankings by goal',
 			type: 'tool',
-			href: '/peptides/best-for'
+			href: '/best-for'
 		}
 	];
 
@@ -239,6 +241,27 @@
 					});
 				}
 				if (results.length >= 12) break;
+			}
+		}
+
+		// Search compounds
+		if (data.compounds) {
+			for (const c of data.compounds) {
+				if (
+					c.name.toLowerCase().includes(query) ||
+					(c.subtitle && c.subtitle.toLowerCase().includes(query)) ||
+					(c.categories && c.categories.some((cat: string) => cat.toLowerCase().includes(query))) ||
+					(c.searchText && c.searchText.includes(query))
+				) {
+					results.push({
+						id: c.id,
+						name: c.name,
+						subtitle: c.subtitle,
+						type: 'compound',
+						href: `/compounds/${c.id}`
+					});
+				}
+				if (results.length >= 15) break;
 			}
 		}
 
@@ -308,9 +331,9 @@
 		searchQuery = '';
 	}
 
-	function selectPeptide(id: string) {
+	function selectResult(href: string) {
 		closeSearch();
-		goto(`/peptides/${id}`);
+		goto(href);
 	}
 </script>
 
@@ -420,189 +443,197 @@
 	{/if}
 
 	<!-- Navigation -->
-	<header class="glass-strong sticky top-0 z-50">
+	<header class="nav-header sticky top-0 z-50">
 		<nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 			<div class="flex h-16 items-center justify-between">
 				<!-- Logo -->
-				<a href="/" class="group flex items-center gap-3">
+				<a href="/" class="group flex items-center gap-2.5">
 					<img
 						src="/pep-logo.webp"
 						alt="Peptide Database"
-						class="h-10 w-10 rounded-xl transition-transform group-hover:scale-105"
+						class="h-9 w-9 rounded-xl transition-transform group-hover:scale-105"
 					/>
 					<div class="flex flex-col">
-						<span class="text-lg font-bold tracking-tight">Peptide Database</span>
-						<span
-							class="hidden text-[10px] uppercase tracking-widest text-muted-foreground sm:block"
-							>Open Source Research Wiki</span
-						>
+						<span class="nav-wordmark">Peptide DB</span>
+						<span class="nav-tagline hidden sm:block">Research Wiki</span>
 					</div>
 				</a>
 
 				<!-- Desktop Navigation -->
-				<div class="hidden items-center gap-1 md:flex">
-					<a
-						href="/"
-						class="rounded-lg px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-					>
-						Home
-					</a>
-					<a
-						href="/peptides"
-						class="rounded-lg px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-					>
-						Browse Peptides
-					</a>
-					<a
-						href="/categories"
-						class="rounded-lg px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-					>
-						Categories
-					</a>
-					<a
-						href="/guides"
-						class="rounded-lg px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-					>
-						Guides
-					</a>
-					<div class="relative">
-						<button
-							onclick={() => (toolsOpen = !toolsOpen)}
-							onblur={() => setTimeout(() => (toolsOpen = false), 150)}
-							class="flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-						>
-							Tools
-							<ChevronDown
-								class="h-3.5 w-3.5 transition-transform {toolsOpen ? 'rotate-180' : ''}"
-							/>
-						</button>
-						{#if toolsOpen}
-							<div class="tools-dropdown">
-								<div class="tools-dropdown-group">
-									<span class="tools-dropdown-label">Calculators</span>
+				<div class="hidden items-center md:flex">
+					<div class="nav-links">
+						<a href="/" class="nav-link">Home</a>
+						<div class="nav-sep"></div>
+						<div class="relative">
+							<button
+								onclick={() => (browseOpen = !browseOpen)}
+								onblur={() => setTimeout(() => (browseOpen = false), 150)}
+								class="nav-link nav-link-btn"
+							>
+								Browse
+								<ChevronDown class="nav-chevron {browseOpen ? 'nav-chevron-open' : ''}" />
+							</button>
+							{#if browseOpen}
+								<div class="nav-dropdown">
 									<a
-										href="/calculator"
-										class="tools-dropdown-item"
-										onclick={() => (toolsOpen = false)}
+										href="/peptides"
+										class="nav-dropdown-item"
+										onclick={() => (browseOpen = false)}
 									>
-										<Calculator class="h-4 w-4" />
-										<div>
-											<span class="tools-item-name">Reconstitution</span><span
-												class="tools-item-desc">Dose volumes and syringe guide</span
-											>
-										</div>
+										<span class="nav-dropdown-name">Peptides</span>
+										<span class="nav-dropdown-desc">Research peptides database</span>
 									</a>
 									<a
-										href="/calculator/blend"
-										class="tools-dropdown-item"
-										onclick={() => (toolsOpen = false)}
+										href="/compounds"
+										class="nav-dropdown-item"
+										onclick={() => (browseOpen = false)}
 									>
-										<FlaskConical class="h-4 w-4" />
-										<div>
-											<span class="tools-item-name">Blend Calculator</span><span
-												class="tools-item-desc">Multi-peptide blend dosing</span
-											>
-										</div>
+										<span class="nav-dropdown-name">Compounds</span>
+										<span class="nav-dropdown-desc">Anabolics, SARMs, PCT & more</span>
 									</a>
+									<div class="nav-dropdown-rule"></div>
 									<a
-										href="/calculator/accumulation"
-										class="tools-dropdown-item"
-										onclick={() => (toolsOpen = false)}
+										href="/categories"
+										class="nav-dropdown-item"
+										onclick={() => (browseOpen = false)}
 									>
-										<ArrowRight class="h-4 w-4" />
-										<div>
-											<span class="tools-item-name">Accumulation Plotter</span><span
-												class="tools-item-desc">PK curves over time</span
-											>
-										</div>
-									</a>
-									<a
-										href="/tools/cost"
-										class="tools-dropdown-item"
-										onclick={() => (toolsOpen = false)}
-									>
-										<DollarSign class="h-4 w-4" />
-										<div>
-											<span class="tools-item-name">Cost Calculator</span><span
-												class="tools-item-desc">Price per dose and cycle</span
-											>
-										</div>
+										<span class="nav-dropdown-name">All Categories</span>
 									</a>
 								</div>
-								<div class="tools-dropdown-group">
-									<span class="tools-dropdown-label">Research</span>
-									<a
-										href="/compare"
-										class="tools-dropdown-item"
-										onclick={() => (toolsOpen = false)}
-									>
-										<ArrowLeftRight class="h-4 w-4" />
-										<div>
-											<span class="tools-item-name">Compare Peptides</span><span
-												class="tools-item-desc">Side-by-side data</span
-											>
-										</div>
-									</a>
-									<a
-										href="/tools/interactions"
-										class="tools-dropdown-item"
-										onclick={() => (toolsOpen = false)}
-									>
-										<Zap class="h-4 w-4" />
-										<div>
-											<span class="tools-item-name">Interaction Checker</span><span
-												class="tools-item-desc">Stack compatibility</span
-											>
-										</div>
-									</a>
+							{/if}
+						</div>
+						<a href="/best-for" class="nav-link">Best For</a>
+						<a href="/guides" class="nav-link">Guides</a>
+						<div class="nav-sep"></div>
+						<div class="relative">
+							<button
+								onclick={() => (toolsOpen = !toolsOpen)}
+								onblur={() => setTimeout(() => (toolsOpen = false), 150)}
+								class="nav-link nav-link-btn"
+							>
+								Tools
+								<ChevronDown class="nav-chevron {toolsOpen ? 'nav-chevron-open' : ''}" />
+							</button>
+							{#if toolsOpen}
+								<div class="nav-dropdown nav-dropdown-wide">
+									<div class="nav-dropdown-group">
+										<span class="nav-dropdown-label">Calculators</span>
+										<a
+											href="/calculator"
+											class="nav-dropdown-tool"
+											onclick={() => (toolsOpen = false)}
+										>
+											<Calculator class="h-4 w-4" />
+											<div>
+												<span class="nav-tool-name">Reconstitution</span><span class="nav-tool-desc"
+													>Dose volumes and syringe guide</span
+												>
+											</div>
+										</a>
+										<a
+											href="/calculator/blend"
+											class="nav-dropdown-tool"
+											onclick={() => (toolsOpen = false)}
+										>
+											<FlaskConical class="h-4 w-4" />
+											<div>
+												<span class="nav-tool-name">Blend Calculator</span><span
+													class="nav-tool-desc">Multi-peptide blend dosing</span
+												>
+											</div>
+										</a>
+										<a
+											href="/calculator/accumulation"
+											class="nav-dropdown-tool"
+											onclick={() => (toolsOpen = false)}
+										>
+											<ArrowRight class="h-4 w-4" />
+											<div>
+												<span class="nav-tool-name">Accumulation Plotter</span><span
+													class="nav-tool-desc">PK curves over time</span
+												>
+											</div>
+										</a>
+										<a
+											href="/tools/cost"
+											class="nav-dropdown-tool"
+											onclick={() => (toolsOpen = false)}
+										>
+											<DollarSign class="h-4 w-4" />
+											<div>
+												<span class="nav-tool-name">Cost Calculator</span><span
+													class="nav-tool-desc">Price per dose and cycle</span
+												>
+											</div>
+										</a>
+									</div>
+									<div class="nav-dropdown-group">
+										<span class="nav-dropdown-label">Research</span>
+										<a
+											href="/compare"
+											class="nav-dropdown-tool"
+											onclick={() => (toolsOpen = false)}
+										>
+											<ArrowLeftRight class="h-4 w-4" />
+											<div>
+												<span class="nav-tool-name">Compare Peptides</span><span
+													class="nav-tool-desc">Side-by-side data</span
+												>
+											</div>
+										</a>
+										<a
+											href="/tools/interactions"
+											class="nav-dropdown-tool"
+											onclick={() => (toolsOpen = false)}
+										>
+											<Zap class="h-4 w-4" />
+											<div>
+												<span class="nav-tool-name">Interaction Checker</span><span
+													class="nav-tool-desc">Stack compatibility</span
+												>
+											</div>
+										</a>
+									</div>
+									<div class="nav-dropdown-group">
+										<span class="nav-dropdown-label">Discover</span>
+										<a
+											href="/best-for"
+											class="nav-dropdown-tool"
+											onclick={() => (toolsOpen = false)}
+										>
+											<FlaskConical class="h-4 w-4" />
+											<div>
+												<span class="nav-tool-name">Best Compounds For...</span><span
+													class="nav-tool-desc">Rankings by goal</span
+												>
+											</div>
+										</a>
+										<a
+											href="/tools/ask"
+											class="nav-dropdown-tool"
+											onclick={() => (toolsOpen = false)}
+										>
+											<Search class="h-4 w-4" />
+											<div>
+												<span class="nav-tool-name">Ask AI</span><span class="nav-tool-desc"
+													>Chat with our peptide database</span
+												>
+											</div>
+										</a>
+									</div>
 								</div>
-								<div class="tools-dropdown-group">
-									<span class="tools-dropdown-label">Discover</span>
-									<a
-										href="/peptides/best-for"
-										class="tools-dropdown-item"
-										onclick={() => (toolsOpen = false)}
-									>
-										<FlaskConical class="h-4 w-4" />
-										<div>
-											<span class="tools-item-name">Best Peptides For...</span><span
-												class="tools-item-desc">Rankings by goal</span
-											>
-										</div>
-									</a>
-									<a
-										href="/tools/ask"
-										class="tools-dropdown-item"
-										onclick={() => (toolsOpen = false)}
-									>
-										<Search class="h-4 w-4" />
-										<div>
-											<span class="tools-item-name">Ask AI</span><span class="tools-item-desc"
-												>Chat with our peptide database</span
-											>
-										</div>
-									</a>
-								</div>
-							</div>
-						{/if}
+							{/if}
+						</div>
 					</div>
 				</div>
 
 				<!-- Right side actions -->
-				<div class="flex items-center gap-2">
+				<div class="flex items-center gap-1">
 					<!-- Search button -->
-					<button
-						onclick={openSearch}
-						class="flex h-9 items-center gap-2 rounded-lg px-3 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-						aria-label="Search"
-					>
-						<Search class="h-5 w-5" />
-						<span class="hidden text-sm sm:inline">Search</span>
-						<kbd
-							class="hidden items-center rounded border border-border bg-muted px-1.5 py-0.5 text-[10px] text-muted-foreground sm:inline-flex"
-						>
-							⌘K
-						</kbd>
+					<button onclick={openSearch} class="nav-search-trigger" aria-label="Search">
+						<Search class="h-4 w-4" />
+						<span class="nav-search-text">Search</span>
+						<kbd class="nav-kbd nav-search-kbd">⌘K</kbd>
 					</button>
 
 					<!-- GitHub -->
@@ -610,18 +641,14 @@
 						href="https://github.com/jabronistore/wiki"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+						class="nav-action-icon hidden md:flex"
 						aria-label="View on GitHub"
 					>
-						<Github class="h-5 w-5" />
+						<Github class="h-4 w-4" />
 					</a>
 
 					<!-- Theme toggle -->
-					<button
-						onclick={toggleTheme}
-						class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-						aria-label="Toggle theme"
-					>
+					<button onclick={toggleTheme} class="nav-action-icon" aria-label="Toggle theme">
 						{#if darkMode}
 							<Sun class="h-5 w-5" />
 						{:else}
@@ -665,7 +692,21 @@
 							onclick={() => (mobileMenuOpen = false)}
 							class="rounded-lg px-4 py-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
 						>
-							Browse Peptides
+							Peptides
+						</a>
+						<a
+							href="/compounds"
+							onclick={() => (mobileMenuOpen = false)}
+							class="rounded-lg px-4 py-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+						>
+							Compounds
+						</a>
+						<a
+							href="/best-for"
+							onclick={() => (mobileMenuOpen = false)}
+							class="rounded-lg px-4 py-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+						>
+							Best For
 						</a>
 						<a
 							href="/categories"
@@ -712,12 +753,8 @@
 						>
 							<Zap class="h-4 w-4" /> Interaction Checker
 						</a>
-						<a
-							href="/peptides/best-for"
-							onclick={() => (mobileMenuOpen = false)}
-							class="mobile-tool-link"
-						>
-							<FlaskConical class="h-4 w-4" /> Best Peptides For...
+						<a href="/best-for" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
+							<FlaskConical class="h-4 w-4" /> Best Compounds For...
 						</a>
 						<a href="/tools/ask" onclick={() => (mobileMenuOpen = false)} class="mobile-tool-link">
 							<Search class="h-4 w-4" /> Ask AI
@@ -755,6 +792,14 @@
 							>
 						</li>
 						<li>
+							<a href="/compounds" class="transition-colors hover:text-foreground"
+								>Browse Compounds</a
+							>
+						</li>
+						<li>
+							<a href="/best-for" class="transition-colors hover:text-foreground">Best For...</a>
+						</li>
+						<li>
 							<a href="/categories" class="transition-colors hover:text-foreground">Categories</a>
 						</li>
 						<li>
@@ -774,11 +819,6 @@
 						<li>
 							<a href="/tools/cost" class="transition-colors hover:text-foreground"
 								>Cost Calculator</a
-							>
-						</li>
-						<li>
-							<a href="/peptides/best-for" class="transition-colors hover:text-foreground"
-								>Best For...</a
 							>
 						</li>
 					</ul>
@@ -841,72 +881,271 @@
 </div>
 
 <style>
-	/* Tools dropdown - desktop */
-	.tools-dropdown {
-		position: absolute;
-		top: 100%;
-		right: 0;
-		margin-top: 0.375rem;
-		width: 16rem;
-		background: hsl(var(--background));
-		border: 1px solid hsl(var(--border));
-		border-radius: 0.75rem;
-		box-shadow: 0 8px 30px hsl(var(--foreground) / 0.08);
-		padding: 0.5rem;
-		z-index: 50;
+	/* ============================================
+	   NAVIGATION — editorial masthead
+	   ============================================ */
+
+	.nav-header {
+		background: hsl(var(--background) / 0.92);
+		-webkit-backdrop-filter: blur(12px);
+		backdrop-filter: blur(12px);
+		border-bottom: 1px solid hsl(var(--border) / 0.6);
 	}
 
-	.tools-dropdown-group {
-		padding: 0.25rem 0;
+	.nav-wordmark {
+		font-family: var(--font-serif);
+		font-size: 1.0625rem;
+		font-weight: 400;
+		letter-spacing: -0.01em;
+		color: hsl(var(--foreground));
+		line-height: 1.2;
 	}
 
-	.tools-dropdown-group + .tools-dropdown-group {
-		border-top: 1px solid hsl(var(--border) / 0.5);
-		margin-top: 0.25rem;
-		padding-top: 0.5rem;
+	.nav-tagline {
+		font-family: var(--font-sans);
+		font-size: 0.5625rem;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: hsl(var(--muted-foreground));
 	}
 
-	.tools-dropdown-label {
-		display: block;
-		font-size: 0.625rem;
-		font-weight: 600;
+	/* Nav link row */
+	.nav-links {
+		display: flex;
+		align-items: center;
+		gap: 0;
+	}
+
+	.nav-link {
+		font-family: var(--font-sans);
+		font-size: 0.6875rem;
+		font-weight: 500;
 		text-transform: uppercase;
 		letter-spacing: 0.06em;
 		color: hsl(var(--muted-foreground));
+		text-decoration: none;
+		padding: 0.375rem 0.75rem;
+		transition: color 0.15s;
+		white-space: nowrap;
+	}
+
+	.nav-link:hover {
+		color: hsl(var(--foreground));
+	}
+
+	.nav-link-btn {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		background: none;
+		border: none;
+		cursor: pointer;
+		font-family: inherit;
+	}
+
+	:global(.nav-chevron) {
+		width: 0.625rem;
+		height: 0.625rem;
+		opacity: 0.5;
+		transition:
+			transform 0.2s,
+			opacity 0.2s;
+	}
+
+	:global(.nav-chevron-open) {
+		transform: rotate(180deg);
+		opacity: 0.8;
+	}
+
+	/* Separator dot between nav groups */
+	.nav-sep {
+		width: 2px;
+		height: 2px;
+		border-radius: 50%;
+		background: hsl(var(--muted-foreground) / 0.4);
+		margin: 0 0.25rem;
+		flex-shrink: 0;
+	}
+
+	/* Shared dropdown base */
+	.nav-dropdown {
+		position: absolute;
+		top: calc(100% + 0.5rem);
+		left: 50%;
+		transform: translateX(-50%);
+		width: 13rem;
+		background: hsl(var(--background));
+		border: 1px solid hsl(var(--border));
+		border-top: 2px solid hsl(var(--accent));
+		box-shadow:
+			0 4px 24px hsl(var(--foreground) / 0.06),
+			0 1px 4px hsl(var(--foreground) / 0.04);
+		padding: 0.375rem;
+		z-index: 50;
+	}
+
+	.nav-dropdown-wide {
+		width: 15rem;
+		right: 0;
+		left: auto;
+		transform: none;
+	}
+
+	/* Browse dropdown items */
+	.nav-dropdown-item {
+		display: flex;
+		flex-direction: column;
+		gap: 0.0625rem;
+		padding: 0.5rem 0.625rem;
+		text-decoration: none;
+		color: inherit;
+		transition: background 0.1s;
+	}
+
+	.nav-dropdown-item:hover {
+		background: hsl(var(--muted) / 0.6);
+	}
+
+	.nav-dropdown-name {
+		font-family: var(--font-sans);
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: hsl(var(--foreground));
+	}
+
+	.nav-dropdown-desc {
+		font-family: var(--font-sans);
+		font-size: 0.625rem;
+		color: hsl(var(--muted-foreground));
+		letter-spacing: 0.01em;
+	}
+
+	.nav-dropdown-rule {
+		height: 1px;
+		background: hsl(var(--border) / 0.5);
+		margin: 0.25rem 0.625rem;
+	}
+
+	/* Tools dropdown groups */
+	.nav-dropdown-group {
+		padding: 0.25rem 0;
+	}
+
+	.nav-dropdown-group + .nav-dropdown-group {
+		border-top: 1px solid hsl(var(--border) / 0.4);
+		margin-top: 0.25rem;
+		padding-top: 0.375rem;
+	}
+
+	.nav-dropdown-label {
+		display: block;
+		font-size: 0.5625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: hsl(var(--accent));
 		padding: 0.25rem 0.625rem;
 	}
 
-	.tools-dropdown-item {
+	/* Tool items with icon */
+	.nav-dropdown-tool {
 		display: flex;
 		align-items: flex-start;
-		gap: 0.625rem;
-		padding: 0.5rem 0.625rem;
-		border-radius: 0.5rem;
+		gap: 0.5rem;
+		padding: 0.375rem 0.625rem;
 		text-decoration: none;
 		color: hsl(var(--foreground));
 		transition: background 0.1s;
 	}
 
-	.tools-dropdown-item:hover {
+	.nav-dropdown-tool:hover {
 		background: hsl(var(--muted) / 0.5);
 	}
 
-	.tools-dropdown-item :global(svg) {
-		margin-top: 0.125rem;
+	.nav-dropdown-tool :global(svg) {
+		margin-top: 0.1875rem;
 		color: hsl(var(--accent));
 		flex-shrink: 0;
+		width: 0.875rem;
+		height: 0.875rem;
 	}
 
-	:global(.tools-item-name) {
+	:global(.nav-tool-name) {
 		display: block;
-		font-size: 0.8125rem;
+		font-size: 0.75rem;
 		font-weight: 500;
 	}
 
-	:global(.tools-item-desc) {
+	:global(.nav-tool-desc) {
 		display: block;
-		font-size: 0.6875rem;
+		font-size: 0.625rem;
 		color: hsl(var(--muted-foreground));
+	}
+
+	/* Search trigger — icon-only on mobile, bordered pill on desktop */
+	.nav-search-trigger {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2rem;
+		height: 2rem;
+		color: hsl(var(--muted-foreground));
+		transition: color 0.15s;
+		border: none;
+		background: none;
+		cursor: pointer;
+		font-family: var(--font-sans);
+	}
+
+	.nav-search-trigger:hover {
+		color: hsl(var(--foreground));
+	}
+
+	.nav-search-text,
+	.nav-search-kbd {
+		display: none;
+	}
+
+	@media (min-width: 768px) {
+		.nav-search-trigger {
+			width: auto;
+			height: auto;
+			gap: 0.375rem;
+			padding: 0.3125rem 0.625rem;
+			border: 1px solid hsl(var(--border) / 0.6);
+			border-radius: 0.375rem;
+			font-size: 0.75rem;
+		}
+
+		.nav-search-text,
+		.nav-search-kbd {
+			display: inline-flex;
+		}
+	}
+
+	.nav-kbd {
+		font-size: 0.5625rem;
+		font-family: var(--font-mono);
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.1875rem;
+		padding: 0.0625rem 0.3125rem;
+		color: hsl(var(--muted-foreground));
+		line-height: 1;
+	}
+
+	.nav-action-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2rem;
+		height: 2rem;
+		color: hsl(var(--muted-foreground));
+		transition: color 0.15s;
+	}
+
+	.nav-action-icon:hover {
+		color: hsl(var(--foreground));
 	}
 
 	/* Mobile tools */

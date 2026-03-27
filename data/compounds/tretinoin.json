@@ -1,0 +1,268 @@
+{
+	"id": "tretinoin",
+	"name": "Tretinoin",
+	"subtitle": "Retinoid | Skin Rejuvenation & Anti-Aging",
+	"aliases": ["Retin-A", "Tretinoina", "All-trans Retinoic Acid", "ATRA"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["skin", "longevity"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "300.44 Da",
+		"type": "Endogenous retinoid (vitamin A metabolite)",
+		"modifications": ["All-trans retinoic acid configuration"],
+		"halfLife": "0.5-2 hours (topical, local skin metabolism)",
+		"halfLifeSeconds": 4500
+	},
+	"quickStats": {
+		"typicalDose": "0.025-0.05% cream or gel, applied nightly",
+		"frequency": "Once daily (evening)",
+		"cycleDuration": "Continuous use; minimum 12 weeks to evaluate efficacy, optimal results at 6-12 months",
+		"storage": "Room temperature (15-25C), protect from light and heat; do not freeze"
+	},
+	"overview": "Tretinoin is the gold standard topical retinoid for skin aging and acne, FDA-approved since 1971 for acne vulgaris and later for the treatment of photoaging (fine wrinkles, mottled hyperpigmentation, roughness). As the acid form of vitamin A, it is the most extensively studied topical anti-aging compound in dermatology, backed by decades of clinical evidence. Tretinoin accelerates epidermal cell turnover, stimulates collagen synthesis in the dermis, and improves the overall architecture of photodamaged skin. It has become a cornerstone of the biohacking and skincare optimization community due to its proven ability to reduce fine lines, even out skin tone, and improve skin texture with consistent long-term use.",
+	"mechanism": "Tretinoin binds to retinoic acid receptors (RARs) in the cell nucleus, specifically RAR-alpha, RAR-beta, and RAR-gamma, which form heterodimers with retinoid X receptors (RXRs). These activated receptor complexes bind to retinoic acid response elements (RAREs) in DNA, modulating the transcription of genes involved in cellular differentiation, proliferation, and apoptosis. In the epidermis, tretinoin accelerates keratinocyte turnover from the typical 28-day cycle to approximately 14-16 days, promoting the shedding of damaged surface cells and their replacement with newer, healthier cells. In the dermis, tretinoin stimulates fibroblast activity, increasing the production of procollagen I and III, fibronectin, and elastin. It also inhibits matrix metalloproteinases (MMPs) that degrade collagen, and promotes angiogenesis, improving dermal blood supply. The net result is thicker, more organized epidermis, increased dermal collagen density, and reduced fine wrinkling.",
+	"keyBenefits": [
+		"Reduces fine lines and wrinkles with consistent long-term use (strongest evidence of any topical)",
+		"Stimulates new collagen synthesis (procollagen I and III) in photoaged skin",
+		"Accelerates epidermal cell turnover, improving skin texture and smoothness",
+		"Reduces mottled hyperpigmentation and evens skin tone",
+		"FDA-approved treatment for acne vulgaris with over 50 years of clinical use",
+		"Treats and prevents comedonal and inflammatory acne by normalizing follicular keratinization",
+		"Enhances penetration and efficacy of other active skincare ingredients"
+	],
+	"indications": [
+		{
+			"category": "Skin Aging",
+			"items": [
+				{
+					"name": "Photoaging (Fine Wrinkles)",
+					"description": "FDA-approved (as Renova 0.05%) for the mitigation of fine facial wrinkles caused by chronic sun exposure. Clinical trials demonstrate measurable improvement in fine lines, tactile roughness, and mottled hyperpigmentation with 24-48 weeks of use.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Hyperpigmentation and Uneven Skin Tone",
+					"description": "Accelerates turnover of melanin-laden keratinocytes, reducing the appearance of sunspots, melasma, and post-inflammatory hyperpigmentation. Often combined with hydroquinone and a corticosteroid in the classic Kligman formula.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Skin Texture and Roughness",
+					"description": "Improves tactile smoothness and skin surface regularity by normalizing the keratinization process and promoting orderly epidermal differentiation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Dermal Collagen Loss",
+					"description": "Stimulates new collagen deposition in the papillary dermis, partially reversing the collagen degradation caused by UV-induced photoaging. Measurable increases in procollagen I have been documented histologically.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Acne",
+			"items": [
+				{
+					"name": "Comedonal Acne",
+					"description": "First-line topical retinoid for non-inflammatory acne. Normalizes follicular keratinization, preventing the formation of microcomedones that are the precursor to all acne lesions.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Inflammatory Acne",
+					"description": "Effective as monotherapy for mild inflammatory acne and as combination therapy with benzoyl peroxide or topical antibiotics for moderate acne. Reduces both comedonal and papulopustular lesions.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Acne Maintenance Therapy",
+					"description": "Recommended as long-term maintenance to prevent acne relapse after initial clearance. Low-concentration formulations (0.025%) are well-tolerated for indefinite maintenance use.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Tretinoin is used exclusively as a topical medication, available in cream, gel, and microsphere gel formulations at concentrations ranging from 0.01% to 0.1%. It is applied once nightly to clean, dry skin. The cream formulation is generally better tolerated and more moisturizing, while gel formulations are preferred for oily or acne-prone skin. Microsphere (Retin-A Micro) technology provides controlled release, reducing irritation. A pea-sized amount is sufficient for the entire face. Application should be followed by a moisturizer if needed, and broad-spectrum sunscreen is mandatory during the day.",
+			"protocols": [
+				{
+					"goal": "Beginner / Acclimation phase",
+					"dose": "0.025% cream",
+					"frequency": "Every other night or 2-3 nights per week for 2-4 weeks, then nightly",
+					"route": "Topical application to face"
+				},
+				{
+					"goal": "Standard anti-aging and acne treatment",
+					"dose": "0.05% cream or gel",
+					"frequency": "Once nightly",
+					"route": "Topical application to face"
+				},
+				{
+					"goal": "Maximum strength (experienced users / resistant acne)",
+					"dose": "0.1% cream or gel",
+					"frequency": "Once nightly",
+					"route": "Topical application to face"
+				},
+				{
+					"goal": "Reduced irritation formulation",
+					"dose": "0.04% or 0.08% microsphere gel (Retin-A Micro)",
+					"frequency": "Once nightly",
+					"route": "Topical application to face"
+				}
+			],
+			"keyBenefits": [
+				"Targeted delivery directly to the skin with minimal systemic absorption",
+				"Multiple formulations and concentrations allow dose titration based on tolerance",
+				"Microsphere technology offers controlled release for reduced irritation",
+				"Can be layered with moisturizers and other skincare actives with proper timing"
+			]
+		},
+		{
+			"type": "oral",
+			"available": false
+		},
+		{
+			"type": "injectable",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "GHK-Cu",
+			"status": "synergistic",
+			"notes": "Highly complementary combination for skin rejuvenation. GHK-Cu stimulates collagen synthesis, wound healing, and antioxidant enzyme production through copper-dependent pathways, while tretinoin drives collagen production via retinoic acid receptor activation. Together they target skin aging through distinct and additive mechanisms. Apply GHK-Cu serum and tretinoin at the same time in the evening routine, or use GHK-Cu in the morning."
+		},
+		{
+			"peptide": "SNAP-8",
+			"status": "compatible",
+			"notes": "No known negative interactions. SNAP-8 is an acetyl octapeptide that modulates SNARE complex formation to reduce expression lines, while tretinoin works at the dermal level to rebuild collagen. They address different aspects of skin aging and can be used together in the same skincare routine."
+		},
+		{
+			"peptide": "Vitamin C (L-Ascorbic Acid)",
+			"status": "requires-timing",
+			"notes": "Both are highly effective anti-aging actives, but they function optimally at different pH levels. Vitamin C serums (pH 2.5-3.5) and tretinoin can cause increased irritation when applied simultaneously, and the low pH may destabilize tretinoin. Best practice is to apply vitamin C in the morning and tretinoin in the evening. This separation also maximizes vitamin C's role as a daytime antioxidant and UV protectant."
+		},
+		{
+			"peptide": "AHAs/BHAs (Glycolic Acid, Salicylic Acid)",
+			"status": "monitor",
+			"notes": "Both tretinoin and chemical exfoliants (AHAs like glycolic acid, BHAs like salicylic acid) accelerate cell turnover and can compromise the skin barrier. Using them together significantly increases the risk of irritation, peeling, and dryness, especially during the retinization period. If combining, use acids in the morning and tretinoin at night, or alternate nights. Reduce frequency if irritation develops."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-4",
+			"effects": "The retinization period begins. Skin may experience dryness, flaking, peeling, redness, and increased sensitivity as it adapts to accelerated cell turnover. An initial acne purge is common, where pre-existing microcomedones are pushed to the surface more rapidly. This phase is temporary and expected. Moisturizer use and gradual frequency introduction help manage symptoms."
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Retinization symptoms begin to subside for most users. Skin tolerance improves as the barrier adapts. Early improvements in skin texture and smoothness may become noticeable. Acne purging typically resolves. Skin may appear brighter and more even in tone."
+		},
+		{
+			"period": "Month 2-3",
+			"effects": "Visible improvements in skin texture, pore appearance, and overall radiance. Acne lesion count is significantly reduced in most users. Hyperpigmentation begins to fade. The skin barrier has largely adapted, and irritation is minimal for most users at this stage."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Measurable reduction in fine lines and wrinkles begins. Collagen remodeling is underway, with histological studies showing increased procollagen I levels. Skin tone is more even, and photodamage markers (sunspots, roughness) are visibly improved. This is the minimum timeframe to assess anti-aging efficacy."
+		},
+		{
+			"period": "Month 6-12",
+			"effects": "Progressive improvement in fine wrinkles, skin firmness, and overall skin quality. Collagen density continues to increase. Clinical trials demonstrate statistically significant improvement in photoaging parameters by 24-48 weeks. Skin appears noticeably younger and more resilient."
+		},
+		{
+			"period": "Year 1+",
+			"effects": "Continued long-term benefits with sustained use. Collagen production remains elevated compared to untreated skin. Long-term users maintain improvements in wrinkles, pigmentation, and texture. Tretinoin also provides ongoing protection against further photodamage by maintaining healthy cell turnover. Discontinuation leads to gradual reversal of benefits over months."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Peeling and flaking (retinoid dermatitis), especially in the first 2-6 weeks",
+			"Erythema (redness) and skin irritation at the application site",
+			"Dryness and tightness of the skin",
+			"Increased photosensitivity (heightened susceptibility to sunburn)",
+			"Initial acne purging (transient worsening of breakouts in weeks 2-6)"
+		],
+		"rare": [
+			"Severe contact dermatitis or allergic reaction",
+			"Temporary hypo- or hyperpigmentation (more common in darker skin tones)",
+			"Eczematous reaction in individuals with pre-existing eczema or atopic dermatitis",
+			"Blistering or crusting (indicative of overuse or excessive concentration)"
+		],
+		"stopSigns": [
+			"Severe blistering, crusting, or open wounds on the skin",
+			"Persistent and worsening irritation that does not improve after reducing application frequency",
+			"Signs of allergic reaction (hives, swelling, difficulty breathing)",
+			"Extreme photosensitivity reaction despite consistent sunscreen use",
+			"Suspected pregnancy (discontinue immediately and consult a physician)"
+		],
+		"contraindications": [
+			"Pregnancy and women planning to become pregnant (tretinoin is a known teratogen; oral retinoids cause severe birth defects, and while topical absorption is minimal, it is contraindicated as a precaution)",
+			"Breastfeeding (safety not established for topical tretinoin during lactation)",
+			"Known hypersensitivity to tretinoin, other retinoids, or any formulation excipients",
+			"Active eczema, rosacea, or severely compromised skin barrier at the application site",
+			"Concurrent use of other strong topical irritants without medical supervision (e.g., benzoyl peroxide at high concentrations on the same area at the same time)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Obtained via prescription from a licensed dermatologist or healthcare provider",
+			"Manufactured by a reputable pharmaceutical company (e.g., Valeant/Bausch, Johnson & Johnson, or authorized generics)",
+			"Packaging includes NDC number, lot number, expiration date, and proper labeling",
+			"Stored in opaque tube to protect from light degradation",
+			"Cream or gel has uniform consistency and characteristic yellow color"
+		],
+		"warning": [
+			"Compounded formulations without a certificate of analysis from the pharmacy",
+			"Products obtained from overseas pharmacies without verifiable licensing",
+			"Unusual pricing significantly below market rate for brand-name formulations",
+			"Packaging that does not list concentration, active ingredient, or manufacturer"
+		],
+		"bad": [
+			"Products with no prescription requirement from unregulated online sellers",
+			"Tubes or packaging without lot numbers, expiration dates, or manufacturer identification",
+			"Cream or gel that is discolored, has separated, or has an unusual odor",
+			"Products marketed as tretinoin but containing undisclosed or substituted ingredients"
+		]
+	},
+	"references": [
+		{
+			"title": "Topical tretinoin (retinoic acid) improves photoaged skin. A double-blind vehicle-controlled study",
+			"authors": "Weiss JS, Ellis CN, Headington JT, Tincoff T, Hamilton TA, Voorhees JJ",
+			"year": "1988",
+			"journal": "JAMA",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/3334290/",
+			"keyFindings": "Landmark study demonstrating that topical tretinoin 0.1% significantly improved photoaged skin compared to vehicle. Treated patients showed clinical improvement in fine wrinkling, coarse wrinkling, sallowness, and tactile roughness. Histological analysis confirmed epidermal thickening, compaction of the stratum corneum, and new collagen formation in the papillary dermis."
+		},
+		{
+			"title": "Tretinoin (emollient cream) for photoaging: a double-blind, vehicle-controlled, multinational study",
+			"authors": "Olsen EA, Katz HI, Levine N, Shupack J, Billys MM, Prawer S, Gold J, Stiller M, Lufrano L, Thorne EG",
+			"year": "1992",
+			"journal": "Journal of the American Academy of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1430380/",
+			"keyFindings": "Multicenter double-blind trial of tretinoin emollient cream (0.05%) for photoaging in 251 patients. Tretinoin produced statistically significant improvement in fine wrinkling, mottled hyperpigmentation, roughness, and laxity compared to vehicle at 24 weeks. This study supported the FDA approval of tretinoin 0.05% cream (Renova) for the treatment of photoaging."
+		},
+		{
+			"title": "Molecular mechanisms of retinoid actions in skin",
+			"authors": "Fisher GJ, Voorhees JJ",
+			"year": "1996",
+			"journal": "FASEB Journal",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8647345/",
+			"keyFindings": "Comprehensive review elucidating the molecular mechanisms by which retinoids improve photoaged skin. Detailed the role of retinoic acid receptors (RARs and RXRs), regulation of gene transcription, stimulation of procollagen synthesis, inhibition of collagen-degrading matrix metalloproteinases, and promotion of epidermal differentiation. Established the scientific framework for tretinoin's anti-aging effects."
+		},
+		{
+			"title": "Repair of UV-damaged dermal matrix by topical tretinoin: assessment by histological and immunohistochemical analysis",
+			"authors": "Griffiths CE, Russman AN, Majmudar G, Singer RS, Hamilton TA, Voorhees JJ",
+			"year": "1993",
+			"journal": "Journal of Investigative Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8505903/",
+			"keyFindings": "Demonstrated that topical tretinoin 0.1% applied for 12 months produced significant dermal repair in photoaged skin, including an 80% increase in procollagen I protein levels, new collagen deposition in the papillary dermis (Grenz zone), and restoration of normal dermal architecture. Provided direct histological evidence for tretinoin's collagen-rebuilding capacity."
+		},
+		{
+			"title": "Guidelines of care for the management of acne vulgaris",
+			"authors": "Zaenglein AL, Pathy AL, Schlosser BJ, Alikhan A, Baldwin HE, Berson DS, Bowe WP, Graber EM, Harper JC, Kang S, Keri JE, Leyden JJ, Reynolds RV, Silverberg NB, Stein Gold LF, Tollefson MM, Weiss JS, Dolan NC, Sagan AA, Stern M, Boyer KM, Bhushan R",
+			"year": "2016",
+			"journal": "Journal of the American Academy of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26897386/",
+			"keyFindings": "Evidence-based guidelines from the American Academy of Dermatology recommending topical retinoids, including tretinoin, as a first-line treatment for both comedonal and inflammatory acne. Emphasized the role of retinoids in maintenance therapy to prevent relapse and highlighted their ability to target the microcomedone, the precursor of all acne lesions."
+		}
+	]
+}

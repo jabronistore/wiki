@@ -1,0 +1,249 @@
+{
+	"id": "dutasteride",
+	"name": "Dutasteride",
+	"subtitle": "Dual 5-Alpha Reductase Inhibitor | Hair Loss & BPH",
+	"aliases": ["Avodart", "Dutas"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["hair-loss"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "528.53 Da",
+		"type": "Synthetic 4-azasteroid compound (dual 5-alpha reductase inhibitor)",
+		"modifications": ["Type I 5-alpha reductase inhibitor", "Type II 5-alpha reductase inhibitor"],
+		"halfLife": "~5 weeks (extremely long; active metabolite accumulation over months)",
+		"halfLifeSeconds": 3024000
+	},
+	"quickStats": {
+		"typicalDose": "0.5mg/day",
+		"frequency": "Once daily or 3x per week",
+		"cycleDuration": "Continuous use; minimum 6-12 months to evaluate efficacy",
+		"storage": "Room temperature (15-30C), protect from moisture and light"
+	},
+	"overview": "Dutasteride is a potent dual 5-alpha reductase inhibitor that blocks both Type I and Type II isoforms of the enzyme responsible for converting testosterone to dihydrotestosterone (DHT). FDA-approved at 0.5mg daily for benign prostatic hyperplasia (BPH) under the brand name Avodart, it is widely used off-label for the treatment of androgenetic alopecia (male pattern hair loss). By inhibiting both isoforms, dutasteride achieves approximately 90% suppression of serum DHT, compared to roughly 70% with finasteride, which blocks only the Type II isoform. This greater DHT suppression translates to potentially superior hair regrowth outcomes in head-to-head comparisons, though it also carries a somewhat higher risk of DHT-related side effects. Dutasteride has an exceptionally long half-life of approximately 5 weeks, meaning it takes several months to reach steady-state levels and equally long for effects to fully wash out after discontinuation.",
+	"mechanism": "Dutasteride competitively inhibits both the Type I and Type II isoforms of the enzyme 5-alpha reductase. Type II is the predominant isoform in the prostate and hair follicles, while Type I is found primarily in the skin, sebaceous glands, and liver. By blocking both isoforms, dutasteride suppresses serum DHT levels by approximately 90% at the standard 0.5mg dose, compared to the roughly 70% suppression achieved by finasteride (which blocks only Type II). This near-complete DHT suppression more effectively reduces the androgenic stimulus driving follicular miniaturization in genetically susceptible individuals. The exceptionally long elimination half-life of approximately 5 weeks is due to extensive tissue binding and slow clearance. Serum testosterone may increase modestly (10-20%) as a compensatory response to the pronounced reduction in DHT, though this increase remains within the normal physiological range for most men.",
+	"keyBenefits": [
+		"Inhibits both Type I and Type II 5-alpha reductase for more complete DHT suppression",
+		"Reduces serum DHT by approximately 90%, compared to 70% with finasteride",
+		"Head-to-head trials show superior hair count improvements over finasteride at 12 and 24 weeks",
+		"FDA-approved for BPH with well-established long-term safety data",
+		"Extremely long half-life allows for flexible dosing schedules (daily or 3x per week)",
+		"Convenient once-daily oral dosing with no injections required",
+		"Can be combined with minoxidil for enhanced hair loss treatment"
+	],
+	"indications": [
+		{
+			"category": "Hair Loss",
+			"items": [
+				{
+					"name": "Androgenetic Alopecia (Male Pattern Hair Loss)",
+					"description": "Used off-label at 0.5mg daily for male pattern hair loss. Clinical trials demonstrate superior efficacy compared to finasteride, with greater increases in target area hair count attributed to dual 5-alpha reductase inhibition and more complete DHT suppression.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Vertex (Crown) Hair Loss",
+					"description": "Strong evidence for regrowth at the vertex region, where DHT-sensitive follicles are most concentrated. The greater DHT suppression achieved by dutasteride may provide additional benefit over finasteride in this area.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Frontal / Mid-Scalp Hair Loss",
+					"description": "Effective at slowing frontal hairline recession and improving mid-scalp density. Some evidence suggests dutasteride's dual inhibition provides a modest advantage over finasteride for frontal hair loss, though results vary between individuals.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Finasteride Non-Responders",
+					"description": "Some men who do not respond adequately to finasteride may benefit from switching to dutasteride, as the additional Type I inhibition provides more complete DHT suppression. Not all finasteride non-responders will respond to dutasteride.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Prostate Health",
+			"items": [
+				{
+					"name": "Benign Prostatic Hyperplasia (BPH)",
+					"description": "FDA-approved at 0.5mg daily for the treatment of symptomatic BPH. Reduces prostate volume by approximately 25% and improves urinary symptoms and flow rate over 6-12 months of treatment.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Prostate Volume Reduction",
+					"description": "Consistently reduces prostate volume more effectively than finasteride due to dual isoform inhibition, with reductions of 25-30% documented in long-term clinical trials.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Dutasteride is administered as an oral soft gelatin capsule at 0.5mg. The capsules should be swallowed whole and not chewed or opened, as the contents may irritate the oropharyngeal mucosa. It can be taken with or without food. Due to its extremely long half-life of approximately 5 weeks, some users adopt a reduced-frequency protocol of 3 times per week while still maintaining significant DHT suppression. Steady-state blood levels are reached after approximately 6 months of daily dosing.",
+			"protocols": [
+				{
+					"goal": "Hair loss treatment (standard daily)",
+					"dose": "0.5mg",
+					"frequency": "Once daily",
+					"route": "Oral soft gelatin capsule"
+				},
+				{
+					"goal": "Hair loss treatment (reduced frequency)",
+					"dose": "0.5mg",
+					"frequency": "3x per week (e.g., Mon/Wed/Fri)",
+					"route": "Oral soft gelatin capsule"
+				},
+				{
+					"goal": "Benign Prostatic Hyperplasia",
+					"dose": "0.5mg",
+					"frequency": "Once daily",
+					"route": "Oral soft gelatin capsule"
+				}
+			],
+			"keyBenefits": [
+				"Simple once-daily oral dosing",
+				"Can be taken with or without food",
+				"Long half-life supports flexible dosing schedules",
+				"Available as generic in many markets"
+			]
+		},
+		{
+			"type": "topical",
+			"available": false
+		},
+		{
+			"type": "injectable",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Finasteride",
+			"status": "avoid",
+			"notes": "Both are 5-alpha reductase inhibitors. Dutasteride already blocks both Type I and Type II isoforms, making the addition of finasteride entirely redundant. Combining them provides no additional benefit and unnecessarily increases the risk of side effects from excessive DHT suppression."
+		},
+		{
+			"peptide": "Minoxidil",
+			"status": "synergistic",
+			"notes": "Highly effective combination for hair loss treatment. Dutasteride suppresses DHT-mediated follicular miniaturization while minoxidil stimulates follicular blood flow and prolongs the anagen (growth) phase. The combination addresses hair loss through complementary mechanisms and produces superior outcomes compared to either agent alone."
+		},
+		{
+			"peptide": "Testosterone (TRT)",
+			"status": "compatible",
+			"notes": "Commonly co-administered with testosterone replacement therapy to mitigate DHT-driven hair loss associated with exogenous testosterone. Dutasteride's more complete DHT suppression may offer greater hair protection than finasteride in the context of TRT, though the more pronounced DHT reduction should be weighed against potential side effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Month 1-3",
+			"effects": "Initial shedding phase may occur as follicles transition from telogen to anagen. Serum DHT levels drop rapidly within the first two weeks, reaching approximately 90% suppression. Due to the long half-life, drug levels are still accumulating and have not yet reached steady state. Some users may notice reduced hair shedding toward the end of this period."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Shedding phase subsides. Steady-state blood levels are approached after approximately 6 months of daily dosing. Hair loss stabilization becomes evident, with most users noticing a meaningful reduction in daily hair fall. Early signs of improved hair density and quality may emerge, particularly at the vertex."
+		},
+		{
+			"period": "Month 6-12",
+			"effects": "Visible improvement in hair density and thickness for responders. Clinical studies demonstrate measurable increases in hair count during this period. Cosmetically meaningful regrowth is most apparent at the crown and mid-scalp. This is the minimum timeframe needed to assess whether dutasteride is effective for a given individual."
+		},
+		{
+			"period": "Month 12-24",
+			"effects": "Maximum therapeutic benefit is typically reached between 12 and 24 months. Hair count and thickness improvements plateau at their peak level. Head-to-head trial data shows dutasteride maintaining a measurable advantage over finasteride in total hair count at this stage. Continued use is necessary to maintain results."
+		},
+		{
+			"period": "Year 2+",
+			"effects": "Long-term maintenance phase. Dutasteride continues to suppress hair loss progression relative to untreated men. Due to its extremely long half-life, discontinuation leads to a very gradual recovery of DHT levels over several months, with progressive loss of gained hair following over 6-12 months after the drug has fully cleared."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Decreased libido (reported in 3-5% of men; somewhat higher incidence than finasteride due to greater DHT suppression)",
+			"Erectile dysfunction (reported in 3-5%; more frequently reported than with finasteride)",
+			"Decreased ejaculate volume (reported in 1-2%)",
+			"Gynecomastia or breast tenderness (reported in approximately 1-2%)"
+		],
+		"rare": [
+			"Testicular pain or swelling",
+			"Depression or mood changes",
+			"Skin rash, urticaria, or allergic reaction",
+			"Angioedema (swelling of face, lips, or tongue)",
+			"Elevated liver enzymes (very rare)"
+		],
+		"stopSigns": [
+			"Persistent sexual dysfunction that does not resolve after dose reduction or discontinuation",
+			"Breast lumps, significant pain, or nipple discharge (evaluate for gynecomastia)",
+			"Significant mood changes, depression, or suicidal ideation",
+			"Signs of allergic reaction or angioedema (swelling of lips, tongue, throat, or face)",
+			"Testicular pain that is persistent or worsening"
+		],
+		"contraindications": [
+			"Women who are pregnant or may become pregnant (dutasteride is teratogenic and can cause abnormalities of external genitalia in a male fetus; even handling damaged capsules poses a risk due to skin absorption)",
+			"Women who are breastfeeding",
+			"Known hypersensitivity to dutasteride, other 5-alpha reductase inhibitors, or any component of the formulation",
+			"Severe hepatic impairment (dutasteride is extensively metabolized by the liver via CYP3A4)",
+			"Pediatric patients (not indicated for use in children)",
+			"Co-administration with strong CYP3A4 inhibitors (e.g., ritonavir, ketoconazole) may significantly increase dutasteride levels"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Manufactured by a reputable pharmaceutical company or licensed generic manufacturer",
+			"Soft gelatin capsules are intact, uniform in color, and free from leaks",
+			"Packaging includes lot number, expiration date, and NDC code",
+			"Prescribed through a licensed healthcare provider or legitimate telemedicine platform",
+			"Stored at controlled room temperature (15-30C) in original packaging"
+		],
+		"warning": [
+			"Capsules obtained from overseas pharmacies without prescription verification",
+			"Unusually low pricing that may indicate counterfeit product",
+			"Capsules that appear swollen, discolored, or show signs of leakage",
+			"Generic formulations without certificate of analysis or regulatory approval documentation"
+		],
+		"bad": [
+			"No manufacturer information or lot/batch numbers on packaging",
+			"Purchased from unregulated online sources with no pharmacy license",
+			"Capsules with unusual odor, discoloration, or visible defects",
+			"Product that arrives without proper sealed packaging or labeling"
+		]
+	},
+	"references": [
+		{
+			"title": "The importance of dual 5alpha-reductase inhibition in the treatment of male pattern hair loss: results of a randomized placebo-controlled study of dutasteride versus finasteride",
+			"authors": "Olsen EA, Hordinsky M, Whiting D, Stough D, Hobbs S, Ellis ML, Wilson T, Rittmaster RS",
+			"year": "2006",
+			"journal": "Journal of the American Academy of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17110217/",
+			"keyFindings": "Head-to-head randomized trial comparing dutasteride 0.5mg versus finasteride 1mg for male pattern hair loss. Dutasteride produced statistically superior hair counts at 12 and 24 weeks, attributed to dual 5-alpha reductase inhibition and more complete DHT suppression. Both agents were well tolerated with comparable safety profiles."
+		},
+		{
+			"title": "A randomized, active- and placebo-controlled study of the efficacy and safety of different doses of dutasteride versus placebo and finasteride in the treatment of male subjects with androgenetic alopecia",
+			"authors": "Gubelin Harcha W, Barboza Martinez J, Tsai TF, Katsuoka K, Kawashima M, Tsuboi R, Barnes A, Ferron-Brady G, Chetty D",
+			"year": "2014",
+			"journal": "Journal of the American Academy of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24411083/",
+			"keyFindings": "Phase III dose-ranging study in 917 men with androgenetic alopecia. Dutasteride 0.5mg was significantly superior to finasteride 1mg in improving target area hair count at 24 weeks. Adverse event profiles were similar between treatment groups, with sexual adverse events occurring at low rates across all doses."
+		},
+		{
+			"title": "Dutasteride vs. finasteride: A systematic review and meta-analysis of randomized controlled trials on efficacy and safety in men with androgenetic alopecia",
+			"authors": "Zhou Z, Song S, Gao Z, Wu J, Ma J, Cui Y",
+			"year": "2019",
+			"journal": "Clinical Interventions in Aging",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31354260/",
+			"keyFindings": "Systematic review and meta-analysis of randomized controlled trials comparing dutasteride and finasteride for androgenetic alopecia. Dutasteride demonstrated significantly greater improvement in total hair count and investigator assessments compared to finasteride. The incidence of adverse events, including sexual side effects, was not significantly different between the two drugs."
+		},
+		{
+			"title": "Dutasteride increases the rate of prostate cancer in the REDUCE trial",
+			"authors": "Andriole GL, Bostwick DG, Brawley OW, Gomella LG, Marberger M, Montorsi F, Pettaway CA, Tammela TL, Teloken C, Tindall DJ, Somerville MC, Wilson TH, Fowler IL, Rittmaster RS",
+			"year": "2010",
+			"journal": "New England Journal of Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20357281/",
+			"keyFindings": "The REDUCE trial evaluated dutasteride 0.5mg daily in 8,231 men over 4 years. Dutasteride reduced the overall risk of prostate cancer detection by 22.8%, though there was a small increase in the detection of high-grade tumors. Provided extensive long-term safety data for dutasteride at the 0.5mg dose."
+		},
+		{
+			"title": "Efficacy of dutasteride and finasteride for treating benign prostatic hyperplasia: a systematic review and meta-analysis",
+			"authors": "Nickel JC, Gilling P, Tammela TL, Morrill B, Wilson TH, Rittmaster RS",
+			"year": "2011",
+			"journal": "BJU International",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21176078/",
+			"keyFindings": "Systematic review and meta-analysis confirming that both dutasteride and finasteride effectively reduce prostate volume and improve urinary symptoms in BPH. Dutasteride and finasteride showed comparable efficacy for BPH, with dutasteride providing slightly greater DHT suppression. Safety profiles were similar between the two agents."
+		}
+	]
+}

@@ -1,0 +1,272 @@
+{
+	"id": "yk-11",
+	"name": "YK-11",
+	"subtitle": "Myostatin Inhibitor & SARM Hybrid | Experimental",
+	"aliases": ["YK11"],
+	"compoundKind": "sarm",
+	"categories": ["sarm", "anabolic"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "5-10 mg/day",
+		"frequency": "Twice daily (AM/PM split, oral)",
+		"cycleDuration": "6-8 weeks",
+		"storage": "Room temperature (59-86F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "430.54 Da",
+		"type": "Steroidal selective androgen receptor modulator with myostatin-inhibiting properties (C25H34O6)",
+		"modifications": [
+			"(17-alpha,20E)-17,20-[(1-methoxyethylidene)bis(oxy)]-3-oxo-19-norpregna-4,20-diene-21-carboxylic acid methyl ester",
+			"Steroidal backbone distinguishing it from all other SARMs (structurally related to DHT)",
+			"17-alpha alkylated structure conferring oral bioavailability but also hepatotoxic potential",
+			"Dual mechanism: partial androgen receptor agonist and myostatin inhibitor via follistatin upregulation"
+		],
+		"halfLife": "~6-10 hours",
+		"halfLifeSeconds": 28800,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "YK-11 is a steroidal compound that occupies a unique position among selective androgen receptor modulators (SARMs) due to its dual mechanism of action: it functions as both a partial agonist of the androgen receptor and an inhibitor of myostatin through upregulation of follistatin. First described by Kanno et al. in 2011, YK-11 was identified in cell-based assays as a compound that selectively activates androgen-responsive gene transcription while simultaneously inducing follistatin expression, a glycoprotein that binds and neutralizes myostatin, a negative regulator of muscle growth. Unlike all other commercially known SARMs, YK-11 possesses a steroidal backbone structurally related to dihydrotestosterone (DHT), making its classification as a traditional SARM debatable. It is more accurately described as a steroidal SARM hybrid with myostatin-inhibiting properties. The research base for YK-11 is extremely limited. All published data comes from in vitro (cell culture) studies only. There are no animal studies, no pharmacokinetic studies, and no human clinical trials. As a result, virtually everything reported about YK-11's effects in living organisms, its half-life, optimal dosing, and side effect profile, is derived from structural analogy to related compounds, theoretical pharmacology, and anecdotal user reports. YK-11 is not approved for any medical use and is classified as an investigational research chemical.",
+	"mechanism": "YK-11 exerts its effects through two distinct but complementary pathways. First, it acts as a partial agonist of the androgen receptor (AR). In C2C12 myoblast cell culture studies, YK-11 induced androgen receptor-dependent gene transcription at levels comparable to DHT for certain target genes, but with partial rather than full agonist activity. This partial agonism may theoretically confer some degree of tissue selectivity, though this has never been demonstrated in vivo. Second, and more uniquely, YK-11 stimulates the expression of follistatin in muscle cells. Follistatin is an endogenous glycoprotein that binds and inhibits myostatin (GDF-8), a member of the TGF-beta superfamily that acts as a potent negative regulator of skeletal muscle mass. By increasing follistatin levels, YK-11 may effectively reduce myostatin signaling, thereby removing a biological brake on muscle hypertrophy. In the original Kanno et al. study, YK-11-treated C2C12 cells showed significantly greater follistatin expression than cells treated with DHT alone, and this effect was blocked by an androgen receptor antagonist, indicating the follistatin induction is AR-dependent. The 17-alpha alkylation of YK-11's steroidal structure provides oral bioavailability but also subjects it to hepatic first-pass metabolism, with the associated risk of liver stress characteristic of 17-alpha alkylated compounds. Due to the complete absence of in vivo pharmacokinetic data, the compound's actual bioavailability, distribution, metabolism, and elimination profile in living systems remain unknown.",
+	"keyBenefits": [
+		"Dual mechanism combining partial AR agonism with myostatin inhibition via follistatin upregulation",
+		"May theoretically promote muscle growth beyond what AR activation alone can achieve by removing myostatin-mediated growth limits",
+		"Steroidal structure providing oral bioavailability without requiring injection",
+		"Partial AR agonist activity may confer tissue selectivity with reduced androgenic side effects compared to full agonists (theoretical, not demonstrated in vivo)",
+		"Short half-life allows for relatively rapid clearance if side effects necessitate discontinuation"
+	],
+	"indications": [
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Muscle Mass Gain",
+					"description": "YK-11's dual mechanism of AR agonism and myostatin inhibition theoretically positions it as a potent anabolic compound for increasing lean muscle mass. Cell culture data supports increased anabolic signaling and follistatin expression. However, there is no in vivo or clinical evidence confirming these effects in animals or humans. All efficacy reports are anecdotal.",
+					"effectiveness": "emerging"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Users anecdotally report significant strength gains during YK-11 cycles, consistent with the compound's theoretical mechanism of action. The combination of AR-mediated protein synthesis and myostatin inhibition could theoretically support enhanced force production. No controlled studies exist to verify these claims.",
+					"effectiveness": "emerging"
+				},
+				{
+					"name": "Myostatin Inhibition",
+					"description": "The most distinctive proposed benefit of YK-11 is its ability to upregulate follistatin and thereby inhibit myostatin-mediated limitations on muscle growth. In cell culture, YK-11 induced greater follistatin expression than DHT. If this translates to in vivo activity, it could allow muscle growth beyond normal physiological limits. This remains entirely unproven outside of cell-based assays.",
+					"effectiveness": "emerging"
+				}
+			]
+		},
+		{
+			"category": "Theoretical / Preclinical",
+			"items": [
+				{
+					"name": "Bone Health",
+					"description": "Follistatin has been shown in other research contexts to positively influence bone mineral density and bone formation. If YK-11's follistatin-inducing effects translate in vivo, there could be secondary benefits for bone density. This is entirely speculative and unsupported by any direct YK-11 bone data.",
+					"effectiveness": "emerging"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "YK-11 is administered exclusively via the oral route. It is available as a liquid solution (typically in PEG-400 or similar carrier) or in capsule form from research chemical suppliers. Due to its 17-alpha alkylated steroidal structure, it has sufficient oral bioavailability to be effective when taken by mouth. The estimated half-life of 6-10 hours (based on structural analogy rather than pharmacokinetic studies) necessitates twice-daily dosing to maintain more stable plasma concentrations throughout the day.",
+			"protocols": [
+				{
+					"goal": "Research Dose - Conservative",
+					"dose": "5 mg/day (2.5 mg AM + 2.5 mg PM)",
+					"frequency": "Twice daily (split AM/PM)",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Lowest commonly referenced dose. Split dosing is recommended due to the short estimated half-life. Cycle length typically 6-8 weeks. Liver support (NAC or TUDCA) is strongly recommended given the 17-alpha alkylated structure. Baseline and post-cycle blood work is essential."
+				},
+				{
+					"goal": "Research Dose - Moderate",
+					"dose": "10 mg/day (5 mg AM + 5 mg PM)",
+					"frequency": "Twice daily (split AM/PM)",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Most commonly reported dose in anecdotal use. Cycle length should not exceed 8 weeks at this dose. Liver function monitoring every 4 weeks is recommended. PCT should be planned based on post-cycle blood work, as suppression is expected."
+				},
+				{
+					"goal": "Research Dose - Upper Range",
+					"dose": "15 mg/day (7.5 mg AM + 7.5 mg PM)",
+					"frequency": "Twice daily (split AM/PM)",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Upper end of reported dosing. Significantly increased risk of hepatotoxicity and hormonal suppression. Not recommended without comprehensive lab monitoring including liver enzymes, lipids, and hormones. Cycle length should not exceed 6 weeks. Liver support is mandatory."
+				}
+			],
+			"keyBenefits": [
+				"Oral administration without injections",
+				"Short half-life allows rapid clearance if adverse effects occur",
+				"Split dosing maintains more consistent plasma levels throughout the day"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "RAD-140",
+			"status": "monitor",
+			"notes": "YK-11 and RAD-140 are sometimes stacked by users seeking to combine YK-11's myostatin inhibition with RAD-140's potent AR agonism. This combination compounds the risk of testosterone suppression and liver enzyme elevation, as both compounds are hepatically metabolized. If combining, comprehensive blood work (liver function, hormones, lipids) is essential at baseline, mid-cycle, and post-cycle. Liver support supplementation is strongly recommended."
+		},
+		{
+			"peptide": "MK-677",
+			"status": "synergistic",
+			"notes": "MK-677 (Ibutamoren) is frequently combined with YK-11. MK-677 increases growth hormone and IGF-1 through ghrelin receptor agonism, which complements YK-11's AR-mediated and follistatin-mediated anabolic mechanisms through a completely independent pathway. MK-677 does not suppress testosterone and is not hepatotoxic, making it one of the safer adjuncts to a YK-11 cycle. The combination may enhance lean mass gains, recovery, and joint comfort (via GH-mediated collagen synthesis), potentially offsetting YK-11's reported joint dryness."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "monitor",
+			"notes": "Some users run a low-dose testosterone base (e.g., 100-150 mg/week TRT) alongside YK-11 to mitigate the hormonal suppression caused by YK-11's AR agonist activity. A testosterone base can help maintain libido, mood, and energy levels during the cycle. However, combining exogenous testosterone with a 17-alpha alkylated compound increases the overall hormonal and hepatic burden. Liver function and estradiol should be monitored closely."
+		},
+		{
+			"peptide": "Liver Support (NAC/TUDCA)",
+			"status": "compatible",
+			"notes": "Given YK-11's 17-alpha alkylated steroidal structure, liver support is strongly recommended for all users regardless of dose. NAC at 600-1200 mg/day or TUDCA at 250-500 mg/day should be used throughout the cycle and for 2-4 weeks after cessation. This is considered a baseline precaution rather than an optional addition."
+		},
+		{
+			"peptide": "Other SARMs (LGD-4033, S-23, etc.)",
+			"status": "avoid",
+			"notes": "Stacking YK-11 with additional SARMs compounds the risk of testosterone suppression, liver enzyme elevation, and lipid disruption. YK-11 already carries higher hepatotoxicity risk than nonsteroidal SARMs due to its 17-alpha alkylated structure. Adding further suppressive compounds makes hormonal recovery significantly more difficult and increases the likelihood of clinically significant liver injury."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Minimal perceptible effects during the initial phase. The short half-life means steady-state concentrations are reached quickly (within 2-3 days), but tissue-level anabolic responses take time to manifest. Some users report subtle improvements in workout pumps and vascularity by the end of week 2."
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Anecdotal reports suggest noticeable increases in strength and muscle hardness begin during this period. Muscle fullness and density may improve. Early signs of testosterone suppression may appear in sensitive individuals, including reduced libido or mild lethargy. Liver enzymes should be checked around week 4."
+		},
+		{
+			"period": "Week 5-6",
+			"effects": "Peak reported effects. Users describe continued strength progression, visible improvements in lean muscle mass, and a drier, harder appearance. Testosterone suppression is likely measurable on blood work. Joint dryness or discomfort may become apparent. This is the point at which many conservative protocols recommend concluding the cycle."
+		},
+		{
+			"period": "Week 7-8",
+			"effects": "Diminishing marginal returns with increasing risk. Suppression is well-established, and hepatic stress accumulates with continued 17-alpha alkylated compound exposure. Most protocols recommend stopping by week 8 at the latest. Extended use beyond this point significantly increases the risk of liver injury and prolongs hormonal recovery."
+		},
+		{
+			"period": "Post-Cycle (Week 1-4 after cessation)",
+			"effects": "Hormonal recovery period. Due to the short half-life, active compound clearance occurs within 2-3 days. PCT with a SERM (enclomiphene or nolvadex) can be initiated 2-3 days after the last dose. Endogenous testosterone production typically recovers within 4-6 weeks for most individuals, though recovery timelines vary based on cycle length, dose, and whether YK-11 was stacked with other suppressive compounds."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Liver stress and enzyme elevation (ALT, AST) due to 17-alpha alkylated steroidal structure",
+			"Testosterone suppression (dose- and duration-dependent, expected in all users)",
+			"Joint dryness and discomfort (related to reduced estrogenic activity and potential drying effect)",
+			"Hair shedding (consistent with androgenic activity from the DHT-derived structure; may or may not be reversible)",
+			"Lipid disruption (HDL suppression, LDL elevation)",
+			"Reduced libido and mood changes secondary to hormonal suppression",
+			"Mild headaches, particularly during the first week"
+		],
+		"rare": [
+			"Significant hepatotoxicity or drug-induced liver injury (risk is elevated compared to nonsteroidal SARMs due to 17-alpha alkylation)",
+			"Severe testosterone suppression requiring extended PCT or medical intervention",
+			"Aggression or mood instability",
+			"Acne or increased skin oiliness",
+			"Elevated blood pressure",
+			"Tendon fragility or injury (speculative, related to potential collagen synthesis effects)"
+		],
+		"stopSigns": [
+			"Jaundice (yellowing of skin or eyes) indicating significant liver injury",
+			"Dark-colored urine (potential sign of liver damage)",
+			"Severe or persistent abdominal pain, nausea, or vomiting",
+			"Severe lethargy unresponsive to rest (may indicate profound suppression or liver stress)",
+			"Chest pain, tightness, or palpitations",
+			"Signs of allergic reaction: rash, swelling, difficulty breathing"
+		],
+		"contraindications": [
+			"Pre-existing liver disease or elevated liver enzymes at baseline (17-alpha alkylated compounds are contraindicated in hepatic impairment)",
+			"Hormone-sensitive cancers (prostate cancer or other androgen-responsive malignancies)",
+			"Pregnancy or potential pregnancy (teratogenic risk from androgen receptor agonism and hormonal disruption)",
+			"Breastfeeding",
+			"Age under 25 (incomplete endocrine system maturation and higher risk of lasting HPG axis disruption)",
+			"Concurrent use of other hepatotoxic compounds or medications (oral steroids, certain NSAIDs, statins, etc.)",
+			"Known cardiovascular disease (insufficient safety data)"
+		],
+		"monitoring": [
+			"Liver function panel (ALT, AST, bilirubin, ALP): baseline, every 4 weeks during cycle, and 2-4 weeks post-cycle",
+			"Total and free testosterone: baseline, mid-cycle (week 3-4), and post-cycle (2-4 weeks after PCT)",
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline and end of cycle",
+			"Complete blood count: baseline and end of cycle",
+			"Estradiol: baseline and post-cycle (to assess recovery)",
+			"LH and FSH: post-cycle to confirm HPG axis recovery"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party lab tested with certificate of analysis (COA) showing purity above 98%",
+			"Clearly labeled with compound name, concentration, batch number, and expiration date",
+			"Solution is clear and free of particulate matter or discoloration",
+			"Supplier provides HPLC or mass spectrometry verification of identity and purity",
+			"Sold as a research chemical with appropriate disclaimers"
+		],
+		"warning": [
+			"No third-party testing or certificate of analysis available",
+			"Sold in pre-made capsules without verifiable dosing accuracy",
+			"Marketed with explicit muscle-building or performance enhancement claims",
+			"Concentration claims that vary between batches",
+			"Unusually low pricing compared to established research chemical suppliers"
+		],
+		"bad": [
+			"Cloudy, discolored, or precipitated solution indicating degradation or contamination",
+			"No labeling, incorrect labeling, or missing batch/lot information",
+			"Supplier has no verifiable reputation, reviews, or testing history",
+			"Product tested by independent labs showing underdosed, mislabeled, or contaminated contents",
+			"Contains unlisted active ingredients or adulterants",
+			"Sold by a source that also sells controlled substances"
+		]
+	},
+	"references": [
+		{
+			"title": "Selective Androgen Receptor Modulator, YK11, Regulates Myogenic Differentiation of C2C12 Myoblasts by Follistatin Expression",
+			"authors": "Kanno, Y., Hikosaka, R., Zhang, S.Y., et al.",
+			"journal": "Biological and Pharmaceutical Bulletin",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21719579/",
+			"keyFindings": "First published study on YK-11. Demonstrated that YK-11 induces myogenic differentiation of C2C12 myoblast cells through androgen receptor-dependent follistatin expression. YK-11-treated cells showed greater follistatin induction than DHT-treated cells, suggesting a unique dual mechanism of anabolic action."
+		},
+		{
+			"title": "YK11 Effect on Myostatin and Follistatin Expression: A Novel Mechanism for a Selective Androgen Receptor Modulator",
+			"authors": "Kanno, Y., Ota, R., Someya, K., et al.",
+			"journal": "Biological and Pharmaceutical Bulletin",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23995658/",
+			"keyFindings": "Follow-up study confirming that YK-11 increases follistatin expression in C2C12 cells in a dose-dependent manner and that this effect is mediated through the androgen receptor. Provided additional evidence for YK-11's role as a myostatin inhibitor acting via follistatin upregulation."
+		},
+		{
+			"title": "Selective Androgen Receptor Modulators: Current Knowledge and Clinical Applications",
+			"authors": "Narayanan, R., Coss, C.C., Dalton, J.T.",
+			"journal": "Sexual Medicine Reviews",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29174957/",
+			"keyFindings": "Comprehensive review of SARM pharmacology and clinical development. Discusses the broader SARM class including tissue selectivity mechanisms, preclinical and clinical data, and regulatory status. Provides context for understanding YK-11 within the wider landscape of investigational androgen receptor modulators."
+		},
+		{
+			"title": "Drug-Induced Liver Injury Associated with the Use of Selective Androgen Receptor Modulators",
+			"authors": "Flores, J.E., Chitturi, S., Walker, N.I.",
+			"journal": "Hepatology Communications",
+			"year": "2020",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32626835/",
+			"keyFindings": "Case series documenting clinically significant drug-induced liver injury in individuals using SARMs. Relevant to YK-11 given its 17-alpha alkylated structure, which poses a higher theoretical hepatotoxicity risk than nonsteroidal SARMs. Highlights the importance of liver function monitoring during any SARM use."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "YK11 Effect on Myostatin and Follistatin Expression in C2C12 Myoblasts",
+			"date": "2013",
+			"source": "Biological and Pharmaceutical Bulletin",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23995658/",
+			"summary": "The most recent published research directly investigating YK-11. Confirmed dose-dependent follistatin upregulation in muscle cells through an androgen receptor-dependent pathway. No in vivo or human studies have been published as of the current date, leaving YK-11 as one of the least clinically characterized compounds marketed as a SARM."
+		},
+		{
+			"title": "SARM-Related Hepatotoxicity: A Growing Concern for Clinicians",
+			"date": "2021",
+			"source": "Journal of Hepatology (Case Reports)",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/34568801/",
+			"summary": "Continued emergence of SARM-associated liver injury case reports reinforces the hepatotoxicity risk profile relevant to all SARMs. YK-11's 17-alpha alkylated steroidal structure places it at particularly elevated risk compared to nonsteroidal SARMs, making liver function monitoring essential."
+		}
+	]
+}

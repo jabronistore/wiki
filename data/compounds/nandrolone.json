@@ -1,0 +1,388 @@
+{
+	"id": "nandrolone",
+	"name": "Nandrolone",
+	"subtitle": "Anabolic-Androgenic Steroid | Joint & Collagen Support",
+	"aliases": [
+		"Deca-Durabolin",
+		"Deca",
+		"Nandrolone Decanoate",
+		"NPP",
+		"Nandrolone Phenylpropionate"
+	],
+	"compoundKind": "anabolic",
+	"categories": ["anabolic", "healing", "sexual-health"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "100-200 mg/week (therapeutic)",
+		"frequency": "1x per week (decanoate) or 2-3x per week (NPP)",
+		"cycleDuration": "12-16 weeks (decanoate) or 8-12 weeks (NPP)",
+		"storage": "Room temperature (68-77F). Protect from light."
+	},
+	"molecular": {
+		"weight": "274.40 Da (base)",
+		"type": "19-nortestosterone steroid (C18H26O2)",
+		"modifications": [
+			"Decanoate ester (MW 428.65 Da) - extends half-life to ~6-12 days",
+			"Phenylpropionate ester (MW 406.56 Da) - shorter half-life of ~2.7 days",
+			"Lacks the C19 methyl group present on testosterone, reducing androgenic potency"
+		],
+		"halfLife": "~6-12 days (decanoate)",
+		"halfLifeSeconds": 864000,
+		"halfLifeRoute": "Intramuscular (decanoate ester)"
+	},
+	"overview": "Nandrolone is a synthetic 19-nortestosterone anabolic-androgenic steroid that has been in clinical use since the 1960s. Structurally, it differs from testosterone by the absence of a methyl group at the C19 position, which significantly reduces its androgenic activity relative to its anabolic potency. Nandrolone decanoate (Deca-Durabolin) was FDA-approved for the treatment of anemia associated with chronic renal failure and has also been used clinically for osteoporosis, wasting diseases, and severe burn recovery. Among anabolic steroids, nandrolone is particularly valued for its positive effects on collagen synthesis, joint health, and bone mineral density. It has one of the most favorable anabolic-to-androgenic ratios of any synthetic steroid (approximately 125:37 compared to testosterone at 100:100), making it a frequent choice for individuals seeking muscle growth with reduced androgenic side effects. Nandrolone is available in two primary ester formulations: the long-acting decanoate ester and the shorter-acting phenylpropionate ester (NPP).",
+	"mechanism": "Nandrolone binds to the androgen receptor (AR) with affinity comparable to testosterone, promoting nitrogen retention, protein synthesis, and satellite cell activation in skeletal muscle tissue. Its anabolic effects are mediated through AR-dependent gene transcription that upregulates muscle-specific proteins including myosin heavy chain and IGF-1. A key distinguishing feature of nandrolone is its interaction with 5-alpha reductase: unlike testosterone, which is converted to the more potent androgen dihydrotestosterone (DHT), nandrolone is reduced to dihydronandrolone (DHN), a weaker androgen. This results in lower androgenic activity in tissues rich in 5-alpha reductase (skin, prostate, hair follicles). Nandrolone also stimulates collagen synthesis and bone mineral content through direct effects on osteoblasts and fibroblasts, contributing to its well-documented benefits for joint and connective tissue health. It exhibits moderate progestogenic activity, binding to the progesterone receptor at approximately 20% the affinity of progesterone, which can influence prolactin levels and contribute to progesterone-related side effects. Nandrolone aromatizes to estradiol at roughly 20% the rate of testosterone, resulting in lower but not absent estrogenic activity.",
+	"keyBenefits": [
+		"Significant increases in lean muscle mass with a favorable anabolic-to-androgenic ratio",
+		"Enhanced collagen synthesis and joint lubrication, reducing joint pain and improving connective tissue integrity",
+		"Increased bone mineral density through direct osteoblast stimulation",
+		"Improved nitrogen retention and protein synthesis for accelerated recovery",
+		"Stimulation of erythropoietin production, increasing red blood cell mass and oxygen delivery",
+		"Lower androgenic side effects (hair loss, acne, prostate enlargement) compared to testosterone",
+		"Clinically demonstrated efficacy in treating anemia of chronic renal failure",
+		"Potential neuroprotective properties observed in preclinical research"
+	],
+	"indications": [
+		{
+			"category": "Hematological",
+			"items": [
+				{
+					"name": "Anemia of Chronic Renal Failure",
+					"description": "FDA-approved indication. Nandrolone decanoate stimulates erythropoietin production and directly enhances erythropoiesis, increasing red blood cell mass in patients with chronic kidney disease-associated anemia. Used particularly in patients who respond poorly to erythropoiesis-stimulating agents.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Aplastic Anemia",
+					"description": "Historical use in aplastic anemia to stimulate red blood cell, white blood cell, and platelet production. Largely superseded by modern therapies but still considered in resource-limited settings.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Musculoskeletal / Connective Tissue",
+			"items": [
+				{
+					"name": "Joint Pain and Connective Tissue Support",
+					"description": "Nandrolone increases collagen synthesis (type I and III), synovial fluid production, and overall connective tissue integrity. Widely reported to reduce joint pain and improve function in individuals with degenerative joint conditions or training-related joint stress. The mechanism involves direct stimulation of fibroblast activity and increased procollagen mRNA expression.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Osteoporosis",
+					"description": "Nandrolone has been studied for the treatment and prevention of osteoporosis, particularly in postmenopausal women and hypogonadal men. It increases bone mineral density through direct osteoblast stimulation and suppression of osteoclast activity.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Muscle Wasting and Cachexia",
+					"description": "Used in HIV/AIDS-associated wasting, cancer cachexia, and chronic illness-related sarcopenia to preserve and restore lean body mass. Demonstrated significant improvements in lean mass, strength, and functional capacity in clinical trials.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Mass Accretion",
+					"description": "Dose-dependent increases in lean body mass and muscle cross-sectional area. At therapeutic and supraphysiological doses, nandrolone promotes substantial gains in skeletal muscle with less water retention than equianabolic doses of testosterone.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Increases in maximal strength across compound movements, driven by enhanced protein synthesis, nitrogen retention, and glycogen storage. Effects are dose-dependent and most pronounced when combined with resistance training.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Recovery / Healing",
+			"items": [
+				{
+					"name": "Surgical and Injury Recovery",
+					"description": "Nandrolone has been used to accelerate recovery from major surgery, severe burns, and debilitating injuries by promoting positive nitrogen balance, collagen deposition, and lean tissue preservation during catabolic states.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Tendon and Ligament Repair",
+					"description": "Preclinical evidence suggests nandrolone may enhance tendon healing by increasing collagen fiber organization and cross-linking. Clinical applications for tendon repair remain investigational but are supported by its known collagen-stimulating properties.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Nandrolone is administered exclusively via intramuscular injection. Two ester formulations are available: nandrolone decanoate (Deca-Durabolin), a long-acting ester that permits weekly or biweekly dosing, and nandrolone phenylpropionate (NPP), a shorter ester requiring injections every 2-3 days. Decanoate is more common in clinical and performance settings due to its convenient dosing schedule, while NPP is preferred by those who want faster clearance and more rapid dose adjustments.",
+			"protocols": [
+				{
+					"goal": "TRT Adjunct - Joint Support",
+					"dose": "50-100 mg/week",
+					"frequency": "1x per week (decanoate)",
+					"route": "Intramuscular",
+					"notes": "Low-dose nandrolone added to a testosterone base for joint relief and collagen support. Must be run alongside testosterone to prevent sexual dysfunction. Common ratio is 2:1 or 3:1 testosterone-to-nandrolone."
+				},
+				{
+					"goal": "Therapeutic - Anemia / Wasting",
+					"dose": "100-200 mg/week",
+					"frequency": "1x per week (decanoate)",
+					"route": "Intramuscular",
+					"notes": "FDA-approved dosing range for anemia of chronic renal failure. Clinical studies typically use 100 mg/week for women and 200 mg/week for men. Duration varies by clinical response."
+				},
+				{
+					"goal": "Performance Enhancement - Moderate",
+					"dose": "200-400 mg/week",
+					"frequency": "1x per week (decanoate) or split into 2 injections",
+					"route": "Intramuscular",
+					"notes": "Always run with a testosterone base at equal or higher dose to prevent nandrolone-induced sexual dysfunction. Cycle length typically 12-16 weeks for decanoate due to long ester clearance time. Monitor prolactin and estradiol."
+				},
+				{
+					"goal": "NPP Protocol - Shorter Cycle",
+					"dose": "200-350 mg/week",
+					"frequency": "Every other day or 3x per week",
+					"route": "Intramuscular",
+					"notes": "Phenylpropionate ester allows faster blood level stabilization and quicker clearance after discontinuation. Preferred for shorter cycles (8-10 weeks) or for individuals who want more control over side effects. Same requirement for concurrent testosterone base."
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Pre-filled nandrolone vial (typically 100-200 mg/mL in sesame or arachis oil)",
+					"Syringes (1 mL or 3 mL)",
+					"Drawing needle (18-21 gauge)",
+					"Injection needle (22-25 gauge for IM)",
+					"Alcohol swabs",
+					"Sharps container"
+				],
+				"steps": [
+					"Wash hands thoroughly and prepare a clean work surface",
+					"Wipe vial stopper with alcohol swab and allow to dry",
+					"Draw air into syringe equal to the volume of nandrolone to be withdrawn",
+					"Insert drawing needle through vial stopper and inject air to equalize pressure",
+					"Invert vial and withdraw the prescribed dose, tapping to remove air bubbles",
+					"Switch to injection needle (do not inject with drawing needle)",
+					"Clean injection site with alcohol swab in circular motion outward",
+					"Insert needle at 90-degree angle into ventrogluteal, vastus lateralis, or deltoid muscle",
+					"Aspirate briefly (optional per current guidelines), then inject slowly over 10-30 seconds",
+					"Withdraw needle, apply gentle pressure with gauze, dispose of needle in sharps container"
+				]
+			},
+			"keyBenefits": [
+				"Long-acting decanoate ester allows convenient weekly dosing",
+				"Well-established pharmacokinetics with decades of clinical use",
+				"NPP alternative provides faster onset and clearance for shorter protocols",
+				"Precise dose control with injectable formulation",
+				"Can be combined in the same syringe with testosterone esters for single-injection convenience"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "Testosterone base is considered mandatory when running nandrolone. Nandrolone alone causes severe sexual dysfunction ('deca dick') because its reduced metabolite DHN displaces DHT in neurological and sexual tissues. A testosterone-to-nandrolone ratio of at least 1:1 (commonly 2:1 or 3:1) is standard practice to maintain adequate DHT levels for sexual function."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "synergistic",
+			"notes": "BPC-157 and nandrolone complement each other for joint and connective tissue healing. BPC-157 promotes angiogenesis and growth factor upregulation in injured tissues, while nandrolone enhances collagen synthesis and structural repair. The combination is commonly used for chronic joint issues and tendon recovery."
+		},
+		{
+			"peptide": "Finasteride",
+			"status": "avoid",
+			"notes": "5-alpha reductase inhibitors should be avoided with nandrolone. Nandrolone is normally converted by 5-alpha reductase to dihydronandrolone (DHN), a weaker androgen. Blocking this conversion with finasteride or dutasteride causes unmetabolized nandrolone to act directly on androgen-sensitive tissues, paradoxically increasing androgenic side effects including hair loss, acne, and prostate stimulation."
+		},
+		{
+			"peptide": "HCG",
+			"status": "compatible",
+			"notes": "HCG helps maintain testicular function and endogenous testosterone production during nandrolone use. Since nandrolone is profoundly suppressive of the HPT axis, concurrent HCG (500-1000 IU 2-3x per week) can preserve fertility potential and testicular volume, particularly important for those planning post-cycle recovery."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "compatible",
+			"notes": "Aromatase inhibitors can be used to manage estradiol from the concurrent testosterone base. Nandrolone itself aromatizes at about 20% the rate of testosterone, so direct estrogenic contribution is modest. Caution is warranted as over-suppression of estradiol worsens joint symptoms, counteracting one of nandrolone's primary benefits."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "synergistic",
+			"notes": "Growth hormone enhances IGF-1-mediated collagen synthesis and connective tissue repair, amplifying nandrolone's joint and tendon benefits. The combination is frequently used for comprehensive musculoskeletal recovery and body recomposition."
+		},
+		{
+			"peptide": "CJC-1295/Ipamorelin",
+			"status": "synergistic",
+			"notes": "Growth hormone secretagogues complement nandrolone's anabolic and connective tissue effects by increasing endogenous GH pulsatility. Improved recovery, sleep quality, and collagen turnover when combined."
+		},
+		{
+			"peptide": "Cabergoline",
+			"status": "compatible",
+			"notes": "Dopamine agonist used to manage prolactin elevations caused by nandrolone's progestogenic activity. Typical dose is 0.25-0.5 mg twice weekly if prolactin rises above reference range. Should only be used when bloodwork confirms elevated prolactin, not prophylactically."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Minimal noticeable effects with decanoate ester due to long onset. Blood levels are still building. Some individuals report mild mood improvement and slight joint lubrication beginning. NPP users may notice effects sooner due to faster ester release."
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Joint relief becomes more apparent as synovial fluid production and collagen synthesis increase. Early improvements in recovery between training sessions. Mild water retention and increased appetite are common. Strength gains begin emerging."
+		},
+		{
+			"period": "Week 5-8",
+			"effects": "Significant joint pain relief and improved connective tissue resilience. Noticeable increases in lean muscle mass and strength. Improved workout recovery and ability to handle higher training volume. Red blood cell count begins rising. Progesterone-related side effects may emerge if doses are too high."
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Peak anabolic and joint-support effects. Substantial improvements in body composition, strength, and overall musculoskeletal comfort. Bone mineral density improvements are occurring but not yet clinically measurable. Monitoring of hematocrit, prolactin, and estradiol is important at this stage."
+		},
+		{
+			"period": "Week 12-16",
+			"effects": "Full steady-state benefits realized for those running longer decanoate cycles. Continued lean mass accrual and joint support. Note that nandrolone metabolites can be detected in drug tests for up to 18 months after discontinuation due to storage in adipose tissue. Taper planning should account for the long clearance time of the decanoate ester."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Suppression of natural testosterone production (profoundly suppressive, more so than testosterone alone)",
+			"Water retention and bloating (less than testosterone at equianabolic doses)",
+			"Erectile dysfunction and reduced libido without concurrent testosterone ('deca dick')",
+			"Increased appetite and weight gain",
+			"Mild acne and oily skin (less pronounced than testosterone)",
+			"Elevated hematocrit and hemoglobin (erythrocytosis)",
+			"Injection site pain or discomfort",
+			"Mild mood changes (some users report increased emotional sensitivity)"
+		],
+		"rare": [
+			"Gynecomastia from progesterone-mediated prolactin elevation (distinct from estrogen-mediated gyno)",
+			"Elevated prolactin causing lactation, mood disturbance, or sexual dysfunction",
+			"Significant HDL cholesterol suppression and adverse lipid changes",
+			"Left ventricular hypertrophy with prolonged supraphysiological use",
+			"Hepatotoxicity (very rare with injectable nandrolone, not a 17-alpha-alkylated steroid)",
+			"Virilization in women (deepening voice, hirsutism, clitoral enlargement) at higher doses",
+			"Insomnia and night sweats at higher doses",
+			"Depression or anxiety, particularly during discontinuation"
+		],
+		"stopSigns": [
+			"Severe chest pain, tightness, or pressure",
+			"Sudden shortness of breath or difficulty breathing at rest",
+			"Swelling, warmth, or pain in one leg (potential deep vein thrombosis)",
+			"Severe or persistent headaches with visual disturbances",
+			"Yellowing of skin or eyes (jaundice)",
+			"Signs of stroke: sudden numbness, confusion, trouble speaking, loss of coordination",
+			"Breast discharge or significant gynecomastia progression",
+			"Persistent severe depression or suicidal ideation"
+		],
+		"contraindications": [
+			"Prostate cancer (active or history of hormone-sensitive prostate cancer)",
+			"Breast cancer in males or females",
+			"Pregnancy or potential for pregnancy (Category X - causes virilization of female fetus)",
+			"Nephrosis or the nephrotic phase of nephritis",
+			"Severe hepatic impairment",
+			"Hypercalcemia",
+			"Known hypersensitivity to nandrolone or any formulation components",
+			"Polycythemia (hematocrit above 54% at baseline)",
+			"Uncontrolled heart failure or severe cardiovascular disease"
+		],
+		"monitoring": [
+			"Total and free testosterone: baseline and every 6-8 weeks during use",
+			"Estradiol (sensitive assay): at each blood draw, especially when co-administered with testosterone",
+			"Prolactin: baseline, 4-6 weeks after starting, and as needed if symptoms arise",
+			"Complete blood count with hematocrit: baseline, 6-8 weeks, then every 3 months",
+			"Comprehensive metabolic panel and lipid panel: baseline and every 8-12 weeks",
+			"Liver function tests: baseline and periodic monitoring",
+			"PSA (prostate-specific antigen): baseline and every 6 months for men over 40",
+			"Progesterone: optional baseline and periodic check if progestogenic symptoms appear",
+			"Blood pressure: regular monitoring throughout use"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, pale yellow to yellow oil with no visible particles or cloudiness",
+			"Pharmaceutical-grade product with valid lot number and manufacturer identification",
+			"Proper labeling with concentration (typically 100 or 200 mg/mL), ester type, and expiration date",
+			"Intact rubber stopper with no signs of prior puncture",
+			"Oil draws smoothly with appropriate viscosity (carrier oils: sesame, arachis/peanut, or castor oil)",
+			"Prescribed by licensed physician with documented clinical indication"
+		],
+		"warning": [
+			"Underground lab (UGL) product without pharmaceutical-grade verification",
+			"Concentration claims above 300 mg/mL (higher concentrations often cause severe post-injection pain)",
+			"Vial label with spelling errors, misaligned printing, or unprofessional appearance",
+			"Oil appears slightly darker than expected but is otherwise clear",
+			"Product labeled as nandrolone but carrier oil is unidentified"
+		],
+		"bad": [
+			"Cloudy, discolored, or particulate-containing solution (contamination risk)",
+			"Crashed product (crystallized steroid visible in vial)",
+			"Broken or missing tamper-evident seal on vial",
+			"No labeling, incorrect labeling, or missing expiration date",
+			"Pain, redness, or swelling at injection site lasting more than 72 hours (potential infection or abscess)",
+			"Product sourced without any testing or third-party verification",
+			"Allergic reaction at injection site in patients with peanut allergy (arachis oil carrier)"
+		]
+	},
+	"references": [
+		{
+			"title": "Nandrolone Decanoate: Pharmacological Properties and Therapeutic Use in Osteoporosis",
+			"authors": "Geusens, P.",
+			"journal": "Clinical Rheumatology",
+			"year": "1995",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8846325/",
+			"keyFindings": "Comprehensive review of nandrolone decanoate's pharmacology and clinical efficacy in osteoporosis, demonstrating significant increases in bone mineral density and reductions in fracture risk. Documented nandrolone's favorable anabolic-to-androgenic ratio and its collagen-stimulating properties."
+		},
+		{
+			"title": "Nandrolone decanoate for the treatment of erythropoietin refractory anemia: a case series",
+			"authors": "Berns, J.S., Rudnick, M.R., Cohen, R.M.",
+			"journal": "BMC Nephrology",
+			"year": "2005",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16174293/",
+			"keyFindings": "Case series demonstrating nandrolone decanoate's efficacy in treating erythropoietin-refractory anemia in chronic kidney disease patients. Patients showed significant improvements in hemoglobin levels, supporting nandrolone's FDA-approved indication for renal anemia."
+		},
+		{
+			"title": "The Effects of Supraphysiologic Doses of Testosterone on Muscle Size and Strength in Normal Men",
+			"authors": "Bhasin, S., Storer, T.W., Berman, N., et al.",
+			"journal": "The New England Journal of Medicine",
+			"year": "1996",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8637535/",
+			"keyFindings": "Landmark study establishing dose-dependent anabolic effects of supraphysiological androgens on muscle size and strength. While focused on testosterone, this trial provided the foundational framework for understanding anabolic steroid dose-response relationships applicable to nandrolone."
+		},
+		{
+			"title": "Anabolic steroid-induced tendon pathology: a review of the literature",
+			"authors": "Kanayama, G., DeLuca, J., Meehan, W.P., et al.",
+			"journal": "Medicine and Science in Sports and Exercise",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25100341/",
+			"keyFindings": "Review examining the effects of anabolic steroids on tendon structure and function. Found that nandrolone, unlike many other anabolic steroids, may have beneficial effects on collagen synthesis and tendon healing, consistent with its clinical reputation for joint and connective tissue support."
+		},
+		{
+			"title": "Nandrolone decanoate: use, abuse and side effects",
+			"authors": "Tamaki, T., Shiraishi, T., Takeda, H., et al.",
+			"journal": "Medicina (Kaunas)",
+			"year": "2003",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12861472/",
+			"keyFindings": "Comprehensive review of nandrolone decanoate covering its clinical applications, mechanisms of action, and side effect profile. Documented the compound's progestogenic activity, its interaction with 5-alpha reductase, and the importance of concurrent testosterone to prevent sexual dysfunction."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Effects of Nandrolone Decanoate on Bone Mineral Density and Lean Body Mass in HIV-Infected Women with Weight Loss",
+			"date": "April 2005",
+			"source": "Journal of Acquired Immune Deficiency Syndromes",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15764966/",
+			"summary": "Randomized controlled trial demonstrating that nandrolone decanoate significantly increased lean body mass and bone mineral density in HIV-infected women with wasting, supporting its role in treating catabolic conditions."
+		},
+		{
+			"title": "Nandrolone Decanoate Stimulates Type III Collagen Synthesis in Healing Tendons",
+			"date": "June 2009",
+			"source": "Muscle & Nerve",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19145648/",
+			"summary": "Preclinical study demonstrating that nandrolone decanoate enhanced type III collagen expression and improved the biomechanical properties of healing tendons, providing mechanistic support for nandrolone's observed clinical benefits on connective tissue."
+		},
+		{
+			"title": "Cardiovascular Effects of Anabolic Steroids: Cross-Sectional Study of Male Strength Athletes",
+			"date": "January 2017",
+			"source": "Circulation: Heart Failure",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28912249/",
+			"summary": "Cross-sectional study of 140 experienced strength athletes finding that long-term anabolic steroid use, including nandrolone, was associated with reduced left ventricular systolic function and coronary artery plaque volume, underscoring the importance of cardiovascular monitoring during steroid use."
+		}
+	]
+}

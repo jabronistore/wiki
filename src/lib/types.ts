@@ -116,6 +116,7 @@ export interface Peptide {
 	name: string;
 	subtitle?: string;
 	aliases?: string[];
+	compoundKind?: CompoundKind;
 	categories: PeptideCategory[];
 	researchStatus: ResearchStatus;
 	fdaApproved?: boolean;
@@ -167,7 +168,22 @@ export type PeptideCategory =
 	| 'sleep'
 	| 'metabolic'
 	| 'protocol'
+	| 'pct'
+	| 'hair-loss'
+	| 'anabolic'
+	| 'pde5'
+	| 'sarm'
 	| 'other';
+
+export type CompoundKind =
+	| 'peptide'
+	| 'sarm'
+	| 'anabolic'
+	| 'pharmaceutical'
+	| 'ancillary'
+	| 'bioregulator';
+
+export type Compound = Peptide;
 
 export type ResearchStatus =
 	| 'extensively-studied'
@@ -187,6 +203,7 @@ export interface PeptideSummary {
 	id: string;
 	name: string;
 	subtitle?: string;
+	compoundKind?: CompoundKind;
 	categories: PeptideCategory[];
 	researchStatus: ResearchStatus;
 	/** Flattened searchable text: indication names, aliases, mechanism keywords */

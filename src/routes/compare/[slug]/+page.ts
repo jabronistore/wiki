@@ -1,5 +1,5 @@
 import { error, redirect } from '@sveltejs/kit';
-import { getPeptideBySlug, getAllPeptideSummaries } from '$lib/data/peptides';
+import { getItemBySlug, getAllItemSummaries } from '$lib/data/unified';
 import { parseComparisonSlug, buildComparisonSlug } from '$lib/utils/comparison';
 
 export const prerender = false;
@@ -16,15 +16,15 @@ export function load({ params }) {
 		throw redirect(301, `/compare/${canonical}`);
 	}
 
-	const peptideA = getPeptideBySlug(slugA);
-	const peptideB = getPeptideBySlug(slugB);
+	const peptideA = getItemBySlug(slugA);
+	const peptideB = getItemBySlug(slugB);
 
-	if (!peptideA) throw error(404, `Peptide "${slugA}" not found`);
-	if (!peptideB) throw error(404, `Peptide "${slugB}" not found`);
+	if (!peptideA) throw error(404, `Compound "${slugA}" not found`);
+	if (!peptideB) throw error(404, `Compound "${slugB}" not found`);
 
 	return {
 		peptideA,
 		peptideB,
-		allPeptides: getAllPeptideSummaries()
+		allPeptides: getAllItemSummaries()
 	};
 }

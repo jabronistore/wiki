@@ -10,6 +10,10 @@ const peptideFiles = import.meta.glob('/data/peptides/*.json', { eager: true }) 
 	string,
 	{ default: { id?: string; name?: string; subtitle?: string } }
 >;
+const compoundFiles = import.meta.glob('/data/compounds/*.json', { eager: true }) as Record<
+	string,
+	{ default: { id?: string; name?: string; subtitle?: string } }
+>;
 
 function getPublishedGuides(): { slug: string; title: string; description: string }[] {
 	const guides: { slug: string; title: string; description: string }[] = [];
@@ -50,9 +54,31 @@ function getPeptideNames(): { id: string; name: string; subtitle: string }[] {
 	return peptides.sort((a, b) => a.name.localeCompare(b.name));
 }
 
+function getCompoundNames(): { id: string; name: string; subtitle: string }[] {
+	const compounds: { id: string; name: string; subtitle: string }[] = [];
+
+	for (const path in compoundFiles) {
+		try {
+			const data = compoundFiles[path].default || compoundFiles[path];
+			const filename = path.split('/').at(-1)?.replace('.json', '') || '';
+			const id = ((data as Record<string, unknown>).id as string) || filename;
+			const name = ((data as Record<string, unknown>).name as string) || '';
+			const subtitle = ((data as Record<string, unknown>).subtitle as string) || '';
+			if (name) {
+				compounds.push({ id, name, subtitle });
+			}
+		} catch {
+			// skip malformed files
+		}
+	}
+
+	return compounds.sort((a, b) => a.name.localeCompare(b.name));
+}
+
 export const GET: RequestHandler = async () => {
 	const guides = getPublishedGuides();
 	const peptides = getPeptideNames();
+	const compounds = getCompoundNames();
 
 	const guideLinks = guides
 		.map((g) => `- [${g.title}](https://peptide-db.com/guides/${g.slug}): ${g.description}`)
@@ -62,6 +88,13 @@ export const GET: RequestHandler = async () => {
 		.map(
 			(p) =>
 				`- [${p.name}](https://peptide-db.com/peptides/${p.id})${p.subtitle ? `: ${p.subtitle}` : ''}`
+		)
+		.join('\n');
+
+	const compoundLinks = compounds
+		.map(
+			(c) =>
+				`- [${c.name}](https://peptide-db.com/compounds/${c.id})${c.subtitle ? `: ${c.subtitle}` : ''}`
 		)
 		.join('\n');
 
@@ -93,6 +126,10 @@ ${guideLinks || '- No published guides yet'}
 ## Peptides
 
 ${peptideLinks}
+
+## Compounds
+
+${compoundLinks || '- No compounds yet'}
 
 ## About
 

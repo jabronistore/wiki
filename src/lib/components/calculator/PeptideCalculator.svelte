@@ -318,6 +318,8 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1.5rem;
+		max-width: 100%;
+		overflow: hidden;
 	}
 
 	.calculator-compact {
@@ -334,6 +336,7 @@
 		grid-template-columns: 1fr auto;
 		gap: 2rem;
 		align-items: start;
+		overflow: hidden;
 	}
 
 	@media (max-width: 640px) {
@@ -368,12 +371,14 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1.25rem;
+		min-width: 0;
 	}
 
 	.input-group {
 		display: flex;
 		flex-direction: column;
 		gap: 0.375rem;
+		min-width: 0;
 	}
 
 	.field-label {
@@ -393,6 +398,8 @@
 		background: hsl(var(--background));
 		transition: border-color 0.15s;
 		overflow: hidden;
+		max-width: 100%;
+		box-sizing: border-box;
 	}
 
 	.field-box:focus-within {
@@ -463,6 +470,7 @@
 	/* Presets — quiet suggestion row below input */
 	.presets {
 		display: flex;
+		flex-wrap: wrap;
 		gap: 0.25rem;
 		padding-top: 0.125rem;
 	}
@@ -494,6 +502,7 @@
 		display: flex;
 		gap: 0.5rem;
 		margin-top: 0.5rem;
+		min-width: 0;
 	}
 
 	.syringe-btn {
@@ -501,12 +510,13 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 0.75rem 1rem;
+		padding: 0.75rem 0.5rem;
 		border-radius: 0.5rem;
 		border: 2px solid hsl(var(--border));
 		background: hsl(var(--background));
 		transition: all 0.15s ease;
 		cursor: pointer;
+		min-width: 0;
 	}
 
 	.syringe-btn:hover {
@@ -524,6 +534,8 @@
 		padding: 1rem;
 		background: hsl(var(--muted) / 0.5);
 		border-radius: 0.5rem;
+		min-width: 0;
+		overflow: hidden;
 	}
 
 	.result-item {
@@ -531,6 +543,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.25rem;
+		min-width: 0;
 	}
 
 	.result-label {
@@ -542,6 +555,9 @@
 		font-size: 1rem;
 		font-weight: 600;
 		font-variant-numeric: tabular-nums;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.calculator-visual {

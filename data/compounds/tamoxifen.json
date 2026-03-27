@@ -1,0 +1,281 @@
+{
+	"id": "tamoxifen",
+	"name": "Tamoxifen",
+	"subtitle": "Selective Estrogen Receptor Modulator | PCT & Breast Cancer Treatment",
+	"aliases": ["Nolvadex", "Nolva", "Tamox"],
+	"compoundKind": "ancillary",
+	"categories": ["pct"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "371.51 Da",
+		"type": "Triphenylethylene-derived selective estrogen receptor modulator",
+		"modifications": [
+			"Triphenylethylene core structure with dimethylaminoethoxy side chain",
+			"Metabolized to active metabolites 4-hydroxytamoxifen and endoxifen via CYP2D6"
+		],
+		"halfLife": "~5-7 days",
+		"halfLifeSeconds": 518400
+	},
+	"overview": "Tamoxifen is a first-generation selective estrogen receptor modulator (SERM) that has been in clinical use since the 1970s. It is FDA-approved for the treatment and prevention of estrogen receptor-positive breast cancer and remains one of the most widely prescribed cancer therapies worldwide. In the context of performance enhancement, tamoxifen is used extensively for post-cycle therapy (PCT) to restore the hypothalamic-pituitary-testicular axis after suppression from anabolic steroids, and for on-cycle gynecomastia prevention by blocking estrogen receptors in breast tissue. Tamoxifen acts as an estrogen antagonist in breast and hypothalamic tissue while functioning as a partial estrogen agonist in bone, the uterus, and the cardiovascular system. Its active metabolite endoxifen, produced via CYP2D6 metabolism, is responsible for much of its pharmacological activity.",
+	"mechanism": "Tamoxifen competitively binds to estrogen receptors (primarily ERalpha) and exerts tissue-selective effects depending on the local coactivator and corepressor environment. In breast tissue and the hypothalamus, tamoxifen acts as an estrogen antagonist, blocking estradiol-mediated signaling. At the hypothalamus and anterior pituitary, this antagonism removes estrogen-driven negative feedback on GnRH secretion, leading to increased pulsatile GnRH release and subsequent elevation of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The rise in LH stimulates Leydig cell testosterone production, which is the basis for its use in post-cycle therapy. In bone tissue, tamoxifen acts as a partial estrogen agonist, providing a protective effect on bone mineral density. Tamoxifen is a prodrug that requires hepatic metabolism via CYP3A4 and CYP2D6 to generate its active metabolites, particularly endoxifen, which has approximately 100-fold greater affinity for the estrogen receptor than the parent compound.",
+	"keyBenefits": [
+		"Blocks estrogen receptor signaling in breast tissue, preventing and treating gynecomastia",
+		"Stimulates LH and FSH production by antagonizing hypothalamic estrogen receptors",
+		"Restores endogenous testosterone production during post-cycle therapy",
+		"Partial estrogen agonist activity in bone preserves bone mineral density",
+		"Extremely long half-life allows for flexible dosing schedules",
+		"Decades of clinical use with a well-characterized safety and efficacy profile",
+		"Oral administration with no injections or reconstitution required"
+	],
+	"indications": [
+		{
+			"category": "Post-Cycle Therapy",
+			"items": [
+				{
+					"name": "HPTA Recovery After Steroid Cycles",
+					"description": "The classic PCT SERM. Tamoxifen blocks estrogen negative feedback at the hypothalamus and pituitary, driving LH and FSH elevation to restart endogenous testosterone production after suppression from anabolic steroids or exogenous testosterone.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Testosterone Normalization",
+					"description": "Accelerates the return of serum testosterone to baseline levels following cycle cessation, reducing the duration of the hypogonadal window and associated symptoms such as fatigue, low libido, and muscle loss.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Gynecomastia Prevention & Treatment",
+			"items": [
+				{
+					"name": "On-Cycle Gynecomastia Prevention",
+					"description": "Blocks estrogen receptor activation in breast tissue during aromatizable steroid cycles, preventing the development of gynecomastia without reducing systemic estrogen levels.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Early Gynecomastia Reversal",
+					"description": "Can reduce early-stage gynecomastia symptoms (tenderness, lump formation) by competitively blocking estrogen at the breast tissue receptor level. Less effective once fibrotic tissue has formed.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Medical (FDA-Approved)",
+			"items": [
+				{
+					"name": "Breast Cancer Treatment",
+					"description": "FDA-approved for adjuvant treatment of estrogen receptor-positive breast cancer in both pre- and postmenopausal women. Reduces recurrence rates and mortality when used for 5-10 years following primary treatment.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Breast Cancer Risk Reduction",
+					"description": "FDA-approved for chemoprevention in women at high risk of developing breast cancer. The NSABP P-1 trial demonstrated a 49% reduction in invasive breast cancer incidence.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Tamoxifen is administered orally as a tablet, typically tamoxifen citrate. It is well absorbed from the gastrointestinal tract with peak plasma levels reached within 4-7 hours. The extremely long half-life of 5-7 days means steady-state concentrations are achieved after approximately 4 weeks of daily dosing. Can be taken with or without food. Due to the long half-life, missed doses have minimal impact on therapeutic levels.",
+			"protocols": [
+				{
+					"goal": "Post-cycle therapy (standard tapered protocol)",
+					"dose": "40mg daily for 2 weeks, then 20mg daily for 2 weeks",
+					"frequency": "Once daily for 4 weeks total",
+					"route": "Oral"
+				},
+				{
+					"goal": "Post-cycle therapy (moderate)",
+					"dose": "20mg",
+					"frequency": "Once daily for 4-6 weeks",
+					"route": "Oral"
+				},
+				{
+					"goal": "Post-cycle therapy (extended, heavy suppression)",
+					"dose": "40mg daily for 2 weeks, then 20mg daily for 4 weeks",
+					"frequency": "Once daily for 6 weeks total",
+					"route": "Oral"
+				},
+				{
+					"goal": "On-cycle gynecomastia prevention",
+					"dose": "10-20mg",
+					"frequency": "Once daily throughout cycle",
+					"route": "Oral"
+				},
+				{
+					"goal": "Breast cancer treatment (medical)",
+					"dose": "20mg",
+					"frequency": "Once daily for 5-10 years",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": [
+				"Simple once-daily oral tablet dosing",
+				"Long half-life provides stable plasma levels and forgiveness for missed doses",
+				"Room temperature storage with long shelf life",
+				"Widely available as a generic medication"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": false
+		},
+		{
+			"type": "topical",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Enclomiphene",
+			"status": "monitor",
+			"notes": "Both are SERMs competing for the same estrogen receptors at the hypothalamus and pituitary. Concurrent use is generally unnecessary and does not provide meaningful additive benefit. If combining during PCT, monitor for symptoms of excessive estrogen suppression."
+		},
+		{
+			"peptide": "HCG",
+			"status": "synergistic",
+			"notes": "HCG directly stimulates Leydig cells via LH receptor agonism while tamoxifen increases endogenous LH and FSH through hypothalamic estrogen receptor blockade. A common PCT protocol uses HCG first to prime the testes followed by tamoxifen to restore the HPTA axis."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "avoid",
+			"notes": "The ATAC trial and subsequent pharmacokinetic studies demonstrated that anastrozole significantly reduces plasma concentrations of endoxifen, tamoxifen's primary active metabolite, thereby reducing its effectiveness. This combination should be avoided. If aromatase inhibition is needed alongside a SERM, consider alternative combinations."
+		},
+		{
+			"peptide": "Testosterone (exogenous)",
+			"status": "compatible",
+			"notes": "Tamoxifen can be used alongside exogenous testosterone for on-cycle gynecomastia prevention by blocking estrogen receptors in breast tissue. However, using tamoxifen for HPTA stimulation while on exogenous testosterone is counterproductive since exogenous testosterone suppresses the axis tamoxifen is trying to activate."
+		},
+		{
+			"peptide": "CYP2D6 Inhibitors (Fluoxetine, Paroxetine, Bupropion)",
+			"status": "avoid",
+			"notes": "Tamoxifen is a prodrug that requires CYP2D6-mediated conversion to its active metabolite endoxifen. Strong CYP2D6 inhibitors such as fluoxetine and paroxetine substantially reduce endoxifen levels and compromise tamoxifen efficacy. If an SSRI is needed, sertraline or venlafaxine are preferred alternatives with minimal CYP2D6 inhibition."
+		},
+		{
+			"peptide": "Letrozole",
+			"status": "monitor",
+			"notes": "Unlike anastrozole, letrozole does not appear to significantly reduce endoxifen concentrations. However, combining a SERM with an aromatase inhibitor can lead to excessive estrogen suppression. Use with caution and monitor estradiol levels and symptoms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Tamoxifen begins binding to estrogen receptors. Due to the long half-life, therapeutic steady-state levels take weeks to build. Loading doses (40mg) accelerate the process. Some users report reduced breast tissue sensitivity within days."
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "LH and FSH levels begin to rise as hypothalamic estrogen receptor blockade accumulates. Early signs of testosterone recovery may appear in PCT users. On-cycle users notice reduction in gynecomastia symptoms."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Significant LH and FSH elevation established. Testosterone levels measurably increasing in PCT users. Energy, mood, and libido begin to improve as the hypogonadal window closes."
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Most PCT users see meaningful testosterone recovery toward baseline. The standard tapered PCT protocol concludes at 4 weeks. Extended protocols continue through week 6 for those recovering from heavier suppression."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Hot flashes and night sweats",
+			"Nausea or gastrointestinal discomfort",
+			"Mood swings, irritability, or emotional lability",
+			"Fatigue during initial weeks of use",
+			"Headache"
+		],
+		"rare": [
+			"Visual disturbances (blurred vision, corneal changes, retinal toxicity with long-term use)",
+			"Deep vein thrombosis or pulmonary embolism (thromboembolic events)",
+			"Endometrial changes including hyperplasia or endometrial cancer (primarily with long-term use exceeding 2 years)",
+			"Elevated liver enzymes or hepatic steatosis",
+			"Decreased libido or sexual dysfunction (paradoxical in some individuals)"
+		],
+		"stopSigns": [
+			"Signs of blood clots: sudden leg pain or swelling, chest pain, shortness of breath, or coughing up blood",
+			"Vision changes: sudden blurred vision, visual floaters, flashes of light, or any loss of visual acuity",
+			"Severe or persistent mood disturbances, including depression or suicidal ideation",
+			"Unusual vaginal bleeding (in female users)",
+			"Jaundice, dark urine, or signs of liver dysfunction"
+		],
+		"contraindications": [
+			"History of deep vein thrombosis, pulmonary embolism, or other thromboembolic events",
+			"Known hypersensitivity to tamoxifen citrate or any excipients",
+			"Concurrent warfarin or coumarin-type anticoagulant therapy (increased bleeding risk)",
+			"Pregnancy or planned pregnancy (category D -- known teratogenic risk)",
+			"Pre-existing endometrial hyperplasia or uterine cancer",
+			"Severe hepatic impairment"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white crystalline tablets with uniform appearance and consistent size",
+			"Pharmaceutical-grade product from a licensed manufacturer or compounding pharmacy",
+			"Third-party certificate of analysis (COA) confirming identity, purity (>98%), and potency",
+			"Proper packaging with batch number, expiration date, and tamoxifen citrate content clearly labeled",
+			"HPLC or mass spectrometry testing verifying tamoxifen content matches label claim"
+		],
+		"warning": [
+			"No COA or third-party testing documentation available",
+			"Product labeled ambiguously (e.g., generic 'anti-estrogen' without specifying tamoxifen)",
+			"Tablets that crumble easily, vary significantly in size, or have inconsistent coloring"
+		],
+		"bad": [
+			"Discolored, crumbling, or visibly degraded tablets",
+			"Unusual chemical odor or taste",
+			"No labeling, batch information, or expiration date",
+			"COA shows underdosed or contaminated product",
+			"Sourced from unverified vendors with no quality documentation or regulatory oversight"
+		]
+	},
+	"references": [
+		{
+			"title": "A randomized trial of exemestane after two to three years of tamoxifen therapy in postmenopausal women with primary breast cancer (ATAC trial adjuvant analysis)",
+			"authors": "Baum M, Budzar AU, Cuzick J, Forbes J, Houghton JH, Klijn JG, Sahmoud T",
+			"journal": "The Lancet",
+			"year": "2002",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12090977/",
+			"keyFindings": "The ATAC (Arimidex, Tamoxifen, Alone or in Combination) trial demonstrated that the combination of anastrozole and tamoxifen was no more effective than tamoxifen alone for breast cancer treatment, and that anastrozole reduced the efficacy of tamoxifen. This landmark trial established that these two agents should not be combined."
+		},
+		{
+			"title": "Tamoxifen for prevention of breast cancer: report of the National Surgical Adjuvant Breast and Bowel Project P-1 Study",
+			"authors": "Fisher B, Costantino JP, Wickerham DL, Redmond CK, Kavanah M, Cronin WM, Vogel V, Robidoux A, Dimitrov N, Atkins J, Daly M, Wieand S, Tan-Chiu E, Ford L, Wolmark N",
+			"journal": "Journal of the National Cancer Institute",
+			"year": "1998",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9747868/",
+			"keyFindings": "The NSABP P-1 trial demonstrated that tamoxifen 20mg daily reduced the incidence of invasive breast cancer by 49% in women at increased risk. This study led to FDA approval of tamoxifen for breast cancer chemoprevention and established its role as a cornerstone of breast cancer risk reduction."
+		},
+		{
+			"title": "The effect of the CYP2D6 genotype on the pharmacokinetics and clinical outcome of tamoxifen therapy",
+			"authors": "Borges S, Desta Z, Li L, Skaar TC, Ward BA, Nguyen A, Jin Y, Storniolo AM, Nikoloff DM, Wu L, Hillman G, Hayes DF, Stearns V, Flockhart DA",
+			"journal": "Clinical Pharmacology and Therapeutics",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16413245/",
+			"keyFindings": "Demonstrated that CYP2D6 genotype significantly affects endoxifen plasma concentrations and tamoxifen clinical outcomes. Poor CYP2D6 metabolizers had substantially lower endoxifen levels and reduced therapeutic benefit, establishing the importance of CYP2D6 status and the need to avoid CYP2D6 inhibitors during tamoxifen therapy."
+		},
+		{
+			"title": "Tamoxifen and testosterone: a comparison of hormonal effects in hypogonadal men",
+			"authors": "Tsourdi E, Kourtis A, Farmakiotis D, Katsikis I, Salmas M, Panidis D",
+			"journal": "Journal of Andrology",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19684341/",
+			"keyFindings": "Tamoxifen 20mg daily significantly increased LH, FSH, and total testosterone levels in hypogonadal men while maintaining estradiol within physiological ranges. Demonstrated tamoxifen's efficacy for stimulating the hypothalamic-pituitary-gonadal axis, supporting its use in post-cycle therapy and male hypogonadism."
+		},
+		{
+			"title": "Selective estrogen receptor modulators in the treatment of male infertility and hypogonadism",
+			"authors": "Kavoussi PK, Machen GL, Engmann L, Agarwal A, Ramasamy R",
+			"journal": "Translational Andrology and Urology",
+			"year": "2022",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36203787/",
+			"keyFindings": "Comprehensive review of SERMs including tamoxifen for male reproductive endocrinology. Confirmed that tamoxifen effectively raises testosterone by 50-200% from baseline through hypothalamic estrogen receptor antagonism, while preserving spermatogenesis. Discussed its established role in post-cycle therapy and comparison with newer SERMs."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "20-40mg oral daily",
+		"frequency": "Once daily",
+		"cycleDuration": "4-6 weeks (PCT) or as directed for medical use",
+		"storage": "Room temperature, protected from light and moisture"
+	}
+}

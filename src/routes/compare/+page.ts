@@ -1,12 +1,12 @@
-import { getAllPeptides, getAllPeptideSummaries } from '$lib/data/peptides';
+import { getAllItems, getAllItemSummaries } from '$lib/data/unified';
 import { getPopularComparisons } from '$lib/utils/comparison';
 
 export const prerender = false;
 
 export function load() {
-	const allPeptides = getAllPeptides();
-	const popularComparisons = getPopularComparisons(allPeptides);
-	const summaries = getAllPeptideSummaries();
+	const allItems = getAllItems();
+	const popularComparisons = getPopularComparisons(allItems);
+	const summaries = getAllItemSummaries();
 
 	return {
 		popularComparisons,

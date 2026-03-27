@@ -1,0 +1,265 @@
+{
+	"id": "cardarine",
+	"name": "Cardarine",
+	"subtitle": "PPAR-delta Agonist | Endurance & Fat Metabolism",
+	"aliases": ["GW501516", "GW-501516", "Endurobol"],
+	"compoundKind": "sarm",
+	"categories": ["sarm", "metabolic"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "10-20 mg/day",
+		"frequency": "Once daily (oral)",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Room temperature (59-86F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "453.50 Da",
+		"type": "PPAR-delta agonist (C21H18F3NO3S2)",
+		"modifications": [
+			"{4-[({4-methyl-2-[4-(trifluoromethyl)phenyl]-1,3-thiazol-5-yl}methyl)sulfanyl]-2-methylphenoxy}acetic acid",
+			"Nonsteroidal structure with high oral bioavailability",
+			"Selective agonist of peroxisome proliferator-activated receptor delta (PPAR-delta); does not interact with androgen receptors"
+		],
+		"halfLife": "~16-24 hours",
+		"halfLifeSeconds": 72000,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Cardarine (GW501516) is a synthetic PPAR-delta (peroxisome proliferator-activated receptor delta) agonist originally developed by GlaxoSmithKline and Ligand Pharmaceuticals in the early 2000s for the treatment of metabolic and cardiovascular diseases, including dyslipidemia, obesity, and diabetes. Despite being almost universally categorized alongside SARMs in the performance enhancement market, Cardarine is not a selective androgen receptor modulator and does not bind to the androgen receptor at all. Its mechanism is entirely distinct: it activates PPAR-delta, a nuclear receptor that regulates fatty acid oxidation, energy expenditure, and lipid metabolism. In preclinical studies, Cardarine demonstrated remarkable effects on endurance capacity, fat oxidation, and lipid profiles. However, development was abandoned by GSK in 2007 after preclinical toxicology studies in rodents revealed an increased incidence of tumors across multiple organ systems when the compound was administered at supratherapeutic doses over extended periods. This cancer signal remains the central controversy and safety concern surrounding Cardarine. The compound has never been approved for human use by any regulatory agency, and no clinical trials have been completed. It is classified as a prohibited substance by the World Anti-Doping Agency (WADA). Despite these concerns, Cardarine continues to be widely available through research chemical suppliers and is used in performance enhancement contexts for its potent endurance-boosting and fat-burning properties.",
+	"mechanism": "Cardarine acts as a potent and highly selective agonist of PPAR-delta, a nuclear hormone receptor expressed in skeletal muscle, liver, adipose tissue, and the gastrointestinal tract. Upon binding to PPAR-delta, Cardarine triggers a conformational change that promotes heterodimerization with retinoid X receptor (RXR), and the resulting complex binds to PPAR response elements (PPREs) in the promoter regions of target genes. This transcriptional activation upregulates a suite of genes involved in fatty acid oxidation, mitochondrial biogenesis, and energy uncoupling. In skeletal muscle, PPAR-delta activation by Cardarine shifts the metabolic fuel preference from glucose toward fatty acids, dramatically increasing the rate of beta-oxidation. This metabolic reprogramming effectively transforms type II (fast-twitch, glycolytic) muscle fibers toward a more oxidative phenotype, similar to type I (slow-twitch) fibers, which underpins the compound's dramatic effects on endurance capacity. Preclinical studies in mice demonstrated that GW501516 treatment increased running endurance by up to 68% compared to controls. In the liver and adipose tissue, PPAR-delta activation by Cardarine promotes fatty acid catabolism and reduces lipogenesis, resulting in reduced body fat storage and improved lipid profiles (increased HDL, decreased LDL, reduced triglycerides). Critically, Cardarine does not interact with the androgen receptor, does not suppress the hypothalamic-pituitary-gonadal (HPG) axis, and does not affect endogenous testosterone production. This non-hormonal mechanism means it does not cause testosterone suppression and does not require post-cycle therapy.",
+	"keyBenefits": [
+		"Dramatic increase in endurance capacity through enhanced fatty acid oxidation in skeletal muscle",
+		"Promotes fat loss by shifting metabolic fuel preference toward fatty acid utilization over glucose",
+		"Improves lipid profiles: increases HDL cholesterol, decreases LDL cholesterol, and lowers triglycerides",
+		"Non-hormonal mechanism -- does not suppress testosterone or require post-cycle therapy",
+		"No androgenic side effects (no hair loss, no prostate stimulation, no virilization in women)",
+		"Long half-life (16-24 hours) permits convenient once-daily oral dosing",
+		"May offset lipid disruption caused by SARMs or anabolic steroids when used in combination"
+	],
+	"indications": [
+		{
+			"category": "Performance & Body Composition",
+			"items": [
+				{
+					"name": "Endurance Enhancement",
+					"description": "Cardarine's most pronounced effect is on aerobic endurance. By upregulating fatty acid oxidation and promoting oxidative muscle fiber characteristics, it substantially increases the duration and intensity at which aerobic exercise can be sustained. Preclinical studies showed up to a 68% increase in running distance in treated mice. Anecdotal reports from human users consistently describe marked improvements in cardiovascular endurance within 1-2 weeks of use.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Fat Loss",
+					"description": "By promoting fatty acid oxidation as the primary metabolic fuel source and reducing lipogenesis, Cardarine accelerates fat loss independently of caloric restriction. The shift toward fat as a fuel substrate means greater caloric expenditure from stored adipose tissue during both exercise and rest. Users report noticeable reductions in body fat, particularly when combined with a structured training program.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Lipid Profile Improvement",
+					"description": "Cardarine consistently improves blood lipid markers in preclinical and early human data. It increases HDL cholesterol, decreases LDL cholesterol, and reduces triglycerides. This property makes it of particular interest as a co-administration agent during SARM or anabolic steroid cycles, which typically worsen lipid profiles.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Clinical / Investigational (Abandoned)",
+			"items": [
+				{
+					"name": "Dyslipidemia",
+					"description": "Cardarine was originally developed for the treatment of dyslipidemia and metabolic syndrome. Early Phase I/II human data demonstrated favorable shifts in lipid profiles at low doses. Development was halted before efficacy trials could be completed due to the carcinogenicity findings in rodent models.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Obesity / Metabolic Syndrome",
+					"description": "Preclinical data supported Cardarine's potential for treating obesity and metabolic syndrome through enhanced fat oxidation and improved insulin sensitivity. These indications were never pursued to clinical completion due to safety concerns.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Cardarine is administered exclusively via the oral route. It is available as a liquid solution (typically dissolved in PEG-400 or similar carrier) or in capsule form from research chemical suppliers. The compound has high oral bioavailability. Its half-life of approximately 16-24 hours supports once-daily dosing. Steady-state plasma concentrations are achieved within a few days of consistent administration.",
+			"protocols": [
+				{
+					"goal": "Research Dose - Standard",
+					"dose": "10 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "The most commonly referenced dose. Taken at the same time each day. Effective for endurance and fat loss. No testosterone suppression occurs at any dose, so PCT is not required. Cycle length typically 8-12 weeks."
+				},
+				{
+					"goal": "Research Dose - Upper Range",
+					"dose": "20 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Higher end of commonly reported dosing. May provide additional endurance and fat oxidation benefit, though the dose-response curve appears to flatten. The cancer risk observed in rodent studies was at substantially higher equivalent doses over longer durations, but the relevance to human dosing remains unknown and debated. No additional hormonal side effects at higher doses since the compound is non-hormonal."
+				}
+			],
+			"keyBenefits": [
+				"Simple oral administration with no injections required",
+				"High oral bioavailability without hepatotoxic methylation",
+				"Once-daily dosing due to favorable half-life",
+				"No need for post-cycle therapy since testosterone is unaffected"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "RAD-140 (Testolone)",
+			"status": "synergistic",
+			"notes": "One of the most popular stacking combinations. Cardarine provides endurance and fat oxidation benefits that complement RAD-140's anabolic effects on lean muscle mass. Cardarine may also help offset the HDL suppression caused by RAD-140. Since Cardarine is non-hormonal, it does not compound the testosterone suppression caused by RAD-140."
+		},
+		{
+			"peptide": "LGD-4033 (Ligandrol)",
+			"status": "synergistic",
+			"notes": "Frequently stacked for body recomposition. LGD-4033 provides potent anabolic stimulus for muscle growth, while Cardarine enhances endurance and promotes fat loss. Cardarine's lipid-improving effects may partially counteract LGD-4033's negative impact on HDL cholesterol. Cardarine does not add to LGD-4033's testosterone suppression."
+		},
+		{
+			"peptide": "Ostarine (MK-2866)",
+			"status": "synergistic",
+			"notes": "A commonly recommended stack for cutting phases. Ostarine provides mild muscle-preserving anabolic effects during caloric deficit, while Cardarine dramatically increases fat oxidation and cardiovascular endurance. The combination is considered milder than RAD-140 or LGD-4033 stacks."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "compatible",
+			"notes": "Cardarine is fully compatible with exogenous testosterone. It does not interfere with androgen receptor signaling, does not affect testosterone metabolism, and does not contribute to HPG axis suppression. The lipid-improving properties of Cardarine may partially offset the negative lipid effects of exogenous testosterone use."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-7",
+			"effects": "Improvements in endurance are often noticed within the first few days to one week. Users report being able to sustain cardiovascular exercise for longer durations and at higher intensities. Mild increases in energy and reduced perception of effort during aerobic activity. Fat loss effects are not yet visually apparent."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Endurance improvements become pronounced. Sustained cardio output increases significantly. Users report the ability to run, cycle, or perform HIIT for substantially longer durations without fatigue. Visible fat loss begins, particularly in combination with a structured diet and training program. Lipid panel improvements may be measurable on blood work."
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Peak effects on endurance and fat metabolism. Body composition changes are clearly visible with reduced subcutaneous body fat. Lipid profiles typically show improved HDL, reduced LDL, and lower triglycerides. No hormonal side effects, mood changes, or libido disruption since testosterone levels remain unaffected."
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Continued fat loss and endurance benefits. Some users extend cycles to 12 weeks given the non-hormonal nature of the compound and absence of suppression-related side effects. Effects plateau for most users around this point. No PCT is required upon discontinuation."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Headaches (typically transient, most common in the first week)",
+			"Mild gastrointestinal discomfort (nausea, loose stools, or stomach upset, usually dose-dependent and transient)"
+		],
+		"rare": [
+			"Insomnia or sleep disturbance",
+			"Mild joint discomfort",
+			"Elevated heart rate during rest (infrequently reported)"
+		],
+		"stopSigns": [
+			"Any unusual lumps, masses, or unexplained weight loss (given the carcinogenicity concern from preclinical data)",
+			"Severe or persistent gastrointestinal symptoms",
+			"Unexplained fatigue or malaise",
+			"Signs of allergic reaction: rash, swelling, difficulty breathing"
+		],
+		"contraindications": [
+			"Personal or family history of cancer (the rodent carcinogenicity data warrants extreme caution in individuals with elevated cancer risk)",
+			"Pregnancy or potential pregnancy",
+			"Breastfeeding",
+			"Pre-existing liver disease (limited safety data)",
+			"Individuals under 18 years of age"
+		],
+		"monitoring": [
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline and at 4-8 weeks to track improvements",
+			"Liver function panel (ALT, AST): baseline and mid-cycle as a precaution given limited human safety data",
+			"Fasting blood glucose and HbA1c: baseline and post-cycle (given PPAR-delta's role in glucose metabolism)",
+			"General health screening including physical examination at regular intervals"
+		],
+		"cancerRiskNote": "The most significant safety concern with Cardarine is the carcinogenicity observed in preclinical rodent studies. In a 2-year toxicology study conducted by GSK, rats administered GW501516 developed tumors in multiple organ systems, including the liver, stomach, tongue, skin, bladder, ovaries, uterus, and testes. These findings led GSK to abandon all clinical development in 2007. The critical debate centers on dose and duration: the rodent doses were substantially higher than those used recreationally (roughly 10-40x the human equivalent dose), and the treatment duration (2 years in rats, representing most of their lifespan) far exceeds typical human cycle lengths of 8-12 weeks. Proponents argue that the findings may not be translatable to short-term human use at lower doses. Critics counter that PPAR-delta activation has known roles in promoting cell proliferation and angiogenesis pathways that are relevant to tumor development, and that the absence of long-term human safety data means the risk cannot be ruled out. There are no completed human clinical trials examining cancer incidence with Cardarine use. Anyone considering this compound must understand that this question is unresolved, and the preclinical cancer signal is a serious and legitimate safety concern that should not be dismissed."
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party lab tested with certificate of analysis (COA) showing purity above 98%",
+			"Clearly labeled with compound name, concentration, batch number, and expiration date",
+			"Solution is clear and free of particulate matter or discoloration",
+			"Sold as a research chemical with appropriate disclaimers (not marketed for human consumption)",
+			"Supplier provides HPLC or mass spectrometry verification of identity and purity"
+		],
+		"warning": [
+			"No third-party testing or certificate of analysis available",
+			"Sold in pre-made capsules without verifiable dosing accuracy",
+			"Marketed with explicit performance enhancement claims (regulatory red flag)",
+			"Unusually low pricing compared to established research chemical suppliers",
+			"Labeled as a SARM (incorrect classification may indicate low supplier knowledge or intentional mislabeling)"
+		],
+		"bad": [
+			"Cloudy, discolored, or precipitated solution indicating degradation or contamination",
+			"No labeling, incorrect labeling, or missing batch/lot information",
+			"Supplier has no verifiable reputation, reviews, or testing history",
+			"Product tested by independent labs showing underdosed, mislabeled, or contaminated contents",
+			"Contains unlisted active ingredients or adulterants",
+			"Sold by a source that also sells controlled substances (legal risk indicator)"
+		]
+	},
+	"references": [
+		{
+			"title": "A Metabolomic Study of the PPARdelta Agonist GW501516 for Enhancing Running Endurance in Kunming Mice",
+			"authors": "Chen, W., Gao, R., Xie, X., et al.",
+			"journal": "Scientific Reports",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25882563/",
+			"keyFindings": "Demonstrated that GW501516 administration significantly enhanced running endurance in mice through metabolic reprogramming favoring fatty acid oxidation over glycolysis. Metabolomic profiling revealed widespread changes in lipid, amino acid, and energy metabolism pathways consistent with PPAR-delta activation."
+		},
+		{
+			"title": "PPAR-delta Promotes Running Endurance by Preserving Glucose",
+			"authors": "Fan, W., Waizenegger, W., Lin, C.S., et al.",
+			"journal": "Cell Metabolism",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28467922/",
+			"keyFindings": "Showed that PPAR-delta activation reprograms skeletal muscle metabolism to preferentially oxidize fatty acids, sparing glucose and glycogen. GW501516-treated mice ran approximately 68% longer and 70% farther than untreated controls. The study demonstrated that PPAR-delta acts as an exercise mimetic at the transcriptional level."
+		},
+		{
+			"title": "Effects of GW501516 on Lipid Metabolism in Healthy Volunteers",
+			"authors": "Olson, E.J., Pearce, G.L., Jones, N.P., Sprecher, D.L.",
+			"journal": "Journal of Clinical Lipidology",
+			"year": "2012",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23312047/",
+			"keyFindings": "One of the few published human studies on GW501516. In healthy volunteers, low-dose Cardarine over 2 weeks increased HDL cholesterol, reduced LDL cholesterol, reduced triglycerides, and reduced apolipoprotein B levels. The compound was well tolerated in this short-term study at low doses."
+		},
+		{
+			"title": "Peroxisome Proliferator-Activated Receptor delta Agonist GW501516 Mediates Cancer Preventive and Therapeutic Effects",
+			"authors": "Wang, D., DuBois, R.N.",
+			"journal": "Cancer Biology & Therapy",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18376139/",
+			"keyFindings": "Reviewed the complex and sometimes contradictory evidence regarding PPAR-delta activation and cancer. While GW501516 promoted tumorigenesis in some rodent models, particularly in the gastrointestinal tract, the relationship between PPAR-delta activation and cancer is not straightforward, with some studies suggesting anti-tumorigenic effects in certain contexts. The review highlighted the need for further research to understand the tissue-specific and dose-dependent effects."
+		},
+		{
+			"title": "Ligand Activation of Peroxisome Proliferator-Activated Receptor-delta (PPARdelta) Promotes Intestinal Carcinogenesis",
+			"authors": "Gupta, R.A., Wang, D., Katkuri, S., et al.",
+			"journal": "Nature Medicine",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14743216/",
+			"keyFindings": "Demonstrated that PPAR-delta activation by GW501516 promoted intestinal polyp growth in APC-min mice (a genetic model predisposed to colorectal cancer). This was one of the early studies raising cancer concerns about PPAR-delta agonists and contributed to the eventual abandonment of GW501516 clinical development."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "PPAR-delta Promotes Running Endurance by Preserving Glucose",
+			"date": "May 2017",
+			"source": "Cell Metabolism",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28467922/",
+			"summary": "Landmark study demonstrating that PPAR-delta activation via GW501516 reprograms muscle metabolism to burn fat preferentially, increasing running endurance by 68% in mice. Established the molecular basis for Cardarine's exercise-mimetic effects and renewed interest in PPAR-delta as a target for metabolic disease."
+		},
+		{
+			"title": "Effects of GW501516 on Lipid Metabolism in Healthy Volunteers",
+			"date": "2012",
+			"source": "Journal of Clinical Lipidology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23312047/",
+			"summary": "Rare published human data on Cardarine showing favorable lipid profile changes at low doses over a short treatment period. HDL increased while LDL, triglycerides, and apolipoprotein B decreased. The study was limited to 2 weeks and low doses, providing only a narrow window into human tolerability."
+		},
+		{
+			"title": "WADA Warns Athletes of GW501516 Health Risks",
+			"date": "2013",
+			"source": "World Anti-Doping Agency",
+			"url": "https://www.wada-ama.org/en/media/news/2013-03/wada-warns-against-gw501516",
+			"summary": "WADA took the unusual step of issuing a direct health warning to athletes about GW501516, citing the preclinical carcinogenicity findings. The substance was added to the WADA Prohibited List under the S4.5 category (metabolic modulators). This warning underscored the seriousness of the safety concerns even outside the context of anti-doping enforcement."
+		}
+	]
+}

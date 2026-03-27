@@ -1,0 +1,425 @@
+{
+	"id": "boldenone",
+	"name": "Boldenone",
+	"subtitle": "Anabolic-Androgenic Steroid | Lean Mass & Vascularity",
+	"aliases": ["Equipoise", "EQ", "Boldenone Undecylenate", "Bold"],
+	"compoundKind": "anabolic",
+	"categories": ["anabolic"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "200-400 mg/week (moderate)",
+		"frequency": "1-2x per week (undecylenate)",
+		"cycleDuration": "12-20 weeks",
+		"storage": "Room temperature (68-77F). Protect from light."
+	},
+	"molecular": {
+		"weight": "286.41 Da (base)",
+		"type": "1-dehydrotestosterone steroid (C19H26O2)",
+		"modifications": [
+			"Undecylenate ester (MW ~452.67 Da) - extends half-life to ~14 days",
+			"Cypionate ester (MW ~412.57 Da) - shorter half-life of ~7-8 days, less commonly available",
+			"1,2-double bond (dehydrogenation at C1-C2) distinguishes boldenone from testosterone, reducing estrogenic and androgenic activity"
+		],
+		"halfLife": "~14 days (undecylenate)",
+		"halfLifeSeconds": 1209600,
+		"halfLifeRoute": "Intramuscular (undecylenate ester)"
+	},
+	"overview": "Boldenone is a synthetic anabolic-androgenic steroid derived from testosterone by the introduction of a 1,2-double bond (dehydrogenation at the C1-C2 position). It was originally developed in the 1960s as a long-acting injectable veterinary steroid under the trade name Equipoise for use in horses. Boldenone has never been approved by the FDA for human medical use, and no pharmaceutical-grade human formulation has been marketed. Despite its veterinary origins, boldenone has become one of the more widely used anabolic steroids in bodybuilding and strength sports, valued for producing lean, quality muscle gains with less water retention than testosterone, enhanced vascularity, increased appetite, and a notable boost in red blood cell production and endurance capacity. Its anabolic rating is approximately 100 (equal to testosterone), while its androgenic rating is roughly 50 (half that of testosterone), giving it a favorable anabolic-to-androgenic ratio. Boldenone aromatizes to estradiol at approximately 50% the rate of testosterone, and the compound itself has been reported to possess mild aromatase inhibitor-like properties through its metabolite 1,4-dienedione. The undecylenate ester produces a very long-acting compound with a half-life of approximately 14 days, meaning effects build slowly and the compound has a prolonged detection window of roughly 5 months in anti-doping tests.",
+	"mechanism": "Boldenone exerts its anabolic effects primarily through binding to the androgen receptor (AR), promoting nitrogen retention, protein synthesis, and increased IGF-1 output in muscle tissue. The 1,2-double bond modification reduces the compound's affinity for 5-alpha reductase, meaning boldenone is not efficiently converted to a more potent dihydro-metabolite in the way testosterone is converted to DHT. Instead, boldenone is reduced by 5-alpha reductase to dihydroboldenone (1-testosterone), a distinct metabolite with its own androgenic profile. This structural difference contributes to boldenone's lower androgenic activity in skin, prostate, and hair follicle tissues compared to testosterone. Boldenone is a potent stimulator of erythropoietin (EPO) production in the kidneys, increasing red blood cell mass and oxygen-carrying capacity to a degree that exceeds most other anabolic steroids at comparable doses. This erythropoietic effect is the primary mechanism behind the increased vascularity and endurance commonly reported by users, but it also represents the compound's most significant health risk, as unchecked hematocrit elevation can increase blood viscosity and cardiovascular event risk. Boldenone aromatizes to estradiol at roughly half the rate of testosterone, and its metabolite 1,4-dienedione acts as a mild aromatase inhibitor, which collectively result in lower estrogenic activity than equidose testosterone. This reduced aromatization contributes to the drier, leaner aesthetic associated with boldenone use.",
+	"keyBenefits": [
+		"Lean, quality muscle gains with minimal water retention compared to testosterone",
+		"Enhanced vascularity through increased red blood cell production and reduced subcutaneous water",
+		"Significant increase in appetite, supporting caloric surplus during mass-gaining phases",
+		"Potent stimulation of erythropoiesis, increasing oxygen-carrying capacity and endurance",
+		"Lower estrogenic activity than testosterone, reducing the need for aromatase inhibitors",
+		"Lower androgenic side effects (hair loss, acne, prostate stimulation) than testosterone",
+		"Favorable anabolic-to-androgenic ratio (100:50 compared to testosterone at 100:100)",
+		"Improved collagen synthesis reported anecdotally, supporting joint and connective tissue health"
+	],
+	"indications": [
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Mass Accretion",
+					"description": "Boldenone promotes steady, lean muscle gains with less water retention than testosterone or nandrolone. The quality of gains is often described as more keepable post-cycle. Effects are dose-dependent and require extended cycle lengths (16-20 weeks) to fully manifest due to the long undecylenate ester.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Body Recomposition",
+					"description": "The combination of moderate anabolic potency, appetite stimulation, increased nutrient partitioning, and low water retention makes boldenone a common choice for lean bulking and recomposition protocols where the goal is simultaneous fat loss and muscle gain.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Vascularity and Aesthetic Conditioning",
+					"description": "Boldenone's erythropoietic effect and lower estrogenic activity produce a vascular, dry appearance that many users find desirable. Enhanced red blood cell volume increases visible vascularity, particularly in lean individuals.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Performance / Endurance",
+			"items": [
+				{
+					"name": "Aerobic Endurance",
+					"description": "Boldenone's pronounced stimulation of erythropoietin production significantly increases red blood cell mass and hemoglobin concentration, directly improving oxygen delivery to working muscles. This makes it one of the more effective anabolic steroids for endurance-oriented athletes, though this use is prohibited in all tested sports.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Moderate, steady increases in strength over the course of a cycle. Strength gains with boldenone are typically less dramatic than those seen with testosterone or nandrolone at comparable doses, but they build consistently over longer cycle durations.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Recovery Between Training Sessions",
+					"description": "Improved nitrogen retention and red blood cell production contribute to faster recovery from high-volume training, allowing increased training frequency and volume over time.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Veterinary (Original Indication)",
+			"items": [
+				{
+					"name": "Equine Performance and Condition",
+					"description": "Boldenone undecylenate was developed and approved as a veterinary steroid for horses under the trade name Equipoise. Used to improve appetite, lean body condition, and red blood cell production in debilitated or underweight horses.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Boldenone is administered exclusively via intramuscular injection. The undecylenate ester is by far the most common formulation, providing a half-life of approximately 14 days that supports once or twice weekly injection schedules. Boldenone cypionate is a less common shorter-acting ester that requires more frequent injections. No oral formulation of boldenone is available (the compound is not 17-alpha-alkylated). All human-use boldenone products are underground lab (UGL) manufactured, as no pharmaceutical-grade human formulation exists.",
+			"protocols": [
+				{
+					"goal": "Lean Bulk - Moderate",
+					"dose": "200-400 mg/week",
+					"frequency": "1-2x per week (undecylenate)",
+					"route": "Intramuscular",
+					"notes": "Must be run alongside a testosterone base (typically 1:1 ratio or testosterone slightly higher). Effects build slowly over weeks 4-6 before becoming noticeable. Minimum recommended cycle length is 14-16 weeks due to the long ester. Monitor hematocrit at 6-8 weeks."
+				},
+				{
+					"goal": "Performance Enhancement - Standard",
+					"dose": "400-600 mg/week",
+					"frequency": "2x per week (undecylenate)",
+					"route": "Intramuscular",
+					"notes": "Common performance dose range. Run alongside testosterone at a 1:1 or higher ratio. Some users find that EQ at equal or higher doses than testosterone can cause low estrogen symptoms due to EQ's mild AI metabolite. Cycle length 16-20 weeks. Hematocrit monitoring is critical at these doses."
+				},
+				{
+					"goal": "Performance Enhancement - High",
+					"dose": "600-700 mg/week",
+					"frequency": "2x per week (undecylenate)",
+					"route": "Intramuscular",
+					"notes": "Higher-dose protocol with significantly increased risk of elevated hematocrit and cardiovascular strain. Testosterone should be run at equal or higher dose. Regular blood donations or therapeutic phlebotomy may be necessary. Not recommended without experienced medical oversight."
+				},
+				{
+					"goal": "Boldenone Cypionate Protocol",
+					"dose": "200-400 mg/week",
+					"frequency": "Every 3-4 days",
+					"route": "Intramuscular",
+					"notes": "Shorter ester allows faster blood level stabilization and quicker clearance after discontinuation. Useful for those who want a shorter cycle (10-14 weeks) or faster dose adjustments. Less commonly available than undecylenate."
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Boldenone undecylenate vial (typically 200-300 mg/mL in carrier oil)",
+					"Syringes (1 mL or 3 mL)",
+					"Drawing needle (18-21 gauge)",
+					"Injection needle (22-25 gauge for IM)",
+					"Alcohol swabs",
+					"Sharps container"
+				],
+				"steps": [
+					"Wash hands thoroughly and prepare a clean work surface",
+					"Wipe vial stopper with alcohol swab and allow to dry",
+					"Draw air into syringe equal to the volume of boldenone to be withdrawn",
+					"Insert drawing needle through vial stopper and inject air to equalize pressure",
+					"Invert vial and withdraw the prescribed dose, tapping to remove air bubbles",
+					"Switch to injection needle (do not inject with drawing needle)",
+					"Clean injection site with alcohol swab in circular motion outward",
+					"Insert needle at 90-degree angle into ventrogluteal, vastus lateralis, or deltoid muscle",
+					"Aspirate briefly (optional per current guidelines), then inject slowly over 10-30 seconds",
+					"Withdraw needle, apply gentle pressure with gauze, dispose of needle in sharps container"
+				]
+			},
+			"keyBenefits": [
+				"Very long-acting undecylenate ester allows once or twice weekly injection",
+				"Boldenone undecylenate is known for very low post-injection pain (PIP) due to its liquid state at room temperature",
+				"Can be combined in the same syringe with testosterone esters for single-injection convenience",
+				"Precise dose control with injectable formulation",
+				"Cypionate ester alternative available for those wanting faster onset and clearance"
+			]
+		}
+	],
+	"protocolVariants": [
+		{
+			"name": "Boldenone Undecylenate (Equipoise)",
+			"source": "Standard Long Ester Protocol",
+			"philosophy": "The standard and most widely available form of boldenone. The very long undecylenate ester provides stable blood levels with infrequent injections, but requires extended cycle lengths to realize full effects.",
+			"description": "Boldenone undecylenate is the original and overwhelmingly dominant ester form, sold under the veterinary trade name Equipoise. Its 14-day half-life makes it one of the longest-acting injectable steroids available. Blood levels build gradually over the first 4-6 weeks and remain elevated for weeks after the final injection. This pharmacokinetic profile means cycles should be planned for 16-20 weeks minimum and post-cycle therapy timing must account for the prolonged clearance period. The undecylenate ester is notable for being liquid at room temperature, which contributes to boldenone's reputation for painless injections and easy handling.",
+			"keyDifferences": [
+				"Half-life: ~14 days -- longest commonly used ester, supporting weekly or biweekly injection",
+				"Onset: 4-6 weeks before effects become noticeable due to slow ester release",
+				"Cycle length: 16-20 weeks recommended to fully capitalize on the compound",
+				"PCT timing: must wait approximately 4-5 weeks after last injection before starting PCT due to long clearance",
+				"Detection time: ~5 months -- one of the longest detection windows of any anabolic steroid",
+				"Liquid at room temperature -- very low post-injection pain and easy to draw",
+				"Available exclusively as UGL product (200-300 mg/mL typical concentration)"
+			],
+			"doses": [
+				{
+					"phase": "Moderate",
+					"dose": "200-400 mg",
+					"frequency": "Once or twice weekly",
+					"duration": "16-20 weeks"
+				},
+				{
+					"phase": "Performance",
+					"dose": "400-600 mg",
+					"frequency": "Twice weekly",
+					"duration": "16-20 weeks"
+				},
+				{
+					"phase": "High Dose",
+					"dose": "600-700 mg",
+					"frequency": "Twice weekly",
+					"duration": "16-20 weeks"
+				}
+			]
+		},
+		{
+			"name": "Boldenone Cypionate",
+			"source": "Short Ester Protocol",
+			"philosophy": "A less common, shorter-acting ester that allows faster onset, quicker dose adjustments, and shorter cycle lengths. Preferred by those who want the effects of boldenone without committing to a 20-week cycle.",
+			"description": "Boldenone cypionate is a shorter-acting ester formulation with a half-life of approximately 7-8 days, comparable to testosterone cypionate. It reaches stable blood levels faster than the undecylenate ester (within 2-3 weeks) and clears the system more quickly after discontinuation, allowing for shorter cycle lengths of 10-14 weeks and earlier initiation of post-cycle therapy. Boldenone cypionate is significantly less common than undecylenate and is produced by fewer underground labs, making availability and quality verification more challenging. Some users report that the shorter ester allows them to experience boldenone's effects sooner and manage side effects (particularly hematocrit elevation) more responsively.",
+			"keyDifferences": [
+				"Half-life: ~7-8 days -- similar to testosterone cypionate, requiring injection every 3-4 days",
+				"Onset: 2-3 weeks to noticeable effects, significantly faster than undecylenate",
+				"Cycle length: 10-14 weeks is feasible, making it more practical for shorter protocols",
+				"PCT timing: can begin PCT approximately 2 weeks after last injection",
+				"Detection time: shorter than undecylenate, though still prolonged compared to most compounds",
+				"Less widely available -- produced by fewer UGL sources",
+				"Higher injection frequency may be a disadvantage for those preferring less frequent dosing"
+			],
+			"doses": [
+				{
+					"phase": "Moderate",
+					"dose": "200-400 mg",
+					"frequency": "Every 3-4 days",
+					"duration": "10-14 weeks"
+				},
+				{
+					"phase": "Performance",
+					"dose": "400-600 mg",
+					"frequency": "Every 3-4 days",
+					"duration": "12-14 weeks"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "A testosterone base is considered essential when running boldenone. Boldenone suppresses endogenous testosterone production, and its metabolite 1,4-dienedione can act as a mild aromatase inhibitor, potentially reducing circulating estradiol below optimal levels. Running testosterone alongside EQ maintains adequate estrogen and androgen levels. Common ratios are 1:1 testosterone-to-boldenone, though some users require a higher testosterone dose to avoid low-estrogen symptoms."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "compatible",
+			"notes": "Aromatase inhibitors are generally less necessary with boldenone compared to testosterone alone, as EQ aromatizes at roughly half the rate of testosterone and its metabolite has mild AI properties. At moderate doses, many users find they do not need an AI at all. Caution is warranted against over-suppression of estradiol, especially since boldenone itself may already be lowering E2."
+		},
+		{
+			"peptide": "Finasteride",
+			"status": "monitor",
+			"notes": "Boldenone does not convert to DHT via 5-alpha reductase in the same manner as testosterone. Instead, it is reduced to dihydroboldenone (1-testosterone), a metabolite with its own distinct androgenic profile. The interaction with finasteride is less straightforward than with testosterone. Monitor for changes in hair, skin, or prostate symptoms and adjust accordingly."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions. BPC-157 may support tendon and joint health during training, which can complement the increased training volume enabled by boldenone's anabolic and recovery-enhancing effects."
+		},
+		{
+			"peptide": "Nandrolone",
+			"status": "monitor",
+			"notes": "Boldenone and nandrolone are sometimes stacked for complementary effects (boldenone for vascularity and endurance, nandrolone for joint support and mass). Despite a common misconception, boldenone is not a 19-nortestosterone derivative -- it is a 1-dehydro derivative of testosterone. However, stacking two suppressive compounds increases overall HPT axis suppression, cardiovascular strain, and hematocrit elevation. Careful bloodwork monitoring is essential if combining these compounds."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "synergistic",
+			"notes": "Growth hormone complements boldenone's lean mass-building properties. The combination of GH-mediated lipolysis and IGF-1 elevation with boldenone's nitrogen retention and erythropoietic effects supports improved body composition, vascularity, and recovery."
+		},
+		{
+			"peptide": "CJC-1295/Ipamorelin",
+			"status": "synergistic",
+			"notes": "Growth hormone secretagogues enhance endogenous GH pulsatility, complementing boldenone's anabolic effects. The improved recovery, sleep quality, and connective tissue support from GH secretagogues pairs well with boldenone's slow, steady mass-building approach."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-3",
+			"effects": "Minimal noticeable effects due to the very long undecylenate ester. Blood levels are still accumulating. Some users report a mild increase in appetite within the first two weeks. No significant changes in physique, strength, or vascularity should be expected during this period."
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Blood levels approach steady state. Appetite increase becomes more pronounced. Early improvements in workout recovery and training endurance may begin. Slight increase in vascularity and muscle fullness as red blood cell production ramps up. First hematocrit check should be performed around week 6-8."
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Visible changes in body composition begin to manifest. Increased vascularity and a drier, leaner look compared to testosterone-only cycles. Noticeable improvements in muscular endurance and cardiovascular capacity during training. Lean muscle gains accumulate steadily. Appetite is markedly increased. Hematocrit and RBC count should be monitored and addressed if elevated."
+		},
+		{
+			"period": "Week 12-16",
+			"effects": "Full anabolic and erythropoietic effects are realized. Significant improvements in lean mass, vascularity, and overall conditioning. Strength gains have built steadily. Enhanced endurance is clearly apparent during training. Some users report improved collagen synthesis and joint comfort at this stage. Hematocrit monitoring remains critical."
+		},
+		{
+			"period": "Week 16-20",
+			"effects": "Peak effects for those running extended cycles. Maximum lean tissue accrual and vascularity. Users who have maintained consistent caloric surplus typically see their most significant results during this phase. After discontinuation, boldenone undecylenate metabolites remain detectable for approximately 5 months. PCT should not begin until 4-5 weeks after the final injection to allow for ester clearance."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Increased hematocrit and red blood cell count (the primary and most clinically significant side effect, more pronounced than with most other AAS)",
+			"Increased appetite (significant and dose-dependent, can be a benefit or hindrance depending on goals)",
+			"Anxiety and restlessness ('EQ anxiety' is widely reported anecdotally, particularly at higher doses or in anxiety-prone individuals)",
+			"Mild acne and oily skin (less than testosterone due to lower androgenic activity)",
+			"Suppression of endogenous testosterone production (profoundly suppressive, as with all AAS)",
+			"Mild hair thinning in genetically predisposed individuals (less than testosterone but not absent)",
+			"Elevated blood pressure secondary to increased blood volume from erythrocytosis",
+			"Increased vascularity (cosmetic effect, but indicative of elevated RBC)"
+		],
+		"rare": [
+			"Polycythemia requiring therapeutic phlebotomy (hematocrit exceeding 54%)",
+			"Significant cardiovascular strain including left ventricular hypertrophy with prolonged use",
+			"Adverse lipid profile changes (HDL suppression, LDL elevation)",
+			"Gynecomastia (uncommon due to lower aromatization rate, but possible)",
+			"Low estrogen symptoms when boldenone dose exceeds testosterone dose (due to AI metabolite effect)",
+			"Insomnia and night sweats at higher doses",
+			"Kidney stress (boldenone metabolites are renally cleared and some users report dark urine at high doses)",
+			"Injection site reactions (rare with undecylenate ester due to its liquid nature)"
+		],
+		"stopSigns": [
+			"Symptoms of polycythemia: persistent headaches, dizziness, blurred vision, flushing, or chest pain",
+			"Severe or escalating anxiety, panic attacks, or emotional instability",
+			"Significant blood pressure elevation unresponsive to management",
+			"Sudden shortness of breath or difficulty breathing at rest",
+			"Swelling, warmth, or pain in one leg (potential deep vein thrombosis)",
+			"Severe persistent headaches with visual disturbances",
+			"Signs of stroke: sudden numbness, confusion, trouble speaking, loss of coordination"
+		],
+		"contraindications": [
+			"Polycythemia or elevated hematocrit (above 50% at baseline)",
+			"Cardiovascular disease, coronary artery disease, or history of thromboembolic events",
+			"Hepatic impairment or liver disease",
+			"Prostate cancer (active or history of hormone-sensitive prostate cancer)",
+			"Pre-existing anxiety disorders (boldenone may significantly exacerbate anxiety symptoms)",
+			"Pregnancy or potential for pregnancy (Category X)",
+			"Known hypersensitivity to boldenone or any formulation components",
+			"Renal impairment (boldenone metabolites are renally cleared)"
+		],
+		"monitoring": [
+			"Complete blood count with hematocrit: baseline, 6-8 weeks, then every 6-8 weeks throughout cycle (MOST CRITICAL lab for boldenone)",
+			"Therapeutic phlebotomy or blood donation if hematocrit exceeds 52-54%",
+			"Total and free testosterone: baseline and mid-cycle to ensure testosterone base is adequate",
+			"Estradiol (sensitive assay): monitor for low-estrogen symptoms, especially if EQ dose exceeds testosterone dose",
+			"Comprehensive metabolic panel and lipid panel: baseline and every 8-12 weeks",
+			"Blood pressure: regular monitoring throughout use, ideally weekly",
+			"Liver function tests: baseline and periodic monitoring",
+			"Kidney function (BUN, creatinine): baseline and periodic monitoring given renal clearance of metabolites",
+			"Mental health assessment: monitor for anxiety, restlessness, and mood changes"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, slightly yellow to yellow oil with no visible particles, cloudiness, or discoloration",
+			"Third-party lab tested (HPLC or mass spectrometry) confirming identity and concentration",
+			"Proper labeling with concentration (typically 200-300 mg/mL), ester type (undecylenate or cypionate), and batch number",
+			"Intact rubber stopper with no signs of prior puncture or compromised seal",
+			"Oil draws smoothly with appropriate viscosity (common carrier oils: grapeseed, MCT, or miglyol)",
+			"Sourced from a reputable UGL with a verifiable track record and third-party testing history"
+		],
+		"warning": [
+			"Product without any third-party lab testing or certificate of analysis",
+			"Concentration claims above 400 mg/mL (higher concentrations may cause post-injection pain or crashing)",
+			"Vial label with spelling errors, misaligned printing, or unprofessional appearance",
+			"Oil appears darker than expected but is otherwise clear",
+			"Unknown or unidentified carrier oil"
+		],
+		"bad": [
+			"Cloudy, discolored, or particulate-containing solution (contamination risk)",
+			"Crashed product (crystallized steroid visible in vial) that does not resolve with gentle warming",
+			"Broken or missing tamper-evident seal on vial",
+			"No labeling, incorrect labeling, or missing batch/lot information",
+			"Pain, redness, or swelling at injection site lasting more than 72 hours (potential infection, substandard carrier oil, or contamination)",
+			"Product sourced without any testing, reviews, or third-party verification"
+		]
+	},
+	"references": [
+		{
+			"title": "Boldenone undecylenate (Equipoise): What do we know?",
+			"authors": "Tousson, E., El-Moghazy, M., Massoud, A., Akel, A.",
+			"journal": "Toxicology and Industrial Health",
+			"year": "2012",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21750114/",
+			"keyFindings": "Experimental study examining boldenone's effects on liver, kidney, and testicular tissue in animal models. Demonstrated dose-dependent organ toxicity at supraphysiological doses, with histopathological changes in hepatic and renal tissue. Provides foundational toxicology data for boldenone risk assessment."
+		},
+		{
+			"title": "Detection of boldenone and its major metabolites by liquid chromatography-tandem mass spectrometry in urine",
+			"authors": "Schoenfelder, M.",
+			"journal": "European Journal of Mass Spectrometry",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17166074/",
+			"keyFindings": "Developed and validated an LC-MS/MS method for detecting boldenone and its metabolites in urine. Confirmed the very long detection window of boldenone undecylenate metabolites, supporting the approximately 5-month detection time reported in anti-doping literature."
+		},
+		{
+			"title": "Cardiovascular Toxicity of Illicit Anabolic-Androgenic Steroid Use",
+			"authors": "Baggish, A.L., Weiner, R.B., Kanayama, G., et al.",
+			"journal": "Circulation",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28912249/",
+			"keyFindings": "Cross-sectional study of anabolic steroid users including boldenone demonstrating reduced left ventricular systolic function and accelerated coronary atherosclerosis compared to non-users. Underscores the cardiovascular risks associated with long-term anabolic steroid use."
+		},
+		{
+			"title": "Boldenone-induced apoptotic, structural, and functional alterations in the liver of rabbits",
+			"authors": "Tousson, E., El-Moghazy, M., Massoud, A., et al.",
+			"journal": "Toxicology and Industrial Health",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22301826/",
+			"keyFindings": "Demonstrated that boldenone administration in an animal model induced hepatocellular apoptosis and structural changes in liver tissue, with effects correlating to dose and duration. Highlights the importance of liver function monitoring during boldenone use."
+		},
+		{
+			"title": "An overview on the abuse of anabolic androgenic steroids: focus on boldenone",
+			"authors": "Pomara, C., Neri, M., Bello, S., Fiore, C., Riezzo, I., Turillazzi, E.",
+			"journal": "Forensic Science International",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25541029/",
+			"keyFindings": "Comprehensive review of boldenone pharmacology, metabolism, detection methods, and adverse effects. Documented case reports of cardiovascular events in boldenone users and reviewed the compound's unique metabolic pathways, including its conversion to 1,4-dienedione and potential endogenous production controversy in anti-doping testing."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Cardiovascular Toxicity of Illicit Anabolic-Androgenic Steroid Use",
+			"date": "January 2017",
+			"source": "Circulation",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28912249/",
+			"summary": "Cross-sectional study of 140 experienced strength athletes demonstrating that long-term anabolic steroid use, including boldenone, was associated with reduced left ventricular systolic function and greater coronary artery plaque volume compared to non-users."
+		},
+		{
+			"title": "Anabolic Androgenic Steroid Abuse and the Cardiovascular System",
+			"date": "October 2018",
+			"source": "Handbook of Experimental Pharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29332181/",
+			"summary": "Review examining cardiovascular consequences of anabolic steroid abuse, noting that compounds with strong erythropoietic effects such as boldenone pose particular risk through elevated hematocrit, increased blood viscosity, and altered lipid profiles."
+		},
+		{
+			"title": "Boldenone and cognate designer steroids: detection and characterization of metabolites",
+			"date": "March 2020",
+			"source": "Drug Testing and Analysis",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32246862/",
+			"summary": "Advanced metabolite characterization study providing updated detection methodologies for boldenone and related designer steroids, confirming prolonged urinary excretion of specific boldenone metabolites relevant to anti-doping testing."
+		}
+	]
+}

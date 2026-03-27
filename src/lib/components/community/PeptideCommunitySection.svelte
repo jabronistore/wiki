@@ -4,9 +4,10 @@
 	interface Props {
 		peptideId: string;
 		peptideName: string;
+		urlPrefix?: string;
 	}
 
-	let { peptideId, peptideName }: Props = $props();
+	let { peptideId, peptideName, urlPrefix = '/peptides' }: Props = $props();
 </script>
 
 <section class="community-section">
@@ -23,7 +24,7 @@
 	</div>
 
 	<div class="action-cards">
-		<a href="/peptides/{peptideId}/results" class="action-card">
+		<a href="{urlPrefix}/{peptideId}/results" class="action-card">
 			<div class="card-icon results">
 				<BarChart3 class="h-5 w-5" />
 			</div>
@@ -34,7 +35,7 @@
 			<ArrowRight class="card-arrow h-4 w-4" />
 		</a>
 
-		<a href="/peptides/{peptideId}/discussion" class="action-card">
+		<a href="{urlPrefix}/{peptideId}/discussion" class="action-card">
 			<div class="card-icon discussion">
 				<MessageSquare class="h-5 w-5" />
 			</div>
@@ -45,7 +46,7 @@
 			<ArrowRight class="card-arrow h-4 w-4" />
 		</a>
 
-		<a href="/peptides/{peptideId}/submit-findings" class="action-card cta">
+		<a href="{urlPrefix}/{peptideId}/submit-findings" class="action-card cta">
 			<div class="card-icon submit">
 				<FlaskConical class="h-5 w-5" />
 			</div>

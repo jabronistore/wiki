@@ -1,10 +1,10 @@
-import { getAllPeptideSummaries, getPeptideBySlug } from '$lib/data/peptides';
+import { getAllItemSummaries, getItemBySlug } from '$lib/data/unified';
 
 export const prerender = false;
 
 export function load({ url }) {
 	const peptideId = url.searchParams.get('peptide') || '';
-	const peptide = peptideId ? getPeptideBySlug(peptideId) : undefined;
+	const peptide = peptideId ? getItemBySlug(peptideId) : undefined;
 
 	// Parse default dose from peptide data
 	let defaultDose = 250;
@@ -34,7 +34,7 @@ export function load({ url }) {
 	}
 
 	return {
-		allPeptides: getAllPeptideSummaries(),
+		allPeptides: getAllItemSummaries(),
 		peptideId,
 		peptideName: peptide?.name || null,
 		defaultDose,

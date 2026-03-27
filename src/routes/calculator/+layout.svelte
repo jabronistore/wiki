@@ -97,6 +97,7 @@
 <style>
 	.calculator-page {
 		min-height: 100vh;
+		overflow-x: hidden;
 	}
 
 	/* Hero */
@@ -230,6 +231,9 @@
 		border: 1px solid hsl(var(--border));
 		border-radius: 1rem;
 		padding: 2rem;
+		overflow: hidden;
+		max-width: 100%;
+		box-sizing: border-box;
 	}
 
 	@media (max-width: 640px) {

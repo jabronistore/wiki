@@ -3,7 +3,7 @@
 	import { Home, ChevronRight, Plus, X, AlertTriangle, CheckCircle, Clock } from 'lucide-svelte';
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
-	import { getPeptideBySlug } from '$lib/data/peptides';
+	import { getItemBySlug } from '$lib/data/unified';
 	import type { Peptide, PeptideSummary } from '$lib/types';
 
 	const SITE_URL = 'https://peptide-db.com';
@@ -33,7 +33,7 @@
 
 	function selectPeptide(index: number, id: string) {
 		selectedIds[index] = id;
-		peptides[index] = id ? getPeptideBySlug(id) || null : null;
+		peptides[index] = id ? getItemBySlug(id) || null : null;
 		updateUrl();
 	}
 

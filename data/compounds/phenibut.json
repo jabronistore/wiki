@@ -1,0 +1,280 @@
+{
+	"id": "phenibut",
+	"name": "Phenibut",
+	"subtitle": "GABA-B Agonist | Anxiolytic & Sleep Aid",
+	"aliases": ["beta-Phenyl-GABA", "Noofen", "Citrocard", "Phenyl-GABA"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cognitive", "sleep"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "250-500 mg (occasional use only)",
+		"frequency": "Max 1-2x per week (never daily)",
+		"cycleDuration": "Occasional use only. Not for continuous use.",
+		"storage": "Room temperature (59-77F). Keep dry and away from light."
+	},
+	"molecular": {
+		"weight": "179.22 Da",
+		"type": "Phenyl-substituted GABA analog (C10H13NO2)",
+		"modifications": [
+			"Phenyl ring addition at the beta position of GABA enables blood-brain barrier penetration",
+			"Available as hydrochloride salt (MW 215.68 Da) and free amino acid (FAA) form",
+			"Exists as R- and S-enantiomers; the R-enantiomer is significantly more pharmacologically active at GABA-B receptors"
+		],
+		"halfLife": "~5 hours",
+		"halfLifeSeconds": 18000,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Phenibut (beta-phenyl-gamma-aminobutyric acid) is a synthetic GABA analog developed in the Soviet Union in the 1960s. It was designed to cross the blood-brain barrier, which GABA itself cannot do efficiently, by adding a phenyl ring to the GABA molecule. Phenibut has been prescribed in Russia and several former Soviet states since the 1960s for the treatment of anxiety, insomnia, post-traumatic stress disorder, vestibular disorders, and stuttering. It was famously included in the medical kit of Soviet cosmonauts for its calming effects without impairing cognitive performance. Phenibut is NOT approved by the FDA, EMA, or any Western regulatory agency as a pharmaceutical drug. In the United States, Australia, and parts of Europe, it has been sold as a dietary supplement or nootropic, though several countries have moved to restrict or ban its sale due to growing reports of dependence, withdrawal, and adverse events. The addiction and dependence potential of phenibut is HIGH, and tolerance develops rapidly with repeated use. This compound should be treated with the same caution as benzodiazepines or other GABAergic drugs.",
+	"mechanism": "Phenibut acts primarily as an agonist at GABA-B receptors, the same receptor target as baclofen (to which it is structurally related). GABA-B receptor activation inhibits neuronal excitability by opening potassium channels and reducing calcium influx at presynaptic terminals, leading to decreased neurotransmitter release and a net inhibitory effect on the central nervous system. This produces anxiolytic, sedative, and muscle-relaxant effects. In addition to GABA-B agonism, phenibut blocks voltage-dependent calcium channels (VDCCs), particularly alpha-2-delta subunit-containing channels, a mechanism shared with gabapentin and pregabalin. This contributes to its anxiolytic and analgesic properties. At higher doses, phenibut may also weakly stimulate GABA-A receptors, contributing to its sedative effects, though this is not its primary mechanism at typical doses. The R-enantiomer of phenibut is responsible for the majority of its GABA-B receptor activity, while the S-enantiomer is more selective for the alpha-2-delta VDCC subunit.",
+	"keyBenefits": [
+		"Reduction of anxiety and social inhibition",
+		"Improved sleep onset and sleep quality",
+		"Mild mood elevation and sense of well-being",
+		"Reduced cognitive effects of stress without heavy sedation at low doses",
+		"Potential benefit for vestibular disorders (clinical use in Russia)"
+	],
+	"indications": [
+		{
+			"category": "Neurological / Mood",
+			"items": [
+				{
+					"name": "Generalized Anxiety",
+					"description": "Phenibut has been prescribed in Russia for anxiety disorders since the 1960s. Its GABA-B agonism and VDCC blockade produce meaningful anxiolytic effects. However, rapid tolerance development limits its utility for chronic anxiety management, and withdrawal can cause severe rebound anxiety.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Social Anxiety",
+					"description": "One of the most commonly reported uses in non-prescription settings. Users report reduced social inhibition and increased verbal fluency. Effects are dose-dependent and tolerance develops very quickly, making this unsuitable for regular use.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Insomnia / Sleep Disorders",
+					"description": "Prescribed in Russia for sleep disturbances. Phenibut's GABAergic activity promotes sleep onset and may improve sleep architecture at moderate doses. As with all GABAergic sleep aids, rebound insomnia upon discontinuation can be severe.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Stress-Related Cognitive Impairment",
+					"description": "Soviet-era research suggested phenibut could reduce the cognitive effects of stress without impairing performance, leading to its inclusion in cosmonaut medical kits. Limited modern controlled data supports this specific indication.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Other",
+			"items": [
+				{
+					"name": "Vestibular Disorders",
+					"description": "Prescribed in Russia for vertigo and vestibular dysfunction. The mechanism may involve GABA-B mediated inhibition of vestibular nuclei. Evidence is primarily from Russian-language clinical literature.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Alcohol Withdrawal Support",
+					"description": "Some Russian clinical literature describes use in alcohol withdrawal protocols. This is a highly specialized application that requires medical supervision and is NOT recommended for self-treatment given phenibut's own severe dependence potential.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Phenibut is taken orally, typically as a powder (hydrochloride salt or free amino acid form) in capsules or dissolved in water. The hydrochloride salt is acidic and can cause gastrointestinal irritation if taken on an empty stomach. Onset of effects is typically 1-2 hours after ingestion, with peak effects at 3-4 hours. Effects can last 5-8 hours depending on dose.",
+			"protocols": [
+				{
+					"goal": "Anxiolytic - Low Dose",
+					"dose": "250-500 mg",
+					"frequency": "Max 1-2x per week, never consecutive days",
+					"route": "Oral (capsule or dissolved powder)",
+					"notes": "Start at 250 mg to assess individual response. Take on an empty stomach for faster onset. NEVER use daily. Tolerance builds within 2-3 days of consecutive use."
+				},
+				{
+					"goal": "Sleep Aid",
+					"dose": "500-750 mg",
+					"frequency": "Occasional use only, max 1x per week",
+					"route": "Oral, taken 1-2 hours before bed",
+					"notes": "Higher doses produce more sedation. Do not combine with alcohol or other CNS depressants. Rebound insomnia is common if used more than once per week."
+				},
+				{
+					"goal": "Anxiolytic - Moderate Dose",
+					"dose": "750-1000 mg",
+					"frequency": "Occasional use only, max 1x per week",
+					"route": "Oral (capsule or dissolved powder)",
+					"notes": "Higher doses carry significantly greater risk of next-day drowsiness, tolerance acceleration, and dependence. This dose range should not be used by inexperienced individuals."
+				}
+			],
+			"keyBenefits": [
+				"Simple oral administration with no preparation required",
+				"Predictable dose-response relationship at low doses",
+				"Available as capsules or bulk powder (HCl or FAA forms)",
+				"1-2 hour onset allows for planned timing of effects"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Alcohol",
+			"status": "avoid",
+			"notes": "AVOID THIS COMBINATION. Alcohol and phenibut both act on GABA receptors, producing dangerous potentiation of CNS depression. This combination dramatically increases the risk of respiratory depression, loss of consciousness, aspiration, and death. Even small amounts of alcohol can produce disproportionately severe effects when combined with phenibut."
+		},
+		{
+			"peptide": "Benzodiazepines",
+			"status": "avoid",
+			"notes": "AVOID THIS COMBINATION. Benzodiazepines (diazepam, alprazolam, clonazepam, etc.) combined with phenibut produce additive to synergistic CNS depression through overlapping GABAergic mechanisms. Risk of respiratory depression, profound sedation, and death is significantly elevated. These drugs should never be combined."
+		},
+		{
+			"peptide": "GHB",
+			"status": "avoid",
+			"notes": "AVOID THIS COMBINATION. GHB (gamma-hydroxybutyrate) is itself a GABA-B agonist. Combining two GABA-B agonists creates extreme risk of respiratory depression, loss of consciousness, coma, and death. This is one of the most dangerous possible combinations."
+		},
+		{
+			"peptide": "Gabapentin",
+			"status": "monitor",
+			"notes": "Both phenibut and gabapentin act on voltage-dependent calcium channels via the alpha-2-delta subunit. Combined use may produce additive sedation, dizziness, and respiratory depression. If concurrent use is unavoidable, doses of both should be reduced and the individual should be closely monitored."
+		}
+	],
+	"timeline": [
+		{
+			"period": "0-30 minutes",
+			"effects": "No noticeable effects. Phenibut is slowly absorbed from the gastrointestinal tract. Absorption is faster on an empty stomach."
+		},
+		{
+			"period": "1-2 hours",
+			"effects": "Onset of anxiolytic effects. Mild reduction in anxiety, slight mood elevation, and a growing sense of calm. Effects are subtle at low doses and may be mistaken for placebo."
+		},
+		{
+			"period": "3-4 hours",
+			"effects": "Peak effects. Noticeable anxiolysis, increased sociability, improved mood, and mild euphoria at higher doses. Some sedation and muscle relaxation. Cognitive function is generally preserved at low to moderate doses."
+		},
+		{
+			"period": "5-8 hours",
+			"effects": "Effects gradually diminish. Residual calm and mild sedation. Some individuals experience increased drowsiness during this phase, especially at higher doses."
+		},
+		{
+			"period": "8-24 hours",
+			"effects": "Effects have largely worn off. Some residual next-day drowsiness or afterglow may be present, particularly after doses above 750 mg. No redosing should occur for at least 2-3 days to prevent tolerance buildup."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Drowsiness and sedation, especially at higher doses",
+			"Dizziness and lightheadedness",
+			"Nausea and gastrointestinal discomfort (particularly with HCl form on empty stomach)",
+			"Tolerance develops rapidly, often within 2-3 days of consecutive use",
+			"Next-day grogginess or hangover-like effects",
+			"Headache"
+		],
+		"rare": [
+			"Motor incoordination and ataxia at high doses",
+			"Paradoxical agitation or anxiety (rare, dose-dependent)",
+			"Allergic reactions (skin rash, itching)",
+			"Tremor",
+			"Numbness or paresthesias"
+		],
+		"stopSigns": [
+			"Difficulty breathing or respiratory depression (especially if combined with other CNS depressants)",
+			"Loss of consciousness or inability to be roused",
+			"Severe confusion or delirium",
+			"Seizures (can occur during withdrawal from chronic use)",
+			"Suicidal ideation (reported during withdrawal)",
+			"Psychosis or hallucinations (reported during withdrawal from high-dose chronic use)"
+		],
+		"contraindications": [
+			"History of substance abuse or addiction (phenibut has high abuse potential)",
+			"Concurrent use of alcohol, benzodiazepines, GHB, barbiturates, or other CNS depressants",
+			"Renal impairment (phenibut is primarily excreted by the kidneys)",
+			"Pregnancy and breastfeeding (insufficient safety data)",
+			"History of seizure disorders (withdrawal may lower seizure threshold)",
+			"Current dependence on any GABAergic substance"
+		],
+		"monitoring": [
+			"Self-monitor frequency of use strictly: never more than 1-2 times per week",
+			"Track any urge to increase dose or frequency as an early sign of dependence",
+			"If daily use has occurred for more than 5-7 days, do NOT stop abruptly. Seek medical guidance for tapering.",
+			"Monitor for rebound anxiety and insomnia between uses",
+			"Observe for signs of tolerance (needing higher doses for the same effect)"
+		],
+		"dependenceWarning": "CRITICAL SAFETY WARNING: Phenibut carries a HIGH risk of physical dependence and addiction. Tolerance develops rapidly, often within days of consecutive use. Physical dependence can develop in as little as 1-2 weeks of daily use. Withdrawal from phenibut can be severe and potentially life-threatening, with symptoms including extreme anxiety, insomnia, tremors, psychosis, hallucinations, and seizures. Withdrawal symptoms can persist for weeks to months. Phenibut withdrawal has resulted in hospitalizations and deaths. NEVER use phenibut daily. NEVER abruptly discontinue after a period of regular use. If physical dependence has developed, a slow medical taper under physician supervision (often using baclofen as a cross-taper agent) is required. Treat this compound with the same respect and caution as a benzodiazepine."
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white crystalline powder with slight acidic taste (HCl form)",
+			"Third-party tested with certificate of analysis (COA) showing purity above 99%",
+			"Clearly labeled with form (HCl or FAA), weight per capsule, and lot number",
+			"Purchased from a reputable vendor with transparent sourcing and testing",
+			"Properly sealed container with desiccant to prevent moisture absorption"
+		],
+		"warning": [
+			"No certificate of analysis or third-party testing available",
+			"Purchased from unknown or unverified vendor",
+			"Powder appears clumpy, discolored, or has an unusual odor",
+			"Capsule weights are inconsistent (suggesting poor manufacturing)"
+		],
+		"bad": [
+			"Product contains undisclosed additives or fillers",
+			"No labeling or lot number on packaging",
+			"Effects are inconsistent between batches from the same vendor",
+			"Product marketed with exaggerated claims about safety or lack of side effects",
+			"Any product that downplays or omits warnings about dependence and withdrawal"
+		]
+	},
+	"references": [
+		{
+			"title": "Phenibut (beta-Phenyl-GABA): A Tranquilizer and Nootropic Drug",
+			"authors": "Lapin, I.",
+			"journal": "CNS Drug Reviews",
+			"year": "2001",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11830761/",
+			"keyFindings": "Comprehensive review of phenibut pharmacology by the researcher who contributed to its original development. Describes its GABA-B agonist activity, nootropic properties, and clinical use in Russia for anxiety, insomnia, PTSD, and vestibular disorders. Notes its favorable therapeutic index when used as prescribed in clinical settings."
+		},
+		{
+			"title": "Phenibut Dependence: A Case Report and Literature Review",
+			"authors": "Samokhvalov, A.V., Paton-Gay, C.L., Balchand, K., Rehm, J.",
+			"journal": "Case Reports in Psychiatry",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23864965/",
+			"keyFindings": "Case report of phenibut dependence in a patient using escalating doses for self-medication of anxiety. Documented severe withdrawal symptoms including anxiety, tremor, and insomnia upon cessation. Highlights the lack of regulation and growing availability of phenibut as a supplement in Western countries."
+		},
+		{
+			"title": "Phenibut (4-Amino-3-Phenyl-Butyric Acid): Availability, Prevalence of Use, Desired Effects and Acute Toxicity",
+			"authors": "Owen, D.R., Wood, D.M., Archer, J.R., Dargan, P.I.",
+			"journal": "Drug and Alcohol Review",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26693960/",
+			"keyFindings": "Analysis of phenibut availability, user reports, and poison center data. Found widespread online availability with inconsistent labeling and dosing recommendations. Documented cases of acute toxicity including drowsiness, agitation, tachycardia, and reduced consciousness, particularly when combined with other substances."
+		},
+		{
+			"title": "Baclofen and Phenibut: Comparison of GABA-B Receptor Binding and Neurochemical Effects",
+			"authors": "Dambrova, M., Zvejniece, L., Liepinsh, E., et al.",
+			"journal": "Pharmacology, Biochemistry and Behavior",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18930076/",
+			"keyFindings": "Comparative study of phenibut and baclofen demonstrating that both compounds bind to GABA-B receptors with similar affinity. Phenibut also showed significant activity at voltage-dependent calcium channels. The R-enantiomer of phenibut was found to be the more pharmacologically active form at GABA-B receptors."
+		},
+		{
+			"title": "Phenibut Addiction and Withdrawal: Clinical Presentation and Treatment",
+			"authors": "Ahuja, T., Mgbako, O., Katzman, C., Grossman, A.",
+			"journal": "Innovations in Clinical Neuroscience",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29497579/",
+			"keyFindings": "Clinical case series documenting phenibut withdrawal syndrome requiring hospitalization. Symptoms included visual and auditory hallucinations, psychomotor agitation, and tremor. Treatment with baclofen taper was effective. Authors recommend that clinicians become aware of phenibut as an increasingly common substance of abuse."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Phenibut Exposures Reported to US Poison Centers",
+			"date": "2020",
+			"source": "Journal of Clinical Toxicology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31975592/",
+			"summary": "Analysis of phenibut-related calls to US poison control centers showing a significant increase in exposures over the study period. Most cases involved intentional misuse, and common effects included drowsiness, tachycardia, agitation, and confusion. Co-ingestion with other substances was common and associated with worse outcomes."
+		},
+		{
+			"title": "Phenibut: Review of Pharmacology, Clinical Use, and Toxicology",
+			"date": "2021",
+			"source": "Psychosomatics",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32828498/",
+			"summary": "Comprehensive review covering phenibut pharmacology, clinical applications in Russian medicine, and the growing body of Western toxicology literature. Emphasizes the need for regulatory action and clinician awareness given the increasing prevalence of phenibut use and dependence in Western countries."
+		}
+	]
+}

@@ -364,8 +364,19 @@
 			.attr('font-size', '12px')
 			.text(timeUnit.label);
 
-		// Y axis
-		const yAxis = d3.axisLeft(yScale).ticks(5);
+		// Y axis — convert display values when doseUnit is 'mg' (internal values are always mcg)
+		const yAxisScale = doseUnit === 'mg' ? 1000 : 1;
+		const yAxis = d3
+			.axisLeft(yScale)
+			.ticks(5)
+			.tickFormat((d) => {
+				const val = (d as number) / yAxisScale;
+				return val >= 1000
+					? `${(val / 1000).toFixed(1)}k`
+					: val % 1 === 0
+						? String(val)
+						: val.toFixed(1);
+			});
 
 		g.append('g')
 			.call(yAxis)
@@ -424,7 +435,11 @@
 					{#if !isSingleCompound && hoverInfo.values.length > 1}
 						<span class="tooltip-dot" style="background: {value.color}"></span>
 					{/if}
-					<span class="tooltip-value">{value.concentration.toFixed(1)}</span>
+					<span class="tooltip-value"
+						>{doseUnit === 'mg'
+							? (value.concentration / 1000).toFixed(2)
+							: value.concentration.toFixed(1)}</span
+					>
 					<span class="tooltip-unit">{doseUnit}</span>
 				</div>
 			{/each}
