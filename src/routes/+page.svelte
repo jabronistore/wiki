@@ -15,8 +15,12 @@
 	} from 'lucide-svelte';
 	import SEO from 'sk-seo';
 
+	import { Pill, Dumbbell, Scissors } from 'lucide-svelte';
+
 	interface Stats {
 		peptideCount: number;
+		compoundCount: number;
+		totalCount: number;
 		categoryCount: number;
 		referenceCount: number;
 	}
@@ -24,19 +28,38 @@
 	let { data }: { data: { stats: Stats } } = $props();
 
 	const categories = [
-		{ id: 'healing', name: 'Healing & Recovery', icon: Sparkles },
-		{ id: 'growth-hormone', name: 'Growth Hormone', icon: TrendingUp },
-		{ id: 'weight-loss', name: 'Weight Loss', icon: Scale },
-		{ id: 'cognitive', name: 'Cognitive Enhancement', icon: Brain },
-		{ id: 'longevity', name: 'Longevity', icon: Clock },
-		{ id: 'skin', name: 'Skin & Hair', icon: Palette }
+		{
+			id: 'healing',
+			name: 'Healing & Recovery',
+			icon: Sparkles,
+			href: '/peptides?category=healing'
+		},
+		{
+			id: 'growth-hormone',
+			name: 'Growth Hormone',
+			icon: TrendingUp,
+			href: '/peptides?category=growth-hormone'
+		},
+		{ id: 'weight-loss', name: 'Weight Loss', icon: Scale, href: '/peptides?category=weight-loss' },
+		{
+			id: 'anabolic',
+			name: 'Anabolics & SARMs',
+			icon: Dumbbell,
+			href: '/compounds?category=anabolic'
+		},
+		{ id: 'hair-loss', name: 'Hair Loss', icon: Scissors, href: '/compounds?category=hair-loss' },
+		{ id: 'longevity', name: 'Longevity', icon: Clock, href: '/compounds?category=longevity' },
+		{ id: 'cognitive', name: 'Cognitive', icon: Brain, href: '/peptides?category=cognitive' },
+		{ id: 'pct', name: 'PCT & Ancillaries', icon: Pill, href: '/compounds?category=pct' },
+		{ id: 'skin', name: 'Skin & Hair', icon: Palette, href: '/peptides?category=skin' }
 	];
 </script>
 
 <SEO
-	title="Peptide Database | Dosing Protocols & Research Wiki"
-	description="Comprehensive peptide research database with dosing protocols, molecular information, and scientific references. Educational resource for peptide research."
-	keywords="peptides, peptide research, BPC-157, semaglutide, tirzepatide, peptide dosing, reconstitution"
+	title="Peptide Database | Peptides, Compounds & Research Wiki"
+	description="Comprehensive database of {data.stats
+		.totalCount}+ peptides and compounds with dosing protocols, molecular data, and scientific references. Covering peptides, anabolics, SARMs, PCT, and more."
+	keywords="peptides, peptide research, testosterone, SARMs, PCT, BPC-157, semaglutide, compound database, dosing protocols"
 	siteName="Peptide Database"
 	canonical="https://peptide-db.com"
 	twitter={true}
@@ -47,7 +70,7 @@
 	<!-- Hero Section -->
 	<div class="relative overflow-hidden border-b border-border">
 		<div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-20 lg:px-8 lg:py-28">
-			<div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
+			<div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-[3fr_1fr] lg:gap-16">
 				<!-- Left side - Content -->
 				<div class="order-2 text-center lg:order-1 lg:text-left">
 					<!-- Badges -->
@@ -75,17 +98,17 @@
 					<h1
 						class="animate-fade-in stagger-1 mb-6 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl xl:text-7xl"
 					>
-						<span class="text-foreground">Peptide Research</span>
+						<span class="text-foreground">Peptide & Compound</span>
 						<br />
-						<span class="text-muted-foreground">Database</span>
+						<span class="text-muted-foreground">Research Database</span>
 					</h1>
 
 					<!-- Subtitle -->
 					<p
 						class="animate-fade-in stagger-2 mx-auto mb-10 max-w-xl text-lg text-muted-foreground md:text-xl lg:mx-0"
 					>
-						The open source peptide research database. Dosing protocols, molecular structures, and
-						scientific references — community-owned, free forever.
+						{data.stats.totalCount}+ peptides, anabolics, SARMs, and research compounds. Dosing
+						protocols, molecular data, and scientific references — open source, free forever.
 					</p>
 
 					<!-- CTA buttons -->
@@ -100,10 +123,10 @@
 							<ArrowRight class="h-5 w-5" />
 						</a>
 						<a
-							href="/peptides/best-for"
+							href="/compounds"
 							class="inline-flex items-center gap-2 rounded-xl border border-border bg-card px-8 py-4 font-semibold text-foreground transition-all hover:bg-muted"
 						>
-							Best Peptides For...
+							Browse Compounds
 						</a>
 					</div>
 				</div>
@@ -144,24 +167,30 @@
 	<!-- Stats Section -->
 	<div class="border-b border-border bg-muted/30">
 		<div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-			<div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+			<div class="grid grid-cols-2 gap-8 md:grid-cols-5">
 				<div class="text-center">
 					<div class="mb-2 text-3xl font-bold text-foreground md:text-4xl">
 						{data.stats.peptideCount}
 					</div>
-					<div class="text-sm text-muted-foreground">Peptides Documented</div>
+					<div class="text-sm text-muted-foreground">Peptides</div>
+				</div>
+				<div class="text-center">
+					<div class="mb-2 text-3xl font-bold text-foreground md:text-4xl">
+						{data.stats.compoundCount}
+					</div>
+					<div class="text-sm text-muted-foreground">Compounds</div>
 				</div>
 				<div class="text-center">
 					<div class="mb-2 text-3xl font-bold text-foreground md:text-4xl">
 						{data.stats.categoryCount}
 					</div>
-					<div class="text-sm text-muted-foreground">Research Categories</div>
+					<div class="text-sm text-muted-foreground">Categories</div>
 				</div>
 				<div class="text-center">
 					<div class="mb-2 text-3xl font-bold text-foreground md:text-4xl">
 						{data.stats.referenceCount}
 					</div>
-					<div class="text-sm text-muted-foreground">Scientific References</div>
+					<div class="text-sm text-muted-foreground">References</div>
 				</div>
 				<div class="text-center">
 					<div class="mb-2 text-3xl font-bold text-foreground md:text-4xl">100%</div>
@@ -176,7 +205,7 @@
 		<div class="mb-12 text-center">
 			<h2 class="mb-4 text-3xl font-bold md:text-4xl">Explore by Category</h2>
 			<p class="mx-auto max-w-2xl text-muted-foreground">
-				Find peptides organized by their primary research applications and therapeutic areas.
+				Browse peptides and compounds by research application and therapeutic area.
 			</p>
 		</div>
 
@@ -184,7 +213,7 @@
 			{#each categories as category, i}
 				{@const Icon = category.icon}
 				<a
-					href="/peptides?category={category.id}"
+					href={category.href}
 					class="card-hover group relative rounded-2xl border border-border bg-card p-6"
 					style="animation-delay: {i * 0.1}s"
 				>
