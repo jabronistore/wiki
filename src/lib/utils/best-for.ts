@@ -27,16 +27,18 @@ export const GOALS: GoalConfig[] = [
 			'Post-Surgical Recovery',
 			'Pain & Recovery',
 			'Sports Medicine',
-			'Athletic Recovery'
+			'Athletic Recovery',
+			'Recovery / Healing',
+			'Weight Recovery & Wasting'
 		],
-		pinnedOrder: ['bpc-157', 'tb-500', 'thymosin-beta-4']
+		pinnedOrder: ['bpc-157', 'tb-500', 'nandrolone', 'thymosin-beta-4']
 	},
 	{
 		slug: 'weight-loss',
 		title: 'Weight Loss',
 		description:
 			'Peptides studied for appetite suppression, fat metabolism, and body weight reduction.',
-		matchCategories: ['Weight Loss', 'Fat Loss', 'Appetite Control', 'Body Composition'],
+		matchCategories: ['Weight Loss', 'Fat Loss', 'Appetite Control', 'Body Composition', 'Fat Loss / Body Composition'],
 		pinnedOrder: ['retatrutide', 'tirzepatide', 'semaglutide', 'cagrilintide', 'survodutide']
 	},
 	{
@@ -55,7 +57,7 @@ export const GOALS: GoalConfig[] = [
 			'Type 2 Diabetes',
 			'Diabetes'
 		],
-		pinnedOrder: ['semaglutide', 'tirzepatide', 'retatrutide', 'mots-c']
+		pinnedOrder: ['semaglutide', 'tirzepatide', 'retatrutide', 'metformin', 'mots-c']
 	},
 	{
 		slug: 'muscle-growth',
@@ -68,9 +70,13 @@ export const GOALS: GoalConfig[] = [
 			'Body Composition',
 			'Performance',
 			'Exercise Performance',
-			'Performance (Banned in Sports)'
+			'Performance (Banned in Sports)',
+			'Body Composition / Performance',
+			'Performance / Endurance',
+			'Physical Performance',
+			'Muscle Wasting / Cachexia'
 		],
-		pinnedOrder: ['hgh', 'igf-1-lr3', 'mk-677', 'tesamorelin']
+		pinnedOrder: ['hgh', 'igf-1-lr3', 'mk-677', 'testosterone', 'tesamorelin']
 	},
 	{
 		slug: 'anti-aging',
@@ -82,11 +88,13 @@ export const GOALS: GoalConfig[] = [
 			'Anti-Aging Protocol',
 			'Anti-Aging Research',
 			'Longevity',
+			'Longevity / Anti-Aging',
 			'Cellular Protection',
 			'Quality of Life',
-			'Antioxidant & Detox'
+			'Antioxidant & Detox',
+			'Age-Related Disease Prevention'
 		],
-		pinnedOrder: ['epitalon', 'ghk-cu', 'nad-plus', 'humanin']
+		pinnedOrder: ['rapamycin', 'epitalon', 'nad-plus', 'nmn', 'metformin', 'humanin']
 	},
 	{
 		slug: 'cognitive',
@@ -104,9 +112,11 @@ export const GOALS: GoalConfig[] = [
 			'Neurological',
 			'Neurological Support',
 			'Neural Health',
-			'Neurodegenerative Disease'
+			'Neurodegenerative Disease',
+			'Cognitive / Nootropic',
+			'Cognitive Enhancement'
 		],
-		pinnedOrder: ['semax', 'selank', 'dihexa', 'na-semax-amidate', 'cerebrolysin']
+		pinnedOrder: ['semax', 'selank', 'dihexa', 'modafinil', 'na-semax-amidate', 'cerebrolysin']
 	},
 	{
 		slug: 'mood',
@@ -119,7 +129,8 @@ export const GOALS: GoalConfig[] = [
 			'Anxiety & Mood',
 			'Mood & Anxiety',
 			'Mental Health',
-			'Stress Resistance'
+			'Stress Resistance',
+			'Neurological / Mood'
 		],
 		pinnedOrder: ['selank', 'na-selank-amidate', 'dsip']
 	},
@@ -127,7 +138,7 @@ export const GOALS: GoalConfig[] = [
 		slug: 'sleep',
 		title: 'Sleep',
 		description: 'Peptides studied for sleep quality, sleep latency, and circadian rhythm support.',
-		matchCategories: ['Sleep'],
+		matchCategories: ['Sleep', 'Sleep Disorders'],
 		pinnedOrder: ['dsip']
 	},
 	{
@@ -158,8 +169,8 @@ export const GOALS: GoalConfig[] = [
 		title: 'Skin & Hair',
 		description:
 			'Peptides studied for collagen synthesis, wound healing, hair growth, and skin rejuvenation.',
-		matchCategories: ['Skin Health', 'Skin Regeneration', 'Hair Growth', 'Anti-Wrinkle'],
-		pinnedOrder: ['ghk-cu', 'ahk-cu', 'snap-8']
+		matchCategories: ['Skin Health', 'Skin Regeneration', 'Hair Growth', 'Anti-Wrinkle', 'Skin Aging', 'Acne'],
+		pinnedOrder: ['ghk-cu', 'tretinoin', 'ahk-cu', 'snap-8']
 	},
 	{
 		slug: 'growth-hormone',
@@ -207,8 +218,8 @@ export const GOALS: GoalConfig[] = [
 		title: 'Mitochondrial Health',
 		description:
 			'Peptides studied for mitochondrial function, ATP production, cellular energy, and oxidative stress protection.',
-		matchCategories: ['Mitochondrial', 'Energy & Metabolism', 'Exercise Performance'],
-		pinnedOrder: ['ss-31', 'mots-c', 'nad-plus']
+		matchCategories: ['Mitochondrial', 'Energy & Metabolism', 'Exercise Performance', 'Longevity / Mitochondrial Health'],
+		pinnedOrder: ['ss-31', 'mots-c', 'nad-plus', 'methylene-blue']
 	},
 	{
 		slug: 'cardiovascular',
@@ -221,6 +232,7 @@ export const GOALS: GoalConfig[] = [
 			'Cardiovascular/Metabolic',
 			'Cardioprotection',
 			'Vascular Health',
+			'Pulmonary',
 			'Vascular Support'
 		]
 	},
@@ -233,6 +245,7 @@ export const GOALS: GoalConfig[] = [
 			'Joint Health',
 			'Bone Health',
 			'Bone Health Research',
+			'Bone & Joint Health',
 			'Osteoporosis (FDA-Approved)'
 		],
 		pinnedOrder: ['bpc-157', 'tb-500']
@@ -248,9 +261,15 @@ export const GOALS: GoalConfig[] = [
 			'Hormone Recovery',
 			'SERM',
 			'Aromatase Inhibitor',
-			'Testosterone Restoration'
+			'Testosterone Restoration',
+			'On-Cycle Estrogen Management',
+			'Gynecomastia Treatment',
+			'Gynecomastia Prevention & Treatment',
+			'Hormonal Optimization',
+			'19-Nor Compound Support',
+			'Male Fertility'
 		],
-		pinnedOrder: ['enclomiphene', 'hcg', 'gonadorelin']
+		pinnedOrder: ['enclomiphene', 'tamoxifen', 'hcg', 'anastrozole', 'gonadorelin']
 	},
 	{
 		slug: 'hair-loss',
@@ -265,7 +284,7 @@ export const GOALS: GoalConfig[] = [
 			'5-Alpha Reductase Inhibitor',
 			'Androgenetic Alopecia'
 		],
-		pinnedOrder: ['finasteride', 'ghk-cu']
+		pinnedOrder: ['finasteride', 'dutasteride', 'minoxidil', 'ru-58841', 'pp405']
 	},
 	{
 		slug: 'erectile-function',
@@ -277,9 +296,10 @@ export const GOALS: GoalConfig[] = [
 			'Erectile Dysfunction',
 			'PDE5 Inhibitor',
 			'Sexual Function',
-			'Vascular Sexual Health'
+			'Vascular Sexual Health',
+			'Sexual Health'
 		],
-		pinnedOrder: ['tadalafil', 'pt-141']
+		pinnedOrder: ['tadalafil', 'sildenafil', 'pt-141', 'kisspeptin']
 	},
 	{
 		slug: 'anabolic',
@@ -294,9 +314,16 @@ export const GOALS: GoalConfig[] = [
 			'Performance',
 			'Lean Mass',
 			'Strength',
-			'Hypertrophy'
+			'Hypertrophy',
+			'Performance / Endurance',
+			'Performance & Body Composition',
+			'Body Composition / Performance',
+			'Musculoskeletal / Connective Tissue',
+			'Weight Recovery & Wasting',
+			'Physical Performance',
+			'Muscle Wasting / Cachexia'
 		],
-		pinnedOrder: ['testosterone']
+		pinnedOrder: ['testosterone', 'nandrolone', 'oxandrolone', 'rad-140', 'lgd-4033']
 	}
 ];
 
