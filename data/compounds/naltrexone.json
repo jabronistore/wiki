@@ -1,0 +1,286 @@
+{
+	"id": "naltrexone",
+	"name": "Naltrexone",
+	"subtitle": "Opioid Antagonist | Low-Dose Anti-Inflammatory & Immune Modulation",
+	"aliases": ["LDN", "Low-Dose Naltrexone", "ReVia", "Vivitrol"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["immune", "longevity"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "1.5-4.5 mg/day (LDN)",
+		"frequency": "Once daily at bedtime",
+		"cycleDuration": "Ongoing (chronic use)",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "341.40 Da",
+		"type": "Opioid antagonist (C20H23NO4)",
+		"modifications": [
+			"Full-dose formulation (50 mg) - FDA-approved for opioid and alcohol dependence",
+			"Low-dose naltrexone (LDN, 1-4.5 mg) - compounded formulation for off-label immune modulation"
+		],
+		"halfLife": "~4 hours",
+		"halfLifeSeconds": 14400,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Naltrexone is an opioid receptor antagonist originally developed and FDA-approved at full dose (50 mg) for the treatment of opioid and alcohol use disorders. At this dose, it competitively blocks mu-opioid receptors, preventing the euphoric and reinforcing effects of opioids and reducing alcohol cravings. However, naltrexone has gained enormous popularity in the biohacking and functional medicine communities at dramatically lower doses (1-4.5 mg), commonly referred to as Low-Dose Naltrexone (LDN). At these sub-therapeutic doses, naltrexone produces a brief, transient blockade of opioid receptors lasting only a few hours, which triggers a compensatory upregulation of endogenous endorphins and enkephalins. This rebound effect, combined with direct modulation of the Opioid Growth Factor (OGF) - OGF receptor axis, produces broad anti-inflammatory and immunomodulatory effects that have shown promise across a wide range of autoimmune, inflammatory, and chronic pain conditions.",
+	"mechanism": "At low doses (1-4.5 mg), naltrexone produces a brief nocturnal blockade of opioid receptors that lasts approximately 4-6 hours. This transient blockade triggers a compensatory upregulation of endogenous opioid production, including beta-endorphin and met-enkephalin (also known as Opioid Growth Factor, OGF). Elevated OGF interacts with the OGF receptor (OGFr) to modulate cell proliferation and immune function. LDN also directly antagonizes Toll-like receptor 4 (TLR4) on microglia and macrophages, reducing neuroinflammation and systemic inflammatory cytokine production including TNF-alpha, IL-6, and IL-12. The net effect is a shift from a pro-inflammatory Th1/Th17-dominant immune profile toward a more balanced regulatory state. Additionally, LDN has been shown to increase circulating endorphin levels by 200-300%, which contributes to improved mood, reduced pain perception, and enhanced immune surveillance. The bedtime dosing strategy is deliberate: the brief receptor blockade occurs during the natural nocturnal endorphin surge, maximizing the compensatory rebound effect.",
+	"keyBenefits": [
+		"Broad anti-inflammatory and immunomodulatory effects via OGF-OGFr axis upregulation",
+		"Reduction in pro-inflammatory cytokines (TNF-alpha, IL-6, IL-12) through TLR4 antagonism",
+		"Compensatory upregulation of endogenous endorphins and enkephalins (200-300% increase)",
+		"Improved immune regulation and rebalancing of Th1/Th2/Th17 responses",
+		"Reduction in chronic pain through central and peripheral opioid system modulation",
+		"Potential improvement in mood, anhedonia, and overall well-being via endorphin enhancement",
+		"Extremely well-tolerated with minimal side effects at low doses",
+		"Low cost, especially as compounded LDN formulation"
+	],
+	"indications": [
+		{
+			"category": "Autoimmune & Inflammatory",
+			"items": [
+				{
+					"name": "Autoimmune Conditions (General)",
+					"description": "LDN has shown benefit across a broad spectrum of autoimmune diseases including Hashimoto's thyroiditis, rheumatoid arthritis, lupus, and multiple sclerosis. The immune-modulating effects via TLR4 antagonism and OGF upregulation help rebalance dysregulated immune responses. Multiple case series and small trials report symptom improvement and reduced inflammatory markers.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Inflammatory Bowel Disease (Crohn's & Ulcerative Colitis)",
+					"description": "Several clinical trials have demonstrated benefit in Crohn's disease, with one RCT showing a 67% response rate and 33% remission rate with LDN 4.5 mg versus placebo. Improvements in mucosal healing and quality of life scores have been reported. Preliminary data in ulcerative colitis are also encouraging.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Multiple Sclerosis",
+					"description": "Observational studies and small trials suggest LDN may improve quality of life, reduce fatigue, and modestly decrease relapse rates in MS patients. A pilot trial showed improvements in mental health quality of life scores. LDN is often used as adjunctive therapy alongside disease-modifying treatments.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Chronic Pain & Fatigue",
+			"items": [
+				{
+					"name": "Fibromyalgia",
+					"description": "Two randomized controlled trials have demonstrated that LDN (4.5 mg) significantly reduces pain severity (approximately 30% reduction from baseline), improves overall satisfaction with life, and enhances mood in fibromyalgia patients. Responders showed greater reductions in inflammatory markers including ESR.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Chronic Fatigue Syndrome / ME/CFS",
+					"description": "Anecdotal reports and small observational studies suggest LDN may reduce fatigue severity and improve functional capacity in ME/CFS patients. The anti-neuroinflammatory mechanism via TLR4 antagonism on microglia is a plausible pathway. Larger controlled trials are needed.",
+					"effectiveness": "under-research"
+				},
+				{
+					"name": "Complex Regional Pain Syndrome (CRPS)",
+					"description": "Case reports and small case series document meaningful pain reduction and functional improvement with LDN in CRPS patients. The combination of anti-neuroinflammatory and endorphin-enhancing effects makes LDN a plausible adjunctive therapy for this difficult-to-treat condition.",
+					"effectiveness": "under-research"
+				}
+			]
+		},
+		{
+			"category": "Mental Health & Neurological",
+			"items": [
+				{
+					"name": "Anhedonia & Treatment-Resistant Depression",
+					"description": "By upregulating endogenous endorphins and modulating the opioid reward system, LDN may address anhedonia (inability to feel pleasure) - a symptom poorly addressed by conventional antidepressants. Preliminary studies and clinical experience suggest benefits for mood and motivation, particularly in patients with inflammation-driven depression.",
+					"effectiveness": "under-research"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Naltrexone is administered orally. Full-dose naltrexone (50 mg) is available as a standard pharmaceutical tablet (ReVia). Low-Dose Naltrexone (1-4.5 mg) is typically obtained as a compounded capsule or liquid from a compounding pharmacy, as commercial formulations at these low doses are not widely manufactured. Some practitioners prescribe commercially available 50 mg tablets to be dissolved in measured volumes of water or other vehicle for precise low-dose self-preparation, though compounded capsules are preferred for dosing accuracy.",
+			"protocols": [
+				{
+					"goal": "Low-Dose Naltrexone (LDN) - Standard Protocol",
+					"dose": "1.5 mg, titrate to 4.5 mg",
+					"frequency": "Once daily at bedtime",
+					"route": "Oral",
+					"notes": "Start at 1.5 mg nightly for 1-2 weeks, then increase to 3.0 mg for 1-2 weeks, then to 4.5 mg as the target maintenance dose. Bedtime dosing is critical to leverage the nocturnal endorphin surge. Some individuals do best at 3.0 mg and do not need to reach 4.5 mg. If vivid dreams or sleep disruption persist, consider morning dosing or dose reduction."
+				},
+				{
+					"goal": "LDN - Ultra-Low Starting Dose (Sensitive Patients)",
+					"dose": "0.5-1.0 mg, titrate slowly to 4.5 mg",
+					"frequency": "Once daily at bedtime",
+					"route": "Oral",
+					"notes": "For patients who are highly sensitive, have severe autoimmune flares, or have a history of opioid use, start at 0.5 mg and increase by 0.5 mg every 1-2 weeks. Liquid compounded formulations allow precise micro-titration. This slower approach minimizes the risk of initial symptom flares."
+				},
+				{
+					"goal": "Full-Dose - Opioid Dependence (FDA-Approved)",
+					"dose": "50 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "Standard FDA-approved dosing for opioid dependence. Patient must be fully detoxified from opioids (7-10 days opioid-free) before initiation to avoid precipitated withdrawal. Liver function tests should be obtained at baseline."
+				},
+				{
+					"goal": "Full-Dose - Alcohol Dependence (FDA-Approved)",
+					"dose": "50 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "FDA-approved for alcohol use disorder. Reduces cravings and heavy drinking days. Can be used daily or as targeted dosing (Sinclair Method - take 1 hour before drinking). Liver function monitoring recommended."
+				}
+			],
+			"keyBenefits": [
+				"Simple once-daily oral dosing at bedtime",
+				"Compounded LDN is inexpensive (typically $30-60/month)",
+				"Extremely well-tolerated at low doses with minimal side effects",
+				"No abuse potential or dependence risk",
+				"Can be combined with most other medications and supplements"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Opioid Medications",
+			"status": "avoid",
+			"notes": "Naltrexone at any dose will block the effects of opioid medications including morphine, oxycodone, hydrocodone, tramadol, and codeine. Even at LDN doses, transient opioid receptor blockade can reduce the efficacy of opioid pain medications. In patients on chronic opioid therapy, naltrexone can precipitate acute withdrawal. LDN should not be initiated until the patient has been opioid-free for at least 7-10 days. This is an absolute contraindication."
+		},
+		{
+			"peptide": "Phenibut",
+			"status": "monitor",
+			"notes": "Both compounds affect neurological signaling pathways. Phenibut acts on GABA-B receptors while naltrexone modulates the opioid system. While there is no direct pharmacological antagonism, both substances influence mood and reward circuitry. Monitor for unexpected changes in mood, sedation, or tolerance patterns when used concurrently."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Adjustment period during initial low-dose titration (1.5 mg). Vivid dreams are the most commonly reported early effect and are generally considered a sign that the compound is active. Mild sleep disruption, slight headache, or transient nausea may occur. Some individuals notice a subtle mood lift within the first week."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Dose typically titrated up to 3.0-4.5 mg. Vivid dreams may persist but often diminish in intensity. Early improvements in energy, mood, and general well-being are commonly reported. Some autoimmune patients may experience a brief symptom flare as the immune system rebalances."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Anti-inflammatory and immunomodulatory effects become more pronounced. Patients with chronic pain or fibromyalgia often report meaningful pain reduction by month 2-3. Autoimmune markers (CRP, ESR, antibody titers) may begin to improve. Sleep quality typically normalizes. Mood and motivation improvements consolidate."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Full therapeutic benefits are generally realized within this window. Autoimmune patients may see reductions in disease activity scores and inflammatory markers. Chronic pain patients often report sustained 30-50% pain reduction. Energy and quality of life improvements are well-established."
+		},
+		{
+			"period": "Month 6+",
+			"effects": "Long-term maintenance phase. Benefits are generally sustained with continued daily use. Some practitioners periodically reassess dose and may adjust between 1.5-4.5 mg based on symptom response. LDN has an excellent long-term safety profile with no evidence of tolerance development or organ toxicity at low doses."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Vivid dreams or unusually intense dreaming - the most frequently reported side effect, typically diminishes over 1-2 weeks",
+			"Initial sleep disruption or insomnia during the first week of treatment",
+			"Mild nausea, particularly during the first few days",
+			"Transient headache during dose initiation or titration"
+		],
+		"rare": [
+			"Temporary worsening of autoimmune symptoms (immune rebalancing flare) during the first 1-2 weeks",
+			"Anxiety or irritability during initial titration",
+			"Mild hair thinning (reported anecdotally, typically reversible with dose adjustment)",
+			"Hepatotoxicity (only documented at full 50 mg dose in rare cases, not reported with LDN dosing)"
+		],
+		"stopSigns": [
+			"Signs of precipitated opioid withdrawal (severe abdominal cramping, vomiting, diarrhea, muscle aches, anxiety) - indicates undisclosed or unrecognized opioid use",
+			"Severe or persistent nausea, vomiting, or abdominal pain",
+			"Jaundice or signs of hepatic dysfunction (primarily a concern at full 50 mg dosing)",
+			"Severe allergic reaction (rash, swelling, difficulty breathing)"
+		],
+		"contraindications": [
+			"Current use of opioid medications or active opioid dependence (must be opioid-free 7-10 days minimum)",
+			"Acute hepatitis or severe hepatic impairment (primarily relevant at full dose)",
+			"Known hypersensitivity to naltrexone",
+			"Anticipated need for opioid pain medication (e.g., upcoming surgery - discontinue LDN 3-7 days prior)"
+		],
+		"monitoring": [
+			"Liver function tests (AST/ALT): at baseline; periodic monitoring primarily recommended for full-dose (50 mg) use",
+			"Symptom tracking: maintain a log of pain levels, energy, mood, and sleep quality to assess response",
+			"Autoimmune markers (if applicable): CRP, ESR, and disease-specific antibodies at baseline and every 3-6 months",
+			"Thyroid function: in Hashimoto's patients, monitor TSH and free T4 as LDN may improve thyroid function, potentially requiring dose reduction of thyroid medication"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Compounded by a licensed, reputable compounding pharmacy (PCAB-accredited preferred)",
+			"Capsules contain only naltrexone with inert filler (microcrystalline cellulose or similar)",
+			"Proper labeling with dose, lot number, and beyond-use date",
+			"Prescribed by licensed physician or practitioner familiar with LDN protocols",
+			"Consistent dosing with verified potency testing"
+		],
+		"warning": [
+			"Compounded formulations with unnecessary additives, fillers, or slow-release agents that may alter absorption",
+			"Self-preparation from crushed full-dose tablets without proper volumetric measurement",
+			"Sourced from overseas pharmacies without verification of compound identity and purity"
+		],
+		"bad": [
+			"No labeling, incorrect dosage, or missing beyond-use date",
+			"Capsules with visible inconsistency in size, color, or fill volume",
+			"Obtained without any medical consultation or prescription",
+			"Sourced from unregulated suppliers with no quality assurance"
+		]
+	},
+	"references": [
+		{
+			"title": "Low-dose naltrexone (LDN) - Review of therapeutic utilization",
+			"authors": "Younger, J., Parkitny, L., McLain, D.",
+			"journal": "Medical Hypotheses",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24534893/",
+			"keyFindings": "Comprehensive review of LDN's mechanisms and clinical applications. Identifies TLR4 antagonism and OGF-OGFr upregulation as primary mechanisms of action. Summarizes evidence across fibromyalgia, Crohn's disease, multiple sclerosis, and cancer, noting that LDN is well-tolerated with minimal side effects."
+		},
+		{
+			"title": "Low-dose naltrexone for the treatment of fibromyalgia: findings of a small, randomized, double-blind, placebo-controlled, counterbalanced, crossover trial assessing daily pain levels",
+			"authors": "Younger, J., Noor, N., McCue, R., Mackey, S.",
+			"journal": "Arthritis & Rheumatism",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23553768/",
+			"keyFindings": "Randomized controlled trial demonstrating that LDN (4.5 mg/day) significantly reduced fibromyalgia pain by approximately 30% compared to placebo, with improvements in general satisfaction with life and mood. Greater pain reduction was associated with lower baseline ESR, suggesting an anti-inflammatory mechanism."
+		},
+		{
+			"title": "Low-dose naltrexone therapy improves active Crohn's disease",
+			"authors": "Smith, J.P., Stock, H., Bingaman, S., et al.",
+			"journal": "The American Journal of Gastroenterology",
+			"year": "2007",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17222320/",
+			"keyFindings": "Pilot clinical trial showing that LDN (4.5 mg nightly) produced a 67% response rate and 33% remission rate in patients with active Crohn's disease over 12 weeks. Significant improvements in Crohn's Disease Activity Index scores and quality of life measures were observed with no serious adverse events."
+		},
+		{
+			"title": "The use of low-dose naltrexone (LDN) as a novel anti-inflammatory treatment for chronic pain",
+			"authors": "Younger, J., Mackey, S.",
+			"journal": "Clinical Rheumatology",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19137428/",
+			"keyFindings": "Early mechanistic paper proposing that LDN exerts anti-inflammatory effects primarily through antagonism of TLR4 on microglia and macrophages, reducing central and peripheral neuroinflammation. This mechanism is distinct from opioid receptor effects and explains LDN's efficacy in inflammatory pain conditions."
+		},
+		{
+			"title": "Opioid Growth Factor and Low-Dose Naltrexone: A Comprehensive Review",
+			"authors": "McLaughlin, P.J., Zagon, I.S.",
+			"journal": "Experimental Biology and Medicine",
+			"year": "2020",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32281406/",
+			"keyFindings": "Detailed review of the OGF-OGFr axis and its role in mediating LDN's therapeutic effects. OGF (met-enkephalin) upregulation following transient opioid receptor blockade modulates immune cell proliferation, T-cell function, and inflammatory responses. Provides the mechanistic foundation for LDN's broad immunomodulatory properties."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Low-Dose Naltrexone for Chronic Pain: A Systematic Review",
+			"date": "2023",
+			"source": "Journal of Pain Research",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37547553/",
+			"summary": "Systematic review of LDN for chronic pain conditions including fibromyalgia, complex regional pain syndrome, and chronic low back pain. Concluded that LDN shows consistent analgesic effects with a favorable safety profile, though larger, well-powered randomized controlled trials are needed to establish definitive efficacy."
+		},
+		{
+			"title": "Low-Dose Naltrexone in Autoimmune and Inflammatory Disorders: Current Evidence and Future Directions",
+			"date": "2023",
+			"source": "Autoimmunity Reviews",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37295745/",
+			"summary": "Comprehensive review of LDN across autoimmune conditions including inflammatory bowel disease, multiple sclerosis, rheumatoid arthritis, and Hashimoto's thyroiditis. Highlights the growing body of evidence supporting LDN as adjunctive therapy and calls for multi-center randomized trials to move beyond pilot study data."
+		},
+		{
+			"title": "Low-Dose Naltrexone for Long COVID Symptoms",
+			"date": "2024",
+			"source": "Brain, Behavior, & Immunity - Health",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/38263219/",
+			"summary": "Observational study examining LDN use in patients with long COVID symptoms including fatigue, brain fog, and chronic pain. Patients treated with LDN 4.5 mg showed significant improvements in fatigue severity and cognitive function compared to standard care, suggesting a role for LDN in post-viral neuroimmune conditions."
+		}
+	]
+}

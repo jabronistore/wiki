@@ -1,0 +1,231 @@
+{
+	"id": "bromantane",
+	"name": "Bromantane",
+	"subtitle": "Actoprotector | Dopamine Upregulation & Adaptive Energy",
+	"aliases": ["Ladasten", "Bromantan"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cognitive"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "50-100 mg/day",
+		"frequency": "Once daily (morning)",
+		"cycleDuration": "2-4 weeks on, 1-2 weeks off (common nootropic protocol)",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "277.18 Da",
+		"type": "Adamantane-bromophenyl derivative (C16H20BrN)",
+		"modifications": [
+			"N-(2-adamantyl)-4-bromophenylamine -- combines a brominated aromatic ring with the adamantane cage structure, conferring lipophilicity and CNS penetration"
+		],
+		"halfLife": "~11 hours",
+		"halfLifeSeconds": 39600,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Bromantane (Ladasten) is a synthetic adamantane derivative developed in Russia during the 1980s as part of a military research program aimed at improving soldiers' physical and mental performance under extreme conditions. It was officially registered in Russia in 2002 as an anxiolytic and actoprotector -- a pharmacological class defined by the ability to enhance physical work capacity and mental performance under stressful conditions without the hyperactivation or crash associated with traditional stimulants. Unlike amphetamines, methylphenidate, or modafinil, bromantane does not directly block reuptake or trigger release of monoamines. Instead, it upregulates the gene expression of key enzymes in the dopamine biosynthetic pathway, producing a sustained, physiological increase in dopamine availability. This mechanism gives it a uniquely smooth, non-depleting profile that has made it increasingly popular in the international nootropic community for sustained cognitive energy, motivation, and stress resilience.",
+	"mechanism": "Bromantane's mechanism of action is fundamentally different from conventional stimulants and most nootropic compounds. Its primary action is the upregulation of tyrosine hydroxylase (TH) and aromatic L-amino acid decarboxylase (AADC) gene expression in the striatum and other dopaminergic brain regions. Tyrosine hydroxylase is the rate-limiting enzyme in dopamine synthesis, converting L-tyrosine to L-DOPA, while AADC converts L-DOPA to dopamine. By increasing the transcription of these enzymes, bromantane enhances the brain's endogenous capacity to produce dopamine rather than forcing release of existing stores or blocking their reuptake. This results in a gradual, sustained elevation of dopaminergic tone without the rapid depletion, tolerance, or rebound effects characteristic of releasers or reuptake inhibitors. Additionally, bromantane has documented anxiolytic properties, likely mediated through GABAergic facilitation and modulation of hippocampal activity, which contribute to its stress-protective and actoprotective effects. The compound also demonstrates mild serotonergic activity, which may further support its anxiolytic profile. This dual action -- enhanced dopaminergic drive combined with anxiolysis -- is what distinguishes bromantane from virtually all other cognitive enhancers and gives it the 'calm energy' quality users frequently describe.",
+	"keyBenefits": [
+		"Upregulates endogenous dopamine synthesis via tyrosine hydroxylase gene expression, producing sustained motivational drive without depletion",
+		"Anxiolytic properties reduce stress and anxiety without sedation, creating a state of calm, focused energy",
+		"Actoprotective effects improve both physical and mental performance under stressful or fatiguing conditions",
+		"Very low abuse and dependence potential due to the absence of acute monoamine release or reuptake inhibition",
+		"Minimal tolerance development compared to traditional stimulants, supporting longer-term use patterns",
+		"Smooth onset and offset with no crash or rebound effects"
+	],
+	"indications": [
+		{
+			"category": "Cognitive Enhancement",
+			"items": [
+				{
+					"name": "Motivation and Drive",
+					"description": "By increasing dopamine synthesis capacity, bromantane enhances baseline motivation, initiative, and the ability to engage in and sustain effortful tasks. Users consistently report improved ability to start and complete demanding cognitive work.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Sustained Mental Energy",
+					"description": "Provides a clean, non-jittery mental energy that supports prolonged cognitive effort. Unlike stimulants that front-load neurotransmitter release and lead to a crash, bromantane's gene-expression-level mechanism delivers steady-state enhancement over the course of the day.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Stress-Related Cognitive Impairment",
+					"description": "The combination of dopaminergic upregulation and anxiolytic activity makes bromantane particularly useful for maintaining cognitive performance during periods of high psychological or physical stress.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anxiolytic / Adaptogenic",
+			"items": [
+				{
+					"name": "Generalized Anxiety",
+					"description": "Approved in Russia for the treatment of asthenic disorders with anxiety. Clinical trials demonstrated significant reductions in anxiety scores without the sedation, cognitive dulling, or dependence potential of benzodiazepines.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Asthenia and Neurasthenia",
+					"description": "Primary approved indication in Russia. Bromantane addresses the fatigue, reduced drive, and emotional instability characteristic of asthenic conditions, restoring normal energy and emotional regulation.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Physical Performance",
+			"items": [
+				{
+					"name": "Physical Work Capacity Under Stress",
+					"description": "As an actoprotector, bromantane improves physical endurance and recovery under conditions of heat stress, sleep deprivation, and sustained exertion. Originally developed for military applications requiring sustained physical output in adverse environments.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Exercise Recovery",
+					"description": "Some evidence suggests improved recovery from physical exertion, likely related to both the dopaminergic enhancement of central drive and the anxiolytic reduction of stress-mediated cortisol elevation.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Bromantane is available in oral tablet and capsule form. It is lipophilic and absorbed through the gastrointestinal tract, though bioavailability data in humans is limited. Peak effects are typically felt within 1-2 hours of oral ingestion. Taking it with a fat-containing meal may improve absorption. Sublingual administration is also used by some individuals to improve onset speed and bioavailability, particularly with solution-based preparations.",
+			"protocols": [
+				{
+					"goal": "Standard Nootropic",
+					"dose": "50 mg",
+					"frequency": "Once daily in the morning",
+					"route": "Oral or sublingual",
+					"notes": "Most common starting dose for cognitive enhancement purposes. Many users find 50 mg sufficient for noticeable improvements in motivation and mental clarity. Take in the morning to avoid any potential sleep disruption."
+				},
+				{
+					"goal": "Full Dose",
+					"dose": "100 mg",
+					"frequency": "Once daily in the morning",
+					"route": "Oral or sublingual",
+					"notes": "Upper end of the commonly used nootropic range and the dose used in Russian clinical trials for asthenic disorders. Some users split this into 50 mg morning + 50 mg early afternoon, though once-daily dosing is typical."
+				},
+				{
+					"goal": "Sublingual (Enhanced Absorption)",
+					"dose": "50-100 mg",
+					"frequency": "Once daily in the morning",
+					"route": "Sublingual (solution or powder held under tongue)",
+					"notes": "Sublingual administration bypasses first-pass metabolism and may provide faster onset and higher effective bioavailability. Hold under the tongue for 1-2 minutes before swallowing. Solution-based preparations are preferred for this route."
+				}
+			],
+			"keyBenefits": [
+				"Simple once-daily dosing with no complex titration required",
+				"Both oral and sublingual administration options",
+				"Long half-life (~11 hours) supports once-daily dosing",
+				"No reconstitution or injection required",
+				"Can be taken with a fat source to potentially enhance absorption"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Modafinil",
+			"status": "monitor",
+			"notes": "Both compounds enhance dopaminergic signaling, though through distinct mechanisms (modafinil via DAT inhibition, bromantane via TH upregulation). Combining them may result in excessive dopaminergic stimulation, potentially causing anxiety, overstimulation, or insomnia. If combining, start with lower doses of each and monitor closely."
+		},
+		{
+			"peptide": "SSRIs",
+			"status": "monitor",
+			"notes": "Bromantane has mild serotonergic activity in addition to its primary dopaminergic mechanism. Concurrent use with SSRIs (e.g., sertraline, fluoxetine, escitalopram) warrants monitoring for changes in mood, anxiety levels, or serotonergic side effects. Generally well-tolerated in combination based on anecdotal reports, but formal interaction studies are lacking."
+		}
+	],
+	"timeline": [
+		{
+			"period": "30-60 minutes",
+			"effects": "Initial onset of effects. Subtle increase in mental clarity and a mild reduction in background anxiety. Effects are gradual and smooth, without the sharp onset characteristic of stimulants."
+		},
+		{
+			"period": "1-3 hours",
+			"effects": "Primary effects become apparent. Noticeable improvement in motivation, mental energy, and willingness to engage in demanding tasks. Anxiolytic effects are evident as a sense of calm focus. This represents the acute pharmacological action of the compound."
+		},
+		{
+			"period": "3-8 hours",
+			"effects": "Sustained plateau of cognitive enhancement and motivational drive. The dopaminergic and anxiolytic effects remain stable. Physical performance benefits are most apparent during this window. No crash or jitteriness."
+		},
+		{
+			"period": "8-12 hours",
+			"effects": "Gradual tapering of acute effects. Residual improvements in mood and motivation may persist. Most users do not experience a rebound or crash as effects diminish."
+		},
+		{
+			"period": "Days to weeks (cumulative)",
+			"effects": "With continued daily use, the gene-expression-mediated upregulation of tyrosine hydroxylase becomes more established. Many users report that the full benefits of bromantane build over the first 1-2 weeks of consistent use as enzyme levels increase, with the compound becoming more effective over time rather than less."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Insomnia or difficulty falling asleep (if taken too late in the day)",
+			"Mild anxiety or restlessness at higher doses (above 100 mg)",
+			"Mild headache (uncommon, typically transient)"
+		],
+		"rare": [
+			"Gastrointestinal discomfort (nausea, mild stomach upset)",
+			"Allergic skin reactions",
+			"Elevated liver enzymes with prolonged high-dose use (theoretical, based on adamantane class effects)"
+		],
+		"stopSigns": [
+			"Persistent anxiety or agitation that does not resolve with dose reduction",
+			"Any signs of allergic reaction (rash, swelling, difficulty breathing)",
+			"Significant sleep disruption despite morning-only dosing",
+			"Jaundice or signs of hepatic dysfunction"
+		],
+		"contraindications": [
+			"Known hypersensitivity to bromantane or adamantane derivatives",
+			"Pregnancy and breastfeeding (insufficient safety data)",
+			"Severe hepatic impairment",
+			"Concurrent use of MAO inhibitors (theoretical risk of excessive dopaminergic activity)"
+		],
+		"monitoring": [
+			"Sleep quality: ensure dosing timing does not interfere with sleep",
+			"Anxiety levels: monitor for paradoxical anxiety, especially at higher doses",
+			"Liver function: consider periodic monitoring with prolonged use, as with other adamantane compounds",
+			"Mood and motivation: track response over the first 2-4 weeks to assess cumulative benefit"
+		]
+	},
+	"references": [
+		{
+			"title": "Ladasten Modulates Cortical Gene Expression in the Comorbid Depression and Anxiety Model in Mice",
+			"authors": "Grigoriev, V.V., Petrova, L.N., Ivanova, T.A., Kudrin, V.S., et al.",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25177922/",
+			"keyFindings": "Demonstrated that bromantane (Ladasten) modulates gene expression related to dopaminergic neurotransmission in cortical brain regions, supporting the mechanism of action based on upregulation of dopamine biosynthetic enzymes rather than acute monoamine release."
+		},
+		{
+			"title": "Bromantane: A New Actoprotector with Immunomodulating Action",
+			"authors": "Iezhitsa, I.N., Spasov, A.A., Bugaeva, L.I.",
+			"journal": "Pharmaceutical Chemistry Journal",
+			"year": "2002",
+			"url": "https://link.springer.com/article/10.1023/A:1019832824716",
+			"keyFindings": "Characterized bromantane as an actoprotector -- a compound that enhances physical work capacity without the exhaustion-inducing effects of psychostimulants. Documented its dual action as both an actoprotector and immunomodulator, and described its favorable safety and tolerability profile in clinical use."
+		},
+		{
+			"title": "The Mechanisms Underlying the Pharmacological Effects of Bromantane",
+			"authors": "Kudrin, V.S., Sergeeva, S.A., Krasnykh, L.M., et al.",
+			"journal": "Eksperimental'naia i Klinicheskaia Farmakologiia",
+			"year": "2001",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11586398/",
+			"keyFindings": "Established that bromantane's primary pharmacological mechanism involves upregulation of tyrosine hydroxylase and AADC expression, leading to enhanced endogenous dopamine and serotonin biosynthesis. Confirmed that bromantane does not act as a dopamine reuptake inhibitor or releaser, distinguishing it mechanistically from classical psychostimulants."
+		},
+		{
+			"title": "Anxiolytic Activity of Bromantane and Its Effect on Brain Neurotransmission",
+			"authors": "Morozov, I.S., Ivanova, I.A., Lukicheva, T.A.",
+			"journal": "Eksperimental'naia i Klinicheskaia Farmakologiia",
+			"year": "1999",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10650530/",
+			"keyFindings": "Demonstrated bromantane's significant anxiolytic activity in multiple animal models of anxiety. Showed that the anxiolytic effect is mediated through GABAergic facilitation and modulation of hippocampal activity, confirming its dual action as both a dopaminergic enhancer and anxiolytic agent."
+		},
+		{
+			"title": "Clinical Trial of Ladasten in the Treatment of Asthenic Disorders",
+			"authors": "Neznamov, G.G., Siuniakov, S.A., Chumakov, D.V., Bochkarev, V.K.",
+			"journal": "Eksperimental'naia i Klinicheskaia Farmakologiia",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19334503/",
+			"keyFindings": "Phase III clinical trial demonstrating the efficacy and safety of Ladasten (bromantane) in patients with asthenic disorders. Showed significant improvements in fatigue, anxiety, and overall functioning compared to placebo, with excellent tolerability and no evidence of dependence or withdrawal, supporting its registration as an anxiolytic in Russia."
+		}
+	]
+}

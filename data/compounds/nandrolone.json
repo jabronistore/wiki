@@ -190,7 +190,7 @@
 		{
 			"peptide": "Finasteride",
 			"status": "avoid",
-			"notes": "5-alpha reductase inhibitors should be avoided with nandrolone. Nandrolone is normally converted by 5-alpha reductase to dihydronandrolone (DHN), a weaker androgen. Blocking this conversion with finasteride or dutasteride causes unmetabolized nandrolone to act directly on androgen-sensitive tissues, paradoxically increasing androgenic side effects including hair loss, acne, and prostate stimulation."
+			"notes": "DO NOT combine. This is one of the most misunderstood drug interactions in anabolic steroid use. Nandrolone is normally converted by 5-alpha reductase to dihydronandrolone (DHN), a much weaker androgen that is protective in androgen-sensitive tissues. Finasteride (and dutasteride) block this conversion, preventing nandrolone from being reduced to the weaker DHN. This leaves the more androgenic parent compound -- nandrolone itself -- to act unopposed on hair follicles, skin, and the prostate. The result is the exact opposite of the intended effect: hair loss is WORSENED, not prevented. Acne and prostate stimulation also increase. Unlike testosterone, where finasteride reduces androgenic load by blocking conversion to the more potent DHT, with nandrolone the 5-alpha reduced metabolite (DHN) is the weaker compound, so blocking 5-alpha reductase removes a protective pathway. This applies equally to finasteride and dutasteride. If you are using nandrolone and are concerned about hair loss, the solution is to lower the nandrolone dose or discontinue it -- not to add a 5-alpha reductase inhibitor."
 		},
 		{
 			"peptide": "HCG",

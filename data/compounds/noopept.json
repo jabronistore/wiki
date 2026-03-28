@@ -1,0 +1,244 @@
+{
+	"id": "noopept",
+	"name": "Noopept",
+	"subtitle": "Nootropic Peptide | Memory & Neuroprotection",
+	"aliases": ["GVS-111", "N-phenylacetyl-L-prolylglycine ethyl ester", "Omberacetam"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cognitive"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "10-30 mg/day",
+		"frequency": "Split AM/PM (sublingual or oral)",
+		"cycleDuration": "1.5-3 month cycles with 1 month off",
+		"storage": "Room temperature (68-77F). Protect from moisture and light."
+	},
+	"molecular": {
+		"weight": "318.37 Da",
+		"type": "Dipeptide derivative (C17H22N2O4)",
+		"modifications": [
+			"Derived from the endogenous neuropeptide cycloprolylglycine, which is also its primary active metabolite",
+			"Approximately 1000x more potent than piracetam by weight, allowing effective doses in the low milligram range"
+		],
+		"halfLife": "~30 minutes (oral), active metabolite cycloprolylglycine persists longer",
+		"halfLifeSeconds": 1800,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Noopept (GVS-111, omberacetam) is a synthetic nootropic dipeptide developed at the Russian Academy of Medical Sciences in the 1990s. It is approved and marketed in Russia and several CIS countries for cognitive impairment of various origins, including post-traumatic and cerebrovascular conditions. Structurally related to the racetam family, Noopept is not technically a racetam itself but is often grouped with them due to a shared mechanism of action involving modulation of glutamatergic neurotransmission. Its standout characteristic is extraordinary potency -- roughly 1000 times more potent than piracetam by weight -- which allows effective dosing in the 10-30 mg range rather than the multi-gram doses required by piracetam. Noopept is rapidly absorbed and converted to its primary active metabolite, cycloprolylglycine, an endogenous neuropeptide that mediates much of the compound's sustained cognitive and neuroprotective activity.",
+	"mechanism": "Noopept exerts its nootropic and neuroprotective effects through several interconnected mechanisms. It modulates glutamatergic neurotransmission by acting as a positive modulator at AMPA and NMDA receptors, enhancing long-term potentiation (LTP) in the hippocampus -- the core cellular process underlying memory formation. A defining feature of Noopept is its ability to increase the expression of both brain-derived neurotrophic factor (BDNF) and nerve growth factor (NGF) in the hippocampus and cerebral cortex. BDNF supports synaptic plasticity, neuronal survival, and the growth of new dendritic connections, while NGF is critical for the maintenance and survival of cholinergic neurons in the basal forebrain, a population that degenerates in Alzheimer's disease. Noopept also exhibits antioxidant and anti-inflammatory properties, reducing oxidative stress and inhibiting neurotoxicity induced by excess calcium and glutamate. Additionally, it enhances the activity of inhibitory mechanisms that prevent excitotoxic neuronal damage. After oral administration, Noopept is rapidly metabolized to cycloprolylglycine, which crosses the blood-brain barrier and is thought to mediate much of the compound's longer-lasting neurotrophic activity.",
+	"keyBenefits": [
+		"Enhanced memory formation and consolidation through upregulation of BDNF and NGF",
+		"Neuroprotective effects against oxidative stress, excitotoxicity, and amyloid-beta toxicity",
+		"Improved learning capacity and information retrieval via AMPA/NMDA receptor modulation",
+		"Ultra-low effective dose (10-30 mg) compared to classical racetams, reducing pill burden and cost",
+		"Anxiolytic properties observed at standard nootropic doses without sedation",
+		"Fast onset of subjective effects despite the short parent compound half-life, due to active metabolite persistence"
+	],
+	"indications": [
+		{
+			"category": "Cognitive Enhancement",
+			"items": [
+				{
+					"name": "Memory and Learning",
+					"description": "Noopept's best-established effect is enhancement of memory consolidation and retrieval. Animal studies consistently demonstrate improved performance on spatial memory, passive avoidance, and novel object recognition tasks. Human studies in patients with mild cognitive impairment and organic brain disorders show improvements in memory scores and attentional capacity.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Neuroprotection",
+					"description": "Demonstrated neuroprotective activity in multiple models of neuronal injury including oxidative stress, amyloid-beta toxicity, and glutamate excitotoxicity. The upregulation of BDNF and NGF provides trophic support to vulnerable neuronal populations, which may slow or prevent neurodegeneration.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Focus and Attention",
+					"description": "Users commonly report improved clarity of thought and sustained attention. While less studied than memory effects, the modulation of glutamatergic signaling and downstream cholinergic enhancement likely contribute to improved attentional performance.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Clinical (Approved in Russia)",
+			"items": [
+				{
+					"name": "Post-Traumatic Cognitive Impairment",
+					"description": "Approved in Russia for cognitive deficits following traumatic brain injury. Clinical trials demonstrated improvements in memory, attention, and emotional stability in patients recovering from cerebral trauma.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cerebrovascular Cognitive Impairment",
+					"description": "Approved for cognitive decline associated with cerebrovascular insufficiency. Patients with chronic cerebrovascular disease showed improvements in cognitive test scores and reduction in associated emotional disturbances including anxiety and irritability.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Investigational",
+			"items": [
+				{
+					"name": "Alzheimer's Disease",
+					"description": "Preclinical evidence suggests potential benefits through NGF/BDNF upregulation and inhibition of amyloid-beta aggregation and neurotoxicity. Not yet tested in rigorous clinical trials for Alzheimer's specifically, but the mechanistic rationale is strong.",
+					"effectiveness": "early-research"
+				},
+				{
+					"name": "Anxiety",
+					"description": "An anxiolytic effect has been observed in both animal models and human clinical use at standard nootropic doses. Unlike benzodiazepines, the anxiolytic effect does not come with sedation or cognitive impairment, making it a potentially useful secondary benefit.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "sublingual",
+			"available": true,
+			"overview": "Sublingual administration is the preferred route among experienced users due to faster absorption and higher bioavailability compared to oral ingestion. The compound is placed under the tongue as a powder or dissolved in a small amount of liquid and held for 1-2 minutes before swallowing. This bypasses first-pass hepatic metabolism and allows more of the parent compound to reach systemic circulation before conversion to cycloprolylglycine.",
+			"protocols": [
+				{
+					"goal": "Standard Nootropic Protocol",
+					"dose": "10 mg",
+					"frequency": "Twice daily (morning and early afternoon)",
+					"route": "Sublingual",
+					"notes": "Most common starting protocol. Place powder under the tongue and hold for 1-2 minutes. Total daily dose of 20 mg. Avoid dosing after 3 PM to prevent potential sleep disruption."
+				},
+				{
+					"goal": "Higher Dose Protocol",
+					"dose": "15 mg",
+					"frequency": "Twice daily (morning and early afternoon)",
+					"route": "Sublingual",
+					"notes": "For individuals who have established tolerance at 10 mg twice daily. Total daily dose of 30 mg. Do not exceed 30 mg/day as irritability and other side effects increase at higher doses."
+				}
+			],
+			"keyBenefits": [
+				"Higher bioavailability than oral route due to bypassing first-pass metabolism",
+				"Faster onset of effects (within 15-20 minutes)",
+				"More of the parent compound reaches the brain before conversion to metabolite",
+				"Simple administration with no special equipment required"
+			]
+		},
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oral administration via capsules or tablets is the most common commercially available format, particularly in Russian pharmacy formulations. Noopept is well absorbed orally but undergoes significant first-pass metabolism in the liver, converting much of the parent compound to cycloprolylglycine before it reaches the brain. While this metabolite is itself active, the parent compound may have distinct receptor-binding properties that are partially lost through oral administration.",
+			"protocols": [
+				{
+					"goal": "Standard Oral Protocol",
+					"dose": "10 mg",
+					"frequency": "Two to three times daily with meals",
+					"route": "Oral capsule/tablet",
+					"notes": "Standard dosing as per Russian prescribing information. Total daily dose of 20-30 mg. Take with food to reduce GI discomfort. Cycle for 1.5-3 months, followed by a 1-month break."
+				}
+			],
+			"keyBenefits": [
+				"Convenient capsule or tablet format",
+				"Widely available as a commercial pharmaceutical product in Russia and CIS",
+				"Consistent dosing without the variability of sublingual administration",
+				"Well tolerated with meals"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Racetams (Piracetam, Aniracetam, Oxiracetam)",
+			"status": "synergistic",
+			"notes": "Noopept and racetams share overlapping but non-identical mechanisms of action. Combining them can provide complementary glutamatergic modulation -- racetams primarily enhance AMPA receptor function while Noopept additionally modulates NMDA receptors and upregulates neurotrophins. Many users report stronger cognitive effects from the combination than from either compound alone. Start with lower doses of each when combining."
+		},
+		{
+			"peptide": "Choline Sources (Alpha-GPC, CDP-Choline)",
+			"status": "synergistic",
+			"notes": "Co-supplementation with a choline source is strongly recommended. Noopept increases acetylcholine demand through enhanced cholinergic signaling, and insufficient choline availability is the most common cause of headaches reported with Noopept use. Alpha-GPC (300-600 mg) or CDP-Choline (250-500 mg) daily effectively prevents this side effect and may potentiate cognitive benefits."
+		},
+		{
+			"peptide": "Modafinil",
+			"status": "compatible",
+			"notes": "Noopept and modafinil operate through distinct mechanisms (glutamatergic/neurotrophic vs. dopaminergic/histaminergic) and are commonly combined in nootropic stacks without significant adverse interaction. The combination may provide both acute wakefulness and longer-term neurotrophic support. No pharmacokinetic interaction has been identified."
+		}
+	],
+	"timeline": [
+		{
+			"period": "15-30 minutes",
+			"effects": "Onset of acute effects, particularly with sublingual administration. Users may notice subtle improvements in mental clarity, verbal fluency, and sensory acuity. The parent compound reaches peak plasma concentration within this window."
+		},
+		{
+			"period": "1-3 hours",
+			"effects": "Primary acute nootropic window. Enhanced focus, improved working memory, and greater ease of information encoding. Some users report a mild anxiolytic effect and improved emotional equilibrium. The parent compound is largely metabolized by this point, with cycloprolylglycine carrying forward the neurotrophic signaling."
+		},
+		{
+			"period": "1-2 weeks of daily use",
+			"effects": "Neurotrophic effects begin to manifest. BDNF and NGF upregulation requires sustained administration to produce meaningful changes in synaptic density and neuronal health. Users often report a noticeable improvement in memory consolidation and recall that was not present during the first few days."
+		},
+		{
+			"period": "4-8 weeks of daily use",
+			"effects": "Full neurotrophic benefits are typically realized. Memory improvements become more pronounced and consistent. The neuroprotective effects, including reduced susceptibility to cognitive fatigue and improved recovery from mental exertion, are most apparent during this phase."
+		},
+		{
+			"period": "After cycling off",
+			"effects": "Unlike stimulant-type nootropics, some benefits of Noopept -- particularly those related to BDNF/NGF-mediated structural changes in neural circuits -- may persist for weeks after discontinuation. Users commonly report that memory improvements outlast the supplementation period, suggesting lasting neuroplastic adaptations."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Headache (most common side effect, typically caused by insufficient choline intake -- co-supplementation with Alpha-GPC or CDP-Choline usually resolves this)",
+			"Irritability and restlessness, particularly at doses exceeding 30 mg/day",
+			"Insomnia if taken too late in the day",
+			"Mild gastrointestinal discomfort when taken on an empty stomach"
+		],
+		"rare": [
+			"Brain fog or cognitive dulling (paradoxical reaction, usually indicates excessive dosing)",
+			"Emotional blunting or apathy at very high doses",
+			"Elevated blood pressure (reported anecdotally, not consistently observed in clinical studies)",
+			"Allergic skin reactions"
+		],
+		"stopSigns": [
+			"Persistent headache that does not resolve with choline supplementation",
+			"Significant mood changes, depression, or emotional instability",
+			"Persistent brain fog or worsening cognitive function",
+			"Allergic reactions including rash, swelling, or difficulty breathing"
+		],
+		"contraindications": [
+			"Known hypersensitivity to Noopept or related compounds",
+			"Severe hepatic impairment (metabolized by the liver)",
+			"Severe renal impairment",
+			"Pregnancy and breastfeeding (insufficient safety data)",
+			"Hypertension that is poorly controlled (due to potential mild pressor effects)"
+		],
+		"monitoring": [
+			"Subjective cognitive assessment: track memory, focus, and mood changes during the first 2 weeks to dial in optimal dose",
+			"Choline status: if headaches develop, increase choline supplementation before adjusting Noopept dose",
+			"Blood pressure: periodic monitoring recommended, particularly in individuals with pre-existing hypertension",
+			"Sleep quality: monitor for insomnia and adjust dosing timing if needed"
+		]
+	},
+	"references": [
+		{
+			"title": "Noopept Stimulates the Expression of NGF and BDNF in Rat Hippocampus",
+			"authors": "Ostrovskaya, R.U., Gudasheva, T.A., Zaplina, A.P., et al.",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18683397/",
+			"keyFindings": "Demonstrated that chronic Noopept administration (0.5 mg/kg) significantly increased mRNA expression of both NGF and BDNF in the rat hippocampus, providing a mechanistic basis for its memory-enhancing and neuroprotective effects and distinguishing it from classical racetams."
+		},
+		{
+			"title": "The Nootropic and Neuroprotective Proline-Containing Dipeptide Noopept Restores Spatial Memory and Increases Immunoreactivity to Amyloid in an Alzheimer's Disease Model",
+			"authors": "Ostrovskaya, R.U., Vakhitova, Y.V., Kuzmina, U.S., et al.",
+			"journal": "Journal of Psychopharmacology",
+			"year": "2007",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17092975/",
+			"keyFindings": "Showed that Noopept restored spatial memory deficits in a transgenic Alzheimer's disease mouse model and increased immunoreactivity to amyloid, suggesting both symptomatic and potentially disease-modifying properties."
+		},
+		{
+			"title": "Proline-Containing Dipeptide GVS-111 Retains Nootropic Activity After Oral Administration",
+			"authors": "Gudasheva, T.A., Boyko, S.S., Akparov, V.Kh., et al.",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "1997",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9410567/",
+			"keyFindings": "Established that GVS-111 (Noopept) retains significant nootropic activity after oral administration despite rapid metabolism, and identified cycloprolylglycine as the primary active metabolite responsible for sustained cognitive effects."
+		},
+		{
+			"title": "Neuroprotective Effect of Novel Cognitive Enhancer Noopept on AD-Related Mechanisms",
+			"authors": "Ostrovskaya, R.U., Tsaplina, A.P., Vakhitova, Yu.V., et al.",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25486605/",
+			"keyFindings": "Demonstrated that Noopept prevents calcium-dependent and amyloid-beta-induced cytotoxicity in neuronal cell cultures and inhibits oxidative stress-mediated cell death, confirming multiple neuroprotective mechanisms beyond its nootropic activity."
+		}
+	]
+}

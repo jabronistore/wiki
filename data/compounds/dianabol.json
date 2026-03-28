@@ -1,0 +1,351 @@
+{
+	"id": "dianabol",
+	"name": "Dianabol",
+	"subtitle": "Oral Anabolic Steroid | Classic Mass Builder",
+	"aliases": ["Dbol", "Methandrostenolone", "Methandienone"],
+	"compoundKind": "anabolic",
+	"categories": ["anabolic"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "20-50 mg/day",
+		"frequency": "Split doses throughout the day",
+		"cycleDuration": "4-6 weeks (kickstart)",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "300.44 Da",
+		"type": "17-alpha-alkylated anabolic steroid (C20H28O2)",
+		"modifications": [
+			"17-alpha methyl group - enables oral bioavailability but causes hepatotoxicity",
+			"C1-C2 double bond - increases anabolic potency relative to testosterone"
+		],
+		"halfLife": "~4-6 hours",
+		"halfLifeSeconds": 18000,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Dianabol (methandrostenolone) is the original oral anabolic steroid, developed in the late 1950s by Dr. John Ziegler in collaboration with Ciba Pharmaceuticals for the US Olympic team. It was briefly FDA-approved for medical use but was discontinued from the US market in the 1980s due to abuse potential and side effect concerns. Despite its removal from pharmaceutical production, Dianabol remains one of the most widely used performance-enhancing compounds in the world due to its rapid and dramatic effects on muscle mass and strength. It is a 17-alpha-alkylated derivative of testosterone with an added C1-C2 double bond, which shifts its profile toward more anabolic and less androgenic activity compared to testosterone. Dianabol aromatizes heavily to methylestradiol, causing significant water retention and estrogenic side effects. Its short half-life of 4-6 hours necessitates split dosing throughout the day for stable blood levels. It is most commonly used as a 4-6 week kickstart to injectable cycles, providing rapid size and strength gains while longer-acting compounds like testosterone enanthate or cypionate reach steady-state levels.",
+	"mechanism": "Dianabol exerts its effects primarily through binding to the androgen receptor (AR), promoting nitrogen retention, protein synthesis, and glycogenolysis in skeletal muscle tissue. Its 17-alpha-alkylated structure allows it to survive first-pass hepatic metabolism, enabling oral bioavailability but placing significant stress on the liver. Dianabol has a notably high anabolic-to-androgenic ratio compared to testosterone, meaning it preferentially drives muscle-building pathways over androgenic effects such as body hair growth and prostate stimulation. It also strongly promotes intramuscular water and glycogen storage, which contributes to the rapid weight gains and fullness characteristic of its use. Dianabol aromatizes readily via the aromatase enzyme, converting to methylestradiol (a potent estrogen), which drives much of the water retention, blood pressure elevation, and gynecomastia risk associated with the compound. This heavy aromatization typically necessitates concurrent use of an aromatase inhibitor at moderate to high doses.",
+	"keyBenefits": [
+		"Rapid and dramatic increases in muscle mass and bodyweight",
+		"Significant strength gains within the first 1-2 weeks",
+		"Enhanced nitrogen retention and protein synthesis",
+		"Improved glycogenolysis and muscular endurance",
+		"Pronounced muscle fullness and pumps from increased intracellular water and glycogen",
+		"Effective oral kickstart while waiting for injectable compounds to saturate",
+		"One of the fastest-acting anabolic compounds available"
+	],
+	"indications": [
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Rapid Mass Gain",
+					"description": "Dianabol is primarily used for rapid increases in bodyweight and muscle mass. Users typically gain 10-20 lbs during a 4-6 week cycle, though a significant portion is water and glycogen retention that will subside after discontinuation.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Dramatic increases in strength across all major compound lifts, often noticeable within the first week of use. Strength gains are among the most rapid of any oral anabolic steroid.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Cycle Kickstart",
+					"description": "Most commonly used during the first 4-6 weeks of a longer injectable cycle to provide immediate results while testosterone or other long-ester injectables reach peak blood levels.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Historical Medical Use",
+			"items": [
+				{
+					"name": "Muscle Wasting Conditions",
+					"description": "Dianabol was originally prescribed for treatment of muscle wasting, osteoporosis, and recovery from burns or surgery. These medical applications have been entirely replaced by safer compounds.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Osteoporosis (Discontinued)",
+					"description": "Previously used for bone density support in post-menopausal women and elderly patients. Discontinued due to virilization risks and availability of better-tolerated alternatives.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Dianabol is administered orally as tablets or capsules, typically in 10 mg, 25 mg, or 50 mg dosages. Its 17-alpha-alkylated structure allows oral bioavailability but causes hepatic stress that limits cycle length. The short 4-6 hour half-life means doses should be split throughout the day for more stable blood levels, though some users take the full dose pre-workout for an acute performance boost.",
+			"protocols": [
+				{
+					"goal": "Beginner Kickstart",
+					"dose": "20-30 mg/day",
+					"frequency": "Split into 2-3 doses throughout the day",
+					"route": "Oral",
+					"notes": "Entry-level dose for first-time users. Must be run alongside a testosterone base. Limit to 4 weeks to minimize liver stress. Liver support (TUDCA 500 mg/day, NAC 600-1200 mg/day) is strongly recommended."
+				},
+				{
+					"goal": "Intermediate Kickstart",
+					"dose": "30-50 mg/day",
+					"frequency": "Split into 2-3 doses throughout the day",
+					"route": "Oral",
+					"notes": "Standard dosing range for experienced users. Run for 4-6 weeks at the start of a testosterone cycle. Aromatase inhibitor required for estrogen management. Monitor blood pressure and liver values."
+				},
+				{
+					"goal": "Pre-Workout Timing",
+					"dose": "20-50 mg (full daily dose)",
+					"frequency": "Single dose 60-90 minutes pre-workout",
+					"route": "Oral",
+					"notes": "Some users prefer a single pre-workout dose for acute strength and pump effects rather than split dosing. This produces higher peak levels but less stable blood concentrations throughout the day."
+				}
+			],
+			"keyBenefits": [
+				"No injections required - simple oral administration",
+				"Rapid onset of action within days",
+				"Flexible dosing and easy to adjust",
+				"Short half-life means fast clearance if side effects become problematic",
+				"Widely available and one of the most affordable anabolic compounds"
+			]
+		}
+	],
+	"protocolVariants": [
+		{
+			"name": "Classic Dbol Kickstart",
+			"source": "Standard Bodybuilding Protocol",
+			"philosophy": "Use Dianabol for the first 4-6 weeks of a testosterone cycle to provide immediate mass and strength gains while the injectable base compound reaches steady-state blood levels.",
+			"description": "The most common and time-tested approach to Dianabol use. Run alongside a testosterone base (typically 400-500 mg/week of testosterone enanthate or cypionate) for the opening weeks of a bulking cycle. The rapid weight and strength gains from Dianabol bridge the gap before testosterone fully saturates, providing motivation and visible progress from day one.",
+			"keyDifferences": [
+				"Always run with a testosterone base - never Dianabol solo",
+				"4 weeks is the conservative standard; 6 weeks is the upper limit for liver safety",
+				"Aromatase inhibitor (Anastrozole 0.5 mg EOD or Arimidex equivalent) is typically necessary",
+				"Liver support with TUDCA (500 mg/day) and NAC (600-1200 mg/day) is strongly recommended",
+				"Expect 10-20 lbs of weight gain, with 5-10 lbs retained after water loss post-cycle"
+			],
+			"doses": [
+				{
+					"phase": "Kickstart (Beginner)",
+					"dose": "20-30 mg/day",
+					"frequency": "Split 2-3x daily",
+					"duration": "4 weeks"
+				},
+				{
+					"phase": "Kickstart (Intermediate)",
+					"dose": "30-40 mg/day",
+					"frequency": "Split 2-3x daily",
+					"duration": "4-6 weeks"
+				},
+				{
+					"phase": "Kickstart (Advanced)",
+					"dose": "40-50 mg/day",
+					"frequency": "Split 2-3x daily",
+					"duration": "4-6 weeks"
+				}
+			]
+		},
+		{
+			"name": "Low-Dose Dbol with TRT",
+			"source": "Modern Minimalist Approach",
+			"philosophy": "Use a low dose of Dianabol as a mild oral addition to TRT for enhanced well-being, strength, and fullness without extreme side effects.",
+			"description": "A more conservative approach gaining popularity in the TRT community. Low-dose Dianabol (10-20 mg/day) added to a standard TRT protocol provides noticeable improvements in strength, mood, and muscle fullness without the dramatic water retention and liver stress of higher doses. Some practitioners use this intermittently (4 weeks on, 8 weeks off) as a periodic boost.",
+			"keyDifferences": [
+				"Lower dose (10-20 mg/day) significantly reduces side effect burden",
+				"Less water retention and blood pressure impact than standard doses",
+				"Liver stress is reduced but not eliminated - monitoring is still required",
+				"May not require an aromatase inhibitor at 10-15 mg/day for some individuals",
+				"Used intermittently rather than as part of a blast cycle"
+			],
+			"doses": [
+				{
+					"phase": "Low-Dose Addition",
+					"dose": "10-20 mg/day",
+					"frequency": "Once or twice daily",
+					"duration": "4-6 weeks"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "A testosterone base is considered mandatory when running Dianabol. Dianabol suppresses endogenous testosterone production, and without exogenous testosterone, users will experience low-T symptoms including lethargy, sexual dysfunction, and muscle loss. Typical stack is 300-500 mg/week of testosterone enanthate or cypionate with 20-50 mg/day of Dianabol for the first 4-6 weeks."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "synergistic",
+			"notes": "Dianabol aromatizes heavily to methylestradiol, a potent estrogen that drives water retention, blood pressure elevation, and gynecomastia risk. An aromatase inhibitor is typically necessary at moderate to high Dianabol doses. Anastrozole 0.5 mg every other day is a common starting point, adjusted based on bloodwork and symptom presentation."
+		},
+		{
+			"peptide": "TUDCA",
+			"status": "compatible",
+			"notes": "Tauroursodeoxycholic acid (TUDCA) at 500 mg/day is the gold standard liver support supplement during any 17-alpha-alkylated oral steroid cycle. TUDCA has been shown to reduce markers of cholestasis and hepatocellular damage caused by methylated oral steroids. Should be taken for the full duration of Dianabol use and 1-2 weeks after discontinuation."
+		},
+		{
+			"peptide": "NAC",
+			"status": "compatible",
+			"notes": "N-Acetyl Cysteine (NAC) at 600-1200 mg/day provides antioxidant liver protection and supports glutathione synthesis. Often used alongside TUDCA for comprehensive hepatoprotection during oral steroid cycles. Can be continued long-term as a general liver health supplement."
+		},
+		{
+			"peptide": "Nandrolone",
+			"status": "monitor",
+			"notes": "Combining Dianabol with nandrolone (Deca-Durabolin) is a classic mass-building stack from the golden era of bodybuilding. However, both compounds aromatize and the combination significantly increases estrogenic side effects, water retention, and cardiovascular strain. Requires careful estrogen and prolactin management."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Noticeable increase in strength and energy during workouts. Initial water retention begins. Improved sense of well-being and increased appetite. Some users report enhanced pumps and muscle fullness within the first few training sessions."
+		},
+		{
+			"period": "Week 1",
+			"effects": "Significant strength increases across major lifts. Weight gain of 3-6 lbs, primarily from water and glycogen retention. Pronounced muscle fullness and pumps, especially in the back and shoulders. Blood pressure may begin to rise."
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Dramatic strength gains continue. Total weight gain of 8-15 lbs. Visible increase in muscle size, though much is intracellular water. Potential onset of estrogenic side effects (water retention, bloating, nipple sensitivity) if aromatase inhibitor is insufficient. Back pumps may become uncomfortable during deadlifts and other posterior chain exercises."
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Peak effects reached. Total weight gain of 10-20 lbs. Maximum strength gains achieved. Liver enzymes (ALT, AST) are likely elevated. This is typically when Dianabol is discontinued as the injectable base compound has fully saturated. Some weight loss (5-10 lbs of water) is expected in the 1-2 weeks following discontinuation."
+		},
+		{
+			"period": "Post-Discontinuation",
+			"effects": "Water weight sheds rapidly over 1-2 weeks. Liver enzymes begin to normalize within 2-4 weeks. Retained muscle mass depends on ongoing training, nutrition, and continuation of the injectable testosterone base. Strength may dip slightly as water-mediated leverage decreases but should stabilize above pre-Dbol baseline."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Significant water retention and bloating (estrogen-mediated)",
+			"Elevated blood pressure from fluid retention and increased red blood cell mass",
+			"Liver stress with elevated ALT/AST enzymes (dose and duration dependent)",
+			"Back pumps (painful lower back cramping during exercise)",
+			"Increased appetite",
+			"Oily skin and acne",
+			"Suppression of endogenous testosterone production (HPTA suppression)",
+			"Mild mood changes (increased aggression, irritability, or euphoria)"
+		],
+		"rare": [
+			"Gynecomastia (breast tissue development from methylestradiol conversion)",
+			"Significant HDL cholesterol suppression and LDL elevation",
+			"Cholestatic jaundice (bile flow obstruction from hepatic stress)",
+			"Hair loss acceleration in those predisposed to male pattern baldness",
+			"Left ventricular hypertrophy with repeated or prolonged use",
+			"Peliosis hepatis (blood-filled cysts in the liver) with chronic use"
+		],
+		"stopSigns": [
+			"Yellowing of skin or eyes (jaundice - indicates serious liver distress)",
+			"Severe persistent upper right abdominal pain (hepatic distress)",
+			"Dark brown or tea-colored urine (potential liver or kidney damage)",
+			"Severe uncontrolled blood pressure (above 160/100 mmHg)",
+			"Persistent painful gynecomastia or rapid breast tissue growth",
+			"Severe headaches or visual disturbances",
+			"Chest pain, shortness of breath, or signs of cardiovascular distress"
+		],
+		"contraindications": [
+			"Pre-existing liver disease or impaired hepatic function",
+			"Active or history of hormone-sensitive cancers (prostate, breast)",
+			"Uncontrolled hypertension or significant cardiovascular disease",
+			"Elevated hematocrit (above 54%) at baseline",
+			"Concurrent use of other hepatotoxic oral steroids (do not stack C17-aa orals)",
+			"Pregnancy or potential exposure to pregnant women",
+			"Heavy alcohol use (compounded hepatotoxicity risk)",
+			"Cholestatic liver conditions or history of drug-induced liver injury"
+		],
+		"monitoring": [
+			"Liver function tests (ALT, AST, GGT, bilirubin): before cycle, at 3 weeks, and 4 weeks post-discontinuation",
+			"Complete blood count with hematocrit: before and during cycle",
+			"Lipid panel (total cholesterol, LDL, HDL, triglycerides): before and after cycle",
+			"Blood pressure: check daily or at minimum 3x per week during use",
+			"Estradiol (sensitive assay): 2-3 weeks into cycle to guide AI dosing",
+			"Fasting blood glucose: Dianabol can impair insulin sensitivity at higher doses"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Tablets or capsules with consistent size, shape, and color within the same batch",
+			"Properly sealed packaging with batch number and expiration date",
+			"Third-party lab testing confirming identity and dose accuracy",
+			"Purchased from a verified and reputable source with testing history",
+			"Dose matches label claim within reasonable tolerance (90-110%)"
+		],
+		"warning": [
+			"Tablets with inconsistent sizing, crumbling, or color variation within the same batch",
+			"No third-party testing or certificate of analysis available",
+			"Unusually low pricing that suggests underdosed or counterfeit product",
+			"Source with no verifiable reputation or testing track record"
+		],
+		"bad": [
+			"Product with no labeling, lot number, or expiration date",
+			"Tablets that dissolve or crumble before ingestion, suggesting poor manufacturing",
+			"Lab testing showing significant underdosing or presence of unidentified compounds",
+			"Product causing unusual or unexpected side effects inconsistent with methandrostenolone",
+			"Any signs of contamination, foreign material, or unusual odor"
+		]
+	},
+	"references": [
+		{
+			"title": "The history of synthetic testosterone",
+			"authors": "Freeman, E.R., Bloom, D.A., McGuire, E.J.",
+			"journal": "The Journal of Urology",
+			"year": "2001",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11257634/",
+			"keyFindings": "Historical review covering the development of synthetic anabolic-androgenic steroids including methandrostenolone (Dianabol), documenting its creation for the US Olympic weightlifting team and subsequent approval and withdrawal from pharmaceutical markets."
+		},
+		{
+			"title": "Androgenic anabolic steroid abuse and the cardiovascular system",
+			"authors": "Achar, S., Rostamian, A., Narayan, S.M.",
+			"journal": "Handbook of Experimental Pharmacology",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20020375/",
+			"keyFindings": "Comprehensive review of cardiovascular effects of anabolic-androgenic steroids including oral 17-alpha-alkylated compounds. Documents adverse effects on lipid profiles, blood pressure, left ventricular hypertrophy, and thrombotic events associated with AAS use."
+		},
+		{
+			"title": "Liver toxicity of anabolic androgenic steroids",
+			"authors": "Solimini, R., Rotolo, M.C., Mastrobattista, L., et al.",
+			"journal": "Internal and Emergency Medicine",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28364370/",
+			"keyFindings": "Review of hepatotoxicity mechanisms specific to 17-alpha-alkylated oral anabolic steroids. Documents cholestatic liver injury, peliosis hepatis, and hepatocellular carcinoma risk associated with prolonged use of oral steroids including methandrostenolone."
+		},
+		{
+			"title": "Anabolic steroid abuse and renal cell carcinoma",
+			"authors": "Bryden, A.A., Rothwell, P.J., O'Reilly, P.H.",
+			"journal": "The Lancet",
+			"year": "1995",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/7637858/",
+			"keyFindings": "Case report and literature review documenting the association between long-term anabolic steroid use and hepatic and renal malignancies, reinforcing the importance of limiting oral steroid cycle duration and monitoring liver function."
+		},
+		{
+			"title": "Adverse effects of anabolic androgenic steroids",
+			"authors": "Hoffman, J.R., Ratamess, N.A.",
+			"journal": "Journal of Sports Science and Medicine",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24259988/",
+			"keyFindings": "Comprehensive review of the adverse effects of anabolic-androgenic steroids, including detailed analysis of hepatotoxicity, cardiovascular effects, endocrine disruption, and psychological effects. Provides dose-response and duration-dependent risk assessments for oral and injectable AAS."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Mechanisms of hepatotoxicity of 17-alpha-alkylated anabolic steroids",
+			"date": "2017",
+			"source": "Internal and Emergency Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28364370/",
+			"summary": "Updated review of the specific hepatotoxic mechanisms of C17-alpha-alkylated oral steroids, including cholestasis, oxidative stress, and direct hepatocyte damage, reinforcing recommendations for cycle length limits and liver monitoring."
+		},
+		{
+			"title": "Cardiovascular toxicity of illicit anabolic-androgenic steroid use",
+			"date": "2017",
+			"source": "Circulation",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28137935/",
+			"summary": "Large observational study comparing cardiac function in long-term AAS users versus non-users, finding significant reductions in left ventricular systolic function and increased coronary atherosclerosis in steroid users, with oral compounds conferring additional lipid-related cardiovascular risk."
+		},
+		{
+			"title": "Anabolic-androgenic steroid use and body image in men: a growing concern for clinicians",
+			"date": "2019",
+			"source": "Psychotherapy and Psychosomatics",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/30943490/",
+			"summary": "Clinical review highlighting the psychological aspects of AAS use, including muscle dysmorphia, dependence patterns, and the growing prevalence of oral steroid use among non-competitive recreational lifters."
+		}
+	]
+}

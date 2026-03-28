@@ -1,0 +1,270 @@
+{
+	"id": "superdrol",
+	"name": "Superdrol",
+	"subtitle": "Oral Anabolic Steroid | Extreme Potency & Liver Stress",
+	"aliases": [
+		"Methyldrostanolone",
+		"Methasterone",
+		"Sdrol"
+	],
+	"compoundKind": "anabolic",
+	"categories": [
+		"anabolic"
+	],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "10-20 mg/day (absolute maximum)",
+		"frequency": "Split into 2 doses daily (morning and evening)",
+		"cycleDuration": "3-4 weeks maximum (shorter cycles strongly preferred)",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "304.47 Da",
+		"type": "17-alpha-alkylated anabolic-androgenic steroid (C20H32O2)",
+		"modifications": [
+			"17-alpha-methylation for oral bioavailability",
+			"2-alpha-methyl modification derived from drostanolone (Masteron)",
+			"DHT derivative with no capacity for aromatization to estrogen"
+		],
+		"halfLife": "~8-9 hours",
+		"halfLifeSeconds": 30600,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Superdrol (methyldrostanolone, also known as methasterone) is a synthetic oral anabolic-androgenic steroid derived from drostanolone (Masteron) with the addition of a 17-alpha-methyl group for oral bioavailability. It is widely regarded as one of the most potent oral anabolic steroids ever produced, delivering dramatic strength and lean mass gains in very short timeframes. Superdrol was originally marketed in the United States as a \"prohormone\" dietary supplement beginning in 2005 by Designer Supplements, exploiting a regulatory loophole since it was not explicitly listed as a controlled substance at the time. It was pulled from the market and subsequently classified as a Schedule III controlled substance under the Designer Anabolic Steroid Control Act of 2014. Despite its remarkable anabolic potency, Superdrol carries an extreme hepatotoxicity profile that distinguishes it from virtually all other commonly used oral steroids. Cases of severe cholestatic jaundice, liver failure, and hospitalizations have been reported even at moderate doses and short cycle lengths. It does not aromatize to estrogen, which means it does not cause water retention or gynecomastia, but this also means it provides no estrogenic support for joints, mood, or libido when used without a testosterone base. Superdrol is strictly an advanced-only compound and is not suitable for beginners under any circumstances.",
+	"mechanism": "Superdrol exerts its effects through high-affinity binding to the intracellular androgen receptor (AR), stimulating androgen-responsive gene transcription that promotes nitrogen retention, protein synthesis, and glycogenolysis in skeletal muscle. As a DHT derivative, it cannot be aromatized by the CYP19 aromatase enzyme, so it produces no estrogenic metabolites. This accounts for the characteristic dry, hard appearance it produces without subcutaneous water retention. The 2-alpha-methyl group enhances its anabolic potency relative to its parent compound drostanolone, giving it an anabolic-to-androgenic ratio that significantly favors muscle-building effects over androgenic side effects in target tissues. The 17-alpha-methyl group allows it to survive first-pass hepatic metabolism, but this same modification is responsible for its severe hepatotoxicity. Superdrol is metabolized primarily by the liver, placing enormous stress on hepatic conjugation and bile transport pathways. It has been shown to cause dose-dependent cholestasis by disrupting bile salt export pump (BSEP) function, leading to intrahepatic bile acid accumulation. This mechanism underlies the cholestatic jaundice and hepatocellular injury that are disproportionately common with this compound compared to other 17-alpha-alkylated steroids.",
+	"keyBenefits": [
+		"Rapid and dramatic increases in lean muscle mass within 2-3 weeks",
+		"Significant strength gains, often among the most pronounced of any oral steroid",
+		"No aromatization to estrogen, producing a dry and hard muscular appearance",
+		"No water retention or estrogen-mediated side effects such as gynecomastia",
+		"Pronounced improvements in muscle fullness, vascularity, and density",
+		"Effective at very low doses relative to other oral anabolic steroids"
+	],
+	"indications": [
+		{
+			"category": "Body Composition & Strength",
+			"items": [
+				{
+					"name": "Rapid Lean Mass Accrual",
+					"description": "Superdrol produces substantial lean mass gains in compressed timeframes, typically 8-12 pounds of lean tissue in a 3-4 week cycle. These gains are notably dry and devoid of water retention due to the absence of estrogenic activity.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Widely reported to produce some of the most dramatic strength increases of any oral steroid. Users commonly report significant personal records within the first 2-3 weeks of use.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Muscle Hardening & Definition",
+					"description": "As a non-aromatizing DHT derivative, Superdrol promotes a dense, dry, and grainy muscular appearance without subcutaneous water retention. Often used in the final weeks before a bodybuilding competition.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Superdrol is administered exclusively by the oral route as a 17-alpha-alkylated steroid. It was historically available in capsule or tablet form, typically dosed at 10 mg per unit. Due to its extreme hepatotoxicity, cycle lengths must be kept as short as possible and liver support supplementation is mandatory rather than optional. There is no injectable formulation in common use.",
+			"protocols": [
+				{
+					"goal": "Performance - Conservative / First-Time Users",
+					"dose": "10 mg/day",
+					"frequency": "Once daily or split into 2 doses",
+					"route": "Oral",
+					"notes": "The recommended starting dose for users who have not previously run Superdrol. Even at 10 mg/day, results are substantial. Do not exceed 3 weeks at this dose. TUDCA (500 mg/day) and NAC (1200 mg/day) are mandatory throughout the cycle and for 2 weeks after cessation. Bloodwork for liver enzymes (ALT, AST, bilirubin) should be obtained before starting and at the 2-week mark."
+				},
+				{
+					"goal": "Performance - Standard",
+					"dose": "20 mg/day",
+					"frequency": "Split into 2 doses (morning and evening)",
+					"route": "Oral",
+					"notes": "The upper limit of commonly used dosing. 20 mg/day produces extreme results but dramatically increases hepatotoxicity. Cycle length must not exceed 3-4 weeks. Full liver support protocol is absolutely non-negotiable: TUDCA 500-1000 mg/day, NAC 1200 mg/day. Alcohol must be completely avoided. If lethargy, appetite loss, or dark urine develops, discontinue immediately and obtain liver function testing."
+				}
+			],
+			"keyBenefits": [
+				"Oral dosing with no injection required",
+				"Effective at very low milligram doses compared to other orals",
+				"Rapid onset of action with noticeable effects within the first week"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "A testosterone base is considered essential when running Superdrol. Because Superdrol does not aromatize, users will have no circulating estrogen if testosterone is absent, leading to crashed estrogen symptoms including severe joint pain, lethargy, mood disturbance, and sexual dysfunction. A TRT dose of testosterone (100-200 mg/week) provides the necessary estrogenic support while Superdrol delivers the primary anabolic effect."
+		},
+		{
+			"peptide": "TUDCA",
+			"status": "synergistic",
+			"notes": "Tauroursodeoxycholic acid is essential -- not optional -- when using Superdrol. TUDCA protects against cholestatic liver injury by supporting bile acid transport and preventing intrahepatic bile acid accumulation, which is the primary mechanism of Superdrol-induced hepatotoxicity. Dose: 500-1000 mg/day, starting before the cycle begins and continuing for at least 2 weeks after cessation."
+		},
+		{
+			"peptide": "N-Acetylcysteine (NAC)",
+			"status": "synergistic",
+			"notes": "NAC replenishes hepatic glutathione stores and provides antioxidant protection against oxidative liver damage. Given Superdrol's extreme hepatotoxicity, NAC at 1200 mg/day is considered mandatory liver support alongside TUDCA. The two agents work through complementary mechanisms and should be used together."
+		},
+		{
+			"peptide": "Other Oral Steroids",
+			"status": "avoid",
+			"notes": "Combining Superdrol with any other 17-alpha-alkylated oral steroid (Anadrol, Dianabol, Winstrol, etc.) compounds hepatotoxic stress and dramatically increases the risk of serious liver injury. This combination should be avoided without exception."
+		},
+		{
+			"peptide": "Alcohol",
+			"status": "avoid",
+			"notes": "Alcohol consumption during Superdrol use is extremely dangerous. Even moderate drinking compounds hepatic stress and can precipitate acute liver injury. Complete abstinence from alcohol is mandatory for the duration of the cycle and for several weeks afterward."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-5",
+			"effects": "Initial effects become noticeable rapidly. Increased muscle fullness, enhanced pumps during training, and early strength improvements. Some users report a sense of increased aggression or focus in the gym. Appetite may begin to decrease as the liver is placed under stress."
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Significant strength gains become apparent, often dramatic. Lean mass increases are visible and measurable, with a notably dry and hard appearance. Muscle vascularity improves. Lethargy may begin to set in as liver stress accumulates. Appetite suppression is common."
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Peak anabolic effects. Strength gains are at their most dramatic. Lean mass gains of 8-12 pounds are commonly reported by this stage. However, liver-related side effects typically intensify -- lethargy, reduced appetite, and a general sense of malaise are common. Liver enzymes are likely significantly elevated. Most users should terminate the cycle by the end of week 3."
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Only for experienced users who are tolerating the compound well and have confirmed acceptable liver values via bloodwork. Diminishing returns as liver stress reaches its peak. Additional gains are marginal compared to the escalating health risk. The cycle must end no later than week 4."
+		},
+		{
+			"period": "Post-Cycle (Week 1-4 after cessation)",
+			"effects": "Lethargy and appetite typically improve within 5-10 days of stopping. Liver enzymes begin to normalize but may take 4-8 weeks to return to baseline depending on the degree of elevation. Some lean mass and strength may be lost, particularly if estrogen and testosterone levels are not properly managed during recovery. Post-cycle therapy is essential."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Severe hepatotoxicity (elevated ALT, AST, GGT, and bilirubin -- often dramatically)",
+			"Pronounced lethargy and fatigue, particularly from week 2 onward",
+			"Significant appetite suppression and nausea",
+			"Elevated blood pressure",
+			"Severe lower back pumps and shin splints during physical activity",
+			"HDL cholesterol suppression and LDL elevation (adverse lipid shift)",
+			"Complete suppression of endogenous testosterone production",
+			"Decreased libido without a testosterone base",
+			"Acne and oily skin"
+		],
+		"rare": [
+			"Cholestatic jaundice requiring hospitalization",
+			"Acute liver failure (documented in case reports even at standard doses)",
+			"Peliosis hepatis (blood-filled hepatic cysts)",
+			"Severe hypertension requiring medical intervention",
+			"Hair loss and accelerated male pattern baldness",
+			"Gynecomastia from progesterone-mediated pathways (uncommon but reported)",
+			"Rhabdomyolysis from extreme training volume combined with hepatic compromise",
+			"Prolonged HPTA suppression requiring extended recovery"
+		],
+		"stopSigns": [
+			"Yellowing of the skin or eyes (jaundice) -- seek medical attention immediately",
+			"Dark brown or tea-colored urine",
+			"Clay-colored or pale stools",
+			"Severe or persistent right upper quadrant abdominal pain",
+			"Extreme fatigue disproportionate to training or sleep patterns",
+			"Persistent nausea, vomiting, or complete loss of appetite",
+			"Unexplained itching (pruritus), which may indicate cholestasis",
+			"Chest pain, severe headache, or visual disturbances suggesting hypertensive crisis"
+		],
+		"contraindications": [
+			"Any pre-existing liver condition or history of liver disease",
+			"Elevated baseline liver enzymes from any cause",
+			"Concurrent use of other hepatotoxic medications or supplements",
+			"Active or recent alcohol use disorder",
+			"History of cholestatic jaundice from any prior anabolic steroid use",
+			"Cardiovascular disease, uncontrolled hypertension, or significant dyslipidemia",
+			"Beginners or intermediates without extensive experience with other anabolic compounds",
+			"Women (virilization risk is extreme at any effective dose)",
+			"Anyone unwilling to obtain pre-cycle and mid-cycle bloodwork"
+		],
+		"monitoring": [
+			"Liver function tests (ALT, AST, GGT, bilirubin, ALP): baseline, 2 weeks into cycle, end of cycle, and 4 weeks post-cycle",
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline and 4 weeks post-cycle",
+			"Complete blood count with differential: baseline and end of cycle",
+			"Blood pressure: daily self-monitoring throughout the cycle",
+			"Total and free testosterone, LH, FSH, estradiol: baseline and post-cycle to guide PCT",
+			"Fasting glucose: baseline, particularly in individuals with insulin resistance risk factors",
+			"Subjective monitoring: daily self-assessment of appetite, energy levels, urine color, and stool color"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Product from a reputable underground lab with consistent third-party testing history",
+			"Third-party certificate of analysis confirming identity and potency as methasterone",
+			"Properly dosed at 10 mg per tablet or capsule with consistent unit weight",
+			"Packaging includes lot number, manufacturing date, and expiration date",
+			"Tablets or capsules are uniform in size, color, and appearance"
+		],
+		"warning": [
+			"Product labeled at doses above 10 mg per unit (increases risk of accidental overdosing)",
+			"No third-party testing or certificate of analysis available",
+			"Source with limited track record or unverifiable reputation",
+			"Inconsistent tablet or capsule sizing suggesting poor manufacturing quality control",
+			"Labeled as a 'prohormone' or 'dietary supplement' (no longer legally sold as such)"
+		],
+		"bad": [
+			"No labeling, lot number, or any identifying information",
+			"Lab testing reveals substituted compound or significant underdosing/overdosing",
+			"Presence of contaminants, heavy metals, or undisclosed active ingredients",
+			"Product sold as a legal supplement (Superdrol has been a controlled substance since 2014)",
+			"Severe or unexpected adverse effects suggesting adulterated or mislabeled product"
+		]
+	},
+	"references": [
+		{
+			"title": "Severe Cholestatic Jaundice in a Recreational Bodybuilder Using Superdrol (Methasterone): A Case Report and Literature Review",
+			"authors": "Nasr, J., Ahmad, J.",
+			"journal": "Digestive Diseases and Sciences",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18521703/",
+			"keyFindings": "Case report documenting severe cholestatic hepatitis in a bodybuilder following a short course of Superdrol, with bilirubin levels exceeding 20 mg/dL. Full recovery occurred after several weeks of supportive care and cessation of the compound. Highlights the disproportionate hepatotoxicity of methasterone relative to other oral anabolic steroids."
+		},
+		{
+			"title": "Drug-Induced Liver Injury from Anabolic Androgenic Steroids: A Systematic Review",
+			"authors": "Bond, P., Llewellyn, W., Van Mol, P.",
+			"journal": "Drug Safety",
+			"year": "2022",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35534748/",
+			"keyFindings": "Systematic review of anabolic steroid-induced liver injury identifying methasterone (Superdrol) as one of the most frequently implicated compounds in cases of severe cholestatic jaundice. The review found that 17-alpha-alkylated steroids as a class carry hepatotoxic risk, but methasterone was overrepresented in serious adverse event reports relative to its prevalence of use."
+		},
+		{
+			"title": "Cholestatic Jaundice and IgA Nephropathy Associated with the Use of Methyldrostanolone (Superdrol)",
+			"authors": "Holtzclaw, B.H., Sanchez, J.E.",
+			"journal": "Clinical Nephrology",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23993166/",
+			"keyFindings": "Case report describing concurrent cholestatic jaundice and IgA nephropathy in a young male following Superdrol use, demonstrating that the compound's toxicity can extend beyond hepatic injury to include renal complications. Both conditions resolved after discontinuation and supportive treatment."
+		},
+		{
+			"title": "Designer Steroids -- Over-the-Counter Supplements and Their Androgenic Component: Review of an Increasing Problem",
+			"authors": "Rahnema, C.D., Crosnoe, L.E., Kim, E.D.",
+			"journal": "Andrology",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25345999/",
+			"keyFindings": "Review of designer anabolic steroids sold as over-the-counter supplements, including Superdrol, detailing the regulatory failures that allowed potent anabolic steroids to be marketed as dietary supplements. Discusses the clinical consequences including hepatotoxicity, endocrine disruption, and cardiovascular risk."
+		},
+		{
+			"title": "The Designer Anabolic Steroid Control Act of 2014",
+			"authors": "United States Congress",
+			"journal": "Public Law 113-260",
+			"year": "2014",
+			"url": "https://www.congress.gov/bill/113th-congress/senate-bill/2012",
+			"keyFindings": "Federal legislation that added methasterone (Superdrol) and numerous other designer steroids to Schedule III of the Controlled Substances Act, closing the regulatory loophole that had allowed these potent anabolic agents to be sold legally as dietary supplements."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Liver Injury From Herbals and Dietary Supplements in the U.S. Drug-Induced Liver Injury Network",
+			"date": "2023",
+			"source": "Hepatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36626621/",
+			"summary": "Analysis from the U.S. Drug-Induced Liver Injury Network identifying bodybuilding supplements containing anabolic steroids, including methasterone, as a leading cause of supplement-related liver injury. Cholestatic injury patterns predominated, with prolonged recovery times observed in severe cases."
+		}
+	]
+}

@@ -1,0 +1,350 @@
+{
+	"id": "masteron",
+	"name": "Masteron",
+	"subtitle": "DHT-Derived Anabolic Steroid | Hardening & Anti-Estrogenic",
+	"aliases": [
+		"Mast",
+		"Drostanolone",
+		"Drostanolone Propionate",
+		"Drostanolone Enanthate",
+		"Mast P",
+		"Mast E"
+	],
+	"compoundKind": "anabolic",
+	"categories": ["anabolic"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "300-500 mg/week",
+		"frequency": "Every other day (propionate) or 2x per week (enanthate)",
+		"cycleDuration": "8-12 weeks (propionate) or 10-14 weeks (enanthate)",
+		"storage": "Room temperature (68-77F). Protect from light."
+	},
+	"molecular": {
+		"weight": "304.47 Da (base)",
+		"type": "DHT-derived anabolic steroid (C20H32O2)",
+		"modifications": [
+			"2-alpha-methyl group added to the DHT backbone, increasing anabolic activity and resistance to 3-alpha-hydroxysteroid dehydrogenase inactivation",
+			"Propionate ester (MW 360.53 Da) - half-life of approximately 2 days",
+			"Enanthate ester (MW 472.70 Da) - half-life of approximately 10 days",
+			"Does not undergo aromatization to estrogen due to DHT-derived structure"
+		],
+		"halfLife": "~2 days (propionate), ~10 days (enanthate)",
+		"halfLifeSeconds": 172800,
+		"halfLifeRoute": "Intramuscular (propionate ester)"
+	},
+	"overview": "Masteron (drostanolone) is a synthetic dihydrotestosterone (DHT)-derived anabolic-androgenic steroid originally developed and marketed as Masteril and Drostanolone Propionate for the treatment of inoperable breast cancer in postmenopausal women. It received FDA approval for this indication in the 1970s but has since been discontinued from pharmaceutical markets. Structurally, drostanolone is DHT with a 2-alpha-methyl group, which increases its anabolic potency and protects it from metabolic breakdown by 3-alpha-hydroxysteroid dehydrogenase in muscle tissue. As a DHT derivative, Masteron does not aromatize to estrogen and exhibits mild anti-estrogenic properties, likely through competitive inhibition at the aromatase enzyme or direct antagonism at the estrogen receptor. This makes it uniquely suited for cutting and contest preparation cycles where a dry, hard, and grainy physique is desired. Masteron is not a mass-building compound; its primary value lies in aesthetic enhancement, estrogen management, and synergy with other anabolic agents. It is available in two ester forms: the short-acting propionate (original pharmaceutical form) and the longer-acting enanthate (underground lab formulation). Effective results are most visible at lower body fat percentages, typically below 12-15%, where its hardening and drying effects become pronounced.",
+	"mechanism": "Drostanolone binds to the androgen receptor with high affinity, promoting protein synthesis and nitrogen retention in skeletal muscle. As a DHT derivative, it cannot be converted to estrogen by the aromatase enzyme, eliminating estrogen-related side effects such as water retention and gynecomastia from the compound itself. Masteron exhibits anti-estrogenic activity through a dual mechanism: it competitively inhibits aromatase enzyme activity (reducing conversion of other aromatizable steroids like testosterone to estradiol) and may act as a weak antagonist at estrogen receptors in breast tissue, which was the basis for its historical use in breast cancer treatment. This anti-estrogenic property is the reason Masteron can reduce or eliminate the need for dedicated aromatase inhibitors when stacked with testosterone. Unlike testosterone, drostanolone is not a substrate for 5-alpha reductase, as it is already a DHT derivative and cannot be further reduced. This means its full androgenic potency is expressed in all tissues, including hair follicles and the prostate, which accounts for its significant hair loss potential in genetically predisposed individuals. The 2-alpha-methyl modification prevents inactivation by 3-alpha-hydroxysteroid dehydrogenase in muscle, allowing drostanolone to exert its full anabolic effect at the tissue level rather than being rapidly metabolized to inactive forms as unmodified DHT would be.",
+	"keyBenefits": [
+		"Produces a hard, dry, and grainy appearance by eliminating subcutaneous water retention",
+		"Mild anti-estrogenic properties that can reduce or replace the need for aromatase inhibitors on cycle",
+		"Does not aromatize, eliminating estrogen-mediated side effects from the compound itself",
+		"Enhances the visual effects of other steroids in a stack by reducing water retention and bloat",
+		"Modest increases in strength without significant weight gain, useful for weight-class athletes",
+		"Improves muscle density and vascularity at low body fat percentages",
+		"Well-tolerated with a relatively mild side effect profile compared to other anabolic steroids",
+		"Short detection window with propionate ester compared to many other injectable steroids"
+	],
+	"indications": [
+		{
+			"category": "Oncology (Historical)",
+			"items": [
+				{
+					"name": "Inoperable Breast Cancer in Postmenopausal Women",
+					"description": "Drostanolone propionate was FDA-approved for the treatment of advanced, inoperable breast cancer in postmenopausal women. Its anti-estrogenic properties provided tumor-suppressive effects in hormone-receptor-positive breast cancers. This indication has been superseded by modern selective estrogen receptor modulators and aromatase inhibitors, and pharmaceutical production has been discontinued.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Cutting and Contest Preparation",
+					"description": "Masteron is primarily used during cutting phases and pre-contest preparation to achieve a hard, dry, and defined physique. Its anti-estrogenic and non-aromatizing properties eliminate water retention from the compound, while its androgenic effects promote muscle hardness and vascularity. Most effective when body fat is below 12-15%.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Recomposition and Aesthetic Enhancement",
+					"description": "At moderate doses alongside a testosterone base, Masteron can improve body composition by promoting a leaner, more vascular appearance without significant scale weight changes. Commonly used in recomposition phases where the goal is visual improvement rather than mass gain.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Hormonal Management",
+			"items": [
+				{
+					"name": "Estrogen Control on Cycle",
+					"description": "Masteron's mild anti-estrogenic properties allow it to reduce circulating estradiol levels when stacked with aromatizable compounds like testosterone. Some users employ it specifically to minimize or eliminate the need for pharmaceutical aromatase inhibitors, which can negatively impact lipids, joint comfort, and bone mineral density.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Masteron is administered exclusively via intramuscular injection. Two ester formulations exist: drostanolone propionate, the original pharmaceutical preparation with a short half-life requiring frequent injections (every other day or daily), and drostanolone enanthate, a longer-acting formulation produced by underground labs that permits less frequent dosing (twice weekly). Propionate remains the more widely used and available form.",
+			"protocols": [
+				{
+					"goal": "Cutting / Aesthetic Enhancement",
+					"dose": "300-400 mg/week",
+					"frequency": "Every other day (propionate) or 2x per week (enanthate)",
+					"route": "Intramuscular",
+					"notes": "Standard cutting dose alongside a testosterone base. Visual effects are most pronounced below 12-15% body fat. Higher doses do not proportionally increase aesthetic benefit and worsen hair loss risk. Run for 8-12 weeks with propionate or 10-14 weeks with enanthate."
+				},
+				{
+					"goal": "Contest Preparation",
+					"dose": "400-500 mg/week",
+					"frequency": "Every other day or daily (propionate)",
+					"route": "Intramuscular",
+					"notes": "Higher end dosing used in the final 6-8 weeks before competition for maximum hardening and drying effects. Often stacked with trenbolone, testosterone propionate, and/or Winstrol. Body fat must be sufficiently low for the full effect to be visible."
+				},
+				{
+					"goal": "AI Replacement / Estrogen Management",
+					"dose": "200-300 mg/week",
+					"frequency": "Every other day (propionate) or 2x per week (enanthate)",
+					"route": "Intramuscular",
+					"notes": "Lower dose used primarily for its anti-estrogenic properties when running moderate-dose testosterone. Can reduce or eliminate the need for anastrozole or other AIs, sparing lipids and joint health. Not a complete AI replacement at high testosterone doses."
+				}
+			],
+			"protocolVariants": [
+				{
+					"name": "Drostanolone Propionate",
+					"details": "The original pharmaceutical ester with a half-life of approximately 2 days. Requires injections every other day or daily for stable blood levels. Faster onset of action (effects noticeable within 1-2 weeks) and faster clearance after discontinuation. Preferred for shorter cycles and pre-contest use where precise timing of peak levels matters. Typical concentration: 100 mg/mL.",
+					"keyDifferences": [
+						"Half-life: ~2 days",
+						"Injection frequency: every other day or daily",
+						"Faster onset and clearance",
+						"Preferred for 8-10 week cycles",
+						"Original pharmaceutical formulation",
+						"Lower injection volume at standard concentrations"
+					]
+				},
+				{
+					"name": "Drostanolone Enanthate",
+					"details": "A longer-acting ester with a half-life of approximately 10 days, allowing for twice-weekly injections. Not a pharmaceutical product; produced exclusively by underground laboratories. Slower onset (2-3 weeks to reach stable levels) but more convenient dosing schedule. Better suited for longer cycles of 10-14 weeks where injection frequency is a concern. Typical concentration: 200 mg/mL.",
+					"keyDifferences": [
+						"Half-life: ~10 days",
+						"Injection frequency: 2x per week",
+						"Slower onset, longer to reach steady state",
+						"Preferred for 10-14 week cycles",
+						"Underground lab formulation only",
+						"Higher concentration reduces injection volume"
+					]
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Pre-filled drostanolone vial (typically 100 mg/mL propionate or 200 mg/mL enanthate in carrier oil)",
+					"Syringes (1 mL or 3 mL)",
+					"Drawing needle (18-21 gauge)",
+					"Injection needle (22-25 gauge for IM)",
+					"Alcohol swabs",
+					"Sharps container"
+				],
+				"steps": [
+					"Wash hands thoroughly and prepare a clean work surface",
+					"Wipe vial stopper with alcohol swab and allow to dry",
+					"Draw air into syringe equal to the volume of drostanolone to be withdrawn",
+					"Insert drawing needle through vial stopper and inject air to equalize pressure",
+					"Invert vial and withdraw the prescribed dose, tapping to remove air bubbles",
+					"Switch to injection needle (do not inject with drawing needle)",
+					"Clean injection site with alcohol swab in circular motion outward",
+					"Insert needle at 90-degree angle into ventrogluteal, vastus lateralis, or deltoid muscle",
+					"Aspirate briefly (optional per current guidelines), then inject slowly over 10-30 seconds",
+					"Withdraw needle, apply gentle pressure with gauze, dispose of needle in sharps container"
+				]
+			},
+			"keyBenefits": [
+				"Two ester options allow flexibility in injection frequency and cycle length",
+				"Propionate ester provides rapid onset and fast clearance for precise cycle timing",
+				"Enanthate ester offers convenient twice-weekly dosing for longer protocols",
+				"Can be combined in the same syringe with testosterone esters for single-injection convenience",
+				"Low injection volume at standard concentrations"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "Testosterone is the standard base compound run alongside Masteron. Masteron complements testosterone by providing anti-estrogenic activity that can reduce or eliminate the need for a dedicated AI, while testosterone provides the anabolic foundation and maintains normal physiological function. A common ratio is equal doses or slightly higher testosterone. Masteron enhances the aesthetic quality of a testosterone cycle by reducing water retention and promoting a harder appearance."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "compatible",
+			"notes": "Masteron's inherent anti-estrogenic properties often reduce or eliminate the need for anastrozole when running moderate testosterone doses. If both are used, estradiol should be monitored carefully to avoid over-suppression, which can impair joint comfort, lipid health, and bone mineral density. Many users find that adding Masteron to a testosterone cycle allows them to drop their AI entirely or reduce the dose significantly."
+		},
+		{
+			"peptide": "Finasteride",
+			"status": "avoid",
+			"notes": "Finasteride inhibits 5-alpha reductase, which converts testosterone to DHT. Since Masteron is already a DHT derivative, finasteride does not reduce its androgenic potency in any tissue. Furthermore, using finasteride while on Masteron is counterproductive: it will not protect against Masteron-induced hair loss (the primary reason for taking finasteride) and may worsen the overall androgenic side effect profile by altering the androgen balance. Individuals concerned about hair loss should avoid Masteron entirely rather than attempting to mitigate it with finasteride."
+		},
+		{
+			"peptide": "Trenbolone",
+			"status": "synergistic",
+			"notes": "A classic pre-contest stack. Both compounds are non-aromatizing and promote a hard, dry, vascular physique. Masteron's anti-estrogenic properties complement trenbolone's potent anabolic and fat-partitioning effects. This combination is commonly used in the final weeks of contest preparation for maximum conditioning. Requires a testosterone base."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "synergistic",
+			"notes": "Growth hormone enhances fat mobilization and promotes a leaner body composition, amplifying the visual effects that Masteron provides. GH-driven reductions in subcutaneous fat make Masteron's hardening and drying effects more visible. The combination is frequently used during contest preparation and advanced cutting protocols."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "With propionate ester, blood levels stabilize quickly and some users notice a mild mood and confidence boost from the androgenic activity within the first week. No significant visual changes yet. Enanthate users will still be building toward stable blood levels during this period."
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Anti-estrogenic effects become apparent: reduced water retention, less bloating, and a visibly tighter midsection if body fat is reasonably low. Users on aromatizing compounds may notice improved estrogen management. Early signs of muscle hardness and improved vascularity begin to appear in lean individuals."
+		},
+		{
+			"period": "Week 5-8",
+			"effects": "Peak aesthetic effects for propionate users. Pronounced muscle hardness, dryness, and vascularity at low body fat. The 'granite' or 'grainy' look becomes evident, particularly in the shoulders, chest, and arms. Strength may increase modestly. Hair loss in predisposed individuals typically becomes noticeable during this period."
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Full steady-state effects for enanthate users. Continued drying and hardening effects. Individuals running Masteron through the final weeks of a contest prep will see the most dramatic visual impact during this phase. Lipid values (especially HDL suppression) should be monitored as duration increases."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Hair loss and accelerated male pattern baldness (significant risk as a DHT derivative - the most commonly reported side effect)",
+			"Acne and increased skin oiliness, particularly on the back and shoulders",
+			"Suppression of natural testosterone production (requires PCT or ongoing TRT)",
+			"Injection site pain or discomfort (more common with propionate ester)",
+			"Mild aggression or irritability from elevated androgenic activity",
+			"HDL cholesterol suppression and adverse lipid profile changes"
+		],
+		"rare": [
+			"Prostate enlargement or urinary symptoms in predisposed individuals",
+			"Virilization in women (deepening voice, hirsutism, clitoral enlargement) even at low doses",
+			"Insomnia or restlessness at higher doses",
+			"Left ventricular hypertrophy with prolonged supraphysiological use",
+			"Elevated hematocrit requiring monitoring at higher doses or prolonged use",
+			"Mood changes including depressive symptoms during discontinuation"
+		],
+		"stopSigns": [
+			"Severe chest pain, tightness, or pressure",
+			"Sudden shortness of breath or difficulty breathing",
+			"Significant scalp hair loss progressing rapidly beyond baseline shedding",
+			"Swelling, warmth, or pain in one leg (potential deep vein thrombosis)",
+			"Severe or persistent headaches with visual disturbances",
+			"Signs of stroke: sudden numbness, confusion, trouble speaking, loss of coordination",
+			"Persistent urinary difficulty or pain (prostate-related)"
+		],
+		"contraindications": [
+			"Prostate cancer (active or history of hormone-sensitive prostate cancer)",
+			"Breast cancer in males",
+			"Pregnancy or potential for pregnancy (causes virilization of female fetus)",
+			"Known hypersensitivity to drostanolone or any formulation components",
+			"Severe hepatic impairment",
+			"Pre-existing significant hair loss where further androgenic exposure is unacceptable",
+			"Polycythemia (hematocrit above 54% at baseline)",
+			"Uncontrolled cardiovascular disease or severe dyslipidemia"
+		],
+		"monitoring": [
+			"Total and free testosterone: baseline and every 6-8 weeks during use",
+			"Estradiol (sensitive assay): important to ensure adequate estrogen levels are maintained, as Masteron's anti-estrogenic effect combined with any AI use can crash estradiol",
+			"Complete blood count with hematocrit: baseline, 6-8 weeks, then every 3 months",
+			"Comprehensive metabolic panel and lipid panel: baseline and every 8-12 weeks (pay particular attention to HDL suppression)",
+			"Liver function tests: baseline and periodic monitoring",
+			"PSA (prostate-specific antigen): baseline and every 6 months for men over 40",
+			"Blood pressure: regular monitoring throughout use",
+			"Hair loss assessment: document baseline hair density if hair preservation is a concern"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, pale yellow to yellow oil with no visible particles or cloudiness",
+			"Proper labeling with concentration (typically 100 mg/mL propionate or 200 mg/mL enanthate), ester type, and expiration date",
+			"Intact rubber stopper with no signs of prior puncture",
+			"Oil draws smoothly with appropriate viscosity",
+			"Product sourced from reputable supplier with third-party testing (note: no pharmaceutical-grade Masteron currently in production)"
+		],
+		"warning": [
+			"Concentration claims above 150 mg/mL for propionate or 250 mg/mL for enanthate (higher concentrations often cause post-injection pain)",
+			"Vial label with spelling errors, misaligned printing, or unprofessional appearance",
+			"Oil appears slightly darker than expected but is otherwise clear",
+			"No third-party analytical testing documentation available"
+		],
+		"bad": [
+			"Cloudy, discolored, or particulate-containing solution (contamination risk)",
+			"Crashed product (crystallized steroid visible in vial)",
+			"Broken or missing tamper-evident seal on vial",
+			"No labeling, incorrect labeling, or missing expiration date",
+			"Pain, redness, or swelling at injection site lasting more than 72 hours (potential infection or abscess)",
+			"Product sourced without any testing or third-party verification"
+		]
+	},
+	"references": [
+		{
+			"title": "Drostanolone Propionate (Masteril): A Short Review of a Discontinued Breast Cancer Drug",
+			"authors": "Raynaud, J.P.",
+			"journal": "Journal of Steroid Biochemistry and Molecular Biology",
+			"year": "1988",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/3143862/",
+			"keyFindings": "Review of drostanolone propionate's clinical use in inoperable breast cancer, documenting its anti-estrogenic properties and mechanisms. Demonstrated objective tumor regression in a subset of postmenopausal patients with hormone-receptor-positive disease, supporting its classification as a hormonal antineoplastic agent."
+		},
+		{
+			"title": "Androgens and the Treatment of Breast Cancer",
+			"authors": "Goldenberg, I.S.",
+			"journal": "Cancer",
+			"year": "1964",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14100476/",
+			"keyFindings": "Early clinical report on the use of androgenic steroids including drostanolone in breast cancer treatment. Documented objective response rates and the dual mechanism of direct anti-tumor effects and anti-estrogenic activity that formed the basis for FDA approval."
+		},
+		{
+			"title": "Anabolic-Androgenic Steroid Use and Body Image in Men: A Growing Concern for Clinicians",
+			"authors": "Kanayama, G., Hudson, J.I., Pope, H.G.",
+			"journal": "Psychotherapy and Psychosomatics",
+			"year": "2012",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22116310/",
+			"keyFindings": "Comprehensive review covering the pharmacology and health effects of anabolic-androgenic steroids including DHT derivatives like drostanolone. Documented dose-dependent cardiovascular, hepatic, and endocrine adverse effects associated with long-term use."
+		},
+		{
+			"title": "Adverse Effects of Anabolic Androgenic Steroids on Cardiovascular System",
+			"authors": "Achar, S., Rostamian, A., Narayan, S.M.",
+			"journal": "Southern Medical Journal",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21088621/",
+			"keyFindings": "Review of cardiovascular toxicity associated with anabolic steroids, documenting HDL cholesterol suppression, left ventricular hypertrophy, and thrombotic risk. Emphasized the importance of cardiovascular monitoring in individuals using DHT-derived compounds like Masteron."
+		},
+		{
+			"title": "Comparison of the Pharmacokinetics of Testosterone Propionate and Testosterone Enanthate",
+			"authors": "Nieschlag, E., Behre, H.M.",
+			"journal": "Testosterone: Action, Deficiency, Substitution (Cambridge University Press)",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15478437/",
+			"keyFindings": "Pharmacokinetic analysis of propionate versus enanthate ester formulations applicable to understanding drostanolone ester behavior. Propionate demonstrates a half-life of 1-3 days with rapid peak levels, while enanthate extends the half-life to 7-10 days, directly informing injection frequency protocols for both Masteron esters."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "A Systematic Review of the Effects of Different Types of Anabolic Androgenic Steroids on Lipid Metabolism",
+			"date": "March 2020",
+			"source": "International Journal of Environmental Research and Public Health",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32235572/",
+			"summary": "Systematic review documenting that DHT-derived steroids including drostanolone produce significant HDL cholesterol suppression, reinforcing the importance of lipid monitoring during Masteron use and keeping cycle lengths moderate."
+		},
+		{
+			"title": "Detection of Drostanolone and Its Metabolites in Human Urine by Gas Chromatography-Mass Spectrometry",
+			"date": "September 2006",
+			"source": "Journal of Chromatography B",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16854629/",
+			"summary": "Study characterizing the urinary metabolites of drostanolone for anti-doping detection. Identified key metabolites including 2-alpha-methyl-5-alpha-androstan-3-alpha-ol-17-one and established detection windows for propionate and enanthate esters."
+		},
+		{
+			"title": "Cardiovascular Effects of Anabolic Steroids: Cross-Sectional Study of Male Strength Athletes",
+			"date": "January 2017",
+			"source": "Circulation: Heart Failure",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28912249/",
+			"summary": "Cross-sectional study of 140 strength athletes finding that long-term anabolic steroid use was associated with reduced left ventricular systolic function and increased coronary artery plaque volume, applicable to all anabolic steroids including DHT derivatives like Masteron."
+		}
+	]
+}

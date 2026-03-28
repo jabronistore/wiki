@@ -1,0 +1,344 @@
+{
+	"id": "dhb",
+	"name": "DHB",
+	"subtitle": "Injectable Anabolic Steroid | Lean Mass Alternative to Primobolan",
+	"aliases": ["Dihydroboldenone", "1-Testosterone", "1-Test Cyp"],
+	"compoundKind": "anabolic",
+	"categories": ["anabolic"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "200-400 mg/week",
+		"frequency": "2-3x per week (cypionate)",
+		"cycleDuration": "10-16 weeks",
+		"storage": "Room temperature (68-77F). Protect from light."
+	},
+	"molecular": {
+		"weight": "288.43 Da (base)",
+		"type": "5-alpha reduced boldenone derivative (C19H28O2)",
+		"modifications": [
+			"Cypionate ester (most common formulation) - extends half-life to ~7-9 days",
+			"5-alpha reduction of boldenone removes the 1,2-double bond, yielding a compound with higher androgenic receptor binding affinity and reduced estrogenic activity",
+			"No aromatization to estradiol, eliminating estrogen-related side effects at the compound level"
+		],
+		"halfLife": "~7-9 days (cypionate ester)",
+		"halfLifeSeconds": 691200,
+		"halfLifeRoute": "Intramuscular (cypionate ester)"
+	},
+	"overview": "Dihydroboldenone (DHB), also known as 1-testosterone, is the 5-alpha reduced metabolite of boldenone. While boldenone itself is converted to DHB in the body via 5-alpha reductase, standalone DHB is used as an injectable anabolic steroid in its own right, most commonly as the cypionate ester. DHB occupies an unusual niche in the anabolic steroid landscape: it possesses a high anabolic rating (approximately 200, double that of testosterone) with a moderate androgenic rating (approximately 100, equal to testosterone), producing lean, dry gains with no estrogenic activity. These properties have led to frequent comparisons with Primobolan (methenolone), as both compounds promote quality lean tissue gains without water retention or estrogen-related side effects. However, DHB is generally considered more potent milligram-for-milligram than Primobolan and is significantly cheaper, making it an attractive alternative for users seeking similar aesthetic results at lower cost. The compound has never been approved by the FDA for any medical indication, and all available DHB products are manufactured by underground laboratories. DHB's most notable drawback is severe post-injection pain (PIP), which is widely reported even at moderate concentrations and can be debilitating enough to limit practical use. This PIP is attributed to the compound's high melting point and crystalline nature, which causes it to precipitate out of solution in muscle tissue after injection, triggering a localized inflammatory response.",
+	"mechanism": "DHB exerts its anabolic effects through direct binding to the androgen receptor (AR) with high affinity. As a 5-alpha reduced steroid, DHB cannot be further reduced by 5-alpha reductase and is not a substrate for aromatase, meaning it does not convert to estradiol or any estrogenic metabolite. This absence of aromatization is a key pharmacological distinction from both testosterone and its parent compound boldenone. The result is a purely androgenic and anabolic signaling profile without estrogenic contribution to water retention, fat distribution, or gynecomastia risk. DHB promotes nitrogen retention, protein synthesis, and increased IGF-1 expression in skeletal muscle, driving lean tissue accretion. Because DHB does not aromatize, users running it as a secondary compound alongside a testosterone base typically find that their overall estrogen management is simplified, as DHB adds anabolic potency without adding to the estrogenic load. However, this also means that DHB provides none of the beneficial effects of estrogen on lipid profiles, bone density, neuroprotection, or libido, reinforcing the need for a testosterone base to maintain adequate estradiol levels. DHB is reported to have mild hepatotoxic potential, which is somewhat unusual for a non-17-alpha-alkylated injectable steroid and may relate to its metabolic pathway or the high concentrations of carrier solvents (such as guaiacol or ethyl oleate) used in UGL formulations to keep the compound in solution.",
+	"keyBenefits": [
+		"High anabolic potency (approximately 200:100 anabolic-to-androgenic ratio) promoting lean, quality muscle gains",
+		"No aromatization to estrogen, eliminating water retention, bloating, and gynecomastia risk from the compound itself",
+		"Produces dry, lean aesthetic gains comparable to Primobolan at a fraction of the cost",
+		"Does not convert to DHT or other more androgenic metabolites via 5-alpha reductase, as it is already 5-alpha reduced",
+		"Can be stacked with testosterone without significantly complicating estrogen management",
+		"Moderate androgenic activity supports strength gains without excessive androgenic side effects in most users"
+	],
+	"indications": [
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Mass Accretion",
+					"description": "DHB promotes steady, dry muscle gains without water retention. Its high anabolic rating relative to androgenic activity makes it effective for quality tissue accrual. Often compared to Primobolan for this purpose but considered more potent per milligram.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cutting and Recomposition",
+					"description": "The absence of estrogenic activity and water retention makes DHB well-suited for cutting phases and body recomposition, where maintaining or building lean tissue while reducing body fat is the goal. The dry, hard aesthetic it produces is valued during contest preparation or lean-out phases.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Aesthetic Conditioning",
+					"description": "DHB produces a hard, dry, lean look without subcutaneous water retention. This aesthetic quality is the primary reason for its comparison to Primobolan and makes it a common choice in cosmetic-focused protocols.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Performance",
+			"items": [
+				{
+					"name": "Strength Enhancement",
+					"description": "Moderate but consistent strength gains at typical doses. DHB is not primarily a strength compound but its high anabolic activity does support progressive overload and strength development over the course of a cycle.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Recovery Between Training Sessions",
+					"description": "Improved nitrogen retention and protein synthesis support faster recovery from training, allowing for increased volume and frequency. This effect is comparable to other moderate-potency anabolic steroids.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "DHB is administered exclusively via intramuscular injection. The cypionate ester is the most common and essentially the only widely available formulation, providing a half-life of approximately 7-9 days. No oral formulation exists, as DHB is not 17-alpha-alkylated. All DHB products are underground lab (UGL) manufactured. The compound is notorious for severe post-injection pain (PIP) due to its high melting point, which causes crystallization at the injection site. UGL manufacturers often use solvents such as guaiacol or ethyl oleate and keep concentrations at 100-200 mg/mL to mitigate this, but PIP remains the defining practical limitation of DHB use.",
+			"protocols": [
+				{
+					"goal": "Lean Bulk - Moderate",
+					"dose": "200-300 mg/week",
+					"frequency": "2-3x per week (cypionate)",
+					"route": "Intramuscular",
+					"notes": "Must be run alongside a testosterone base. A common ratio is 1:4 to 1:2 DHB-to-testosterone (e.g., 200 mg DHB with 400-500 mg testosterone per week). Start at the lower end to assess tolerance for PIP. Rotate injection sites aggressively. Cycle length 10-14 weeks."
+				},
+				{
+					"goal": "Lean Bulk - Standard",
+					"dose": "300-400 mg/week",
+					"frequency": "2-3x per week (cypionate)",
+					"route": "Intramuscular",
+					"notes": "Standard dose range for experienced users who tolerate the PIP. Run alongside testosterone at a 1:2 or higher ratio. Some users find that warming the oil and injecting slowly reduces but does not eliminate PIP. Cycle length 12-16 weeks."
+				},
+				{
+					"goal": "Cutting / Recomposition",
+					"dose": "200-300 mg/week",
+					"frequency": "2-3x per week (cypionate)",
+					"route": "Intramuscular",
+					"notes": "Lower doses are typical during cutting phases where the goal is lean tissue preservation and a dry aesthetic. Pairs well with a moderate testosterone base (TRT to slightly above TRT doses). The absence of water retention is particularly valued during caloric deficit phases."
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"DHB cypionate vial (typically 100-200 mg/mL in carrier oil with solvents)",
+					"Syringes (1 mL or 3 mL)",
+					"Drawing needle (18-21 gauge)",
+					"Injection needle (22-25 gauge for IM)",
+					"Alcohol swabs",
+					"Sharps container"
+				],
+				"steps": [
+					"Wash hands thoroughly and prepare a clean work surface",
+					"Warm the vial gently (body temperature) to reduce oil viscosity and help keep compound in solution -- this may slightly reduce PIP",
+					"Wipe vial stopper with alcohol swab and allow to dry",
+					"Draw air into syringe equal to the volume of DHB to be withdrawn",
+					"Insert drawing needle through vial stopper and inject air to equalize pressure",
+					"Invert vial and withdraw the prescribed dose, tapping to remove air bubbles",
+					"Inspect for any visible crystals or cloudiness in the drawn oil -- if crashed, warm gently until fully dissolved before injecting",
+					"Switch to injection needle (do not inject with drawing needle)",
+					"Clean injection site with alcohol swab in circular motion outward",
+					"Insert needle at 90-degree angle into ventrogluteal, vastus lateralis, or deltoid muscle",
+					"Inject slowly over 30-60 seconds (slower injection may reduce PIP severity)",
+					"Withdraw needle, apply gentle pressure with gauze, dispose of needle in sharps container",
+					"Massage the injection site gently after injection to help disperse the oil"
+				]
+			},
+			"keyBenefits": [
+				"Cypionate ester allows twice or thrice weekly injection schedule",
+				"Precise dose control with injectable formulation",
+				"Can be combined in the same syringe with testosterone esters",
+				"No hepatic first-pass effect (though mild liver stress is still reported)"
+			]
+		}
+	],
+	"protocolVariants": [
+		{
+			"name": "DHB Cypionate - Lean Bulk",
+			"source": "Standard Protocol",
+			"philosophy": "Use DHB as a lean mass builder alongside a testosterone base, prioritizing quality gains without estrogenic side effects. The primary challenge is managing PIP to maintain injection compliance.",
+			"description": "DHB cypionate at 200-400 mg per week run alongside testosterone at 2-4 times the DHB dose. This protocol leverages DHB's high anabolic potency and lack of aromatization to add lean tissue without complicating estrogen management. The testosterone base provides essential estrogenic support for mood, libido, joint health, and lipid profiles. Cycle lengths of 10-16 weeks are typical, with the shorter end being more common due to the cumulative burden of PIP over extended periods. Users should rotate injection sites (ventrogluteal, vastus lateralis, deltoid) to avoid repeated inflammation in the same tissue. Warming the oil before injection and injecting slowly are standard practices to mitigate PIP.",
+			"keyDifferences": [
+				"Half-life: ~7-9 days with cypionate ester, supporting 2-3x weekly injection",
+				"No aromatization -- does not contribute to estrogenic side effects",
+				"Severe PIP is the dose-limiting factor for most users",
+				"Cheaper than Primobolan while offering comparable or superior anabolic potency",
+				"Mild hepatotoxic potential despite being a non-oral injectable",
+				"Limited research compared to more established AAS compounds"
+			],
+			"doses": [
+				{
+					"phase": "Moderate",
+					"dose": "200-300 mg",
+					"frequency": "Split into 2-3 injections per week",
+					"duration": "10-14 weeks"
+				},
+				{
+					"phase": "Standard",
+					"dose": "300-400 mg",
+					"frequency": "Split into 2-3 injections per week",
+					"duration": "12-16 weeks"
+				}
+			]
+		},
+		{
+			"name": "DHB Cypionate - Cutting",
+			"source": "Cutting / Recomposition Protocol",
+			"philosophy": "Utilize DHB's dry, non-estrogenic properties during caloric deficit phases to preserve lean tissue and enhance conditioning without water retention.",
+			"description": "DHB at 200-300 mg per week alongside TRT-level testosterone (100-200 mg per week) during a cutting or recomposition phase. The low testosterone dose minimizes estrogenic water retention while still maintaining adequate estradiol for health, and DHB provides additional anabolic support to prevent muscle catabolism during the deficit. This protocol is valued for producing a hard, dry, vascular appearance. The lower DHB dose also somewhat reduces the severity and frequency of PIP episodes compared to higher-dose protocols.",
+			"keyDifferences": [
+				"Lower DHB dose reduces PIP burden while still providing meaningful anabolic support",
+				"Paired with TRT-level testosterone to minimize water retention during cutting",
+				"Focus on tissue preservation and aesthetic conditioning rather than mass accrual",
+				"Shorter cycles (8-12 weeks) are common during cutting phases"
+			],
+			"doses": [
+				{
+					"phase": "Cutting",
+					"dose": "200-300 mg",
+					"frequency": "Split into 2-3 injections per week",
+					"duration": "8-12 weeks"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "A testosterone base is essential when running DHB. DHB suppresses endogenous testosterone production and does not aromatize, so without exogenous testosterone, estradiol levels will crash, leading to low-estrogen symptoms including joint pain, flat mood, low libido, and adverse lipid changes. Typical ratios are 1:4 to 1:2 DHB-to-testosterone (e.g., 200-400 mg DHB with 500-800 mg testosterone per week). The testosterone provides the estrogenic support that DHB cannot."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "compatible",
+			"notes": "Aromatase inhibitors are generally less necessary when DHB is part of a stack because DHB itself does not aromatize. AI requirements are determined entirely by the testosterone dose in the protocol. Some users find they can run a higher testosterone dose alongside DHB without needing as aggressive an AI approach as they would with other aromatizing compounds stacked on top of testosterone."
+		},
+		{
+			"peptide": "Boldenone",
+			"status": "monitor",
+			"notes": "DHB is the 5-alpha reduced metabolite of boldenone, so stacking the two is pharmacologically redundant and generally not recommended. Both compounds would be providing similar receptor-level signaling. If lean mass and vascularity are the goals, choosing one or the other is more practical than combining them."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Blood levels begin accumulating with the cypionate ester. PIP from early injections is typically the most noticeable experience during this period, as users are adapting to the compound. No significant anabolic effects are expected yet. Some users report mild soreness and swelling at injection sites lasting 3-7 days per injection."
+		},
+		{
+			"period": "Week 3-5",
+			"effects": "Blood levels approach steady state. Early signs of improved recovery and slight increases in muscle fullness may become apparent. PIP may lessen somewhat as the body adapts, though it rarely resolves entirely. No significant water retention or bloating, which is a noticeable difference from testosterone-only or other aromatizing compound cycles."
+		},
+		{
+			"period": "Week 6-10",
+			"effects": "Anabolic effects become clearly visible. Lean muscle gains are accumulating with a notably dry, hard appearance. Strength improvements are steady if modest. The dry aesthetic quality of the gains becomes increasingly apparent, particularly in users at lower body fat percentages. Vascularity may be enhanced. Users often comment on the quality of gains resembling Primobolan at this stage."
+		},
+		{
+			"period": "Week 10-16",
+			"effects": "Peak effects for those running longer cycles. Maximum lean tissue benefit is realized. The cumulative burden of PIP over many weeks leads some users to discontinue before reaching this point. Those who persist report continued lean mass accrual and improved conditioning. After discontinuation, the cypionate ester clears significantly faster than boldenone undecylenate, allowing PCT to begin approximately 2 weeks after the final injection."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Severe post-injection pain (PIP) -- the defining side effect of DHB, reported by the majority of users regardless of concentration, carrier oil, or injection technique. Pain typically begins 12-48 hours post-injection and can last 3-7 days, sometimes accompanied by redness, swelling, and warmth at the injection site.",
+			"Suppression of endogenous testosterone production (profoundly suppressive, as with all AAS)",
+			"Mild to moderate acne and oily skin in predisposed individuals",
+			"Mild hair thinning in genetically predisposed individuals",
+			"Mild liver stress (elevated ALT/AST reported even with injectable administration, potentially related to carrier solvents or the compound's metabolic pathway)"
+		],
+		"rare": [
+			"Injection site abscess or sterile abscess formation from repeated injections into inflamed tissue",
+			"Significant cardiovascular strain including adverse lipid profile changes (HDL suppression, LDL elevation) with prolonged use",
+			"Left ventricular hypertrophy with chronic use at high doses",
+			"Prostate stimulation (though lower risk than testosterone due to no further 5-alpha reduction)",
+			"Insomnia or night sweats at higher doses",
+			"Allergic reaction to carrier solvents (guaiacol, ethyl oleate) used to keep DHB in solution"
+		],
+		"stopSigns": [
+			"Signs of injection site infection: expanding redness, increasing warmth, fever, or pus at injection site",
+			"Severe or worsening liver-related symptoms: dark urine, jaundice, persistent upper right abdominal pain",
+			"Significant blood pressure elevation unresponsive to management",
+			"Sudden shortness of breath or chest pain",
+			"Signs of allergic reaction: hives, difficulty breathing, swelling of face or throat after injection"
+		],
+		"contraindications": [
+			"Hepatic impairment or liver disease (DHB has mild hepatotoxic potential)",
+			"Cardiovascular disease or history of thromboembolic events",
+			"Prostate cancer (active or history of hormone-sensitive prostate cancer)",
+			"Known hypersensitivity to DHB, cypionate ester, or common carrier solvents (guaiacol, ethyl oleate)",
+			"Pregnancy or potential for pregnancy (Category X)",
+			"Pre-existing injection site complications or chronic inflammatory conditions at common injection sites"
+		],
+		"monitoring": [
+			"Liver function tests (ALT, AST, GGT): baseline, 4-6 weeks, and every 6-8 weeks throughout cycle -- more critical for DHB than typical injectables",
+			"Complete blood count with hematocrit: baseline and every 6-8 weeks",
+			"Total and free testosterone: baseline and mid-cycle to verify testosterone base adequacy",
+			"Estradiol (sensitive assay): monitor to ensure testosterone base is maintaining adequate E2 levels",
+			"Comprehensive metabolic panel and lipid panel: baseline and every 8-12 weeks",
+			"Blood pressure: regular monitoring throughout use",
+			"Injection site assessment: monitor for signs of infection, persistent inflammation, or abscess formation"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear oil with no visible particles, crystals, or cloudiness at room temperature",
+			"Third-party lab tested (HPLC or mass spectrometry) confirming identity and concentration",
+			"Concentration at 100-200 mg/mL (higher concentrations are more prone to crashing and worsened PIP)",
+			"Proper labeling with concentration, ester type (cypionate), carrier oil, solvents used, and batch number",
+			"Sourced from a reputable UGL with verifiable third-party testing history",
+			"Intact rubber stopper with no signs of prior puncture or compromised seal"
+		],
+		"warning": [
+			"Concentration above 200 mg/mL (significantly increased PIP and crash risk)",
+			"Product without third-party lab testing or certificate of analysis",
+			"Unknown carrier oil or solvent system",
+			"Vial label with spelling errors, misaligned printing, or unprofessional appearance",
+			"Product that has crashed (visible crystals) but redissolves with warming"
+		],
+		"bad": [
+			"Cloudy, discolored, or particulate-containing solution that does not resolve with gentle warming",
+			"Permanently crashed product that will not redissolve (indicates formulation failure)",
+			"Broken or missing tamper-evident seal on vial",
+			"No labeling, incorrect labeling, or missing batch/lot information",
+			"Severe PIP with signs of infection (fever, expanding redness, pus) suggesting contamination",
+			"Product sourced without any testing, reviews, or third-party verification"
+		]
+	},
+	"references": [
+		{
+			"title": "1-Testosterone (dihydroboldenone): a potent anabolic steroid with reduced androgenicity",
+			"authors": "Friedel, A., Geyer, H., Kamber, M., et al.",
+			"journal": "Toxicology Letters",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16289785/",
+			"keyFindings": "Characterized dihydroboldenone (1-testosterone) as a potent anabolic agent with a favorable anabolic-to-androgenic ratio. Documented its metabolic relationship to boldenone and confirmed that DHB is the 5-alpha reduced metabolite of boldenone, with distinct pharmacological properties including higher receptor binding affinity."
+		},
+		{
+			"title": "Metabolism of 1-testosterone and detection by gas chromatography/mass spectrometry in urine",
+			"authors": "Schoenfelder, M.",
+			"journal": "Drug Testing and Analysis",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21698778/",
+			"keyFindings": "Established the urinary metabolite profile for 1-testosterone (DHB) using GC-MS, identifying key metabolites for anti-doping detection. Confirmed the metabolic relationship between boldenone and dihydroboldenone and documented detection windows relevant to drug testing."
+		},
+		{
+			"title": "Cardiovascular Toxicity of Illicit Anabolic-Androgenic Steroid Use",
+			"authors": "Baggish, A.L., Weiner, R.B., Kanayama, G., et al.",
+			"journal": "Circulation",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28912249/",
+			"keyFindings": "Cross-sectional study demonstrating that long-term anabolic steroid use was associated with reduced left ventricular systolic function and accelerated coronary atherosclerosis. While not specific to DHB, the findings apply broadly to AAS including non-aromatizing compounds that suppress endogenous testosterone and alter lipid profiles."
+		},
+		{
+			"title": "An overview on the abuse of anabolic androgenic steroids: focus on boldenone",
+			"authors": "Pomara, C., Neri, M., Bello, S., Fiore, C., Riezzo, I., Turillazzi, E.",
+			"journal": "Forensic Science International",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25541029/",
+			"keyFindings": "Comprehensive review of boldenone pharmacology and metabolism, including documentation of the conversion pathway from boldenone to dihydroboldenone (1-testosterone) via 5-alpha reductase. Reviewed adverse effects and metabolic pathways relevant to both boldenone and its reduced metabolite."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Cardiovascular Toxicity of Illicit Anabolic-Androgenic Steroid Use",
+			"date": "January 2017",
+			"source": "Circulation",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28912249/",
+			"summary": "Cross-sectional study of 140 experienced strength athletes demonstrating that long-term anabolic steroid use was associated with reduced left ventricular systolic function and greater coronary artery plaque volume compared to non-users, with implications for all AAS including non-aromatizing compounds like DHB."
+		},
+		{
+			"title": "Anabolic Androgenic Steroid Abuse and the Cardiovascular System",
+			"date": "October 2018",
+			"source": "Handbook of Experimental Pharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29332181/",
+			"summary": "Review examining cardiovascular consequences of anabolic steroid abuse, noting that non-aromatizing compounds may pose specific lipid-related risks due to the absence of estrogen-mediated cardioprotection, a consideration directly applicable to DHB use."
+		},
+		{
+			"title": "Boldenone and cognate designer steroids: detection and characterization of metabolites",
+			"date": "March 2020",
+			"source": "Drug Testing and Analysis",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32246862/",
+			"summary": "Advanced metabolite characterization study covering boldenone and related compounds including dihydroboldenone, providing updated detection methodologies relevant to anti-doping testing and forensic identification."
+		}
+	]
+}

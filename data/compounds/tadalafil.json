@@ -2,9 +2,14 @@
 	"id": "tadalafil",
 	"name": "Tadalafil",
 	"subtitle": "PDE5 Inhibitor | Erectile Function & Blood Flow",
-	"aliases": ["Cialis"],
+	"aliases": [
+		"Cialis"
+	],
 	"compoundKind": "pharmaceutical",
-	"categories": ["pde5", "sexual-health"],
+	"categories": [
+		"pde5",
+		"sexual-health"
+	],
 	"researchStatus": "fda-approved",
 	"fdaApproved": true,
 	"molecular": {
@@ -138,6 +143,27 @@
 					"dose": "5mg",
 					"frequency": "Once daily",
 					"route": "Oral"
+				},
+				{
+					"goal": "Performance / Pre-workout (conservative)",
+					"dose": "12.5mg",
+					"frequency": "Twice per week (e.g., training days)",
+					"route": "Oral",
+					"notes": "Higher single dose taken on training days for enhanced blood flow and muscle pump. Start at twice weekly and assess tolerance before increasing frequency."
+				},
+				{
+					"goal": "Performance / Pre-workout (standard)",
+					"dose": "12.5mg",
+					"frequency": "Every other day (EOD)",
+					"route": "Oral",
+					"notes": "Common performance protocol providing near-continuous vasodilatory effect with a higher per-dose amount than daily low-dose. Monitor for headache and back pain at this dose."
+				},
+				{
+					"goal": "Performance / Pre-workout (aggressive)",
+					"dose": "12.5mg",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "Upper end of performance dosing. Provides maximum vasodilatory and blood flow benefits. Side effect incidence (headache, back pain, myalgia) increases at this dose and frequency. Not recommended without prior tolerance assessment at lower frequencies."
 				},
 				{
 					"goal": "Pulmonary arterial hypertension (Adcirca)",

@@ -2,13 +2,17 @@
 	"id": "mk-677",
 	"name": "MK-677",
 	"subtitle": "Ghrelin Receptor Agonist | Oral Growth Hormone Secretagogue",
-	"aliases": ["Ibutamoren"],
+	"aliases": [
+		"Ibutamoren"
+	],
 	"researchStatus": "well-studied",
 	"fdaApproved": false,
 	"molecular": {
 		"weight": "624.77 Da",
 		"type": "Non-peptide ghrelin receptor agonist",
-		"modifications": ["Oral bioavailability >60%"],
+		"modifications": [
+			"Oral bioavailability >60%"
+		],
 		"halfLife": "~24 hours",
 		"halfLifeSeconds": 86400
 	},
@@ -171,7 +175,8 @@
 			"Appetite stimulation (>50% of users)",
 			"Water retention (30-40%)",
 			"Lethargy (20-30%)",
-			"Fasting glucose elevation (5-15mg/dL)"
+			"Fasting glucose elevation (5-15mg/dL)",
+			"Note on testosterone suppression: at doses up to 20 mg daily, MK-677 is unlikely to cause significant testosterone suppression on its own. Above 20 mg daily, the likelihood of suppression and other side effects (insulin resistance, water retention, lethargy) increases. The case report documenting 85.7% testosterone suppression involved co-administration with LGD-4033, a SARM known to be profoundly suppressive, making the SARM the likely primary driver of that suppression."
 		],
 		"stopSigns": [
 			"Shortness of breath, chest pain, or unusual fatigue",
@@ -201,7 +206,9 @@
 			"Third-party testing documentation",
 			"Certificate of analysis showing >98% purity"
 		],
-		"warning": ["Products labeled 'for research only' may lack quality control"],
+		"warning": [
+			"Products labeled 'for research only' may lack quality control"
+		],
 		"bad": [
 			"Dietary supplement claims (FDA prohibits MK-677 in supplements)",
 			"Unknown purity or source without certificates of analysis",
@@ -288,7 +295,11 @@
 			"url": "https://pubmed.ncbi.nlm.nih.gov/40675653/"
 		}
 	],
-	"categories": ["growth-hormone", "weight-loss", "sleep"],
+	"categories": [
+		"growth-hormone",
+		"weight-loss",
+		"sleep"
+	],
 	"quickStats": {
 		"typicalDose": "Start 12.5mg daily, increase to 25mg based on tolerance",
 		"frequency": "Once daily, preferably at bedtime on empty stomach",

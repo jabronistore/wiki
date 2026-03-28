@@ -1,0 +1,302 @@
+{
+	"id": "halotestin",
+	"name": "Halotestin",
+	"subtitle": "Oral Anabolic Steroid | Extreme Strength & Aggression",
+	"aliases": [
+		"Fluoxymesterone",
+		"Halo"
+	],
+	"compoundKind": "anabolic",
+	"categories": [
+		"anabolic"
+	],
+	"researchStatus": "well-studied",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "10-20 mg/day",
+		"frequency": "Split into 2 doses daily (morning and pre-training)",
+		"cycleDuration": "2-4 weeks maximum",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "336.44 Da",
+		"type": "9-fluoro-11-beta-hydroxy-17-alpha-methyltestosterone (C20H29FO3)",
+		"modifications": [
+			"17-alpha-methylation for oral bioavailability",
+			"9-alpha-fluoro group increasing androgenic potency",
+			"11-beta-hydroxyl group enhancing androgen receptor binding affinity",
+			"Derived from testosterone with multiple structural modifications"
+		],
+		"halfLife": "~9.5 hours",
+		"halfLifeSeconds": 34200,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Halotestin (fluoxymesterone) is a synthetic oral anabolic-androgenic steroid derived from testosterone, first introduced in the late 1950s by Upjohn under the brand name Halotestin. It is characterized by an extraordinarily high androgenic rating of approximately 1900 relative to testosterone, paired with an anabolic rating of roughly 1900 as well, though its real-world muscle-building effects are far less pronounced than these numbers suggest. The compound was originally FDA-approved for the treatment of male hypogonadism and advanced breast cancer in women, though it is rarely prescribed today due to the availability of safer alternatives. Fluoxymesterone does not aromatize to estrogen, meaning it produces no estrogenic side effects such as water retention or gynecomastia. In performance contexts, halotestin is used almost exclusively by advanced athletes and competitive bodybuilders in the final weeks before competition or powerlifting meets, where its ability to dramatically increase aggression, neural drive, and strength output without adding water weight makes it uniquely valuable. It is considered one of the harshest oral steroids with respect to hepatotoxicity and is unsuitable for general physique enhancement or beginner use.",
+	"mechanism": "Fluoxymesterone exerts its effects primarily through exceptionally strong binding to the androgen receptor (AR), driven by its 9-alpha-fluoro and 11-beta-hydroxyl structural modifications that dramatically enhance receptor affinity beyond that of testosterone or DHT. Despite its extreme androgenic potency, it does not convert to estrogen via the aromatase enzyme, and its direct anabolic effect on skeletal muscle tissue is disproportionately low relative to its androgenic rating, likely due to rapid inactivation in muscle tissue. The compound's performance-enhancing effects are largely mediated through the central nervous system, increasing aggression, motivation, and perceived energy through androgen receptor activation in the brain. Fluoxymesterone also stimulates erythropoietin production, increasing red blood cell mass and oxygen-carrying capacity, which was the basis for its historical use in treating certain anemias. It enhances hemoglobin synthesis and may improve muscular endurance through improved oxygen delivery. The 17-alpha-methylation allows oral bioavailability but imposes significant hepatic stress, as the liver must process the intact steroid through first-pass metabolism. Fluoxymesterone suppresses endogenous testosterone production through negative feedback on the hypothalamic-pituitary-gonadal axis, and its extreme androgenic load can rapidly affect mood, lipid profiles, and prostate tissue.",
+	"keyBenefits": [
+		"Dramatic increase in strength and power output without water retention",
+		"Pronounced increase in aggression and competitive drive",
+		"Does not aromatize to estrogen, producing a hard and dry appearance",
+		"Enhances red blood cell production and oxygen-carrying capacity",
+		"Rapid onset of effects, typically noticeable within days",
+		"Uniquely suited for pre-competition or pre-meet peaking protocols",
+		"Short cycle duration limits cumulative exposure"
+	],
+	"indications": [
+		{
+			"category": "Medical (Historical/Rare)",
+			"items": [
+				{
+					"name": "Male Hypogonadism",
+					"description": "Originally FDA-approved for testosterone replacement in hypogonadal men. Fluoxymesterone was used to treat delayed puberty and androgen deficiency, though it has been almost entirely replaced by injectable testosterone and transdermal preparations due to its hepatotoxicity and unfavorable side effect profile.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Advanced Breast Cancer (Palliative)",
+					"description": "FDA-approved for palliative treatment of androgen-responsive, advanced inoperable breast cancer in women, typically 1-5 years post-menopause. This indication is rarely used today due to the availability of aromatase inhibitors and targeted therapies with superior safety profiles.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Performance (Advanced/Competition)",
+			"items": [
+				{
+					"name": "Pre-Competition Strength Peaking",
+					"description": "Used by powerlifters and strength athletes in the final 2-4 weeks before a competition to maximize strength output, aggression, and neural drive without adding bodyweight or water retention. The compound's effects on the central nervous system produce a pronounced increase in competitive intensity.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Pre-Contest Bodybuilding (Final Weeks)",
+					"description": "Employed by competitive bodybuilders in the last 2-4 weeks before stage to enhance muscle hardness, vascularity, and visual density without water retention. The non-aromatizing nature ensures no subcutaneous water accumulation during the critical final phase of contest preparation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Combat Sports Preparation",
+					"description": "Historically used by fighters and combat sport athletes to increase aggression and power output while staying within a weight class, as it adds no water weight. This use carries significant ethical and regulatory concerns given anti-doping testing.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Fluoxymesterone is exclusively administered orally as a 17-alpha-alkylated steroid. Pharmaceutical tablets have been produced in 2 mg, 5 mg, and 10 mg doses. The 17-alpha-methylation provides oral bioavailability but makes halotestin one of the most hepatotoxic oral anabolic steroids available. Due to its extreme liver toxicity, cycles must be kept very short and liver support supplementation is considered essential.",
+			"protocols": [
+				{
+					"goal": "Medical - Hypogonadism (Historical)",
+					"dose": "5-20 mg/day",
+					"frequency": "Divided into 2-4 doses daily",
+					"route": "Oral",
+					"notes": "Historical prescribing range for male hypogonadism. This application has been almost entirely abandoned in favor of injectable testosterone due to halotestin's hepatotoxicity and unfavorable risk-benefit profile for long-term hormone replacement."
+				},
+				{
+					"goal": "Performance - Strength Peaking",
+					"dose": "10-20 mg/day",
+					"frequency": "Split into 2 doses (morning and 1-2 hours pre-training)",
+					"route": "Oral",
+					"notes": "Standard performance dose for pre-competition strength peaking. Start at 10 mg/day to assess tolerance and increase to 20 mg/day only if needed. Duration strictly limited to 2-4 weeks. Doses above 20 mg/day significantly increase hepatotoxic risk with diminishing performance returns. Liver support (TUDCA 500 mg/day, NAC 1200 mg/day) is considered mandatory."
+				},
+				{
+					"goal": "Performance - Pre-Contest Hardening",
+					"dose": "10-20 mg/day",
+					"frequency": "Split into 2 doses daily",
+					"route": "Oral",
+					"notes": "Used in the final 2-4 weeks of contest preparation to enhance muscle density and aggression during calorically depleted training. Always used alongside a testosterone base. Must be discontinued well before any post-cycle recovery begins. Liver enzymes should be monitored before, during, and after use."
+				}
+			],
+			"keyBenefits": [
+				"Oral dosing with rapid absorption and onset of effects",
+				"Short half-life allows relatively quick clearance after discontinuation",
+				"No injection required",
+				"Precise dose titration possible with available tablet strengths"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "A testosterone base is considered essential when using halotestin. Fluoxymesterone will rapidly suppress endogenous testosterone production, and it provides no estrogenic activity. Without exogenous testosterone, users will experience symptoms of low estrogen (joint pain, low libido, poor mood) and hypogonadism. Typical combination: TRT-dose testosterone (100-200 mg/week) alongside halotestin 10-20 mg/day for the final 2-4 weeks of a cycle."
+		},
+		{
+			"peptide": "TUDCA",
+			"status": "compatible",
+			"notes": "Tauroursodeoxycholic acid (TUDCA) is considered essential liver support during any halotestin cycle due to the compound's severe hepatotoxicity. TUDCA protects against cholestatic liver injury and supports bile flow. Recommended dose: 500 mg/day minimum throughout the halotestin cycle and for 2 weeks after discontinuation."
+		},
+		{
+			"peptide": "N-Acetylcysteine (NAC)",
+			"status": "compatible",
+			"notes": "NAC provides hepatoprotective support through glutathione replenishment and antioxidant activity. Strongly recommended alongside halotestin to help mitigate oxidative liver stress. Typical dose: 1200 mg/day. Often combined with TUDCA for comprehensive liver protection."
+		},
+		{
+			"peptide": "Other Oral Steroids",
+			"status": "avoid",
+			"notes": "Combining halotestin with other 17-alpha-alkylated oral steroids (such as oxandrolone, oxymetholone, or methandrostenolone) dramatically compounds hepatotoxic stress and is strongly discouraged. Only one hepatotoxic oral compound should be used at a time. This is one of the most dangerous combinations in performance-enhancing drug use."
+		},
+		{
+			"peptide": "Warfarin",
+			"status": "monitor",
+			"notes": "Fluoxymesterone potentiates the anticoagulant effect of warfarin and other coumarin-type blood thinners by altering hepatic metabolism and reducing clearance. Concurrent use requires close monitoring of INR values and potential anticoagulant dose reduction."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Initial increase in aggression, focus, and training intensity. Many users report a noticeable change in mood and competitive drive within the first few doses. Strength increases may begin to manifest, particularly on heavy compound movements."
+		},
+		{
+			"period": "Day 4-10",
+			"effects": "Pronounced strength gains become evident. Aggression and neural drive reach noticeable levels. Muscles may take on a harder, flatter appearance due to the lack of water retention. Training intensity and work capacity typically peak during this window."
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Maximum performance effects. Strength output is at its highest, and the compound's effects on aggression and competitive drive are fully established. Liver stress markers (ALT, AST) are likely elevated. Lipid profiles will show adverse changes, particularly HDL suppression."
+		},
+		{
+			"period": "Week 3-4 (Discontinuation)",
+			"effects": "Most users discontinue by this point to limit hepatic damage. Effects begin to diminish within days of cessation due to the relatively short half-life. Liver enzymes should begin normalizing within 1-2 weeks after stopping, assuming no other hepatotoxic agents are in use."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Severe hepatic stress (elevated ALT, AST, GGT, bilirubin)",
+			"Pronounced aggression and irritability",
+			"HDL cholesterol suppression and LDL elevation",
+			"Elevated blood pressure",
+			"Headaches (frequently reported, may be related to blood pressure changes)",
+			"Suppression of endogenous testosterone production",
+			"Oily skin and acne",
+			"Decreased appetite (potentially related to liver stress)"
+		],
+		"rare": [
+			"Cholestatic jaundice (dose-dependent, more likely with extended use or high doses)",
+			"Peliosis hepatis (blood-filled cysts in the liver)",
+			"Hepatocellular carcinoma (associated with prolonged use in historical medical settings)",
+			"Severe mood disturbances or uncontrollable aggression",
+			"Prostatic hypertrophy or exacerbation of benign prostatic hyperplasia",
+			"Hair loss or accelerated male pattern baldness",
+			"Prolonged HPTA suppression beyond expected recovery window"
+		],
+		"stopSigns": [
+			"Yellowing of skin or eyes (jaundice, indicating serious liver damage)",
+			"Severe or persistent right upper quadrant abdominal pain",
+			"Dark-colored urine or pale/clay-colored stools",
+			"Extreme or uncontrollable aggression that affects daily functioning or relationships",
+			"Persistent severe headaches unresponsive to standard treatment",
+			"Chest pain, difficulty breathing, or signs of cardiovascular distress",
+			"Unusual bleeding or bruising",
+			"Nausea, vomiting, or profound fatigue suggesting hepatic compromise"
+		],
+		"contraindications": [
+			"Known or suspected prostate cancer",
+			"Breast cancer in males",
+			"Pregnancy (Category X - causes fetal harm)",
+			"Active liver disease or existing hepatic impairment",
+			"Severe cardiovascular disease or uncontrolled hypertension",
+			"Hypercalcemia",
+			"Nephrosis or nephrotic phase of nephritis",
+			"History of cholestatic jaundice or hepatic dysfunction from prior anabolic steroid use",
+			"Hypersensitivity to fluoxymesterone or any formulation component"
+		],
+		"monitoring": [
+			"Liver function tests (ALT, AST, GGT, bilirubin, ALP): baseline, weekly during use, and 2-4 weeks post-discontinuation",
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline and 2 weeks into use",
+			"Blood pressure: daily self-monitoring during use",
+			"Complete blood count with hematocrit: baseline and at cycle conclusion",
+			"Total and free testosterone, LH, FSH: baseline and post-cycle to assess HPTA recovery",
+			"Prostate-specific antigen (PSA) in men over 40: baseline and post-cycle",
+			"Subjective mood and aggression monitoring throughout use"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade product with manufacturer lot number and expiration date (Halotestin brand or authorized generic)",
+			"Proper labeling with correct dosage per tablet, lot number, and expiration date",
+			"Tablets are uniform in size, color, and shape with consistent imprinting",
+			"Prescribed by a licensed physician with documented clinical indication",
+			"Third-party lab testing confirming identity, potency, and absence of contaminants"
+		],
+		"warning": [
+			"Underground lab (UGL) product without pharmaceutical-grade verification",
+			"Tablets with inconsistent sizing, crumbling, or no manufacturer imprint",
+			"No third-party certificate of analysis available",
+			"Product labeled at unusually high doses per tablet (above 20 mg)",
+			"Packaging that appears unprofessional or has spelling errors"
+		],
+		"bad": [
+			"Product with no labeling or verifiable source information",
+			"Lab testing reveals substituted compound (methyltestosterone or other cheaper steroid sold as halotestin)",
+			"Contaminated product with heavy metals, bacteria, or undisclosed active ingredients",
+			"Expired product or product stored improperly",
+			"Severe or unexpected side effects suggesting mislabeled or adulterated product"
+		]
+	},
+	"references": [
+		{
+			"title": "Fluoxymesterone: A Review of Its Pharmacology and Therapeutic Use",
+			"authors": "Llewellyn, W.",
+			"journal": "Anabolics (Reference Guide)",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/",
+			"keyFindings": "Comprehensive pharmacological profile of fluoxymesterone detailing its extreme androgenic potency (1900 androgenic rating), non-aromatizing nature, and clinical applications in hypogonadism and breast cancer, alongside documentation of its significant hepatotoxicity relative to other oral anabolic steroids."
+		},
+		{
+			"title": "Hepatotoxicity of Anabolic Androgenic Steroids",
+			"authors": "Bond, P., Llewellyn, W., Van Mol, P.",
+			"journal": "Current Opinion in Endocrinology, Diabetes and Obesity",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27898586/",
+			"keyFindings": "Review documenting the spectrum of hepatotoxicity associated with 17-alpha-alkylated anabolic steroids including fluoxymesterone, ranging from transient enzyme elevations to cholestatic jaundice, peliosis hepatis, and hepatocellular carcinoma, with fluoxymesterone identified as one of the most hepatotoxic compounds in this class."
+		},
+		{
+			"title": "Androgens and Erythropoiesis",
+			"authors": "Shahidi, N.T.",
+			"journal": "New England Journal of Medicine",
+			"year": "1973",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/4567250/",
+			"keyFindings": "Landmark paper establishing the role of androgens including fluoxymesterone in stimulating erythropoietin production and red blood cell synthesis, which formed the basis for the historical use of halotestin in treating aplastic anemia and other refractory anemias before the availability of recombinant erythropoietin."
+		},
+		{
+			"title": "A Comparison of the Effects of Fluoxymesterone and Testosterone Propionate on the Nitrogen Balance of Patients with Breast Cancer",
+			"authors": "Gordan, G.S., Eisenberg, E., Loken, H.F., Gardner, B., Halden, A.",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "1956",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/13306770/",
+			"keyFindings": "Early clinical study comparing fluoxymesterone to testosterone propionate in breast cancer patients, demonstrating that oral fluoxymesterone achieved comparable nitrogen retention and anti-tumor activity to injectable testosterone, establishing its clinical viability as an oral androgen therapy."
+		},
+		{
+			"title": "Adverse Effects of Anabolic-Androgenic Steroids: A Literature Review",
+			"authors": "Hoffman, J.R., Ratamess, N.A.",
+			"journal": "Journal of Sports Medicine and Physical Fitness",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16946681/",
+			"keyFindings": "Comprehensive review of adverse effects associated with anabolic-androgenic steroid use including cardiovascular, hepatic, endocrine, and psychological effects, with specific discussion of the elevated hepatotoxic risk associated with 17-alpha-alkylated compounds such as fluoxymesterone."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Drug-Induced Liver Injury From Anabolic-Androgenic Steroids: A Systematic Review",
+			"date": "October 2023",
+			"source": "Hepatology Communications",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37756392/",
+			"summary": "Systematic review of steroid-induced liver injury cases confirming that 17-alpha-alkylated oral steroids, particularly fluoxymesterone and oxymetholone, carry the highest risk of clinically significant hepatotoxicity among anabolic agents, with cholestatic patterns being the most common presentation."
+		},
+		{
+			"title": "Cardiovascular Toxicity of Anabolic Steroids: An Update",
+			"date": "March 2023",
+			"source": "Current Opinion in Cardiology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36728919/",
+			"summary": "Updated review of cardiovascular risks associated with anabolic steroid use, noting that highly androgenic oral compounds such as fluoxymesterone produce particularly adverse lipid profile changes and may accelerate atherosclerosis through both direct vascular effects and dyslipidemia."
+		},
+		{
+			"title": "Neuropsychiatric Effects of Anabolic-Androgenic Steroids",
+			"date": "June 2022",
+			"source": "Psychoneuroendocrinology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35569336/",
+			"summary": "Research examining the neuropsychiatric effects of AAS use, with highly androgenic compounds like fluoxymesterone identified as being associated with greater incidence of aggression, mood instability, and irritability compared to compounds with lower androgenic ratings."
+		}
+	]
+}

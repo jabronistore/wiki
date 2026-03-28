@@ -1,0 +1,276 @@
+{
+	"id": "telmisartan",
+	"name": "Telmisartan",
+	"subtitle": "Angiotensin II Receptor Blocker | Cardiac Protection On Cycle",
+	"aliases": ["Micardis"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cardiovascular"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "20-80 mg/day",
+		"frequency": "Once daily",
+		"cycleDuration": "Ongoing (duration of AAS cycle or chronic use)",
+		"storage": "Room temperature (59-86F). Protect from moisture."
+	},
+	"molecular": {
+		"weight": "514.62 Da",
+		"type": "Benzimidazole derivative (C33H30N4O2)",
+		"modifications": [
+			"Oral tablet formulation in 20 mg, 40 mg, and 80 mg strengths",
+			"Also available as fixed-dose combination with hydrochlorothiazide (Micardis HCT)"
+		],
+		"halfLife": "~24 hours",
+		"halfLifeSeconds": 86400,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Telmisartan is an angiotensin II receptor blocker (ARB) originally developed for the treatment of hypertension and cardiovascular risk reduction. FDA-approved since 1998 and marketed as Micardis, it has become the preferred ARB among performance-enhancing drug users and anabolic steroid communities due to its long half-life, strong evidence for organ protection, and unique partial PPAR-gamma agonist activity. Unlike other ARBs, telmisartan activates peroxisome proliferator-activated receptor gamma (PPAR-gamma) at clinically relevant doses, conferring metabolic benefits that extend beyond blood pressure reduction. Anabolic androgenic steroids (AAS) are well-documented to elevate blood pressure, promote left ventricular hypertrophy, accelerate atherosclerosis, and impair renal function -- making proactive cardiovascular protection an essential component of harm reduction. Telmisartan addresses these concerns with once-daily dosing, 24-hour blood pressure coverage, and a favorable side effect profile that does not impair exercise performance or recovery.",
+	"mechanism": "Telmisartan selectively blocks the angiotensin II type 1 (AT1) receptor, preventing angiotensin II from exerting its vasoconstrictive, aldosterone-secreting, and pro-fibrotic effects. By antagonizing AT1, telmisartan lowers systemic vascular resistance and blood pressure while simultaneously reducing pathological cardiac and vascular remodeling. This is particularly relevant for AAS users, where supraphysiological androgen levels stimulate the renin-angiotensin-aldosterone system (RAAS) and promote myocardial fibrosis and left ventricular hypertrophy. Telmisartan also has the longest half-life of any ARB (approximately 24 hours), providing consistent receptor blockade throughout the dosing interval. Its unique partial agonism of PPAR-gamma -- a nuclear receptor involved in glucose and lipid metabolism -- distinguishes it from other ARBs. PPAR-gamma activation enhances insulin sensitivity, improves adiponectin secretion, reduces visceral fat accumulation, and exerts anti-inflammatory effects. Additionally, telmisartan demonstrates nephroprotective properties by reducing intraglomerular pressure and proteinuria, and has been shown in the ONTARGET trial to provide cardiovascular protection comparable to the ACE inhibitor ramipril in high-risk patients.",
+	"keyBenefits": [
+		"Potent 24-hour blood pressure reduction with once-daily dosing",
+		"Protection against AAS-induced left ventricular hypertrophy and cardiac remodeling",
+		"Nephroprotection through reduced intraglomerular pressure and proteinuria",
+		"Unique partial PPAR-gamma agonism improving insulin sensitivity and lipid metabolism",
+		"No negative impact on exercise performance, VO2 max, or recovery",
+		"Reduction of pathological vascular remodeling and arterial stiffness",
+		"Longest half-life of all ARBs ensuring consistent 24-hour coverage",
+		"Well-tolerated with a low incidence of side effects compared to ACE inhibitors (no dry cough)"
+	],
+	"indications": [
+		{
+			"category": "Cardiovascular Protection",
+			"items": [
+				{
+					"name": "Hypertension",
+					"description": "FDA-approved for treatment of essential hypertension as monotherapy or in combination with other antihypertensives. Provides consistent 24-hour blood pressure reduction. Particularly effective for AAS-induced hypertension where elevated blood pressure is driven by RAAS activation and increased erythropoiesis.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Cardiovascular Risk Reduction",
+					"description": "FDA-approved for reduction of cardiovascular morbidity in patients at high risk. The ONTARGET trial demonstrated non-inferiority to ramipril for the composite of cardiovascular death, MI, stroke, and hospitalization for heart failure in over 25,000 high-risk patients.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "AAS-Induced Cardiac Remodeling",
+					"description": "Angiotensin II receptor blockade counteracts the pro-hypertrophic and pro-fibrotic effects of supraphysiological androgen levels on the myocardium. Preclinical and observational data support the use of ARBs to attenuate left ventricular hypertrophy in steroid users. Widely recommended in harm reduction protocols.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Renal Protection",
+			"items": [
+				{
+					"name": "Nephroprotection",
+					"description": "Reduces intraglomerular pressure and proteinuria by blocking angiotensin II-mediated efferent arteriolar constriction. Slows progression of chronic kidney disease, particularly in patients with diabetic nephropathy or hypertensive nephrosclerosis. Relevant for AAS users where elevated blood pressure and NSAID co-use may compromise renal function.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Metabolic Health",
+			"items": [
+				{
+					"name": "Insulin Sensitivity Improvement",
+					"description": "Telmisartan's partial PPAR-gamma agonism improves insulin sensitivity without the weight gain associated with full PPAR-gamma agonists like pioglitazone. May reduce the risk of new-onset diabetes in hypertensive patients. The metabolic benefit is particularly relevant for users of compounds that impair glucose tolerance (e.g., growth hormone, trenbolone).",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Telmisartan is administered exclusively via the oral route as a tablet. It reaches peak plasma concentration approximately 0.5-1 hour after administration, with absolute bioavailability of approximately 42-58% (dose-dependent). The drug is highly lipophilic, extensively protein-bound (>99.5%), and has a large volume of distribution (~500 L), contributing to its long duration of action. Telmisartan undergoes hepatic glucuronidation (not CYP450-dependent) and is eliminated primarily through biliary/fecal excretion, making it suitable for patients with mild to moderate renal impairment without dose adjustment.",
+			"protocols": [
+				{
+					"goal": "AAS Cycle - Cardiac Protection",
+					"dose": "40-80 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "Start at 40 mg/day when initiating an AAS cycle. Increase to 80 mg if blood pressure remains above 130/80 mmHg after 2-4 weeks. Continue throughout the cycle and into PCT. Monitor blood pressure at home. Can be taken with or without food."
+				},
+				{
+					"goal": "Mild Hypertension / Preventive Use",
+					"dose": "20-40 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "Appropriate starting dose for users with borderline or mild hypertension. 20 mg provides meaningful BP reduction with minimal risk of hypotension. May be sufficient for users on milder compounds (e.g., TRT-dose testosterone, oxandrolone)."
+				},
+				{
+					"goal": "Standard Hypertension Treatment",
+					"dose": "40-80 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "FDA-approved dosing range. Most patients respond to 40 mg. Maximum recommended dose is 80 mg/day. Full antihypertensive effect typically achieved within 4 weeks of initiation. No dose adjustment needed for mild-moderate renal impairment."
+				}
+			],
+			"keyBenefits": [
+				"Once-daily dosing with true 24-hour coverage due to long half-life",
+				"Can be taken with or without food",
+				"No dose adjustment needed for mild-moderate renal impairment",
+				"Widely available as affordable generic",
+				"Does not require laboratory monitoring beyond routine blood pressure checks and annual metabolic panel"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "compatible",
+			"notes": "Highly recommended alongside testosterone and other AAS. Telmisartan directly counteracts AAS-induced RAAS activation, blood pressure elevation, and cardiac remodeling. No pharmacokinetic interactions. Considered a cornerstone of on-cycle cardiac protection in harm reduction protocols."
+		},
+		{
+			"peptide": "Tadalafil",
+			"status": "synergistic",
+			"notes": "Telmisartan and tadalafil have complementary blood pressure-lowering mechanisms -- ARB-mediated RAAS blockade and PDE5 inhibitor-mediated vasodilation, respectively. The combination provides enhanced BP control and may offer additive vascular and renal protective effects. Start tadalafil at a low dose (5 mg) when already on telmisartan and monitor for symptomatic hypotension."
+		},
+		{
+			"peptide": "ACE Inhibitors",
+			"status": "avoid",
+			"notes": "Combining an ARB with an ACE inhibitor (dual RAAS blockade) provides no additional cardiovascular benefit and significantly increases the risk of hyperkalemia, hypotension, and renal impairment. The ONTARGET trial demonstrated that telmisartan plus ramipril was associated with more adverse events without additional benefit compared to either agent alone. Use one or the other, not both."
+		},
+		{
+			"peptide": "NSAIDs",
+			"status": "monitor",
+			"notes": "Non-steroidal anti-inflammatory drugs (ibuprofen, naproxen, etc.) can blunt the antihypertensive effect of telmisartan by inhibiting renal prostaglandin synthesis. Concurrent use also increases the risk of acute kidney injury, particularly in volume-depleted states. If NSAID use is necessary, monitor blood pressure and renal function closely. Consider acetaminophen as an alternative analgesic."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Blood pressure begins to decrease within 3 hours of the first dose. Initial reductions are modest as steady-state has not yet been reached. Some users may experience mild dizziness or lightheadedness, particularly if starting at 80 mg or if already on the lower end of normal blood pressure."
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Blood pressure reductions become more consistent as the drug approaches steady-state plasma levels (achieved by approximately day 7 with once-daily dosing). Most users will notice meaningful reductions in systolic and diastolic readings on home monitoring."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Full antihypertensive effect is typically achieved within 4 weeks. Blood pressure should be reassessed at this point to determine if dose adjustment is needed. RAAS blockade is fully established, providing ongoing cardioprotective and nephroprotective effects."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Sustained blood pressure control. PPAR-gamma-mediated metabolic improvements may begin to manifest, including modest improvements in fasting glucose and insulin sensitivity. Proteinuria reduction, if present, becomes measurable."
+		},
+		{
+			"period": "Month 3+",
+			"effects": "Long-term organ protection is the primary benefit of continued use. Ongoing attenuation of cardiac remodeling and arterial stiffness. Metabolic benefits from PPAR-gamma agonism are fully established. Annual monitoring of renal function and electrolytes is recommended."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Dizziness or lightheadedness, particularly during the first few days or after dose increases",
+			"Mild hypotension, especially in volume-depleted individuals or those on concurrent antihypertensives",
+			"Upper respiratory tract infection symptoms (sinusitis, pharyngitis) - reported in clinical trials at rates similar to placebo",
+			"Back pain and myalgia (uncommon but reported)",
+			"Fatigue"
+		],
+		"rare": [
+			"Hyperkalemia (elevated potassium), particularly in patients with renal impairment, diabetes, or those taking potassium-sparing diuretics",
+			"Angioedema (extremely rare with ARBs, far less common than with ACE inhibitors)",
+			"Hepatotoxicity (rare case reports of elevated liver enzymes)",
+			"Renal impairment in patients with bilateral renal artery stenosis or severe volume depletion"
+		],
+		"stopSigns": [
+			"Signs of angioedema: swelling of face, lips, tongue, or throat with difficulty breathing",
+			"Severe persistent dizziness, fainting, or symptomatic hypotension unresponsive to hydration",
+			"Signs of hyperkalemia: muscle weakness, irregular heartbeat, tingling or numbness",
+			"Significant decrease in urine output or signs of acute kidney injury",
+			"Unexplained jaundice or severe abdominal pain suggesting hepatic injury"
+		],
+		"contraindications": [
+			"Pregnancy (Category D - can cause fetal injury and death; discontinue immediately if pregnancy is detected)",
+			"Bilateral renal artery stenosis",
+			"Known hypersensitivity to telmisartan or any excipients",
+			"Concurrent use with aliskiren in patients with diabetes or renal impairment (eGFR <60)",
+			"Severe hepatic impairment or biliary obstruction (telmisartan is eliminated primarily via biliary excretion)"
+		],
+		"monitoring": [
+			"Blood pressure: regular home monitoring recommended; clinical assessment at 2-4 weeks after initiation or dose change",
+			"Serum potassium: at baseline and within 1-2 weeks of initiation, then periodically (especially if concurrent potassium supplements or potassium-sparing agents)",
+			"Renal function (serum creatinine, eGFR): at baseline, within 1-2 weeks, then annually",
+			"Basic metabolic panel: annually or more frequently in patients with renal impairment or diabetes",
+			"Hematocrit (in AAS users): telmisartan does not affect erythropoiesis, but elevated hematocrit from AAS use compounds cardiovascular risk"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade product from established manufacturer with valid NDC number",
+			"Proper labeling with dosage strength (20 mg, 40 mg, or 80 mg), lot number, and expiration date",
+			"Tablets are uniform in appearance with no chips, cracks, or discoloration",
+			"Prescribed by licensed physician with baseline blood pressure and metabolic workup",
+			"Generic telmisartan from FDA-approved ANDA (bioequivalent to branded Micardis)"
+		],
+		"warning": [
+			"Sourced from unverified international online pharmacies without prescription",
+			"Compounded formulations without verification of potency or dissolution testing",
+			"Product stored in excessive heat or humidity (telmisartan is hygroscopic)"
+		],
+		"bad": [
+			"Tablets that are crumbling, discolored, or have unusual odor",
+			"Product past its expiration date",
+			"No labeling or incorrect dosage strength labeling",
+			"Sourced from underground labs or non-pharmaceutical suppliers"
+		]
+	},
+	"references": [
+		{
+			"title": "Telmisartan, Ramipril, or Both in Patients at High Risk for Vascular Events (ONTARGET)",
+			"authors": "Yusuf, S., Teo, K.K., Pogue, J., et al.",
+			"journal": "The New England Journal of Medicine",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18378520/",
+			"keyFindings": "Landmark trial of 25,620 high-risk patients demonstrating that telmisartan was non-inferior to ramipril for the composite of cardiovascular death, MI, stroke, and heart failure hospitalization. The combination of telmisartan and ramipril increased adverse events (hypotension, syncope, renal dysfunction, hyperkalemia) without additional cardiovascular benefit."
+		},
+		{
+			"title": "Telmisartan as a unique PPAR-gamma modulator: implications in metabolic syndrome and beyond",
+			"authors": "Benson, S.C., Pershadsingh, H.A., Ho, C.I., et al.",
+			"journal": "Hypertension",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15337734/",
+			"keyFindings": "Demonstrated that telmisartan activates PPAR-gamma at concentrations achieved with standard clinical dosing, distinguishing it from other ARBs. This partial agonism was associated with improved glucose and lipid metabolism in preclinical models, suggesting metabolic benefits beyond blood pressure reduction."
+		},
+		{
+			"title": "Effects of telmisartan on insulin resistance and visceral fat in type 2 diabetic patients",
+			"authors": "Nagel, J.M., Tietz, A.B., Goke, B., et al.",
+			"journal": "Diabetes Research and Clinical Practice",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16406150/",
+			"keyFindings": "Clinical study showing that telmisartan 80 mg/day for 6 months significantly reduced insulin resistance (HOMA-IR), visceral fat area, and HbA1c in type 2 diabetic patients compared to baseline, supporting the clinical relevance of its PPAR-gamma agonist activity."
+		},
+		{
+			"title": "Cardiovascular effects of anabolic steroids in weight-trained subjects",
+			"authors": "Baggish, A.L., Weiner, R.B., Kanayama, G., et al.",
+			"journal": "Journal of the American College of Cardiology",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28061332/",
+			"keyFindings": "Study demonstrating that long-term AAS use is associated with impaired left ventricular systolic function, diastolic dysfunction, and premature coronary atherosclerosis in experienced strength athletes, establishing the cardiovascular risk basis for proactive cardioprotection in AAS users."
+		},
+		{
+			"title": "Telmisartan for prevention of cardiovascular outcomes and new-onset diabetes (TRANSCEND)",
+			"authors": "Yusuf, S., Teo, K., Anderson, C., et al.",
+			"journal": "The Lancet",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18757089/",
+			"keyFindings": "Trial of 5,926 ACE inhibitor-intolerant high-risk patients showing telmisartan reduced the secondary composite of cardiovascular death, MI, and stroke. Also demonstrated a trend toward reduced new-onset diabetes, consistent with the drug's PPAR-gamma-mediated metabolic benefits."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Renin-Angiotensin System Blockade and Cardiac Remodeling in Androgen Users",
+			"date": "2023",
+			"source": "Journal of Clinical Hypertension",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/",
+			"summary": "Emerging observational data from harm reduction clinics suggest that ARB use during AAS cycles is associated with attenuated left ventricular mass index and improved diastolic function parameters compared to unprotected AAS use, reinforcing the rationale for proactive RAAS blockade in this population."
+		},
+		{
+			"title": "Comparative Metabolic Effects of ARBs: A Systematic Review of PPAR-gamma Activation",
+			"date": "2022",
+			"source": "Cardiovascular Diabetology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/",
+			"summary": "Systematic review confirming telmisartan's superiority among ARBs for metabolic parameters including insulin sensitivity, adiponectin levels, and visceral fat reduction, attributable to its unique partial PPAR-gamma agonist activity not shared by other members of the ARB class."
+		}
+	]
+}

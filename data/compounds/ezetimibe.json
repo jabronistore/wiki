@@ -1,0 +1,255 @@
+{
+	"id": "ezetimibe",
+	"name": "Ezetimibe",
+	"subtitle": "Cholesterol Absorption Inhibitor | Lipid Management On Cycle",
+	"aliases": ["Zetia", "Ezetrol"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cardiovascular"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "10 mg/day",
+		"frequency": "Once daily",
+		"cycleDuration": "Ongoing (duration of AAS cycle or chronic use)",
+		"storage": "Room temperature (68-77F). Protect from moisture and light."
+	},
+	"molecular": {
+		"weight": "409.43 Da",
+		"type": "Azetidinone (C24H21F2NO3)",
+		"modifications": [
+			"Standard immediate-release tablet formulation",
+			"Available as fixed-dose combination with simvastatin (Vytorin) and atorvastatin (Liptruzet)"
+		],
+		"halfLife": "~22 hours",
+		"halfLifeSeconds": 79200,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Ezetimibe is a selective cholesterol absorption inhibitor that blocks the Niemann-Pick C1-Like 1 (NPC1L1) protein in the brush border of the small intestine, preventing dietary and biliary cholesterol from entering the bloodstream. Approved by the FDA in 2002, it occupies a unique niche among lipid-lowering agents by targeting intestinal cholesterol uptake rather than hepatic cholesterol synthesis. In the context of anabolic steroid use, ezetimibe has become a go-to ancillary compound for managing the dyslipidemia that accompanies many AAS cycles, particularly oral steroids like oxandrolone (Anavar) and stanozolol (Winstrol) that are notorious for crashing HDL cholesterol and elevating LDL. While statins remain the first-line treatment for hypercholesterolemia in the general population, ezetimibe is frequently used alone or stacked with a statin by steroid users seeking to mitigate cycle-induced lipid damage without adding yet another hepatotoxic compound to the mix.",
+	"mechanism": "Ezetimibe selectively inhibits the NPC1L1 transporter protein located on the luminal surface of enterocytes in the jejunum of the small intestine. NPC1L1 is the critical gateway for intestinal cholesterol absorption, responsible for uptaking both dietary cholesterol and the much larger pool of biliary cholesterol that is recirculated through the enterohepatic cycle. By blocking this transporter, ezetimibe reduces cholesterol delivery to the liver, which in turn upregulates hepatic LDL receptor expression to compensate for the reduced cholesterol supply. This upregulation increases LDL clearance from the bloodstream. The mechanism is entirely complementary to statins, which inhibit HMG-CoA reductase to reduce hepatic cholesterol synthesis. When the liver is deprived of cholesterol from both sources simultaneously, the LDL-lowering effect is significantly amplified. Ezetimibe undergoes glucuronidation in the intestinal wall and liver to form its active metabolite, ezetimibe-glucuronide, which is also pharmacologically active and participates in enterohepatic recirculation, contributing to the drug's prolonged duration of action.",
+	"keyBenefits": [
+		"Reduces LDL cholesterol by 15-20% as monotherapy",
+		"Complementary mechanism to statins allows additive LDL reduction of 25% when combined",
+		"Minimal hepatotoxicity, making it suitable alongside hepatotoxic oral AAS",
+		"Simple once-daily dosing with no titration required",
+		"No significant impact on CoQ10 levels (unlike statins)",
+		"Well tolerated with a side effect profile comparable to placebo in clinical trials",
+		"Proven cardiovascular outcome benefit when added to statin therapy (IMPROVE-IT trial)",
+		"Helps manage the severe lipid disruption caused by oral steroids like Anavar and Winstrol"
+	],
+	"indications": [
+		{
+			"category": "Lipid Management",
+			"items": [
+				{
+					"name": "Primary Hypercholesterolemia",
+					"description": "FDA-approved for reduction of elevated total cholesterol and LDL-C in patients with primary hyperlipidemia, either as monotherapy or in combination with a statin. Reduces LDL by approximately 18% as monotherapy and provides an additional 25% reduction when added to ongoing statin therapy.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "AAS-Induced Dyslipidemia",
+					"description": "Widely used off-label by anabolic steroid users to counteract the significant lipid disturbances caused by AAS, particularly oral 17-alpha-alkylated steroids. Oral compounds like oxandrolone can reduce HDL by 50% or more and elevate LDL substantially. Ezetimibe helps blunt LDL elevation while its non-hepatotoxic profile makes it preferable to statins during cycles involving liver-stressing orals.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Statin Combination Therapy",
+					"description": "When LDL targets are not achieved with statin monotherapy, adding ezetimibe provides a complementary mechanism of action. The IMPROVE-IT trial demonstrated that the combination of ezetimibe plus simvastatin reduced cardiovascular events compared to simvastatin alone in post-acute coronary syndrome patients.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Cardiovascular Risk Reduction",
+			"items": [
+				{
+					"name": "Secondary Prevention of Cardiovascular Events",
+					"description": "The IMPROVE-IT trial established that adding ezetimibe to simvastatin therapy reduced the composite endpoint of cardiovascular death, major coronary events, and stroke by 6.4% over 7 years in patients with recent acute coronary syndrome. This was the first trial to demonstrate that a non-statin LDL-lowering agent provides incremental cardiovascular benefit.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Familial Hypercholesterolemia",
+					"description": "Approved as adjunctive therapy for homozygous familial hypercholesterolemia (HoFH) in combination with statins. Also used in heterozygous FH when statin monotherapy is insufficient to reach LDL targets. Particularly useful in patients who cannot tolerate high-dose statins.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Ezetimibe is administered exclusively by the oral route as a 10 mg tablet taken once daily. It can be taken with or without food, at any time of day, though consistent timing is recommended for adherence. The drug does not require dose titration, as the 10 mg dose is the only approved strength and has been shown to provide the optimal balance of efficacy and tolerability. Ezetimibe is extensively glucuronidated in the small intestine and liver, and the active parent compound and its glucuronide metabolite undergo enterohepatic recirculation, contributing to the long effective half-life.",
+			"protocols": [
+				{
+					"goal": "Standard Lipid Management",
+					"dose": "10 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral, with or without food",
+					"notes": "No titration needed. The 10 mg dose is the only available strength. Can be taken at any time of day. Lipid panel should be checked 4-6 weeks after initiation to assess response."
+				},
+				{
+					"goal": "On-Cycle Lipid Support (AAS Users)",
+					"dose": "10 mg/day",
+					"frequency": "Once daily, throughout cycle and into PCT",
+					"route": "Oral, with or without food",
+					"notes": "Start at the beginning of the AAS cycle or 1-2 weeks prior if possible. Continue through PCT until lipid panels normalize. Often combined with a low-dose statin (rosuvastatin 5-10 mg) for more aggressive lipid control when running harsh oral compounds. Monitor lipids at baseline, mid-cycle, and post-cycle."
+				},
+				{
+					"goal": "Combination with Statin",
+					"dose": "10 mg/day ezetimibe + statin of choice",
+					"frequency": "Once daily (ezetimibe can be taken same time as statin or separately)",
+					"route": "Oral",
+					"notes": "Provides complementary LDL lowering through dual mechanism: reduced intestinal absorption plus reduced hepatic synthesis. Fixed-dose combinations available (Vytorin: ezetimibe/simvastatin). Expected additional LDL reduction of 20-25% beyond statin alone."
+				}
+			],
+			"keyBenefits": [
+				"Single fixed dose with no titration required",
+				"Can be taken with or without food at any time of day",
+				"No significant drug-food interactions",
+				"Widely available as inexpensive generic",
+				"Minimal hepatic burden compared to statins"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Statins",
+			"status": "synergistic",
+			"notes": "Ezetimibe and statins target cholesterol from complementary directions: ezetimibe blocks intestinal absorption while statins inhibit hepatic synthesis. The combination produces additive LDL reductions of 40-60% depending on the statin and dose. The IMPROVE-IT trial validated this combination with hard cardiovascular outcomes data. Rosuvastatin or atorvastatin are the preferred statin partners for maximal LDL lowering."
+		},
+		{
+			"peptide": "Oxandrolone",
+			"status": "compatible",
+			"notes": "A common pairing in the steroid community. Oxandrolone (Anavar) is notorious for severely suppressing HDL (often by 50% or more) and raising LDL. Ezetimibe helps mitigate the LDL component of this dyslipidemia without adding hepatic stress to an already liver-burdened cycle. While ezetimibe does not directly improve HDL, controlling LDL helps manage overall cardiovascular risk during Anavar cycles."
+		},
+		{
+			"peptide": "Fibrates",
+			"status": "monitor",
+			"notes": "Fibrates (fenofibrate, gemfibrozil) primarily target triglycerides and can modestly raise HDL. Combining ezetimibe with fenofibrate is generally well tolerated and addresses different aspects of the lipid panel. However, gemfibrozil should be used with caution as it can increase ezetimibe exposure by inhibiting its glucuronidation. Monitor liver enzymes and watch for signs of gallstone formation, as both agents can increase biliary cholesterol saturation."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Ezetimibe begins inhibiting intestinal cholesterol absorption within days. Early reductions in circulating LDL cholesterol may be detectable by the end of the second week. Side effects are uncommon, but mild GI discomfort may occur during the adjustment period."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "LDL cholesterol reductions become more pronounced as hepatic LDL receptor upregulation reaches a new steady state. Most of the drug's LDL-lowering effect is apparent by week 4. Lipid panel at this point will typically show a 15-20% reduction in LDL-C from baseline."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Full steady-state lipid effects are established. On-cycle AAS users should see meaningful attenuation of LDL elevation compared to running the same cycle without ezetimibe. Total cholesterol and LDL should be noticeably lower than expected for the given AAS protocol."
+		},
+		{
+			"period": "Month 3+",
+			"effects": "Long-term use is well tolerated with sustained LDL reductions. If used alongside AAS, continue through post-cycle therapy and until bloodwork confirms lipid normalization. No significant long-term side effects or nutrient depletions are associated with extended ezetimibe use."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Gastrointestinal discomfort (diarrhea, abdominal pain) - mild and infrequent, reported at similar rates to placebo",
+			"Upper respiratory tract infection (reported in clinical trials but not clearly drug-related)",
+			"Fatigue and headache (uncommon, typically transient)"
+		],
+		"rare": [
+			"Elevated liver transaminases (ALT/AST) - primarily seen when combined with a statin, rare with ezetimibe monotherapy",
+			"Myalgia (muscle pain) - very rare with monotherapy, more common when combined with statins",
+			"Hypersensitivity reactions including angioedema and rash (extremely rare)",
+			"Pancreatitis (isolated case reports, causal relationship not established)"
+		],
+		"stopSigns": [
+			"Unexplained persistent muscle pain, tenderness, or weakness (especially if combined with a statin)",
+			"Signs of liver dysfunction: jaundice, dark urine, persistent nausea, right upper quadrant pain",
+			"Severe allergic reaction: facial swelling, difficulty breathing, widespread rash"
+		],
+		"contraindications": [
+			"Known hypersensitivity to ezetimibe or any component of the formulation",
+			"Active liver disease or unexplained persistent elevations in hepatic transaminases (when combined with a statin)",
+			"Pregnancy and breastfeeding (when used in combination with a statin)"
+		],
+		"monitoring": [
+			"Lipid panel: at baseline, 4-6 weeks after initiation, then every 3-6 months (more frequently during AAS cycles)",
+			"Liver function tests (ALT/AST): at baseline and as clinically indicated, especially when combined with a statin or hepatotoxic oral AAS",
+			"Creatine kinase (CK): only if muscle symptoms develop",
+			"For AAS users: comprehensive lipid panel at baseline, mid-cycle, end of cycle, and 4-8 weeks post-PCT"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade product from established manufacturer with valid NDC number",
+			"Proper labeling with 10 mg dosage strength, lot number, and expiration date",
+			"Tablets are uniform in appearance with no chips, cracks, or discoloration",
+			"Prescribed by licensed physician or obtained from licensed pharmacy",
+			"Generic ezetimibe from reputable manufacturer (patent expired, widely available)"
+		],
+		"warning": [
+			"Sourced from unverified international online pharmacies",
+			"Compounded formulations without verification of potency and purity",
+			"Product stored in improper conditions (excessive heat or humidity)"
+		],
+		"bad": [
+			"Tablets that are crumbling, discolored, or have an unusual odor",
+			"Product past its expiration date",
+			"No labeling, incorrect dosage strength, or missing lot/expiration information",
+			"Sourced without any verification from unregulated suppliers"
+		]
+	},
+	"references": [
+		{
+			"title": "Ezetimibe Added to Statin Therapy after Acute Coronary Syndromes (IMPROVE-IT)",
+			"authors": "Cannon, C.P., Blazing, M.A., Giugliano, R.P., et al.",
+			"journal": "The New England Journal of Medicine",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26039521/",
+			"keyFindings": "Landmark trial of 18,144 patients demonstrating that adding ezetimibe to simvastatin after acute coronary syndrome reduced the primary composite endpoint (cardiovascular death, MI, unstable angina, coronary revascularization, or stroke) by 6.4% over a median of 6 years. First trial to prove that a non-statin lipid-lowering agent provides incremental cardiovascular benefit."
+		},
+		{
+			"title": "Ezetimibe: a review of its metabolism, pharmacokinetics and drug interactions",
+			"authors": "Kosoglou, T., Statkevich, P., Johnson-Levonas, A.O., et al.",
+			"journal": "Clinical Pharmacokinetics",
+			"year": "2005",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15743469/",
+			"keyFindings": "Comprehensive pharmacokinetic review describing ezetimibe's glucuronidation pathway, enterohepatic recirculation, and 22-hour effective half-life. Demonstrated minimal cytochrome P450 involvement, supporting its favorable drug interaction profile."
+		},
+		{
+			"title": "Efficacy and safety of ezetimibe monotherapy in hypercholesterolaemic patients: a meta-analysis",
+			"authors": "Pandor, A., Ara, R.M., Tumur, I., et al.",
+			"journal": "International Journal of Clinical Practice",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19708857/",
+			"keyFindings": "Meta-analysis confirming ezetimibe monotherapy reduces LDL-C by approximately 18.6%, total cholesterol by 13.5%, and triglycerides by 8.1% with a side effect profile comparable to placebo. Supports use as monotherapy in statin-intolerant patients."
+		},
+		{
+			"title": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+			"authors": "Grundy, S.M., Stone, N.J., Bailey, A.L., et al.",
+			"journal": "Journal of the American College of Cardiology",
+			"year": "2019",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/30423393/",
+			"keyFindings": "Current ACC/AHA cholesterol management guidelines positioning ezetimibe as the preferred first add-on therapy when LDL-C goals are not met with maximally tolerated statin therapy, before escalation to PCSK9 inhibitors."
+		},
+		{
+			"title": "NPC1L1 and Cholesterol Transport",
+			"authors": "Altmann, S.W., Davis, H.R., Zhu, L., et al.",
+			"journal": "Biochimica et Biophysica Acta",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15511092/",
+			"keyFindings": "Identification and characterization of NPC1L1 as the molecular target of ezetimibe, establishing the mechanism by which the drug selectively blocks intestinal cholesterol absorption at the brush border membrane of enterocytes."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Long-term safety and efficacy of ezetimibe: a systematic review",
+			"date": "2023",
+			"source": "Atherosclerosis",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36878711/",
+			"summary": "Systematic review confirming the long-term safety profile of ezetimibe over treatment periods exceeding 5 years, with no increased risk of cancer, liver disease, or cognitive impairment. Supports its suitability for prolonged use in chronic lipid management."
+		},
+		{
+			"title": "Ezetimibe and PCSK9 inhibitors: combination approaches to residual cardiovascular risk",
+			"date": "2023",
+			"source": "Current Opinion in Lipidology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37078645/",
+			"summary": "Review examining the emerging role of ezetimibe in triple lipid-lowering therapy alongside statins and PCSK9 inhibitors for patients with very high cardiovascular risk or familial hypercholesterolemia who require aggressive LDL-C reduction below 55 mg/dL."
+		}
+	]
+}

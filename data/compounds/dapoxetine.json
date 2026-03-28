@@ -1,0 +1,243 @@
+{
+	"id": "dapoxetine",
+	"name": "Dapoxetine",
+	"subtitle": "SSRI | Premature Ejaculation Treatment",
+	"aliases": [
+		"Priligy",
+		"Westoxetin"
+	],
+	"compoundKind": "pharmaceutical",
+	"categories": [
+		"sexual-health"
+	],
+	"researchStatus": "fda-approved",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "305.41 Da",
+		"type": "Short-acting selective serotonin reuptake inhibitor (SSRI)",
+		"modifications": [
+			"Naphthalene ring system provides rapid absorption and onset of action",
+			"Rapid elimination kinetics distinguish it from conventional SSRIs used for depression"
+		],
+		"halfLife": "~1.5 hours",
+		"halfLifeSeconds": 5400,
+		"halfLifeRoute": "oral"
+	},
+	"overview": "Dapoxetine is the first and only selective serotonin reuptake inhibitor (SSRI) specifically developed and approved for the on-demand treatment of premature ejaculation (PE) in men aged 18-64. Unlike conventional SSRIs such as paroxetine or sertraline -- which are sometimes used off-label for PE but require daily dosing and weeks to reach therapeutic effect -- dapoxetine was engineered for rapid absorption and short elimination, making it suitable for as-needed use 1-3 hours before sexual activity. Originally developed by Eli Lilly and later licensed to Johnson & Johnson (ALZA Corporation), dapoxetine received its first regulatory approval in Sweden in 2009 under the brand name Priligy, and has since been approved in over 50 countries across Europe, Asia, Latin America, and the Middle East. It has not received FDA approval in the United States despite multiple submissions. Dapoxetine works by increasing serotonin activity at the postsynaptic cleft in the ejaculatory reflex pathway, raising the threshold for ejaculation and improving control over the timing of climax.",
+	"mechanism": "Dapoxetine selectively inhibits the serotonin transporter (SERT) at presynaptic nerve terminals, blocking reuptake of serotonin (5-HT) from the synaptic cleft. This increases serotonin concentration at postsynaptic receptors in the neural circuits governing the ejaculatory reflex, particularly within the spinal ejaculation generator and supraspinal pathways. The ejaculatory process is modulated by serotonergic neurotransmission: higher serotonin levels at 5-HT1B and 5-HT2C receptors raise the ejaculatory threshold, delaying the emission and expulsion phases of ejaculation. Unlike traditional SSRIs that require 1-2 weeks of daily dosing to achieve steady-state serotonin levels, dapoxetine reaches peak plasma concentration within approximately 1-2 hours after oral administration and is rapidly eliminated (terminal half-life ~1.5 hours, with an initial half-life of ~1.4 hours). This pharmacokinetic profile enables acute, on-demand modulation of serotonergic tone without the sustained receptor desensitization seen with chronic SSRI use.",
+	"keyBenefits": [
+		"Only SSRI specifically developed for on-demand premature ejaculation treatment",
+		"Rapid onset of action (1-2 hours) allows as-needed dosing before sexual activity",
+		"Ultra-short half-life (~1.5 hours) minimizes sustained serotonergic side effects",
+		"Clinically proven to increase intravaginal ejaculatory latency time (IELT) by 2-3 fold",
+		"Improves perceived control over ejaculation and reduces PE-related distress",
+		"Does not require daily dosing or washout periods",
+		"Well-studied safety profile across multiple international clinical trials",
+		"Approved in over 50 countries for on-demand PE treatment"
+	],
+	"indications": [
+		{
+			"category": "Sexual Health",
+			"items": [
+				{
+					"name": "Premature Ejaculation",
+					"description": "First-line pharmacotherapy for lifelong and acquired premature ejaculation. Clinically proven to increase intravaginal ejaculatory latency time (IELT), improve perceived control over ejaculation, and reduce personal distress related to PE.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Sexual Satisfaction",
+					"description": "Improved ejaculatory control leads to greater sexual satisfaction for both the individual and their partner, as measured by validated patient-reported outcome instruments in clinical trials.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Dapoxetine is administered orally as a film-coated tablet, taken on-demand 1-3 hours before anticipated sexual activity. It can be taken with or without food, though taking it with food may slightly delay peak plasma concentration. It should be swallowed whole with a full glass of water. Alcohol should be avoided as it may increase the risk of dizziness and syncope.",
+			"protocols": [
+				{
+					"goal": "PE treatment (starting dose)",
+					"dose": "30mg",
+					"frequency": "As needed, 1-3 hours before sexual activity",
+					"route": "Oral",
+					"notes": "Maximum one dose per 24-hour period. Start at 30mg to assess tolerability."
+				},
+				{
+					"goal": "PE treatment (increased dose)",
+					"dose": "60mg",
+					"frequency": "As needed, 1-3 hours before sexual activity",
+					"route": "Oral",
+					"notes": "May increase to 60mg if 30mg produces insufficient response and is well-tolerated. Maximum one dose per 24-hour period."
+				}
+			],
+			"keyBenefits": [
+				"Simple on-demand oral dosing with no daily commitment",
+				"Rapid onset allows timing around sexual activity",
+				"Fast elimination means minimal next-day effects",
+				"Available in two dose strengths (30mg, 60mg)",
+				"No need for dose titration over weeks"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": false
+		},
+		{
+			"type": "topical",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Tadalafil (Cialis)",
+			"status": "synergistic",
+			"notes": "Frequently co-administered and even co-formulated (marketed as 'Super Cialis' in some markets) to address both erectile dysfunction and premature ejaculation simultaneously. Dapoxetine does not significantly alter tadalafil pharmacokinetics. No clinically meaningful pharmacodynamic interaction has been identified, though mild additive orthostatic effects are possible. Monitor blood pressure on initial combination use."
+		},
+		{
+			"peptide": "SSRIs (paroxetine, sertraline, fluoxetine, escitalopram)",
+			"status": "avoid",
+			"notes": "Absolutely contraindicated. Concurrent use of dapoxetine with any other serotonergic medication creates a significant risk of serotonin syndrome -- a potentially life-threatening condition characterized by agitation, hyperthermia, tachycardia, clonus, and neuromuscular rigidity. Dapoxetine must not be used within 14 days of stopping an SSRI, and SSRIs must not be started within 7 days of stopping dapoxetine."
+		},
+		{
+			"peptide": "MAOIs (selegiline, phenelzine, tranylcypromine)",
+			"status": "avoid",
+			"notes": "Absolutely contraindicated. MAO inhibitors prevent serotonin metabolism, and combined use with dapoxetine dramatically increases the risk of serotonin syndrome. Dapoxetine must not be used within 14 days of discontinuing an MAOI, and vice versa."
+		},
+		{
+			"peptide": "CYP3A4 Inhibitors (ketoconazole, ritonavir, grapefruit juice)",
+			"status": "monitor",
+			"notes": "Potent CYP3A4 inhibitors increase dapoxetine plasma concentrations. Co-administration with ketoconazole increased dapoxetine AUC by approximately 99%. The 60mg dose should not be used with moderate or potent CYP3A4 inhibitors, and the 30mg dose should be used with caution. Avoid potent CYP3A4 inhibitors entirely if possible."
+		},
+		{
+			"peptide": "CYP2D6 Inhibitors (fluoxetine, quinidine)",
+			"status": "monitor",
+			"notes": "CYP2D6 is a secondary metabolic pathway for dapoxetine. CYP2D6 poor metabolizers or concurrent use of potent CYP2D6 inhibitors may increase dapoxetine exposure. Caution is warranted, and the maximum dose should not exceed 30mg in poor CYP2D6 metabolizers taking moderate CYP3A4 inhibitors."
+		},
+		{
+			"peptide": "Tramadol, SNRIs (venlafaxine, duloxetine)",
+			"status": "avoid",
+			"notes": "Serotonergic medications including SNRIs and tramadol should not be combined with dapoxetine due to the risk of serotonin syndrome. The same washout period rules apply as with SSRIs."
+		}
+	],
+	"timeline": [
+		{
+			"period": "1-2 hours after dosing",
+			"effects": "Onset of action. Dapoxetine reaches peak plasma concentration (Tmax) at approximately 1-2 hours. Serotonergic modulation of the ejaculatory reflex pathway is active. Optimal timing for sexual activity is approximately 1-3 hours after dosing."
+		},
+		{
+			"period": "2-3 hours after dosing",
+			"effects": "Peak therapeutic effect. Maximum ejaculatory latency improvement and perceived control over ejaculation. Most clinical trial efficacy data is based on intercourse within this window."
+		},
+		{
+			"period": "4-6 hours after dosing",
+			"effects": "Declining plasma concentrations. Therapeutic effect diminishes as the drug is rapidly metabolized. Some residual benefit may persist but is significantly reduced from peak."
+		},
+		{
+			"period": "12-24 hours after dosing",
+			"effects": "Effectively eliminated. Dapoxetine and its active metabolites (desmethyldapoxetine) are substantially cleared. Minimal residual serotonergic activity. No next-day hangover effect in most individuals."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Nausea (11-22%, most common side effect, usually mild and transient)",
+			"Dizziness (5-11%)",
+			"Headache (5-9%)",
+			"Diarrhea (3-7%)",
+			"Insomnia (2-4%)",
+			"Fatigue (2-4%)",
+			"Somnolence (2-3%)",
+			"Dry mouth (1-2%)"
+		],
+		"rare": [
+			"Syncope or pre-syncope (vasovagal) -- reported in approximately 0.1-0.3% of patients, usually preceded by prodromal symptoms (nausea, dizziness, lightheadedness)",
+			"Orthostatic hypotension",
+			"Serotonin syndrome (when combined with other serotonergic agents)",
+			"Suicidal ideation (class warning for SSRIs, though risk is considered very low with on-demand dosing)",
+			"Seizures (very rare)",
+			"Mania or hypomania in individuals with undiagnosed bipolar disorder"
+		],
+		"stopSigns": [
+			"Syncope or fainting: discontinue and do not re-initiate without medical consultation",
+			"Signs of serotonin syndrome: agitation, confusion, rapid heart rate, high body temperature, muscle rigidity, tremor -- seek emergency medical attention",
+			"Suicidal thoughts or worsening mood: discontinue and seek immediate psychiatric evaluation",
+			"Seizure activity",
+			"Severe allergic reaction: difficulty breathing, facial swelling, severe rash"
+		],
+		"contraindications": [
+			"Concurrent use of SSRIs, SNRIs, MAOIs, tricyclic antidepressants, or other serotonergic medications",
+			"Use within 14 days of stopping an MAOI or serotonergic antidepressant",
+			"Significant cardiac conditions: heart failure (NYHA Class II-IV), conduction abnormalities (second or third degree AV block), ischemic heart disease, significant valvular disease",
+			"History of syncope or orthostatic hypotension",
+			"Moderate to severe hepatic impairment (Child-Pugh Class B or C)",
+			"Known hypersensitivity to dapoxetine or any excipient",
+			"Concurrent use of potent CYP3A4 inhibitors at the 60mg dose",
+			"Patients under 18 or over 65 years of age (limited safety data)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Film-coated tablets with consistent size, shape, and color",
+			"Clear labeling with manufacturer, batch number, and expiration date",
+			"Blister packaging with tamper-evident seals",
+			"Purchased from a licensed pharmacy in a country where dapoxetine is approved",
+			"Manufactured by a reputable pharmaceutical company (Menarini, Janssen, or authorized generics)"
+		],
+		"warning": [
+			"Unusually low pricing compared to established products",
+			"Tablets varying in appearance within the same package",
+			"Packaging with poor print quality, spelling errors, or missing regulatory markings",
+			"Sold online without any medical questionnaire or prescription requirement",
+			"Products labeled as 'Super Priligy' or similar non-standard naming from unverified sources"
+		],
+		"bad": [
+			"Tablets that are discolored, crumbling, or have an unusual odor",
+			"Products from unregulated online pharmacies with no verifiable physical address",
+			"No batch number, expiration date, or manufacturer information on packaging",
+			"Combination products (dapoxetine + sildenafil/tadalafil) from unregulated sources with no quality assurance",
+			"Capsules or liquid formulations (dapoxetine is only approved as a tablet)"
+		]
+	},
+	"references": [
+		{
+			"title": "Dapoxetine: an evidence-based review of its effectiveness in treatment of premature ejaculation",
+			"authors": "McMahon CG",
+			"year": "2012",
+			"journal": "Core Evidence",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22936893/",
+			"keyFindings": "Comprehensive review of dapoxetine clinical trial data. Demonstrated that dapoxetine 30mg and 60mg significantly increased IELT (2.5-fold and 3.0-fold, respectively) compared to placebo across five phase III RCTs involving over 6,000 men. Both doses significantly improved perceived control and reduced personal distress."
+		},
+		{
+			"title": "Dapoxetine, a novel selective serotonin transport inhibitor for the treatment of premature ejaculation",
+			"authors": "Modi NB, Dresser MJ, Simon M, Lin D, Desai D, Gupta S",
+			"year": "2006",
+			"journal": "Journal of Clinical Pharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16707413/",
+			"keyFindings": "Pharmacokinetic characterization establishing dapoxetine's unique rapid-absorption/rapid-elimination profile. Peak plasma concentration reached at 1.01 hours (30mg) and 1.27 hours (60mg). Terminal half-life of approximately 1.5 hours with no accumulation on repeat dosing. This profile confirmed suitability for on-demand use."
+		},
+		{
+			"title": "Integrated analysis of four randomized, double-blind, placebo-controlled trials of dapoxetine for premature ejaculation",
+			"authors": "Pryor JL, Althof SE, Steidle C, Rosen RC, Hellstrom WJ, Shabsigh R, Miloslavsky M, Kell S",
+			"year": "2006",
+			"journal": "Journal of Sexual Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16681470/",
+			"keyFindings": "Pooled analysis of 2,614 men across four pivotal phase III trials. Dapoxetine 30mg and 60mg produced statistically significant increases in mean IELT from baseline (0.9 min at baseline to 2.78 min and 3.32 min, respectively, vs 1.75 min for placebo). Both doses significantly improved patient-reported outcomes for control over ejaculation and satisfaction."
+		},
+		{
+			"title": "Dapoxetine for the treatment of premature ejaculation: results from a randomized, double-blind, placebo-controlled phase 3 trial in 22 countries",
+			"authors": "Kaufman JM, Rosen RC, Mudumbi RV, Tesfaye F, Hashmonay R, Rivas D",
+			"year": "2009",
+			"journal": "Journal of Sexual Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19170867/",
+			"keyFindings": "Large multinational phase III study (n=1,238) confirming dapoxetine efficacy across diverse populations. Both 30mg and 60mg doses significantly improved IELT, ejaculatory control, and satisfaction from the first dose onward. Treatment was well tolerated with nausea and dizziness as the most common adverse events."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "30mg as-needed (may increase to 60mg)",
+		"frequency": "On-demand, 1-3 hours before activity (max once per 24 hours)",
+		"cycleDuration": "As needed; no cycling required",
+		"storage": "Room temperature (15-30C / 59-86F), protect from moisture and light"
+	}
+}

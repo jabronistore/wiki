@@ -1,0 +1,341 @@
+{
+	"id": "ment",
+	"name": "MENT",
+	"subtitle": "19-Nor Anabolic Steroid | Experimental TRT Alternative",
+	"aliases": [
+		"Trestolone",
+		"Trestolone Acetate",
+		"MENT Acetate",
+		"7-alpha-methyl-19-nortestosterone"
+	],
+	"compoundKind": "anabolic",
+	"categories": ["anabolic", "sexual-health"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "5-25 mg/day (acetate)",
+		"frequency": "Daily or split into 2x daily (acetate ester)",
+		"cycleDuration": "8-20 weeks",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "288.43 Da",
+		"type": "7-alpha-methyl-19-nortestosterone (C19H28O2)",
+		"modifications": [
+			"Acetate ester (MW 330.46 Da) - very short half-life requiring daily or twice-daily injection",
+			"7-alpha methyl group confers resistance to 5-alpha reductase, preventing conversion to a weaker metabolite",
+			"19-nor structure (lacks the C19 methyl group) classifying it in the same family as nandrolone",
+			"Approximately 10x more potent than testosterone at the androgen receptor"
+		],
+		"halfLife": "~40 minutes (acetate ester)",
+		"halfLifeSeconds": 2400,
+		"halfLifeRoute": "Intramuscular or subcutaneous (acetate ester)"
+	},
+	"overview": "MENT (7-alpha-methyl-19-nortestosterone), also known as trestolone, is an experimental synthetic anabolic-androgenic steroid that belongs to the 19-nor (nandrolone) family. It was originally developed by the Population Council as a potential male hormonal contraceptive and androgen replacement therapy. MENT is estimated to be roughly 10 times more potent than testosterone on a milligram-per-milligram basis, which allows for effective use at very low doses. Unlike nandrolone, MENT does not cause the characteristic sexual dysfunction ('deca dick') associated with other 19-nor compounds, because it maintains sufficient androgenic activity in the central nervous system and sexual tissues. This property has generated significant interest in MENT as a potential standalone replacement for testosterone -- a compound that could serve as both the anabolic and androgenic base in hormone replacement protocols. MENT aromatizes, but its aromatization product is 7-alpha-methyl-estradiol rather than standard estradiol. This methylated estrogen behaves differently from estradiol in some respects, and aromatase inhibitors like anastrozole have reduced efficacy against it. Estrogen management on MENT is therefore considered more challenging than with testosterone. The acetate ester is the most widely available formulation and has an extremely short half-life of approximately 40 minutes, necessitating daily or twice-daily injections for stable blood levels. Research into longer-acting esters and delivery systems (including subdermal implants) is ongoing. MENT remains an investigational compound with no current FDA approval, though Phase 2 clinical trials for male contraception have been conducted.",
+	"mechanism": "MENT binds to the androgen receptor with high affinity, estimated at roughly 10 times the potency of testosterone, driving robust activation of AR-dependent gene transcription pathways responsible for protein synthesis, nitrogen retention, and satellite cell proliferation in skeletal muscle. Its 7-alpha methyl group renders it resistant to 5-alpha reductase, meaning it is not converted to a reduced metabolite in androgen-sensitive tissues the way testosterone is converted to DHT or nandrolone is converted to DHN. MENT itself acts directly on androgen receptors throughout the body, including the brain, prostate, and sexual tissues, which is why it maintains libido and sexual function unlike nandrolone. MENT aromatizes via the aromatase enzyme, but the product is 7-alpha-methyl-estradiol rather than estradiol. This methylated estrogen retains estrogenic activity and binds to estrogen receptors, but conventional aromatase inhibitors (anastrozole, letrozole) have diminished ability to block its formation. The mechanism behind this reduced AI efficacy appears related to the 7-alpha methyl group altering the substrate's interaction with the aromatase active site. MENT powerfully suppresses the hypothalamic-pituitary-gonadal (HPG) axis, reducing LH and FSH to near-undetectable levels at relatively low doses. This profound gonadotropin suppression is the basis for its investigation as a male contraceptive, as it can reduce sperm production to azoospermia or severe oligospermia in most men. Despite its 19-nor classification, MENT does not appear to have the significant progestogenic activity that nandrolone exhibits, though some degree of progesterone receptor interaction has been reported in preclinical studies.",
+	"keyBenefits": [
+		"Approximately 10x more potent than testosterone, allowing effective results at very low doses (5-25 mg/day)",
+		"Does not cause the sexual dysfunction associated with other 19-nor compounds like nandrolone",
+		"Can potentially serve as a standalone base, replacing testosterone in hormone replacement protocols",
+		"Rapid clearance of the acetate ester allows quick dose adjustments and fast resolution of side effects upon discontinuation",
+		"Powerful lean mass accretion and strength gains relative to dose",
+		"Under investigation as a reversible male hormonal contraceptive",
+		"Resistance to 5-alpha reductase means it does not convert to DHT, potentially sparing hair follicles from direct DHT-mediated damage",
+		"Robust suppression of gonadotropins (LH/FSH), which is therapeutically useful in contraceptive applications"
+	],
+	"indications": [
+		{
+			"category": "Hormonal / Endocrine",
+			"items": [
+				{
+					"name": "Androgen Replacement Therapy",
+					"description": "MENT is being investigated as an alternative to testosterone for androgen replacement. Its high potency allows for low-volume injections, and unlike nandrolone it maintains sexual function without requiring a concurrent testosterone base. Subdermal implant formulations have been studied to provide sustained release over months, potentially offering a more convenient delivery method than testosterone injections.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Male Hormonal Contraception",
+					"description": "MENT's primary clinical research focus. Phase 2 trials have demonstrated that MENT, alone or in combination with a progestin, can suppress spermatogenesis to azoospermia or severe oligospermia in the majority of men. The contraceptive effect is reversible upon discontinuation. MENT's advantage over testosterone-based contraceptive approaches is its greater potency and the fact that it does not require 5-alpha reduction for full androgenic activity.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Mass Accretion",
+					"description": "MENT produces significant dose-dependent increases in lean body mass. Due to its potency being roughly 10 times that of testosterone, even low doses (5-10 mg/day) can produce anabolic effects comparable to moderate doses of testosterone. Higher doses (15-25 mg/day) produce substantial muscle growth but with increased side effect burden, particularly estrogenic effects.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Users consistently report rapid and significant strength increases on MENT, often noticeable within the first 1-2 weeks due to the fast-acting acetate ester. Strength gains appear to scale with dose and are accompanied by notable improvements in training recovery.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Sexual Health",
+			"items": [
+				{
+					"name": "Libido and Sexual Function Maintenance",
+					"description": "Unlike nandrolone and trenbolone (other 19-nor compounds), MENT maintains libido and erectile function because it acts directly on androgen receptors in the brain and sexual tissues without being reduced to a weaker metabolite. Many users report enhanced libido on MENT, particularly at lower doses before estrogenic side effects become prominent.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "MENT is most commonly available as trestolone acetate for intramuscular or subcutaneous injection. The acetate ester has an extremely short half-life of approximately 40 minutes, which means blood levels rise and fall rapidly. Daily injection is the absolute minimum frequency, and many users prefer twice-daily injections (morning and evening) to maintain more stable blood levels and reduce peak-related side effects. Longer-acting esters (trestolone decanoate, trestolone enanthate) have been discussed in research contexts but are not widely available. Subdermal implant formulations have been studied in clinical trials and could eventually provide sustained multi-month delivery.",
+			"protocols": [
+				{
+					"goal": "TRT Replacement - Low Dose",
+					"dose": "5-10 mg/day",
+					"frequency": "Daily (or split into 2 injections per day)",
+					"route": "Intramuscular or subcutaneous",
+					"notes": "Starting dose for those exploring MENT as a testosterone replacement. At this range, MENT provides androgen replacement equivalent to roughly 50-100 mg/day of testosterone. Estrogen management may be minimal at this dose. Monitor bloodwork closely, especially estradiol equivalents and hematocrit. Can be run without a testosterone base, though some individuals prefer a small amount of concurrent testosterone."
+				},
+				{
+					"goal": "Moderate Anabolic Protocol",
+					"dose": "10-15 mg/day",
+					"frequency": "Split into 2 injections per day",
+					"route": "Intramuscular or subcutaneous",
+					"notes": "Provides robust anabolic effects with manageable side effects for most users. Twice-daily injections help maintain stable blood levels given the very short half-life. Estrogenic side effects (water retention, mood changes) become more likely at this range. Have an AI on hand but be aware of reduced efficacy against 7-alpha-methyl-estradiol."
+				},
+				{
+					"goal": "Higher Dose - Advanced",
+					"dose": "15-25 mg/day",
+					"frequency": "Split into 2 injections per day",
+					"route": "Intramuscular or subcutaneous",
+					"notes": "Reserved for experienced users who understand MENT's unique estrogen profile. Significant anabolic effects but substantially increased estrogenic side effects. Blood pressure, water retention, and mood disturbances are common at this range. Estrogen management becomes critical and challenging. Frequent bloodwork is mandatory."
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"MENT acetate vial (typically 50-100 mg/mL in MCT or carrier oil)",
+					"Insulin syringes (0.5 mL or 1 mL with 27-31 gauge needle) for subcutaneous injection",
+					"Alternatively: 1 mL syringes with 25-27 gauge needle for intramuscular injection",
+					"Alcohol swabs",
+					"Sharps container"
+				],
+				"steps": [
+					"Wash hands thoroughly and prepare a clean work surface",
+					"Wipe vial stopper with alcohol swab and allow to dry",
+					"Draw the prescribed dose into an insulin syringe (volumes are typically very small, 0.05-0.25 mL)",
+					"Clean injection site with alcohol swab",
+					"For subcutaneous: pinch skin at abdomen or love handle area, insert needle at 45-degree angle, inject slowly",
+					"For intramuscular: insert needle at 90-degree angle into deltoid, ventrogluteal, or vastus lateralis",
+					"Withdraw needle and apply gentle pressure with gauze",
+					"Dispose of needle in sharps container",
+					"Repeat daily or twice daily as per protocol"
+				]
+			},
+			"keyBenefits": [
+				"Very small injection volumes due to high potency (often less than 0.25 mL per dose)",
+				"Compatible with subcutaneous injection using insulin syringes for convenience",
+				"Rapid onset and clearance allows quick dose adjustments",
+				"Side effects resolve quickly upon discontinuation due to short half-life",
+				"Can be administered with minimal injection site discomfort due to small volumes"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "HCG",
+			"status": "compatible",
+			"notes": "HCG helps maintain testicular function and fertility potential during MENT use. MENT is profoundly suppressive of the HPG axis, driving LH and FSH to near-zero. HCG (500-1000 IU 2-3x per week) preserves intratesticular testosterone production, testicular volume, and spermatogenesis potential. Particularly important for those using MENT as a standalone compound without exogenous testosterone."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "compatible",
+			"notes": "Aromatase inhibitors have reduced efficacy with MENT because its aromatization product, 7-alpha-methyl-estradiol, is a methylated estrogen that is less effectively blocked by conventional AIs. Anastrozole will still provide some estrogen control but typically not as complete as when managing estrogen from testosterone. Users may need higher AI doses than expected, and some find AIs insufficient at higher MENT doses. Monitor symptoms and bloodwork closely -- standard estradiol assays may not fully capture 7-alpha-methyl-estradiol levels."
+		},
+		{
+			"peptide": "Cabergoline",
+			"status": "compatible",
+			"notes": "While MENT appears to have less progestogenic activity than nandrolone, some users report prolactin-related symptoms at higher doses. Cabergoline (0.25-0.5 mg twice weekly) can be used if bloodwork confirms elevated prolactin. Use only when indicated by symptoms or lab values, not prophylactically."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "compatible",
+			"notes": "Unlike nandrolone, MENT does not require a testosterone base to maintain sexual function. However, some users choose to include low-dose testosterone (75-100 mg/week) alongside MENT for the downstream metabolites that testosterone provides (DHT, standard estradiol). Running MENT solo is a viable and increasingly common approach, particularly at TRT-level doses."
+		},
+		{
+			"peptide": "Growth Hormone",
+			"status": "synergistic",
+			"notes": "Growth hormone complements MENT's potent anabolic effects by enhancing IGF-1-mediated pathways, fat oxidation, and connective tissue support. The combination provides comprehensive body recomposition benefits."
+		},
+		{
+			"peptide": "Finasteride",
+			"status": "compatible",
+			"notes": "MENT is resistant to 5-alpha reductase and is not converted to a more potent androgen by this enzyme. As a result, finasteride has no meaningful interaction with MENT itself. If concurrent testosterone is being used, finasteride will still reduce DHT from that testosterone. Unlike with nandrolone, there is no paradoxical worsening of androgenic side effects when combining finasteride with MENT."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Due to the very short acetate ester half-life, MENT reaches effective blood levels within hours of the first injection. Some users report increased energy, mood elevation, and enhanced libido within the first few days. Minor water retention may appear quickly due to aromatization to 7-alpha-methyl-estradiol."
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Noticeable increases in strength and training performance. Muscle fullness and vascularity begin improving. Libido is typically elevated. Estrogenic side effects (water retention, nipple sensitivity) may become apparent, particularly at doses above 10 mg/day. This is the critical window for dialing in estrogen management."
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Significant lean mass gains become visible. Strength continues to climb. Recovery between training sessions improves noticeably. Estrogen-related side effects should be stabilized by this point if AI dosing has been adjusted appropriately. Blood pressure may begin rising in those prone to hypertension."
+		},
+		{
+			"period": "Week 5-8",
+			"effects": "Body composition changes are substantial. MENT's potency means that even at modest doses, muscle accrual is notable. Users often report a full, dense appearance to their musculature. HPG axis is profoundly suppressed by this point -- LH and FSH will be at or near zero. Bloodwork at this stage is important to assess hematocrit, lipids, and liver values."
+		},
+		{
+			"period": "Week 8-16+",
+			"effects": "Continued lean mass and strength improvements for those running extended protocols. Long-term MENT use requires consistent monitoring of cardiovascular markers, blood pressure, and estrogen-related side effects. Upon discontinuation, the short half-life means MENT clears the system within hours, and side effects resolve rapidly -- though HPG axis recovery will take weeks to months depending on cycle length and whether HCG was used."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Estrogen management difficulty -- 7-alpha-methyl-estradiol is harder to control with conventional aromatase inhibitors",
+			"Water retention and bloating, particularly at doses above 10 mg/day",
+			"Elevated blood pressure, often linked to water retention and estrogenic load",
+			"Mood changes including irritability, emotional sensitivity, or anxiety (frequently estrogen-related)",
+			"Profoundly suppressive of the HPG axis -- LH and FSH driven to near-zero even at low doses",
+			"Injection frequency burden (daily or twice-daily with acetate ester)",
+			"Mild acne and oily skin",
+			"Increased appetite"
+		],
+		"rare": [
+			"Gynecomastia from 7-alpha-methyl-estradiol (may be more difficult to manage than testosterone-derived estrogen)",
+			"Significant adverse lipid changes (HDL suppression, LDL elevation)",
+			"Left ventricular hypertrophy with prolonged supraphysiological use",
+			"Insomnia and night sweats, particularly at higher doses",
+			"Hair thinning (though MENT does not convert to DHT, the parent compound still has androgenic activity at hair follicles)",
+			"Depression or anxiety, particularly at high doses or with poorly managed estrogen",
+			"Elevated prolactin in some individuals (less common than with nandrolone)"
+		],
+		"stopSigns": [
+			"Severe chest pain, tightness, or pressure",
+			"Sudden shortness of breath or difficulty breathing at rest",
+			"Swelling, warmth, or pain in one leg (potential deep vein thrombosis)",
+			"Severe or persistent headaches with visual disturbances",
+			"Rapid or significant gynecomastia progression that does not respond to AI adjustment",
+			"Signs of stroke: sudden numbness, confusion, trouble speaking, loss of coordination",
+			"Persistent severe depression or suicidal ideation",
+			"Blood pressure consistently above 160/100 despite management efforts"
+		],
+		"contraindications": [
+			"Prostate cancer (active or history of hormone-sensitive prostate cancer)",
+			"Breast cancer in males or females",
+			"Pregnancy or potential for pregnancy",
+			"Severe hepatic impairment",
+			"Polycythemia (hematocrit above 54% at baseline)",
+			"Uncontrolled hypertension or severe cardiovascular disease",
+			"Uncontrolled heart failure",
+			"Known hypersensitivity to trestolone or any formulation components"
+		],
+		"monitoring": [
+			"Total and free testosterone: baseline and every 4-6 weeks (will be suppressed if MENT is used standalone)",
+			"Estradiol (sensitive assay): at each blood draw -- note that standard assays may not fully detect 7-alpha-methyl-estradiol",
+			"Complete blood count with hematocrit: baseline, 4-6 weeks, then every 2-3 months",
+			"Comprehensive metabolic panel and lipid panel: baseline and every 6-8 weeks",
+			"Liver function tests: baseline and periodic monitoring",
+			"Blood pressure: regular monitoring throughout use, ideally daily during dose adjustment periods",
+			"Prolactin: baseline and if symptoms of elevation appear",
+			"PSA (prostate-specific antigen): baseline and every 6 months for men over 40",
+			"LH and FSH: baseline and periodic checks to assess degree of HPG axis suppression"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Clear, pale yellow to colorless oil with no visible particles or cloudiness",
+			"Proper labeling with concentration (typically 50 or 100 mg/mL), ester type (acetate), and expiration date",
+			"Concentration consistent with labeled amount (MENT acetate is typically 50-100 mg/mL)",
+			"Intact rubber stopper with no signs of prior puncture",
+			"Oil draws smoothly with appropriate viscosity",
+			"Third-party lab testing documentation available"
+		],
+		"warning": [
+			"Underground lab product without independent verification or batch testing",
+			"Concentration claims above 100 mg/mL (MENT acetate has solubility limitations at higher concentrations)",
+			"Vial label with spelling errors, misaligned printing, or unprofessional appearance",
+			"Oil appears slightly darker than expected but is otherwise clear",
+			"No documentation of carrier oil type"
+		],
+		"bad": [
+			"Cloudy, discolored, or particulate-containing solution (contamination risk)",
+			"Crashed product (crystallized steroid visible in vial)",
+			"Broken or missing tamper-evident seal on vial",
+			"No labeling, incorrect labeling, or missing expiration date",
+			"Pain, redness, or swelling at injection site lasting more than 72 hours (potential infection or abscess)",
+			"Product sourced without any testing or third-party verification"
+		]
+	},
+	"references": [
+		{
+			"title": "7 alpha-methyl-19-nortestosterone (MENT): the optimal androgen for male contraception",
+			"authors": "Sundaram, K., Kumar, N., Monder, C., Bardin, C.W.",
+			"journal": "Annals of Medicine",
+			"year": "1993",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8217105/",
+			"keyFindings": "Foundational paper characterizing MENT as a candidate male contraceptive. Demonstrated that MENT is approximately 10 times more potent than testosterone for gonadotropin suppression and does not undergo 5-alpha reduction, providing the rationale for its development as a hormonal contraceptive."
+		},
+		{
+			"title": "7alpha-methyl-19-nortestosterone (MENT): the optimal androgen for male contraception and replacement therapy",
+			"authors": "Anderson, R.A., Wu, F.C.",
+			"journal": "International Journal of Andrology",
+			"year": "2002",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12230227/",
+			"keyFindings": "Reviewed the pharmacological profile of MENT as both a contraceptive and androgen replacement agent. Confirmed its high potency, resistance to 5-alpha reductase, ability to maintain sexual function, and robust HPG axis suppression. Discussed subdermal implant formulations for sustained delivery."
+		},
+		{
+			"title": "Comparison of the pharmacokinetics of subcutaneous and intramuscular administration of 7alpha-methyl-19-nortestosterone (MENT) in healthy men",
+			"authors": "von Eckardstein, S., Noe, G., Brache, V., et al.",
+			"journal": "Contraception",
+			"year": "2002",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12413575/",
+			"keyFindings": "Clinical pharmacokinetic study comparing subcutaneous and intramuscular delivery of MENT acetate. Found rapid absorption and short half-life by both routes, with peak blood levels within 30-60 minutes. Provided the clinical basis for dosing frequency recommendations."
+		},
+		{
+			"title": "7alpha-methyl-19-nortestosterone acetate (MENT Ac) combined with etonogestrel implant suppresses spermatogenesis",
+			"authors": "Walton, M.J., Kumar, N., Baird, D.T., et al.",
+			"journal": "Journal of Clinical Endocrinology and Metabolism",
+			"year": "2007",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17635944/",
+			"keyFindings": "Phase 2 clinical trial demonstrating that MENT acetate subdermal implants combined with etonogestrel effectively suppressed spermatogenesis in healthy men. The majority of participants achieved azoospermia or severe oligospermia, supporting MENT's potential as a reversible male contraceptive."
+		},
+		{
+			"title": "Hormonal male contraception: a proof of concept study with a novel combination of testosterone undecanoate and trestolone acetate (MENT)",
+			"authors": "Surampudi, P., Page, S.T., Swerdloff, R.S., et al.",
+			"journal": "Fertility and Sterility",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25444439/",
+			"keyFindings": "Proof-of-concept study evaluating MENT acetate alongside testosterone undecanoate for male contraception. Demonstrated synergistic gonadotropin suppression and high rates of spermatogenic suppression, further validating the clinical development pathway for MENT-based contraceptive regimens."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "7alpha-methyl-19-nortestosterone (MENT): the optimal androgen for male contraception and replacement therapy",
+			"date": "2002",
+			"source": "International Journal of Andrology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12230227/",
+			"summary": "Comprehensive review positioning MENT as a leading candidate for both male contraception and hormone replacement. Highlighted advantages over testosterone including greater potency, resistance to 5-alpha reductase, and the ability to suppress spermatogenesis while maintaining androgenic function."
+		},
+		{
+			"title": "Spermatogenic suppression with MENT acetate subdermal implants",
+			"date": "2007",
+			"source": "Journal of Clinical Endocrinology and Metabolism",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17635944/",
+			"summary": "Clinical trial showing MENT acetate delivered via subdermal implant effectively suppressed sperm production to contraceptive thresholds in the majority of healthy male volunteers. Provided evidence for sustained-release formulations that could eliminate the need for daily injections."
+		},
+		{
+			"title": "Hormonal male contraception with trestolone acetate (MENT) and testosterone undecanoate",
+			"date": "2014",
+			"source": "Fertility and Sterility",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25444439/",
+			"summary": "Proof-of-concept trial combining MENT with testosterone undecanoate for male contraception, demonstrating effective and reversible spermatogenic suppression. Results supported continued clinical development of MENT-based contraceptive regimens."
+		}
+	]
+}

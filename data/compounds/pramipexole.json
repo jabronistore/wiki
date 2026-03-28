@@ -1,0 +1,244 @@
+{
+	"id": "pramipexole",
+	"name": "Pramipexole",
+	"subtitle": "Dopamine Agonist | Prolactin Management Alternative",
+	"aliases": ["Prami", "Mirapex", "Mirapexin"],
+	"compoundKind": "ancillary",
+	"categories": ["pct"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "211.33 Da",
+		"type": "Non-ergoline dopamine D3 receptor agonist",
+		"modifications": [
+			"Aminobenzothiazole derivative with preferential affinity for D3 dopamine receptors",
+			"Non-ergoline structure avoids fibrotic complications associated with ergot-derived agents"
+		],
+		"halfLife": "~8 hours",
+		"halfLifeSeconds": 28800
+	},
+	"overview": "Pramipexole is a non-ergoline dopamine agonist with preferential affinity for the D3 dopamine receptor subtype. It is FDA-approved under the brand names Mirapex and Mirapexin for the treatment of Parkinson's disease and restless legs syndrome (RLS). In the bodybuilding and performance enhancement context, pramipexole serves as an alternative to cabergoline for managing prolactin elevation caused by 19-nor anabolic steroids such as nandrolone (Deca-Durabolin, NPP) and trenbolone. While less potent than cabergoline at suppressing prolactin, pramipexole is typically cheaper and more readily available, making it a practical option when cabergoline is difficult to source. Its shorter half-life of approximately 8 hours necessitates daily dosing (usually at bedtime), and it must be titrated slowly from a low starting dose to minimize side effects -- particularly nausea, which is common during initiation. Pramipexole is generally considered a second-choice prolactin management agent behind cabergoline due to its lower potency, shorter duration, and less favorable side effect profile at the doses sometimes needed for adequate prolactin suppression.",
+	"mechanism": "Pramipexole exerts its prolactin-suppressing effects by acting as a full agonist at dopamine D2 and D3 receptors, with a marked preference for the D3 subtype. In the anterior pituitary, prolactin secretion by lactotroph cells is tonically inhibited by hypothalamic dopamine acting on D2 receptors. Pramipexole stimulates these D2 receptors to suppress prolactin gene transcription, synthesis, and release. Its preferential D3 activity also contributes to its clinical effects in Parkinson's disease and may account for some of its neuropsychiatric side effects, particularly impulse control disorders, which are mediated through mesolimbic D3 signaling pathways. In the context of 19-nor steroid use, nandrolone and trenbolone elevate prolactin through progestogenic activity at the pituitary, and pramipexole counteracts this by restoring dopaminergic inhibition. However, because pramipexole has lower D2 affinity and a much shorter half-life than cabergoline, higher relative doses and more frequent administration are needed to achieve comparable prolactin suppression.",
+	"keyBenefits": [
+		"Suppresses prolactin elevation caused by 19-nor anabolic steroids",
+		"Non-ergoline structure eliminates the risk of cardiac valve fibrosis associated with ergot-derived agents like cabergoline",
+		"Generally cheaper and more widely available than cabergoline",
+		"FDA-approved with a well-characterized safety and pharmacokinetic profile",
+		"Can restore sexual function impaired by prolactin elevation on nandrolone or trenbolone cycles",
+		"Viable alternative when cabergoline cannot be sourced"
+	],
+	"indications": [
+		{
+			"category": "19-Nor Compound Support",
+			"items": [
+				{
+					"name": "Prolactin Management on Nandrolone",
+					"description": "Nandrolone (Deca-Durabolin and NPP) elevates prolactin through progestogenic activity. Pramipexole can be used as an alternative to cabergoline for managing prolactin-related side effects including sexual dysfunction and progesterone-mediated gynecomastia, though it is less potent and requires daily dosing.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Prolactin Management on Trenbolone",
+					"description": "Trenbolone's strong progestogenic activity can elevate prolactin substantially. Pramipexole provides a functional alternative for prolactin control during trenbolone cycles, though users with significant prolactin elevation may find cabergoline more reliable.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Medical Applications",
+			"items": [
+				{
+					"name": "Parkinson's Disease",
+					"description": "FDA-approved for the treatment of signs and symptoms of idiopathic Parkinson's disease, both as monotherapy and as adjunct to levodopa. Pramipexole is effective at all stages of the disease and is particularly useful for managing motor symptoms in early Parkinson's.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Restless Legs Syndrome (RLS)",
+					"description": "FDA-approved for the treatment of moderate-to-severe primary restless legs syndrome. Low doses taken before bedtime significantly reduce RLS symptoms and improve sleep quality.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Pramipexole is administered orally as a tablet, available in immediate-release and extended-release formulations. For prolactin management in bodybuilding contexts, the immediate-release tablet is standard. Oral bioavailability is greater than 90%, and absorption is not significantly affected by food. The relatively short half-life of approximately 8 hours requires daily dosing, typically taken at bedtime to minimize daytime drowsiness and nausea. Dosing must be titrated upward slowly from 0.125mg to the target dose over 1-2 weeks to reduce gastrointestinal and CNS side effects.",
+			"protocols": [
+				{
+					"goal": "Prolactin management during 19-nor cycle (starting dose)",
+					"dose": "0.125mg",
+					"frequency": "Once daily at bedtime",
+					"route": "Oral"
+				},
+				{
+					"goal": "Prolactin management during 19-nor cycle (standard dose)",
+					"dose": "0.25mg",
+					"frequency": "Once daily at bedtime",
+					"route": "Oral"
+				},
+				{
+					"goal": "Prolactin management during 19-nor cycle (higher dose if needed)",
+					"dose": "0.5mg",
+					"frequency": "Once daily at bedtime",
+					"route": "Oral"
+				},
+				{
+					"goal": "Restless Legs Syndrome (medical)",
+					"dose": "0.125-0.5mg",
+					"frequency": "Once daily, 2-3 hours before bedtime",
+					"route": "Oral"
+				}
+			],
+			"keyBenefits": [
+				"Greater than 90% oral bioavailability",
+				"Widely available in multiple tablet strengths for easy titration",
+				"Significantly cheaper than cabergoline in most markets",
+				"Room temperature storage with long shelf life"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": false
+		},
+		{
+			"type": "topical",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Nandrolone (Deca-Durabolin / NPP)",
+			"status": "synergistic",
+			"notes": "The primary use case for pramipexole in performance enhancement. Nandrolone elevates prolactin through progestogenic activity, causing sexual dysfunction and potential gynecomastia. Pramipexole counteracts this prolactin elevation, though it is less potent than cabergoline and requires daily dosing. Adequate for mild to moderate prolactin elevation in most users."
+		},
+		{
+			"peptide": "Trenbolone",
+			"status": "synergistic",
+			"notes": "Trenbolone's potent progestogenic activity can cause significant prolactin elevation. Pramipexole provides functional prolactin control during trenbolone cycles, though users experiencing substantial prolactin-driven symptoms may require the greater potency of cabergoline."
+		},
+		{
+			"peptide": "Cabergoline",
+			"status": "avoid",
+			"notes": "Do not combine pramipexole with cabergoline or other dopamine agonists. Using two dopamine agonists simultaneously is redundant and significantly increases the risk of excessive dopaminergic stimulation, leading to severe nausea, orthostatic hypotension, impulse control disorders, and potential psychiatric effects. Choose one dopamine agonist and use it at an appropriate dose."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3 (Titration Phase)",
+			"effects": "Begin at the starting dose of 0.125mg at bedtime. Nausea is common during the first few days and is the most frequently reported side effect. Drowsiness and mild dizziness may also occur. Prolactin suppression is minimal at this low initiation dose."
+		},
+		{
+			"period": "Day 4-7",
+			"effects": "If the starting dose is tolerated, increase to 0.25mg at bedtime. Initial nausea typically begins to subside as tolerance develops. Prolactin levels start to decline measurably. Some users may notice mild improvements in libido if prolactin was elevated."
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "At 0.25-0.5mg daily, prolactin suppression becomes clinically meaningful. Sexual function improvements are noticeable in users who had prolactin-related dysfunction. Gastrointestinal side effects generally resolve. Drowsiness at bedtime is common but often considered beneficial for sleep."
+		},
+		{
+			"period": "Week 2-4+",
+			"effects": "Ongoing prolactin management at the maintenance dose. Steady-state plasma levels are achieved within 2-3 days of a stable dose due to the shorter half-life. Prolactin should be well controlled on bloodwork. Monitor for impulse control issues, particularly at higher doses or with prolonged use."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Nausea (very common during initiation; typically resolves with continued use)",
+			"Drowsiness and somnolence (often taken at bedtime to manage this)",
+			"Dizziness or lightheadedness",
+			"Headache",
+			"Insomnia (in some users, despite drowsiness being more typical)",
+			"Orthostatic hypotension (feeling faint when standing up quickly)"
+		],
+		"rare": [
+			"Impulse control disorders (compulsive gambling, hypersexuality, binge eating, compulsive shopping -- more common than with cabergoline due to D3 receptor preference)",
+			"Hallucinations and psychotic episodes (dose-dependent, more common in elderly Parkinson's patients)",
+			"Sudden onset of sleep (sleep attacks without warning drowsiness)",
+			"Peripheral edema",
+			"Dyskinesia (primarily in Parkinson's patients on concurrent levodopa therapy)"
+		],
+		"stopSigns": [
+			"Emergence of compulsive or impulsive behaviors (gambling, spending, hypersexuality, binge eating)",
+			"Hallucinations, paranoia, or other psychiatric symptoms",
+			"Episodes of falling asleep without warning during daily activities",
+			"Severe persistent nausea or vomiting that does not resolve with continued use",
+			"Severe dizziness or syncope (fainting)"
+		],
+		"contraindications": [
+			"Known hypersensitivity to pramipexole or any component of the formulation",
+			"Concurrent use of other dopamine agonists (cabergoline, bromocriptine)",
+			"History of impulse control disorders or pathological gambling",
+			"Severe renal impairment (pramipexole is primarily renally excreted; dose adjustment required in moderate impairment)",
+			"Concurrent use of dopamine antagonists (antipsychotics, metoclopramide) which oppose pramipexole's mechanism"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white tablets of uniform size and appearance",
+			"Third-party certificate of analysis (COA) confirming identity and purity",
+			"Professional packaging with batch number, expiration date, and proper labeling",
+			"Sourced from a licensed pharmacy or reputable research supplier",
+			"Available in multiple strengths (0.125mg, 0.25mg, 0.5mg, 1mg) for proper titration"
+		],
+		"warning": [
+			"No COA or third-party testing available",
+			"Tablets are inconsistent in size, color, or weight",
+			"Product labeled generically without specific compound identification",
+			"Packaging lacks batch number or expiration date"
+		],
+		"bad": [
+			"Discolored, crumbling, or visibly degraded tablets",
+			"Unusual chemical odor or taste",
+			"No labeling, batch information, or expiration date",
+			"Sourced from unverified vendors with no quality documentation"
+		]
+	},
+	"references": [
+		{
+			"title": "Pramipexole, a new dopamine agonist, for the treatment of Parkinson's disease: efficacy and safety in early and advanced disease",
+			"authors": "Shannon KM, Bennett JP Jr, Friedman JH",
+			"journal": "Neurology",
+			"year": "1997",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9153155/",
+			"keyFindings": "Demonstrated pramipexole's efficacy in treating Parkinson's disease symptoms across early and advanced stages. Established the safety and tolerability profile including common side effects of nausea, dizziness, and somnolence, and confirmed the drug's dopamine D3-preferring receptor binding profile."
+		},
+		{
+			"title": "Pramipexole vs levodopa as initial treatment for Parkinson disease: a randomized controlled trial",
+			"authors": "Parkinson Study Group",
+			"journal": "JAMA",
+			"year": "2000",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11015528/",
+			"keyFindings": "Landmark randomized trial of 301 patients comparing pramipexole to levodopa as initial Parkinson's therapy. Pramipexole showed fewer motor complications than levodopa over the study period and confirmed the drug's pharmacokinetic profile including its approximately 8-hour half-life and renal elimination pathway."
+		},
+		{
+			"title": "Impulse control disorders in Parkinson's disease: a cross-sectional study of 3090 patients",
+			"authors": "Weintraub D, Koester J, Potenza MN, Siderowf AD, Stacy M, Voon V, Whetteckey J, Wunderlich GR, Lang AE",
+			"journal": "Archives of Neurology",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20625062/",
+			"keyFindings": "Large cross-sectional study identifying dopamine agonists, including pramipexole, as a significant risk factor for impulse control disorders (ICDs) in Parkinson's patients. Found ICD prevalence of 13.6% in patients on dopamine agonists versus 7.2% in those not taking them. Identified pramipexole's D3 receptor preference as a potential contributing factor."
+		},
+		{
+			"title": "Pramipexole in restless legs syndrome: an extended-release, double-blind, randomized, placebo-controlled dose-finding study",
+			"authors": "Hogl B, Garcia-Borreguero D, Trenkwalder C, Ferini-Strambi L, Hening W, Poewe W",
+			"journal": "Sleep Medicine",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20538516/",
+			"keyFindings": "Randomized placebo-controlled trial establishing pramipexole's dose-response relationship for restless legs syndrome. Confirmed efficacy at doses of 0.125-0.75mg daily and established the dose-titration protocol starting at 0.125mg with gradual upward adjustment to minimize adverse effects."
+		},
+		{
+			"title": "Effects of dopamine agonist pramipexole on prolactin secretion in healthy male volunteers",
+			"authors": "Schilling JC, Adamus WS, Palluk R",
+			"journal": "British Journal of Clinical Pharmacology",
+			"year": "1992",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1389949/",
+			"keyFindings": "Early pharmacological study in healthy male volunteers demonstrating pramipexole's dose-dependent suppression of serum prolactin levels. Confirmed pramipexole's dopamine agonist activity at the pituitary level and characterized its prolactin-lowering potency, onset of action, and duration of effect relative to dose."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "0.25-0.5mg daily at bedtime (start at 0.125mg and titrate slowly)",
+		"frequency": "Once daily at bedtime",
+		"cycleDuration": "Duration of 19-nor compound use; taper off when discontinuing",
+		"storage": "Room temperature (20-25C), protected from light and moisture"
+	}
+}

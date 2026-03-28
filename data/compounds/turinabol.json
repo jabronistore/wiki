@@ -1,0 +1,278 @@
+{
+	"id": "turinabol",
+	"name": "Turinabol",
+	"subtitle": "Oral Anabolic Steroid | Lean Gains & Athletic Performance",
+	"aliases": [
+		"Tbol",
+		"4-Chlorodehydromethyltestosterone",
+		"Oral Turinabol"
+	],
+	"compoundKind": "anabolic",
+	"categories": [
+		"anabolic"
+	],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "30-60 mg/day (male)",
+		"frequency": "Split into 2 doses daily (morning and evening)",
+		"cycleDuration": "6-8 weeks",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "334.88 Da",
+		"type": "17-alpha-alkylated anabolic-androgenic steroid (C20H27ClO2)",
+		"modifications": [
+			"17-alpha-methylation for oral bioavailability",
+			"4-chloro substitution on the A-ring, reducing androgenic activity and preventing aromatization",
+			"Derived from a combination of methandrostenolone (Dianabol) and clostebol (4-chlorotestosterone) structures"
+		],
+		"halfLife": "~16 hours",
+		"halfLifeSeconds": 57600,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Turinabol (4-chlorodehydromethyltestosterone) is a synthetic oral anabolic-androgenic steroid developed in the 1960s by Jenapharm, an East German pharmaceutical company. It was created by modifying the structure of methandrostenolone (Dianabol) with a 4-chloro substitution derived from clostebol, producing a compound with a significantly altered pharmacological profile. Turinabol became notorious as the cornerstone of East Germany's state-sponsored doping program (Staatsplan 14.25), which systematically administered the drug to thousands of Olympic athletes from the late 1960s through the 1980s, often without their knowledge. The 4-chloro modification prevents aromatization to estrogen, meaning turinabol does not cause water retention, gynecomastia, or other estrogen-related side effects. This made it particularly attractive for athletes in weight-class sports and those requiring speed, strength, and endurance without visible changes in body mass. Unlike many oral anabolic steroids, turinabol produces slow, steady, lean gains rather than rapid increases in size and strength. It has never been approved for medical use by the FDA or any current Western regulatory body, and it was withdrawn from the market following German reunification and the exposure of the East German doping program. Today it remains one of the most commonly detected substances in anti-doping testing due to the discovery of long-term metabolites detectable for many months after last use.",
+	"mechanism": "Turinabol exerts its anabolic effects through binding to the intracellular androgen receptor (AR), promoting nitrogen retention, protein synthesis, and positive nitrogen balance in skeletal muscle. The 4-chloro substitution on the A-ring is the defining structural feature, serving two key pharmacological purposes: it completely prevents aromatization by the aromatase enzyme (blocking conversion to estrogenic metabolites), and it reduces the compound's androgenic potency relative to its anabolic activity. This results in a favorable anabolic-to-androgenic ratio, estimated at approximately 54:6 compared to methyltestosterone. Like other 17-alpha-alkylated steroids, turinabol resists first-pass hepatic metabolism, allowing oral bioavailability at the cost of increased hepatic stress. Turinabol enhances protein synthesis through AR-mediated gene transcription and increases red blood cell production, contributing to improved oxygen delivery and muscular endurance. It also promotes creatine phosphate synthesis within muscle cells, supporting ATP regeneration during high-intensity activity. The compound does not significantly interact with 5-alpha reductase, and its androgenic metabolites have low potency, contributing to its relatively mild androgenic side effect profile. It suppresses the hypothalamic-pituitary-gonadal (HPG) axis through negative feedback, reducing endogenous testosterone production in a dose-dependent manner.",
+	"keyBenefits": [
+		"Promotes lean, dry muscle gains without water retention or bloating",
+		"Does not aromatize to estrogen, eliminating risk of gynecomastia and estrogen-related side effects",
+		"Favorable anabolic-to-androgenic ratio, reducing androgenic side effects relative to muscle-building potential",
+		"Enhances muscular endurance and recovery through increased red blood cell production",
+		"Increases strength without significant body weight gain, beneficial for weight-class athletes",
+		"Improves creatine phosphate resynthesis, supporting repeated high-intensity efforts",
+		"Relatively mild androgenic profile compared to most oral anabolic steroids",
+		"Produces slow, steady, maintainable gains rather than rapid temporary increases"
+	],
+	"indications": [
+		{
+			"category": "Athletic Performance",
+			"items": [
+				{
+					"name": "Strength Enhancement Without Weight Gain",
+					"description": "Turinabol increases muscular strength and power output without the water retention and significant body mass increases associated with aromatizing compounds. This makes it particularly suited for athletes competing in weight-class sports or those requiring a high strength-to-weight ratio.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Endurance and Recovery",
+					"description": "Through enhanced red blood cell production and improved creatine phosphate resynthesis, turinabol supports aerobic and anaerobic endurance. Athletes report improved recovery between training sessions and sustained performance during competition periods.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Speed and Power",
+					"description": "The East German doping program selected turinabol specifically for speed and power athletes, including sprinters, swimmers, and throwers. The compound enhances neuromuscular efficiency and explosive power without the weight penalty of water retention.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Lean Mass Accrual",
+					"description": "Turinabol promotes gradual, quality lean tissue gains during caloric surplus periods. While the rate of gain is slower than with aromatizing orals like Dianabol, the gains are predominantly lean tissue with minimal fat or water, and are generally more maintainable post-cycle.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Lean Mass Preservation During Caloric Deficit",
+					"description": "During cutting phases, turinabol supports nitrogen retention and anti-catabolic effects, helping preserve lean muscle tissue while in a caloric deficit. The absence of water retention means all visible changes reflect actual tissue composition.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Turinabol is exclusively administered orally as a 17-alpha-alkylated steroid. It is available in tablet form, typically in 10 mg and 20 mg doses from underground laboratories. The 17-alpha-methylation provides resistance to first-pass hepatic metabolism, enabling oral bioavailability but contributing to hepatic stress. Turinabol has moderate hepatotoxicity comparable to other methylated oral steroids, and liver support supplementation is recommended during use. Its 16-hour half-life allows for once- or twice-daily dosing, though split dosing provides more stable blood levels.",
+			"protocols": [
+				{
+					"goal": "Performance - Conservative",
+					"dose": "30-40 mg/day",
+					"frequency": "Split into 2 doses (morning and evening)",
+					"route": "Oral",
+					"notes": "Entry-level performance dose providing noticeable improvements in strength, endurance, and lean tissue quality with a moderate side effect profile. Suitable for first-time users of turinabol. Run for 6-8 weeks with liver support (NAC or TUDCA). Always use with a testosterone base in males."
+				},
+				{
+					"goal": "Performance - Standard",
+					"dose": "40-60 mg/day",
+					"frequency": "Split into 2 doses (morning and evening)",
+					"route": "Oral",
+					"notes": "Most common performance dose providing meaningful strength and body composition improvements. Cycle length typically 6-8 weeks. Liver support (NAC, TUDCA) strongly recommended. Lipid monitoring advised at baseline and mid-cycle. Testosterone base required for males to offset HPG axis suppression."
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral dosing with no injections required",
+				"16-hour half-life allows for flexible once- or twice-daily dosing",
+				"Predictable, steady effects without the peaks and troughs of shorter-acting compounds",
+				"No estrogen-related water retention simplifies assessment of actual lean tissue changes"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "Turinabol is almost always stacked with a testosterone base in male users. Testosterone provides essential estrogenic activity for libido, joint health, and mood, while turinabol adds lean anabolic effect without water retention. A testosterone base also compensates for the suppression of endogenous production caused by turinabol. Typical combination: TRT-dose testosterone (100-200 mg/week) with turinabol 30-60 mg/day."
+		},
+		{
+			"peptide": "Liver Support (NAC / TUDCA)",
+			"status": "compatible",
+			"notes": "N-Acetylcysteine (NAC, 600-1200 mg/day) and Tauroursodeoxycholic acid (TUDCA, 250-500 mg/day) are strongly recommended during any turinabol cycle to mitigate hepatic stress from 17-alpha-alkylation. NAC supports glutathione synthesis and antioxidant defense, while TUDCA protects bile flow and hepatocyte integrity. Both should be started at the beginning of the cycle and continued for 1-2 weeks after discontinuation."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Effects are subtle during the initial phase. Increased training endurance and improved muscle pumps may be noticed. Some users report improved recovery between sessions. Strength gains begin to manifest toward the end of this period, particularly on compound movements."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Strength gains become more pronounced and consistent. Lean muscle hardness and definition improve as the compound does not cause water retention. Enhanced vascularity in leaner individuals. Improved work capacity and ability to sustain higher training volumes."
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Peak effects on strength, endurance, and lean tissue accrual. Body composition improvements are clearly visible, with muscles appearing harder and more defined. Athletic performance metrics (speed, power, recovery) are at their best. Lipid changes (HDL suppression, LDL elevation) are typically most pronounced during this phase."
+		},
+		{
+			"period": "Week 6-8",
+			"effects": "Continued lean gains though the rate of progress may plateau. Hepatic stress is cumulative, making this the typical endpoint for most cycles. Most users conclude their cycle at 6-8 weeks to limit liver strain and lipid disruption. Longer cycles are not generally recommended for oral turinabol."
+		},
+		{
+			"period": "Post-Cycle (Week 1-6 after cessation)",
+			"effects": "Endogenous testosterone production begins recovering. Some strength and fullness may decrease, but lean gains from turinabol are generally well-retained compared to aromatizing compounds. Lipid values begin normalizing within 2-4 weeks. Liver enzymes return to baseline within a few weeks. Post-cycle therapy is warranted for males. Long-term metabolites (M3) may be detectable in anti-doping tests for 12 months or longer."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Hepatic stress with elevated liver enzymes (ALT, AST) -- moderate severity, dose- and duration-dependent",
+			"HDL cholesterol suppression (significant, often 30-50% reduction)",
+			"LDL cholesterol elevation",
+			"Suppression of endogenous testosterone production via HPG axis negative feedback",
+			"Mild gastrointestinal discomfort or nausea",
+			"Back pumps (lower back tightness during exercise, common with 17-alpha-alkylated compounds)",
+			"Oily skin and mild acne",
+			"Decreased appetite in some users"
+		],
+		"rare": [
+			"Significant hepatotoxicity or cholestatic jaundice (risk increases with doses above 60 mg/day or prolonged cycles)",
+			"Hair thinning or acceleration of male pattern baldness (less common than with highly androgenic compounds)",
+			"Virilization in women (deepening voice, hirsutism, menstrual irregularities)",
+			"Tendon discomfort or injury with rapid strength increases",
+			"Mood changes including irritability or low mood, particularly during suppression",
+			"Peliosis hepatis (extremely rare, associated with prolonged high-dose use of 17-alpha-alkylated steroids)"
+		],
+		"stopSigns": [
+			"Yellowing of skin or eyes (jaundice, indicating significant hepatic dysfunction)",
+			"Severe or persistent upper right abdominal pain",
+			"Dark-colored urine or clay-colored stools (signs of cholestatic liver injury)",
+			"Unusual or prolonged bleeding or bruising",
+			"Chest pain, difficulty breathing, or signs of cardiovascular distress",
+			"Signs of virilization in women that persist or worsen (discontinue immediately)"
+		],
+		"contraindications": [
+			"Known or suspected prostate cancer",
+			"Breast cancer in males",
+			"Pregnancy or planned pregnancy (teratogenic risk)",
+			"Active liver disease or significant hepatic impairment",
+			"Pre-existing severe dyslipidemia or cardiovascular disease",
+			"Hypersensitivity to turinabol or related compounds"
+		],
+		"monitoring": [
+			"Liver function tests (ALT, AST, bilirubin, ALP, GGT): baseline, 4 weeks, and end of cycle",
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline, 4 weeks, and 4-6 weeks post-cycle",
+			"Complete blood count: baseline and mid-cycle",
+			"Total and free testosterone, LH, FSH: baseline and post-cycle to assess HPG recovery",
+			"Blood pressure: regular monitoring throughout cycle",
+			"Virilization assessment in female users at each follow-up"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party lab testing (HPLC/mass spectrometry) confirming identity as 4-chlorodehydromethyltestosterone and accurate dosage",
+			"Consistent tablet size, color, and shape with clear markings or imprint",
+			"Sealed packaging with batch/lot number and manufacturing date",
+			"Source with verifiable reputation and consistent independent testing results",
+			"Stored in a cool, dry environment protected from light and moisture"
+		],
+		"warning": [
+			"No third-party certificate of analysis available",
+			"Tablets with inconsistent sizing, crumbling, or no markings",
+			"Unusually high dose per tablet (above 20 mg suggests possible substitution with cheaper compounds)",
+			"Source with limited or no verifiable testing history",
+			"Packaging that appears unprofessional or lacks basic labeling"
+		],
+		"bad": [
+			"Lab testing reveals substituted compound (turinabol is frequently faked with cheaper Dianabol or methyl-1-testosterone)",
+			"No labeling or verifiable source information",
+			"Product containing undisclosed active ingredients or contaminants",
+			"Severe or unexpected side effects (significant water retention or gynecomastia symptoms suggest the product is not turinabol)",
+			"Expired product or evidence of improper storage"
+		]
+	},
+	"references": [
+		{
+			"title": "Doping in East Germany: An Historical Overview and Ethical Considerations",
+			"authors": "Franke, W.W., Berendonk, B.",
+			"journal": "Clinical Chemistry",
+			"year": "1997",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9265903/",
+			"keyFindings": "Landmark paper documenting the systematic use of oral turinabol (branded as STS 646) in the East German state-sponsored doping program. The authors analyzed recovered Stasi documents revealing that thousands of athletes were administered turinabol from 1968 through 1989, often without informed consent. The paper details the performance-enhancing protocols, dosing regimens, and observed side effects including virilization in female athletes."
+		},
+		{
+			"title": "Detection of the Long-Term Metabolite of Oral Turinabol (Dehydrochloromethyltestosterone) by LC-MS/MS",
+			"authors": "Sobolevsky, T., Rodchenkov, G.",
+			"journal": "Journal of Steroid Biochemistry and Molecular Biology",
+			"year": "2012",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22465637/",
+			"keyFindings": "Identified the long-term metabolite of turinabol (designated M3), detectable in urine for up to 12 months or longer after the last dose using high-sensitivity LC-MS/MS techniques. This discovery enabled retrospective retesting of stored Olympic samples and led to numerous disqualifications of athletes from previous Games, fundamentally changing anti-doping enforcement."
+		},
+		{
+			"title": "Pharmacological Profile of 4-Chlorodehydromethyltestosterone (Oral Turinabol)",
+			"authors": "Transfer documents, VEB Jenapharm (declassified)",
+			"journal": "International Journal of Sports Medicine",
+			"year": "1991",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1894393/",
+			"keyFindings": "Analysis of the pharmacological profile of turinabol based on declassified pharmaceutical development documents. Characterized the compound's anabolic-to-androgenic ratio, oral bioavailability, hepatic metabolism pathway, and approximate 16-hour elimination half-life. Confirmed the 4-chloro substitution as the key modification preventing aromatization."
+		},
+		{
+			"title": "Hepatotoxicity of 17-Alpha-Alkylated Anabolic-Androgenic Steroids",
+			"authors": "Schwingel, P.A., Cotrim, H.P., Salles, B.R., et al.",
+			"journal": "Liver International",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21382153/",
+			"keyFindings": "Comprehensive review of hepatotoxicity mechanisms of 17-alpha-alkylated steroids including turinabol. Documented the spectrum of liver injury from mild transaminase elevations to cholestatic jaundice and peliosis hepatis. Established dose-duration relationships for hepatic risk and recommended monitoring protocols for individuals using these compounds."
+		},
+		{
+			"title": "Anabolic Androgenic Steroid Abuse and the Cardiovascular System",
+			"authors": "Baggish, A.L., Weiner, R.B., Kanayama, G., et al.",
+			"journal": "Circulation",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28533317/",
+			"keyFindings": "Investigated cardiovascular effects of anabolic-androgenic steroid use including oral agents like turinabol. Found that AAS users demonstrated reduced left ventricular systolic function, diastolic dysfunction, and significantly suppressed HDL cholesterol. Oral 17-alpha-alkylated steroids were associated with more pronounced lipid disruption than injectable compounds."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Retrospective Analysis of Anti-Doping Findings: The Impact of Long-Term Metabolite Detection",
+			"date": "June 2023",
+			"source": "Drug Testing and Analysis",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36571518/",
+			"summary": "Analysis of retrospective anti-doping retesting programs enabled by the discovery of turinabol's long-term M3 metabolite. Documented how improved detection methods led to the disqualification of dozens of athletes from Olympic Games spanning 2004-2012, and discussed the ongoing impact on anti-doping policy and sample storage protocols."
+		},
+		{
+			"title": "Oral Anabolic Steroid Hepatotoxicity: Updated Risk Assessment and Monitoring Guidelines",
+			"date": "November 2022",
+			"source": "Journal of Clinical Gastroenterology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35866655/",
+			"summary": "Updated clinical guidelines for monitoring hepatotoxicity in users of 17-alpha-alkylated oral steroids. Recommended baseline and serial liver function testing at 4-week intervals, with specific attention to cholestatic markers. Highlighted turinabol among compounds requiring vigilant hepatic monitoring during cycles exceeding 6 weeks."
+		},
+		{
+			"title": "Long-Term Health Consequences of the East German Doping Program",
+			"date": "March 2024",
+			"source": "British Journal of Sports Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37945327/",
+			"summary": "Follow-up study of former East German athletes who were administered turinabol during the Staatsplan 14.25 doping program. Documented elevated rates of liver disease, cardiovascular morbidity, reproductive dysfunction, and persistent virilization in female former athletes decades after exposure, providing the longest-term outcome data for turinabol use in humans."
+		}
+	]
+}

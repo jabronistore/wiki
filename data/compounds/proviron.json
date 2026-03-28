@@ -1,0 +1,281 @@
+{
+	"id": "proviron",
+	"name": "Proviron",
+	"subtitle": "DHT Derivative | Mood, Libido & Muscle Hardening",
+	"aliases": ["Mesterolone"],
+	"compoundKind": "anabolic",
+	"categories": ["anabolic", "sexual-health"],
+	"researchStatus": "well-studied",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "25-75 mg/day",
+		"frequency": "1-3x per day (oral)",
+		"cycleDuration": "8-12 weeks (or ongoing with TRT)",
+		"storage": "Room temperature (68-77F). Protect from moisture and light."
+	},
+	"molecular": {
+		"weight": "304.47 Da",
+		"type": "DHT derivative (C20H32O2)",
+		"modifications": [
+			"1-methyl group added to DHT backbone",
+			"NOT 17-alpha alkylated — minimal hepatotoxicity compared to most oral steroids",
+			"Resistant to 3-alpha hydroxysteroid dehydrogenase metabolism in muscle tissue"
+		],
+		"halfLife": "~12 hours",
+		"halfLifeSeconds": 43200,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Proviron (mesterolone) is an orally active dihydrotestosterone (DHT) derivative that has been used in clinical medicine since the 1960s, primarily in Europe and other international markets. Unlike most oral anabolic steroids, Proviron is not 17-alpha alkylated, which gives it a remarkably low hepatotoxicity profile. It was originally developed for the treatment of androgen deficiency, male infertility (at low doses it can improve sperm quality without fully suppressing the HPT axis), and mood disturbances related to low androgen status. Proviron is approved in numerous countries outside the United States including Germany, the UK, and several countries across Asia, South America, and the Middle East. Its most distinctive pharmacological property is its exceptionally strong binding affinity for sex hormone-binding globulin (SHBG), which effectively displaces testosterone from SHBG and increases the proportion of circulating free testosterone. This mechanism makes Proviron a popular adjunct to testosterone replacement therapy and performance enhancement protocols, where it amplifies the biological activity of co-administered testosterone without meaningfully increasing total androgen load. Proviron is also valued for its anti-estrogenic properties — as a DHT derivative, it cannot aromatize to estrogen, and it competes with testosterone for the aromatase enzyme, reducing overall estrogen conversion. Users consistently report improvements in mood, libido, confidence, and a general sense of well-being, along with a harder, drier, and more defined physical appearance.",
+	"mechanism": "Proviron exerts its effects primarily through direct binding to the androgen receptor (AR) as a potent DHT analogue. However, its most therapeutically relevant mechanism is its exceptionally high binding affinity for sex hormone-binding globulin (SHBG). By occupying SHBG binding sites, Proviron displaces testosterone that would otherwise be bound and biologically inactive, effectively increasing free testosterone levels without requiring additional exogenous testosterone. This SHBG-displacement mechanism is the primary reason Proviron is considered synergistic with testosterone — it amplifies the effective androgenic signal from a given dose of testosterone. Proviron also acts as a mild aromatase inhibitor. Because it is a DHT derivative, it cannot be converted to estrogen by the aromatase enzyme, and it competes with aromatizable androgens (like testosterone) for access to aromatase, reducing the overall rate of estrogen conversion. This dual mechanism — increasing free testosterone while reducing estrogen — produces the characteristic effects of improved mood, enhanced libido, and the harder, drier physique that Proviron is known for. In muscle tissue, Proviron's anabolic effects are limited because it is rapidly inactivated by 3-alpha hydroxysteroid dehydrogenase, similar to DHT itself. This enzyme is highly expressed in skeletal muscle, which is why Proviron is not considered a significant muscle-building agent on its own but rather an enhancer of other androgens.",
+	"keyBenefits": [
+		"Strong SHBG binding frees more circulating testosterone, enhancing TRT efficacy",
+		"Improved mood, motivation, confidence, and overall sense of well-being",
+		"Significant enhancement of libido and sexual function",
+		"Anti-estrogenic effect reduces the need for dedicated aromatase inhibitors",
+		"Harder, drier, more defined physical appearance without water retention",
+		"Minimal hepatotoxicity due to absence of 17-alpha alkylation",
+		"May improve sperm quality at low doses in subfertile men",
+		"Rapid onset of subjective well-being effects (often within days)"
+	],
+	"indications": [
+		{
+			"category": "Sexual Health",
+			"items": [
+				{
+					"name": "Libido Enhancement",
+					"description": "Proviron is one of the most reliable compounds for improving sexual desire and drive. Its DHT activity directly stimulates libido pathways, while its SHBG-binding effect increases free testosterone availability. Effects are often noticeable within the first week of use.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Erectile Quality",
+					"description": "By increasing free testosterone and DHT activity, Proviron can improve erectile firmness and frequency. Particularly effective in men whose erectile issues are related to low free testosterone or elevated SHBG.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Male Infertility (Low-Dose)",
+					"description": "At doses of 25-50 mg/day, Proviron has been used clinically to improve sperm count and motility in oligospermic men. At these low doses, HPT axis suppression is minimal. Higher doses may suppress spermatogenesis.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neurological / Mood",
+			"items": [
+				{
+					"name": "Mood and Well-Being",
+					"description": "Proviron is widely reported to produce a noticeable improvement in mood, confidence, and overall psychological well-being. This is attributed to increased free testosterone and direct androgenic activity in the central nervous system. Many users describe a calm, confident, and motivated mindset.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Androgen Deficiency-Related Depression",
+					"description": "In men with documented androgen deficiency, Proviron has been used to alleviate depressive symptoms, fatigue, and loss of motivation. Not a replacement for standard psychiatric treatment but can complement hormonal optimization.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Muscle Hardening and Definition",
+					"description": "Proviron reduces water retention and gives a visibly harder, more defined appearance. It does not significantly build muscle mass on its own due to rapid inactivation in muscle tissue, but it enhances the aesthetic quality of existing musculature.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Free Testosterone Optimization",
+					"description": "By binding SHBG and freeing bound testosterone, Proviron effectively increases the anabolic signal from a given testosterone dose. This makes it a potent adjunct to any testosterone-based protocol for improving body composition outcomes.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Endocrine / Hormonal",
+			"items": [
+				{
+					"name": "SHBG Reduction",
+					"description": "Proviron has one of the highest binding affinities for SHBG of any androgen. This displaces testosterone from SHBG, increasing free testosterone without increasing total testosterone dose. Particularly useful in men with elevated SHBG who present with low free testosterone despite adequate total testosterone levels.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Mild Estrogen Control",
+					"description": "Proviron provides a mild anti-estrogenic effect through aromatase competition, which can reduce or eliminate the need for a dedicated aromatase inhibitor on moderate testosterone doses. It is not a replacement for an AI in heavily aromatizing protocols but can meaningfully reduce estrogen-related side effects in standard TRT.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Proviron is administered exclusively as an oral tablet, typically available in 25 mg tablets. Unlike most oral anabolic steroids, Proviron is not 17-alpha alkylated and instead relies on its 1-methyl DHT structure for oral bioavailability. This makes it one of the safest oral androgens with respect to liver toxicity. The 12-hour half-life supports once or twice daily dosing for stable blood levels.",
+			"protocols": [
+				{
+					"goal": "Low Dose - Libido and Mood Support",
+					"dose": "25 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "Entry-level dose suitable for mood and libido enhancement. Minimal suppression of the HPT axis at this dose. Can be taken with or without food."
+				},
+				{
+					"goal": "Standard - TRT Adjunct",
+					"dose": "50 mg/day",
+					"frequency": "25 mg twice daily (morning and evening)",
+					"route": "Oral",
+					"notes": "Most commonly used dose when stacking with TRT. Provides meaningful SHBG reduction, noticeable mood and libido enhancement, and mild anti-estrogenic effect. Split dosing maintains more stable blood levels across the day."
+				},
+				{
+					"goal": "Higher Dose - Enhanced Protocol",
+					"dose": "75 mg/day",
+					"frequency": "25 mg three times daily",
+					"route": "Oral",
+					"notes": "Upper range of typical dosing. Greater SHBG displacement and stronger androgenic effects. Increased risk of DHT-related side effects (hair thinning, prostate stimulation) at this dose. Monitor accordingly."
+				}
+			],
+			"keyBenefits": [
+				"Simple oral administration with no injections required",
+				"Minimal liver toxicity due to absence of 17-alpha alkylation",
+				"12-hour half-life supports convenient once or twice daily dosing",
+				"Tablets are widely available in standardized 25 mg doses",
+				"Well-tolerated with decades of clinical use data"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "Proviron's primary value as a stack component lies in its strong SHBG binding, which displaces testosterone and increases the proportion of biologically active free testosterone. This amplifies the effects of a given testosterone dose without requiring an increase in the dose itself. Proviron also reduces estrogen conversion through aromatase competition, meaning less AI may be needed. The combination reliably enhances mood, libido, and physical hardening beyond what testosterone alone provides."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "compatible",
+			"notes": "Proviron's mild anti-estrogenic effect through aromatase competition can reduce the required dose of anastrozole or other aromatase inhibitors. In many men on standard TRT doses, adding Proviron at 50 mg/day eliminates the need for an AI entirely. When both are used, monitor estradiol to avoid over-suppression, which impairs lipids, joint health, bone density, and libido."
+		},
+		{
+			"peptide": "Finasteride",
+			"status": "avoid",
+			"notes": "Finasteride blocks the conversion of testosterone to DHT via 5-alpha reductase inhibition. Proviron is a DHT derivative whose effects depend on direct androgenic receptor activation as a DHT analogue. While finasteride does not directly deactivate Proviron, the combination is pharmacologically contradictory — one compound is a DHT agonist and the other suppresses DHT production. Concurrent use undermines the rationale for using either compound and may produce unpredictable androgenic signaling."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Onset of subjective well-being effects. Many users report improved mood, confidence, and mental clarity within the first few days. Increased libido may become noticeable. Proviron's rapid oral absorption and 12-hour half-life mean steady-state levels are approached quickly."
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Full libido and mood effects are typically established. Noticeable increase in sexual desire, morning erections, and overall drive. If stacking with testosterone, the SHBG-displacement effect begins to amplify free testosterone levels. Mild anti-estrogenic effects may start reducing water retention."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Visible changes in physical appearance begin. Reduced subcutaneous water retention gives a harder, drier look. Improved muscle definition and vascularity, particularly in leaner individuals. Mood and well-being effects continue to strengthen and stabilize."
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Full aesthetic and hormonal effects realized. Maximum SHBG displacement and free testosterone optimization. The combination of increased free testosterone, reduced water retention, and direct androgenic activity produces the characteristic hardened, defined appearance. Libido and mood benefits are well-established."
+		},
+		{
+			"period": "Week 8+",
+			"effects": "Sustained benefits with ongoing use. Monitor DHT-related side effects (hair, prostate) with long-term use. Lipid panels should be checked periodically as Proviron can mildly suppress HDL cholesterol over time. Many users run Proviron continuously alongside TRT with good tolerability."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Accelerated hair thinning or loss in those predisposed to male pattern baldness (DHT-mediated)",
+			"Mild suppression of endogenous testosterone at higher doses (though less suppressive than most AAS)",
+			"Oily skin and increased sebum production",
+			"Mild HDL cholesterol suppression with extended use",
+			"Increased body hair growth"
+		],
+		"rare": [
+			"Prostate enlargement or aggravation of existing benign prostatic hyperplasia (BPH)",
+			"Priapism (prolonged painful erection) — extremely rare but documented",
+			"Mood changes including increased aggression or irritability at higher doses",
+			"Headaches",
+			"Gastrointestinal discomfort"
+		],
+		"stopSigns": [
+			"Difficulty urinating or significant changes in urinary flow (prostate concern)",
+			"Prolonged erection lasting more than 4 hours (priapism — seek emergency care)",
+			"Yellowing of skin or eyes (jaundice — though extremely unlikely with non-alkylated Proviron)",
+			"Severe or persistent headaches",
+			"Chest pain or significant cardiovascular symptoms"
+		],
+		"contraindications": [
+			"Prostate cancer (active or history of androgen-sensitive prostate cancer)",
+			"Severe liver impairment (though hepatotoxicity risk is minimal)",
+			"Breast cancer in males",
+			"Hypersensitivity to mesterolone or any excipients",
+			"Women who are pregnant or may become pregnant (androgenic effects on fetus)"
+		],
+		"monitoring": [
+			"PSA and digital rectal exam: baseline and periodically, especially in men over 40",
+			"Lipid panel (HDL/LDL): baseline and every 3-6 months during use",
+			"Free and total testosterone, SHBG: to assess the SHBG-displacement effect",
+			"Estradiol (sensitive assay): to gauge anti-estrogenic impact and avoid over-suppression",
+			"Liver function tests: baseline and periodically, though significant elevation is uncommon"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade tablets from licensed manufacturer (Bayer Proviron is the most recognized brand)",
+			"Tablets are clearly scored, uniformly sized, and properly sealed in blister packs",
+			"Proper labeling with manufacturer, lot number, expiration date, and 25 mg dosage marking",
+			"Purchased from a licensed pharmacy with valid prescription (where legally available)"
+		],
+		"warning": [
+			"Underground lab (UGL) tablets without pharmaceutical verification",
+			"Tablets that crumble easily, are irregularly sized, or have inconsistent coloring",
+			"Products claiming higher-than-standard doses (50 mg+ per tablet) from unknown manufacturers"
+		],
+		"bad": [
+			"No labeling, missing lot numbers, or absent expiration dates",
+			"Packaging with spelling errors, low-quality printing, or counterfeit brand markings",
+			"Tablets with unusual taste, smell, or appearance inconsistent with known pharmaceutical product",
+			"Product sourced without any testing or third-party verification"
+		]
+	},
+	"references": [
+		{
+			"title": "Mesterolone treatment of patients with pathological spermiogram: Effect on sperm count, motility, and morphology",
+			"authors": "Matalka, K.Z., Issa, R.A., Al-Saleh, A.",
+			"journal": "Clinical and Experimental Obstetrics and Gynecology",
+			"year": "2001",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11838744/",
+			"keyFindings": "Demonstrated that mesterolone (Proviron) at 75 mg/day for 12 weeks significantly improved sperm count and motility in subfertile men, supporting its clinical use in male infertility treatment."
+		},
+		{
+			"title": "Effect of mesterolone on serum FSH, LH and plasma testosterone in normal adult men",
+			"authors": "Bals-Pratsch, M., Knuth, U.A., Nieschlag, E.",
+			"journal": "Acta Endocrinologica",
+			"year": "1986",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/3092597/",
+			"keyFindings": "Characterized the endocrine effects of mesterolone in healthy men, showing dose-dependent suppression of gonadotropins (FSH and LH) with minimal impact on total testosterone at low doses, confirming Proviron's relatively mild suppressive profile compared to other androgens."
+		},
+		{
+			"title": "The role of dihydrotestosterone in benign prostatic hyperplasia",
+			"authors": "Bartsch, G., Rittmaster, R.S., Klocker, H.",
+			"journal": "European Urology",
+			"year": "2000",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10765087/",
+			"keyFindings": "Review of DHT's role in prostate physiology and pathology, providing context for the prostate-related considerations of DHT derivatives including mesterolone. Established the mechanistic basis for monitoring prostate health during DHT-analogue therapy."
+		},
+		{
+			"title": "Sex hormone-binding globulin: origin, function and clinical significance",
+			"authors": "Hammond, G.L.",
+			"journal": "Annals of Clinical Biochemistry",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21555446/",
+			"keyFindings": "Comprehensive review of SHBG biology, including how androgens like mesterolone with high SHBG binding affinity can displace testosterone and modulate free testosterone levels. Provides the mechanistic foundation for Proviron's role as a free testosterone enhancer."
+		},
+		{
+			"title": "Pharmacology of testosterone replacement therapy preparations",
+			"authors": "Nieschlag, E., Behre, H.M.",
+			"journal": "Andrology: Male Reproductive Health and Dysfunction (Springer)",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20091404/",
+			"keyFindings": "Textbook review covering the pharmacology of mesterolone among other androgen preparations. Notes its unique non-17-alpha-alkylated oral structure, favorable hepatic safety profile, and established clinical role in Europe for androgen deficiency and infertility."
+		}
+	]
+}

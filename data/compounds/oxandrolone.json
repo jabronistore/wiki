@@ -2,9 +2,16 @@
 	"id": "oxandrolone",
 	"name": "Oxandrolone",
 	"subtitle": "Oral Anabolic Steroid | Lean Mass & Recovery",
-	"aliases": ["Anavar", "Var", "Oxandrin"],
+	"aliases": [
+		"Anavar",
+		"Var",
+		"Oxandrin"
+	],
 	"compoundKind": "anabolic",
-	"categories": ["anabolic", "healing"],
+	"categories": [
+		"anabolic",
+		"healing"
+	],
 	"researchStatus": "well-studied",
 	"fdaApproved": true,
 	"quickStats": {
@@ -144,6 +151,13 @@
 					"frequency": "Split into 2 doses or taken once daily",
 					"route": "Oral",
 					"notes": "Oxandrolone is one of the most commonly used anabolic steroids in women due to its low androgenic profile. Virilization risk increases above 10 mg/day. Start low at 5 mg/day and assess tolerance over 2-3 weeks before increasing."
+				},
+				{
+					"goal": "Performance - Female (Detailed Cycle)",
+					"dose": "5-20 mg/day",
+					"frequency": "Once daily or split into 2 doses",
+					"route": "Oral",
+					"notes": "Start at 5 mg/day for 2-3 weeks to assess tolerance. If well-tolerated with no virilization signs, increase to 10 mg/day for 2-3 weeks. Depending on goals and tolerance, some women may increase to 20 mg/day, but virilization risk increases significantly above 10 mg/day (deepening voice, hirsutism, clitoral enlargement). Total cycle length 6-8 weeks. Discontinue immediately if virilization symptoms appear -- some changes (voice deepening) may be irreversible. Bloodwork (lipids, liver enzymes) recommended at baseline and mid-cycle."
 				}
 			],
 			"keyBenefits": [

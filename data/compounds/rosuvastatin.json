@@ -1,0 +1,265 @@
+{
+	"id": "rosuvastatin",
+	"name": "Rosuvastatin",
+	"subtitle": "HMG-CoA Reductase Inhibitor | Statin for Lipid Management",
+	"aliases": ["Crestor"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cardiovascular"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "5-20 mg/day",
+		"frequency": "Once daily",
+		"cycleDuration": "Ongoing (chronic use or duration of AAS cycle)",
+		"storage": "Room temperature (68-77F). Protect from moisture and light."
+	},
+	"molecular": {
+		"weight": "481.54 Da",
+		"type": "Synthetic statin (C22H28FN3O6S-Ca)",
+		"modifications": [
+			"Calcium salt formulation for oral bioavailability",
+			"Hydrophilic statin with hepatic selectivity — minimal muscle penetration compared to lipophilic statins"
+		],
+		"halfLife": "~19 hours",
+		"halfLifeSeconds": 68400,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Rosuvastatin is the most potent statin currently available, offering the greatest LDL cholesterol reduction per milligram among all HMG-CoA reductase inhibitors. FDA-approved in 2003 under the brand name Crestor, it rapidly became one of the most prescribed medications worldwide for hyperlipidemia and cardiovascular risk reduction. Rosuvastatin is particularly popular in the anabolic steroid community, where it is widely used to manage lipid disturbances caused by androgenic-anabolic steroids (AAS), especially oral compounds like oxandrolone, stanozolol, and methandrostenolone that are notorious for dramatically worsening lipid profiles. Its long 19-hour half-life allows convenient once-daily dosing, and its hydrophilic nature gives it hepatic selectivity with a potentially lower incidence of muscle-related side effects compared to lipophilic statins like atorvastatin and simvastatin. The JUPITER trial demonstrated that rosuvastatin significantly reduces cardiovascular events even in individuals with normal LDL but elevated high-sensitivity C-reactive protein (hsCRP), highlighting its anti-inflammatory properties beyond pure lipid lowering.",
+	"mechanism": "Rosuvastatin competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in the mevalonate pathway responsible for hepatic cholesterol synthesis. By blocking this enzyme, rosuvastatin reduces intracellular cholesterol in hepatocytes, which triggers upregulation of LDL receptor expression on the liver cell surface. The increased density of LDL receptors enhances clearance of LDL cholesterol and its precursors (VLDL and IDL) from the bloodstream. Rosuvastatin has the highest binding affinity for HMG-CoA reductase among all available statins, which accounts for its superior potency. Beyond lipid lowering, rosuvastatin exerts pleiotropic effects that contribute to cardiovascular protection: improvement of endothelial function via increased nitric oxide bioavailability, reduction of vascular inflammation (lowering hsCRP by 30-50%), stabilization of atherosclerotic plaques, decreased oxidative stress, and modest antithrombotic effects. In the context of AAS use, rosuvastatin counteracts the characteristic lipid derangement pattern caused by androgens -- namely suppressed HDL cholesterol and elevated LDL cholesterol -- by directly reducing LDL production and, to a lesser extent, raising HDL through unclear mechanisms thought to involve apolipoprotein A-I upregulation.",
+	"keyBenefits": [
+		"Most potent statin available, with LDL reductions of 45-63% depending on dose",
+		"Long half-life (19 hours) allows flexible once-daily dosing at any time of day",
+		"Effective at counteracting AAS-induced lipid disturbances, particularly elevated LDL",
+		"Significant reduction in high-sensitivity CRP (30-50%), indicating anti-inflammatory benefit",
+		"Hydrophilic structure provides hepatic selectivity with potentially fewer muscle side effects",
+		"Raises HDL cholesterol by 8-14%, partially offsetting AAS-mediated HDL suppression",
+		"Proven cardiovascular event and mortality reduction in large-scale clinical trials",
+		"Reduces triglycerides by 10-35%, beneficial during bulking phases or when using compounds that elevate TG"
+	],
+	"indications": [
+		{
+			"category": "Lipid Management",
+			"items": [
+				{
+					"name": "Primary Hyperlipidemia",
+					"description": "First-line treatment for elevated LDL cholesterol and mixed dyslipidemia. Rosuvastatin 10-20 mg achieves LDL reductions of 45-55%, outperforming equivalent doses of other statins. Particularly appropriate when aggressive LDL lowering is required or when patients have not reached lipid targets on less potent statins.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "AAS-Induced Dyslipidemia",
+					"description": "Widely used off-label to manage lipid disturbances caused by anabolic steroid cycles, especially oral AAS (oxandrolone, stanozolol, methandrostenolone) that severely impact lipid profiles. Typical on-cycle doses of 5-10 mg daily can meaningfully reduce LDL elevation, though HDL suppression caused by androgens is only partially mitigated. Most effective when started before or at the beginning of a cycle rather than reactively.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cardiovascular Risk Reduction",
+					"description": "Proven to reduce major cardiovascular events including myocardial infarction, stroke, and cardiovascular death. The JUPITER trial showed a 44% reduction in major cardiovascular events in apparently healthy individuals with elevated hsCRP. Particularly relevant for long-term AAS users who accumulate cardiovascular risk over time.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Prevention",
+			"items": [
+				{
+					"name": "Primary Prevention in High-Risk Individuals",
+					"description": "Indicated for cardiovascular risk reduction in individuals without established cardiovascular disease but with risk factors such as dyslipidemia, family history, or elevated inflammatory markers. The JUPITER trial established benefit even in patients with LDL below 130 mg/dL if hsCRP was elevated above 2 mg/L.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Atherosclerosis Progression Slowing",
+					"description": "The METEOR trial demonstrated that rosuvastatin 40 mg significantly slowed progression of carotid intima-media thickness compared to placebo in low-risk patients with subclinical atherosclerosis. Suggests benefit in slowing vascular damage that may accumulate in chronic AAS users.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Rosuvastatin is administered exclusively via the oral route as film-coated tablets. Unlike some statins that must be taken in the evening due to short half-lives, rosuvastatin's long 19-hour half-life allows dosing at any time of day without loss of efficacy. It can be taken with or without food, though food modestly reduces the rate (but not extent) of absorption. Bioavailability is approximately 20%, with the liver being the primary site of action. Rosuvastatin undergoes minimal hepatic metabolism via CYP2C9 (with minor CYP2C19 involvement), resulting in fewer drug-drug interactions compared to statins metabolized by CYP3A4.",
+			"protocols": [
+				{
+					"goal": "On-Cycle Lipid Management (AAS Use)",
+					"dose": "5-10 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "The most common use case in the PED community. Start at 5 mg daily when beginning an AAS cycle, particularly if running oral steroids. Increase to 10 mg if mid-cycle bloodwork shows LDL above target. 5 mg rosuvastatin reduces LDL by approximately 45%, which is sufficient for most users. Continue for 2-4 weeks after cycle ends or until lipids normalize on bloodwork."
+				},
+				{
+					"goal": "Aggressive Lipid Lowering",
+					"dose": "10-20 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "For users with significantly elevated baseline LDL, strong family history of cardiovascular disease, or running harsh oral AAS stacks. 20 mg rosuvastatin reduces LDL by approximately 55%. Doses above 20 mg (up to 40 mg max) are rarely needed and increase the risk of side effects. Always confirm with bloodwork before escalating dose."
+				},
+				{
+					"goal": "Standard Hyperlipidemia (Non-AAS)",
+					"dose": "5-20 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "Starting dose is typically 10 mg for most patients. 5 mg starting dose recommended for Asian patients or those with predisposing factors for myopathy. Dose can be titrated every 2-4 weeks based on lipid response. Maximum dose is 40 mg but is reserved for patients who have not reached LDL goals on 20 mg."
+				}
+			],
+			"keyBenefits": [
+				"Once-daily dosing at any time of day (morning or evening)",
+				"Can be taken with or without food",
+				"Fewer CYP3A4 drug interactions than atorvastatin or simvastatin",
+				"Widely available as inexpensive generic",
+				"Small tablet size, easy to swallow"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Ezetimibe",
+			"status": "synergistic",
+			"notes": "Rosuvastatin and ezetimibe target complementary pathways in cholesterol metabolism -- rosuvastatin inhibits hepatic synthesis while ezetimibe blocks intestinal absorption. The combination (available as the fixed-dose product Roszet) provides an additional 15-20% LDL reduction beyond rosuvastatin alone. Particularly useful for AAS users whose lipids remain elevated despite statin monotherapy, or for those running especially hepatotoxic oral stacks."
+		},
+		{
+			"peptide": "Oxandrolone",
+			"status": "compatible",
+			"notes": "Rosuvastatin is commonly co-administered with oxandrolone (Anavar) to counteract the significant lipid damage caused by this oral AAS. Oxandrolone is well known to suppress HDL by 40-50% and elevate LDL substantially. While rosuvastatin effectively addresses the LDL elevation, it only partially mitigates HDL suppression. Starting rosuvastatin before or concurrently with oxandrolone is recommended rather than waiting for bloodwork to deteriorate."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "compatible",
+			"notes": "No significant negative interactions. Supraphysiological testosterone modestly worsens lipid profiles (particularly HDL suppression), and rosuvastatin can help maintain healthier lipid levels during testosterone cycles or TRT. Both are commonly used together in the PED community. Rosuvastatin does not interfere with testosterone's anabolic effects or endocrine activity."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "LDL cholesterol begins to decrease as hepatic LDL receptor upregulation takes effect. Measurable lipid changes can be detected on bloodwork within 1 week of initiation. Some users may notice muscle soreness or mild GI discomfort during initial adaptation, though most are asymptomatic."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "LDL reduction reaches approximately 75-90% of maximum effect. Most users will see significant LDL improvement on mid-cycle bloodwork taken at this point. hsCRP levels begin to decline, reflecting the anti-inflammatory pleiotropic effects. Any initial muscle discomfort typically resolves."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Full steady-state lipid-lowering effect achieved. LDL reduction of 45-63% depending on dose. HDL may increase modestly (8-14%), though this benefit may be blunted by concurrent AAS use. Triglycerides reduced by 10-35%. This is the ideal window to repeat comprehensive lipid panels to assess efficacy and adjust dosing if needed."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Sustained lipid control with stable LDL, HDL, and triglyceride levels. Inflammatory markers (hsCRP) continue to improve. Long-term cardiovascular protection mechanisms (plaque stabilization, endothelial function improvement) become increasingly relevant. Liver enzymes should be checked if not already done."
+		},
+		{
+			"period": "Month 6+",
+			"effects": "Ongoing cardiovascular risk reduction. For chronic AAS users, continued statin use between cycles may be warranted if baseline lipids remain suboptimal. Annual monitoring of lipid panel, liver enzymes, fasting glucose, and creatine kinase (if symptomatic) is recommended."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Muscle pain and myalgia (5-10% of users) -- the most frequently reported complaint, ranging from mild soreness to significant discomfort",
+			"Headache",
+			"Nausea and abdominal discomfort",
+			"Weakness or fatigue",
+			"Constipation or diarrhea"
+		],
+		"rare": [
+			"Liver enzyme elevation (ALT/AST) -- typically mild and transient, clinically significant elevation (>3x ULN) occurs in <1% of users",
+			"Rhabdomyolysis -- extremely rare but potentially life-threatening breakdown of muscle tissue, risk increases with higher doses, drug interactions, and renal impairment",
+			"New-onset type 2 diabetes -- modest increase in risk (approximately 1 additional case per 250 patients treated for 4 years), primarily in those with pre-existing risk factors",
+			"Memory impairment or cognitive effects -- rare, reversible upon discontinuation, FDA-required class labeling but causal link debated",
+			"Proteinuria -- primarily seen at the 40 mg dose, generally tubular in origin and not indicative of renal damage"
+		],
+		"stopSigns": [
+			"Unexplained severe muscle pain, tenderness, or weakness, especially with fever or malaise (possible rhabdomyolysis)",
+			"Dark brown or cola-colored urine (myoglobinuria suggesting rhabdomyolysis)",
+			"Jaundice, severe right upper quadrant abdominal pain, or markedly elevated liver enzymes (>3x ULN)",
+			"Severe allergic reaction (rash, swelling, difficulty breathing)"
+		],
+		"contraindications": [
+			"Active liver disease or unexplained persistent elevations in hepatic transaminases",
+			"Known hypersensitivity to rosuvastatin or any excipients",
+			"Pregnancy and breastfeeding (Category X -- statins are teratogenic)",
+			"Concomitant use with cyclosporine (at all doses of rosuvastatin)",
+			"Severe renal impairment (eGFR <30 mL/min) for doses above 10 mg"
+		],
+		"monitoring": [
+			"Lipid panel: at baseline, 4-8 weeks after initiation or dose change, then every 6-12 months",
+			"Liver enzymes (ALT/AST): at baseline and as clinically indicated (routine periodic monitoring no longer universally recommended but prudent for AAS users)",
+			"Creatine kinase (CK): at baseline if at elevated risk for myopathy; repeat if muscle symptoms develop",
+			"Fasting glucose / HbA1c: periodically, given the modest diabetes risk associated with statin therapy",
+			"Renal function: at baseline and periodically, especially at higher doses or with concurrent nephrotoxic agents"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade product from established manufacturer with valid NDC number",
+			"Proper labeling with dosage strength, lot number, and expiration date",
+			"Tablets are uniform in appearance with intact film coating",
+			"Prescribed by licensed physician with appropriate lipid workup",
+			"Generic rosuvastatin from reputable manufacturer (bioequivalent to brand Crestor)"
+		],
+		"warning": [
+			"Sourced from unverified international pharmacies without regulatory oversight",
+			"Compounded liquid formulations without verified potency testing",
+			"UGL (underground lab) sourced statins sold alongside AAS -- variable quality and dosing accuracy"
+		],
+		"bad": [
+			"Tablets that are crumbling, chipped, discolored, or missing film coating",
+			"Product past its expiration date",
+			"No labeling or incorrect dosage strength labeling",
+			"Sourced without any verification of identity or purity"
+		]
+	},
+	"references": [
+		{
+			"title": "Rosuvastatin to Prevent Vascular Events in Men and Women with Elevated C-Reactive Protein (JUPITER Trial)",
+			"authors": "Ridker, P.M., Danielson, E., Fonseca, F.A., et al.",
+			"journal": "The New England Journal of Medicine",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18997196/",
+			"keyFindings": "Landmark trial of 17,802 apparently healthy individuals with LDL <130 mg/dL and hsCRP >2 mg/L. Rosuvastatin 20 mg reduced major cardiovascular events by 44%, LDL by 50%, and hsCRP by 37% compared to placebo. Trial was stopped early due to unequivocal benefit."
+		},
+		{
+			"title": "Efficacy and safety of rosuvastatin therapy for children with familial hypercholesterolemia (PLUTO Trial)",
+			"authors": "Avis, H.J., Hutten, B.A., Gagne, C., et al.",
+			"journal": "Journal of the American College of Cardiology",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20117456/",
+			"keyFindings": "Demonstrated the dose-dependent LDL-lowering efficacy and safety of rosuvastatin across different populations, supporting its position as the most potent available statin with LDL reductions of 38-50% at 5-20 mg doses."
+		},
+		{
+			"title": "Effect of rosuvastatin on progression of carotid intima-media thickness in low-risk individuals with subclinical atherosclerosis (METEOR Trial)",
+			"authors": "Crouse, J.R., Raichlen, J.S., Riley, W.A., et al.",
+			"journal": "JAMA",
+			"year": "2007",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17405972/",
+			"keyFindings": "Rosuvastatin 40 mg significantly slowed progression of maximum carotid intima-media thickness compared to placebo in asymptomatic individuals with low Framingham risk scores but evidence of subclinical atherosclerosis, demonstrating anti-atherosclerotic benefit beyond lipid lowering."
+		},
+		{
+			"title": "Comparative effectiveness of HMG-CoA reductase inhibitors (statins) for lipid lowering",
+			"authors": "Adams, S.P., Tsang, M., Wright, J.M.",
+			"journal": "Cochrane Database of Systematic Reviews",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26068582/",
+			"keyFindings": "Systematic review confirming rosuvastatin as the most potent statin for LDL reduction. At equivalent doses, rosuvastatin lowered LDL 5-8% more than atorvastatin and 12-18% more than simvastatin. Rosuvastatin 5 mg was approximately equivalent to atorvastatin 10 mg in LDL lowering."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Anabolic Androgenic Steroids and Cardiovascular Risk: A Narrative Review",
+			"date": "2023",
+			"source": "Current Sports Medicine Reports",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36728834/",
+			"summary": "Review detailing the cardiovascular risks of AAS use including dyslipidemia, left ventricular hypertrophy, and accelerated atherosclerosis. Highlights statin therapy as a key intervention for managing AAS-induced lipid disturbances, noting that rosuvastatin and atorvastatin are the most commonly used agents in this population."
+		},
+		{
+			"title": "Long-term Safety and Efficacy of Rosuvastatin: Final Results of the JUPITER Trial Extended Follow-up",
+			"date": "2022",
+			"source": "European Heart Journal",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35139533/",
+			"summary": "Extended follow-up data from the JUPITER trial confirming sustained cardiovascular benefit with rosuvastatin over long-term use. No significant new safety signals emerged with extended treatment duration, supporting the safety of chronic statin therapy."
+		},
+		{
+			"title": "Statin-Associated Muscle Symptoms: A Comprehensive Review and Update",
+			"date": "2023",
+			"source": "Journal of the American College of Cardiology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36922432/",
+			"summary": "Updated review on statin myopathy, reporting that true statin-attributable muscle symptoms occur in approximately 5-7% of patients, substantially lower than the 15-20% reported in observational studies (nocebo effect). Hydrophilic statins like rosuvastatin may carry a lower myopathy risk than lipophilic statins."
+		}
+	]
+}

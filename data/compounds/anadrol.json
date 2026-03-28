@@ -1,0 +1,356 @@
+{
+	"id": "anadrol",
+	"name": "Anadrol",
+	"subtitle": "Oral Anabolic Steroid | Extreme Mass & Strength",
+	"aliases": ["Oxymetholone", "Adrol", "Abombs", "A-50", "Anadrol-50"],
+	"compoundKind": "anabolic",
+	"categories": ["anabolic"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "25-50 mg/day",
+		"frequency": "Once or twice daily (oral)",
+		"cycleDuration": "4-6 weeks maximum",
+		"storage": "Room temperature (68-77F). Protect from moisture and light."
+	},
+	"molecular": {
+		"weight": "332.48 Da",
+		"type": "17-alpha alkylated anabolic steroid (C21H32O3)",
+		"modifications": [
+			"17-alpha alkylation (methylation at C-17) - enables oral bioavailability but increases hepatotoxicity",
+			"2-hydroxymethylene modification - responsible for high anabolic potency",
+			"DHT-derived structure with modifications preventing 5-alpha reduction"
+		],
+		"halfLife": "~8-9 hours",
+		"halfLifeSeconds": 30600,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Anadrol (oxymetholone) is one of the most potent oral anabolic steroids ever developed, originally synthesized in the 1960s by Syntex Pharmaceuticals. It was FDA-approved for the treatment of anemias caused by deficient red blood cell production, including aplastic anemia, myelofibrosis, and anemia associated with chronic kidney disease. Anadrol is a DHT-derived compound with a 17-alpha alkylated structure that allows oral bioavailability at the cost of significant hepatic strain. In performance enhancement contexts, it is regarded as the single most powerful oral steroid for rapid mass and strength gains, capable of producing dramatic weight increases of 10-15+ pounds in the first few weeks of use. Despite being a DHT derivative that does not aromatize via the aromatase enzyme, Anadrol produces notable estrogenic side effects including water retention and gynecomastia through a poorly understood mechanism believed to involve direct activation of estrogen receptors. This makes estrogen management uniquely challenging compared to other anabolic steroids.",
+	"mechanism": "Oxymetholone exerts its effects primarily through binding to the androgen receptor (AR) to promote protein synthesis and nitrogen retention in skeletal muscle. As a DHT derivative, it cannot be converted to estrogen by the aromatase enzyme. However, oxymetholone and its metabolites are believed to directly activate the estrogen receptor, producing estrogenic effects such as water retention and gynecomastia without the involvement of aromatase. This is a critical clinical distinction because aromatase inhibitors (such as anastrozole or letrozole) are ineffective at controlling Anadrol-related estrogenic side effects. The compound also stimulates erythropoietin (EPO) production, significantly increasing red blood cell mass, which is the basis for its FDA-approved indication in anemias. Additionally, oxymetholone inhibits sex hormone-binding globulin (SHBG), increasing the proportion of free testosterone and other anabolic hormones in circulation.",
+	"keyBenefits": [
+		"Rapid and dramatic increases in muscle mass and bodyweight",
+		"Exceptional strength gains, often noticeable within the first week",
+		"Potent stimulation of erythropoietin and red blood cell production",
+		"Increased appetite and nutrient partitioning in some users",
+		"Improved recovery between training sessions",
+		"Full, round muscle appearance due to intramuscular water and glycogen retention",
+		"FDA-approved treatment for various forms of anemia"
+	],
+	"indications": [
+		{
+			"category": "Hematological",
+			"items": [
+				{
+					"name": "Aplastic Anemia",
+					"description": "Anadrol is FDA-approved for the treatment of anemias caused by deficient red cell production. It stimulates erythropoietin production and has been used in patients with bone marrow failure syndromes who are not candidates for transplant.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Anemia of Chronic Kidney Disease",
+					"description": "Prior to the widespread availability of recombinant erythropoietin (EPO), oxymetholone was a primary treatment for renal anemia. It remains a secondary option in resource-limited settings.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Myelofibrosis-Associated Anemia",
+					"description": "Used to support red blood cell production in patients with myelofibrosis and other myeloproliferative disorders causing anemia.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Rapid Mass Gain",
+					"description": "In performance contexts, Anadrol is considered the most effective oral steroid for rapid weight gain. Users commonly report 10-15+ pounds in the first 2-3 weeks, though a significant portion is water and glycogen. Lean tissue gains are substantial when combined with adequate protein intake and training.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Dramatic increases in strength across all compound lifts, often within the first 7-10 days. Anadrol is frequently used as a kickstart compound at the beginning of injectable cycles to provide immediate performance gains while longer-estered injectables reach peak levels.",
+					"effectiveness": "most-effective"
+				}
+			]
+		},
+		{
+			"category": "Clinical / Wasting",
+			"items": [
+				{
+					"name": "HIV/AIDS Wasting Syndrome",
+					"description": "Oxymetholone has been studied and used off-label for the treatment of weight loss and muscle wasting in HIV-positive patients, showing significant improvements in lean body mass.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cachexia and Muscle Wasting",
+					"description": "Used in clinical settings to combat severe muscle wasting from chronic illness, malnutrition, or prolonged hospitalization.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Anadrol is administered exclusively as an oral tablet. The 17-alpha alkylation allows it to survive first-pass hepatic metabolism and achieve oral bioavailability, but this structural modification is the primary driver of its hepatotoxicity. Tablets are typically available in 25 mg and 50 mg strengths. Due to its short half-life of approximately 8-9 hours, some users split the daily dose into two administrations for more stable blood levels, though single daily dosing is also common.",
+			"protocols": [
+				{
+					"goal": "Conservative / Beginner",
+					"dose": "25-50 mg/day",
+					"frequency": "Once daily or split into two doses",
+					"route": "Oral",
+					"notes": "Starting at 25 mg/day is recommended for first-time users to assess tolerance. Even at this dose, significant mass and strength gains are achievable. Take with food to reduce potential GI discomfort."
+				},
+				{
+					"goal": "Standard Performance Enhancement",
+					"dose": "50 mg/day",
+					"frequency": "Once daily or split 25 mg twice daily",
+					"route": "Oral",
+					"notes": "The most common performance dose. Provides a strong balance of results versus side effects. Should always be run alongside a testosterone base. Cycle length should not exceed 4-6 weeks due to hepatic strain."
+				},
+				{
+					"goal": "Advanced / High Dose",
+					"dose": "100 mg/day",
+					"frequency": "Split into two doses of 50 mg",
+					"route": "Oral",
+					"notes": "High-dose use significantly increases the risk of liver stress, blood pressure elevation, appetite suppression, and other side effects. Diminishing returns compared to 50 mg/day. Only used by experienced individuals with established tolerance. Liver support is mandatory. Cycle length should be limited to 4 weeks at this dose."
+				},
+				{
+					"goal": "Medical / Anemia Treatment",
+					"dose": "1-5 mg/kg/day",
+					"frequency": "Daily",
+					"route": "Oral",
+					"notes": "FDA-approved dosing range for the treatment of anemias. Treatment duration varies by indication and response, with regular monitoring of liver function and blood counts required."
+				}
+			],
+			"keyBenefits": [
+				"No injections required - convenient oral administration",
+				"Rapid onset of action - effects noticeable within days",
+				"Widely available in standardized tablet dosages",
+				"Easy to dose and adjust",
+				"Well-suited as a cycle kickstart while waiting for injectable compounds to saturate"
+			]
+		}
+	],
+	"protocolVariants": [
+		{
+			"name": "Cycle Kickstart",
+			"source": "Common Performance Protocol",
+			"philosophy": "Use Anadrol for the first 4 weeks of a longer injectable cycle to provide immediate mass and strength gains while the injectable testosterone or other compounds reach full saturation.",
+			"description": "The most common performance use pattern. Anadrol is added to the first 4 weeks of a 12-16 week injectable cycle (typically testosterone-based). The oral compound delivers rapid size and strength from day one, creating a motivating and productive early phase while the injectable base builds toward peak levels.",
+			"keyDifferences": [
+				"Immediate results within the first week of the cycle",
+				"Transition to injectable-only after week 4 maintains momentum",
+				"Total cycle hepatic load is limited by the short oral window",
+				"Strength and mass gained during the kickstart phase are largely retained if training and diet remain consistent"
+			],
+			"doses": [
+				{
+					"phase": "Kickstart",
+					"dose": "50 mg/day",
+					"frequency": "Daily",
+					"duration": "4 weeks"
+				},
+				{
+					"phase": "Injectable Base (concurrent)",
+					"dose": "300-500 mg/week testosterone",
+					"frequency": "2x per week",
+					"duration": "12-16 weeks"
+				}
+			]
+		},
+		{
+			"name": "Low-Dose Protocol",
+			"source": "Conservative Approach",
+			"philosophy": "Maximize the benefit-to-risk ratio by using the lowest effective dose, prioritizing health markers while still achieving meaningful gains.",
+			"description": "A growing number of experienced users advocate for 25 mg/day as a sweet spot that provides 70-80% of the results of 50 mg/day with substantially fewer side effects, particularly reduced liver stress, less water retention, and preserved appetite. This approach is especially useful for users who are sensitive to Anadrol's side effects or who want to extend the cycle to 6 weeks.",
+			"keyDifferences": [
+				"Significantly reduced liver stress compared to 50-100 mg doses",
+				"Less water retention and bloating",
+				"Better appetite preservation - a key advantage since appetite suppression limits caloric intake",
+				"Can potentially extend cycle duration to 6 weeks with careful liver monitoring",
+				"Still produces impressive strength and size gains for most users"
+			],
+			"doses": [
+				{
+					"phase": "Low Dose",
+					"dose": "25 mg/day",
+					"frequency": "Daily",
+					"duration": "4-6 weeks"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "A testosterone base is considered essential when running Anadrol. Testosterone provides the androgenic foundation that Anadrol lacks (as a DHT derivative that does not convert to estrogen normally), maintains libido and sexual function, and supports overall hormonal balance. Typical concurrent dose is 300-500 mg/week for performance use or TRT dose if running a conservative protocol."
+		},
+		{
+			"peptide": "Anastrozole",
+			"status": "monitor",
+			"notes": "Aromatase inhibitors like anastrozole are ineffective at controlling Anadrol-specific estrogenic side effects because Anadrol does not aromatize. Its estrogenic activity is believed to result from direct estrogen receptor activation by the compound or its metabolites. An AI may still be needed to control estrogen from the testosterone base, but will not address Anadrol-related water retention or gynecomastia."
+		},
+		{
+			"peptide": "Raloxifene",
+			"status": "compatible",
+			"notes": "Selective estrogen receptor modulators (SERMs) like raloxifene are the preferred approach for managing gynecomastia risk from Anadrol, since they block the estrogen receptor directly rather than inhibiting aromatase. Raloxifene at 60 mg/day is commonly used to prevent or treat gyno symptoms during Anadrol cycles."
+		},
+		{
+			"peptide": "TUDCA",
+			"status": "synergistic",
+			"notes": "Tauroursodeoxycholic acid (TUDCA) or other liver support supplements (NAC, milk thistle) are considered essential during any Anadrol cycle. TUDCA at 500-1000 mg/day helps protect hepatocytes from bile acid-mediated damage caused by 17-alpha alkylated steroids. Liver enzymes should be monitored before, during, and after the cycle."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-3",
+			"effects": "Initial increases in strength and muscle fullness may be noticeable. Some water retention begins. Increased vascularity in some individuals. Mild appetite changes."
+		},
+		{
+			"period": "Week 1",
+			"effects": "Significant strength increases across all major lifts. Noticeable weight gain of 3-7 pounds (largely water and glycogen). Full, rounded muscle appearance. Some users report increased aggression and focus during training. Back pumps and shin pumps may begin."
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Peak rate of weight gain. Total weight gain of 8-15+ pounds from baseline. Strength continues to climb rapidly. Estrogenic side effects (water retention, potential gyno sensitivity) become more apparent. Appetite suppression may begin at higher doses. Blood pressure elevation is common. Liver enzyme elevation is expected."
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Gains in mass and strength begin to plateau. Side effects are at their most pronounced. Liver stress is cumulative and approaching the recommended maximum cycle duration. Many users discontinue at week 4; those continuing to week 6 should be monitoring liver enzymes closely. Appetite suppression can become significant at higher doses."
+		},
+		{
+			"period": "Post-Cycle (Week 1-3 after stopping)",
+			"effects": "Rapid loss of water weight (5-10 pounds is typical within the first 1-2 weeks). Strength may decrease modestly as water retention resolves. Lean tissue gains are largely retained if the injectable base continues and training/nutrition remain consistent. Liver enzymes typically begin normalizing within 2-4 weeks of discontinuation."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Significant water retention and bloating (estrogenic, not aromatase-mediated)",
+			"Elevated blood pressure (fluid volume and RBC increase)",
+			"Severe liver stress and elevated liver enzymes (AST/ALT)",
+			"Back pumps and lower back pain during exercise",
+			"Headaches (often blood pressure-related)",
+			"Appetite suppression (paradoxical for a mass-building compound)",
+			"Lethargy and fatigue (hepatic strain-related)",
+			"Acne and oily skin",
+			"Suppression of natural testosterone production"
+		],
+		"rare": [
+			"Gynecomastia (via direct estrogen receptor activation, not aromatization)",
+			"Peliosis hepatis (blood-filled cysts in the liver with prolonged use)",
+			"Cholestatic jaundice",
+			"Significant HDL suppression and LDL elevation",
+			"Nosebleeds (blood pressure and hematocrit elevation)",
+			"Severe shin and calf pumps limiting cardio",
+			"Hepatocellular carcinoma (associated with prolonged high-dose medical use)"
+		],
+		"stopSigns": [
+			"Yellowing of skin or eyes (jaundice - immediate discontinuation required)",
+			"Severe persistent right upper quadrant abdominal pain (liver distress)",
+			"Dark urine with pale stools (cholestasis)",
+			"Severe headaches unresponsive to treatment (potential hypertensive crisis)",
+			"Blood in urine or stools",
+			"Chest pain or shortness of breath (cardiovascular event or pulmonary embolism)",
+			"Rapid or extreme swelling in extremities"
+		],
+		"contraindications": [
+			"Pre-existing liver disease or significantly elevated liver enzymes",
+			"Prostate cancer or breast cancer in males",
+			"Nephrotic phase of nephritis",
+			"Hypercalcemia (Anadrol can exacerbate calcium levels)",
+			"Pregnancy (Category X - causes virilization of the female fetus)",
+			"Known hypersensitivity to oxymetholone",
+			"Concurrent use of other 17-alpha alkylated oral steroids (compounded liver toxicity)"
+		],
+		"monitoring": [
+			"Liver function tests (AST, ALT, GGT, bilirubin): baseline, 2 weeks into cycle, end of cycle, and 4 weeks post-cycle",
+			"Complete blood count with hematocrit: baseline and every 2-3 weeks (monitor for polycythemia)",
+			"Blood pressure: daily self-monitoring throughout the cycle",
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline and post-cycle",
+			"Estradiol and prolactin: to differentiate estrogenic side effect sources when stacked with aromatizing compounds",
+			"Kidney function (BUN, creatinine): baseline and mid-cycle if using at medical doses"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade tablets from a licensed manufacturer (e.g., Anadrol-50 by Unimed/Alaven)",
+			"Consistent tablet weight and uniform appearance",
+			"Proper packaging with lot number, expiration date, and dosage clearly labeled",
+			"Third-party lab testing confirming identity and dosage accuracy",
+			"Purchased through a licensed pharmacy with valid prescription"
+		],
+		"warning": [
+			"Underground lab product without pharmaceutical-grade verification",
+			"Tablets with inconsistent size, color, or crumbling",
+			"Dosage claims above 50 mg per tablet (non-standard for pharmaceutical products)",
+			"No third-party testing available"
+		],
+		"bad": [
+			"Tablets with no markings, labeling, or identifiable manufacturer",
+			"Product testing reveals incorrect compound or contamination",
+			"Capsules instead of pressed tablets (higher risk of inaccurate dosing from UGL sources)",
+			"Expired product or product stored in improper conditions",
+			"Severe and unexpected side effects suggesting contamination or mislabeling"
+		]
+	},
+	"references": [
+		{
+			"title": "Oxymetholone therapy in aplastic and other refractory anemias",
+			"authors": "Alexanian, R., Nadell, J., Alfrey, A.",
+			"journal": "Blood",
+			"year": "1972",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/4625919/",
+			"keyFindings": "Early clinical study demonstrating the efficacy of oxymetholone in stimulating erythropoiesis in patients with aplastic anemia and other refractory anemias, establishing the basis for its FDA approval in hematological indications."
+		},
+		{
+			"title": "Oxymetholone promotes weight gain in patients with advanced human immunodeficiency virus (HIV-1) infection",
+			"authors": "Hengge, U.R., Stocks, K., Wiehler, H., et al.",
+			"journal": "British Journal of Nutrition",
+			"year": "2003",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12589030/",
+			"keyFindings": "Randomized controlled trial showing that oxymetholone at 100-150 mg/day significantly increased body weight and lean body mass in HIV-positive patients with wasting, with acceptable hepatic safety profiles over the 16-week study period."
+		},
+		{
+			"title": "The effects of oxymetholone on body composition in male HIV-infected patients",
+			"authors": "Hengge, U.R., Stocks, K., Faulkner, S., et al.",
+			"journal": "Annals of Pharmacotherapy",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14742770/",
+			"keyFindings": "Follow-up analysis confirming significant increases in lean body mass and appetite in HIV-positive men treated with oxymetholone, with liver enzyme elevations that returned to baseline after discontinuation."
+		},
+		{
+			"title": "Hepatic effects of 17-alpha-alkylated anabolic-androgenic steroids",
+			"authors": "Nadell, J., Kosek, J.",
+			"journal": "Clinical Pharmacology & Therapeutics",
+			"year": "1977",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/862490/",
+			"keyFindings": "Characterized the hepatotoxic effects of 17-alpha alkylated steroids including oxymetholone, documenting cholestatic jaundice, peliosis hepatis, and hepatocellular damage with prolonged administration, establishing the rationale for limiting cycle duration."
+		},
+		{
+			"title": "Oxymetholone: a review of its pharmacology and clinical efficacy in the treatment of anemias",
+			"authors": "Pavlatos, A.M., Fultz, O., Monberg, M.J., Vooturi, A.",
+			"journal": "Clinical Therapeutics",
+			"year": "2001",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11440285/",
+			"keyFindings": "Comprehensive review of oxymetholone's pharmacology, pharmacokinetics, and clinical applications in anemia treatment. Noted its potent erythropoietic effects and summarized safety data including dose-dependent hepatotoxicity and cardiovascular lipid alterations."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Androgen Receptor-Mediated and Non-Receptor-Mediated Mechanisms of Oxymetholone Activity",
+			"date": "2018",
+			"source": "Journal of Steroid Biochemistry and Molecular Biology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/",
+			"summary": "Research into the dual mechanism of oxymetholone action, including classical androgen receptor activation and non-aromatase-mediated estrogenic effects, providing insight into why aromatase inhibitors are ineffective at managing Anadrol-related estrogenic side effects."
+		},
+		{
+			"title": "Hepatotoxicity of 17-alpha Alkylated Steroids: Updated Risk Assessment",
+			"date": "2020",
+			"source": "Liver International",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/",
+			"summary": "Updated clinical review of hepatotoxic risks associated with 17-alpha alkylated anabolic steroids including oxymetholone, reinforcing recommendations for cycle duration limits, dose ceilings, and the use of hepatoprotective agents during administration."
+		}
+	]
+}
