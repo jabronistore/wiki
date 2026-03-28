@@ -1,0 +1,231 @@
+{
+	"id": "oxiracetam",
+	"name": "Oxiracetam",
+	"subtitle": "Racetam Nootropic | Logic, Processing Speed & Technical Work",
+	"aliases": ["ISF-2522"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cognitive"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "800-1600 mg/day",
+		"frequency": "Split into 2 doses (morning and early afternoon)",
+		"cycleDuration": "4-8 week cycles with 2-4 weeks off",
+		"storage": "Room temperature (68-77F). Protect from moisture."
+	},
+	"molecular": {
+		"weight": "158.15 Da",
+		"type": "Racetam (C6H10N2O3), 4-hydroxy derivative of piracetam",
+		"modifications": [
+			"Hydroxylated analog of piracetam at the 4-position, conferring greater potency and a distinct cognitive profile favoring logical and analytical processing",
+			"More water-soluble than piracetam, with higher bioavailability and a longer duration of action"
+		],
+		"halfLife": "~8 hours",
+		"halfLifeSeconds": 28800,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Oxiracetam (ISF-2522) is a synthetic nootropic compound belonging to the racetam family, first developed in the 1970s by ICF, an Italian pharmaceutical company. It is a hydroxylated derivative of piracetam and is approved as a prescription medication in Italy and several other European and Asian countries for the treatment of cognitive decline associated with dementia and organic brain syndromes. Among the racetams, oxiracetam is widely regarded as the most effective for logical reasoning, mathematical thinking, and technical work -- a reputation that distinguishes it from piracetam, which users more commonly associate with verbal fluency and creative thinking. Oxiracetam is well absorbed orally with high bioavailability, is not significantly metabolized by the liver, and is excreted largely unchanged by the kidneys, giving it a clean pharmacokinetic profile with minimal drug-drug interaction potential.",
+	"mechanism": "Oxiracetam enhances cognitive function primarily through positive allosteric modulation of AMPA-type glutamate receptors, increasing the excitatory postsynaptic response to glutamate and facilitating long-term potentiation (LTP) in hippocampal and cortical circuits. This AMPA modulation is thought to underlie its effects on memory encoding and retrieval. Additionally, oxiracetam stimulates cholinergic neurotransmission by increasing the release of acetylcholine in the hippocampus and cortex, which contributes to improvements in attention, working memory, and the speed of information processing. Unlike some stimulant nootropics, oxiracetam does not act on dopaminergic or serotonergic systems, which accounts for its low abuse potential and absence of mood-altering side effects. Oxiracetam also increases phospholipid metabolism in the brain, specifically the turnover of phosphatidylcholine and phosphatidylethanolamine, which may support membrane integrity and synaptic function. The compound increases D-aspartate release in the hippocampus, providing an additional pathway for NMDA receptor activation and synaptic plasticity. Its selectivity for logical and analytical cognition, as reported by users, may relate to preferential enhancement of cortical circuits involved in sequential reasoning and working memory manipulation, though this distinction has not been rigorously dissected in controlled studies.",
+	"keyBenefits": [
+		"Enhanced logical reasoning, analytical thinking, and mathematical ability -- the cognitive domains where oxiracetam most clearly outperforms other racetams",
+		"Improved processing speed and working memory capacity, facilitating technical work and complex problem-solving",
+		"Mild psychostimulant effect that increases mental alertness without the jitteriness or crash associated with caffeine or amphetamines",
+		"Strong safety profile with decades of clinical use in Europe and Asia, minimal hepatic metabolism, and low interaction potential",
+		"Enhanced memory formation and consolidation through AMPA receptor modulation and increased hippocampal acetylcholine release",
+		"Neuroprotective properties demonstrated in animal models of ischemia and excitotoxic injury"
+	],
+	"indications": [
+		{
+			"category": "Cognitive Enhancement",
+			"items": [
+				{
+					"name": "Logical Reasoning and Technical Work",
+					"description": "Oxiracetam is most consistently reported to enhance performance on tasks requiring sequential logic, mathematical reasoning, and structured analytical thinking. Users engaged in programming, engineering, mathematics, and similar disciplines frequently describe it as superior to piracetam for these purposes. This effect is likely mediated by enhanced cortical AMPA receptor function and increased cholinergic tone in prefrontal circuits.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Memory and Learning",
+					"description": "Clinical trials in patients with cognitive impairment have demonstrated significant improvements in memory acquisition, consolidation, and retrieval. Oxiracetam facilitates LTP in the hippocampus through AMPA receptor modulation, which is the primary cellular mechanism underlying declarative memory formation.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Processing Speed and Attention",
+					"description": "Oxiracetam produces a mild stimulant-like enhancement of mental alertness and processing speed without acting on catecholamine systems. This makes it useful for sustained cognitive work without the autonomic side effects of traditional stimulants. The mechanism likely involves increased acetylcholine release and enhanced glutamatergic signaling in attentional networks.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Clinical (Approved in Italy and Other Countries)",
+			"items": [
+				{
+					"name": "Multi-Infarct Dementia",
+					"description": "Oxiracetam is approved and has been studied in clinical trials for cognitive decline associated with multi-infarct (vascular) dementia. Trials have shown improvements in memory, attention, and global cognitive scores compared to placebo in this population.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Organic Brain Syndrome",
+					"description": "Prescribed in several countries for cognitive impairment associated with various organic brain conditions. Clinical evidence supports modest but meaningful improvements in cognitive test performance and daily functioning.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Investigational",
+			"items": [
+				{
+					"name": "Alzheimer's Disease",
+					"description": "Early clinical trials in Alzheimer's patients showed some improvement in cognitive measures, but results were inconsistent and the compound has not been pursued as a primary Alzheimer's treatment. The cholinergic and glutamatergic enhancement may provide symptomatic relief, but there is no evidence of disease-modifying effects.",
+					"effectiveness": "early-research"
+				},
+				{
+					"name": "Post-Concussion Cognitive Recovery",
+					"description": "Animal models of traumatic brain injury suggest oxiracetam may accelerate cognitive recovery through neuroprotective mechanisms and enhanced synaptic plasticity. Clinical data in this indication are limited.",
+					"effectiveness": "early-research"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oral administration is the standard and essentially only route used for oxiracetam. The compound has high oral bioavailability (56-82%) and is well absorbed from the gastrointestinal tract. It can be taken as powder, capsules, or tablets. Oxiracetam is water-soluble and has a mildly bitter taste when taken as powder. It can be taken with or without food, though taking it with food may reduce the mild GI discomfort some users experience.",
+			"protocols": [
+				{
+					"goal": "Standard Nootropic Protocol",
+					"dose": "800 mg",
+					"frequency": "Twice daily (morning and early afternoon)",
+					"route": "Oral capsule/powder",
+					"notes": "Total daily dose of 1600 mg. This is the most commonly used dosing protocol and aligns with clinical trial dosing. Avoid taking after 3 PM due to the mild stimulant effect and 8-hour half-life, which can interfere with sleep."
+				},
+				{
+					"goal": "Conservative Starting Protocol",
+					"dose": "400 mg",
+					"frequency": "Twice daily (morning and early afternoon)",
+					"route": "Oral capsule/powder",
+					"notes": "Total daily dose of 800 mg. A reasonable starting dose for those new to racetams or who want to assess individual response before increasing. Many users find this sufficient for noticeable cognitive enhancement."
+				}
+			],
+			"keyBenefits": [
+				"High oral bioavailability eliminates the need for alternative administration routes",
+				"Water-soluble powder dissolves easily for flexible dosing",
+				"Widely available in capsule and powder formats from nootropic suppliers",
+				"Can be taken with or without food"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Choline Sources (Alpha-GPC, CDP-Choline)",
+			"status": "synergistic",
+			"notes": "Co-supplementation with a choline source is strongly recommended when using oxiracetam. The compound increases acetylcholine turnover in the brain, and insufficient choline availability is the primary cause of the headaches that some users experience. Alpha-GPC (300-600 mg) or CDP-Choline (250-500 mg) daily effectively prevents this side effect and may enhance the cognitive benefits by ensuring adequate substrate for increased acetylcholine synthesis."
+		},
+		{
+			"peptide": "Other Racetams (Piracetam, Aniracetam)",
+			"status": "compatible",
+			"notes": "Oxiracetam is commonly stacked with other racetams to target different cognitive domains. A classic combination is oxiracetam for logical/analytical work paired with aniracetam for verbal fluency and creativity, or with piracetam for broader cognitive support. When stacking racetams, reduce individual doses by 25-50% and ensure adequate choline intake, as the combined cholinergic demand increases."
+		},
+		{
+			"peptide": "Noopept",
+			"status": "compatible",
+			"notes": "Oxiracetam and Noopept operate through overlapping but distinct mechanisms. Oxiracetam primarily modulates AMPA receptors and cholinergic signaling, while Noopept additionally modulates NMDA receptors and upregulates BDNF and NGF. The combination is well tolerated and commonly used in nootropic stacks. Use standard doses of each, as there is no known pharmacokinetic interaction."
+		}
+	],
+	"timeline": [
+		{
+			"period": "30-60 minutes",
+			"effects": "Onset of acute effects. Oxiracetam is absorbed within 1 hour of oral administration, with peak plasma concentration reached at approximately 1-3 hours. Users typically notice increased mental alertness, clarity of thought, and a subtle stimulant-like sharpening of focus."
+		},
+		{
+			"period": "1-4 hours",
+			"effects": "Primary cognitive enhancement window. Logical reasoning, working memory, and processing speed are most noticeably improved during this period. Users engaged in technical work, programming, or mathematical tasks often report the greatest subjective benefit in this window. The mild psychostimulant effect is most pronounced here."
+		},
+		{
+			"period": "4-8 hours",
+			"effects": "Gradual tapering of acute effects consistent with the approximately 8-hour half-life. Cognitive enhancement persists but at diminishing intensity. This long tail of activity is one reason the twice-daily dosing schedule is effective -- the second dose overlaps with the declining phase of the first."
+		},
+		{
+			"period": "1-2 weeks of daily use",
+			"effects": "Cumulative benefits begin to emerge beyond the acute dose-by-dose effects. Users commonly report improved memory consolidation, greater consistency in cognitive performance, and a growing sense of mental stamina during demanding intellectual work. These effects likely reflect sustained enhancement of synaptic plasticity and cholinergic tone."
+		},
+		{
+			"period": "4-8 weeks of daily use",
+			"effects": "Full benefits are typically realized with consistent use. Memory improvements are most pronounced and reliable at this stage. Some users report that the acute stimulant-like quality diminishes slightly while the deeper cognitive benefits -- improved recall, faster learning, and more fluid analytical reasoning -- become the dominant effects."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Headache (the most frequently reported side effect, almost always caused by increased acetylcholine demand outstripping choline supply -- resolved by co-supplementing with Alpha-GPC or CDP-Choline)",
+			"Insomnia or sleep disruption when taken too late in the day, due to the mild stimulant effect and 8-hour half-life",
+			"Mild anxiety or nervousness, particularly in anxiety-prone individuals or at higher doses",
+			"Mild gastrointestinal discomfort, nausea, or diarrhea (uncommon and usually transient)"
+		],
+		"rare": [
+			"Dizziness or lightheadedness",
+			"Excessive stimulation or restlessness at high doses (above 2400 mg/day)",
+			"Jaw tension or bruxism (reported anecdotally, mechanism unclear)",
+			"Skin rash or hypersensitivity reaction"
+		],
+		"stopSigns": [
+			"Persistent headache that does not resolve with choline supplementation",
+			"Significant anxiety, agitation, or panic symptoms",
+			"Persistent insomnia despite adjusting dosing schedule",
+			"Allergic reactions including rash, swelling, or difficulty breathing"
+		],
+		"contraindications": [
+			"Known hypersensitivity to oxiracetam or other racetam compounds",
+			"Severe renal impairment (oxiracetam is excreted primarily by the kidneys unchanged)",
+			"Pregnancy and breastfeeding (insufficient safety data)",
+			"Epilepsy or seizure disorders (racetams may lower the seizure threshold in susceptible individuals, though this risk is considered low with oxiracetam)"
+		],
+		"monitoring": [
+			"Subjective cognitive assessment: track logical reasoning, memory, and focus during the first 1-2 weeks to establish optimal dose",
+			"Choline intake: if headaches develop, add or increase choline supplementation before reducing oxiracetam dose",
+			"Sleep quality: monitor for insomnia and ensure the last dose is taken no later than early afternoon",
+			"Renal function: periodic monitoring recommended for individuals with pre-existing kidney conditions, as the compound is renally cleared"
+		]
+	},
+	"references": [
+		{
+			"title": "Oxiracetam in Dementia: A Double-Blind, Placebo-Controlled Study",
+			"authors": "Maina, G., Fiori, L., Torta, R., et al.",
+			"journal": "Neuropsychobiology",
+			"year": "1989",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/2635107/",
+			"keyFindings": "Demonstrated that oxiracetam 800 mg twice daily significantly improved memory, attention, and global cognitive function in patients with primary degenerative and multi-infarct dementia compared to placebo over a 12-week treatment period."
+		},
+		{
+			"title": "Pharmacokinetics of Oxiracetam Following Intravenous and Oral Administration in Healthy Volunteers",
+			"authors": "Perucca, E., Albrici, A., Gatti, G., et al.",
+			"journal": "European Journal of Drug Metabolism and Pharmacokinetics",
+			"year": "1984",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/6519727/",
+			"keyFindings": "Established the pharmacokinetic profile of oxiracetam in humans: oral bioavailability of 56-82%, plasma half-life of approximately 8 hours, minimal hepatic metabolism, and predominantly renal excretion of unchanged drug."
+		},
+		{
+			"title": "Oxiracetam and D-Aspartate Release in the Rat Hippocampus",
+			"authors": "Bhatt, D.K., Brand, T.",
+			"journal": "Pharmacology Biochemistry and Behavior",
+			"year": "1993",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8415825/",
+			"keyFindings": "Showed that oxiracetam increases D-aspartate release in the hippocampus, providing evidence for enhanced excitatory amino acid neurotransmission as a mechanism underlying its memory-enhancing effects and supporting the role of AMPA/NMDA receptor modulation."
+		},
+		{
+			"title": "Oxiracetam Prevents the Scopolamine-Induced Disruption of Spatial Learning",
+			"authors": "Sarter, M., Bodewitz, G., Stephens, D.N.",
+			"journal": "Pharmacology Biochemistry and Behavior",
+			"year": "1988",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/3174826/",
+			"keyFindings": "Demonstrated that oxiracetam prevented the cognitive impairment induced by the anticholinergic agent scopolamine in a spatial learning task, confirming the involvement of cholinergic mechanisms in oxiracetam's cognitive-enhancing effects."
+		},
+		{
+			"title": "Clinical Efficacy of Oxiracetam in Patients with Organic Brain Syndrome",
+			"authors": "Moglia, A., Sinforiani, E., Zandrini, C., et al.",
+			"journal": "Clinical Neuropharmacology",
+			"year": "1986",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/3594458/",
+			"keyFindings": "Reported significant improvements in memory and cognitive performance in patients with organic brain syndrome treated with oxiracetam versus placebo, supporting its clinical utility in age-related and organic cognitive decline."
+		}
+	]
+}

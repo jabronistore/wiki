@@ -1,0 +1,224 @@
+{
+	"id": "hgh-frag-176-191",
+	"name": "HGH Fragment 176-191",
+	"subtitle": "Growth Hormone Fragment | Fat Loss Peptide",
+	"aliases": ["HGH Frag", "Fragment 176-191", "AOD-9604 Precursor"],
+	"compoundKind": "peptide",
+	"categories": ["weight-loss", "metabolic"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "1,817.1 Da",
+		"length": "16 amino acids",
+		"type": "hGH C-terminal fragment (176-191)",
+		"sequence": "Leu-Arg-Ile-Val-Gln-Cys-Arg-Ser-Val-Glu-Gly-Ser-Cys-Gly-Phe",
+		"modifications": [
+			"Native hGH sequence from position 176 to 191",
+			"Disulfide bond between Cys183 and Cys189"
+		],
+		"halfLife": "15-20 minutes",
+		"halfLifeSeconds": 1200
+	},
+	"overview": "HGH Fragment 176-191 is the fat-burning segment of human growth hormone, corresponding to amino acids 176 through 191 of the full GH molecule. It stimulates lipolysis and inhibits lipogenesis without the growth-promoting or insulin-disrupting effects associated with full-length HGH. AOD-9604 is a modified version of this fragment with an added N-terminal tyrosine residue.",
+	"mechanism": "Mimics the lipolytic region of human growth hormone by stimulating fat breakdown through beta-3 adrenergic receptor pathways. Unlike full HGH, it does not bind the growth hormone receptor, so it does not increase IGF-1 levels or interfere with glucose metabolism. The fragment selectively targets adipose tissue to promote fat oxidation.",
+	"keyBenefits": [
+		"Stimulates lipolysis without growth hormone side effects",
+		"Does not affect blood glucose or insulin sensitivity",
+		"Does not increase IGF-1 levels",
+		"Selectively targets fat metabolism",
+		"No impact on bone or organ growth"
+	],
+	"indications": [
+		{
+			"category": "Fat Loss",
+			"items": [
+				{
+					"name": "Lipolysis Enhancement",
+					"description": "Increases fat oxidation and breakdown of stored triglycerides in adipose tissue without affecting glucose homeostasis.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Lipogenesis Inhibition",
+					"description": "Reduces new fat synthesis and storage, complementing the lipolytic action for overall fat reduction.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Body Composition",
+					"description": "Promotes selective fat loss while preserving lean mass, particularly effective when combined with a caloric deficit and exercise.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the standard route. Best administered twice daily on an empty stomach -- once in the morning and once before bed. Avoid eating for at least 30 minutes after injection for optimal fat-burning effect.",
+			"protocols": [
+				{
+					"goal": "Fat loss - Standard",
+					"dose": "250mcg",
+					"frequency": "Twice daily (morning fasted + pre-bed)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Enhanced fat loss",
+					"dose": "500mcg",
+					"frequency": "Twice daily (morning fasted + pre-bed)",
+					"route": "SubQ"
+				},
+				{
+					"goal": "Conservative start",
+					"dose": "250mcg",
+					"frequency": "Once daily (morning, fasted)",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Lyophilized HGH Frag 176-191 vial",
+					"Bacteriostatic water (BAC water)",
+					"Insulin syringes (0.5-1mL)",
+					"Alcohol swabs",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Allow vial to reach room temperature (15-20 minutes)",
+					"Calculate required bacteriostatic water volume",
+					"Clean vial stopper with alcohol swab",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake vigorously)",
+					"Store reconstituted solution at 2-8 degrees C",
+					"Use within 28 days"
+				]
+			},
+			"keyBenefits": [
+				"Abdomen (near navel) or thigh injection sites",
+				"Fasted administration for best results",
+				"Wait 30 minutes before eating after injection"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "HGH",
+			"status": "monitor",
+			"notes": "Redundant lipolytic mechanism. Full HGH already contains the 176-191 sequence, so combining provides diminishing returns for fat loss while adding HGH-related side effects."
+		},
+		{
+			"peptide": "AOD-9604",
+			"status": "avoid",
+			"notes": "Same mechanism of action. AOD-9604 is a modified version of this fragment; using both is redundant and unnecessary."
+		},
+		{
+			"peptide": "Clenbuterol",
+			"status": "synergistic",
+			"notes": "Both target fat loss through complementary adrenergic pathways. The combination may enhance lipolysis beyond either compound alone."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Minimal noticeable changes; fragment accumulating and establishing lipolytic signaling"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Subtle improvements in fat loss, especially around the midsection with proper diet"
+		},
+		{
+			"period": "Week 5-8",
+			"effects": "More noticeable fat reduction and improved body composition with consistent use"
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Continued fat loss and body recomposition; most users run 8-12 week cycles"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site irritation (redness, mild swelling)",
+			"Headache, particularly in the first few days",
+			"Generally well-tolerated with a favorable safety profile"
+		],
+		"stopSigns": [
+			"Severe injection site reactions or signs of infection",
+			"Hypoglycemia symptoms if combined with insulin (dizziness, sweating, confusion)",
+			"Allergic reactions (rare)",
+			"Any persistent or concerning symptoms"
+		],
+		"contraindications": [
+			"Pregnancy or breastfeeding",
+			"Active cancer or history of malignancy",
+			"WADA prohibited - athletes subject to testing must avoid"
+		],
+		"monitoring": ["Injection site reactions", "Blood glucose if combining with insulin or diabetes medications", "Body composition changes"]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White lyophilized powder with uniform appearance",
+			"Crystal clear solution without particles after reconstitution",
+			"Certificate of Analysis showing >98% purity by HPLC",
+			"Proper cold-chain shipping"
+		],
+		"warning": [
+			"Not FDA approved - research chemical only",
+			"WADA prohibited substance"
+		],
+		"bad": [
+			"Discolored or clumped powder (yellow indicates degradation)",
+			"Cloudy solution after reconstitution",
+			"Collapsed or moisture-damaged appearance"
+		]
+	},
+	"references": [
+		{
+			"title": "Increase of fat oxidation and weight loss in obese mice caused by chronic treatment with human growth hormone or a modified C-terminal fragment",
+			"authors": "Heffernan MA, Thorburn AW, Fam B, Summers R, Conway-Campbell B, Waters MJ, Ng FM",
+			"year": "2001",
+			"journal": "International Journal of Obesity",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11673763/",
+			"keyFindings": "Both hGH and the C-terminal fragment (176-191) reduced body weight gain, increased fat oxidation, and stimulated lipolysis in obese ob/ob mice without affecting glucose metabolism."
+		},
+		{
+			"title": "The effects of human GH and its lipolytic fragment (AOD9604) on lipid metabolism following chronic treatment in obese mice and beta(3)-AR knock-out mice",
+			"authors": "Heffernan MA, Jiang WJ, Thorburn AW, Ng FM",
+			"year": "2001",
+			"journal": "Endocrinology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11713213/",
+			"keyFindings": "The hGH fragment and its modified form AOD-9604 both increased beta-3 adrenergic receptor expression in obese mice. Effects were abolished in beta-3-AR knockout mice, confirming this receptor pathway is essential for the lipolytic action."
+		},
+		{
+			"title": "Metabolic studies of a synthetic lipolytic domain (AOD9604) of human growth hormone",
+			"authors": "Ng FM, Jiang WJ, Gianello R, Pitt C, Heffernan M",
+			"year": "2000",
+			"journal": "Hormone Research",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11146367/",
+			"keyFindings": "Characterized the metabolic properties of the hGH 176-191 lipolytic domain, demonstrating antilipogenic activity independent of the growth hormone receptor."
+		},
+		{
+			"title": "Effects of oral administration of a synthetic fragment of human growth hormone on lipid metabolism",
+			"authors": "Heffernan MA, Heffernan MJ, Jiang WJ, Thorburn AW, Ng FM",
+			"year": "2000",
+			"journal": "American Journal of Physiology - Endocrinology and Metabolism",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10950816/",
+			"keyFindings": "Oral treatment with the synthetic hGH fragment for 30 days significantly reduced body weight gain and altered lipogenic and lipolytic activity in adipose tissue of obese mice."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Detection and in vitro metabolism of AOD9604",
+			"date": "2014",
+			"source": "Drug Testing and Analysis",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25208511/",
+			"summary": "Developed detection methods for AOD-9604 and related hGH fragments, relevant for anti-doping analysis and understanding in vivo metabolism of the 176-191 sequence."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "250-500mcg",
+		"frequency": "Twice daily (fasted)",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Lyophilized: room temp or freezer long-term. Reconstituted: 2-8 degrees C for 28 days"
+	}
+}

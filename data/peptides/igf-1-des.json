@@ -1,0 +1,243 @@
+{
+	"id": "igf-1-des",
+	"name": "IGF-1 DES",
+	"subtitle": "Truncated IGF-1 Analog | Localized Muscle Growth",
+	"aliases": ["Des(1-3) IGF-1", "IGF-1 Des 1-3"],
+	"compoundKind": "peptide",
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"molecular": {
+		"length": "67 amino acids",
+		"weight": "~7,000 Da",
+		"type": "Truncated IGF-1 analog",
+		"modifications": [
+			"N-terminal truncation (first 3 amino acids removed)",
+			"Does not bind IGF binding proteins (IGFBPs)",
+			"~10x more potent than native IGF-1",
+			"Extremely short half-life for localized action"
+		],
+		"halfLife": "20-30 minutes",
+		"halfLifeSeconds": 1500
+	},
+	"overview": "IGF-1 DES (Des(1-3) IGF-1) is a truncated analog of insulin-like growth factor-1, missing the first three N-terminal amino acids. This structural modification eliminates binding to IGF binding proteins (IGFBPs), meaning 100% of the peptide is bioactive rather than being sequestered in circulation. The result is approximately 10x greater potency than native IGF-1, but with an extremely short half-life of 20-30 minutes. This short duration of action is considered a feature rather than a limitation -- it allows for site-specific injection into target muscles immediately post-workout, promoting localized growth with reduced systemic exposure.",
+	"mechanism": "IGF-1 DES activates the IGF-1 receptor (IGF-1R) and downstream PI3K/Akt/mTOR and MAPK/ERK signaling pathways, driving both muscle hypertrophy and hyperplasia. Because it lacks the tripeptide Gly-Pro-Glu at the N-terminus, it cannot bind to IGFBPs that normally sequester ~98% of circulating IGF-1. This means the entire administered dose remains bioavailable. The very short half-life confines its activity to the local injection site, where it stimulates satellite cell proliferation and differentiation, protein synthesis, and nutrient uptake in the targeted muscle tissue.",
+	"keyBenefits": [
+		"Approximately 10x more potent than native IGF-1",
+		"100% bioactive -- does not bind to IGF binding proteins",
+		"Extremely short half-life enables localized, site-specific action",
+		"Promotes satellite cell activation for muscle hyperplasia",
+		"Minimal systemic exposure compared to IGF-1 LR3"
+	],
+	"indications": [
+		{
+			"category": "Muscle Growth",
+			"items": [
+				{
+					"name": "Localized Hypertrophy",
+					"description": "Site-specific muscle growth via direct intramuscular injection into target muscle post-workout.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Hyperplasia",
+					"description": "Stimulates satellite cell proliferation and differentiation, potentially creating new muscle fibers.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Recovery",
+					"description": "Accelerates local tissue recovery in the injected muscle group after training.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Tissue Repair",
+			"items": [
+				{
+					"name": "Local Tissue Repair",
+					"description": "Promotes repair and regeneration at the injection site through IGF-1R activation.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Intramuscular injection directly into the target muscle immediately post-workout. The extremely short half-life means timing and site selection are critical. Consume fast carbohydrates after injection to mitigate hypoglycemia risk.",
+			"protocols": [
+				{
+					"goal": "Beginner Protocol",
+					"dose": "20-30mcg",
+					"frequency": "Post-workout, injected into trained muscle",
+					"route": "IM (site-specific)"
+				},
+				{
+					"goal": "Intermediate",
+					"dose": "30-50mcg",
+					"frequency": "Post-workout, injected into trained muscle",
+					"route": "IM (site-specific)"
+				},
+				{
+					"goal": "Advanced",
+					"dose": "50mcg",
+					"frequency": "Post-workout, split across multiple trained muscles",
+					"route": "IM (site-specific)"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"IGF-1 DES lyophilized powder",
+					"Bacteriostatic water or 0.6% acetic acid",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature (15-30 min)",
+					"Sanitize rubber stopper with alcohol swab",
+					"Calculate desired concentration (e.g., 1mg in 1mL = 1000mcg/mL)",
+					"Inject diluent slowly along the vial wall",
+					"Gently swirl -- do not shake",
+					"Allow 2-5 minutes for complete dissolution",
+					"Store reconstituted solution at 2-8C",
+					"Use within 7 days when reconstituted with BAC water",
+					"Acetic acid reconstitution extends stability"
+				]
+			},
+			"keyBenefits": [
+				"Must inject immediately post-workout for best results",
+				"Inject directly into the muscle trained that session",
+				"Consume 20-40g fast carbs after injection",
+				"Very short window of activity (~20-30 min)"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Human Growth Hormone",
+			"status": "synergistic",
+			"notes": "HGH raises baseline IGF-1 levels; adding IGF-1 DES post-workout provides a localized anabolic spike on top of elevated systemic IGF-1. Use with caution and monitor blood glucose."
+		},
+		{
+			"peptide": "IGF-1 LR3",
+			"status": "monitor",
+			"notes": "Do not stack with IGF-1 DES. Both are IGF-1 analogs acting on the same receptor. Choose one or the other based on whether you want systemic (LR3) or localized (DES) effects."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "Testosterone increases IGF-1 receptor density and satellite cell number, amplifying the local effects of IGF-1 DES at the injection site."
+		},
+		{
+			"peptide": "Insulin",
+			"status": "avoid",
+			"notes": "Both lower blood glucose. Combining IGF-1 DES with exogenous insulin significantly increases hypoglycemia risk."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Immediately post-injection",
+			"effects": "Localized muscle pump and fullness in the injected muscle within minutes; possible mild hypoglycemia"
+		},
+		{
+			"period": "Week 1-2",
+			"effects": "Noticeable pump and fullness in targeted muscles on training days; localized soreness at injection site"
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Visible improvements in targeted muscle size and shape; enhanced recovery between sessions"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Effects diminish rapidly due to the short-acting nature; structural gains from hyperplasia may persist"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Hypoglycemia -- consume carbohydrates after injection",
+			"Localized swelling and soreness at injection site",
+			"Increased pump in targeted muscles",
+			"Mild lightheadedness shortly after injection"
+		],
+		"stopSigns": [
+			"Severe or recurring hypoglycemia despite carbohydrate intake",
+			"Disproportionate or asymmetric muscle growth",
+			"Unusual growths, lumps, or rapid mole changes",
+			"Persistent pain, redness, or infection at injection site",
+			"Signs of systemic IGF-1 excess (jaw growth, organ enlargement)"
+		],
+		"contraindications": [
+			"Not approved for human use -- research chemical only",
+			"Cancer history or active malignancy (IGF-1 promotes cell proliferation)",
+			"Diabetes or impaired glucose regulation",
+			"WADA prohibited substance -- causes failed drug tests"
+		],
+		"monitoring": [
+			"Consume 20-40g fast carbohydrates immediately after each injection",
+			"Monitor blood glucose, especially during the first week",
+			"Rotate injection sites to avoid localized fibrosis",
+			"Limit cycles to 4-6 weeks with equal off-time",
+			"Watch for disproportionate growth in frequently targeted muscles"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"HPLC purity >95%",
+			"Mass spectrometry confirmation of truncated sequence",
+			"Cold storage maintained (-20C lyophilized)",
+			"Certificate of analysis from reputable source"
+		],
+		"warning": [
+			"Research chemical only -- never approved for human use",
+			"No human clinical trials exist",
+			"Extremely short half-life requires precise timing"
+		],
+		"bad": [
+			"Hypoglycemia risk -- blood sugar can drop rapidly after injection",
+			"Potential for disproportionate muscle growth with repeated site-specific use",
+			"Black market quality varies -- degraded product is common",
+			"Cancer proliferation concern -- elevated IGF-1 activity promotes cell growth"
+		]
+	},
+	"references": [
+		{
+			"title": "The isolation and characterization of a naturally occurring truncated form of IGF-I in human brain",
+			"authors": "Sara VR, Carlsson-Skwirut C, Andersson C, Hall E, Sjogren B, Holmgren A, Jornvall H",
+			"journal": "Biochemical and Biophysical Research Communications",
+			"year": "1986",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/3753607/",
+			"keyFindings": "First identification and characterization of Des(1-3) IGF-1 as a naturally occurring truncated form of IGF-1 in human brain tissue, establishing that the N-terminal tripeptide deletion occurs endogenously."
+		},
+		{
+			"title": "Des(1-3)IGF-I: A truncated form of insulin-like growth factor-I that has greatly enhanced activity in promoting growth",
+			"authors": "Francis GL, Ross M, Ballard FJ, Milner SJ, Senn C, McNeil KA, Wallace JC, King R, Wells JR",
+			"journal": "Journal of Molecular Endocrinology",
+			"year": "1992",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1381175/",
+			"keyFindings": "Des(1-3) IGF-1 demonstrated approximately 10-fold greater potency than intact IGF-1 in stimulating protein synthesis and cell proliferation, directly attributable to its inability to bind IGF binding proteins."
+		},
+		{
+			"title": "Insulin-like growth factor-I (IGF-I) and especially IGF-I variants are anabolic in dexamethasone-treated rats",
+			"authors": "Tomas FM, Knowles SE, Owens PC, Chandler CS, Francis GL, Read LC, Ballard FJ",
+			"journal": "Biochemical Journal",
+			"year": "1992",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1371669/",
+			"keyFindings": "Des(1-3) IGF-1 and LR3-IGF-1 were significantly more potent than native IGF-1 in reversing dexamethasone-induced muscle wasting in rats, with truncated and modified variants showing superior anabolic activity."
+		},
+		{
+			"title": "Circulating Insulin-like Growth Factor-I Concentrations and Risk of 30 Cancers: Prospective Analyses in UK Biobank",
+			"authors": "Murphy N, Knuppel A, Papadimitriou N, Martin RM, Tsilidis KK, Brennan P et al.",
+			"journal": "Cancer Research",
+			"year": "2020",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32709735/",
+			"keyFindings": "Higher circulating IGF-1 associated with increased risks of colorectal, breast, prostate, and thyroid cancers in >395,000 UK Biobank participants, underscoring the cancer risk of sustained IGF-1 pathway activation."
+		}
+	],
+	"categories": ["growth-hormone"],
+	"quickStats": {
+		"typicalDose": "20-50mcg post-workout (site-specific IM injection)",
+		"frequency": "Post-workout only, injected into trained muscle",
+		"cycleDuration": "4-6 weeks maximum",
+		"storage": "Lyophilized: -20C. Reconstituted: 2-8C, use within 7 days (BAC water)"
+	}
+}

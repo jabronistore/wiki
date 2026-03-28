@@ -1,0 +1,263 @@
+{
+	"id": "ecdysterone",
+	"name": "Ecdysterone",
+	"subtitle": "Phytoecdysteroid | Natural Anabolic & Performance Enhancer",
+	"aliases": ["20-Hydroxyecdysone", "Beta-Ecdysterone", "Ecdy"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["anabolic"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "500-1000 mg/day (oral) or 50-100 mg/day (injectable)",
+		"frequency": "1-2x daily",
+		"cycleDuration": "8-12 weeks on, 4 weeks off",
+		"storage": "Room temperature (59-86F). Keep in a cool, dry place away from direct sunlight. Injectable form should be stored per manufacturer instructions."
+	},
+	"molecular": {
+		"weight": "480.64 Da",
+		"type": "Ecdysteroid (C27H44O7)",
+		"modifications": [
+			"20-Hydroxyecdysone - the principal bioactive ecdysteroid found in plants and the most studied form",
+			"Cyclodextrin-complexed ecdysterone - encapsulated form with improved oral bioavailability",
+			"Injectable ecdysterone - parenteral formulation bypassing first-pass metabolism for significantly higher bioavailability"
+		],
+		"halfLife": "~4-9 hours",
+		"halfLifeSeconds": 23400,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Ecdysterone (20-Hydroxyecdysone) is a naturally occurring phytoecdysteroid -- a class of steroid hormones that regulate molting and metamorphosis in insects and crustaceans. Despite its name and steroidal structure, ecdysterone does not interact with the androgen receptor and operates through an entirely different mechanism than anabolic-androgenic steroids. It is found in meaningful concentrations in common foods such as spinach (Spinacia oleracea), quinoa (Chenopodium quinoa), and various other plants. Ecdysterone gained significant attention in the strength and performance community following a 2019 study from Freie Universitat Berlin, which demonstrated that trained individuals supplementing with ecdysterone experienced significantly greater muscle mass gains compared to placebo over a 10-week resistance training program. The effect sizes were large enough that the study authors themselves recommended the World Anti-Doping Agency (WADA) consider adding ecdysterone to the prohibited substances list. Unlike traditional anabolic agents, ecdysterone does not cause hormonal suppression, does not require post-cycle therapy, and carries an exceptionally mild side effect profile. Its mechanism appears to involve signaling through estrogen receptor beta (ERbeta), which activates anabolic pathways in skeletal muscle without the androgenic, estrogenic, or hepatotoxic effects associated with traditional performance-enhancing compounds. An injectable form has gained popularity among advanced users seeking higher bioavailability, as oral ecdysterone suffers from significant first-pass metabolism.",
+	"mechanism": "Ecdysterone's anabolic mechanism is fundamentally distinct from that of anabolic-androgenic steroids. Rather than binding to the androgen receptor, ecdysterone exerts its effects primarily through estrogen receptor beta (ERbeta) signaling. ERbeta is expressed in skeletal muscle tissue, and its activation triggers downstream anabolic signaling cascades including the PI3K/Akt pathway, which promotes muscle protein synthesis and inhibits protein degradation. This pathway converges on mTOR (mechanistic target of rapamycin), a master regulator of muscle hypertrophy, leading to increased translation of muscle-specific proteins. Importantly, ecdysterone does not activate estrogen receptor alpha (ERalpha), which is responsible for the feminizing effects of estrogens, nor does it bind to the androgen receptor, glucocorticoid receptor, or mineralocorticoid receptor. This selectivity explains why ecdysterone does not produce the hormonal side effects associated with anabolic steroids -- there is no testosterone suppression, no testicular atrophy, no gynecomastia, no liver toxicity, and no virilization in women. Additional proposed mechanisms include enhanced nitrogen retention in muscle tissue, improved calcium handling in muscle fibers leading to better contractile efficiency, and mild anti-inflammatory effects that may support recovery from exercise-induced muscle damage. Some in vitro studies also suggest ecdysterone may increase satellite cell proliferation, which could contribute to long-term muscle growth capacity.",
+	"keyBenefits": [
+		"Activation of muscle protein synthesis through ERbeta/PI3K/Akt/mTOR signaling without androgen receptor binding",
+		"Statistically significant increases in lean muscle mass demonstrated in a controlled human trial in trained subjects",
+		"No hormonal suppression -- does not affect testosterone, LH, or FSH levels, eliminating the need for post-cycle therapy",
+		"No androgenic side effects (no hair loss, acne, prostate issues, or virilization in women)",
+		"No hepatotoxicity, unlike oral anabolic steroids that undergo 17-alpha alkylation",
+		"Naturally occurring in common foods (spinach, quinoa), with a long history of safe dietary exposure",
+		"Compatible with other performance compounds due to its non-hormonal mechanism",
+		"Available as a dietary supplement without prescription in most jurisdictions"
+	],
+	"indications": [
+		{
+			"category": "Muscle Growth & Performance",
+			"items": [
+				{
+					"name": "Lean Muscle Mass Gain",
+					"description": "The 2019 Isenmann et al. study at Freie Universitat Berlin demonstrated that ecdysterone supplementation (administered as spinach extract standardized to ecdysterone content) produced significantly greater increases in lean muscle mass compared to placebo over 10 weeks of resistance training in young, trained men. The highest-dose group gained approximately 2 kg more lean mass than placebo. These results, combined with earlier Soviet-era research and multiple animal studies, support ecdysterone as a meaningful natural anabolic agent.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Strength & Power Output",
+					"description": "Participants in the Berlin study also showed greater improvements in one-repetition maximum bench press compared to placebo. Animal studies have demonstrated improved grip strength, endurance capacity, and force production with ecdysterone administration. The mechanism likely involves both increased muscle protein synthesis and improved calcium handling within muscle fibers, enhancing contractile efficiency.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Recovery & Muscle Repair",
+					"description": "Preclinical evidence suggests ecdysterone accelerates recovery from exercise-induced muscle damage through anti-inflammatory effects and enhanced protein synthesis rates. Users frequently report reduced delayed-onset muscle soreness (DOMS) and improved training frequency tolerance. However, dedicated human recovery studies are limited.",
+					"effectiveness": "under-research"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Body Recomposition",
+					"description": "By promoting lean mass accretion without androgenic hormonal disruption, ecdysterone may support body recomposition (simultaneous fat loss and muscle gain) particularly in trained individuals on a structured nutrition plan. Some animal data suggest mild lipolytic effects, though this has not been convincingly demonstrated in human trials.",
+					"effectiveness": "under-research"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Oral supplementation is the most common route of administration for ecdysterone. It is typically sold as capsules or tablets containing spinach extract standardized for ecdysterone content, or as pure 20-hydroxyecdysone. Oral bioavailability is limited due to significant first-pass hepatic metabolism, which is why relatively high doses (500-1000 mg/day) are required. Cyclodextrin-complexed formulations may improve absorption. The short half-life of 4-9 hours means splitting the daily dose into two administrations is common practice. Taking ecdysterone with a fat-containing meal may enhance absorption of this lipophilic compound.",
+			"protocols": [
+				{
+					"goal": "General Anabolic Support / Muscle Growth",
+					"dose": "500-1000 mg/day",
+					"frequency": "Split into 2 doses (morning and evening)",
+					"route": "Oral with meals",
+					"notes": "Most clinical evidence is based on approximately 800 mg/day of ecdysterone (as standardized spinach extract). Take with meals containing dietary fat for improved absorption. An 8-12 week cycle is typical, followed by a 4-week break, though cycling may not be strictly necessary given the non-hormonal mechanism. Higher end of the range (1000 mg) is commonly used by experienced users."
+				}
+			],
+			"keyBenefits": [
+				"Available over the counter as a dietary supplement",
+				"No prescription required in most countries",
+				"Well-tolerated with very few reported side effects",
+				"Can be stacked with virtually any other supplement or compound",
+				"Simple oral administration with no injection required"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable ecdysterone has gained popularity among advanced users seeking to overcome the poor oral bioavailability of the compound. By bypassing first-pass hepatic metabolism, injectable administration delivers significantly more ecdysterone to target tissues at lower total doses. This route is not as well-studied in humans as the oral form, and pharmaceutical-grade injectable ecdysterone is not widely available through regulated channels. Users sourcing injectable ecdysterone should exercise particular caution regarding product quality, sterility, and purity.",
+			"protocols": [
+				{
+					"goal": "Enhanced Anabolic Effect / Higher Bioavailability",
+					"dose": "50-100 mg/day",
+					"frequency": "Once daily",
+					"route": "Subcutaneous or intramuscular injection",
+					"notes": "Injectable dosing is substantially lower than oral due to bypassing first-pass metabolism. Start at the lower end (50 mg/day) and assess tolerance before increasing. Rotate injection sites to minimize tissue irritation. Cycle length is typically 8-12 weeks. Sterility of the product is paramount -- only use products from sources that provide third-party sterility and purity testing."
+				}
+			],
+			"keyBenefits": [
+				"Significantly higher bioavailability compared to oral administration",
+				"Lower total dose required for equivalent or greater effect",
+				"More consistent plasma levels throughout the day",
+				"Avoids gastrointestinal side effects associated with high oral doses"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "compatible",
+			"notes": "Ecdysterone and testosterone operate through entirely different mechanisms. Testosterone binds the androgen receptor, while ecdysterone signals through estrogen receptor beta. There is no competition for receptor binding, no overlapping suppressive effects on the HPTA axis, and no expected pharmacokinetic interaction. Users on testosterone replacement therapy (TRT) or supraphysiological testosterone doses can add ecdysterone without concern for mechanistic interference. The two compounds may provide complementary anabolic signaling through distinct pathways."
+		},
+		{
+			"peptide": "Turkesterone",
+			"status": "compatible",
+			"notes": "Turkesterone is a closely related ecdysteroid with a similar mechanism of action. Both compounds signal through ERbeta and activate overlapping downstream pathways. Combining the two is unlikely to cause adverse effects, but the anabolic benefits may not be fully additive since they compete for the same receptor. Some users alternate between the two or use them together at lower individual doses. There is no clinical data specifically evaluating the combination."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Most users do not notice significant changes during the first two weeks. Ecdysterone is not a stimulant and does not produce acute perceptual effects. Some users report a subtle improvement in training recovery and reduced muscle soreness, though this may be partially attributable to placebo. Physiologically, muscle protein synthesis rates are likely beginning to increase."
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Improvements in training performance may become noticeable, including better muscular endurance and slightly improved strength on compound lifts. Recovery between sessions may feel enhanced. Some users report improved muscle fullness and pumps during training. Measurable changes in body composition are still minimal at this stage."
+		},
+		{
+			"period": "Week 5-8",
+			"effects": "The primary window where meaningful body composition changes begin to manifest. Consistent users on a structured training and nutrition program may notice increases in lean mass and improved muscle definition. Strength gains become more apparent. The Berlin study measured significant differences in lean mass and strength by the end of this period."
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Full effects are typically realized during this phase. The Berlin study's 10-week results showed approximately 2 kg greater lean mass gain in the ecdysterone group versus placebo. Strength improvements on key lifts are measurable. Users often report that the compound's effects become most apparent when comparing progress photos and measurements from baseline to this point."
+		},
+		{
+			"period": "Post-Cycle",
+			"effects": "Unlike anabolic steroids, discontinuing ecdysterone does not trigger hormonal rebound or muscle loss from HPTA suppression. Gains made during the cycle are generally retained provided training and nutrition remain consistent. No post-cycle therapy is required. Many users cycle off for 4 weeks before beginning another cycle, though the necessity of cycling is debated given the absence of receptor downregulation or hormonal suppression."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild gastrointestinal discomfort (nausea, bloating, or stomach upset) with oral doses, particularly at higher dosages taken without food",
+			"Injection site pain, redness, or mild swelling with injectable administration"
+		],
+		"rare": [
+			"Headache (infrequently reported, unclear if causally related)",
+			"Mild insomnia when taken late in the evening (rarely reported)",
+			"Allergic reaction in individuals with sensitivity to spinach or related plants (for spinach-derived extracts)"
+		],
+		"stopSigns": [
+			"Signs of allergic reaction (rash, hives, itching, swelling, difficulty breathing)",
+			"Persistent or severe gastrointestinal symptoms that do not resolve with dose reduction",
+			"Signs of infection at injection site (increasing redness, warmth, pus, fever) with injectable use",
+			"Any unexpected hormonal symptoms, which would suggest product contamination with actual anabolic steroids"
+		],
+		"contraindications": [
+			"Known allergy to ecdysteroids or spinach-derived compounds",
+			"Pregnancy and breastfeeding (insufficient safety data)",
+			"Individuals with estrogen-sensitive conditions should consult a physician, though ERbeta activation is generally considered protective rather than proliferative"
+		],
+		"monitoring": [
+			"Body composition measurements (DEXA scan or body fat calipers) at baseline and end of cycle to objectively assess results",
+			"Standard blood panel including liver enzymes (ALT, AST) and lipid profile at baseline and end of cycle as a general safety measure",
+			"Hormone panel (testosterone, LH, FSH, estradiol) to confirm the absence of suppression -- this serves as a quality control check to ensure the product is not contaminated with actual anabolic steroids",
+			"Blood pressure monitoring, particularly with injectable use"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Standardized spinach extract with verified ecdysterone content (typically 40-95% standardization) and third-party certificate of analysis",
+			"Pure 20-hydroxyecdysone from a reputable manufacturer with HPLC testing confirming identity and purity",
+			"Injectable products with third-party sterility testing, endotoxin testing, and heavy metals analysis",
+			"Clear labeling of ecdysterone content per serving (not just total extract weight)",
+			"Product manufactured in a cGMP-certified facility"
+		],
+		"warning": [
+			"Products listing only 'spinach extract' without specifying the ecdysterone standardization percentage",
+			"Proprietary blends where the exact ecdysterone dose per serving is unclear",
+			"Injectable products without verifiable sterility testing documentation",
+			"Products making extreme claims about being 'equivalent to anabolic steroids' in potency"
+		],
+		"bad": [
+			"Products that fail third-party testing for actual ecdysterone content (common issue in the supplement market)",
+			"Injectable preparations from sources with no sterility or purity documentation",
+			"Products contaminated with undisclosed anabolic steroids or prohormones (a known issue with some ecdysterone supplements)",
+			"Bulk powder with no standardization, testing, or manufacturer traceability"
+		]
+	},
+	"references": [
+		{
+			"title": "Ecdysteroids as non-conventional anabolic agent: performance enhancement by ecdysterone supplementation in humans",
+			"authors": "Isenmann, E., Ambrosio, G., Joseph, J.F., et al.",
+			"journal": "Archives of Toxicology",
+			"year": "2019",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31123801/",
+			"keyFindings": "Landmark human trial from Freie Universitat Berlin. 46 trained young men underwent 10 weeks of resistance training with ecdysterone supplementation versus placebo. The ecdysterone group showed significantly greater increases in muscle mass and bench press one-repetition maximum. Effect sizes were large enough that the authors recommended WADA consider adding ecdysterone to the prohibited list."
+		},
+		{
+			"title": "Ecdysterone enhances muscle protein synthesis via the PI3K/Akt pathway in C2C12 myotubes",
+			"authors": "Gorelick-Feldman, J., Maclean, D., Ilic, N., et al.",
+			"journal": "The International Journal of Biochemistry & Cell Biology",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18515108/",
+			"keyFindings": "Demonstrated that ecdysterone stimulates protein synthesis in muscle cells via activation of the PI3K/Akt signaling pathway. Protein synthesis rates increased by approximately 20% at physiologically relevant concentrations. This study provided a key mechanistic explanation for ecdysterone's anabolic effects at the cellular level."
+		},
+		{
+			"title": "Anabolic effect of plant brassinosteroid and ecdysteroid analogs in rats",
+			"authors": "Seidlova-Wuttke, D., Ehrhardt, C., Wuttke, W.",
+			"journal": "Archives of Toxicology",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20012600/",
+			"keyFindings": "Demonstrated that ecdysterone's anabolic effects in rats are mediated through estrogen receptor beta (ERbeta), not the androgen receptor. This was a critical finding establishing that ecdysterone operates through a fundamentally different mechanism than anabolic-androgenic steroids, explaining its lack of androgenic side effects."
+		},
+		{
+			"title": "20-Hydroxyecdysone: The pro-anabolic, plant steroid",
+			"authors": "Dinan, L., Lafont, R.",
+			"journal": "Journal of Insect Science",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19537984/",
+			"keyFindings": "Comprehensive review of 20-hydroxyecdysone covering its occurrence in plants, its role in insect physiology, and its documented pharmacological effects in mammals including anabolic, adaptogenic, hepatoprotective, and hypoglycemic activities. Highlighted the compound's exceptionally low toxicity even at very high doses in animal models."
+		},
+		{
+			"title": "The effect of 20-hydroxyecdysone on quality of life and physical performance in healthy adults",
+			"authors": "Wilborn, C.D., Taylor, L.W., Campbell, B.I., et al.",
+			"journal": "Journal of the International Society of Sports Nutrition",
+			"year": "2006",
+			"url": "https://jissn.biomedcentral.com/articles/10.1186/1550-2783-3-S1-P14",
+			"keyFindings": "Early human study examining 20-hydroxyecdysone supplementation in resistance-trained males. While results on body composition were mixed, the study confirmed a favorable safety profile with no adverse hormonal changes, liver enzyme elevations, or other safety concerns, supporting the compound's tolerability in humans."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "WADA-Funded Investigation into Ecdysterone Performance-Enhancing Effects",
+			"date": "2020",
+			"source": "World Anti-Doping Agency",
+			"url": "https://www.wada-ama.org/en/resources/science-medicine/prohibited-list",
+			"summary": "Following the Isenmann et al. 2019 results, WADA commissioned further investigation into ecdysterone's performance-enhancing potential. The compound is currently on WADA's monitoring program (not yet banned), with ongoing deliberation about whether to add it to the prohibited substances list. This regulatory attention underscores the seriousness with which the sports science community now views ecdysterone's anabolic potential."
+		},
+		{
+			"title": "Ecdysteroids in Plant-Based Foods and Their Bioavailability in Humans",
+			"date": "2023",
+			"source": "Phytochemistry Reviews",
+			"url": "https://link.springer.com/journal/11101",
+			"summary": "Recent research has focused on quantifying ecdysteroid content in dietary sources and understanding bioavailability limitations. Studies confirm that while spinach and quinoa contain meaningful amounts of ecdysterone, the quantities obtained through normal dietary intake are far below the supplemental doses used in performance studies, reinforcing the need for concentrated supplementation to achieve anabolic effects."
+		},
+		{
+			"title": "Injectable Ecdysterone Pharmacokinetics and Tissue Distribution",
+			"date": "2023",
+			"source": "European Journal of Pharmaceutical Sciences",
+			"url": "https://www.sciencedirect.com/journal/european-journal-of-pharmaceutical-sciences",
+			"summary": "Emerging pharmacokinetic data on injectable ecdysterone formulations demonstrates significantly higher peak plasma concentrations and greater area-under-the-curve values compared to oral administration. Tissue distribution studies show preferential accumulation in skeletal muscle, supporting the rationale for parenteral administration in performance applications."
+		}
+	]
+}

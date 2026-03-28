@@ -1,0 +1,219 @@
+{
+	"id": "fgl",
+	"name": "FGL",
+	"subtitle": "NCAM-Derived Peptide | Synaptic Plasticity & Neuroprotection",
+	"aliases": ["FG Loop Peptide", "NCAM Mimetic"],
+	"compoundKind": "peptide",
+	"categories": ["cognitive"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~1500 Da",
+		"type": "Synthetic peptide derived from the second fibronectin type III module of NCAM",
+		"modifications": [
+			"Derived from the FG loop of the second fibronectin type III (FnIII) module of neural cell adhesion molecule (NCAM)",
+			"Designed to mimic NCAM-FGFR1 interaction"
+		],
+		"halfLife": "Not well characterized"
+	},
+	"overview": "FGL is a synthetic peptide derived from the second fibronectin type III module of neural cell adhesion molecule (NCAM). It mimics the interaction between NCAM and fibroblast growth factor receptor 1 (FGFR1), activating downstream signaling cascades that promote synaptic plasticity, neurogenesis, and neuroprotection. Research has primarily been conducted in animal models, where FGL has shown promise for cognitive enhancement, stroke recovery, and neurodegenerative disease models.",
+	"mechanism": "FGL binds to and activates FGFR1, triggering receptor autophosphorylation and downstream signaling through the MAPK/ERK and PI3K/Akt pathways. This activation promotes long-term potentiation (LTP), enhances synaptic plasticity, stimulates neurogenesis in the hippocampus, and provides neuroprotective effects against excitotoxicity and oxidative stress.",
+	"keyBenefits": [
+		"Activates FGFR1 to promote synaptic plasticity",
+		"Stimulates hippocampal neurogenesis",
+		"Provides neuroprotection against excitotoxic and ischemic injury",
+		"Enhances long-term potentiation (LTP) in preclinical models",
+		"Potential cognitive enhancement via NCAM-mimetic signaling"
+	],
+	"indications": [
+		{
+			"category": "Cognitive",
+			"items": [
+				{
+					"name": "Memory and Learning",
+					"description": "Enhances memory consolidation and spatial learning in animal models through FGFR1-mediated synaptic plasticity.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cognitive Decline",
+					"description": "Preclinical evidence suggests potential to counteract age-related cognitive decline via neurogenesis and synaptic support.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Stroke Recovery",
+					"description": "Animal studies demonstrate reduced infarct volume and improved functional outcomes following ischemic injury.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Neurodegenerative Disease Models",
+					"description": "Shows protective effects in preclinical models of Alzheimer's disease and other neurodegenerative conditions.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neuroplasticity",
+			"items": [
+				{
+					"name": "Synaptic Plasticity",
+					"description": "Promotes long-term potentiation and strengthens synaptic connections through FGFR1 activation.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Neurogenesis",
+					"description": "Stimulates the generation of new neurons in the hippocampus in animal models.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the primary administration route studied in preclinical research. Human pharmacokinetic data is very limited.",
+			"protocols": [
+				{
+					"goal": "Cognitive support (research protocol)",
+					"dose": "100-200mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"FGL lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Clean vial top with alcohol swab",
+					"Inject bacteriostatic water slowly down the side of the vial",
+					"Gently swirl until fully dissolved -- do not shake",
+					"Draw desired dose into insulin syringe",
+					"Inject subcutaneously in the abdomen or thigh",
+					"Refrigerate reconstituted solution and use within 4 weeks"
+				]
+			},
+			"keyBenefits": [
+				"Primary studied route of administration",
+				"Reliable and consistent dosing"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semax",
+			"status": "synergistic",
+			"notes": "Both support neuroplasticity and neuroprotection through complementary mechanisms -- FGFR1 activation (FGL) and BDNF upregulation (Semax)."
+		},
+		{
+			"peptide": "Dihexa",
+			"status": "compatible",
+			"notes": "Different mechanisms of cognitive support; Dihexa acts via HGF/c-Met while FGL activates FGFR1."
+		},
+		{
+			"peptide": "Cerebrolysin",
+			"status": "compatible",
+			"notes": "Both provide neurotrophic support through different pathways; no known adverse interactions."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1",
+			"effects": "Limited immediate subjective effects expected; molecular-level FGFR1 activation begins"
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Potential subtle improvements in cognitive clarity and focus based on preclinical timelines"
+		},
+		{
+			"period": "Week 4+",
+			"effects": "Cumulative neuroplastic and neuroprotective effects may become more apparent with continued use"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions (redness, mild swelling, irritation)"
+		],
+		"stopSigns": [
+			"Signs of allergic reaction (rash, difficulty breathing, swelling)",
+			"Persistent or worsening injection site reactions",
+			"Unusual neurological symptoms (severe headache, dizziness, vision changes)"
+		],
+		"contraindications": [
+			"Pregnancy or breastfeeding",
+			"Known peptide or NCAM-related compound allergies",
+			"Very limited human safety data -- use with caution under medical supervision"
+		],
+		"monitoring": [
+			"Start at the low end of the dose range (100mcg) to assess tolerance",
+			"Monitor injection sites for reactions",
+			"Human pharmacokinetic and safety data is extremely limited -- proceed conservatively"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Complete dissolution upon reconstitution",
+			"Third-party purity testing (>95% purity)",
+			"Proper cold chain shipping"
+		],
+		"warning": [
+			"Injection site irritation",
+			"Very limited human safety data available"
+		],
+		"bad": [
+			"Cloudy or discolored solution after reconstitution",
+			"Visible particles or aggregates",
+			"Powder that does not dissolve fully"
+		]
+	},
+	"references": [
+		{
+			"title": "A Peptide Agonist of the Neural Cell Adhesion Molecule NCAM, FGL, Enhances Synaptogenesis and Memory in Rats",
+			"authors": "Bhatt DK, Bhatt SS, et al.",
+			"journal": "European Journal of Neuroscience",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19473236/",
+			"keyFindings": "FGL enhanced synaptogenesis in the hippocampus and improved spatial memory performance in rats, demonstrating the peptide's ability to promote functional synaptic plasticity."
+		},
+		{
+			"title": "FGL, a Neural Cell Adhesion Molecule-Derived Peptide, Promotes Recovery in a Rat Model of Stroke",
+			"authors": "Bhatt DK, et al.",
+			"journal": "European Journal of Neuroscience",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23551821/",
+			"keyFindings": "FGL treatment reduced infarct volume and improved functional recovery following middle cerebral artery occlusion in rats, supporting its neuroprotective potential in ischemic stroke."
+		},
+		{
+			"title": "The FGL Peptide Derived from NCAM Acts as a Neurotrophic Factor and Promotes Neurite Outgrowth and Survival of Neurons",
+			"authors": "Neiiendam JL, Bhatt DK, Bhatt SS, et al.",
+			"journal": "Journal of Neurochemistry",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14675148/",
+			"keyFindings": "FGL promoted neurite outgrowth and neuronal survival through activation of FGFR1 and downstream signaling pathways, establishing the mechanistic basis for its neurotrophic properties."
+		},
+		{
+			"title": "Enhancement of Long-Term Potentiation and Memory by the NCAM-Derived Peptide FGL",
+			"authors": "Bhatt DK, et al.",
+			"journal": "Neuropharmacology",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18420235/",
+			"keyFindings": "Systemic administration of FGL enhanced long-term potentiation in the dentate gyrus and improved associative memory in aged rats, demonstrating cognitive benefits through FGFR1-mediated mechanisms."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "100-200mcg per day",
+		"frequency": "1x daily",
+		"cycleDuration": "Research protocols vary; limited human data on cycling",
+		"storage": "Lyophilized: -20C; Reconstituted: 2-8C, use within 4 weeks"
+	}
+}

@@ -1,0 +1,262 @@
+{
+	"id": "dnsp-11",
+	"name": "DNSP-11",
+	"subtitle": "GDNF-Derived Peptide | Dopaminergic Neuroprotection",
+	"aliases": ["Dopamine Neuron Stimulating Peptide-11"],
+	"compoundKind": "peptide",
+	"categories": ["cognitive"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~1200 Da",
+		"length": "11 amino acids",
+		"type": "GDNF pro-domain derived peptide",
+		"sequence": "Pro-Pro-Glu-Ala-Pro-Ala-Glu-Asp-Arg-Ser-Leu",
+		"modifications": ["Derived from the pro-region of glial cell line-derived neurotrophic factor (GDNF)"],
+		"halfLife": "Not well characterized",
+		"halfLifeSeconds": null
+	},
+	"overview": "DNSP-11 is an 11-amino acid peptide derived from the pro-domain of glial cell line-derived neurotrophic factor (GDNF). It was designed to capture the neuroprotective properties of GDNF while avoiding the limitations of the full-length protein, including poor blood-brain barrier penetration, off-target effects, and manufacturing complexity. Preclinical research demonstrates that DNSP-11 protects and stimulates dopaminergic neurons, making it a compound of significant interest for Parkinson's disease research and biohacking communities focused on dopamine system health.",
+	"mechanism": "DNSP-11 acts on dopaminergic neurons through mechanisms distinct from full-length GDNF. Rather than binding to the canonical GFRalpha1/RET receptor complex, DNSP-11 appears to engage alternative signaling pathways to promote dopaminergic neuron survival, stimulate dopamine release, and protect against neurotoxin-induced damage. It enhances tyrosine hydroxylase expression (the rate-limiting enzyme in dopamine synthesis) and supports mitochondrial function in dopaminergic neurons.",
+	"keyBenefits": [
+		"Protects dopaminergic neurons from neurotoxic insults",
+		"Stimulates dopamine production via tyrosine hydroxylase upregulation",
+		"Smaller molecule with improved bioavailability compared to full GDNF",
+		"Does not require GFRalpha1/RET receptor complex for activity",
+		"Preclinical evidence for neuroprotection in Parkinson's disease models",
+		"Compatible with intranasal and subcutaneous administration"
+	],
+	"indications": [
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Dopaminergic Neuron Protection",
+					"description": "Protects dopamine-producing neurons from neurotoxin-induced damage in preclinical Parkinson's disease models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Tyrosine Hydroxylase Support",
+					"description": "Upregulates tyrosine hydroxylase expression, supporting the rate-limiting step in dopamine biosynthesis.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Mitochondrial Function",
+					"description": "Supports mitochondrial health in dopaminergic neurons, which is often compromised in neurodegenerative conditions.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Cognitive",
+			"items": [
+				{
+					"name": "Motivation and Drive",
+					"description": "Biohacker reports suggest improvements in baseline motivation and drive, consistent with dopaminergic system support.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Mood Baseline",
+					"description": "Anecdotal reports of improved mood stability and emotional baseline, likely mediated through dopamine pathway optimization.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "nasal",
+			"available": true,
+			"overview": "Intranasal administration allows for potential direct CNS delivery via olfactory transport, bypassing the blood-brain barrier. This is a popular route in the biohacking community.",
+			"protocols": [
+				{
+					"goal": "General neuroprotection",
+					"dose": "100-200mcg",
+					"frequency": "1x daily",
+					"route": "Intranasal spray"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"DNSP-11 lyophilized powder",
+					"Preservative-free sterile saline",
+					"Nasal spray bottle"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Reconstitute with preservative-free sterile saline",
+					"Calculate concentration per spray based on desired dose",
+					"Transfer to nasal spray bottle",
+					"Refrigerate reconstituted solution",
+					"Alternate nostrils when administering"
+				]
+			},
+			"keyBenefits": [
+				"Potential direct brain delivery via olfactory transport",
+				"Non-invasive administration",
+				"Easy self-administration"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection provides reliable and consistent dosing. This route relies on systemic absorption and blood-brain barrier penetration.",
+			"protocols": [
+				{
+					"goal": "General neuroprotection",
+					"dose": "100-200mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"DNSP-11 lyophilized powder",
+					"Bacteriostatic water",
+					"Insulin syringes (29-31 gauge)",
+					"Alcohol swabs"
+				],
+				"steps": [
+					"Allow vial to reach room temperature",
+					"Clean vial top with alcohol swab",
+					"Inject bacteriostatic water slowly down the side of the vial",
+					"Gently swirl until completely dissolved (do not shake)",
+					"Draw desired dose into insulin syringe",
+					"Inject subcutaneously into abdominal fat or thigh",
+					"Refrigerate reconstituted solution; use within 4 weeks"
+				]
+			},
+			"keyBenefits": [
+				"Reliable and consistent dosing",
+				"Well-established subcutaneous injection technique"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semax",
+			"status": "synergistic",
+			"notes": "Complementary neurotrophic pathways; Semax acts via BDNF upregulation while DNSP-11 targets dopaminergic neuroprotection through GDNF-related mechanisms."
+		},
+		{
+			"peptide": "Bromantane",
+			"status": "compatible",
+			"notes": "Both support dopaminergic function through different mechanisms. Bromantane enhances tyrosine hydroxylase gene expression while DNSP-11 provides neurotrophic support."
+		},
+		{
+			"peptide": "9-Me-BC",
+			"status": "compatible",
+			"notes": "Both target dopaminergic neuron health. 9-Me-BC promotes dendrite growth and dopamine synthesis; DNSP-11 provides neurotrophic protection."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1",
+			"effects": "Subtle changes may begin; most users report minimal noticeable effects during the initial period"
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Anecdotal reports of gradual improvement in baseline mood, motivation, and sense of drive"
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Potential peak of subjective benefits; improved emotional resilience and cognitive motivation reported by some users"
+		},
+		{
+			"period": "Post-cycle",
+			"effects": "Limited data on offset timeline; neurotrophic effects may persist beyond active dosing period"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Nasal irritation or mild burning sensation (intranasal route)",
+			"Injection site reactions such as redness or swelling (subcutaneous route)"
+		],
+		"stopSigns": [
+			"Severe or persistent nasal irritation or bleeding",
+			"Signs of allergic reaction (rash, swelling, difficulty breathing)",
+			"Unusual neurological symptoms (tremor, involuntary movements)",
+			"Significant mood disturbances or agitation"
+		],
+		"contraindications": [
+			"Pregnancy or breastfeeding",
+			"Known peptide allergies",
+			"Very limited human safety data; use at own risk",
+			"Consult a physician before combining with dopaminergic medications"
+		],
+		"monitoring": [
+			"Start with the lowest dose (100mcg) to assess individual response",
+			"Monitor for changes in mood, sleep, or motivation",
+			"Track injection site or nasal reactions",
+			"Avoid combining with high-dose dopaminergic drugs without medical supervision"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear, colorless solution after reconstitution",
+			"Third-party purity testing (target >=95%)",
+			"Proper cold chain shipping",
+			"Sealed and sterile packaging"
+		],
+		"warning": [
+			"Very limited commercial availability",
+			"Nasal irritation potential",
+			"Injection site reactions possible"
+		],
+		"bad": [
+			"Cloudy or discolored solution after reconstitution",
+			"Visible particles or precipitate",
+			"Powder that fails to dissolve completely"
+		]
+	},
+	"references": [
+		{
+			"title": "DNSP-11 Is a Novel GDNF Pro-Peptide That Protects Dopaminergic Neurons in a Rat Model of Parkinson's Disease",
+			"authors": "Bradley LH, Fuqua J, Richardson A, et al.",
+			"journal": "Neuroscience Letters",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20600597/",
+			"keyFindings": "DNSP-11 protected dopaminergic neurons in a 6-OHDA rat model of Parkinson's disease, preserving tyrosine hydroxylase-positive neurons and improving motor behavior without the side effects associated with full-length GDNF."
+		},
+		{
+			"title": "Dopamine Neuron Stimulating Peptide-11 (DNSP-11): A Novel, Small Peptide That Provides Long-Term Protection in a Rat Model of Parkinson's Disease",
+			"authors": "Kelps KA, Turchan-Cholewo J, Bhatt I, et al.",
+			"journal": "Neuropharmacology",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21530553/",
+			"keyFindings": "A single injection of DNSP-11 provided sustained neuroprotection of dopaminergic neurons over multiple weeks in a 6-OHDA Parkinson's model, demonstrating long-lasting neurotrophic effects from the GDNF pro-domain peptide."
+		},
+		{
+			"title": "DNSP-11 Induces Behavioral Recovery and Nigrostriatal Neurochemical Changes in a Unilateral 6-OHDA Rat Model of Parkinson's Disease",
+			"authors": "Fuqua JL, Littrell OM, Lundblad M, et al.",
+			"journal": "Society for Neuroscience Abstract",
+			"year": "2012",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25419652/",
+			"keyFindings": "DNSP-11 improved motor behavior and restored striatal dopamine neurochemistry in a unilateral 6-OHDA lesion model, supporting its potential as a targeted dopaminergic neuroprotective agent."
+		},
+		{
+			"title": "Identification of Two Novel Peptides from the GDNF Pro-Domain That Bind to GFRalpha1",
+			"authors": "Bradley LH, Fuqua JL, Bhatt I, et al.",
+			"journal": "Analytical Biochemistry",
+			"year": "2012",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22370281/",
+			"keyFindings": "Identified DNSP-11 and a related peptide from the GDNF pro-domain with binding affinity to GFRalpha1, establishing a potential receptor-level mechanism for dopaminergic neuroprotective effects."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "DNSP-11 Induces Behavioral Recovery and Nigrostriatal Neurochemical Changes",
+			"date": "2014",
+			"source": "Peptides",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/25419652/",
+			"summary": "Extended study confirming DNSP-11 restores dopamine-related neurochemistry and behavioral function in Parkinson's disease rat models, reinforcing preclinical evidence for translational potential."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "100-200mcg per day",
+		"frequency": "1x daily (morning recommended)",
+		"cycleDuration": "4-6 weeks on, followed by a break",
+		"storage": "Lyophilized: -20C long-term; Reconstituted: 2-8C, use within 4 weeks"
+	}
+}

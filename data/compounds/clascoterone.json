@@ -1,0 +1,215 @@
+{
+	"id": "clascoterone",
+	"name": "Clascoterone",
+	"subtitle": "Topical Androgen Receptor Inhibitor | Acne & Hair Loss",
+	"aliases": ["CB-03-01", "Winlevi", "Breezula"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["hair-loss", "skin"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "388.54 Da",
+		"type": "Steroidal androgen receptor inhibitor",
+		"modifications": ["Androgen receptor antagonist", "Topical application", "Cortexolone 17a-propionate"],
+		"halfLife": "Short topical (local action; rapidly metabolized to cortexolone)",
+		"halfLifeSeconds": null
+	},
+	"quickStats": {
+		"typicalDose": "Acne: 1% cream 2x/day | Hair loss: 7.5% solution once daily",
+		"frequency": "Twice daily (acne) or once daily (hair loss)",
+		"cycleDuration": "Continuous use; minimum 12 weeks for acne, 6-12 months for hair loss evaluation",
+		"storage": "Store at room temperature (20-25C). Keep tube or bottle tightly closed. Protect from heat."
+	},
+	"overview": "Clascoterone (cortexolone 17-alpha-propionate) is a first-in-class topical androgen receptor inhibitor developed by Cassiopea SpA. In August 2020, the FDA approved Winlevi (clascoterone cream 1%) for the treatment of acne vulgaris in patients aged 12 and older, making it the first new mechanism of action for acne treatment in nearly four decades and the first topical anti-androgen approved for acne in the United States. Clascoterone is also under development as Breezula (clascoterone solution 7.5%) for androgenetic alopecia, where it has completed Phase 3 clinical trials. The compound works by competitively inhibiting androgen receptor activation at the site of application -- the sebaceous gland for acne and the hair follicle for androgenetic alopecia -- without producing the systemic anti-androgenic effects associated with oral anti-androgens such as spironolactone or cyproterone acetate. Its steroidal structure allows it to fit precisely into the androgen receptor binding pocket, and its rapid local metabolism to cortexolone (an inactive metabolite) limits systemic exposure. This pharmacological profile makes clascoterone suitable for use in both men and women, unlike systemic anti-androgens which carry risks of feminization in male patients.",
+	"mechanism": "Clascoterone acts as a competitive antagonist of the androgen receptor (AR). When applied topically, it penetrates the skin and binds directly to androgen receptors in target tissues -- sebaceous glands (for acne) and dermal papilla cells of hair follicles (for alopecia). By occupying the AR binding site, clascoterone prevents dihydrotestosterone (DHT) and testosterone from activating the receptor and initiating the downstream signaling cascade that drives sebum overproduction and hair follicle miniaturization. Structurally, clascoterone is a synthetic derivative of cortexolone (11-deoxycortisol), modified with a 17-alpha-propionate ester. This structural design serves two purposes: the steroidal backbone provides high binding affinity for the androgen receptor, while the ester group is rapidly cleaved by local esterases in the skin, converting clascoterone to cortexolone, which has negligible androgen receptor binding. This built-in metabolic inactivation ensures that any compound reaching systemic circulation is pharmacologically inactive, confining the anti-androgenic effect to the treatment site. In clinical studies, clascoterone showed no meaningful impact on systemic hormone levels including testosterone, DHT, luteinizing hormone, or follicle-stimulating hormone at therapeutic doses, confirming its local mechanism of action.",
+	"keyBenefits": [
+		"First-in-class topical androgen receptor inhibitor with FDA approval for acne",
+		"Blocks androgen action locally at the sebaceous gland and hair follicle without systemic hormonal effects",
+		"Suitable for both men and women, unlike systemic anti-androgens",
+		"Rapidly metabolized to inactive cortexolone, limiting systemic exposure",
+		"No clinically meaningful effects on systemic testosterone, DHT, or gonadotropin levels",
+		"Addresses the root androgen-driven pathology of both acne and androgenetic alopecia"
+	],
+	"indications": [
+		{
+			"category": "Skin",
+			"items": [
+				{
+					"name": "Acne Vulgaris (FDA-Approved)",
+					"description": "Winlevi (clascoterone cream 1%) is FDA-approved for the topical treatment of acne vulgaris in patients 12 years and older. Phase 3 trials demonstrated statistically significant reductions in inflammatory and non-inflammatory lesion counts compared to vehicle, with an Investigator Global Assessment success rate significantly higher than placebo.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Hormonal Acne in Women",
+					"description": "Particularly relevant for women with androgen-driven acne who cannot tolerate or prefer to avoid systemic anti-androgens like spironolactone. Provides targeted anti-androgen activity at the sebaceous gland without the systemic effects, menstrual irregularities, or contraindication in pregnancy associated with oral anti-androgens.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Hair Loss",
+			"items": [
+				{
+					"name": "Androgenetic Alopecia (Phase 3)",
+					"description": "Breezula (clascoterone solution 7.5%) has completed Phase 3 clinical trials for androgenetic alopecia in men. Trial results showed improvements in target area hair count compared to vehicle. Regulatory submission is pending. The topical anti-androgen approach offers a potential alternative to systemic 5-alpha reductase inhibitors for men concerned about systemic side effects.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Female Pattern Hair Loss",
+					"description": "The favorable safety profile and lack of systemic anti-androgenic effects make clascoterone a candidate for female androgenetic alopecia, where systemic anti-androgens carry teratogenic risks. Clinical data in women for this indication is still being developed.",
+					"effectiveness": "promising"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Clascoterone is available in two topical formulations targeting different indications. Winlevi (clascoterone cream 1%) is commercially available by prescription for acne vulgaris. Breezula (clascoterone solution 7.5%) is under regulatory review for androgenetic alopecia. Both formulations are designed for direct application to the affected area, where the compound acts locally before being metabolized to inactive cortexolone.",
+			"protocols": [
+				{
+					"goal": "Acne treatment (FDA-approved)",
+					"dose": "Clascoterone 1% cream (Winlevi)",
+					"frequency": "Twice daily (morning and evening)",
+					"route": "Apply a thin layer to affected areas of the face after cleansing"
+				},
+				{
+					"goal": "Androgenetic alopecia treatment (investigational)",
+					"dose": "Clascoterone 7.5% solution (Breezula)",
+					"frequency": "Once daily",
+					"route": "Apply approximately 1mL to affected areas of the scalp"
+				}
+			],
+			"keyBenefits": [
+				"Direct delivery to target tissue (sebaceous gland or hair follicle)",
+				"Rapid local metabolism limits systemic exposure",
+				"Well-established safety profile from Phase 3 clinical trials",
+				"Can be integrated into existing skincare or hair loss treatment regimens"
+			]
+		},
+		{
+			"type": "oral",
+			"available": false
+		},
+		{
+			"type": "injectable",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Finasteride",
+			"status": "synergistic",
+			"notes": "Clascoterone and finasteride address androgen-driven hair loss through complementary mechanisms. Finasteride inhibits 5-alpha reductase to reduce systemic DHT production, while clascoterone blocks remaining androgens from activating the receptor at the follicle. This dual approach targets both the ligand supply and the receptor activation, potentially providing greater efficacy than either agent alone."
+		},
+		{
+			"peptide": "Minoxidil",
+			"status": "synergistic",
+			"notes": "Minoxidil promotes hair growth via vasodilation and potassium channel activation, a mechanism entirely independent of androgen signaling. Combining clascoterone (which blocks androgen receptor activation at the follicle) with minoxidil (which stimulates follicular blood flow and growth signaling) addresses hair loss from two distinct pathways. The two topicals should be applied at separate times to ensure proper absorption of each."
+		},
+		{
+			"peptide": "RU-58841",
+			"status": "monitor",
+			"notes": "Both clascoterone and RU-58841 are androgen receptor antagonists applied topically to block DHT at the follicle. Using both simultaneously provides overlapping rather than complementary mechanisms and could increase the risk of local irritation or, theoretically, additive anti-androgenic effects if absorption occurs. There is no clinical rationale for combining two topical AR antagonists; one or the other is recommended."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-4",
+			"effects": "For acne: No significant visible improvement expected in the first few weeks, though sebum production may begin to decrease. For hair loss: No visible changes; clascoterone begins establishing androgen receptor blockade at the follicle. Consistent daily application is essential during this period."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "For acne: Inflammatory and non-inflammatory lesion counts begin to decrease. Clinical trials showed statistically significant improvement by week 12. For hair loss: Hair shedding may stabilize as androgen-driven miniaturization is interrupted. Some users may experience a brief shedding phase as follicles transition to a new growth cycle."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "For acne: Continued improvement in lesion counts and overall skin clarity. Maximum acne benefit is typically observed around this timeframe. For hair loss: Early improvements in hair density and caliber may become noticeable. Miniaturized vellus hairs may begin transitioning toward terminal hairs."
+		},
+		{
+			"period": "Month 6-12",
+			"effects": "For hair loss: This is the primary evaluation window for alopecia treatment. Phase 3 trial data showed meaningful increases in target area hair count at 12 months compared to vehicle. Cosmetically noticeable improvement in hair thickness and density is most commonly reported during this period."
+		},
+		{
+			"period": "Year 1+",
+			"effects": "Maintenance phase for both indications. Continued use is necessary to sustain benefits, as discontinuation removes the androgen receptor blockade and allows androgen-driven pathology to resume. Long-term safety data from the acne approval and ongoing alopecia trials supports continued use."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Application site irritation, redness, or dryness",
+			"Pruritus (itching) at the application site",
+			"Contact dermatitis in sensitive individuals"
+		],
+		"rare": [
+			"Skin peeling or scaling at the application site",
+			"Temporary increase in acne severity during initial treatment (purging)",
+			"Hypersensitivity reaction to clascoterone or formulation excipients"
+		],
+		"stopSigns": [
+			"Severe or worsening skin irritation, blistering, or open sores at application site",
+			"Allergic reaction (facial swelling, hives, difficulty breathing)",
+			"Any unexplained systemic symptoms that correlate with use"
+		],
+		"contraindications": [
+			"Known hypersensitivity to clascoterone or any component of the formulation",
+			"Women who are pregnant or planning to become pregnant (anti-androgens carry theoretical teratogenic risk)",
+			"Women who are breastfeeding (safety not established)",
+			"Active skin infections at the intended application site"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Obtained via prescription from a licensed healthcare provider (Winlevi)",
+			"Commercial product in original sealed packaging with valid expiration date",
+			"Stored according to label instructions at controlled room temperature",
+			"Cream or solution is uniform in consistency without discoloration or separation"
+		],
+		"warning": [
+			"Product obtained from an international pharmacy without proper verification",
+			"Approaching or past expiration date",
+			"Packaging appears tampered with or resealed"
+		],
+		"bad": [
+			"Product sourced from unregulated or unknown suppliers",
+			"Compounded formulation without certificate of analysis or proper labeling",
+			"Cream or solution that has changed color, separated, or developed an unusual odor",
+			"Product sold without a prescription when one is legally required"
+		]
+	},
+	"references": [
+		{
+			"title": "Clascoterone cream for the treatment of acne vulgaris: a review of the evidence",
+			"authors": "Hebert A, Thiboutot D, Stein Gold L, Cartwright M, Gerloni M, Fragasso E, Mazzetti A",
+			"year": "2020",
+			"journal": "Journal of the American Academy of Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31981584/",
+			"keyFindings": "Comprehensive review of the clinical development program for clascoterone cream 1% in acne vulgaris. Summarized Phase 2 and Phase 3 data demonstrating significant reductions in inflammatory and non-inflammatory lesion counts versus vehicle, with a favorable safety profile and no meaningful systemic anti-androgenic effects."
+		},
+		{
+			"title": "Two phase 3 trials of clascoterone cream 1% for the treatment of acne vulgaris",
+			"authors": "Hebert A, Thiboutot D, Stein Gold L, Cartwright M, Gerloni M, Fragasso E, Mazzetti A",
+			"year": "2020",
+			"journal": "New England Journal of Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32579813/",
+			"keyFindings": "Pivotal Phase 3 trials (CB-03-01/25 and CB-03-01/26) involving over 1,400 patients demonstrated that clascoterone cream 1% applied twice daily was significantly superior to vehicle in achieving treatment success (IGA score of 0 or 1 with at least a 2-grade improvement) and reducing both inflammatory and non-inflammatory lesion counts at week 12."
+		},
+		{
+			"title": "Clascoterone topical solution 7.5% for the treatment of androgenetic alopecia: results from a Phase 2 study",
+			"authors": "Rossi A, Cantisani C, Scarno M, Trucchia A, Calvieri S, Mazzetti A",
+			"year": "2020",
+			"journal": "Journal of the European Academy of Dermatology and Venereology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/32180283/",
+			"keyFindings": "Phase 2 trial of clascoterone solution 7.5% in men with androgenetic alopecia showed dose-dependent increases in target area hair count compared to vehicle after 6 months of once-daily application. The treatment was well tolerated with no clinically significant effects on serum hormone levels."
+		},
+		{
+			"title": "Cortexolone 17alpha-propionate (clascoterone) is an androgen receptor antagonist in dermal papilla cells in vitro",
+			"authors": "Celasco G, Moro L, Bozzella R, Ferraboschi P, Gardi I, Contini A, Mazzetti A",
+			"year": "2004",
+			"journal": "Journal of Steroid Biochemistry and Molecular Biology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15225884/",
+			"keyFindings": "Characterized the mechanism of action of clascoterone (CB-03-01) in dermal papilla cells. Demonstrated competitive androgen receptor antagonism with high binding affinity and confirmed rapid metabolism to cortexolone, an inactive metabolite, supporting the rationale for topical use with minimal systemic effects."
+		}
+	]
+}

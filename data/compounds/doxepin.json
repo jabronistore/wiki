@@ -1,0 +1,210 @@
+{
+	"id": "doxepin",
+	"name": "Doxepin",
+	"subtitle": "Tricyclic Antihistamine | Ultra-Low Dose Sleep Aid",
+	"aliases": ["Silenor", "Sinequan"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["sleep"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "3-6 mg at bedtime (sleep)",
+		"frequency": "Once daily at bedtime",
+		"cycleDuration": "As prescribed, often ongoing",
+		"storage": "Room temperature (68-77F). Protect from moisture and light."
+	},
+	"molecular": {
+		"weight": "279.38 Da",
+		"type": "Tricyclic dibenzoxepin derivative (C19H21NO)",
+		"modifications": [
+			"Silenor is the FDA-approved ultra-low dose formulation (3 mg, 6 mg) specifically indicated for insomnia characterized by difficulty with sleep maintenance"
+		],
+		"halfLife": "~15 hours",
+		"halfLifeSeconds": 54000,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Doxepin is a tricyclic compound with a remarkably dose-dependent pharmacological profile. At higher doses (75-300 mg), it functions as a traditional tricyclic antidepressant (TCA) with activity across multiple neurotransmitter systems. However, at ultra-low doses (3-6 mg), doxepin acts almost exclusively as a highly selective histamine H1 receptor antagonist, making it one of the most targeted sleep maintenance agents available. This ultra-low dose formulation was approved by the FDA in 2010 under the brand name Silenor specifically for the treatment of insomnia characterized by difficulty with sleep maintenance. The distinction between high-dose and ultra-low dose doxepin is critical: at 3-6 mg, the drug avoids the anticholinergic, noradrenergic, and serotonergic side effects that characterize tricyclic antidepressants, resulting in a remarkably clean side effect profile. For biohackers and those seeking a non-habit-forming sleep aid, ultra-low dose doxepin offers a compelling option -- it does not produce dependence, does not cause rebound insomnia upon discontinuation, and maintains efficacy with long-term use. Unlike benzodiazepines and Z-drugs, it carries no abuse potential and is not a scheduled substance.",
+	"mechanism": "At ultra-low doses (3-6 mg), doxepin's mechanism of action is dominated by potent and selective antagonism of the histamine H1 receptor. Doxepin has one of the highest affinities for the H1 receptor of any known compound (Ki approximately 0.17 nM), which means that even at very low plasma concentrations, it effectively blocks histaminergic wakefulness signaling. The histamine system is a key component of the ascending arousal pathway -- histaminergic neurons in the tuberomammillary nucleus of the hypothalamus fire during wakefulness and become quiescent during sleep. By blocking H1 receptors, ultra-low dose doxepin reduces this wake-promoting signal, particularly during the latter half of the night when endogenous histamine levels naturally begin to rise, which is why it is especially effective for sleep maintenance insomnia. At these low doses, doxepin has negligible affinity for muscarinic, adrenergic, and serotonergic receptors, which explains the absence of anticholinergic side effects (dry mouth, constipation, urinary retention) and cardiovascular effects that plague higher-dose TCA use. At antidepressant doses (75-300 mg), doxepin additionally inhibits reuptake of serotonin and norepinephrine and blocks muscarinic, alpha-1 adrenergic, and 5-HT2 receptors, producing a much broader and less selective pharmacological profile.",
+	"keyBenefits": [
+		"FDA-approved specifically for sleep maintenance insomnia at ultra-low doses (3-6 mg as Silenor)",
+		"Highly selective H1 antihistamine at low doses, avoiding the side effects of traditional tricyclic antidepressants",
+		"Non-habit-forming with no dependence, tolerance, or abuse potential",
+		"No rebound insomnia upon discontinuation, unlike benzodiazepines and Z-drugs",
+		"Particularly effective for maintaining sleep in the latter half of the night, when many other sleep aids have worn off",
+		"Extremely well-tolerated side effect profile at ultra-low doses"
+	],
+	"indications": [
+		{
+			"category": "FDA-Approved",
+			"items": [
+				{
+					"name": "Insomnia (Sleep Maintenance)",
+					"description": "Silenor (doxepin 3 mg and 6 mg) is FDA-approved for the treatment of insomnia characterized by difficulty with sleep maintenance. Clinical trials demonstrated that ultra-low dose doxepin significantly improved sleep maintenance (wake after sleep onset) and total sleep time without next-morning residual effects at the 3 mg dose, and with minimal residual effects at 6 mg.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Major Depressive Disorder",
+					"description": "At higher doses (75-300 mg), doxepin is FDA-approved for the treatment of depression and anxiety associated with depression. However, this use is largely historical, as newer antidepressants with more favorable side effect profiles have supplanted TCAs for most patients. The antidepressant dosing range is entirely separate from the ultra-low dose sleep application.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Off-Label",
+			"items": [
+				{
+					"name": "Chronic Insomnia (Long-Term Use)",
+					"description": "Clinical data supports the efficacy and safety of ultra-low dose doxepin for long-term insomnia management. Unlike many hypnotics, doxepin at 3-6 mg maintains its efficacy over months of continuous use without dose escalation, making it suitable for chronic insomnia in patients who need a sustainable, long-term solution.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Insomnia in Older Adults",
+					"description": "Ultra-low dose doxepin is one of the few sleep medications with specific safety and efficacy data in elderly patients. The 3 mg dose is recommended for older adults and has been shown to improve sleep maintenance without the falls, cognitive impairment, and next-day sedation risks associated with benzodiazepines and Z-drugs in this population.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Ultra-low dose doxepin is available as Silenor tablets (3 mg, 6 mg). Higher-dose formulations for depression are available as generic capsules (10 mg, 25 mg, 50 mg, 75 mg, 100 mg, 150 mg) and an oral concentrate. For sleep, only the 3 mg and 6 mg tablets are appropriate. The drug should be taken within 30 minutes of bedtime and not within 3 hours of a meal, as food can delay absorption and increase the risk of next-day drowsiness.",
+			"protocols": [
+				{
+					"goal": "Sleep Maintenance - Starting Dose",
+					"dose": "3 mg",
+					"frequency": "Once at bedtime",
+					"route": "Oral tablet",
+					"notes": "Recommended starting dose, particularly for older adults (65+). Take within 30 minutes of bedtime. Do not take within 3 hours of a meal. The 3 mg dose provides effective sleep maintenance with minimal risk of next-morning drowsiness."
+				},
+				{
+					"goal": "Sleep Maintenance - Standard Dose",
+					"dose": "6 mg",
+					"frequency": "Once at bedtime",
+					"route": "Oral tablet",
+					"notes": "Standard dose for adults under 65. Take within 30 minutes of bedtime on an empty stomach. This is the maximum recommended dose for sleep -- higher doses do not improve sleep efficacy and introduce unnecessary side effects from non-histaminergic receptor activity."
+				}
+			],
+			"keyBenefits": [
+				"Simple once-daily oral dosing at bedtime",
+				"No special handling or storage requirements",
+				"Available as a branded product (Silenor) and in generic form",
+				"Ultra-low dose tablets eliminate the need to split higher-dose formulations"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Trazodone",
+			"status": "monitor",
+			"notes": "Both doxepin and trazodone promote sleep through different mechanisms. Combining them can result in excessive sedation, prolonged next-day drowsiness, and additive CNS depression. Stacking multiple sleep aids is generally unnecessary and increases the risk of adverse effects. If transitioning between the two, allow adequate washout time."
+		},
+		{
+			"peptide": "SSRIs (e.g., Sertraline, Fluoxetine)",
+			"status": "monitor",
+			"notes": "SSRIs can inhibit the CYP2D6-mediated metabolism of doxepin, potentially increasing plasma levels. At ultra-low doses (3-6 mg), this interaction is unlikely to be clinically significant, but monitoring for increased sedation is prudent. At higher antidepressant doses, the interaction is more relevant and serotonin syndrome risk increases."
+		},
+		{
+			"peptide": "MAOIs",
+			"status": "avoid",
+			"notes": "Concurrent use of doxepin with monoamine oxidase inhibitors is contraindicated. The combination can precipitate serotonin syndrome, hypertensive crisis, and severe adverse reactions. Allow a minimum 14-day washout period between discontinuing an MAOI and starting doxepin, and vice versa."
+		},
+		{
+			"peptide": "Alcohol",
+			"status": "avoid",
+			"notes": "Alcohol potentiates the sedative and CNS-depressant effects of doxepin, even at ultra-low doses. The combination increases the risk of excessive drowsiness, impaired coordination, and next-day cognitive impairment. Alcohol should be avoided on evenings when doxepin is taken."
+		}
+	],
+	"timeline": [
+		{
+			"period": "30-60 minutes",
+			"effects": "Onset of drowsiness. Doxepin is absorbed relatively quickly, and most users begin to feel sleepy within 30-60 minutes. Taking the dose on an empty stomach (no food within 3 hours) ensures optimal absorption timing."
+		},
+		{
+			"period": "2-3 hours",
+			"effects": "Peak plasma concentration reached. Maximum sedative effect is felt. At ultra-low doses, the sedation is subtle and natural-feeling -- more like a gentle quieting of wakefulness than forced unconsciousness."
+		},
+		{
+			"period": "4-8 hours",
+			"effects": "Sustained sleep maintenance. Due to its long half-life (~15 hours) and potent H1 affinity, doxepin continues to block histamine-driven wakefulness throughout the night. This is where doxepin excels compared to shorter-acting sleep aids -- it prevents the early-morning awakenings that plague many insomnia patients."
+		},
+		{
+			"period": "8-12 hours",
+			"effects": "Drug elimination phase begins but H1 receptor occupancy remains sufficient to support sleep. At the 3 mg dose, most individuals wake without significant residual sedation. At 6 mg, mild morning drowsiness is possible during the first few days of use but typically resolves."
+		},
+		{
+			"period": "1-2 weeks",
+			"effects": "Consistent nightly use establishes a reliable sleep pattern. Efficacy is maintained without tolerance development. No dose escalation needed, distinguishing doxepin from GABAergic sleep aids that often require increasing doses over time."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Morning drowsiness or grogginess (more common at the 6 mg dose; uncommon at 3 mg)",
+			"Dry mouth (mild at ultra-low doses, much less than at antidepressant doses)",
+			"Nausea",
+			"Upper respiratory tract infection (observed in clinical trials at rates similar to placebo)"
+		],
+		"rare": [
+			"Allergic reactions including skin rash or urticaria",
+			"Serotonin syndrome (primarily a concern at antidepressant doses or when combined with serotonergic drugs)",
+			"Cardiac arrhythmias or QT prolongation (a concern at antidepressant doses; negligible at ultra-low doses)",
+			"Worsening of narrow-angle glaucoma (anticholinergic effect, primarily at higher doses)",
+			"Urinary retention (anticholinergic effect, primarily at higher doses)"
+		],
+		"stopSigns": [
+			"Signs of allergic reaction: rash, hives, swelling of the face, lips, or throat, difficulty breathing",
+			"Signs of serotonin syndrome: agitation, confusion, rapid heart rate, elevated body temperature, muscle rigidity",
+			"Severe or persistent morning drowsiness that impairs daily function",
+			"Irregular heartbeat, chest pain, or palpitations",
+			"Worsening depression or emergence of suicidal thoughts"
+		],
+		"contraindications": [
+			"Known hypersensitivity to doxepin or other dibenzoxepines",
+			"Concurrent use of MAOIs or use within 14 days of MAOI discontinuation",
+			"Untreated narrow-angle glaucoma",
+			"Severe urinary retention",
+			"Severe hepatic impairment (doxepin is extensively hepatically metabolized)"
+		],
+		"monitoring": [
+			"Daytime alertness: assess for residual next-morning drowsiness, particularly during the first week and at the 6 mg dose",
+			"Mental status: monitor for worsening depression or suicidal ideation (standard TCA warning, though less clinically relevant at ultra-low doses)",
+			"Hepatic function: periodic monitoring if used long-term in patients with hepatic impairment",
+			"Drug interactions: review medication list for CYP2D6 inhibitors that may increase doxepin levels"
+		]
+	},
+	"references": [
+		{
+			"title": "Efficacy and Safety of Doxepin 1 mg, 3 mg, and 6 mg in Adults with Primary Insomnia",
+			"authors": "Roth, T., Rogowski, R., Hull, S., et al.",
+			"journal": "Sleep",
+			"year": "2007",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17910392/",
+			"keyFindings": "Randomized, double-blind, placebo-controlled trial demonstrating that doxepin at 1 mg, 3 mg, and 6 mg significantly improved sleep maintenance (wake after sleep onset) and total sleep time in adults with primary insomnia. The 3 mg and 6 mg doses showed the most robust improvements, with minimal next-day residual effects."
+		},
+		{
+			"title": "Low-Dose Doxepin for Insomnia: A Review of the Evidence",
+			"authors": "Krystal, A.D., Lankford, A., Durrence, H.H., et al.",
+			"journal": "Journal of Clinical Sleep Medicine",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21344040/",
+			"keyFindings": "Comprehensive review of clinical evidence supporting ultra-low dose doxepin for insomnia. Confirmed that doxepin at 3-6 mg selectively targets H1 receptors without significant activity at muscarinic, adrenergic, or serotonergic receptors, resulting in effective sleep maintenance with a side effect profile comparable to placebo."
+		},
+		{
+			"title": "Doxepin 6 mg and Its Effect on Sleep in Elderly Patients with Primary Insomnia",
+			"authors": "Scharf, M., Rogowski, R., Hull, S., et al.",
+			"journal": "American Journal of Geriatric Psychiatry",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18978252/",
+			"keyFindings": "Study in elderly patients (65+) with primary insomnia demonstrating that doxepin 1 mg and 3 mg significantly improved sleep maintenance. The low doses were well-tolerated in the elderly population with no significant next-day residual sedation, cognitive impairment, or falls risk, making it one of the safer insomnia treatments for older adults."
+		},
+		{
+			"title": "Long-Term Efficacy and Safety of Doxepin 3 mg and 6 mg in Elderly Subjects with Primary Insomnia",
+			"authors": "Krystal, A.D., Durrence, H.H., Scharf, M., et al.",
+			"journal": "Sleep",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21061852/",
+			"keyFindings": "12-week study demonstrating sustained efficacy of ultra-low dose doxepin for insomnia in elderly subjects without evidence of tolerance, rebound insomnia, or withdrawal effects upon discontinuation. Confirmed the long-term safety and viability of doxepin as a non-habit-forming sleep maintenance aid."
+		}
+	]
+}

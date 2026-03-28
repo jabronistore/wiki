@@ -1,0 +1,268 @@
+{
+	"id": "propranolol",
+	"name": "Propranolol",
+	"subtitle": "Beta Blocker | Heart Rate & Anxiety Management",
+	"aliases": ["Inderal"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cardiovascular"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "10-80 mg/day",
+		"frequency": "1-3 times daily (or as needed)",
+		"cycleDuration": "As needed or ongoing during AAS cycle",
+		"storage": "Room temperature (68-77F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "259.34 Da",
+		"type": "Aryloxypropanolamine derivative (C16H21NO2)",
+		"modifications": [
+			"Oral tablet formulation in 10 mg, 20 mg, 40 mg, 60 mg, and 80 mg strengths",
+			"Extended-release capsules available (Inderal LA) in 60 mg, 80 mg, 120 mg, and 160 mg strengths",
+			"Injectable formulation available for acute arrhythmia management (hospital setting)"
+		],
+		"halfLife": "~4-5 hours",
+		"halfLifeSeconds": 16200,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Propranolol is a non-selective beta-adrenergic receptor antagonist (beta blocker) and one of the oldest and most widely prescribed drugs in its class. FDA-approved since 1967 and marketed as Inderal, it blocks both beta-1 receptors in the heart (reducing heart rate, contractility, and cardiac output) and beta-2 receptors in the bronchial and vascular smooth muscle. In the performance-enhancing drug community, propranolol serves two primary roles: managing elevated resting heart rate caused by compounds such as trenbolone and clenbuterol, and controlling performance anxiety or situational anxiety symptoms. Trenbolone is notorious for raising resting heart rate and causing nocturnal tachycardia, while clenbuterol directly stimulates beta-2 receptors to increase heart rate as part of its sympathomimetic action. Propranolol's non-selective beta blockade makes it effective against both mechanisms. Its rapid onset (within 30-60 minutes of oral dosing) and relatively short duration of action make it well-suited for as-needed use, though it can also be dosed regularly for sustained heart rate control throughout an AAS cycle.",
+	"mechanism": "Propranolol competitively blocks both beta-1 and beta-2 adrenergic receptors. Beta-1 blockade in the sinoatrial node and myocardium reduces heart rate (negative chronotropy), decreases the force of cardiac contraction (negative inotropy), and slows atrioventricular conduction (negative dromotropy). This directly counteracts the tachycardia induced by sympathomimetic compounds like clenbuterol and the unexplained heart rate elevation commonly reported with trenbolone use. Beta-2 blockade in peripheral vasculature contributes to a modest increase in peripheral vascular resistance initially, though chronic use leads to a net reduction in blood pressure through decreased cardiac output and suppression of renin release from the juxtaglomerular cells. Propranolol is highly lipophilic, readily crossing the blood-brain barrier, which accounts for its efficacy in managing anxiety symptoms, essential tremor, and the physical manifestations of sympathetic nervous system activation (tremor, palpitations, sweating). This central penetration also explains why propranolol is more effective for anxiety-related indications than hydrophilic beta blockers like atenolol. The drug undergoes extensive first-pass hepatic metabolism via CYP2D6 and CYP1A2, resulting in variable bioavailability (approximately 25-35%).",
+	"keyBenefits": [
+		"Rapid reduction of elevated heart rate within 30-60 minutes of oral dosing",
+		"Effective against tachycardia from both trenbolone and clenbuterol through non-selective beta blockade",
+		"Well-established anxiolytic effect for performance anxiety without cognitive impairment or sedation",
+		"Short half-life allows flexible as-needed dosing without prolonged hemodynamic effects",
+		"Extensive clinical safety data spanning over 50 years of use",
+		"Inexpensive and widely available as a generic medication",
+		"Does not cause dependence or withdrawal symptoms typical of benzodiazepines",
+		"Effective for controlling physical anxiety symptoms (tremor, palpitations, sweating)"
+	],
+	"indications": [
+		{
+			"category": "Heart Rate Management",
+			"items": [
+				{
+					"name": "AAS-Induced Tachycardia",
+					"description": "Trenbolone is well-known for elevating resting heart rate, often by 10-20 bpm above baseline, with nocturnal tachycardia disrupting sleep quality. Propranolol's beta-1 blockade directly reduces heart rate and is commonly used in harm reduction protocols during trenbolone cycles. Dosing is typically 20-40 mg twice daily, titrated to maintain a resting heart rate below 80 bpm.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Clenbuterol-Induced Tachycardia",
+					"description": "Clenbuterol is a potent beta-2 agonist that causes dose-dependent tachycardia, tremor, and palpitations. Propranolol's non-selective blockade directly antagonizes clenbuterol at the beta-2 receptor, though this also partially opposes clenbuterol's bronchodilatory and thermogenic effects. Low-dose propranolol (10-20 mg) can attenuate excessive heart rate elevation while preserving some fat-burning activity.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "General Hypertension",
+					"description": "FDA-approved for the management of essential hypertension. While no longer considered a first-line antihypertensive in most guidelines (ARBs and ACE inhibitors are preferred), propranolol remains effective for blood pressure reduction, particularly in younger patients with hyperkinetic circulation or elevated resting heart rate.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Anxiety & Performance",
+			"items": [
+				{
+					"name": "Performance Anxiety",
+					"description": "Propranolol is widely used off-label for situational performance anxiety (presentations, competitions, social events). By blocking the peripheral manifestations of adrenaline -- rapid heartbeat, tremor, sweating -- it interrupts the anxiety feedback loop without impairing cognitive function or causing sedation. A single 10-20 mg dose taken 30-60 minutes before the event is the standard approach.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Generalized Anxiety Symptoms",
+					"description": "While not a first-line treatment for generalized anxiety disorder, propranolol can be useful as an adjunct for managing the somatic symptoms of anxiety, particularly in individuals who wish to avoid benzodiazepines or SSRIs. Its effect is primarily on physical symptoms rather than the cognitive or emotional components of anxiety.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Propranolol is administered orally as an immediate-release tablet or extended-release capsule. The immediate-release formulation reaches peak plasma concentration within 1-2 hours, with clinical effects (heart rate reduction) noticeable within 30-60 minutes. Bioavailability is approximately 25-35% due to extensive first-pass hepatic metabolism via CYP2D6 and CYP1A2. Food increases bioavailability by reducing first-pass extraction. The drug is highly lipophilic with a large volume of distribution (approximately 4 L/kg), readily crossing the blood-brain barrier. Elimination half-life is 4-5 hours for the immediate-release formulation.",
+			"protocols": [
+				{
+					"goal": "As-Needed Anxiety Management",
+					"dose": "10-40 mg",
+					"frequency": "30-60 minutes before event",
+					"route": "Oral",
+					"notes": "Start with 10 mg to assess tolerance. Most individuals find 20 mg effective for controlling physical anxiety symptoms. Do not exceed 40 mg for a single situational dose. Avoid on an empty stomach if prone to dizziness."
+				},
+				{
+					"goal": "Tren/AAS Cycle Heart Rate Control",
+					"dose": "20-80 mg/day",
+					"frequency": "Divided into 2-3 doses daily",
+					"route": "Oral",
+					"notes": "Start at 20 mg twice daily and titrate based on resting heart rate. Target resting HR below 80 bpm. Monitor blood pressure to ensure it does not drop below 100/60 mmHg. Can be combined with telmisartan for comprehensive cardiovascular protection. Taper over 1-2 weeks when discontinuing after regular use to avoid rebound tachycardia."
+				},
+				{
+					"goal": "Clenbuterol Heart Rate Mitigation",
+					"dose": "10-20 mg",
+					"frequency": "1-2 times daily (as needed with clen doses)",
+					"route": "Oral",
+					"notes": "Use the lowest effective dose to control heart rate without fully opposing clenbuterol's thermogenic effects. Higher propranolol doses will blunt clenbuterol's fat-burning efficacy. Monitor heart rate and discontinue propranolol when clenbuterol is stopped."
+				}
+			],
+			"keyBenefits": [
+				"Rapid onset within 30-60 minutes for immediate-release tablets",
+				"Short duration allows flexible as-needed use without prolonged effects",
+				"Can be taken with food to improve bioavailability",
+				"Widely available and inexpensive as a generic",
+				"Extended-release formulation available for once-daily dosing when continuous coverage is needed"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Clenbuterol",
+			"status": "monitor",
+			"notes": "Propranolol and clenbuterol have directly opposing mechanisms at the beta-2 receptor. Propranolol will antagonize clenbuterol's tachycardic effects (which is often the intent) but will also partially blunt its thermogenic and bronchodilatory activity. Use the lowest effective propranolol dose to manage heart rate without fully negating clenbuterol's desired effects. Never abruptly start high-dose propranolol while on clenbuterol, as the rapid shift in adrenergic tone can cause hemodynamic instability."
+		},
+		{
+			"peptide": "Telmisartan",
+			"status": "synergistic",
+			"notes": "Propranolol and telmisartan complement each other for comprehensive cardiovascular protection during AAS cycles. Propranolol controls heart rate via beta blockade while telmisartan provides RAAS-mediated blood pressure reduction and organ protection. The combination offers additive blood pressure lowering through independent mechanisms. Start each drug at the lower end of the dosing range and titrate individually. Monitor for symptomatic hypotension."
+		},
+		{
+			"peptide": "Tadalafil",
+			"status": "compatible",
+			"notes": "Propranolol and tadalafil can be used concurrently. Beta blockers may theoretically contribute to erectile difficulties, but low-dose propranolol used for heart rate management during AAS cycles rarely causes significant erectile dysfunction. Tadalafil's PDE5 inhibition operates independently of beta-adrenergic pathways. Monitor blood pressure, as both agents lower BP through different mechanisms."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Minutes 30-60",
+			"effects": "Heart rate begins to decrease noticeably after a single oral dose. Physical anxiety symptoms (tremor, palpitations) are attenuated. Blood pressure may drop modestly. Peak plasma concentration of the immediate-release formulation is reached within 1-2 hours."
+		},
+		{
+			"period": "Hours 2-5",
+			"effects": "Maximum heart rate reduction and anxiolytic effects are sustained during this window. This represents the therapeutic peak for as-needed dosing. Effects begin to wane after 4-5 hours as the drug is metabolized."
+		},
+		{
+			"period": "Day 1-3 (Regular Dosing)",
+			"effects": "With regular dosing, consistent heart rate reduction is achieved throughout the day. Some users may notice mild fatigue or cool extremities as the body adjusts to reduced sympathetic drive. Blood pressure reductions become more consistent."
+		},
+		{
+			"period": "Week 1-2 (Regular Dosing)",
+			"effects": "Steady-state plasma levels are reached. Heart rate and blood pressure effects are stable and predictable. Initial side effects such as fatigue or dizziness typically diminish. Dose can be adjusted based on resting heart rate and blood pressure monitoring."
+		},
+		{
+			"period": "Ongoing (Regular Dosing)",
+			"effects": "Sustained heart rate control and blood pressure management. If used chronically, do not discontinue abruptly -- taper over 1-2 weeks to avoid rebound tachycardia and hypertension caused by upregulated beta-receptor sensitivity."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Fatigue and reduced exercise tolerance, particularly during the first week of use",
+			"Cold extremities (hands and feet) due to beta-2 blockade of peripheral vasodilation",
+			"Bradycardia (heart rate below 60 bpm), usually dose-dependent and asymptomatic",
+			"Dizziness or lightheadedness, especially when standing quickly",
+			"Gastrointestinal discomfort (nausea, diarrhea, constipation)"
+		],
+		"rare": [
+			"Bronchospasm in individuals with asthma or reactive airway disease (due to beta-2 blockade)",
+			"Masking of hypoglycemia symptoms (tachycardia, tremor) in insulin-dependent diabetics or those using exogenous insulin with GH",
+			"Depression or mood changes with chronic use (controversial, but reported)",
+			"Sexual dysfunction (erectile difficulties, decreased libido) at higher doses",
+			"Raynaud's phenomenon or worsening of peripheral vascular disease"
+		],
+		"stopSigns": [
+			"Symptomatic bradycardia: heart rate below 50 bpm with dizziness, fainting, or confusion",
+			"Severe bronchospasm or wheezing, particularly in those with no prior history of asthma",
+			"Signs of heart failure: new or worsening shortness of breath, leg swelling, rapid weight gain",
+			"Severe hypotension: systolic blood pressure consistently below 90 mmHg with symptoms",
+			"Unexplained hypoglycemic episodes in users concurrently administering insulin or insulin secretagogues"
+		],
+		"contraindications": [
+			"Asthma or severe reactive airway disease (non-selective beta blockade can trigger life-threatening bronchospasm)",
+			"Decompensated heart failure or cardiogenic shock",
+			"Sinus bradycardia (resting HR below 50 bpm) or second/third-degree heart block",
+			"Severe peripheral arterial disease or Raynaud's syndrome",
+			"Pheochromocytoma without prior alpha blockade (risk of hypertensive crisis from unopposed alpha stimulation)"
+		],
+		"monitoring": [
+			"Heart rate: regular monitoring, targeting resting HR of 60-80 bpm; hold dose if HR consistently below 55 bpm",
+			"Blood pressure: monitor at baseline and regularly during use; watch for symptomatic hypotension",
+			"Blood glucose: monitor in diabetic patients or those using insulin/GH, as propranolol masks hypoglycemia symptoms",
+			"Respiratory status: assess for wheezing or dyspnea, especially in individuals with any history of airway reactivity",
+			"Peripheral circulation: assess for cold extremities, color changes, or numbness in fingers and toes"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade product from established manufacturer with valid NDC number",
+			"Proper labeling with dosage strength, lot number, and expiration date",
+			"Tablets are uniform in appearance with no chips, cracks, or discoloration",
+			"Prescribed by licensed physician with baseline heart rate and blood pressure assessment",
+			"Generic propranolol from FDA-approved ANDA (bioequivalent to branded Inderal)"
+		],
+		"warning": [
+			"Sourced from unverified international online pharmacies without prescription",
+			"Compounded formulations without third-party potency verification",
+			"Product stored in excessive heat, light, or humidity"
+		],
+		"bad": [
+			"Tablets that are crumbling, discolored, or have unusual odor",
+			"Product past its expiration date",
+			"No labeling or incorrect dosage strength labeling",
+			"Sourced from underground labs or non-pharmaceutical suppliers"
+		]
+	},
+	"references": [
+		{
+			"title": "Clinical Pharmacokinetics of Propranolol",
+			"authors": "Routledge, P.A., Shand, D.G.",
+			"journal": "Clinical Pharmacokinetics",
+			"year": "1979",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/378499/",
+			"keyFindings": "Comprehensive review of propranolol pharmacokinetics establishing its high lipophilicity, extensive first-pass metabolism (bioavailability 25-35%), half-life of 3.9-6.4 hours, and metabolism primarily via CYP2D6 and CYP1A2. Provided the pharmacokinetic foundation for clinical dosing across indications."
+		},
+		{
+			"title": "Effect of propranolol on anxiety and performance: a meta-analysis",
+			"authors": "Steenen, S.A., van Wijk, A.J., van der Heijden, G.J., et al.",
+			"journal": "British Journal of Clinical Pharmacology",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26400264/",
+			"keyFindings": "Meta-analysis confirming that propranolol significantly reduces heart rate and subjective anxiety in performance situations. Effects were most pronounced for situational/performance anxiety rather than generalized anxiety, supporting its off-label use for stage fright, public speaking, and similar acute stressors."
+		},
+		{
+			"title": "Beta-blockers in hypertension and cardiovascular disease",
+			"authors": "Frishman, W.H.",
+			"journal": "Journal of Clinical Hypertension",
+			"year": "2003",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/14564140/",
+			"keyFindings": "Review of beta-blocker pharmacology and clinical applications establishing propranolol as the prototypical non-selective beta blocker. Discussed mechanisms of action including negative chronotropy, reduced cardiac output, renin suppression, and central nervous system effects relevant to anxiety reduction."
+		},
+		{
+			"title": "Cardiovascular Toxicity of Illicit Anabolic-Androgenic Steroid Use",
+			"authors": "Baggish, A.L., Weiner, R.B., Kanayama, G., et al.",
+			"journal": "Circulation",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28533317/",
+			"keyFindings": "Demonstrated that long-term AAS use is associated with systolic and diastolic dysfunction, premature atherosclerosis, and elevated resting heart rate. Findings support the rationale for using heart rate-lowering agents like propranolol as part of cardiovascular harm reduction during AAS cycles."
+		},
+		{
+			"title": "Propranolol: A 50-Year Historical Perspective",
+			"authors": "Srinivasan, A.V.",
+			"journal": "Annals of Indian Academy of Neurology",
+			"year": "2019",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/30692755/",
+			"keyFindings": "Historical review marking propranolol as the first clinically successful beta blocker, earning Sir James Black the Nobel Prize in Medicine. Catalogued its established indications spanning hypertension, angina, arrhythmias, migraine prophylaxis, essential tremor, and anxiety, underscoring its versatility and extensive safety record."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Heart Rate Variability and Cardiovascular Risk in Anabolic Steroid Users",
+			"date": "2023",
+			"source": "International Journal of Cardiology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/",
+			"summary": "Observational data showing that AAS users, particularly those on trenbolone-containing stacks, exhibit reduced heart rate variability and elevated resting heart rates compared to non-users. Beta-blocker use in a subset of participants was associated with improved HRV parameters and subjective sleep quality."
+		},
+		{
+			"title": "Non-Selective vs. Selective Beta Blockade for Exercise-Induced Tachycardia: Clinical Considerations",
+			"date": "2022",
+			"source": "European Journal of Preventive Cardiology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/",
+			"summary": "Comparative review of non-selective (propranolol) and selective (metoprolol, bisoprolol) beta blockers in physically active populations. Concluded that while selective beta-1 blockers have fewer respiratory side effects, non-selective agents like propranolol may be preferable when beta-2-mediated tachycardia (e.g., from clenbuterol) is a contributing factor."
+		}
+	]
+}

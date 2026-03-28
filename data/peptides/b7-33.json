@@ -1,0 +1,210 @@
+{
+	"id": "b7-33",
+	"name": "B7-33",
+	"subtitle": "Relaxin-2 Analog | Anti-Fibrotic & Cardiovascular",
+	"aliases": ["Single-chain Relaxin Peptide"],
+	"compoundKind": "peptide",
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"weight": "~4,000 Da",
+		"type": "Single-chain peptide",
+		"sequence": "Single-chain analog of relaxin-2 B-chain",
+		"modifications": [
+			"Derived from the B-chain of human relaxin-2",
+			"Simplified single-chain structure vs. native two-chain relaxin-2",
+			"Retains RXFP1 receptor binding and activation"
+		],
+		"halfLife": "Not well characterized",
+		"halfLifeSeconds": null
+	},
+	"overview": "B7-33 is a single-chain peptide analog of human relaxin-2 that selectively activates the relaxin family peptide receptor 1 (RXFP1). Unlike native relaxin-2, which requires a complex two-chain A/B structure connected by disulfide bonds, B7-33 achieves RXFP1 activation with a much simpler single-chain design. This makes it significantly easier and more cost-effective to synthesize. Preclinical research demonstrates potent anti-fibrotic, vasodilatory, and cardioprotective properties, positioning B7-33 as a promising therapeutic candidate for fibrotic diseases, heart failure, and vascular dysfunction.",
+	"mechanism": "Selectively activates RXFP1, the primary receptor for relaxin-2, triggering downstream signaling cascades that inhibit fibroblast activation and collagen deposition, promote extracellular matrix remodeling via increased matrix metalloproteinase (MMP) activity, enhance nitric oxide-mediated vasodilation, and reduce inflammatory cytokine expression. B7-33 appears to preferentially engage pERK1/2 signaling pathways while showing reduced cAMP activation compared to native relaxin-2, suggesting biased agonism at RXFP1.",
+	"keyBenefits": [
+		"Potent anti-fibrotic activity across multiple organ systems",
+		"Improved vasodilation and vascular compliance",
+		"Cardioprotective effects and potential to attenuate cardiac remodeling",
+		"Much simpler to synthesize than native two-chain relaxin-2",
+		"Selective RXFP1 agonism with biased signaling profile",
+		"Preclinical efficacy in models of heart failure and fibrosis"
+	],
+	"indications": [
+		{
+			"category": "Cardiovascular",
+			"items": [
+				{
+					"name": "Cardiac Fibrosis",
+					"description": "Reduces myocardial fibrosis and collagen deposition, attenuating adverse cardiac remodeling in preclinical heart failure models.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Vasodilation",
+					"description": "Enhances nitric oxide-mediated vasodilation, reducing vascular resistance and improving blood flow in preclinical studies.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Heart Failure",
+					"description": "Demonstrates cardioprotective effects in animal models of heart failure, improving cardiac function and reducing fibrotic burden.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Anti-Fibrotic",
+			"items": [
+				{
+					"name": "Organ Fibrosis",
+					"description": "Inhibits fibroblast differentiation into myofibroblasts and reduces extracellular matrix deposition in multiple organ systems.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Renal Fibrosis",
+					"description": "Shows protective effects against kidney fibrosis progression in preclinical disease models.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Subcutaneous injection is the primary route studied in preclinical research. Dosing protocols are based on animal model data and have not been validated in human trials.",
+			"protocols": [
+				{
+					"goal": "Anti-fibrotic / Cardiovascular support",
+					"dose": "100-250 mcg",
+					"frequency": "1x daily",
+					"route": "SubQ"
+				}
+			],
+			"reconstitution": {
+				"materials": [
+					"Bacteriostatic water (BAC)",
+					"Insulin syringes (0.5-1 mL)",
+					"Alcohol swabs",
+					"Peptide vial",
+					"Sterile work surface"
+				],
+				"steps": [
+					"Clean work area and hands thoroughly",
+					"Calculate required BAC water volume using calculator",
+					"Draw BAC water into syringe",
+					"Inject slowly down vial side (not directly onto powder)",
+					"Gently swirl until dissolved (never shake)",
+					"Store in refrigerator, use within 28 days"
+				]
+			},
+			"keyBenefits": [
+				"Primary route used in preclinical research",
+				"Rotate injection sites to prevent irritation",
+				"Administer at consistent times daily"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Telmisartan",
+			"status": "synergistic",
+			"notes": "Potential synergistic effects for cardiac protection; both target complementary pathways involved in cardiac remodeling and fibrosis."
+		},
+		{
+			"peptide": "BPC-157",
+			"status": "compatible",
+			"notes": "No known negative interactions; different mechanisms of action with complementary tissue-repair and anti-fibrotic properties."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Onset of vasodilatory effects; initial anti-fibrotic signaling activation"
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Progressive reduction in fibrotic markers based on preclinical timelines"
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Measurable improvements in tissue fibrosis and cardiovascular parameters in animal models"
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Injection site reactions (redness, mild irritation)",
+			"Potential transient hypotension due to vasodilatory effects"
+		],
+		"stopSigns": [
+			"Persistent or symptomatic hypotension (dizziness, lightheadedness, fainting)",
+			"Severe injection site reactions or signs of infection",
+			"Allergic reactions (rash, swelling, difficulty breathing)"
+		],
+		"contraindications": [
+			"Pre-existing hypotension or conditions exacerbated by vasodilation",
+			"Pregnancy or breastfeeding (no safety data available)",
+			"Concurrent use of potent antihypertensive agents without medical supervision",
+			"No human safety data exists -- all protocols are extrapolated from preclinical research"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"White to off-white lyophilized powder",
+			"Clear solution after reconstitution with no particles",
+			"Intact vacuum seal on vial"
+		],
+		"warning": ["Slight clumping that dissolves with gentle swirling (may occur from shipping)"],
+		"bad": [
+			"Discolored or wet powder indicating degradation",
+			"Cloudy solution, visible particles, or precipitates after reconstitution",
+			"Broken or missing vacuum seal"
+		]
+	},
+	"references": [
+		{
+			"title": "A single-chain peptide derived from the relaxin B-chain selectively activates RXFP1",
+			"authors": "Hossain, M.A., et al.",
+			"journal": "Chemical Science",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28058093/",
+			"keyFindings": "Identified B7-33 as a single-chain relaxin analog that selectively activates RXFP1, demonstrating that a simplified single-chain peptide can replicate key signaling functions of native two-chain relaxin-2."
+		},
+		{
+			"title": "The single-chain relaxin mimetic, B7-33, maintains anti-fibrotic activity in liver and kidney fibrosis models",
+			"authors": "Hossain, M.A., et al.",
+			"journal": "British Journal of Pharmacology",
+			"year": "2020",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/31789427/",
+			"keyFindings": "B7-33 reduced fibrosis markers in both liver and kidney fibrosis models, demonstrating organ-protective anti-fibrotic effects comparable to native relaxin-2 despite its simplified structure."
+		},
+		{
+			"title": "The relaxin receptor as a therapeutic target -- perspectives from evolution and drug targeting",
+			"authors": "Bathgate, R.A.D., et al.",
+			"journal": "Pharmacology & Therapeutics",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29378218/",
+			"keyFindings": "Comprehensive review of RXFP1 as a drug target, discussing relaxin-2 and analogs including B7-33 for cardiovascular, fibrotic, and reproductive indications."
+		},
+		{
+			"title": "B7-33 replicates the vasoprotective effects of relaxin in mouse models of cardiovascular disease",
+			"authors": "Marshall, S.A., et al.",
+			"journal": "Annals of the New York Academy of Sciences",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28500779/",
+			"keyFindings": "B7-33 replicated the vasoprotective and anti-fibrotic effects of native relaxin in mouse models, reducing vascular stiffness and improving cardiovascular outcomes."
+		},
+		{
+			"title": "The role of relaxin and its receptor (RXFP1) in the pathogenesis and treatment of fibrotic diseases",
+			"authors": "Samuel, C.S., et al.",
+			"journal": "Molecular and Cellular Endocrinology",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27838392/",
+			"keyFindings": "Reviews the anti-fibrotic mechanisms of relaxin/RXFP1 signaling, including inhibition of TGF-beta-driven fibroblast activation and collagen synthesis, with implications for simplified analogs like B7-33."
+		}
+	],
+	"categories": ["cardiovascular", "healing"],
+	"quickStats": {
+		"typicalDose": "100-250mcg",
+		"frequency": "Once daily",
+		"cycleDuration": "4-8 weeks (preclinical extrapolation)",
+		"storage": "Lyophilized: freezer long-term. Reconstituted: 2-8 C for up to 28 days"
+	}
+}

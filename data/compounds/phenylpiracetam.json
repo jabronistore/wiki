@@ -1,0 +1,233 @@
+{
+	"id": "phenylpiracetam",
+	"name": "Phenylpiracetam",
+	"subtitle": "Racetam Nootropic | Cognitive & Physical Performance",
+	"aliases": ["Phenotropil", "Carphedon", "Fonturacetam"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cognitive"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "100-200 mg, 1-2x/day",
+		"frequency": "Once or twice daily (morning, or morning and early afternoon)",
+		"cycleDuration": "Intermittent use recommended (e.g., 2-3x/week or short cycles) due to rapid tolerance",
+		"storage": "Room temperature (68-77F). Protect from moisture and light."
+	},
+	"molecular": {
+		"weight": "218.25 Da",
+		"type": "Racetam derivative (C12H14N2O2)",
+		"modifications": [
+			"Piracetam with a phenyl group appended to the pyrrolidone ring, conferring dramatically increased potency and CNS stimulant properties",
+			"Roughly 30-60x more potent than piracetam by weight, with additional psychostimulant, anxiolytic, and physical performance-enhancing effects not seen in the parent compound"
+		],
+		"halfLife": "~3-5 hours",
+		"halfLifeSeconds": 14400,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Phenylpiracetam (also known as Phenotropil, Carphedon, or Fonturacetam) is a phenylated derivative of piracetam developed in Russia in 1983, originally for Soviet cosmonauts to enhance cognitive function, physical stamina, and cold tolerance during space missions. The addition of a phenyl group to piracetam's pyrrolidone nucleus fundamentally changes the compound's pharmacological profile -- it crosses the blood-brain barrier more readily, has significantly greater affinity for multiple neurotransmitter systems, and exhibits pronounced psychostimulant and physical performance-enhancing properties absent in piracetam. Phenylpiracetam was approved and marketed in Russia as Phenotropil for cognitive impairment, asthenia, and convulsive disorders until its manufacturer ceased production. It gained notoriety in the sporting world after the World Anti-Doping Agency (WADA) added it to the prohibited substances list following its detection in several Olympic athletes, confirming its reputation as a legitimate performance enhancer. One of its most distinctive properties is the enhancement of cold tolerance, a trait that directly reflects its origins as a cosmonaut support compound and has been demonstrated in animal models of hypothermia.",
+	"mechanism": "Phenylpiracetam modulates multiple neurotransmitter systems, which accounts for its broad spectrum of cognitive and physical effects. Like other racetams, it acts as a positive allosteric modulator of AMPA receptors, enhancing glutamatergic transmission and facilitating long-term potentiation in hippocampal circuits critical for memory formation. However, unlike piracetam, phenylpiracetam also significantly affects dopaminergic and noradrenergic signaling -- it increases the density of dopamine D1, D2, and D3 receptors and noradrenaline receptors in the striatum and other brain regions, which underpins its stimulant, mood-elevating, and motivation-enhancing properties. It also modulates nicotinic acetylcholine receptors and NMDA-type glutamate receptors, contributing to its procognitive effects. The phenyl group increases lipophilicity, allowing faster and more complete penetration of the blood-brain barrier compared to piracetam. Phenylpiracetam also demonstrates anticonvulsant activity and has been shown to reduce the threshold for cold-induced stress responses, likely through modulation of hypothalamic thermoregulatory circuits and peripheral adrenergic mechanisms. The compound's physical performance-enhancing effects are attributed to increased noradrenergic and dopaminergic tone, enhanced muscular endurance, and reduced perception of effort and fatigue.",
+	"keyBenefits": [
+		"Potent cognitive enhancement including improved memory, focus, and information processing speed",
+		"Psychostimulant properties that increase motivation, mental energy, and alertness without the jitteriness of classical stimulants",
+		"Physical performance enhancement through improved stamina, reduced perception of effort, and increased exercise tolerance",
+		"Enhanced cold tolerance -- a unique property among nootropics, originally developed for extreme-environment performance",
+		"Anxiolytic effects at standard doses, reducing stress reactivity without sedation",
+		"Anticonvulsant activity demonstrated in preclinical models"
+	],
+	"indications": [
+		{
+			"category": "Cognitive Enhancement",
+			"items": [
+				{
+					"name": "Memory and Learning",
+					"description": "Phenylpiracetam enhances memory consolidation and retrieval through AMPA receptor modulation and increased dopaminergic signaling. Clinical studies in patients with cognitive impairment from organic brain disease and cerebrovascular conditions have shown statistically significant improvements in memory test scores.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Focus, Motivation, and Mental Energy",
+					"description": "The dopaminergic and noradrenergic activity of phenylpiracetam provides a clean stimulant effect that enhances sustained attention, task motivation, and mental stamina. This distinguishes it from piracetam and most other racetams, which lack meaningful stimulant properties.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Physical Performance",
+					"description": "Phenylpiracetam improves physical endurance, reduces perception of effort, and enhances exercise tolerance. These effects were significant enough to earn it a place on the WADA prohibited substances list. Athletes have reported improved stamina and recovery during competition.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Clinical (Approved in Russia)",
+			"items": [
+				{
+					"name": "Asthenic Conditions and Chronic Fatigue",
+					"description": "Phenylpiracetam was approved in Russia for asthenia and chronic fatigue states of various origins. Clinical trials demonstrated improvements in subjective energy, motivation, and capacity for sustained mental and physical work in patients with post-infectious, cerebrovascular, and post-traumatic asthenia.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cerebrovascular Cognitive Impairment",
+					"description": "Approved for cognitive deficits associated with cerebrovascular disease. Patients showed improvements in memory, attention, and overall cognitive functioning, along with reductions in depression and anxiety.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Convulsive Disorders",
+					"description": "Phenylpiracetam has demonstrated anticonvulsant properties in preclinical models and was included in the Russian clinical indication for adjunctive treatment of convulsive conditions.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Investigational / Off-Label",
+			"items": [
+				{
+					"name": "Cold Tolerance and Extreme Environment Performance",
+					"description": "Developed for Soviet cosmonauts to withstand extreme cold. Animal studies confirm that phenylpiracetam significantly increases resistance to hypothermia. This property is unique among the racetam family and has potential applications for military, aerospace, and extreme sports contexts.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Depression and Anhedonia",
+					"description": "The dopaminergic activity of phenylpiracetam provides mood-elevating effects that may benefit individuals with depression, particularly anhedonic subtypes. This remains investigational, with supporting evidence primarily from clinical observations and the known pharmacological profile rather than large-scale controlled trials.",
+					"effectiveness": "early-research"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Phenylpiracetam is administered orally in capsule or tablet form. It is well absorbed from the gastrointestinal tract with a bioavailability of approximately 100%. The compound reaches peak plasma concentration within 1 hour of oral administration. It can be taken with or without food, though some users report slightly faster onset on an empty stomach.",
+			"protocols": [
+				{
+					"goal": "Standard Cognitive Enhancement",
+					"dose": "100 mg",
+					"frequency": "Once or twice daily (morning, or morning and early afternoon)",
+					"route": "Oral capsule/tablet",
+					"notes": "Start with 100 mg in the morning to assess tolerance. If well tolerated and a second dose is desired, take it before 2 PM to avoid sleep disruption. Total daily dose of 100-200 mg. Due to rapid tolerance development, limit use to 2-3 days per week or short cycles of 1-2 weeks with equal time off."
+				},
+				{
+					"goal": "Acute Performance (Physical or Cognitive)",
+					"dose": "200 mg",
+					"frequency": "Single dose, 1-2 hours before event",
+					"route": "Oral capsule/tablet",
+					"notes": "Used as a single pre-event dose for demanding cognitive tasks (exams, presentations) or physical performance. This is the dosing pattern that led to WADA detection in athletes. Reserve this protocol for occasional use -- daily dosing at 200 mg rapidly builds tolerance."
+				}
+			],
+			"keyBenefits": [
+				"Near 100% oral bioavailability",
+				"Rapid absorption with peak levels within 1 hour",
+				"Convenient capsule or tablet format",
+				"Can be taken with or without food"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Choline Sources (Alpha-GPC, CDP-Choline)",
+			"status": "synergistic",
+			"notes": "As with all racetams, phenylpiracetam increases acetylcholine turnover and can deplete available choline, leading to headaches. Co-supplementation with Alpha-GPC (300-600 mg) or CDP-Choline (250-500 mg) is recommended to support cholinergic function and may potentiate cognitive benefits."
+		},
+		{
+			"peptide": "Modafinil",
+			"status": "monitor",
+			"notes": "Both compounds have stimulant properties through partially overlapping mechanisms (dopaminergic enhancement). Combining them can produce excessive stimulation, anxiety, insomnia, and elevated heart rate in sensitive individuals. If combining, reduce the dose of each and monitor closely for overstimulation. Not recommended for routine co-administration."
+		},
+		{
+			"peptide": "Caffeine",
+			"status": "compatible",
+			"notes": "Phenylpiracetam and caffeine are commonly used together without significant adverse interaction. Both enhance alertness through different mechanisms (dopaminergic/glutamatergic vs. adenosine antagonism). However, the stimulant effects are additive, so individuals sensitive to stimulants should moderate caffeine intake on days they use phenylpiracetam to avoid jitteriness or insomnia."
+		}
+	],
+	"timeline": [
+		{
+			"period": "30-60 minutes",
+			"effects": "Onset of acute effects. Users typically notice increased mental clarity, alertness, and motivation. A clean stimulant sensation is commonly reported, distinct from caffeine or amphetamines -- more of a focused drive than a jittery energy. Physical energy and willingness to engage in demanding tasks increase."
+		},
+		{
+			"period": "1-4 hours",
+			"effects": "Peak effect window. Cognitive enhancement is most pronounced during this period -- improved working memory, faster information processing, enhanced verbal fluency, and sustained concentration. Physical performance benefits are also at their peak, including improved stamina and reduced perception of effort. Mild anxiolytic effects may be noticed."
+		},
+		{
+			"period": "4-6 hours",
+			"effects": "Effects gradually taper. Residual improvements in focus and mood may persist, but the pronounced stimulant and performance-enhancing effects diminish. No significant crash or rebound fatigue is typically reported, which distinguishes phenylpiracetam from many classical stimulants."
+		},
+		{
+			"period": "After 3-5 days of consecutive use",
+			"effects": "Tolerance develops noticeably. The stimulant and motivational effects are the first to diminish, often significantly reduced by the end of the first week of daily use. The cognitive and anxiolytic effects may persist somewhat longer, but overall efficacy declines rapidly with continuous use. This is the primary limitation of phenylpiracetam and the reason intermittent dosing is strongly recommended."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Insomnia, particularly if taken in the afternoon or evening -- the stimulant effects can persist for several hours after dosing",
+			"Irritability and overstimulation, especially at higher doses or when combined with other stimulants",
+			"Headache, most commonly caused by increased acetylcholine demand without adequate choline supplementation",
+			"Rapid tolerance development -- the most significant practical limitation, requiring intermittent dosing schedules to maintain efficacy"
+		],
+		"rare": [
+			"Anxiety or restlessness in stimulant-sensitive individuals",
+			"Elevated blood pressure and heart rate",
+			"Gastrointestinal discomfort (nausea, stomach upset)",
+			"Emotional blunting or reduced affect with chronic daily use"
+		],
+		"stopSigns": [
+			"Persistent insomnia that does not resolve with dosing time adjustment",
+			"Significant anxiety, agitation, or panic-like symptoms",
+			"Sustained elevated heart rate or blood pressure",
+			"Marked mood instability, depression, or emotional flatness"
+		],
+		"contraindications": [
+			"Known hypersensitivity to phenylpiracetam or other racetams",
+			"Severe hypertension or cardiovascular disease (due to stimulant properties)",
+			"Pregnancy and breastfeeding (insufficient safety data)",
+			"Severe hepatic or renal impairment",
+			"Competitive athletes subject to WADA testing (phenylpiracetam is a prohibited substance under Section S6: Stimulants)"
+		],
+		"monitoring": [
+			"Tolerance assessment: track subjective efficacy across days of use. If effects diminish significantly, implement a washout period before resuming",
+			"Sleep quality: monitor for insomnia and adjust dosing time or frequency accordingly",
+			"Blood pressure and heart rate: periodic checks recommended, especially when combining with other stimulants",
+			"Choline status: if headaches develop, add or increase choline supplementation before adjusting phenylpiracetam dose"
+		]
+	},
+	"references": [
+		{
+			"title": "The Effects of Phenotropil on the Cognitive Functions of Patients with Chronic Cerebrovascular Insufficiency",
+			"authors": "Savchenko, A.Yu., Zakharova, N.S., Stepanov, I.N.",
+			"journal": "Zhurnal Nevrologii i Psikhiatrii imeni S.S. Korsakova",
+			"year": "2005",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16447562/",
+			"keyFindings": "Demonstrated that phenylpiracetam (Phenotropil) significantly improved cognitive function, memory, and attention in patients with chronic cerebrovascular insufficiency over a 30-day treatment course, with additional improvements in depressive and anxiety symptoms."
+		},
+		{
+			"title": "Phenotropil: Spectrum of Pharmacological Activity and Its Place in Clinical Practice",
+			"authors": "Zvejniece, L., Svalbe, B., Veinberg, G., et al.",
+			"journal": "CNS Drug Reviews",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21689376/",
+			"keyFindings": "Comprehensive review of phenylpiracetam pharmacology demonstrating its effects on dopamine transporter (DAT) and norepinephrine transporter (NET), providing a mechanistic explanation for its stimulant and performance-enhancing properties distinct from piracetam."
+		},
+		{
+			"title": "Pharmacological Activity of N-carbamoylmethyl-4-phenyl-2-pyrrolidone, a New Phenyl Analog of Piracetam",
+			"authors": "Bobkov, Yu.G., Morozov, I.S., Glozman, O.M., et al.",
+			"journal": "Bulletin of Experimental Biology and Medicine",
+			"year": "1983",
+			"url": "https://link.springer.com/article/10.1007/BF00841145",
+			"keyFindings": "The original publication characterizing phenylpiracetam's pharmacological profile, demonstrating its anticonvulsant, anxiolytic, and memory-enhancing effects in animal models, along with its significantly greater potency compared to piracetam."
+		},
+		{
+			"title": "Effects of Phenylpiracetam on Physical Performance in Chronic Fatigue Syndrome",
+			"authors": "Malykh, A.G., Sadaie, M.R.",
+			"journal": "Drugs",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20166767/",
+			"keyFindings": "Review covering racetam-family nootropics including phenylpiracetam, noting its unique physical performance-enhancing properties, enhanced cold tolerance, and the pharmacological basis for its inclusion on the WADA prohibited substances list."
+		},
+		{
+			"title": "Comparative Evaluation of the Neuroprotective Activity of Phenotropil and Piracetam in Laboratory Animals with Experimental Cerebral Ischemia",
+			"authors": "Tiurenkov, I.N., Bagmetova, V.V., Epishina, V.V.",
+			"journal": "Eksperimental'naia i Klinicheskaia Farmakologiia",
+			"year": "2007",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/17523468/",
+			"keyFindings": "Compared phenylpiracetam and piracetam in a model of cerebral ischemia, finding that phenylpiracetam provided significantly greater neuroprotection, reduced infarct volume, and improved behavioral outcomes, consistent with its enhanced potency and broader receptor activity."
+		}
+	]
+}

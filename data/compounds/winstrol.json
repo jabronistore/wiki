@@ -1,0 +1,334 @@
+{
+	"id": "winstrol",
+	"name": "Winstrol",
+	"subtitle": "DHT-Derived Anabolic Steroid | Cutting & Athletic Performance",
+	"aliases": [
+		"Stanozolol",
+		"Winny",
+		"Stromba"
+	],
+	"compoundKind": "anabolic",
+	"categories": [
+		"anabolic"
+	],
+	"researchStatus": "well-studied",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "25-50 mg/day (oral), 50 mg EOD (injectable)",
+		"frequency": "Daily (oral) or every other day (injectable)",
+		"cycleDuration": "6-8 weeks (oral), 8-10 weeks (injectable)",
+		"storage": "Room temperature (68-77F). Protect from light and moisture. Injectable suspension requires shaking before use."
+	},
+	"molecular": {
+		"weight": "328.49 Da",
+		"type": "17-alpha-alkylated anabolic-androgenic steroid (C21H32N2O)",
+		"modifications": [
+			"17-alpha-methylation for oral bioavailability",
+			"3,2-pyrazole group fused to the A-ring of the DHT backbone",
+			"Derived from dihydrotestosterone (DHT) with a heterocyclic modification"
+		],
+		"halfLife": "~9 hours (oral), ~24 hours (injectable)",
+		"halfLifeSeconds": 32400,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Winstrol is the brand name for stanozolol, a synthetic anabolic-androgenic steroid derived from dihydrotestosterone (DHT). It was developed in 1962 by Winthrop Laboratories and approved by the FDA for the treatment of hereditary angioedema, a condition characterized by episodic swelling of the face, extremities, genitals, bowel wall, and upper airway. Stanozolol is structurally unique among DHT derivatives due to the addition of a pyrazole group fused to the A-ring, which significantly alters its pharmacological profile. It possesses a high anabolic-to-androgenic ratio (320:30 relative to methyltestosterone), making it one of the more anabolic oral steroids available. Winstrol does not aromatize to estrogen, producing no estrogenic side effects such as water retention or gynecomastia, which has made it a staple compound in cutting and pre-contest bodybuilding protocols. It is available in both oral tablet and injectable aqueous suspension forms, with both preparations being 17-alpha-alkylated and therefore hepatotoxic. Winstrol gained widespread notoriety after sprinter Ben Johnson tested positive for it following his gold medal performance at the 1988 Seoul Olympics, which remains one of the most publicized doping cases in sports history.",
+	"mechanism": "Stanozolol exerts its effects through binding to the intracellular androgen receptor (AR), promoting nitrogen retention, protein synthesis, and red blood cell production. As a DHT derivative, it cannot be aromatized by the aromatase enzyme, eliminating estrogen-mediated side effects. The pyrazole modification to the A-ring distinguishes stanozolol from other DHT derivatives by enhancing its oral bioavailability and altering its receptor binding characteristics. Stanozolol has a notable effect on sex hormone-binding globulin (SHBG), suppressing it more potently than most other anabolic steroids, which increases the fraction of free (bioactive) testosterone and other steroids in circulation. This SHBG-lowering property makes it particularly effective when stacked with other compounds. Stanozolol also stimulates collagen synthesis, though paradoxically it is associated with joint discomfort, likely due to its potent anti-estrogenic environment reducing synovial fluid production. It increases erythropoiesis through enhanced erythropoietin production, contributing to improved oxygen delivery. In hereditary angioedema, stanozolol increases serum levels of C1-esterase inhibitor and C4 complement, reducing the frequency and severity of angioedema attacks through a mechanism distinct from its anabolic properties.",
+	"keyBenefits": [
+		"Produces a dry, hard, and vascular appearance without water retention",
+		"Significant strength increases without proportional weight gain, favored in weight-class sports",
+		"Does not aromatize to estrogen, eliminating gynecomastia and bloating concerns",
+		"Potent suppression of SHBG, increasing free testosterone and enhancing the effectiveness of stacked compounds",
+		"Available in both oral and injectable formulations",
+		"High anabolic-to-androgenic ratio (320:30) relative to methyltestosterone",
+		"FDA-approved for hereditary angioedema prophylaxis",
+		"Enhances vascularity and muscle definition during caloric deficit"
+	],
+	"indications": [
+		{
+			"category": "Medical Indications",
+			"items": [
+				{
+					"name": "Hereditary Angioedema",
+					"description": "FDA-approved indication. Stanozolol increases plasma levels of C1-esterase inhibitor and C4 complement, reducing the frequency and severity of angioedema episodes characterized by localized swelling of the skin, mucous membranes, and internal organs.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Aplastic Anemia (Historical)",
+					"description": "Previously used to stimulate erythropoiesis in patients with aplastic anemia and other bone marrow failure states. Largely replaced by erythropoietin-stimulating agents and other modern therapies, though it demonstrated efficacy in stimulating red blood cell production.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Body Composition & Performance",
+			"items": [
+				{
+					"name": "Cutting & Contest Preparation",
+					"description": "Widely used during caloric deficit phases to preserve lean mass and enhance muscle hardness, vascularity, and definition. The absence of water retention produces a dry, striated appearance that is highly valued in competitive bodybuilding.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Strength Enhancement",
+					"description": "Provides significant increases in maximal and explosive strength without substantial body weight gain. Historically popular in weight-class-restricted sports, track and field, and combat sports for this reason.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Athletic Speed & Power",
+					"description": "Enhances speed and power output through improved neuromuscular efficiency, increased red blood cell count, and enhanced protein synthesis. The lack of water weight gain is advantageous for athletes where power-to-weight ratio is critical.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Lean Mass Preservation During Deficit",
+					"description": "Anti-catabolic properties help preserve lean tissue during aggressive caloric restriction. The potent SHBG suppression enhances free testosterone levels, further supporting muscle preservation.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Winstrol is available as an oral tablet, typically in 10 mg and 50 mg dosages. As a 17-alpha-alkylated steroid, it survives first-pass hepatic metabolism but carries significant hepatotoxic potential. Oral winstrol has a half-life of approximately 9 hours, necessitating split dosing for stable blood levels. The oral form is the most commonly used and is known for being particularly harsh on lipid profiles and liver values compared to most other oral steroids.",
+			"protocols": [
+				{
+					"goal": "Medical - Hereditary Angioedema",
+					"dose": "2 mg three times daily",
+					"frequency": "Three times daily",
+					"route": "Oral",
+					"notes": "FDA-approved dosing for hereditary angioedema prophylaxis. Initial dose of 2 mg three times daily, with gradual dose reduction at intervals of 1-3 months to a maintenance dose of 2 mg/day. Monitor liver function and lipids regularly. Long-term use requires periodic assessment."
+				},
+				{
+					"goal": "Performance - Conservative",
+					"dose": "25 mg/day",
+					"frequency": "Split into 2-3 doses daily",
+					"route": "Oral",
+					"notes": "Lower-end performance dose suitable for those prioritizing reduced side effects. Provides noticeable hardening, vascularity, and strength gains. Cycle length 6 weeks maximum. Liver support (NAC 600-1200 mg/day, TUDCA 250-500 mg/day) strongly recommended."
+				},
+				{
+					"goal": "Performance - Standard",
+					"dose": "50 mg/day",
+					"frequency": "Split into 2 doses (morning and evening)",
+					"route": "Oral",
+					"notes": "Most common male performance dose. Significant strength and aesthetic improvements. Cycle length should not exceed 6-8 weeks due to hepatic and lipid stress. Liver support is essential. Lipid panel monitoring at baseline and mid-cycle strongly recommended. Joint support supplements (glucosamine, fish oil) may help offset joint dryness."
+				}
+			],
+			"keyBenefits": [
+				"Convenient oral administration without injections",
+				"Rapid onset of action within days",
+				"Well-established dose-response relationship",
+				"Easily titrated and discontinued if side effects arise"
+			]
+		},
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Injectable winstrol (Winstrol Depot) is an aqueous (water-based) suspension rather than an oil-based solution, which distinguishes it from most other injectable steroids. It has a half-life of approximately 24 hours and is typically administered every other day. Despite being injectable, stanozolol retains its 17-alpha-alkylation in this form, meaning it is still hepatotoxic -- a common misconception is that injectable winstrol bypasses liver stress, which is incorrect. The water-based suspension is known for painful injections and must be shaken well before administration to resuspend the microcrystals.",
+			"protocols": [
+				{
+					"goal": "Performance - Standard Injectable",
+					"dose": "50 mg every other day",
+					"frequency": "Every other day (EOD)",
+					"route": "Intramuscular injection",
+					"notes": "Standard injectable protocol providing more stable blood levels than oral dosing. Despite being injectable, liver support is still essential as the compound remains 17-alpha-alkylated. Injection sites should be rotated. The water-based suspension can cause post-injection pain (PIP). Cycle length 6-8 weeks."
+				}
+			],
+			"keyBenefits": [
+				"Longer half-life (~24 hours) provides more stable blood levels",
+				"Less frequent dosing compared to oral (EOD vs daily)",
+				"Potentially slightly less gastrointestinal irritation than oral form",
+				"Same compound and effects as oral formulation"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Testosterone",
+			"status": "synergistic",
+			"notes": "A testosterone base is considered essential when running winstrol. Stanozolol will significantly suppress endogenous testosterone production and, as a non-aromatizing compound, provides no estrogenic support. Without exogenous testosterone, users commonly experience low-estrogen symptoms including dry joints (compounding winstrol's existing joint issues), low libido, lethargy, and mood disturbance. Typical combination: TRT-dose testosterone (100-200 mg/week) with winstrol 25-50 mg/day."
+		},
+		{
+			"peptide": "N-Acetylcysteine (NAC)",
+			"status": "compatible",
+			"notes": "Liver support is considered essential during any winstrol cycle. NAC provides hepatoprotective support through glutathione replenishment and antioxidant activity. Winstrol is among the more hepatotoxic oral steroids, making concurrent liver support particularly important. Typical dose: 600-1200 mg/day throughout the cycle."
+		},
+		{
+			"peptide": "TUDCA",
+			"status": "compatible",
+			"notes": "Tauroursodeoxycholic acid (TUDCA) is a bile salt that protects against cholestatic liver injury and supports bile flow. Given winstrol's significant hepatotoxicity, TUDCA is strongly recommended as concurrent liver support. Typical dose: 500 mg/day during the cycle, potentially higher if liver enzymes are notably elevated."
+		},
+		{
+			"peptide": "Warfarin",
+			"status": "monitor",
+			"notes": "Stanozolol potentiates the anticoagulant effect of warfarin and other coumarin-type anticoagulants by increasing their half-life and reducing clearance. Concurrent use requires close monitoring of INR and potential dose reduction of the anticoagulant. This interaction is clinically significant and well-documented."
+		},
+		{
+			"peptide": "Oral Hypoglycemics",
+			"status": "monitor",
+			"notes": "Stanozolol may enhance the hypoglycemic effect of insulin and oral diabetes medications. Blood glucose should be monitored closely and diabetes medication doses may need adjustment during stanozolol therapy."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1",
+			"effects": "Rapid onset of effects due to short half-life. Increased muscle hardness and vascularity become noticeable within days. Early strength improvements appear, particularly on compound movements. Muscle pumps during training may intensify. Joint dryness may begin to manifest."
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Pronounced improvements in muscle definition, vascularity, and hardness. Significant strength gains are evident. The dry, grainy appearance characteristic of winstrol becomes apparent. Joint discomfort, particularly in the knees and shoulders, is common by this stage. Lipid values begin deteriorating noticeably."
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Peak aesthetic and strength effects. Maximum muscle hardness and definition in lean individuals. Strength gains plateau or continue incrementally. Lipid damage (HDL suppression, LDL elevation) is typically at its most severe. Liver enzymes may be significantly elevated. Joint dryness may limit training intensity or exercise selection."
+		},
+		{
+			"period": "Week 6-8 (if extended)",
+			"effects": "Diminishing returns relative to increasing health costs. Cumulative hepatic stress and lipid damage argue against extending oral cycles beyond 6 weeks. Injectable users may continue to 8 weeks with careful monitoring. Most users conclude their cycle in this window."
+		},
+		{
+			"period": "Post-Cycle (Week 1-4 after cessation)",
+			"effects": "Lipid values begin recovering but may take 4-8 weeks to normalize, as winstrol causes more severe lipid disruption than most other oral steroids. Liver enzymes typically return to baseline within 2-4 weeks. Endogenous testosterone production begins recovering; post-cycle therapy is warranted. Joint dryness resolves relatively quickly after discontinuation. Some strength and hardness will diminish as the compound clears."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Severe HDL cholesterol suppression (winstrol is among the worst oral steroids for lipid damage)",
+			"Significant LDL cholesterol elevation",
+			"Joint dryness and pain, particularly in knees, shoulders, and elbows (notorious side effect)",
+			"Hepatic stress with elevated liver enzymes (ALT/AST)",
+			"Suppression of endogenous testosterone production",
+			"Hair loss and accelerated male pattern baldness (DHT derivative, particularly harsh on hairline)",
+			"Acne and oily skin",
+			"Tendon and ligament stress due to rapid strength gains combined with reduced joint lubrication",
+			"Dry, painful shin splints during cardiovascular exercise"
+		],
+		"rare": [
+			"Significant hepatotoxicity including cholestatic jaundice",
+			"Peliosis hepatis (blood-filled cysts in the liver)",
+			"Hepatocellular carcinoma with prolonged use",
+			"Virilization in women (deepening voice, hirsutism, clitoral enlargement)",
+			"Tendon rupture (increased strength with compromised connective tissue support)",
+			"Left ventricular hypertrophy with chronic use",
+			"Mood disturbances including irritability and aggression",
+			"Prostatic hypertrophy"
+		],
+		"stopSigns": [
+			"Yellowing of skin or eyes (jaundice, indicating significant hepatic dysfunction)",
+			"Severe or persistent abdominal pain, especially in the upper right quadrant",
+			"Dark-colored urine or clay-colored stools (signs of liver injury)",
+			"Sudden severe joint pain or tendon pain suggesting possible rupture",
+			"Unusual or prolonged bleeding or bruising",
+			"Chest pain, difficulty breathing, or signs of cardiovascular distress",
+			"Signs of virilization in women that persist or worsen (discontinue immediately)"
+		],
+		"contraindications": [
+			"Known or suspected prostate cancer",
+			"Breast cancer in males",
+			"Breast cancer with hypercalcemia in females",
+			"Pregnancy (Category X - known to cause fetal harm)",
+			"Severe hepatic dysfunction or active liver disease",
+			"Nephrosis or nephrotic phase of nephritis",
+			"Pre-existing severe cardiovascular disease or dyslipidemia",
+			"Hypersensitivity to stanozolol or any formulation component"
+		],
+		"monitoring": [
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline, 3 weeks, and every 3-4 weeks during use. Winstrol is particularly destructive to lipids and warrants more frequent monitoring than most compounds.",
+			"Liver function tests (ALT, AST, bilirubin, ALP): baseline and every 3-4 weeks during use",
+			"Complete blood count with hematocrit: baseline and periodically during treatment",
+			"Total and free testosterone, LH, FSH: baseline and post-cycle to assess HPTA recovery",
+			"Blood pressure monitoring throughout the cycle",
+			"Joint and tendon assessment, particularly if experiencing pain during training",
+			"Virilization assessment in female patients at each follow-up visit"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade product from a verified manufacturer (Winstrol, Stromba, or authorized generic stanozolol)",
+			"Proper labeling with correct dosage per tablet, lot number, and expiration date",
+			"Tablets are uniform in size, color, and shape with consistent imprinting",
+			"Injectable suspension is a milky white aqueous solution with microcrystals that resuspend evenly when shaken",
+			"Third-party lab testing confirming identity, potency, and absence of contaminants",
+			"Stored in original packaging, protected from moisture and light"
+		],
+		"warning": [
+			"Underground lab (UGL) product without pharmaceutical-grade verification",
+			"Injectable solution that appears oil-based rather than water-based (may be a different compound)",
+			"Tablets with inconsistent sizing, crumbling, or no imprint",
+			"No third-party certificate of analysis available",
+			"Packaging that appears unprofessional or has spelling errors"
+		],
+		"bad": [
+			"Product with no labeling or verifiable source information",
+			"Lab testing reveals underdosed, overdosed, or substituted compound",
+			"Injectable suspension that does not resuspend when shaken or contains visible particulate matter",
+			"Contaminated product with heavy metals, bacteria, or undisclosed active ingredients",
+			"Expired product or product stored improperly (excessive heat, moisture exposure)",
+			"Severe or unexpected side effects suggesting mislabeled or adulterated product"
+		]
+	},
+	"references": [
+		{
+			"title": "Comparative Androgenic, Myotrophic, and Antigonadotrophic Properties of Some Anabolic Steroids",
+			"authors": "Potts, G.O., Arnold, A., Beyler, A.L.",
+			"journal": "Endocrinology",
+			"year": "1976",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/1261512/",
+			"keyFindings": "Established the anabolic-to-androgenic ratio of stanozolol relative to methyltestosterone, demonstrating its high anabolic potency (320) with relatively low androgenic activity (30), supporting its use in clinical settings where anabolic effects are desired with minimal virilization."
+		},
+		{
+			"title": "Effect of Stanozolol on the Frequency and Severity of Attacks of Hereditary Angioedema",
+			"authors": "Sheffer, A.L., Fearon, D.T., Austen, K.F.",
+			"journal": "New England Journal of Medicine",
+			"year": "1981",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/7231220/",
+			"keyFindings": "Demonstrated that stanozolol significantly reduced the frequency and severity of hereditary angioedema attacks by increasing serum levels of C1-esterase inhibitor and C4 complement. Established the clinical basis for FDA approval in hereditary angioedema prophylaxis."
+		},
+		{
+			"title": "The Effects of Supraphysiologic Doses of Testosterone on Muscle Size and Strength in Normal Men",
+			"authors": "Bhasin, S., Storer, T.W., Berman, N., et al.",
+			"journal": "New England Journal of Medicine",
+			"year": "1996",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/8637535/",
+			"keyFindings": "Landmark study on supraphysiologic androgens and muscle growth. While focused on testosterone, this study established the dose-dependent relationship between anabolic-androgenic steroids and lean mass accretion, providing foundational evidence applicable to all anabolic agents including stanozolol."
+		},
+		{
+			"title": "Hepatic Effects of 17-Alpha-Alkylated Anabolic-Androgenic Steroids",
+			"authors": "Westaby, D., Ogle, S.J., Paradinas, F.J., Randell, J.B., Murray-Lyon, I.M.",
+			"journal": "Lancet",
+			"year": "1977",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/69663/",
+			"keyFindings": "Documented hepatic complications including cholestatic jaundice and peliosis hepatis associated with 17-alpha-alkylated anabolic steroids including stanozolol. Established the clinical importance of hepatic monitoring during therapy with oral anabolic steroids."
+		},
+		{
+			"title": "Oral Anabolic-Androgenic Steroids and Lipid Metabolism",
+			"authors": "Hartgens, F., Kuipers, H.",
+			"journal": "Sports Medicine",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15487904/",
+			"keyFindings": "Comprehensive review documenting the adverse lipid effects of oral anabolic steroids, with stanozolol identified as one of the most disruptive compounds for lipid metabolism. HDL reductions of 33-71% and LDL increases of 29-61% were reported with stanozolol use, exceeding the lipid impact of most other oral anabolic steroids."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Cardiovascular Toxicity of Anabolic-Androgenic Steroids",
+			"date": "June 2023",
+			"source": "Circulation",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37307161/",
+			"summary": "Comprehensive review of cardiovascular risks associated with anabolic steroid use, highlighting the particularly adverse lipid effects of oral 17-alpha-alkylated compounds like stanozolol. Emphasized the dose-dependent nature of cardiovascular harm and the importance of lipid monitoring."
+		},
+		{
+			"title": "Long-Term Prophylaxis of Hereditary Angioedema with Attenuated Androgens: A Retrospective Analysis",
+			"date": "September 2022",
+			"source": "Journal of Allergy and Clinical Immunology: In Practice",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/35811054/",
+			"summary": "Retrospective analysis confirming the long-term efficacy of attenuated androgens including stanozolol for hereditary angioedema prophylaxis, while noting the need for regular monitoring of liver function and lipid profiles during extended therapy."
+		},
+		{
+			"title": "Anabolic Steroid-Induced Tendinopathy: A Review of the Literature",
+			"date": "March 2023",
+			"source": "Journal of Orthopaedic Surgery and Research",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36882728/",
+			"summary": "Review of tendon pathology associated with anabolic steroid use, with specific discussion of the paradox that stanozolol stimulates collagen synthesis in vitro yet is clinically associated with joint dryness and increased tendon injury risk, possibly due to altered collagen cross-linking and reduced synovial fluid production."
+		}
+	]
+}

@@ -1,0 +1,208 @@
+{
+	"id": "ketoconazole",
+	"name": "Ketoconazole",
+	"subtitle": "Antifungal | Topical Anti-Androgen for Hair Loss",
+	"aliases": ["Nizoral", "Keto Shampoo"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["hair-loss"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"molecular": {
+		"weight": "531.43 Da",
+		"type": "Synthetic imidazole antifungal",
+		"modifications": ["Azole antifungal with topical anti-androgen activity"],
+		"halfLife": "Topical application stays local with minimal systemic absorption",
+		"halfLifeSeconds": null
+	},
+	"quickStats": {
+		"typicalDose": "1-2% shampoo",
+		"frequency": "2-3x per week",
+		"cycleDuration": "Continuous use; minimum 3-6 months to evaluate hair loss efficacy",
+		"storage": "Room temperature (15-30C), keep container tightly closed"
+	},
+	"overview": "Ketoconazole is an FDA-approved azole antifungal that has gained widespread use as a topical adjunct in hair loss treatment. Available as a 1-2% medicated shampoo, ketoconazole disrupts DHT binding at the hair follicle and reduces scalp inflammation driven by the fungus Malassezia, both of which contribute to follicular miniaturization. It is a core component of the widely referenced \"big 3\" hair loss stack alongside finasteride and minoxidil. While ketoconazole was originally developed as a systemic antifungal for conditions like fungal infections and seborrheic dermatitis, its topical anti-androgenic properties at the scalp level have made it a practical and low-risk addition to hair loss regimens. When used as a shampoo, systemic absorption is negligible, keeping the side effect profile limited to occasional local irritation.",
+	"mechanism": "Ketoconazole works through multiple pathways relevant to hair loss. As an azole antifungal, it inhibits the enzyme lanosterol 14-alpha-demethylase, disrupting ergosterol synthesis and killing Malassezia fungi that colonize the scalp and contribute to inflammation and seborrheic dermatitis. This anti-inflammatory effect reduces the chronic follicular inflammation associated with androgenetic alopecia. Independently, ketoconazole has demonstrated topical anti-androgenic activity by disrupting the binding of dihydrotestosterone (DHT) and other androgens to receptors at the hair follicle. Some evidence also suggests it may interfere with local androgen synthesis pathways. Unlike systemic anti-androgens such as finasteride, ketoconazole shampoo exerts these effects locally at the scalp without meaningful systemic hormonal changes, making it a well-tolerated complement to oral DHT-blocking therapies.",
+	"keyBenefits": [
+		"Disrupts DHT binding at the follicle level with topical application",
+		"Reduces Malassezia colonization and scalp inflammation associated with hair loss",
+		"Negligible systemic absorption when used as a shampoo",
+		"FDA-approved and widely available over the counter (1%) or by prescription (2%)",
+		"Part of the established \"big 3\" hair loss protocol with finasteride and minoxidil",
+		"Treats concurrent seborrheic dermatitis and dandruff while addressing hair loss",
+		"Simple to incorporate into existing shower routines"
+	],
+	"indications": [
+		{
+			"category": "Hair Loss",
+			"items": [
+				{
+					"name": "Androgenetic Alopecia (Adjunct Therapy)",
+					"description": "Used as a topical adjunct to systemic treatments like finasteride. Ketoconazole shampoo reduces local DHT activity and scalp inflammation, supporting a healthier environment for hair growth when combined with the \"big 3\" stack.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Scalp Inflammation and Folliculitis",
+					"description": "Reduces chronic low-grade inflammation driven by Malassezia fungi and seborrheic dermatitis, both of which can accelerate hair loss and impair follicle function.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Seborrheic Dermatitis / Dandruff",
+					"description": "FDA-approved indication. Ketoconazole is highly effective at controlling dandruff and seborrheic dermatitis by targeting the Malassezia yeast responsible for the condition.",
+					"effectiveness": "most-effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "topical",
+			"available": true,
+			"overview": "Ketoconazole for hair loss is used exclusively as a medicated shampoo, available in 1% (OTC) and 2% (prescription) concentrations. The shampoo is lathered into the scalp and left on for approximately 5 minutes before rinsing, applied 2-3 times per week. This contact time allows adequate absorption into the scalp tissue while minimizing systemic exposure. For hair loss purposes, the 2% prescription formulation is generally preferred, though the 1% OTC version (Nizoral A-D) has also shown benefit in studies.",
+			"protocols": [
+				{
+					"goal": "Hair loss adjunct therapy (standard)",
+					"dose": "2% shampoo",
+					"frequency": "2-3x per week, leave on scalp for 5 minutes",
+					"route": "Topical (shampoo)"
+				},
+				{
+					"goal": "Hair loss adjunct therapy (OTC)",
+					"dose": "1% shampoo",
+					"frequency": "2-3x per week, leave on scalp for 5 minutes",
+					"route": "Topical (shampoo)"
+				},
+				{
+					"goal": "Seborrheic dermatitis / dandruff control",
+					"dose": "1-2% shampoo",
+					"frequency": "2x per week for 4 weeks, then as needed",
+					"route": "Topical (shampoo)"
+				}
+			],
+			"keyBenefits": [
+				"Minimal systemic absorption keeps side effects local",
+				"Easy to integrate into normal shower routine",
+				"1% formulation available without prescription",
+				"Can be used on the same days as or alternated with regular shampoo"
+			]
+		},
+		{
+			"type": "oral",
+			"available": false
+		},
+		{
+			"type": "injectable",
+			"available": false
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Finasteride",
+			"status": "synergistic",
+			"notes": "Core combination in the \"big 3\" hair loss stack. Finasteride reduces systemic and scalp DHT production via 5-alpha reductase inhibition, while ketoconazole disrupts DHT binding locally at the follicle and reduces scalp inflammation. The two target hair loss through complementary mechanisms."
+		},
+		{
+			"peptide": "Minoxidil",
+			"status": "synergistic",
+			"notes": "The other pillar of the \"big 3\" stack. Minoxidil stimulates hair growth through vasodilation and prolongation of the anagen phase, while ketoconazole addresses the inflammatory and androgenic components of hair loss. Using both provides multi-pathway coverage."
+		},
+		{
+			"peptide": "RU-58841",
+			"status": "compatible",
+			"notes": "Both act topically but through different mechanisms. RU-58841 is a non-steroidal androgen receptor antagonist, while ketoconazole disrupts DHT binding and reduces fungal-driven inflammation. No known negative interactions when used together."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-4",
+			"effects": "Rapid improvement in dandruff, flaking, and scalp itching as Malassezia populations are reduced. Scalp inflammation begins to decrease. No visible changes in hair density at this stage."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Scalp condition continues to improve with reduced oiliness and irritation. Anti-inflammatory effects are well established. The scalp environment becomes more favorable for hair retention, though visible hair changes take longer."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "When combined with finasteride and/or minoxidil, the contribution of ketoconazole to overall results becomes more apparent. Reduced shedding and improved hair quality may be noticeable. Stand-alone hair benefits are modest but measurable."
+		},
+		{
+			"period": "Month 6+",
+			"effects": "Continued maintenance of scalp health and anti-inflammatory benefit. Ketoconazole's role as a supportive agent in the hair loss stack is sustained with ongoing use. Discontinuation may lead to return of scalp inflammation and dandruff."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Scalp dryness with regular use",
+			"Mild scalp irritation or itching at application site",
+			"Changes in hair texture (temporary dryness or coarseness)"
+		],
+		"rare": [
+			"Contact dermatitis or allergic skin reaction",
+			"Hair discoloration (primarily in chemically treated or grey hair)",
+			"Increased hair loss in the initial weeks (rare and temporary)"
+		],
+		"stopSigns": [
+			"Severe scalp irritation, blistering, or chemical burn sensation",
+			"Signs of allergic reaction (rash spreading beyond the scalp, swelling, difficulty breathing)",
+			"Persistent worsening of hair loss after more than 4 weeks of use"
+		],
+		"contraindications": [
+			"Known hypersensitivity to ketoconazole or any imidazole antifungal",
+			"Open wounds or severely broken skin on the scalp",
+			"Oral ketoconazole is contraindicated in liver disease (not applicable to shampoo use)"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"FDA-approved product with clear labeling (Nizoral or equivalent)",
+			"Concentration clearly stated on packaging (1% or 2%)",
+			"Purchased from a licensed pharmacy or reputable retailer",
+			"Prescription 2% formulation dispensed by a licensed pharmacist",
+			"Product within expiration date with intact seal"
+		],
+		"warning": [
+			"Generic formulations from unfamiliar manufacturers without proper labeling",
+			"Products purchased from overseas without regulatory verification",
+			"Shampoo that has separated, changed color, or has an unusual odor"
+		],
+		"bad": [
+			"No concentration or active ingredient listed on the label",
+			"Purchased from unregulated online marketplaces with no pharmacy license",
+			"Product with broken seal, missing lot number, or no expiration date",
+			"Claims of concentrations above 2% in a shampoo formulation"
+		]
+	},
+	"references": [
+		{
+			"title": "Ketoconazole shampoo: effect of long-term use in androgenic alopecia",
+			"authors": "Pierard-Franchimont C, De Doncker P, Cauwenbergh G, Pierard GE",
+			"year": "1998",
+			"journal": "Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9732382/",
+			"keyFindings": "Demonstrated that 2% ketoconazole shampoo used over an extended period improved hair density and the proportion of anagen follicles in men with androgenetic alopecia, comparable in some measures to 2% minoxidil. Provided early evidence for ketoconazole as a hair loss treatment beyond its antifungal indication."
+		},
+		{
+			"title": "A comparison of 2% ketoconazole and 2% minoxidil in the treatment of androgenetic alopecia",
+			"authors": "Pierard-Franchimont C, De Doncker P, Cauwenbergh G, Pierard GE",
+			"year": "1998",
+			"journal": "Dermatology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/9732381/",
+			"keyFindings": "Head-to-head comparison showing that 2% ketoconazole shampoo produced improvements in hair density and follicle size comparable to 2% minoxidil lotion. Supported ketoconazole's role as a viable adjunct treatment for androgenetic alopecia with a favorable safety profile."
+		},
+		{
+			"title": "Ketoconazole as an adjunct to finasteride and minoxidil in the treatment of androgenetic alopecia",
+			"authors": "Khandpur S, Suman M, Reddy BS",
+			"year": "2002",
+			"journal": "Journal of Dermatological Treatment",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12534160/",
+			"keyFindings": "Showed that adding 2% ketoconazole shampoo to a regimen of finasteride and minoxidil provided additional benefit for hair density compared to the two-drug combination alone. Supported the rationale for the \"big 3\" stack approach in androgenetic alopecia management."
+		},
+		{
+			"title": "Antifungal agents: mechanisms of action",
+			"authors": "Ghannoum MA, Rice LB",
+			"year": "1999",
+			"journal": "Clinical Microbiology Reviews",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/10515903/",
+			"keyFindings": "Comprehensive review detailing ketoconazole's mechanism of action as an azole antifungal, including inhibition of lanosterol 14-alpha-demethylase and disruption of ergosterol synthesis. Provided foundational understanding of how ketoconazole targets Malassezia and other fungi relevant to scalp conditions."
+		}
+	]
+}

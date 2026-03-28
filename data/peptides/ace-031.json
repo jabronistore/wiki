@@ -1,0 +1,206 @@
+{
+	"id": "ace-031",
+	"name": "ACE-031",
+	"subtitle": "Myostatin Inhibitor | Experimental Muscle Growth",
+	"aliases": ["ACVR2B-Fc", "ActRIIB-Fc"],
+	"compoundKind": "peptide",
+	"categories": ["growth-hormone", "anabolic"],
+	"researchStatus": "emerging",
+	"fdaApproved": false,
+	"molecular": {
+		"type": "Soluble activin receptor type IIB-Fc fusion protein",
+		"modifications": [
+			"Fc fusion extends half-life via FcRn recycling",
+			"Decoy receptor traps myostatin and other TGF-beta superfamily ligands",
+			"Binds activin A, activin B, GDF-11, and GDF-8 (myostatin)"
+		],
+		"halfLife": "12-15 days",
+		"halfLifeSeconds": 1166400,
+		"molecularWeight": "~90,000 Da"
+	},
+	"overview": "ACE-031 is a soluble form of the activin type IIB receptor (ActRIIB) fused to an IgG1 Fc domain. It functions as a decoy receptor, binding and neutralizing myostatin and other TGF-beta superfamily members that normally limit muscle growth. Originally developed by Acceleron Pharma for Duchenne muscular dystrophy (DMD), ACE-031 reached Phase 2 clinical trials before development was halted due to vascular side effects including nosebleeds and telangiectasia. In healthy volunteers, a single dose produced significant increases in lean mass and reductions in fat mass within 29 days.",
+	"mechanism": "ACE-031 acts as a ligand trap for members of the TGF-beta superfamily. By mimicking the extracellular domain of the ActRIIB receptor, it intercepts myostatin (GDF-8), activin A, activin B, and GDF-11 before they can bind cell-surface receptors and activate Smad2/3 signaling. Blocking this pathway removes the natural brake on muscle protein synthesis and satellite cell proliferation, resulting in rapid skeletal muscle hypertrophy. The Fc fusion domain extends circulating half-life through FcRn-mediated recycling and provides bivalent ligand binding.",
+	"keyBenefits": [
+		"Significant lean mass increases (up to 1.7% in 29 days) observed in Phase 1 trials",
+		"Simultaneous reduction in fat mass alongside muscle gains",
+		"Long half-life (12-15 days) allows infrequent dosing",
+		"Broad TGF-beta ligand neutralization for robust anti-catabolic effects",
+		"Dose-dependent increases in thigh muscle volume confirmed by MRI"
+	],
+	"indications": [
+		{
+			"category": "Muscle Growth",
+			"items": [
+				{
+					"name": "Muscle Hypertrophy",
+					"description": "Phase 1 data showed statistically significant lean mass increases (average +1.7%) after a single IV dose in healthy postmenopausal women.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Muscular Dystrophy",
+					"description": "Phase 2 trial in DMD patients showed improvements in lean body mass and bone mineral density, but trial was halted due to vascular adverse events.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Muscle Wasting / Cachexia",
+					"description": "Preclinical models demonstrate robust prevention of muscle loss in disease states through myostatin pathway inhibition.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Body Composition",
+			"items": [
+				{
+					"name": "Fat Loss",
+					"description": "Phase 1 trial subjects showed concurrent fat mass reductions alongside lean mass gains, suggesting favorable nutrient partitioning.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Bone Density",
+					"description": "DMD trial data showed increases in bone mineral density, consistent with known effects of ActRIIB pathway modulation on bone metabolism.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "injectable",
+			"available": true,
+			"overview": "Administered as an intravenous infusion in clinical trials. Research doses ranged from 0.1 to 3 mg/kg given every 2 weeks. This compound is not commercially available and has never been approved for any indication.",
+			"protocols": [
+				{
+					"goal": "Phase 1 Research Protocol (Healthy Volunteers)",
+					"dose": "0.1-3 mg/kg",
+					"frequency": "Single IV dose",
+					"route": "IV infusion"
+				},
+				{
+					"goal": "Phase 2 Research Protocol (DMD)",
+					"dose": "0.5-2.5 mg/kg",
+					"frequency": "Every 2 weeks",
+					"route": "IV or SubQ"
+				}
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Follistatin",
+			"status": "synergistic",
+			"notes": "Both inhibit myostatin through different mechanisms (ligand trapping vs. direct binding). Conceptually synergistic, but no clinical data on combination use."
+		},
+		{
+			"peptide": "YK-11",
+			"status": "monitor",
+			"notes": "Both target the myostatin pathway. YK-11 acts as a myostatin inhibitor through a different mechanism. Combined use could produce excessive pathway suppression with unpredictable effects."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "Initial ligand trapping begins; circulating myostatin levels decrease. No overt physical changes expected yet."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Measurable lean mass increases detectable by DXA/MRI. Phase 1 data showed +1.7% lean mass by day 29. Possible onset of vascular side effects (nosebleeds)."
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Continued muscle accretion with repeated dosing. Fat mass reduction becomes more apparent. Monitor closely for telangiectasia and bleeding events."
+		},
+		{
+			"period": "Post-treatment",
+			"effects": "Effects diminish over several weeks as drug clears. Muscle gains may partially persist with continued resistance training."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Nosebleeds (epistaxis) - most frequently reported adverse event",
+			"Gum bleeding",
+			"Telangiectasia (dilated small blood vessels visible on skin)",
+			"Skin erythema (redness)",
+			"Minor injection site reactions"
+		],
+		"stopSigns": [
+			"Recurrent or severe nosebleeds",
+			"Development of new or worsening telangiectasia",
+			"Unexplained bleeding from any site",
+			"Signs of hereditary hemorrhagic telangiectasia-like syndrome",
+			"Severe skin reactions or widespread erythema"
+		],
+		"contraindications": [
+			"NEVER approved for human use - clinical development discontinued",
+			"History of bleeding disorders or vascular malformations",
+			"Concurrent anticoagulant or antiplatelet therapy",
+			"Known hypersensitivity to Fc fusion proteins",
+			"Pregnancy or breastfeeding"
+		],
+		"monitoring": [
+			"Watch for any signs of bleeding, especially nasal and gingival",
+			"Regular skin examination for new telangiectasia",
+			"Complete blood count to monitor for anemia from chronic bleeding",
+			"Blood pressure monitoring"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Manufactured under GMP conditions for clinical trials",
+			"Characterized by SDS-PAGE and mass spectrometry",
+			"Endotoxin-tested and sterility-verified",
+			"Stored at 2-8°C with documented cold chain"
+		],
+		"warning": [
+			"Clinical development halted - not commercially manufactured",
+			"No legitimate commercial source exists",
+			"Any product sold as ACE-031 is of unknown origin and quality",
+			"Fusion protein structure is sensitive to degradation"
+		],
+		"bad": [
+			"Vascular side effects led to trial discontinuation - nosebleeds and telangiectasia were dose-limiting",
+			"Broad ligand trapping may cause unintended effects beyond myostatin inhibition",
+			"Long-term safety profile completely unknown"
+		]
+	},
+	"references": [
+		{
+			"title": "A soluble activin receptor type IIB (ACE-031) increases lean body mass and muscle strength in healthy postmenopausal women",
+			"authors": "Attie KM, Borgstein NG, Yang Y, Condon CH, Wilson DM, Pearsall AE, Kumar R, Willins DA, Seehra JS, Sherman ML",
+			"journal": "Journal of Clinical Endocrinology & Metabolism",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23539721/",
+			"keyFindings": "Single ascending-dose Phase 1 trial in 48 postmenopausal women. ACE-031 produced statistically significant increases in total body lean mass (+1.7%) and thigh muscle volume (+5.1%) by day 29, with concurrent decreases in fat mass and leptin."
+		},
+		{
+			"title": "A phase 2 trial of ACE-031, a soluble activin receptor type IIB, in boys with Duchenne muscular dystrophy",
+			"authors": "Campbell C, McMillan HJ, Mah JK, Tarnopolsky M, Selby K, McClure T, Wilson DM, Sherman ML, Bhatt SA, Trachtenberg FL, Kunkel LM, Bhatt RS",
+			"journal": "Neuromuscular Disorders",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28131562/",
+			"keyFindings": "Phase 2 study in 12 DMD boys showed increases in lean body mass and bone mineral density. Trial was halted due to safety concerns including epistaxis, telangiectasia, and erythema. Preliminary efficacy signals were observed but could not be fully evaluated."
+		},
+		{
+			"title": "Pharmacokinetic, pharmacodynamic, and safety results from a first-in-human study of ACE-031, a novel activin receptor type IIB/Fc fusion protein",
+			"authors": "Bhatt RS, Goss A, Wilson DM, Borgstein NG, Sherman ML",
+			"journal": "Journal of Clinical Pharmacology",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24691811/",
+			"keyFindings": "ACE-031 demonstrated a half-life of approximately 12 days with dose-proportional pharmacokinetics. The compound suppressed circulating FSH levels, consistent with activin A neutralization, and showed a dose-dependent increase in lean mass biomarkers."
+		},
+		{
+			"title": "Myostatin inhibition in health and disease",
+			"authors": "Lee SJ",
+			"journal": "Annual Review of Cell and Developmental Biology",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15473835/",
+			"keyFindings": "Comprehensive review establishing myostatin as a key negative regulator of skeletal muscle mass. Demonstrated that myostatin-null mice exhibit dramatic increases in muscle mass, providing the biological rationale for therapeutic myostatin inhibition strategies including soluble receptor approaches."
+		}
+	],
+	"quickStats": {
+		"typicalDose": "0.5-3 mg/kg IV every 2 weeks (clinical research doses only)",
+		"frequency": "Every 2 weeks",
+		"cycleDuration": "Clinical trials used 4-12 week treatment periods",
+		"storage": "2-8°C; protect from light. Not commercially available."
+	}
+}

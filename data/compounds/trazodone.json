@@ -1,0 +1,232 @@
+{
+	"id": "trazodone",
+	"name": "Trazodone",
+	"subtitle": "Serotonin Antagonist & Reuptake Inhibitor | Sleep Aid",
+	"aliases": ["Desyrel", "Oleptro"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["sleep"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "25-100 mg at bedtime (sleep)",
+		"frequency": "Once daily at bedtime",
+		"cycleDuration": "As prescribed, often ongoing",
+		"storage": "Room temperature (68-77F). Protect from moisture and light."
+	},
+	"molecular": {
+		"weight": "371.86 Da",
+		"type": "Triazolopyridine derivative (C19H22ClN5O)",
+		"modifications": [
+			"Oleptro is an extended-release formulation designed for once-daily dosing with a slower absorption profile and reduced peak-related sedation"
+		],
+		"halfLife": "~5-9 hours",
+		"halfLifeSeconds": 25200,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Trazodone is a serotonin antagonist and reuptake inhibitor (SARI) that was originally approved by the FDA in 1981 for the treatment of major depressive disorder. However, its clinical use has shifted dramatically over the decades. Today, trazodone is prescribed almost exclusively at low doses as a sleep aid rather than as an antidepressant, making it one of the most commonly prescribed medications for insomnia in the United States. Its popularity stems from the fact that it is non-habit-forming, does not carry the dependence risk associated with benzodiazepines or Z-drugs, and can be used long-term without tolerance development. Trazodone has become particularly well-known in the bodybuilding and performance-enhancement community as a go-to solution for managing insomnia caused by trenbolone and other 19-nortestosterone derivatives, which are notorious for disrupting sleep architecture. Unlike many sleep medications, trazodone actually improves slow-wave sleep (deep sleep) rather than simply inducing sedation, which makes it especially valuable for recovery-focused athletes.",
+	"mechanism": "Trazodone's sleep-promoting effects arise from a combination of pharmacological actions across multiple receptor systems. At low doses (25-100 mg), the dominant mechanism is potent antagonism of 5-HT2A serotonin receptors, which promotes slow-wave sleep and reduces sleep latency. Trazodone also blocks histamine H1 receptors, contributing to its sedative properties, and antagonizes alpha-1 adrenergic receptors, which produces additional drowsiness and accounts for the orthostatic hypotension sometimes observed. At higher doses used for depression (150-400 mg), serotonin reuptake inhibition (SRI) becomes more relevant, increasing serotonergic tone in a manner similar to SSRIs but with a distinct receptor profile. The compound is metabolized primarily by CYP3A4 to its active metabolite meta-chlorophenylpiperazine (mCPP), which has serotonin agonist properties. The dose-dependent shift in pharmacological profile explains why trazodone is sedating at low doses but can be activating or cause more typical serotonergic side effects at antidepressant doses.",
+	"keyBenefits": [
+		"Effective sleep aid that improves sleep onset and sleep maintenance without the dependence risk of benzodiazepines",
+		"Enhances slow-wave (deep) sleep, which is critical for physical recovery and growth hormone release",
+		"Non-habit-forming with no significant tolerance development, even with long-term use",
+		"Widely used and well-tolerated solution for trenbolone-induced and steroid-related insomnia",
+		"Does not suppress REM sleep the way many other sleep medications do",
+		"Inexpensive, widely available as a generic, and has decades of safety data"
+	],
+	"indications": [
+		{
+			"category": "FDA-Approved",
+			"items": [
+				{
+					"name": "Major Depressive Disorder",
+					"description": "FDA-approved for the treatment of major depressive disorder, though it is rarely used as a primary antidepressant today due to the availability of SSRIs and SNRIs with more favorable side effect profiles for daytime use. Antidepressant doses range from 150-400 mg/day, significantly higher than the doses used for sleep.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Off-Label (Primary Use)",
+			"items": [
+				{
+					"name": "Insomnia",
+					"description": "The most common clinical use of trazodone today. Low doses (25-100 mg) at bedtime reduce sleep onset latency, improve sleep continuity, and enhance slow-wave sleep. Multiple studies support its efficacy, and it is the most frequently prescribed off-label medication for insomnia in the United States. Particularly valued because it avoids the dependence and rebound insomnia associated with benzodiazepines and Z-drugs.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Steroid-Induced Insomnia",
+					"description": "Extremely popular in the bodybuilding and PED community for managing sleep disruption caused by anabolic steroids, particularly trenbolone (19-nortestosterone derivatives). Trenbolone is notorious for causing severe insomnia and night sweats, and trazodone at 50-100 mg is one of the most reliable and accessible solutions. Its non-addictive profile makes it suitable for use throughout entire steroid cycles.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Off-Label (Secondary)",
+			"items": [
+				{
+					"name": "Anxiety-Related Insomnia",
+					"description": "Useful for patients whose insomnia is driven by anxiety or racing thoughts at bedtime. The 5-HT2A antagonism and mild anxiolytic properties help quiet mental activity without the cognitive impairment of benzodiazepines.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Insomnia Co-occurring with Depression",
+					"description": "Often added to an existing SSRI or SNRI regimen specifically to address insomnia. Low-dose trazodone at bedtime can complement a daytime antidepressant without significant drug interaction concerns at typical doses.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Trazodone is available as immediate-release tablets (50 mg, 100 mg, 150 mg, 300 mg) and as an extended-release formulation (Oleptro, 150 mg, 300 mg). For insomnia, immediate-release tablets are used almost exclusively, typically split or prescribed at 25-100 mg doses. The drug is well absorbed orally, and taking it with food increases bioavailability and delays peak concentrations, which can reduce initial dizziness. Peak plasma levels occur approximately 1-2 hours after ingestion on an empty stomach.",
+			"protocols": [
+				{
+					"goal": "Sleep Aid - Starting Dose",
+					"dose": "25-50 mg",
+					"frequency": "Once at bedtime",
+					"route": "Oral tablet",
+					"notes": "Recommended starting dose for insomnia. Take 30-60 minutes before bed. A small snack can reduce lightheadedness. Many individuals find 25-50 mg sufficient for reliable sleep onset."
+				},
+				{
+					"goal": "Sleep Aid - Standard Dose",
+					"dose": "50-100 mg",
+					"frequency": "Once at bedtime",
+					"route": "Oral tablet",
+					"notes": "Most common effective dose range for insomnia. Doses above 100 mg for sleep purposes are rarely necessary and increase the risk of next-day drowsiness. For steroid-induced insomnia (e.g., trenbolone), 50-100 mg is the typical effective range."
+				},
+				{
+					"goal": "Antidepressant - Therapeutic Dose",
+					"dose": "150-400 mg/day",
+					"frequency": "Divided doses or once daily (extended-release)",
+					"route": "Oral tablet",
+					"notes": "Full antidepressant dosing. Rarely used for this purpose today. Doses are typically titrated upward from 150 mg/day. Maximum dose is 400 mg/day for outpatients and 600 mg/day for inpatients. Significant sedation, orthostatic hypotension, and other side effects are more common at these doses."
+				}
+			],
+			"keyBenefits": [
+				"Simple oral dosing with rapid onset (30-60 minutes)",
+				"Inexpensive generic tablets are widely available",
+				"Tablets can be easily split for precise low-dose titration",
+				"No special handling, reconstitution, or storage requirements",
+				"Taking with a small amount of food improves tolerability"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "SSRIs (e.g., Sertraline, Fluoxetine)",
+			"status": "monitor",
+			"notes": "Combining trazodone with SSRIs increases serotonergic activity and raises the theoretical risk of serotonin syndrome, though this combination is commonly used in clinical practice at low trazodone doses for insomnia. Monitor for symptoms including agitation, tremor, hyperthermia, and myoclonus. The risk is dose-dependent and generally low at sleep-aid doses (25-100 mg)."
+		},
+		{
+			"peptide": "MAOIs",
+			"status": "avoid",
+			"notes": "Concurrent use of trazodone with monoamine oxidase inhibitors (MAOIs) is contraindicated due to a significant risk of serotonin syndrome, a potentially life-threatening condition. Allow a minimum 14-day washout period between discontinuing an MAOI and starting trazodone, and vice versa."
+		},
+		{
+			"peptide": "Phenibut",
+			"status": "monitor",
+			"notes": "Both trazodone and phenibut have sedative properties. Combining them can result in excessive CNS depression, including profound drowsiness, impaired coordination, and respiratory depression at high doses. If used together, start with lower doses of both and avoid combining with alcohol or other CNS depressants."
+		},
+		{
+			"peptide": "Alcohol",
+			"status": "monitor",
+			"notes": "Alcohol potentiates the sedative and CNS-depressant effects of trazodone. The combination increases the risk of excessive drowsiness, dizziness, orthostatic hypotension, and impaired motor coordination. Patients should be counseled to limit or avoid alcohol use, particularly within a few hours of taking trazodone."
+		}
+	],
+	"timeline": [
+		{
+			"period": "30-60 minutes",
+			"effects": "Onset of drowsiness and sedation. Most individuals begin to feel sleepy within 30-60 minutes of taking trazodone, making it important to take the dose when ready for bed. Taking it with a small snack may slightly delay onset but improves tolerability."
+		},
+		{
+			"period": "1-2 hours",
+			"effects": "Peak plasma concentration reached. Maximum sedative effect is felt. Sleep onset typically occurs during this window. Users report a calm, natural-feeling drowsiness rather than the heavy, forced sedation of benzodiazepines."
+		},
+		{
+			"period": "3-5 hours",
+			"effects": "Deep sleep maintenance. Trazodone's 5-HT2A antagonism supports sustained slow-wave sleep during the first half of the night, which is the most restorative phase of sleep for physical recovery."
+		},
+		{
+			"period": "5-9 hours",
+			"effects": "Drug elimination phase. Trazodone is cleared with a half-life of 5-9 hours. At low doses (25-50 mg), most individuals wake without residual sedation. At higher doses (75-100 mg), some morning grogginess is possible, particularly during the first few days of use."
+		},
+		{
+			"period": "1-2 weeks",
+			"effects": "Consistent use establishes a reliable sleep pattern. Unlike benzodiazepines, efficacy is maintained without dose escalation. Any initial morning drowsiness typically resolves as the body adjusts to the medication."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Morning drowsiness or grogginess (dose-dependent, more common above 50 mg)",
+			"Dry mouth",
+			"Dizziness or lightheadedness, particularly upon standing (orthostatic hypotension)",
+			"Headache",
+			"Nausea (reduced by taking with food)",
+			"Blurred vision"
+		],
+		"rare": [
+			"Priapism (prolonged, painful erection unrelated to sexual arousal) -- rare but a serious medical emergency requiring immediate treatment. Estimated incidence is approximately 1 in 6,000 to 1 in 10,000 male patients. Can lead to permanent erectile dysfunction if untreated",
+			"Serotonin syndrome (primarily when combined with other serotonergic drugs at high doses)",
+			"Cardiac arrhythmias, including QT prolongation (more common at high doses or in patients with pre-existing cardiac conditions)",
+			"Hyponatremia (SIADH), particularly in elderly patients",
+			"Orthostatic hypotension severe enough to cause syncope"
+		],
+		"stopSigns": [
+			"Prolonged or painful erection lasting more than 4 hours (priapism -- seek emergency medical attention immediately)",
+			"Signs of serotonin syndrome: agitation, confusion, rapid heart rate, elevated body temperature, muscle rigidity, tremor",
+			"Fainting or severe lightheadedness upon standing",
+			"Irregular heartbeat, chest pain, or palpitations",
+			"Allergic reaction: rash, swelling of the face or throat, difficulty breathing"
+		],
+		"contraindications": [
+			"Known hypersensitivity to trazodone",
+			"Concurrent use of MAOIs or use within 14 days of MAOI discontinuation",
+			"History of priapism or conditions predisposing to priapism (e.g., sickle cell disease, multiple myeloma, leukemia)",
+			"Severe hepatic impairment (dose adjustment required in moderate impairment)",
+			"Recent myocardial infarction or unstable cardiac conditions",
+			"Pregnancy, particularly first trimester (Category C; limited human data)"
+		],
+		"monitoring": [
+			"Blood pressure: check for orthostatic hypotension, especially during initiation and dose increases",
+			"Mental status: monitor for worsening depression or emergence of suicidal ideation, particularly in younger patients",
+			"Sexual function: counsel male patients about the risk of priapism and the importance of seeking immediate medical attention",
+			"Liver function: periodic monitoring if used long-term, particularly in patients with hepatic impairment",
+			"Sodium levels: monitor in elderly patients or those on diuretics due to risk of hyponatremia"
+		]
+	},
+	"references": [
+		{
+			"title": "Trazodone for Insomnia: A Systematic Review",
+			"authors": "Yi, X.Y., Ni, S.F., Ghadami, M.R., et al.",
+			"journal": "Frontiers in Pharmacology",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29997509/",
+			"keyFindings": "Systematic review examining trazodone's efficacy for insomnia across multiple clinical populations. Found consistent evidence that low-dose trazodone (25-150 mg) improves sleep quality, reduces sleep onset latency, and enhances slow-wave sleep, supporting its widespread off-label use as a first-line insomnia treatment."
+		},
+		{
+			"title": "The Use of Trazodone as a Hypnotic: A Critical Review",
+			"authors": "Mendelson, W.B.",
+			"journal": "Journal of Clinical Psychiatry",
+			"year": "2005",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15669897/",
+			"keyFindings": "Critical review of trazodone's use as a hypnotic, noting that despite limited large-scale randomized controlled trials specifically for insomnia, trazodone had become the most commonly prescribed agent for insomnia in the United States by the early 2000s, largely due to clinician experience and its favorable safety profile relative to benzodiazepines."
+		},
+		{
+			"title": "Trazodone: Pharmacology, Clinical Uses, and Adverse Effects",
+			"authors": "Stahl, S.M.",
+			"journal": "Journal of Clinical Psychiatry",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19758524/",
+			"keyFindings": "Comprehensive pharmacological review describing trazodone's dose-dependent mechanism of action: 5-HT2A antagonism and histamine blockade predominate at low doses (producing sedation), while serotonin reuptake inhibition becomes relevant only at higher antidepressant doses, explaining the clinical divergence between its use as a sleep aid and as an antidepressant."
+		},
+		{
+			"title": "Low-Dose Trazodone Lowers the Risk of Admission for Benzodiazepine/Z-Drug Use",
+			"authors": "Jaffer, K.Y., Chang, T., Vanle, B., et al.",
+			"journal": "Journal of Clinical Medicine",
+			"year": "2017",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/28783055/",
+			"keyFindings": "Study demonstrating that low-dose trazodone use for insomnia was associated with reduced need for benzodiazepine and Z-drug prescriptions, supporting the role of trazodone as a safer alternative for long-term insomnia management without the risks of dependence, tolerance, and withdrawal associated with GABAergic hypnotics."
+		}
+	]
+}

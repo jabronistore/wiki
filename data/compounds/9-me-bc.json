@@ -1,0 +1,206 @@
+{
+	"id": "9-me-bc",
+	"name": "9-Me-BC",
+	"subtitle": "Beta-Carboline | Dopaminergic Neurorestorative",
+	"aliases": ["9-Methyl-beta-carboline", "9-MBC"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cognitive"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "5-15 mg/day",
+		"frequency": "Once daily (morning, sublingual)",
+		"cycleDuration": "2-4 weeks on, 2-4 weeks off",
+		"storage": "Room temperature (68-77F). Protect from light and moisture. Keep sealed."
+	},
+	"molecular": {
+		"weight": "182.22 Da",
+		"type": "Beta-carboline derivative (C12H10N2)",
+		"modifications": [
+			"9-Methyl substitution on the beta-carboline ring system -- enhances dopaminergic neurotrophic activity and differentiates it from other harmine-class beta-carbolines"
+		],
+		"halfLife": "Not well characterized in humans",
+		"halfLifeRoute": "Sublingual"
+	},
+	"overview": "9-Me-BC (9-Methyl-beta-carboline) is a synthetic beta-carboline derivative that has attracted significant attention in the nootropic community for its apparent ability to promote dopaminergic neuron growth, differentiation, and restoration. Unlike conventional dopaminergic drugs that manipulate existing neurotransmitter levels through reuptake inhibition or receptor agonism, 9-Me-BC appears to act at a more fundamental level by upregulating tyrosine hydroxylase expression, stimulating neurotrophic factors, and promoting the outgrowth of dopaminergic neurites. This neurorestorative profile has made it a subject of interest in Parkinson's disease research, where the degeneration of dopaminergic neurons in the substantia nigra is the core pathological feature. In the nootropic and performance-enhancement communities, 9-Me-BC has gained popularity as a tool for 'dopamine repair' -- the attempt to restore normal dopaminergic function after periods of stimulant abuse, chronic stress, or hormonal suppression (such as after SARM cycles). However, the compound carries a critical safety concern: 9-Me-BC is photosensitizing and potentially phototoxic, meaning that UV exposure during use can cause severe skin reactions and, more seriously, DNA damage in skin cells. All available research is limited to animal models and in-vitro cell culture studies, with no human clinical trials conducted to date.",
+	"mechanism": "9-Me-BC exerts its effects through multiple convergent mechanisms centered on dopaminergic neuron support and restoration. Its primary documented action is the upregulation of tyrosine hydroxylase (TH), the rate-limiting enzyme in dopamine biosynthesis, which increases the endogenous capacity for dopamine production -- a mechanism it shares conceptually with bromantane, though through a distinct pharmacological pathway rooted in its beta-carboline structure. Beyond TH upregulation, 9-Me-BC has been shown in vitro to promote the differentiation and neurite outgrowth of dopaminergic neurons, suggesting genuine neurotrophic and neurorestorative properties rather than simple neurotransmitter modulation. The compound also demonstrates anti-inflammatory activity in microglial cells, reducing neuroinflammatory signaling that can damage dopaminergic neurons. Additionally, as a beta-carboline, 9-Me-BC possesses inherent monoamine oxidase (MAO) inhibitory activity, though the degree and selectivity of this inhibition at typical doses remains poorly characterized. This MAO activity is relevant both therapeutically (contributing to elevated monoamine levels) and from a safety perspective (creating potential interactions with serotonergic and other monoaminergic drugs). The photosensitizing properties of 9-Me-BC are intrinsic to the beta-carboline chromophore, which absorbs UV radiation and can generate reactive oxygen species that damage DNA and cellular structures in sun-exposed tissues.",
+	"keyBenefits": [
+		"Upregulates tyrosine hydroxylase expression, enhancing endogenous dopamine synthesis capacity",
+		"Promotes dopaminergic neuron differentiation and neurite outgrowth in preclinical models, suggesting genuine neurorestorative potential",
+		"Anti-inflammatory effects on microglia may protect dopaminergic neurons from neuroinflammatory damage",
+		"Potential application in restoring dopaminergic function after stimulant-induced downregulation or neurotoxic damage",
+		"Low effective dose (milligram range) compared to many other nootropic compounds"
+	],
+	"indications": [
+		{
+			"category": "Dopaminergic Restoration",
+			"items": [
+				{
+					"name": "Post-Stimulant Dopamine Recovery",
+					"description": "The most common nootropic use case for 9-Me-BC is the restoration of dopaminergic function following periods of stimulant use (amphetamines, methylphenidate, high-dose caffeine) that may have downregulated dopamine receptors or depleted dopaminergic tone. By upregulating TH and promoting dopaminergic neuron health, 9-Me-BC theoretically supports the recovery of normal motivational drive and reward sensitivity. Evidence is limited to animal models and user reports.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Post-SARM/Hormonal Recovery Support",
+					"description": "Used in the bodybuilding and performance-enhancement community during PCT (post-cycle therapy) phases following SARM or prohormone cycles, where hormonal suppression can reduce dopaminergic tone. The rationale is to support neurological recovery alongside endocrine recovery.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Neuroprotection",
+			"items": [
+				{
+					"name": "Parkinson's Disease (Preclinical)",
+					"description": "9-Me-BC has been studied in animal models of Parkinson's disease, where it demonstrated the ability to restore dopaminergic neuron function and promote neurite regrowth in lesioned dopaminergic pathways. These findings are promising but remain preclinical, with no human trials conducted.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "General Dopaminergic Neuroprotection",
+					"description": "The combination of TH upregulation, neurotrophic activity, and anti-neuroinflammatory effects positions 9-Me-BC as a potentially broad neuroprotective agent for the dopaminergic system. However, the phototoxicity risk and lack of human data significantly complicate any long-term neuroprotective application.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Cognitive Enhancement",
+			"items": [
+				{
+					"name": "Motivation and Drive",
+					"description": "Through enhanced dopamine synthesis capacity, users report improvements in baseline motivation, initiative, and the ability to engage in cognitively demanding tasks. Effects are described as subtle and cumulative rather than acutely stimulating.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "sublingual",
+			"available": true,
+			"overview": "Sublingual administration is the most common route for 9-Me-BC in the nootropic community. The compound is typically supplied as a powder or in capsule form, with sublingual dosing preferred for improved bioavailability by bypassing first-pass hepatic metabolism. The powder is held under the tongue for 1-2 minutes before swallowing. Dosing should occur exclusively in the morning to minimize any risk of insomnia from dopaminergic stimulation, and strict sun avoidance must be maintained throughout the entire period of use.",
+			"protocols": [
+				{
+					"goal": "Standard Nootropic / Dopamine Restoration",
+					"dose": "5-15 mg",
+					"frequency": "Once daily in the morning",
+					"route": "Sublingual",
+					"notes": "Start at 5 mg to assess tolerance. Most users settle in the 10-15 mg range. CRITICAL: Avoid all sun and UV exposure throughout the entire duration of use and for several days after cessation. Apply broad-spectrum SPF 50+ sunscreen if any outdoor exposure is unavoidable. Typical cycle length is 2-4 weeks."
+				}
+			],
+			"keyBenefits": [
+				"Low milligram dosing is convenient and economical",
+				"Sublingual route may provide better bioavailability than oral swallowing",
+				"No reconstitution or injection required"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Bromantane",
+			"status": "synergistic",
+			"notes": "Both compounds upregulate tyrosine hydroxylase through distinct pharmacological mechanisms (beta-carboline vs. adamantane pathways). Conceptually synergistic for dopaminergic restoration, though no formal studies have evaluated the combination. If combining, use conservative doses of each and monitor for signs of excessive dopaminergic stimulation."
+		},
+		{
+			"peptide": "MAOIs",
+			"status": "avoid",
+			"notes": "9-Me-BC possesses inherent monoamine oxidase inhibitory activity as a beta-carboline. Combining with pharmaceutical MAOIs (phenelzine, tranylcypromine, selegiline at higher doses) risks dangerous potentiation of monoaminergic activity, potentially including hypertensive crisis or serotonin syndrome. This combination should be strictly avoided."
+		},
+		{
+			"peptide": "SSRIs",
+			"status": "monitor",
+			"notes": "The MAO inhibitory activity of 9-Me-BC, combined with the serotonin reuptake inhibition of SSRIs, creates a theoretical risk of serotonin excess. While the degree of MAO inhibition at typical 9-Me-BC doses may be modest, the interaction warrants careful monitoring. Watch for signs of serotonergic excess including agitation, tremor, hyperthermia, and rapid heart rate."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Days 1-3",
+			"effects": "Most users report minimal acute effects during the first few days. Some note a subtle improvement in mood or mental clarity, but 9-Me-BC is not an acute stimulant and its primary mechanisms operate through gene expression changes that take time to manifest."
+		},
+		{
+			"period": "Days 4-7",
+			"effects": "Emerging improvements in motivation, baseline energy, and cognitive drive become more noticeable as tyrosine hydroxylase upregulation begins to increase dopamine synthesis capacity. Sleep quality may improve or, in some cases, insomnia may develop if dosing timing is not optimized."
+		},
+		{
+			"period": "Weeks 2-3",
+			"effects": "Peak effects are typically reported during this window. Users describe improved motivation, greater ease in initiating and sustaining tasks, enhanced mood stability, and a sense of restored dopaminergic function. Those using it for post-stimulant recovery often report that anhedonia and amotivation have noticeably diminished."
+		},
+		{
+			"period": "Week 4+",
+			"effects": "Most protocols recommend discontinuation by week 4 to minimize cumulative phototoxicity risk and allow assessment of lasting benefits. Many users report that improvements in dopaminergic tone persist for weeks to months after cessation, consistent with the neurorestorative (rather than merely symptomatic) mechanism of action."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Severe photosensitivity -- CRITICAL: skin becomes highly reactive to UV radiation during use, with risk of exaggerated sunburn, phototoxic skin reactions, and UV-induced DNA damage",
+			"Insomnia or sleep disruption (mitigated by morning-only dosing)",
+			"Mild headache during the first few days of use"
+		],
+		"rare": [
+			"Anxiety or overstimulation at higher doses",
+			"Gastrointestinal discomfort",
+			"Skin discoloration or persistent photosensitivity reactions with UV exposure"
+		],
+		"stopSigns": [
+			"Any sunburn or phototoxic skin reaction -- immediately discontinue and avoid further UV exposure",
+			"Persistent insomnia despite morning-only dosing and dose reduction",
+			"Significant anxiety or agitation",
+			"Any signs of serotonergic excess (tremor, agitation, rapid heart rate, hyperthermia) when used alongside other serotonergic compounds"
+		],
+		"contraindications": [
+			"Inability to strictly avoid sun and UV exposure for the duration of use -- this is an absolute contraindication due to the risk of phototoxic DNA damage",
+			"Concurrent use of MAO inhibitors",
+			"Pregnancy and breastfeeding (no safety data available)",
+			"History of photosensitivity disorders or skin cancer",
+			"Concurrent use of other photosensitizing medications (tetracyclines, fluoroquinolones, thiazides, etc.)"
+		],
+		"monitoring": [
+			"Sun exposure: maintain strict UV avoidance throughout the cycle and for several days after cessation",
+			"Skin condition: inspect daily for any signs of photosensitivity reaction, unusual sunburn, or skin changes",
+			"Sleep quality: ensure morning dosing does not disrupt sleep",
+			"Mood and motivation: track changes over the 2-4 week cycle to assess response",
+			"DNA damage concerns: limit cycle duration and lifetime cumulative exposure given uncharacterized long-term phototoxicity risk"
+		]
+	},
+	"references": [
+		{
+			"title": "9-Methyl-beta-carboline Up-regulates the Appearance of Differentiated Dopaminergic Neurones in Primary Mesencephalic Culture",
+			"authors": "Hamann, J., Wernicke, C., Lehmann, J., Reichmann, H., Rommelspacher, H., Gille, G.",
+			"journal": "Neurochemistry International",
+			"year": "2008",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/18164508/",
+			"keyFindings": "Demonstrated that 9-Me-BC promotes the differentiation of dopaminergic neurons and upregulates tyrosine hydroxylase expression in primary mesencephalic cell cultures. Showed increased neurite outgrowth and enhanced dopaminergic neuron survival, establishing the foundational evidence for 9-Me-BC's neurorestorative properties."
+		},
+		{
+			"title": "9-Methyl-beta-carboline has Restorative Effects in an Animal Model of Parkinson's Disease",
+			"authors": "Gille, G., Shin, E., Zur Nedden, S.,'; Hamann, J., Drber, S., Steinmeyer, B., Lehmann, J., Rommelspacher, H.",
+			"journal": "Pharmacology Reports",
+			"year": "2011",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/21602663/",
+			"keyFindings": "Showed that 9-Me-BC restores dopaminergic function in a 6-OHDA rat model of Parkinson's disease. Treatment with 9-Me-BC resulted in recovery of dopaminergic neuron markers and behavioral improvements, supporting its potential as a neurorestorative agent for dopaminergic neurodegeneration."
+		},
+		{
+			"title": "The Neurotoxicity of Beta-carbolines: Molecular Mechanisms and Implications for Parkinson's Disease",
+			"authors": "Wernicke, C., Hellmann, J., Zieba, B., Kuter, K., Ossowska, K., Frenzel, M., Dencher, N.A., Rommelspacher, H.",
+			"journal": "Current Drug Targets",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20632941/",
+			"keyFindings": "Reviewed the neurotoxic and neurotrophic properties of various beta-carbolines including 9-Me-BC. While some beta-carbolines are neurotoxic, 9-Me-BC was distinguished as having protective and restorative properties for dopaminergic neurons, though the review highlighted the importance of structural specificity in determining whether a given beta-carboline is neurotrophic or neurotoxic."
+		},
+		{
+			"title": "Phototoxicity of Beta-carbolines: DNA Damage and Implications",
+			"authors": "Gonzalez, M.M., Arnbjerg, J., Denofrio, M.P., Erra-Balsells, R., Ogilby, P.R., Cabrerizo, F.M.",
+			"journal": "Journal of Physical Chemistry A",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19496530/",
+			"keyFindings": "Characterized the photophysical and photochemical properties of beta-carbolines and demonstrated their capacity to generate reactive oxygen species upon UV irradiation. Established that beta-carbolines can cause DNA damage through photosensitized mechanisms, providing the scientific basis for the strict sun avoidance requirements during 9-Me-BC use."
+		},
+		{
+			"title": "Anti-inflammatory Effects of 9-Methyl-beta-carboline on Activated Microglia",
+			"authors": "Jung, T., Schauer, T., Bhatt, D.K., Bhargava, P., Bhopale, K.K., Rommelspacher, H., Bhatt, M.H.",
+			"journal": "European Journal of Pharmacology",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24928229/",
+			"keyFindings": "Demonstrated that 9-Me-BC suppresses pro-inflammatory signaling in activated microglial cells, reducing the release of inflammatory mediators that contribute to dopaminergic neurodegeneration. This anti-neuroinflammatory activity represents an additional mechanism by which 9-Me-BC may protect and restore dopaminergic neuron function."
+		}
+	]
+}

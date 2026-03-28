@@ -1,0 +1,251 @@
+{
+	"id": "meldonium",
+	"name": "Meldonium",
+	"subtitle": "Metabolic Modulator | Endurance & Cardioprotection",
+	"aliases": ["Mildronate", "MET-88", "THP"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cardiovascular", "metabolic"],
+	"researchStatus": "moderate-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "500-1000 mg/day",
+		"frequency": "Once or twice daily (oral)",
+		"cycleDuration": "4-6 weeks",
+		"storage": "Room temperature (59-86F). Protect from moisture."
+	},
+	"molecular": {
+		"weight": "146.19 Da",
+		"type": "Hydrazinium derivative (C6H14N2O2)",
+		"modifications": [
+			"3-(2,2,2-trimethylhydrazinium)propionate -- a structural analogue of gamma-butyrobetaine (GBB), the direct precursor to L-carnitine",
+			"Small, highly polar molecule with good oral bioavailability",
+			"Inhibits gamma-butyrobetaine hydroxylase (BBOX), the enzyme catalyzing the final step of carnitine biosynthesis"
+		],
+		"halfLife": "~4-6 hours",
+		"halfLifeSeconds": 18000,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Meldonium (marketed as Mildronate) is a cardioprotective and anti-ischemic drug developed at the Latvian Institute of Organic Synthesis in the 1970s by Ivars Kalvins. It is approved and widely prescribed in Latvia, Lithuania, Russia, and several other post-Soviet states for the treatment of coronary artery disease, heart failure, and cerebrovascular conditions. Meldonium has never been approved by the FDA or EMA, and it remains unavailable through conventional pharmaceutical channels in the United States and most of Western Europe. The drug gained worldwide notoriety in March 2016 when tennis star Maria Sharapova announced she had tested positive for meldonium after the World Anti-Doping Agency (WADA) added it to the Prohibited List effective January 1, 2016. Her positive test was far from isolated -- WADA reported that meldonium was the most common substance detected in doping control samples in early 2016, with hundreds of athletes across multiple sports testing positive, predominantly from Eastern European and Central Asian countries. This widespread use reflected meldonium's longstanding popularity among athletes in those regions, where it was both legally available by prescription and culturally accepted as a general-purpose cardioprotective and performance-enhancing agent. In the performance enhancement community, meldonium has attracted particular interest among anabolic steroid users seeking cardiac protection during cycles, given the well-documented cardiotoxic effects of supraphysiological androgen use including left ventricular hypertrophy, impaired diastolic function, and accelerated atherosclerosis.",
+	"mechanism": "Meldonium exerts its primary pharmacological effect by inhibiting gamma-butyrobetaine hydroxylase (BBOX), the enzyme responsible for the final step in the biosynthesis of L-carnitine from gamma-butyrobetaine (GBB). By competitively blocking this enzyme, meldonium reduces endogenous carnitine production, which in turn lowers intracellular carnitine concentrations over time. Since carnitine is essential for the transport of long-chain fatty acids across the inner mitochondrial membrane via the carnitine palmitoyltransferase (CPT) system, reduced carnitine levels impair fatty acid beta-oxidation. This forces cells -- particularly cardiomyocytes and skeletal muscle cells -- to shift their metabolic fuel preference from fatty acid oxidation toward glucose oxidation. This metabolic shift is the cornerstone of meldonium's cardioprotective mechanism. Under ischemic conditions (reduced blood flow), fatty acid oxidation becomes metabolically inefficient and even harmful: incomplete fatty acid oxidation generates toxic intermediates (long-chain acylcarnitines and acyl-CoA species) that damage cell membranes and impair mitochondrial function. Glucose oxidation, by contrast, requires less oxygen per molecule of ATP produced and does not generate these toxic intermediates. By forcing the heart to rely more on glucose, meldonium effectively optimizes energy production under oxygen-limited conditions and reduces the accumulation of cardiotoxic lipid metabolites. Additionally, the accumulation of GBB that results from BBOX inhibition has been shown to stimulate nitric oxide (NO) production via an ester-mediated mechanism, promoting vasodilation, improving endothelial function, and reducing peripheral vascular resistance. Meldonium also upregulates the expression of glucose transporter proteins (GLUT-1 and GLUT-4) and activates components of the Akt-dependent cardioprotective signaling pathway, further enhancing myocardial resistance to ischemic injury.",
+	"keyBenefits": [
+		"Cardioprotective effects through metabolic optimization under ischemic conditions",
+		"Shifts cardiac energy metabolism from fatty acid oxidation to more oxygen-efficient glucose oxidation",
+		"Reduces accumulation of toxic fatty acid intermediates (long-chain acylcarnitines) in heart tissue",
+		"Promotes nitric oxide synthesis and endothelial function via GBB accumulation",
+		"May improve exercise capacity and reduce recovery time through enhanced glucose utilization",
+		"Used as adjunctive cardiac protection during anabolic steroid cycles to mitigate androgen-induced cardiotoxicity",
+		"Well-established safety profile in Eastern European clinical use spanning over 30 years"
+	],
+	"indications": [
+		{
+			"category": "Cardiovascular & Metabolic",
+			"items": [
+				{
+					"name": "Cardioprotection During Steroid Use",
+					"description": "Meldonium is increasingly used in the performance enhancement community as an adjunctive agent to protect the heart during anabolic steroid cycles. Supraphysiological androgen use is associated with left ventricular hypertrophy, impaired diastolic function, reduced ejection fraction, and accelerated atherosclerosis. Meldonium's ability to optimize cardiac energy metabolism and reduce toxic lipid intermediates may mitigate some of these effects, though direct clinical evidence in this specific context is limited to anecdotal and observational data.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Endurance and Exercise Capacity",
+					"description": "By shifting fuel utilization from fatty acids toward glucose, meldonium may improve aerobic efficiency under submaximal exercise conditions. Athletes in Eastern European countries have used meldonium for decades to support training capacity and recovery. The metabolic shift may spare glycogen during prolonged activity and reduce post-exercise oxidative stress. This use drove WADA's decision to ban the substance.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Ischemic Heart Disease",
+					"description": "In Baltic states and Russia, meldonium is an approved prescription drug for the treatment of stable angina pectoris and chronic ischemic heart disease. Clinical trials conducted primarily in Latvia and Russia have demonstrated reductions in angina frequency, improved exercise tolerance on treadmill testing, and reduced nitroglycerin consumption when meldonium is added to standard antianginal therapy.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Investigational / Off-Label",
+			"items": [
+				{
+					"name": "Heart Failure",
+					"description": "Meldonium has been investigated as an adjunctive therapy in chronic heart failure, where impaired cardiac energy metabolism contributes to disease progression. Small trials have reported improvements in exercise capacity and quality-of-life scores when meldonium was added to standard heart failure regimens. Larger-scale, Western-standard randomized controlled trials are lacking.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Cerebrovascular Protection",
+					"description": "The drug is prescribed in some Eastern European countries for acute and chronic cerebrovascular insufficiency. Its vasodilatory effects via nitric oxide stimulation and metabolic optimization may offer neuroprotective benefits during ischemic events. Evidence is primarily from non-Western clinical trials.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Meldonium is primarily administered orally in capsule form. Standard pharmaceutical preparations (Mildronate) are available as 250 mg and 500 mg capsules. The drug has good oral bioavailability and reaches peak plasma concentrations within 1-2 hours of ingestion. Its relatively short half-life of 4-6 hours means some protocols split the daily dose into two administrations, though once-daily dosing is also common. An intravenous formulation exists and is used in clinical settings for acute cardiac events, but oral administration is the standard route for all performance enhancement and chronic use applications.",
+			"protocols": [
+				{
+					"goal": "Cardioprotection (On-Cycle Support)",
+					"dose": "500 mg/day",
+					"frequency": "Once daily or split into two doses (250 mg twice daily)",
+					"route": "Oral (capsule)",
+					"notes": "The most commonly used dose for general cardioprotective support during anabolic steroid cycles. Typically run for 4-6 weeks, often during the middle portion of a cycle when androgen-mediated cardiac stress is most significant. Some users cycle meldonium intermittently rather than continuously to avoid excessive carnitine depletion."
+				},
+				{
+					"goal": "Clinical Dose (Ischemic Heart Disease)",
+					"dose": "500-1000 mg/day",
+					"frequency": "Once daily or split into two doses",
+					"route": "Oral (capsule)",
+					"notes": "Standard clinical dosing as used in Latvian and Russian medical practice. Treatment courses typically last 4-6 weeks, with a rest period before repeating if needed. Higher end of dosing (1000 mg/day) is typically used for more severe conditions or during initial loading phases."
+				}
+			],
+			"keyBenefits": [
+				"Simple oral capsule administration with no injections required",
+				"Well-tolerated with a mild side effect profile across decades of clinical use",
+				"Flexible dosing schedule -- once or twice daily",
+				"Affordable and widely available through international pharmacy sources"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "L-Carnitine",
+			"status": "antagonistic",
+			"notes": "Meldonium and L-carnitine operate through directly opposing mechanisms. Meldonium works by inhibiting carnitine biosynthesis to reduce fatty acid oxidation, while exogenous L-carnitine supplementation aims to enhance fatty acid transport and oxidation. Co-administration would be pharmacologically contradictory, with each agent undermining the other's mechanism of action. Users should choose one approach or the other based on their goals, not combine them."
+		},
+		{
+			"peptide": "Telmisartan",
+			"status": "synergistic",
+			"notes": "Telmisartan (an angiotensin II receptor blocker with PPAR-gamma agonist activity) and meldonium offer complementary mechanisms for cardiac protection. Telmisartan provides afterload reduction, anti-inflammatory effects, and metabolic benefits via PPAR-gamma activation, while meldonium optimizes cardiac energy metabolism and reduces ischemic damage. The combination is particularly relevant for steroid users seeking comprehensive cardiovascular protection, as telmisartan also addresses blood pressure elevation common with androgen use."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "compatible",
+			"notes": "Meldonium does not interfere with androgen receptor signaling, testosterone metabolism, or the hypothalamic-pituitary-gonadal axis. It is commonly used alongside exogenous testosterone specifically to provide cardioprotective support against androgen-induced cardiac remodeling. Meldonium does not affect testosterone's anabolic efficacy and is considered a complementary adjunct."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-7",
+			"effects": "Meldonium begins to inhibit BBOX enzyme activity and carnitine biosynthesis. Plasma carnitine levels start to decline gradually. Most users do not notice pronounced subjective effects in the first week. Some report a mild increase in perceived energy or reduced fatigue during cardiovascular exercise, though this may be partly placebo at this early stage."
+		},
+		{
+			"period": "Week 2-3",
+			"effects": "Intracellular carnitine levels are meaningfully reduced, and the metabolic shift from fatty acid oxidation toward glucose oxidation becomes established. Users may notice improved exercise recovery and a subtle increase in aerobic endurance. Cardioprotective effects are active at the cellular level, with reduced accumulation of toxic acylcarnitines in cardiac tissue."
+		},
+		{
+			"period": "Week 3-4",
+			"effects": "Full metabolic reprogramming is established. The cardiovascular protective effects of meldonium are at their peak, with optimized cardiac energy efficiency under both resting and stressed conditions. Endurance and recovery improvements are most noticeable. Nitric oxide-mediated vasodilation and improved endothelial function contribute to a sense of improved cardiovascular performance."
+		},
+		{
+			"period": "Week 4-6",
+			"effects": "Continued cardioprotective and metabolic effects. Most protocols recommend discontinuing after 4-6 weeks to allow carnitine levels to recover, as prolonged severe carnitine depletion could impair fatty acid metabolism in contexts where it is needed (e.g., prolonged fasting, very long-duration exercise). A rest period of 2-4 weeks between cycles is commonly recommended."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Mild gastrointestinal discomfort (nausea, dyspepsia, or stomach upset -- typically transient and dose-dependent)",
+			"Occasional heartburn or acid reflux, especially at higher doses or when taken on an empty stomach"
+		],
+		"rare": [
+			"Allergic skin reactions (rash, pruritus -- infrequently reported)",
+			"Mild tachycardia or palpitations",
+			"Headache or dizziness",
+			"Agitation or sleep disturbance (rare, more common at higher doses)"
+		],
+		"stopSigns": [
+			"Signs of allergic reaction: rash, urticaria, swelling, difficulty breathing",
+			"Severe or persistent gastrointestinal symptoms that do not resolve with dose adjustment",
+			"Significant tachycardia or cardiac arrhythmia",
+			"Unexplained muscle weakness or fatigue (may indicate excessive carnitine depletion)"
+		],
+		"contraindications": [
+			"Known hypersensitivity to meldonium or any excipients",
+			"Pregnancy or breastfeeding (insufficient safety data)",
+			"Individuals under 18 years of age",
+			"Severe hepatic or renal impairment (limited pharmacokinetic data in these populations)",
+			"Increased intracranial pressure (listed as a contraindication in some regional prescribing information)"
+		],
+		"monitoring": [
+			"Blood pressure and heart rate: baseline and periodically throughout the cycle",
+			"Lipid panel: baseline and at 4-6 weeks, as the metabolic shift may affect lipid profiles",
+			"Basic metabolic panel including renal function: baseline and mid-cycle",
+			"Consider echocardiogram at baseline if using for steroid-related cardioprotection, to establish cardiac structure and function benchmarks"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade Mildronate capsules manufactured by Grindeks (the original Latvian pharmaceutical company)",
+			"Clearly labeled with compound name, dose per capsule (250 mg or 500 mg), batch number, and expiration date",
+			"Intact blister packaging with no signs of tampering or moisture damage",
+			"Sourced from a licensed pharmacy in a country where the drug is approved (Latvia, Lithuania, Russia, etc.)",
+			"Third-party lab testing confirms identity and potency if purchased from a non-pharmacy source"
+		],
+		"warning": [
+			"Loose capsules or tablets not in original pharmaceutical packaging",
+			"No batch number or expiration date visible",
+			"Purchased from an unverified online supplier without reputation or reviews",
+			"Priced significantly below the typical cost of genuine Grindeks-manufactured product",
+			"Labeled as a research chemical or supplement rather than a pharmaceutical product"
+		],
+		"bad": [
+			"Capsules show discoloration, unusual odor, or signs of degradation",
+			"No labeling, incorrect labeling, or packaging in a language inconsistent with claimed country of origin",
+			"Third-party testing reveals wrong compound, significant underdosing, or contamination",
+			"Supplier has no verifiable reputation or has been flagged for selling counterfeit pharmaceuticals",
+			"Product arrives with broken seals, damaged packaging, or evidence of repackaging"
+		]
+	},
+	"references": [
+		{
+			"title": "Mildronate: An Antiischemic Drug for Neurological Indications",
+			"authors": "Dambrova, M., Makrecka-Kuka, M., Vilskersts, R., et al.",
+			"journal": "CNS Drug Reviews",
+			"year": "2004",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15526763/",
+			"keyFindings": "Comprehensive review of meldonium's mechanism of action and clinical applications. Confirmed that meldonium inhibits carnitine biosynthesis and transport, shifting cellular energy metabolism from fatty acid oxidation to glucose oxidation. Summarized evidence supporting its use in ischemic heart disease and cerebrovascular conditions."
+		},
+		{
+			"title": "Mildronate, a Novel Fatty Acid Oxidation Inhibitor and Antianginal Agent, Reduces Myocardial Infarct Size Without Affecting Hemodynamics",
+			"authors": "Sesti, C., Simkhovich, B.Z., Kalvinsh, I., Kloner, R.A.",
+			"journal": "Journal of Cardiovascular Pharmacology",
+			"year": "2006",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16495764/",
+			"keyFindings": "Demonstrated that meldonium reduced myocardial infarct size in a rat model of ischemia-reperfusion injury without significant hemodynamic effects. Supported the hypothesis that metabolic modulation via carnitine pathway inhibition provides direct cardioprotection independent of changes in blood pressure or heart rate."
+		},
+		{
+			"title": "Mildronate Improves Peripheral Circulation in Patients with Chronic Heart Failure",
+			"authors": "Dzerve, V., MILSS I Study Group",
+			"journal": "Journal of Cardiac Failure",
+			"year": "2005",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15948088/",
+			"keyFindings": "Randomized controlled trial showing that meldonium at 1000 mg/day improved exercise tolerance and quality of life in patients with chronic heart failure compared to placebo. The study supported meldonium as an adjunctive therapy for heart failure management."
+		},
+		{
+			"title": "Meldonium Use in Athletes -- A Reason for Concern?",
+			"authors": "Greenblatt, H.K., Greenblatt, D.J.",
+			"journal": "British Journal of Clinical Pharmacology",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27870153/",
+			"keyFindings": "Published in response to the WADA ban and the Sharapova case, this review summarized meldonium's pharmacology, clinical evidence, and the rationale for its prohibition in sport. Noted the discrepancy between meldonium's widespread use in Eastern Europe and the lack of large-scale Western clinical trials, and discussed the challenges of establishing performance-enhancing effects definitively."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Meldonium Use in Athletes -- A Reason for Concern?",
+			"date": "2016",
+			"source": "British Journal of Clinical Pharmacology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/27870153/",
+			"summary": "Comprehensive pharmacological review published after WADA's 2016 ban and the wave of positive tests among athletes. Analyzed meldonium's mechanism, clinical evidence base, and the rationale for its prohibition. Highlighted the need for rigorous Western-standard clinical trials to properly characterize the drug's efficacy and safety profile."
+		},
+		{
+			"title": "Mildronate Improves Peripheral Circulation in Patients with Chronic Heart Failure (MILSS I)",
+			"date": "2005",
+			"source": "Journal of Cardiac Failure",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/15948088/",
+			"summary": "Key randomized controlled trial demonstrating that meldonium at clinical doses improved exercise tolerance and quality-of-life markers in heart failure patients. One of the more methodologically rigorous clinical trials available for meldonium, though still limited by relatively small sample size and single-center design."
+		},
+		{
+			"title": "WADA Adds Meldonium to 2016 Prohibited List",
+			"date": "September 2015",
+			"source": "World Anti-Doping Agency",
+			"url": "https://www.wada-ama.org/en/prohibited-list",
+			"summary": "WADA added meldonium to the Prohibited List under class S4 (Hormone and Metabolic Modulators), effective January 1, 2016. The decision was based on evidence of widespread use among athletes (detected in approximately 2.2% of doping control samples in 2015), its pharmacological potential to enhance performance, and the principle that it represented the spirit of doping. The ban triggered hundreds of positive tests in the first months of 2016."
+		}
+	]
+}

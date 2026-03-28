@@ -1,0 +1,249 @@
+{
+	"id": "sr-9009",
+	"name": "SR-9009",
+	"subtitle": "Rev-Erb Agonist | Circadian Rhythm & Metabolic Enhancement",
+	"aliases": ["Stenabolic"],
+	"compoundKind": "sarm",
+	"categories": ["sarm", "metabolic"],
+	"researchStatus": "limited-research",
+	"fdaApproved": false,
+	"quickStats": {
+		"typicalDose": "20-30 mg/day (split into 3 doses)",
+		"frequency": "Three times daily (oral), every 4-5 hours",
+		"cycleDuration": "8-12 weeks",
+		"storage": "Room temperature (59-86F). Protect from light and moisture."
+	},
+	"molecular": {
+		"weight": "437.94 Da",
+		"type": "Rev-Erb agonist (C20H24ClN3O4S)",
+		"modifications": [
+			"Ethyl 3-[[(4-chlorophenyl)methyl-[(5-nitrothiophen-2-yl)methyl]amino]methyl]pyrrolidine-1-carboxylate",
+			"Synthetic agonist of the nuclear receptors Rev-Erb-alpha (NR1D1) and Rev-Erb-beta (NR1D2)",
+			"Not a selective androgen receptor modulator despite being sold alongside SARMs; does not interact with the androgen receptor"
+		],
+		"halfLife": "~4 hours",
+		"halfLifeSeconds": 14400,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "SR-9009 (Stenabolic) is a synthetic Rev-Erb agonist developed by Professor Thomas Burris at the Scripps Research Institute. Despite being almost universally marketed and sold alongside SARMs, SR-9009 is not a selective androgen receptor modulator and does not bind to or activate the androgen receptor in any capacity. Its mechanism is entirely distinct: it acts as an agonist of the Rev-Erb-alpha and Rev-Erb-beta nuclear receptors, which are key components of the molecular circadian clock and play critical roles in regulating lipid and glucose metabolism, inflammatory responses, and mitochondrial biogenesis. In preclinical studies conducted in mice, SR-9009 demonstrated notable effects on exercise capacity, metabolic rate, fat oxidation, and circadian rhythm regulation. Treated mice showed increased oxygen consumption, decreased fat mass, and enhanced endurance without changes in food intake. However, the most significant limitation of SR-9009 is its extremely poor oral bioavailability, estimated at approximately 2% in rodent models. This means that the vast majority of an orally administered dose is destroyed by first-pass hepatic metabolism before reaching systemic circulation. The impressive preclinical results were obtained via injection, raising serious questions about whether oral dosing in humans can achieve pharmacologically meaningful plasma concentrations. SR-9009 has never been tested in human clinical trials, is not approved for any medical use, and is classified as a prohibited substance by the World Anti-Doping Agency (WADA). It remains available through research chemical suppliers, where it is used in performance enhancement contexts primarily for its purported effects on fat loss, endurance, and energy levels.",
+	"mechanism": "SR-9009 functions as a synthetic agonist of the Rev-Erb-alpha (NR1D1) and Rev-Erb-beta (NR1D2) nuclear receptors. Rev-Erb proteins are constitutive transcriptional repressors that form a critical negative feedback loop within the mammalian circadian clock. They repress the transcription of BMAL1 and CLOCK, core clock genes that drive circadian oscillation of gene expression throughout the body. By activating Rev-Erb receptors, SR-9009 modulates circadian gene expression and thereby influences a broad array of downstream metabolic processes. In skeletal muscle, Rev-Erb activation by SR-9009 increases mitochondrial content and oxidative capacity. The compound upregulates genes involved in mitochondrial biogenesis, fatty acid oxidation, and glucose utilization. Studies in mice demonstrated that SR-9009 treatment increased the number of mitochondria in skeletal muscle, enhanced oxygen consumption, and improved exercise endurance. In the liver, Rev-Erb activation suppresses genes involved in lipogenesis (de novo fat synthesis) and gluconeogenesis, resulting in reduced hepatic fat accumulation and improved glucose homeostasis. In adipose tissue, SR-9009 reduces fat storage by downregulating genes involved in triglyceride synthesis. The net metabolic effect is an increase in energy expenditure and a shift toward a leaner metabolic phenotype. Critically, because SR-9009 acts through the Rev-Erb pathway and not the androgen receptor, it does not cause testosterone suppression, does not affect the hypothalamic-pituitary-gonadal axis, and does not require post-cycle therapy. The compound is entirely non-hormonal in its mechanism.",
+	"keyBenefits": [
+		"Enhances mitochondrial function and biogenesis in skeletal muscle, increasing oxidative capacity",
+		"Increases exercise endurance and energy expenditure through metabolic reprogramming",
+		"Promotes fat loss by suppressing lipogenesis and increasing fatty acid oxidation",
+		"Non-hormonal mechanism -- does not suppress testosterone or require post-cycle therapy",
+		"No androgenic side effects (no hair loss, no prostate stimulation, no virilization)",
+		"May improve wakefulness, alertness, and circadian rhythm regulation through Rev-Erb modulation",
+		"Does not cause hormonal suppression, making it stackable with SARMs without compounding HPG axis disruption"
+	],
+	"indications": [
+		{
+			"category": "Performance & Body Composition",
+			"items": [
+				{
+					"name": "Fat Loss & Metabolic Enhancement",
+					"description": "SR-9009 increases basal metabolic rate and shifts fuel utilization toward fatty acid oxidation by enhancing mitochondrial activity. In mouse studies, treated animals showed reduced fat mass and body weight without changes in food intake. The compound suppresses lipogenesis in the liver and adipose tissue. However, the extremely poor oral bioavailability (~2%) raises significant questions about whether oral dosing achieves the plasma concentrations needed to replicate preclinical effects in humans.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Endurance & Exercise Capacity",
+					"description": "Rev-Erb activation by SR-9009 increases mitochondrial content in skeletal muscle and enhances oxidative metabolism. In preclinical models, mice treated with SR-9009 (via injection) demonstrated meaningfully improved running endurance. Whether oral administration in humans can achieve sufficient bioavailability to reproduce these effects remains unestablished.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Wakefulness & Circadian Regulation",
+					"description": "As a direct modulator of the molecular circadian clock, SR-9009 influences sleep-wake cycles and alertness. Rev-Erb activation promotes wakefulness and increases activity during normal waking periods. Users frequently report heightened alertness and energy, particularly when dosing in the morning and early afternoon. This effect may be a double-edged sword, as dosing too late in the day can cause insomnia.",
+					"effectiveness": "moderate"
+				}
+			]
+		},
+		{
+			"category": "Preclinical / Investigational",
+			"items": [
+				{
+					"name": "Metabolic Syndrome & Obesity",
+					"description": "Preclinical data support SR-9009's potential to improve multiple markers of metabolic syndrome, including reduced adiposity, improved glucose tolerance, and favorable lipid profiles. These findings have not been validated in human studies.",
+					"effectiveness": "moderate"
+				},
+				{
+					"name": "Inflammatory Conditions",
+					"description": "Rev-Erb agonism has demonstrated anti-inflammatory effects in preclinical models, reducing the production of pro-inflammatory cytokines such as IL-6 and TNF-alpha. SR-9009 reduced inflammation in mouse models of various conditions. Clinical translation has not been explored.",
+					"effectiveness": "moderate"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "SR-9009 is available in oral form as a liquid solution (typically in PEG-400 or similar carrier) or capsules from research chemical suppliers. The critical limitation of oral SR-9009 is its extremely poor oral bioavailability, estimated at approximately 2% in rodent pharmacokinetic studies. This means that ~98% of an oral dose is destroyed by first-pass hepatic metabolism before reaching systemic circulation. Combined with a short half-life of approximately 4 hours, oral SR-9009 requires multiple daily doses to attempt to maintain any meaningful plasma concentration. The preclinical studies demonstrating SR-9009's benefits used intraperitoneal injection, not oral administration. Whether oral dosing in humans can achieve pharmacologically relevant exposure remains a major open question and the primary criticism of SR-9009 as an oral supplement.",
+			"protocols": [
+				{
+					"goal": "Research Dose - Standard",
+					"dose": "20 mg/day (split: ~7 mg three times daily)",
+					"frequency": "Three times daily, spaced 4-5 hours apart",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Doses are split due to the short ~4-hour half-life. Typical timing might be morning, midday, and late afternoon. Avoid dosing in the evening to reduce insomnia risk. No testosterone suppression occurs, so PCT is not required. Cycle length typically 8-12 weeks. Due to poor oral bioavailability (~2%), the actual systemically available dose is a fraction of what is ingested."
+				},
+				{
+					"goal": "Research Dose - Upper Range",
+					"dose": "30 mg/day (split: 10 mg three times daily)",
+					"frequency": "Three times daily, spaced 4-5 hours apart",
+					"route": "Oral (liquid or capsule)",
+					"notes": "Higher end of commonly reported dosing. Intended to compensate somewhat for the extremely poor oral bioavailability. Users at this dose range report more noticeable effects on energy and wakefulness, but insomnia risk increases if the final dose is taken too late. The dose-response relationship in humans is entirely unstudied."
+				}
+			],
+			"keyBenefits": [
+				"Simple oral administration with no injections required",
+				"Non-hormonal -- no testosterone suppression or need for PCT",
+				"Can be stacked with SARMs or other compounds without adding hormonal burden"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Cardarine (GW501516)",
+			"status": "synergistic",
+			"notes": "SR-9009 and Cardarine are frequently stacked for enhanced fat loss and endurance. They operate through entirely different mechanisms (Rev-Erb agonism vs. PPAR-delta agonism) and their metabolic effects are complementary. Cardarine shifts muscle fuel preference toward fatty acid oxidation while SR-9009 increases mitochondrial content and overall energy expenditure. Neither compound is hormonal, so the combination does not cause testosterone suppression."
+		},
+		{
+			"peptide": "Ostarine (MK-2866)",
+			"status": "compatible",
+			"notes": "SR-9009 is compatible with Ostarine. SR-9009 provides metabolic and endurance benefits through Rev-Erb agonism while Ostarine provides mild anabolic muscle-preserving effects through androgen receptor modulation. SR-9009 does not add to Ostarine's testosterone suppression since it is non-hormonal."
+		},
+		{
+			"peptide": "RAD-140 (Testolone)",
+			"status": "compatible",
+			"notes": "SR-9009 can be combined with RAD-140 during cutting or recomposition phases. RAD-140 provides potent anabolic stimulus while SR-9009 contributes metabolic enhancement and endurance improvement. SR-9009 does not compound the testosterone suppression caused by RAD-140."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Day 1-7",
+			"effects": "Users commonly report increased wakefulness, energy, and alertness within the first few days, likely related to Rev-Erb modulation of circadian function. Some report a subtle increase in exercise stamina. Fat loss effects are not yet apparent. The most noticeable early effect is often improved daytime energy and reduced afternoon fatigue."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "Energy and endurance improvements become more consistent. Users report being able to sustain cardio and high-intensity work for longer durations. Some notice the beginnings of fat loss, particularly in combination with a caloric deficit and regular training. Sleep quality may be affected if dosing schedule extends too late in the day."
+		},
+		{
+			"period": "Week 4-8",
+			"effects": "Peak subjective effects on energy expenditure and body composition. Users who respond to oral SR-9009 report measurable fat loss and improved exercise performance. No hormonal side effects or mood changes since testosterone levels remain unaffected. Effects may plateau for some users due to the bioavailability limitation."
+		},
+		{
+			"period": "Week 8-12",
+			"effects": "Continued benefits for those who respond to the compound. Given the non-hormonal mechanism, some users extend cycles to 12 weeks. No PCT is required upon discontinuation. Effects reverse gradually after cessation as Rev-Erb activity returns to baseline."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Insomnia or difficulty falling asleep if doses are taken too late in the day (the most frequently reported side effect)",
+			"Increased wakefulness and alertness, which can be a benefit or drawback depending on timing"
+		],
+		"rare": [
+			"Mild headaches (transient, typically in the first week)",
+			"Mild gastrointestinal discomfort (nausea or stomach upset, usually dose-dependent)"
+		],
+		"stopSigns": [
+			"Severe or persistent insomnia that does not resolve with earlier dosing schedules",
+			"Significant gastrointestinal distress",
+			"Unexplained fatigue or malaise",
+			"Signs of allergic reaction: rash, swelling, difficulty breathing"
+		],
+		"contraindications": [
+			"Pre-existing sleep disorders or severe insomnia (Rev-Erb modulation may worsen these conditions)",
+			"Pregnancy or potential pregnancy",
+			"Breastfeeding",
+			"Pre-existing liver disease (limited safety data and potential hepatic effects given Rev-Erb's role in liver metabolism)",
+			"Individuals under 18 years of age"
+		],
+		"monitoring": [
+			"Lipid panel (total cholesterol, HDL, LDL, triglycerides): baseline and at 4-8 weeks",
+			"Liver function panel (ALT, AST): baseline and mid-cycle given the absence of human safety data",
+			"Fasting blood glucose: baseline and mid-cycle (Rev-Erb influences glucose metabolism)",
+			"Sleep quality assessment: monitor throughout to adjust dosing schedule if insomnia develops"
+		],
+		"bioavailabilityNote": "The most significant practical limitation of SR-9009 is its extremely poor oral bioavailability, estimated at approximately 2% in rodent pharmacokinetic studies. This means that for a 30 mg oral dose, only about 0.6 mg may reach systemic circulation. The preclinical studies demonstrating SR-9009's metabolic and endurance benefits administered the compound via intraperitoneal injection, bypassing first-pass metabolism entirely. No published pharmacokinetic studies have characterized SR-9009's oral bioavailability in humans. This raises a fundamental question about whether oral SR-9009, as it is commonly sold and used, can achieve the plasma concentrations necessary to produce meaningful Rev-Erb activation. Some users report subjective effects (energy, wakefulness) from oral dosing, but whether these reflect genuine pharmacological activity or placebo effect is unknown. Sublingual administration has been suggested as a potential route to improve bioavailability by partially bypassing hepatic first-pass metabolism, but no controlled data support this approach. Anyone considering SR-9009 should be aware that the bioavailability problem is the single biggest question mark surrounding the compound's practical utility as an oral agent."
+	},
+	"qualityChecklist": {
+		"good": [
+			"Third-party lab tested with certificate of analysis (COA) showing purity above 98%",
+			"Clearly labeled with compound name, concentration, batch number, and expiration date",
+			"Solution is clear and free of particulate matter or discoloration",
+			"Sold as a research chemical with appropriate disclaimers",
+			"Supplier provides HPLC or mass spectrometry verification of identity and purity"
+		],
+		"warning": [
+			"No third-party testing or certificate of analysis available",
+			"Marketed with explicit performance enhancement claims",
+			"Labeled as a SARM (SR-9009 is not a SARM; this indicates supplier ignorance or mislabeling)",
+			"Unusually low pricing compared to established suppliers",
+			"Pre-made capsules without verifiable dosing accuracy"
+		],
+		"bad": [
+			"Cloudy, discolored, or precipitated solution indicating degradation or contamination",
+			"No labeling, incorrect labeling, or missing batch/lot information",
+			"Supplier has no verifiable reputation, reviews, or testing history",
+			"Product tested by independent labs showing underdosed, mislabeled, or contaminated contents",
+			"Contains unlisted active ingredients or adulterants"
+		]
+	},
+	"references": [
+		{
+			"title": "Regulation of Circadian Behaviour and Metabolism by Synthetic REV-ERB Agonists",
+			"authors": "Solt, L.A., Wang, Y., Banerjee, S., et al.",
+			"journal": "Nature",
+			"year": "2012",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22460951/",
+			"keyFindings": "The landmark study introducing SR-9009 and SR-9011 as synthetic Rev-Erb agonists. Demonstrated that Rev-Erb activation by SR-9009 altered circadian gene expression, increased energy expenditure, reduced fat mass, and improved exercise endurance in mice. Treated animals showed increased oxygen consumption and decreased adiposity without changes in food intake. This paper established the pharmacological basis for SR-9009's metabolic effects."
+		},
+		{
+			"title": "Rev-Erb-alpha Modulates Skeletal Muscle Oxidative Capacity by Regulating Mitochondrial Biogenesis and Autophagy",
+			"authors": "Woldt, E., Sebti, Y., Solt, L.A., et al.",
+			"journal": "Nature Medicine",
+			"year": "2013",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23584090/",
+			"keyFindings": "Demonstrated that Rev-Erb-alpha is a key regulator of mitochondrial content and oxidative function in skeletal muscle. SR-9009 treatment increased mitochondrial number, enhanced oxidative capacity, and improved exercise endurance in mice. The study established the mechanistic link between Rev-Erb activation and mitochondrial biogenesis that underpins SR-9009's effects on exercise performance."
+		},
+		{
+			"title": "Pharmacological Activation of REV-ERBs Is Lethal in Cancer and Oncogene-induced Senescence",
+			"authors": "Sulli, G., Rommel, A., Wang, X., et al.",
+			"journal": "Nature",
+			"year": "2018",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29364882/",
+			"keyFindings": "Found that pharmacological activation of Rev-Erb receptors by SR-9009 and SR-9011 was selectively lethal to cancer cells and oncogene-induced senescent cells while having no effect on normal cell viability. This study suggested potential anti-cancer properties of Rev-Erb agonists, a notable contrast to the carcinogenicity concerns associated with the PPAR-delta agonist Cardarine."
+		},
+		{
+			"title": "The Nuclear Receptor REV-ERBs: Bridging the Gap Between Circadian Rhythms, Inflammation, and Metabolism",
+			"authors": "Everett, L.J., Lazar, M.A.",
+			"journal": "Journal of Biological Chemistry",
+			"year": "2014",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/24451382/",
+			"keyFindings": "Comprehensive review of Rev-Erb biology covering the receptor's roles in circadian rhythm regulation, metabolic homeostasis, and inflammatory responses. Provided the mechanistic context for understanding how SR-9009's Rev-Erb agonism influences multiple physiological systems simultaneously, from lipid metabolism to immune function to sleep-wake regulation."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Pharmacological Activation of REV-ERBs Is Lethal in Cancer and Oncogene-induced Senescence",
+			"date": "January 2018",
+			"source": "Nature",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/29364882/",
+			"summary": "Demonstrated that SR-9009 and SR-9011 selectively killed cancer cells and oncogene-induced senescent cells without affecting the viability of normal cells. The anti-cancer mechanism involves disruption of de novo lipogenesis and autophagy in tumor cells. This study introduced a potential therapeutic application for Rev-Erb agonists beyond metabolic enhancement."
+		},
+		{
+			"title": "Rev-Erb-alpha Modulates Skeletal Muscle Oxidative Capacity by Regulating Mitochondrial Biogenesis and Autophagy",
+			"date": "2013",
+			"source": "Nature Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/23584090/",
+			"summary": "Established that Rev-Erb-alpha directly controls mitochondrial content in skeletal muscle. SR-9009 treatment increased the number of mitochondria, improved oxidative metabolism, and enhanced running endurance in mice. This study provided the mechanistic foundation for SR-9009's effects on exercise performance and energy expenditure."
+		},
+		{
+			"title": "Regulation of Circadian Behaviour and Metabolism by Synthetic REV-ERB Agonists",
+			"date": "March 2012",
+			"source": "Nature",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/22460951/",
+			"summary": "The original study characterizing SR-9009 as a Rev-Erb agonist. Demonstrated that the compound altered circadian patterns, increased wakefulness during active periods, boosted energy expenditure, and reduced fat mass in mice without affecting food intake. All results were obtained via intraperitoneal injection, not oral administration."
+		}
+	]
+}
