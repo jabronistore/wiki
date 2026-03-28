@@ -169,9 +169,14 @@
 		stroke: hsl(var(--muted-foreground)) !important;
 	}
 
-	/* Secondary nodes (non-accent colored) — use card background */
-	.mermaid-content :global(.node .label) {
-		color: hsl(var(--foreground));
+	/* Ensure node label text is visible on accent backgrounds */
+	.mermaid-content :global(.node .nodeLabel) {
+		color: #ffffff !important;
+		fill: #ffffff !important;
+	}
+
+	.mermaid-content :global(.node foreignObject div) {
+		color: #ffffff !important;
 	}
 
 	/* Cluster/subgraph backgrounds */
