@@ -275,21 +275,14 @@
 			<!-- Header Section -->
 			<div class="mb-12">
 				<div class="mb-4 flex flex-wrap items-start gap-4">
-					<h1 class="text-3xl md:text-4xl lg:text-5xl">{peptide.name}</h1>
-					<div class="flex gap-2">
+					<h1 class="text-3xl md:text-4xl lg:text-5xl">{peptide.name}{#if peptide.aliases?.length}&nbsp;<span class="item-alias">({peptide.aliases[0]})</span>{/if}</h1>
+					{#if peptide.fdaApproved || peptide.researchStatus === 'fda-approved'}
 						<span
-							class="inline-flex rounded-full border px-3 py-1.5 text-sm font-medium badge-{peptide.researchStatus}"
+							class="badge-fda-approved inline-flex rounded-full border px-3 py-1.5 text-sm font-medium"
 						>
-							{getResearchStatusLabel(peptide.researchStatus)}
+							FDA Approved
 						</span>
-						{#if peptide.fdaApproved && peptide.researchStatus !== 'fda-approved'}
-							<span
-								class="badge-fda-approved inline-flex rounded-full border px-3 py-1.5 text-sm font-medium"
-							>
-								FDA Approved
-							</span>
-						{/if}
-					</div>
+					{/if}
 				</div>
 				{#if peptide.subtitle}
 					<p class="text-lg text-muted-foreground">{peptide.subtitle}</p>
@@ -998,6 +991,11 @@
 	}
 
 	/* -- Overview section — editorial lead style -- */
+	.item-alias {
+		font-weight: 300;
+		color: hsl(var(--muted-foreground));
+	}
+
 	.overview-lead {
 		position: relative;
 		padding-left: 1.25rem;
