@@ -16,22 +16,49 @@
 	let rendered = $state(false);
 
 	onMount(async () => {
+		if (!chart || !container) return;
+
+		// Read CSS variables from the DOM for theme-aware colors
+		const styles = getComputedStyle(document.documentElement);
+		const bg = styles.getPropertyValue('--background').trim();
+		const fg = styles.getPropertyValue('--foreground').trim();
+		const muted = styles.getPropertyValue('--muted').trim();
+		const border = styles.getPropertyValue('--border').trim();
+		const mutedFg = styles.getPropertyValue('--muted-foreground').trim();
+
+		// Convert HSL variable values to usable colors
+		/** @param {string} v */
+		const hsl = (v) => v ? `hsl(${v})` : '#666';
+
 		try {
 			const mermaid = (await import('mermaid')).default;
 			mermaid.initialize({
 				startOnLoad: false,
 				theme: 'base',
 				themeVariables: {
+					fontFamily: 'Inter Variable, Inter, system-ui, sans-serif',
+					fontSize: '13px',
 					primaryColor: accentColor,
 					primaryTextColor: '#ffffff',
-					primaryBorderColor: '#40403E',
-					lineColor: '#666663',
-					secondaryColor: '#F0F0EB',
-					tertiaryColor: '#FAFAF7',
-					fontSize: '13px',
-					nodeBorder: '#40403E',
+					primaryBorderColor: hsl(border),
+					lineColor: hsl(mutedFg),
+					secondaryColor: hsl(muted),
+					tertiaryColor: hsl(bg),
 					mainBkg: accentColor,
-					edgeLabelBackground: '#F0F0EB'
+					nodeBorder: hsl(border),
+					clusterBkg: hsl(muted),
+					clusterBorder: hsl(border),
+					titleColor: hsl(fg),
+					edgeLabelBackground: hsl(bg),
+					textColor: hsl(fg),
+					nodeTextColor: '#ffffff'
+				},
+				flowchart: {
+					htmlLabels: true,
+					curve: 'basis',
+					padding: 12,
+					nodeSpacing: 30,
+					rankSpacing: 40
 				}
 			});
 
@@ -64,9 +91,12 @@
 	}
 
 	.mermaid-title {
-		font-size: 0.875rem;
+		font-family: var(--font-sans);
+		font-size: 0.6875rem;
 		font-weight: 600;
-		color: var(--muted-foreground, #666663);
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: hsl(var(--accent));
 		margin-bottom: 1rem;
 	}
 
@@ -86,5 +116,73 @@
 	.mermaid-content :global(svg) {
 		max-width: 100%;
 		height: auto;
+	}
+
+	/* Round all node shapes */
+	.mermaid-content :global(.node rect),
+	.mermaid-content :global(.node polygon),
+	.mermaid-content :global(.node circle) {
+		rx: 8;
+		ry: 8;
+	}
+
+	/* Ensure our font is used everywhere in the diagram */
+	.mermaid-content :global(text),
+	.mermaid-content :global(.label),
+	.mermaid-content :global(.nodeLabel),
+	.mermaid-content :global(.edgeLabel),
+	.mermaid-content :global(span) {
+		font-family: var(--font-sans) !important;
+	}
+
+	/* Node labels — ensure readable */
+	.mermaid-content :global(.nodeLabel) {
+		font-size: 0.8125rem;
+		font-weight: 500;
+		line-height: 1.4;
+		padding: 4px 8px;
+	}
+
+	/* Edge labels — smaller, muted */
+	.mermaid-content :global(.edgeLabel) {
+		font-size: 0.6875rem;
+		color: hsl(var(--muted-foreground));
+	}
+
+	/* Edge label background */
+	.mermaid-content :global(.edgeLabel rect) {
+		rx: 4;
+		ry: 4;
+		fill: hsl(var(--background)) !important;
+		stroke: hsl(var(--border)) !important;
+		stroke-width: 1;
+	}
+
+	/* Arrow lines — use muted foreground */
+	.mermaid-content :global(.flowchart-link) {
+		stroke: hsl(var(--muted-foreground)) !important;
+	}
+
+	/* Arrowhead markers */
+	.mermaid-content :global(marker path) {
+		fill: hsl(var(--muted-foreground)) !important;
+		stroke: hsl(var(--muted-foreground)) !important;
+	}
+
+	/* Secondary nodes (non-accent colored) — use card background */
+	.mermaid-content :global(.node .label) {
+		color: hsl(var(--foreground));
+	}
+
+	/* Cluster/subgraph backgrounds */
+	.mermaid-content :global(.cluster rect) {
+		rx: 8 !important;
+		ry: 8 !important;
+		fill: hsl(var(--muted) / 0.3) !important;
+		stroke: hsl(var(--border)) !important;
+	}
+
+	.mermaid-content :global(.cluster text) {
+		fill: hsl(var(--foreground)) !important;
 	}
 </style>
