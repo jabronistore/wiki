@@ -17,6 +17,13 @@
 
 	onMount(async () => {
 		try {
+			// Detect dark mode for theme-appropriate colors
+			const isDark = document.documentElement.classList.contains('dark');
+			const borderCol = isDark ? '#40403E' : '#E5E4DF';
+			const lineCol = isDark ? '#91918D' : '#666663';
+			const secondaryCol = isDark ? '#262625' : '#F0F0EB';
+			const tertiaryCol = isDark ? '#191919' : '#FAFAF7';
+
 			const mermaid = (await import('mermaid')).default;
 			mermaid.initialize({
 				startOnLoad: false,
@@ -24,15 +31,15 @@
 				themeVariables: {
 					primaryColor: accentColor,
 					primaryTextColor: '#ffffff',
-					primaryBorderColor: '#40403E',
-					lineColor: '#666663',
-					secondaryColor: '#F0F0EB',
-					tertiaryColor: '#FAFAF7',
+					primaryBorderColor: borderCol,
+					lineColor: lineCol,
+					secondaryColor: secondaryCol,
+					tertiaryColor: tertiaryCol,
 					fontSize: '13px',
 					fontFamily: 'Inter Variable, Inter, system-ui, sans-serif',
-					nodeBorder: '#40403E',
+					nodeBorder: borderCol,
 					mainBkg: accentColor,
-					edgeLabelBackground: '#F0F0EB'
+					edgeLabelBackground: 'transparent'
 				}
 			});
 
@@ -99,5 +106,19 @@
 	.mermaid-content :global(.edgeLabel rect) {
 		rx: 4;
 		ry: 4;
+	}
+
+	/* Edge label text — always use foreground color for readability */
+	.mermaid-content :global(.edgeLabel),
+	.mermaid-content :global(.edgeLabel span),
+	.mermaid-content :global(.edgeLabel p) {
+		color: hsl(var(--foreground)) !important;
+		fill: hsl(var(--foreground)) !important;
+		font-size: 0.75rem;
+	}
+
+	/* Decision diamond text */
+	.mermaid-content :global(.node polygon + .label) {
+		fill: hsl(var(--foreground)) !important;
 	}
 </style>
