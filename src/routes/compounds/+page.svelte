@@ -258,7 +258,7 @@
 			>
 				<div class="mb-3 flex items-start justify-between">
 					<h3 class="text-lg font-semibold transition-colors group-hover:text-primary">
-						{compound.name}
+						{compound.name}{#if compound.alias} <span class="font-normal text-muted-foreground">({compound.alias})</span>{/if}
 					</h3>
 					<span
 						class="inline-flex rounded-full border px-2.5 py-1 text-xs font-medium badge-{compound.researchStatus}"

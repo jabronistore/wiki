@@ -203,6 +203,7 @@ export interface PeptideSummary {
 	id: string;
 	name: string;
 	subtitle?: string;
+	alias?: string;
 	compoundKind?: CompoundKind;
 	categories: PeptideCategory[];
 	researchStatus: ResearchStatus;

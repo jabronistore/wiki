@@ -647,6 +647,11 @@ body {
 	line-height: 1.3;
 }
 
+.search-result-alias {
+	font-weight: 400;
+	color: hsl(var(--muted-foreground));
+}
+
 .search-result-subtitle {
 	font-size: 0.75rem;
 	color: hsl(var(--muted-foreground));

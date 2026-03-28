@@ -161,6 +161,7 @@
 	interface SearchResult {
 		id: string;
 		name: string;
+		alias?: string;
 		subtitle?: string;
 		type: 'peptide' | 'compound' | 'guide' | 'tool';
 		href: string;
@@ -235,6 +236,7 @@
 					results.push({
 						id: p.id,
 						name: p.name,
+						alias: p.alias,
 						subtitle: p.subtitle,
 						type: 'peptide',
 						href: `/peptides/${p.id}`
@@ -256,6 +258,7 @@
 					results.push({
 						id: c.id,
 						name: c.name,
+						alias: c.alias,
 						subtitle: c.subtitle,
 						type: 'compound',
 						href: `/compounds/${c.id}`
@@ -399,7 +402,7 @@
 									<li style="--delay: {i * 30}ms">
 										<a href={result.href} onclick={closeSearch} class="search-result-item">
 											<div class="search-result-content">
-												<span class="search-result-name">{result.name}</span>
+												<span class="search-result-name">{result.name}{#if result.alias} <span class="search-result-alias">({result.alias})</span>{/if}</span>
 												{#if result.subtitle}
 													<span class="search-result-subtitle">{result.subtitle}</span>
 												{/if}

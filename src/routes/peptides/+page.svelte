@@ -282,7 +282,7 @@
 			>
 				<div class="mb-3 flex items-start justify-between">
 					<h3 class="text-lg font-semibold transition-colors group-hover:text-primary">
-						{peptide.name}
+						{peptide.name}{#if peptide.alias} <span class="font-normal text-muted-foreground">({peptide.alias})</span>{/if}
 					</h3>
 					<span
 						class="inline-flex rounded-full border px-2.5 py-1 text-xs font-medium badge-{peptide.researchStatus}"
