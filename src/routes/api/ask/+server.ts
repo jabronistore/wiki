@@ -134,6 +134,12 @@ function retrieveRelevant(question: string, history: { role: string; content: st
 				score += 5;
 			}
 		}
+		// Boost for full query phrase match (catches "hair loss", "weight loss", etc.)
+		if (entry.keywords.includes(query)) score += 3;
+		// Boost for category match against query
+		for (const cat of entry.compound.categories || []) {
+			if (query.includes(cat.replace('-', ' '))) score += 3;
+		}
 		return { entry, score };
 	});
 
@@ -268,21 +274,11 @@ C) Anastrozole | wrong | AI is reactive, not a base
 :::
 
 RULES FOR BLOCKS:
-- Use :::stack for ANY stack recommendation (most important)
-- Use :::comparison when comparing things
-- Use :::warning for safety-critical info
-- Use :::callout for tips and notable information
-- Use :::timeline for what to expect over time
-- Use :::dosing for specific protocols
-- Use :::calculator when discussing reconstitution
-- Use :::chart to visualize any data with numbers
-- Use :::poll when you need to ask the user a clarifying question before answering
-- Use :::bloodwork when discussing bloodwork markers
-- Use :::cost when discussing cycle costs or budgets
-- Use :::quiz for educational moments or when testing knowledge
-- You can use multiple blocks in one response
-- Always add context text around blocks — don't dump a block alone
-- Blocks render as rich interactive cards — they look much better than plain text
+- When you use a :::stack block, do NOT also list the same compounds as bullet points or numbered text. The block IS the list. Just add a short intro sentence before the block and context after.
+- Each block must start with :::type on its own line, have content, then ::: on its own line to close it.
+- In :::stack, ALWAYS include the URL as the third pipe field. If you don't know the URL, omit the compound from the stack block and mention it in text instead.
+- Use blocks when they add clarity. Don't force them — a simple 2-sentence answer doesn't need a block.
+- You can use multiple blocks in one response.
 - BE CREATIVE with blocks. Use them whenever structured data would be clearer than prose.
 
 COMMON STACKS (use these as defaults):

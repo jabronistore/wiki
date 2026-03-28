@@ -79,8 +79,10 @@ function renderStack(body: string): string {
 		.join('');
 
 	const ids = extractIds(items);
-	const interactionUrl = ids.length >= 2 ? `/tools/interactions?peptides=${ids.join(',')}` : '';
-	const costUrl = ids[0] ? `/tools/cost?peptide=${ids[0]}` : '';
+	// Only show tool links if we have real compound IDs (not empty/generic)
+	const validIds = ids.filter((id) => id.length > 1 && !id.includes(' '));
+	const interactionUrl = validIds.length >= 2 ? `/tools/interactions?peptides=${validIds.join(',')}` : '';
+	const costUrl = validIds[0] ? `/tools/cost?peptide=${validIds[0]}` : '';
 
 	const toolsHtml =
 		interactionUrl || costUrl
