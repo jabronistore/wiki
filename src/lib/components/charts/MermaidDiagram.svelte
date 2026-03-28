@@ -54,7 +54,7 @@
 					nodeTextColor: '#ffffff'
 				},
 				flowchart: {
-					htmlLabels: true,
+					htmlLabels: false,
 					curve: 'basis',
 					padding: 12,
 					nodeSpacing: 30,
@@ -169,13 +169,11 @@
 		stroke: hsl(var(--muted-foreground)) !important;
 	}
 
-	/* Ensure node label text is visible on accent backgrounds */
-	.mermaid-content :global(.node .nodeLabel) {
-		color: #ffffff !important;
+	/* Node label text — white on accent backgrounds */
+	.mermaid-content :global(.node text),
+	.mermaid-content :global(.node tspan),
+	.mermaid-content :global(.nodeLabel) {
 		fill: #ffffff !important;
-	}
-
-	.mermaid-content :global(.node foreignObject div) {
 		color: #ffffff !important;
 	}
 
