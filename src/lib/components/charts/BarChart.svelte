@@ -2,21 +2,32 @@
 	import { onMount } from 'svelte';
 
 	/**
-	 * @type {{ label: string, value: number, color?: string, suffix?: string }[]}
+	 * @typedef {Object} Props
+	 * @property {{ label: string, value: number, color?: string, suffix?: string }[]} [data]
+	 * @property {string} [title]
+	 * @property {boolean} [horizontal]
+	 * @property {boolean} [showValues]
+	 * @property {number} [maxValue]
+	 * @property {string} [height]
+	 * @property {string} [barColor]
+	 * @property {boolean} [animated]
 	 */
-	export let data = [];
-	export let title = '';
-	export let horizontal = true;
-	export let showValues = true;
-	export let maxValue = 0;
-	export let height = 'auto';
-	export let barColor = '#CC785C';
-	export let animated = true;
 
-	let mounted = false;
-	let computedMax = 0;
+	/** @type {Props} */
+	let {
+		data = [],
+		title = '',
+		horizontal = true,
+		showValues = true,
+		maxValue = 0,
+		height = 'auto',
+		barColor = '#CC785C',
+		animated = true
+	} = $props();
 
-	$: computedMax = maxValue || Math.max(...data.map((d) => d.value)) * 1.1;
+	let mounted = $state(false);
+
+	let computedMax = $derived(maxValue || Math.max(...data.map((d) => d.value)) * 1.1);
 
 	/**
 	 * If bar fill is less than 25% wide, show value outside (to the right)

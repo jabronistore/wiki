@@ -4,16 +4,25 @@
 	/**
 	 * A horizontal spectrum/gradient bar with labelled segments.
 	 * Great for showing ranges like peptide half-lives, dose ranges, bioavailability scales, etc.
-	 * @type {{ label: string, sublabel?: string, width: number, color: string }[]}
+	 *
+	 * @typedef {Object} Props
+	 * @property {{ label: string, sublabel?: string, width: number, color: string }[]} [segments]
+	 * @property {string} [title]
+	 * @property {string} [leftLabel]
+	 * @property {string} [rightLabel]
+	 * @property {{ label: string, position: number }[]} [markers]
 	 */
-	export let segments = [];
-	export let title = '';
-	export let leftLabel = '';
-	export let rightLabel = '';
-	/** @type {{ label: string, position: number }[]} */
-	export let markers = [];
 
-	let mounted = false;
+	/** @type {Props} */
+	let {
+		segments = [],
+		title = '',
+		leftLabel = '',
+		rightLabel = '',
+		markers = []
+	} = $props();
+
+	let mounted = $state(false);
 
 	onMount(() => {
 		setTimeout(() => {
@@ -21,7 +30,7 @@
 		}, 100);
 	});
 
-	$: totalWidth = segments.reduce((sum, s) => sum + s.width, 0);
+	let totalWidth = $derived(segments.reduce((sum, s) => sum + s.width, 0));
 </script>
 
 <figure class="spectrum-container">

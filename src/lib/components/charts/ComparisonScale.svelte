@@ -3,17 +3,29 @@
 
 	/**
 	 * A 1-10 scale with markers showing where items fall — great for comparing peptide properties
-	 * @type {{ label: string, position: number, color?: string }[]}
+	 *
+	 * @typedef {Object} Props
+	 * @property {{ label: string, position: number, color?: string }[]} [items]
+	 * @property {string} [title]
+	 * @property {string} [leftLabel]
+	 * @property {string} [rightLabel]
+	 * @property {number} [min]
+	 * @property {number} [max]
+	 * @property {string} [accentColor]
 	 */
-	export let items = [];
-	export let title = '';
-	export let leftLabel = '';
-	export let rightLabel = '';
-	export let min = 1;
-	export let max = 10;
-	export let accentColor = '#CC785C';
 
-	let mounted = false;
+	/** @type {Props} */
+	let {
+		items = [],
+		title = '',
+		leftLabel = '',
+		rightLabel = '',
+		min = 1,
+		max = 10,
+		accentColor = '#CC785C'
+	} = $props();
+
+	let mounted = $state(false);
 
 	onMount(() => {
 		setTimeout(() => {
@@ -26,10 +38,10 @@
 		return ((pos - min) / (max - min)) * 100;
 	}
 
-	const range = max - min;
-	const midTick = Math.round(range / 2);
+	let range = $derived(max - min);
+	let midTick = $derived(Math.round(range / 2));
 	/** @type {Set<number>} */
-	const sparseSet = new Set([0, midTick, range]);
+	let sparseSet = $derived(new Set([0, midTick, range]));
 </script>
 
 <figure class="scale-container">

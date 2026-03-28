@@ -1,7 +1,13 @@
 <script>
-	/** @type {'info' | 'warning' | 'research' | 'tldr'} */
-	export let type = 'info';
-	export let title = '';
+	/**
+	 * @typedef {Object} Props
+	 * @property {'info' | 'warning' | 'research' | 'tldr'} [type]
+	 * @property {string} [title]
+	 * @property {import('svelte').Snippet} [children]
+	 */
+
+	/** @type {Props} */
+	let { type = 'info', title = '', children } = $props();
 
 	const icons = {
 		info: '*',
@@ -32,7 +38,7 @@
 		</div>
 	{/if}
 	<div class="callout-body">
-		<slot />
+		{@render children?.()}
 	</div>
 </aside>
 

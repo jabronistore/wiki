@@ -1,13 +1,19 @@
 <script>
 	import { onMount } from 'svelte';
 
-	export let chart = '';
-	export let title = '';
-	export let accentColor = '#CC785C';
+	/**
+	 * @typedef {Object} Props
+	 * @property {string} [chart]
+	 * @property {string} [title]
+	 * @property {string} [accentColor]
+	 */
+
+	/** @type {Props} */
+	let { chart = '', title = '', accentColor = '#CC785C' } = $props();
 
 	/** @type {HTMLDivElement} */
 	let container;
-	let rendered = false;
+	let rendered = $state(false);
 
 	onMount(async () => {
 		try {
