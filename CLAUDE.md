@@ -4,6 +4,8 @@
 
 **IMPORTANT: Do NOT add `Co-Authored-By` lines to commits. Do not add yourself to commits in any way.**
 
+**IMPORTANT: Do NOT push to remote unless explicitly told to. Always ask before pushing.**
+
 ## Development Commands
 
 **IMPORTANT: Always run `pnpm check` after making changes to verify no TypeScript/Svelte errors exist.**

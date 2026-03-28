@@ -7,6 +7,7 @@
 	import { getAllItemSummaries } from '$lib/data/unified';
 	import { onMount } from 'svelte';
 	import { executeRecaptcha, loadRecaptcha } from '$lib/utils/recaptcha';
+	import { parseRichBlocks } from '$lib/utils/chat-blocks';
 
 	const SITE_URL = 'https://peptide-db.com';
 
@@ -137,7 +138,8 @@
 	}
 
 	function renderMarkdown(text: string): string {
-		return marked.parse(fixLinks(text)) as string;
+		const withBlocks = parseRichBlocks(fixLinks(text));
+		return marked.parse(withBlocks) as string;
 	}
 
 	async function sendMessage(question?: string) {
@@ -943,5 +945,277 @@
 		.msg-bubble-user {
 			max-width: 90%;
 		}
+	}
+
+	/* ============================================
+	   CHAT RICH BLOCKS — custom AI output cards
+	   ============================================ */
+
+	/* Stack card */
+	:global(.cb-stack) {
+		border: 1px solid hsl(var(--border));
+		border-top: 2px solid hsl(var(--accent));
+		border-radius: 0.5rem;
+		padding: 0.875rem 1rem;
+		margin: 0.75rem 0;
+		background: hsl(var(--muted) / 0.2);
+	}
+
+	:global(.cb-stack-header) {
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: hsl(var(--accent));
+		margin-bottom: 0.625rem;
+	}
+
+	:global(.cb-stack-items) {
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+	}
+
+	:global(.cb-stack-item) {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.375rem 0;
+		border-bottom: 1px solid hsl(var(--border) / 0.3);
+	}
+
+	:global(.cb-stack-item:last-child) {
+		border-bottom: none;
+	}
+
+	:global(.cb-stack-dot) {
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background: hsl(var(--accent));
+		flex-shrink: 0;
+	}
+
+	:global(.cb-stack-name) {
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: hsl(var(--foreground));
+		text-decoration: none;
+	}
+
+	:global(a.cb-stack-name:hover) {
+		color: hsl(var(--accent));
+	}
+
+	:global(.cb-stack-dose) {
+		margin-left: auto;
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: hsl(var(--accent));
+		white-space: nowrap;
+	}
+
+	:global(.cb-stack-tools) {
+		display: flex;
+		gap: 0.5rem;
+		margin-top: 0.75rem;
+		padding-top: 0.625rem;
+		border-top: 1px solid hsl(var(--border) / 0.4);
+	}
+
+	:global(.cb-stack-tool) {
+		font-size: 0.6875rem;
+		font-weight: 500;
+		color: hsl(var(--muted-foreground));
+		text-decoration: none;
+		padding: 0.25rem 0.625rem;
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.25rem;
+		transition: all 0.15s;
+	}
+
+	:global(.cb-stack-tool:hover) {
+		color: hsl(var(--accent));
+		border-color: hsl(var(--accent) / 0.5);
+	}
+
+	/* Comparison table */
+	:global(.cb-comparison) {
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.5rem;
+		overflow: hidden;
+		margin: 0.75rem 0;
+	}
+
+	:global(.cb-cmp-table) {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 0.8125rem;
+	}
+
+	:global(.cb-cmp-th) {
+		padding: 0.5rem 0.75rem;
+		text-align: left;
+		font-weight: 600;
+		font-size: 0.75rem;
+		background: hsl(var(--muted) / 0.5);
+		border-bottom: 1px solid hsl(var(--border));
+		color: hsl(var(--foreground));
+	}
+
+	:global(.cb-cmp-label) {
+		padding: 0.4375rem 0.75rem;
+		font-weight: 500;
+		color: hsl(var(--muted-foreground));
+		font-size: 0.75rem;
+		border-bottom: 1px solid hsl(var(--border) / 0.3);
+	}
+
+	:global(.cb-cmp-td) {
+		padding: 0.4375rem 0.75rem;
+		color: hsl(var(--foreground));
+		border-bottom: 1px solid hsl(var(--border) / 0.3);
+	}
+
+	/* Warning block */
+	:global(.cb-warning) {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.625rem;
+		padding: 0.75rem 1rem;
+		margin: 0.75rem 0;
+		border-left: 3px solid hsl(var(--destructive));
+		background: hsl(var(--destructive) / 0.06);
+		border-radius: 0 0.375rem 0.375rem 0;
+	}
+
+	:global(.cb-warning-icon) {
+		width: 1.25rem;
+		height: 1.25rem;
+		border-radius: 50%;
+		background: hsl(var(--destructive));
+		color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 0.6875rem;
+		font-weight: 700;
+		flex-shrink: 0;
+		margin-top: 0.0625rem;
+	}
+
+	:global(.cb-warning-text) {
+		font-size: 0.8125rem;
+		line-height: 1.5;
+		color: hsl(var(--foreground));
+	}
+
+	/* Callout block */
+	:global(.cb-callout) {
+		padding: 0.75rem 1rem;
+		margin: 0.75rem 0;
+		border-left: 3px solid hsl(var(--accent));
+		background: hsl(var(--accent) / 0.06);
+		border-radius: 0 0.375rem 0.375rem 0;
+	}
+
+	:global(.cb-callout-title) {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: hsl(var(--accent));
+		margin-bottom: 0.375rem;
+	}
+
+	:global(.cb-callout-body) {
+		font-size: 0.8125rem;
+		line-height: 1.5;
+		color: hsl(var(--foreground));
+	}
+
+	/* Timeline block */
+	:global(.cb-timeline) {
+		margin: 0.75rem 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	:global(.cb-tl-entry) {
+		display: grid;
+		grid-template-columns: 5.5rem 1fr;
+		gap: 0.75rem;
+		padding: 0.5rem 0;
+		border-bottom: 1px solid hsl(var(--border) / 0.3);
+	}
+
+	:global(.cb-tl-entry:last-child) {
+		border-bottom: none;
+	}
+
+	:global(.cb-tl-period) {
+		font-family: var(--font-mono);
+		font-size: 0.6875rem;
+		font-weight: 500;
+		color: hsl(var(--accent));
+		text-align: right;
+		padding-top: 0.0625rem;
+	}
+
+	:global(.cb-tl-text) {
+		font-size: 0.8125rem;
+		line-height: 1.5;
+		color: hsl(var(--foreground) / 0.85);
+	}
+
+	/* Dosing protocol block */
+	:global(.cb-dosing) {
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.5rem;
+		padding: 0.875rem 1rem;
+		margin: 0.75rem 0;
+		background: hsl(var(--muted) / 0.15);
+	}
+
+	:global(.cb-dosing-title) {
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: hsl(var(--accent));
+		margin-bottom: 0.5rem;
+	}
+
+	:global(.cb-dose-row) {
+		display: flex;
+		align-items: baseline;
+		gap: 0.5rem;
+		padding: 0.3125rem 0;
+		border-bottom: 1px solid hsl(var(--border) / 0.2);
+	}
+
+	:global(.cb-dose-row:last-child) {
+		border-bottom: none;
+	}
+
+	:global(.cb-dose-label) {
+		font-size: 0.8125rem;
+		color: hsl(var(--muted-foreground));
+		min-width: 4rem;
+	}
+
+	:global(.cb-dose-value) {
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: hsl(var(--accent));
+	}
+
+	:global(.cb-dose-note) {
+		font-size: 0.6875rem;
+		color: hsl(var(--muted-foreground));
+		margin-left: auto;
 	}
 </style>
