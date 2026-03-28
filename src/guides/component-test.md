@@ -505,16 +505,15 @@ An interactive pathway diagram showing how testosterone is converted to its meta
 
 ## InjectionSiteMap
 
-An interactive body map showing common subcutaneous and intramuscular injection sites with technique details.
+Injection sites grouped by type (SubQ vs IM) with technique details. Click any site to expand.
 
 <InjectionSiteMap
-  title="Peptide Injection Site Map"
+  title="Peptide & Compound Injection Sites"
   sites={[
     {
       id: 'abdomen',
-      name: 'Abdomen (SubQ)',
-      x: 45,
-      y: 40,
+      name: 'Abdomen',
+      type: 'subq',
       technique: 'Pinch a fold of skin 2 inches from the navel. Insert needle at 45-90 degrees depending on needle length.',
       needle: '29-31g, 0.5 inch insulin syringe',
       maxVolume: '1 mL',
@@ -523,47 +522,62 @@ An interactive body map showing common subcutaneous and intramuscular injection 
     },
     {
       id: 'love-handle',
-      name: 'Love Handles (SubQ)',
-      x: 70,
-      y: 38,
+      name: 'Love Handles / Flanks',
+      type: 'subq',
       technique: 'Pinch the fat pad on the side of the abdomen above the hip. Insert at 45 degrees.',
       needle: '29-31g, 0.5 inch insulin syringe',
       maxVolume: '1 mL',
       difficulty: 'easy',
-      notes: 'Good alternative when abdominal sites need a break. Slightly more tissue to work with in most people.'
+      notes: 'Good alternative when abdominal sites need a break. More tissue to work with in most people.'
     },
     {
-      id: 'thigh',
-      name: 'Outer Thigh (SubQ/IM)',
-      x: 32,
-      y: 65,
-      technique: 'For SubQ: pinch outer quad fat and inject at 45 degrees. For IM: inject into the vastus lateralis at 90 degrees.',
-      needle: 'SubQ: 29-31g 0.5 inch. IM: 25g 1 inch.',
-      maxVolume: 'SubQ: 1 mL. IM: 3 mL.',
-      difficulty: 'moderate',
-      notes: 'Versatile site that works for both subcutaneous peptides and intramuscular injections.'
+      id: 'thigh-subq',
+      name: 'Outer Thigh',
+      type: 'subq',
+      technique: 'Pinch outer quad fat and inject at 45 degrees. Middle third of the thigh, outer side.',
+      needle: '29-31g, 0.5 inch insulin syringe',
+      maxVolume: '1 mL',
+      difficulty: 'easy'
     },
     {
       id: 'delt',
-      name: 'Deltoid (IM)',
-      x: 16,
-      y: 20,
+      name: 'Deltoid',
+      type: 'im',
       technique: 'Locate the thickest part of the deltoid, roughly 2 finger widths below the acromion. Insert at 90 degrees.',
       needle: '25-27g, 1 inch',
       maxVolume: '2 mL',
-      difficulty: 'moderate',
-      notes: 'Popular for intramuscular injections of reconstituted peptides requiring IM delivery. Easy to self-inject.'
+      difficulty: 'easy',
+      notes: 'Easy to self-inject. Good for oil-based compounds up to 2mL. Most common IM site for self-administration.'
     },
     {
-      id: 'glute',
-      name: 'Ventrogluteal (IM)',
-      x: 70,
-      y: 48,
+      id: 'vg',
+      name: 'Ventrogluteal',
+      type: 'im',
       technique: 'Place heel of hand on greater trochanter, point index finger to anterior iliac crest. Inject into the triangle formed.',
       needle: '23-25g, 1-1.5 inch',
       maxVolume: '3 mL',
+      difficulty: 'moderate',
+      notes: 'Safest IM site — no major nerves or blood vessels. Can handle large volumes. Harder to self-inject due to reach.'
+    },
+    {
+      id: 'quad',
+      name: 'Vastus Lateralis (Quad)',
+      type: 'im',
+      technique: 'Inject into the outer middle third of the thigh. Sit down, relax the leg. Insert at 90 degrees.',
+      needle: '25g, 1 inch',
+      maxVolume: '3 mL',
+      difficulty: 'easy',
+      notes: 'Very easy to self-inject. Can cause more post-injection pain (PIP) than other sites. Avoid inner thigh.'
+    },
+    {
+      id: 'glute',
+      name: 'Dorsogluteal',
+      type: 'im',
+      technique: 'Upper outer quadrant of the buttock. Draw an imaginary cross on the glute, inject into the upper outer section.',
+      needle: '23-25g, 1.5 inch',
+      maxVolume: '3 mL',
       difficulty: 'advanced',
-      notes: 'Safest IM site with no major nerves or blood vessels. Harder to self-inject due to reach.'
+      notes: 'Traditional IM site but carries sciatic nerve risk if placed incorrectly. VG is preferred. Difficult to self-inject.'
     }
   ]}
 />
