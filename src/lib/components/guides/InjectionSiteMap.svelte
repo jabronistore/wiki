@@ -67,69 +67,12 @@
 		<!-- Body outline with injection site dots -->
 		<div class="body-map-wrapper">
 			<div class="body-map">
-				<svg
-					viewBox="0 0 200 500"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
+				<img
+					src="/body-outline.png"
+					alt="Human body outline with injection sites"
 					class="body-outline"
-					role="img"
-					aria-label="Human body outline with injection sites"
-				>
-					<!-- Medical illustration style human figure — front view, neutral anatomical position -->
-					<!-- Head and neck -->
-					<path d="M100 8 C82 8 72 22 72 38 C72 50 78 60 86 65 L86 72 C86 76 90 80 94 80 L106 80 C110 80 114 76 114 72 L114 65 C122 60 128 50 128 38 C128 22 118 8 100 8Z" class="body-path" />
-
-					<!-- Shoulders and upper torso -->
-					<path d="M94 80 L84 82 C68 84 52 90 42 100 C38 104 36 110 36 116 L36 128 C36 130 38 132 40 132 L40 132" class="body-path limb-path" />
-					<path d="M106 80 L116 82 C132 84 148 90 158 100 C162 104 164 110 164 116 L164 128 C164 130 162 132 160 132 L160 132" class="body-path limb-path" />
-
-					<!-- Torso -->
-					<path d="M62 96 C58 110 56 130 56 150 C56 170 57 190 60 205 C62 215 66 225 72 232 L76 236 C84 242 92 244 100 244 C108 244 116 242 124 236 L128 232 C134 225 138 215 140 205 C143 190 144 170 144 150 C144 130 142 110 138 96" class="body-path" />
-
-					<!-- Chest line -->
-					<path d="M72 120 C80 126 90 128 100 128 C110 128 120 126 128 120" class="body-detail" />
-
-					<!-- Navel -->
-					<circle cx="100" cy="196" r="2.5" class="body-detail" />
-
-					<!-- Left arm -->
-					<path d="M40 132 C38 148 34 165 32 180 C30 196 28 212 28 228 C28 240 30 248 32 252" class="body-path limb-path" />
-					<!-- Left forearm -->
-					<path d="M32 252 C30 268 26 284 24 300 C22 310 22 316 24 320" class="body-path limb-path" />
-					<!-- Left hand -->
-					<path d="M24 320 C22 326 20 332 20 336 C20 342 22 346 26 348 C30 350 34 348 36 344 C38 340 36 334 34 328 C32 324 30 320 32 316" class="body-path" />
-
-					<!-- Right arm -->
-					<path d="M160 132 C162 148 166 165 168 180 C170 196 172 212 172 228 C172 240 170 248 168 252" class="body-path limb-path" />
-					<!-- Right forearm -->
-					<path d="M168 252 C170 268 174 284 176 300 C178 310 178 316 176 320" class="body-path limb-path" />
-					<!-- Right hand -->
-					<path d="M176 320 C178 326 180 332 180 336 C180 342 178 346 174 348 C170 350 166 348 164 344 C162 340 164 334 166 328 C168 324 170 320 168 316" class="body-path" />
-
-					<!-- Hip crease -->
-					<path d="M72 232 C80 240 90 244 100 244" class="body-detail" />
-					<path d="M128 232 C120 240 110 244 100 244" class="body-detail" />
-
-					<!-- Left leg -->
-					<path d="M76 236 C74 256 72 276 70 296 C68 316 66 336 66 356 C66 372 66 384 68 396" class="body-path limb-path" />
-					<path d="M100 244 C98 260 96 276 94 296 C92 316 90 336 90 356 C90 372 90 384 88 396" class="body-path limb-path" />
-
-					<!-- Left knee -->
-					<path d="M70 340 C74 344 80 346 84 344" class="body-detail" />
-
-					<!-- Left foot -->
-					<path d="M68 396 C66 408 62 420 58 428 C56 432 54 436 54 440 C54 446 58 450 66 450 C74 450 82 448 88 446 C92 444 90 440 88 436 C88 420 88 408 88 396" class="body-path" />
-
-					<!-- Right leg -->
-					<path d="M124 236 C126 256 128 276 130 296 C132 316 134 336 134 356 C134 372 134 384 132 396" class="body-path limb-path" />
-					<path d="M100 244 C102 260 104 276 106 296 C108 316 110 336 110 356 C110 372 110 384 112 396" class="body-path limb-path" />
-
-					<!-- Right knee -->
-					<path d="M116 344 C120 340 126 340 130 344" class="body-detail" />
-
-					<!-- Right foot -->
-					<path d="M132 396 C132 408 132 420 132 428 C132 432 130 436 128 440 C126 446 130 450 138 450 C146 450 150 446 150 440 C150 436 148 432 146 428 C142 420 136 408 134 396" class="body-path" />
-				</svg>
+					draggable="false"
+				/>
 
 				<!-- Injection site dots -->
 				{#each sites as site (site.id)}
@@ -235,33 +178,16 @@
 
 	.body-map {
 		position: relative;
-		width: 220px;
-		height: 480px;
+		width: 240px;
+		aspect-ratio: 2 / 3;
 	}
 
 	.body-outline {
 		width: 100%;
 		height: 100%;
-	}
-
-	.body-path {
-		stroke: hsl(var(--muted-foreground) / 0.35);
-		stroke-width: 1.2;
-		fill: hsl(var(--muted) / 0.15);
-		stroke-linejoin: round;
-	}
-
-	.limb-path {
-		fill: none;
-		stroke-width: 1.2;
-		stroke-linecap: round;
-	}
-
-	:global(.body-detail) {
-		stroke: hsl(var(--muted-foreground) / 0.2);
-		stroke-width: 0.8;
-		fill: none;
-		stroke-linecap: round;
+		object-fit: contain;
+		pointer-events: none;
+		user-select: none;
 	}
 
 	/* Injection site dot */
@@ -504,8 +430,7 @@
 		}
 
 		.body-map {
-			width: 180px;
-			height: 400px;
+			width: 200px;
 		}
 
 		.site-dot {
