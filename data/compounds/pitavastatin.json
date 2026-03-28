@@ -1,0 +1,278 @@
+{
+	"id": "pitavastatin",
+	"name": "Pitavastatin",
+	"subtitle": "HMG-CoA Reductase Inhibitor | Low-Interaction Statin",
+	"aliases": ["Livalo", "Livolo"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["cardiovascular"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "1-4 mg/day",
+		"frequency": "Once daily",
+		"cycleDuration": "Ongoing (chronic use or duration of AAS cycle)",
+		"storage": "Room temperature (68-77F). Protect from moisture and light."
+	},
+	"molecular": {
+		"weight": "421.46 Da",
+		"type": "Synthetic statin (C25H24FNO4)",
+		"modifications": [
+			"Cyclopropyl group provides unique structural stability and metabolic resistance",
+			"Minimal CYP450 metabolism — primarily eliminated via glucuronidation and unchanged in bile"
+		],
+		"halfLife": "~12 hours",
+		"halfLifeSeconds": 43200,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Pitavastatin is a newer-generation synthetic statin approved by the FDA in 2009 under the brand name Livalo. It distinguishes itself from other statins through its minimal cytochrome P450 metabolism, which translates to significantly fewer drug-drug interactions than atorvastatin, simvastatin, or lovastatin. This characteristic makes pitavastatin particularly attractive for individuals taking multiple medications or compounds simultaneously, a situation common among anabolic steroid users who may be running ancillaries, aromatase inhibitors, and other support compounds alongside their cycles. Unlike most statins that are heavily metabolized by CYP3A4 or CYP2C9, pitavastatin is primarily metabolized via glucuronidation by UGT1A3 and UGT2B7, with negligible involvement of CYP enzymes. This means compounds and medications that inhibit or induce CYP3A4 do not meaningfully alter pitavastatin blood levels. Clinically, pitavastatin delivers LDL reductions of 38-45% at its standard 2-4 mg dose range, placing it in the moderate-to-high intensity category. Perhaps most notably, pitavastatin carries the lowest risk of new-onset diabetes among all statins, a finding consistently demonstrated across multiple clinical trials and meta-analyses including the LIVES study and J-PREDICT trial. This makes it an especially prudent choice for individuals with pre-existing insulin resistance or those using compounds known to impact glucose metabolism.",
+	"mechanism": "Pitavastatin competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in the mevalonate pathway responsible for cholesterol biosynthesis in the liver. By blocking this enzyme, pitavastatin reduces intracellular cholesterol concentration in hepatocytes, triggering compensatory upregulation of LDL receptor expression on the hepatocyte surface. The increased LDL receptor density enhances the clearance of circulating LDL cholesterol, VLDL remnants, and IDL particles from the bloodstream. Pitavastatin has high binding affinity for HMG-CoA reductase and demonstrates potent LDL-lowering efficacy relative to its low milligram dosing. Beyond direct lipid lowering, pitavastatin exerts pleiotropic cardiovascular effects: it improves endothelial function by enhancing nitric oxide production, reduces vascular inflammation and oxidative stress, and stabilizes atherosclerotic plaques. Uniquely among statins, pitavastatin has been shown to raise HDL cholesterol more robustly than other agents in the class, with increases of 5-15% commonly observed. This HDL-raising effect is thought to involve upregulation of apolipoprotein A-I synthesis and enhanced reverse cholesterol transport. In the context of AAS use, pitavastatin addresses the classic androgen-induced dyslipidemia pattern of elevated LDL and suppressed HDL, with its relatively stronger HDL-raising capacity being an advantage over other statins when HDL suppression is a primary concern.",
+	"keyBenefits": [
+		"Minimal CYP450 metabolism — does not interact with CYP3A4, making it ideal for users taking multiple compounds",
+		"Lowest risk of new-onset diabetes among all statins, supported by the LIVES study and J-PREDICT trial data",
+		"LDL reductions of 38-45% at standard doses (2-4 mg/day)",
+		"More robust HDL-raising effect (5-15%) compared to other statins in the class",
+		"12-hour half-life supports convenient once-daily dosing",
+		"Favorable safety profile with low incidence of muscle-related side effects",
+		"Compatible with CYP3A4 inhibitors and inducers that would alter levels of other statins",
+		"Effective at counteracting AAS-induced lipid disturbances without adding to drug interaction burden"
+	],
+	"indications": [
+		{
+			"category": "Lipid Management",
+			"items": [
+				{
+					"name": "Primary Hyperlipidemia",
+					"description": "FDA-approved for the treatment of primary hyperlipidemia and mixed dyslipidemia. Pitavastatin 2-4 mg provides clinically meaningful LDL reduction comparable to moderate-intensity atorvastatin or rosuvastatin. Particularly well-suited for patients on complex medication regimens where drug interactions are a concern.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "AAS-Induced Dyslipidemia",
+					"description": "Used off-label to manage lipid disturbances caused by anabolic steroid cycles. Its primary advantage in this context is the absence of CYP3A4 interactions, meaning it can be safely co-administered with compounds, ancillaries, and other medications without dose adjustments or concerns about altered statin levels. The relatively stronger HDL-raising effect compared to other statins is an additional benefit given that HDL suppression is often the most resistant lipid abnormality during AAS use.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Cardiovascular Risk Reduction in Diabetes-Prone Individuals",
+					"description": "The preferred statin choice for individuals with pre-existing insulin resistance, metabolic syndrome, or borderline glucose tolerance. The J-PREDICT trial showed pitavastatin actually reduced the incidence of new-onset diabetes by 18% compared to placebo, in contrast to other statins which modestly increase diabetes risk. This is particularly relevant for AAS users running compounds that affect glucose metabolism such as growth hormone or certain oral steroids.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Prevention",
+			"items": [
+				{
+					"name": "Primary Prevention of Cardiovascular Disease",
+					"description": "Appropriate for cardiovascular risk reduction in individuals with dyslipidemia and additional risk factors. While pitavastatin lacks the large-scale dedicated cardiovascular outcomes trial data that rosuvastatin and atorvastatin have (JUPITER, ASCOT), its class-effect benefits are well established and supported by the long-term LIVES study data from Japan.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Lipid Management During Polypharmacy",
+					"description": "The statin of choice when drug interaction potential must be minimized. Especially relevant for individuals taking azole antifungals, macrolide antibiotics, protease inhibitors, or other CYP3A4 inhibitors that would significantly increase blood levels of atorvastatin or simvastatin. In the AAS context, this is advantageous for users running multiple compounds with hepatic metabolism.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Pitavastatin is administered exclusively via the oral route as film-coated tablets in 1 mg, 2 mg, and 4 mg strengths. It can be taken at any time of day with or without food. Its 12-hour half-life is sufficient for once-daily dosing to maintain effective HMG-CoA reductase inhibition throughout the day. Oral bioavailability is approximately 51%, which is notably higher than most other statins. The drug undergoes minimal CYP450 metabolism — it is primarily metabolized via glucuronidation (UGT1A3, UGT2B7) and is largely excreted unchanged in bile. This metabolic profile is the foundation of its low drug interaction potential.",
+			"protocols": [
+				{
+					"goal": "On-Cycle Lipid Management (AAS Use)",
+					"dose": "2-4 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "Start at 2 mg daily when beginning an AAS cycle, particularly if running oral steroids known to impact lipids. Increase to 4 mg if mid-cycle bloodwork shows inadequate LDL reduction. The primary rationale for choosing pitavastatin over rosuvastatin or atorvastatin in this context is the elimination of CYP3A4 interaction concerns, which is especially important for users running multiple hepatically-metabolized compounds simultaneously. Continue for 2-4 weeks after cycle completion or until lipids normalize."
+				},
+				{
+					"goal": "Low-Interaction Statin Therapy",
+					"dose": "2-4 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "For individuals on complex medication regimens where CYP3A4 interactions are a concern. Pitavastatin 2 mg provides approximately 38% LDL reduction, and 4 mg provides approximately 45% reduction. Unlike atorvastatin and simvastatin, pitavastatin does not require dose adjustments when co-administered with common CYP3A4 inhibitors."
+				},
+				{
+					"goal": "Standard Hyperlipidemia (Non-AAS)",
+					"dose": "1-4 mg/day",
+					"frequency": "Once daily",
+					"route": "Oral",
+					"notes": "Starting dose is typically 2 mg for most patients. 1 mg starting dose for patients with moderate renal impairment (eGFR 30-59 mL/min). Maximum recommended dose is 4 mg daily. Dose should be titrated based on lipid response assessed after 4 weeks of therapy."
+				}
+			],
+			"keyBenefits": [
+				"Once-daily dosing at any time of day",
+				"Can be taken with or without food",
+				"No clinically significant CYP3A4 interactions — the key differentiator",
+				"Higher oral bioavailability (~51%) than most other statins",
+				"Available in low-dose tablets (1, 2, 4 mg) for precise dosing"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Ezetimibe",
+			"status": "synergistic",
+			"notes": "Pitavastatin and ezetimibe act on complementary cholesterol pathways — pitavastatin inhibits hepatic synthesis while ezetimibe blocks intestinal absorption. The combination provides an additional 15-20% LDL reduction beyond pitavastatin monotherapy. This pairing preserves pitavastatin's low interaction profile since ezetimibe is also minimally metabolized by CYP enzymes. Particularly useful for AAS users who need greater LDL reduction without switching to a higher-interaction statin."
+		},
+		{
+			"peptide": "Oxandrolone",
+			"status": "compatible",
+			"notes": "Pitavastatin can be safely co-administered with oxandrolone without interaction concerns. Oxandrolone severely impacts lipid profiles, suppressing HDL by 40-50% and elevating LDL. Pitavastatin addresses the LDL component effectively and may provide slightly better HDL support than other statins, though the HDL suppression from oxandrolone will still be substantial. The absence of CYP3A4 involvement means no metabolic competition between the two compounds."
+		},
+		{
+			"peptide": "Testosterone",
+			"status": "compatible",
+			"notes": "No interaction concerns. Supraphysiological testosterone modestly worsens lipid profiles, and pitavastatin helps maintain healthier lipid levels during testosterone cycles or TRT. Pitavastatin does not affect testosterone metabolism, aromatization, or anabolic activity. The lack of CYP3A4 involvement is a specific advantage here, as testosterone and many of its esters undergo hepatic metabolism through CYP pathways."
+		},
+		{
+			"peptide": "CYP3A4 Inhibitors",
+			"status": "compatible",
+			"notes": "Unlike atorvastatin, simvastatin, and lovastatin — which are extensively metabolized by CYP3A4 and can reach dangerously elevated blood levels when combined with CYP3A4 inhibitors — pitavastatin is not meaningfully affected by CYP3A4 inhibition or induction. This is a major practical advantage for steroid users who may also be taking azole antifungals (ketoconazole, itraconazole), macrolide antibiotics (erythromycin, clarithromycin), or grapefruit juice, all of which can dramatically increase blood levels of CYP3A4-dependent statins."
+		}
+	],
+	"timeline": [
+		{
+			"period": "Week 1-2",
+			"effects": "LDL cholesterol begins to decline as hepatic LDL receptor upregulation takes effect. Measurable lipid changes are detectable on bloodwork within the first week. Most users are asymptomatic during initiation, though mild headache or GI discomfort may occur transiently."
+		},
+		{
+			"period": "Week 2-4",
+			"effects": "LDL reduction approaches 80-90% of maximum effect. Mid-cycle bloodwork at this point should show meaningful LDL improvement. HDL levels may begin to show a modest upward trend, particularly in users not concurrently running HDL-suppressive AAS. Any initial side effects typically resolve."
+		},
+		{
+			"period": "Month 1-3",
+			"effects": "Full steady-state lipid-lowering effect achieved. LDL reduction of 38-45% depending on dose. HDL increase of 5-15%, which may be partially blunted by concurrent AAS use. Triglycerides reduced by 15-25%. This is the appropriate window to repeat comprehensive lipid panels and adjust dosing if needed."
+		},
+		{
+			"period": "Month 3-6",
+			"effects": "Sustained lipid control with stable LDL, HDL, and triglyceride levels. Long-term cardiovascular protection mechanisms including plaque stabilization and anti-inflammatory effects become increasingly relevant. Liver enzymes should be checked if not already done. The LIVES study demonstrated continued efficacy and safety through this period with no attenuation of lipid-lowering effect."
+		},
+		{
+			"period": "Month 6+",
+			"effects": "Ongoing cardiovascular risk reduction with a well-established safety profile. Long-term data from the LIVES study (over 20,000 patients followed for 2+ years) demonstrated sustained efficacy and a favorable safety profile including continued improvements in lipid parameters over time. Notably, no increase in new-onset diabetes was observed with long-term use. Annual monitoring of lipid panel, liver enzymes, fasting glucose, and CK (if symptomatic) is recommended."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Myalgia and muscle discomfort (approximately 3-5% of users) — generally mild and less frequent than with lipophilic statins",
+			"Headache",
+			"Minimal liver enzyme elevation — typically transient and clinically insignificant",
+			"Back pain",
+			"Constipation or diarrhea"
+		],
+		"rare": [
+			"Rhabdomyolysis — extremely rare but potentially life-threatening breakdown of muscle tissue, risk increases with higher doses or concurrent use of certain medications",
+			"Clinically significant liver enzyme elevation (ALT/AST >3x ULN) — occurs in <1% of users",
+			"Interstitial lung disease — very rarely reported with statins",
+			"Immune-mediated necrotizing myopathy — extremely rare autoimmune condition associated with statin exposure",
+			"Hypersensitivity reactions including rash and urticaria"
+		],
+		"stopSigns": [
+			"Unexplained severe muscle pain, tenderness, or weakness, especially with fever or malaise (possible rhabdomyolysis)",
+			"Dark brown or cola-colored urine (myoglobinuria suggesting rhabdomyolysis)",
+			"Jaundice, severe right upper quadrant abdominal pain, or markedly elevated liver enzymes (>3x ULN)",
+			"Severe allergic reaction (rash, swelling, difficulty breathing)"
+		],
+		"contraindications": [
+			"Active liver disease or unexplained persistent elevations in hepatic transaminases",
+			"Known hypersensitivity to pitavastatin or any excipients",
+			"Pregnancy and breastfeeding (Category X — statins are teratogenic)",
+			"Concomitant use with cyclosporine (significantly increases pitavastatin levels via OATP1B1 inhibition)",
+			"Concomitant use with lopinavir/ritonavir or atazanavir/ritonavir combinations"
+		],
+		"monitoring": [
+			"Lipid panel: at baseline, 4-8 weeks after initiation or dose change, then every 6-12 months",
+			"Liver enzymes (ALT/AST): at baseline and as clinically indicated — routine periodic monitoring prudent for AAS users given concurrent hepatic stress",
+			"Creatine kinase (CK): at baseline if at elevated risk for myopathy; repeat if muscle symptoms develop",
+			"Fasting glucose / HbA1c: periodically — though pitavastatin carries the lowest diabetes risk among statins, baseline monitoring is still appropriate",
+			"Renal function: at baseline and periodically, with dose adjustment for moderate renal impairment"
+		]
+	},
+	"qualityChecklist": {
+		"good": [
+			"Pharmaceutical-grade product from established manufacturer with valid NDC number",
+			"Proper labeling with dosage strength, lot number, and expiration date",
+			"Tablets are uniform in appearance with intact film coating",
+			"Prescribed by licensed physician with appropriate lipid workup",
+			"Generic pitavastatin from reputable manufacturer (bioequivalent to brand Livalo)"
+		],
+		"warning": [
+			"Sourced from unverified international pharmacies without regulatory oversight",
+			"Compounded formulations without verified potency testing",
+			"UGL (underground lab) sourced statins sold alongside AAS — variable quality and dosing accuracy"
+		],
+		"bad": [
+			"Tablets that are crumbling, chipped, discolored, or missing film coating",
+			"Product past its expiration date",
+			"No labeling or incorrect dosage strength labeling",
+			"Sourced without any verification of identity or purity"
+		]
+	},
+	"references": [
+		{
+			"title": "Pitavastatin: A Review of its Pharmacology and Clinical Use in the Management of Hypercholesterolemia",
+			"authors": "Catapano, A.L.",
+			"journal": "Drugs",
+			"year": "2010",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/20942327/",
+			"keyFindings": "Comprehensive review of pitavastatin pharmacology demonstrating LDL reductions of 38-45% at 2-4 mg doses, minimal CYP450 metabolism, and a favorable drug interaction profile. Highlighted the unique metabolic pathway via glucuronidation rather than CYP3A4."
+		},
+		{
+			"title": "Long-Term Safety and Efficacy of Pitavastatin in Japanese Patients with Hypercholesterolemia (LIVES Study)",
+			"authors": "Yokote, K., Bujo, H., Hanaoka, H., et al.",
+			"journal": "Clinical Therapeutics",
+			"year": "2009",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/19781436/",
+			"keyFindings": "Large-scale post-marketing surveillance of over 20,000 Japanese patients treated with pitavastatin for up to 2 years. Demonstrated sustained LDL reduction, consistent HDL elevation (5-15%), excellent tolerability, and notably no signal for increased new-onset diabetes."
+		},
+		{
+			"title": "Effect of Pitavastatin on Preventing New-Onset Diabetes Mellitus in Patients with Impaired Glucose Tolerance (J-PREDICT Trial)",
+			"authors": "Odawara, M., Yamazaki, T., Kishimoto, J., et al.",
+			"journal": "Journal of Atherosclerosis and Thrombosis",
+			"year": "2023",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36244783/",
+			"keyFindings": "Pivotal trial demonstrating that pitavastatin 1-2 mg daily reduced the incidence of new-onset diabetes by 18% in patients with impaired glucose tolerance, in contrast to the diabetogenic effect observed with other statins. This finding positions pitavastatin as the preferred statin for patients at risk of diabetes."
+		},
+		{
+			"title": "Comparative Effectiveness of HMG-CoA Reductase Inhibitors (Statins) for Lipid Lowering",
+			"authors": "Adams, S.P., Tsang, M., Wright, J.M.",
+			"journal": "Cochrane Database of Systematic Reviews",
+			"year": "2015",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26068582/",
+			"keyFindings": "Systematic review comparing statin potency across the class. Pitavastatin 2 mg was approximately equivalent to atorvastatin 10 mg and rosuvastatin 5 mg in LDL-lowering efficacy, confirming its position as a moderate-to-high intensity statin despite its lower milligram dosing."
+		},
+		{
+			"title": "Statin-Associated Diabetes Mellitus: Review and Clinical Guide",
+			"authors": "Thakker, D., Nair, S., Pagada, A., et al.",
+			"journal": "Pharmacotherapy",
+			"year": "2016",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/26877253/",
+			"keyFindings": "Meta-analysis and clinical review confirming that statin-associated diabetes risk varies significantly across the class. Pitavastatin consistently showed neutral-to-protective effects on glucose metabolism, while atorvastatin and rosuvastatin carried the highest diabetes risk. Recommended pitavastatin as the preferred statin for patients with diabetes risk factors."
+		}
+	],
+	"latestResearch": [
+		{
+			"title": "Anabolic Androgenic Steroids and Cardiovascular Risk: A Narrative Review",
+			"date": "2023",
+			"source": "Current Sports Medicine Reports",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36728834/",
+			"summary": "Review detailing the cardiovascular risks of AAS use including dyslipidemia, left ventricular hypertrophy, and accelerated atherosclerosis. Highlights statin therapy as a key intervention for managing AAS-induced lipid disturbances, noting that low-interaction statins like pitavastatin offer practical advantages for users on complex compound regimens."
+		},
+		{
+			"title": "Pitavastatin for the Prevention of Cardiovascular Disease in HIV (REPRIEVE Trial)",
+			"date": "2023",
+			"source": "The New England Journal of Medicine",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/37486775/",
+			"summary": "Landmark trial of over 7,700 HIV-positive individuals demonstrating that pitavastatin 4 mg daily reduced major adverse cardiovascular events by 35% compared to placebo. Pitavastatin was specifically chosen for this population due to its lack of CYP3A4 interactions with antiretroviral medications, validating the low-interaction advantage in a polypharmacy context."
+		},
+		{
+			"title": "Statin-Associated Muscle Symptoms: A Comprehensive Review and Update",
+			"date": "2023",
+			"source": "Journal of the American College of Cardiology",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/36922432/",
+			"summary": "Updated review on statin myopathy, reporting that true statin-attributable muscle symptoms occur in approximately 5-7% of patients. Pitavastatin was associated with a lower incidence of muscle-related complaints compared to lipophilic statins, consistent with its primarily hepatic site of action and limited muscle tissue penetration."
+		}
+	]
+}

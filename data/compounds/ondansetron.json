@@ -1,0 +1,214 @@
+{
+	"id": "ondansetron",
+	"name": "Ondansetron",
+	"subtitle": "5-HT3 Antagonist | Anti-Nausea On Cycle",
+	"aliases": ["Zofran"],
+	"compoundKind": "pharmaceutical",
+	"categories": ["other"],
+	"researchStatus": "fda-approved",
+	"fdaApproved": true,
+	"quickStats": {
+		"typicalDose": "4-8 mg as needed",
+		"frequency": "Up to 3 times daily",
+		"cycleDuration": "As needed during cycle or treatment",
+		"storage": "Room temperature (68-77F). Protect from light and moisture. ODT: keep in blister pack until use."
+	},
+	"molecular": {
+		"weight": "293.36 Da",
+		"type": "Carbazole derivative (C18H19N3O)",
+		"modifications": [
+			"Orally disintegrating tablets (ODT / Zofran ODT) dissolve on the tongue without water, providing fast onset and convenience during active nausea"
+		],
+		"halfLife": "~4 hours",
+		"halfLifeSeconds": 14400,
+		"halfLifeRoute": "Oral"
+	},
+	"overview": "Ondansetron is a selective serotonin 5-HT3 receptor antagonist originally developed and FDA-approved for the prevention of nausea and vomiting caused by chemotherapy, radiation therapy, and surgery. It works by blocking serotonin signaling in both the gut and the brain's chemoreceptor trigger zone, making it one of the most effective and widely prescribed anti-emetics available. In the performance-enhancement and peptide community, ondansetron has become an essential support compound for managing nausea caused by a range of commonly used agents. GLP-1 receptor agonists like semaglutide and tirzepatide are notorious for dose-dependent nausea, particularly during titration phases, and ondansetron is the go-to solution for keeping users compliant with their protocols. It is similarly relied upon for nausea triggered by HCG, nandrolone (Deca/NPP), pramipexole, and various oral compounds that cause gastric distress. The orally disintegrating tablet (ODT) formulation is especially popular because it dissolves on the tongue in seconds and does not require swallowing a pill while actively nauseated.",
+	"mechanism": "Ondansetron exerts its anti-emetic effects through selective antagonism of serotonin 5-HT3 receptors. These receptors are concentrated in two key areas relevant to nausea: the vagal afferent nerve terminals in the gastrointestinal tract and the chemoreceptor trigger zone (CTZ) in the area postrema of the brainstem. When emetogenic stimuli (chemotherapy, medications, gut irritation) cause enterochromaffin cells in the gut to release large amounts of serotonin, this serotonin activates 5-HT3 receptors on vagal afferents, which transmit nausea signals to the brainstem vomiting center. Ondansetron blocks this signaling pathway at both the peripheral (gut) and central (CTZ) level. Unlike dopamine antagonists such as metoclopramide, ondansetron does not block D2 receptors and therefore does not cause extrapyramidal side effects or prolactin elevation, making it a much cleaner anti-emetic for long-term or repeated use. The drug is metabolized hepatically via CYP3A4 and CYP1A2 and is eliminated with a half-life of approximately 4 hours.",
+	"keyBenefits": [
+		"Highly effective at controlling nausea and vomiting from a wide range of causes, including GLP-1 agonists, HCG, and nandrolone",
+		"Orally disintegrating tablet (ODT) dissolves on the tongue in seconds, ideal for use during active nausea when swallowing pills is difficult",
+		"Does not cause sedation, extrapyramidal symptoms, or prolactin elevation, unlike dopamine-blocking anti-emetics",
+		"Fast onset of action (15-30 minutes oral, near-immediate for ODT) with reliable 4-8 hour duration",
+		"Well-tolerated with a mild side effect profile at standard doses",
+		"Widely available as an inexpensive generic in multiple formulations"
+	],
+	"indications": [
+		{
+			"category": "FDA-Approved",
+			"items": [
+				{
+					"name": "Chemotherapy-Induced Nausea and Vomiting (CINV)",
+					"description": "FDA-approved for the prevention of nausea and vomiting associated with highly and moderately emetogenic cancer chemotherapy. This was the original and primary indication that drove ondansetron's development. Typically used at 8-24 mg/day depending on the emetogenic potential of the chemotherapy regimen.",
+					"effectiveness": "most-effective"
+				},
+				{
+					"name": "Radiation-Induced Nausea and Vomiting",
+					"description": "Approved for prevention of nausea and vomiting associated with radiotherapy, including total body irradiation and abdominal radiation. Dosed at 8 mg 1-2 hours before treatment.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Postoperative Nausea and Vomiting (PONV)",
+					"description": "Approved for prevention and treatment of postoperative nausea and vomiting. Commonly administered as a 4 mg IV dose at the end of surgery, or 16 mg orally one hour before anesthesia induction.",
+					"effectiveness": "effective"
+				}
+			]
+		},
+		{
+			"category": "Off-Label (Primary Use in PED/Peptide Community)",
+			"items": [
+				{
+					"name": "GLP-1 Agonist Nausea (Semaglutide, Tirzepatide)",
+					"description": "One of the most common reasons ondansetron is used in the peptide community. GLP-1 receptor agonists cause significant nausea in 30-50% of users, especially during dose titration. Ondansetron 4-8 mg as needed allows users to maintain compliance with their GLP-1 protocol rather than abandoning it or failing to titrate to an effective dose. The ODT formulation is particularly valued here.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "HCG-Induced Nausea",
+					"description": "Some users experience nausea during HCG administration, particularly at higher doses used for fertility protocols or aggressive PCT. Ondansetron provides reliable symptom control without interfering with HCG's mechanism of action.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Nandrolone/19-Nor Nausea",
+					"description": "Nandrolone (Deca-Durabolin, NPP) and other 19-nortestosterone derivatives can cause nausea in some users, particularly at higher doses or when combined with other compounds. Ondansetron manages this effectively without the sedation that would impair training.",
+					"effectiveness": "effective"
+				},
+				{
+					"name": "Dopamine Agonist Nausea (Pramipexole, Cabergoline)",
+					"description": "Dopamine agonists like pramipexole are notorious for causing nausea during the titration phase. Ondansetron helps users tolerate the initial dose escalation period until tolerance to the gastrointestinal side effects develops.",
+					"effectiveness": "effective"
+				}
+			]
+		}
+	],
+	"deliveryMethods": [
+		{
+			"type": "oral",
+			"available": true,
+			"overview": "Ondansetron is available as standard tablets (4 mg, 8 mg), orally disintegrating tablets (ODT, 4 mg, 8 mg), and oral solution (4 mg/5 mL). The ODT formulation is by far the most popular in the PED/peptide community because it dissolves on the tongue within seconds and does not require water or the ability to swallow a pill, which is critical when actively nauseated. Standard tablets are equally effective but less practical during acute nausea episodes. Oral bioavailability is approximately 60% due to first-pass metabolism. Peak plasma levels are reached within 1-2 hours for standard tablets and slightly faster for ODT.",
+			"protocols": [
+				{
+					"goal": "As-Needed Nausea Control",
+					"dose": "4-8 mg",
+					"frequency": "As needed, up to 3 times daily (max 24 mg/day)",
+					"route": "Oral tablet or ODT",
+					"notes": "The standard approach for managing intermittent nausea from GLP-1 agonists, HCG, or other compounds. Start with 4 mg and increase to 8 mg if insufficient. ODT tablets should be placed on the tongue and allowed to dissolve without chewing. Can be taken with or without food."
+				},
+				{
+					"goal": "Preventive Dosing (Before Known Trigger)",
+					"dose": "4-8 mg",
+					"frequency": "30-60 minutes before the triggering event",
+					"route": "Oral tablet or ODT",
+					"notes": "If a specific compound or injection consistently causes nausea, taking ondansetron 30-60 minutes before administration can prevent symptoms entirely. Useful for GLP-1 injection days or oral compounds known to cause gastric distress."
+				}
+			],
+			"keyBenefits": [
+				"ODT formulation dissolves on the tongue in seconds without water",
+				"Non-sedating, allowing normal daily function and training",
+				"Fast onset (15-30 minutes) with reliable duration of action",
+				"Widely available as inexpensive generic",
+				"Multiple formulations available to suit different needs"
+			]
+		}
+	],
+	"interactions": [
+		{
+			"peptide": "Semaglutide / Tirzepatide (GLP-1 Agonists)",
+			"status": "synergistic",
+			"notes": "Ondansetron is the primary tool for managing GLP-1 agonist-induced nausea, which is the most common side effect and the leading cause of protocol discontinuation. No pharmacological conflict exists between the two. Ondansetron addresses the nausea without interfering with GLP-1's metabolic effects on appetite, glucose regulation, or weight loss. Using ondansetron during the GLP-1 titration phase allows users to reach effective doses more reliably."
+		},
+		{
+			"peptide": "Pramipexole",
+			"status": "synergistic",
+			"notes": "Pramipexole and other dopamine agonists commonly cause nausea through activation of D2/D3 receptors in the chemoreceptor trigger zone. While ondansetron acts on 5-HT3 receptors rather than dopamine receptors, it still provides meaningful relief from dopamine agonist-induced nausea in many users. This combination allows tolerable pramipexole titration to effective doses for prolactin management or other goals."
+		},
+		{
+			"peptide": "Tramadol",
+			"status": "monitor",
+			"notes": "Ondansetron may reduce the analgesic efficacy of tramadol. Tramadol's pain-relieving action depends in part on serotonergic pathways, and 5-HT3 receptor blockade by ondansetron has been shown in clinical studies to attenuate tramadol's analgesic effect. If tramadol is being used for pain management, alternative anti-emetics should be considered, or the interaction should be accounted for with dose adjustments."
+		}
+	],
+	"timeline": [
+		{
+			"period": "15-30 minutes",
+			"effects": "Onset of anti-emetic effect. Nausea begins to subside. ODT formulations may provide slightly faster onset due to partial buccal absorption. Most users experience meaningful relief within this window."
+		},
+		{
+			"period": "1-2 hours",
+			"effects": "Peak plasma concentration reached. Maximum anti-emetic effect is established. Nausea should be well controlled at this point for the majority of users."
+		},
+		{
+			"period": "4-6 hours",
+			"effects": "Sustained anti-emetic effect. The 4-hour half-life means that clinical effects typically extend beyond this point, though some users with persistent nausea triggers may need to redose at the 6-8 hour mark."
+		},
+		{
+			"period": "8-12 hours",
+			"effects": "Drug elimination. Effects taper off and nausea may return if the underlying trigger (e.g., GLP-1 agonist, active compound) is still present. A second or third dose may be taken if needed, up to the daily maximum."
+		}
+	],
+	"sideEffects": {
+		"common": [
+			"Headache (most frequently reported side effect)",
+			"Constipation (5-HT3 blockade reduces gut motility)",
+			"Fatigue or dizziness",
+			"Dry mouth"
+		],
+		"rare": [
+			"QT prolongation and cardiac arrhythmias, particularly at doses exceeding 16 mg IV or in patients with pre-existing cardiac conditions or electrolyte imbalances",
+			"Serotonin syndrome when combined with other serotonergic drugs (SSRIs, SNRIs, MAOIs) at high doses",
+			"Hypersensitivity reactions including anaphylaxis (very rare)",
+			"Transient elevations in liver enzymes (typically asymptomatic and self-resolving)"
+		],
+		"stopSigns": [
+			"Irregular heartbeat, palpitations, or chest pain (may indicate QT prolongation)",
+			"Signs of serotonin syndrome: agitation, confusion, rapid heart rate, elevated body temperature, muscle rigidity",
+			"Severe allergic reaction: rash, facial or throat swelling, difficulty breathing",
+			"Severe or persistent constipation unresponsive to standard interventions"
+		],
+		"contraindications": [
+			"Known hypersensitivity to ondansetron or other 5-HT3 antagonists",
+			"Congenital long QT syndrome",
+			"Concurrent use of apomorphine (risk of severe hypotension and loss of consciousness)",
+			"Severe hepatic impairment (maximum dose should not exceed 8 mg/day)"
+		],
+		"monitoring": [
+			"ECG monitoring if used at high doses (>16 mg/day) or in patients with cardiac risk factors",
+			"Electrolytes (potassium, magnesium): hypokalemia or hypomagnesemia can exacerbate QT prolongation",
+			"Liver function: periodic monitoring in patients with hepatic impairment",
+			"Bowel function: constipation is the most common ongoing side effect and may require management with fiber, hydration, or osmotic laxatives"
+		]
+	},
+	"references": [
+		{
+			"title": "Ondansetron: A Review of Its Pharmacology and Clinical Use in Chemotherapy-Induced Emesis",
+			"authors": "Markham, A., Sorkin, E.M.",
+			"journal": "Drugs",
+			"year": "1993",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/7681372/",
+			"keyFindings": "Comprehensive review of ondansetron's pharmacology, pharmacokinetics, and clinical efficacy in preventing chemotherapy-induced nausea and vomiting. Established ondansetron as a first-line anti-emetic with superior efficacy and tolerability compared to dopamine antagonists like metoclopramide."
+		},
+		{
+			"title": "5-HT3 Receptor Antagonists in the Prevention and Treatment of Nausea and Vomiting",
+			"authors": "Gan, T.J.",
+			"journal": "Anesthesia & Analgesia",
+			"year": "2005",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/16263829/",
+			"keyFindings": "Review of 5-HT3 antagonist pharmacology and clinical applications across multiple settings. Demonstrated that ondansetron and related agents are effective for both prevention and treatment of nausea from diverse causes, with a favorable safety profile and minimal sedation compared to older anti-emetics."
+		},
+		{
+			"title": "Gastrointestinal Tolerability of Once-Weekly Semaglutide: A Randomized Dose-Escalation Trial",
+			"authors": "Nauck, M.A., Petrie, J.R., Sesti, G., et al.",
+			"journal": "Diabetes, Obesity and Metabolism",
+			"year": "2019",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/30098107/",
+			"keyFindings": "Characterized the gastrointestinal side effect profile of semaglutide, confirming that nausea affects approximately 30-44% of patients during dose titration. The study noted that nausea was the primary reason for treatment discontinuation, underscoring the importance of supportive anti-emetic therapy for maintaining GLP-1 agonist compliance."
+		},
+		{
+			"title": "Ondansetron Decreases the Analgesic Effects of Tramadol: A Randomized Controlled Trial",
+			"authors": "Arcioni, R., della Rocca, M., Romano, S., et al.",
+			"journal": "Anesthesiology",
+			"year": "2002",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/12357165/",
+			"keyFindings": "Randomized controlled trial demonstrating that ondansetron significantly reduces the analgesic efficacy of tramadol in postoperative patients. This interaction is clinically relevant because tramadol's analgesic mechanism depends partly on serotonergic pathways that ondansetron blocks via 5-HT3 antagonism."
+		}
+	]
+}
