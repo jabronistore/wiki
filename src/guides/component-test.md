@@ -39,7 +39,8 @@ relatedGuides:
   import ReadinessQuiz from '$lib/components/guides/ReadinessQuiz.svelte';
   import DecisionTree from '$lib/components/guides/DecisionTree.svelte';
   import AggressionLadder from '$lib/components/guides/AggressionLadder.svelte';
-  import BloodworkPanel from '$lib/components/guides/BloodworkPanel.svelte';
+  import BloodworkChecklist from '$lib/components/guides/BloodworkChecklist.svelte';
+  import BloodworkInterpreter from '$lib/components/guides/BloodworkInterpreter.svelte';
   import SymptomChecker from '$lib/components/guides/SymptomChecker.svelte';
   import HormonePathway from '$lib/components/guides/HormonePathway.svelte';
   import InjectionSiteMap from '$lib/components/guides/InjectionSiteMap.svelte';
@@ -358,44 +359,68 @@ A tiered escalation ladder for GH secretagogue protocols, from conservative to a
 
 ---
 
-## BloodworkPanel
+## BloodworkChecklist
 
-Interactive panel builder showing which blood markers to request before starting a peptide protocol versus while running one.
+A printable shopping list for what markers to order. Check them off, copy the list, take it to the lab.
 
-<BloodworkPanel
-  title="Bloodwork Panel Builder"
+<BloodworkChecklist
+  title="Pre-Cycle Bloodwork Order"
   panels={[
     {
       id: 'baseline',
-      name: 'Natural Baseline',
-      description: 'Get these markers before starting any peptide or hormone protocol. This is your reference point.',
+      name: 'Pre-Cycle Baseline',
+      description: 'Order these before starting any cycle. This is your reference point — you will never know your natural values again once you start.',
       markers: [
-        { name: 'Total Testosterone', category: 'Hormones', range: '300-1000 ng/dL', why: 'Establishes your natural production level.' },
-        { name: 'Free Testosterone', category: 'Hormones', range: '9-30 ng/dL', why: 'The bioavailable fraction that actually acts on tissues.' },
-        { name: 'Estradiol (sensitive)', category: 'Hormones', range: '20-35 pg/mL', why: 'Baseline E2 helps you spot aromatisation issues later.' },
-        { name: 'IGF-1', category: 'Growth Markers', range: '100-300 ng/mL', why: 'Reflects integrated GH output over weeks. Essential before any GH peptide.' },
-        { name: 'Fasting Glucose', category: 'Metabolic', range: '70-100 mg/dL', why: 'GH secretagogues can impair insulin sensitivity.' },
-        { name: 'Fasting Insulin', category: 'Metabolic', range: '2-10 uIU/mL', why: 'Together with glucose, reveals insulin resistance.' },
-        { name: 'CBC', category: 'General Health', range: 'Lab reference', why: 'Checks for anaemia, infection, or blood cell abnormalities.' },
-        { name: 'CMP', category: 'General Health', range: 'Lab reference', why: 'Liver enzymes, kidney function, electrolytes in one panel.' },
-        { name: 'Lipid Panel', category: 'Cardiovascular', range: 'Lab reference', why: 'Total cholesterol, LDL, HDL, triglycerides.' },
-        { name: 'TSH', category: 'Thyroid', range: '0.5-2.5 mIU/L', why: 'Thyroid dysfunction can mimic low GH symptoms.' }
+        { name: 'Total Testosterone', category: 'Hormones', essential: true },
+        { name: 'Free Testosterone', category: 'Hormones', essential: true },
+        { name: 'Estradiol (sensitive)', category: 'Hormones', essential: true },
+        { name: 'SHBG', category: 'Hormones', essential: false },
+        { name: 'LH', category: 'Hormones', essential: true },
+        { name: 'FSH', category: 'Hormones', essential: true },
+        { name: 'Prolactin', category: 'Hormones', essential: false },
+        { name: 'IGF-1', category: 'Growth', essential: true },
+        { name: 'CBC with Differential', category: 'Blood', essential: true },
+        { name: 'CMP', category: 'Metabolic', essential: true },
+        { name: 'Lipid Panel (LDL/HDL)', category: 'Cardiovascular', essential: true },
+        { name: 'Fasting Insulin', category: 'Metabolic', essential: false },
+        { name: 'HbA1c', category: 'Metabolic', essential: false },
+        { name: 'TSH', category: 'Thyroid', essential: false },
+        { name: 'PSA', category: 'Prostate', essential: false }
       ]
     },
     {
-      id: 'on-cycle',
-      name: 'On-Cycle Monitoring',
-      description: 'Run these markers 6-8 weeks into a GH secretagogue protocol to assess response and catch issues early.',
+      id: 'mid-cycle',
+      name: 'Mid-Cycle (Week 6-8)',
+      description: 'Check these 6-8 weeks in to verify your compounds are working and catch issues early.',
       markers: [
-        { name: 'IGF-1', category: 'Growth Markers', range: '150-400 ng/mL', why: 'Should be elevated from baseline. If not, the peptide may not be working.' },
-        { name: 'Fasting Glucose', category: 'Metabolic', range: '70-100 mg/dL', why: 'GH raises blood sugar. Watch for creeping values.' },
-        { name: 'Fasting Insulin', category: 'Metabolic', range: '2-10 uIU/mL', why: 'Elevated insulin with normal glucose signals developing resistance.' },
-        { name: 'HbA1c', category: 'Metabolic', range: 'Under 5.7%', why: 'Three-month average glucose. Catches sustained elevation that fasting glucose misses.' },
-        { name: 'Prolactin', category: 'Hormones', range: '2-18 ng/mL', why: 'GHRP-6 and MK-677 can raise prolactin. Monitor if using these.' },
-        { name: 'Cortisol (AM)', category: 'Hormones', range: '6-18 mcg/dL', why: 'Some GHRPs raise cortisol. Check if you feel wired or anxious.' },
-        { name: 'CMP', category: 'General Health', range: 'Lab reference', why: 'Recheck liver and kidney markers to ensure nothing is being stressed.' }
+        { name: 'Total Testosterone', category: 'Hormones', essential: true },
+        { name: 'Estradiol (sensitive)', category: 'Hormones', essential: true },
+        { name: 'Hematocrit', category: 'Blood', essential: true },
+        { name: 'Lipid Panel', category: 'Cardiovascular', essential: true },
+        { name: 'ALT/AST', category: 'Liver', essential: true },
+        { name: 'Prolactin', category: 'Hormones', essential: false },
+        { name: 'Fasting Glucose', category: 'Metabolic', essential: false },
+        { name: 'Blood Pressure', category: 'Cardiovascular', essential: true }
       ]
     }
+  ]}
+/>
+
+---
+
+## BloodworkInterpreter
+
+Plug in your actual lab values and see where you fall — green, yellow, or red zones for each marker.
+
+<BloodworkInterpreter
+  title="Interpret Your Results"
+  markers={[
+    { id: 'total-test', name: 'Total Testosterone', unit: 'ng/dL', category: 'Hormones', ranges: { low: 200, optimalLow: 500, optimalHigh: 1000, high: 1500 }, context: 'On TRT/cycle, expect supraphysiological levels.', ifHigh: 'Expected on cycle. Monitor hematocrit and E2.', ifLow: 'If on TRT, dose may need increasing. If natural, investigate.' },
+    { id: 'estradiol', name: 'Estradiol (sensitive)', unit: 'pg/mL', category: 'Hormones', ranges: { low: 10, optimalLow: 20, optimalHigh: 50, high: 80 }, context: 'Should rise proportionally with testosterone.', ifHigh: 'Consider AI if symptomatic (gyno, water retention). Do NOT crash E2.', ifLow: 'Too much AI. Reduce dose or stop. E2 is cardioprotective.' },
+    { id: 'hematocrit', name: 'Hematocrit', unit: '%', category: 'Blood', ranges: { low: 36, optimalLow: 40, optimalHigh: 50, high: 54 }, context: 'Testosterone increases red blood cell production.', ifHigh: 'Donate blood or reduce test dose. Above 54% is stroke risk.', ifLow: 'Possible iron deficiency or other issue.' },
+    { id: 'alt', name: 'ALT', unit: 'U/L', category: 'Liver', ranges: { low: 0, optimalLow: 7, optimalHigh: 35, high: 70 }, context: 'Liver enzyme. Elevated by oral steroids, alcohol, training.', ifHigh: 'If running orals, consider stopping or adding TUDCA/NAC.', ifLow: 'Normal.' },
+    { id: 'ldl', name: 'LDL Cholesterol', unit: 'mg/dL', category: 'Cardiovascular', ranges: { low: 0, optimalLow: 0, optimalHigh: 100, high: 160 }, context: 'Bad cholesterol. Oral steroids tank HDL and raise LDL.', ifHigh: 'Add fish oil 3g/day, cardio 4x/week, consider ezetimibe or statin.', ifLow: 'Fine.' },
+    { id: 'hdl', name: 'HDL Cholesterol', unit: 'mg/dL', category: 'Cardiovascular', ranges: { low: 20, optimalLow: 40, optimalHigh: 90, high: 120 }, context: 'Good cholesterol. Protect this — it is cardioprotective.', ifLow: 'Common on orals. Add cardio, fish oil, and consider dropping the oral.', ifHigh: 'Excellent.' }
   ]}
 />
 
