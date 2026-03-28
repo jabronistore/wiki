@@ -83,6 +83,36 @@
 	onMount(() => {
 		const q = $page.url.searchParams.get('q');
 		if (q) sendMessage(q);
+
+		// Event delegation for interactive blocks (poll/quiz clicks)
+		document.addEventListener('click', (e) => {
+			const target = e.target as HTMLElement;
+			const btn = target.closest('[data-cb-action]') as HTMLElement | null;
+			if (!btn) return;
+
+			const action = btn.dataset.cbAction;
+			if (action === 'poll') {
+				const value = btn.dataset.cbValue || '';
+				if (value) sendMessage(value);
+			} else if (action === 'quiz') {
+				const correct = btn.dataset.cbCorrect === 'true';
+				const explain = btn.dataset.cbExplain || '';
+				btn.classList.add(correct ? 'cb-quiz-correct' : 'cb-quiz-wrong');
+				// Show explanation
+				const existing = btn.querySelector('.cb-quiz-explain');
+				if (!existing && explain) {
+					const el = document.createElement('span');
+					el.className = 'cb-quiz-explain';
+					el.textContent = explain;
+					btn.appendChild(el);
+				}
+				// Disable all options in this quiz
+				btn.closest('.cb-quiz-options')?.querySelectorAll('button').forEach((b) => {
+					(b as HTMLButtonElement).disabled = true;
+					if (b.dataset.cbCorrect === 'true') b.classList.add('cb-quiz-correct');
+				});
+			}
+		});
 	});
 
 	function scrollToBottom() {
@@ -1217,5 +1247,374 @@
 		font-size: 0.6875rem;
 		color: hsl(var(--muted-foreground));
 		margin-left: auto;
+	}
+
+	/* Calculator inline */
+	:global(.cb-calculator) {
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.5rem;
+		padding: 0.875rem 1rem;
+		margin: 0.75rem 0;
+		background: hsl(var(--muted) / 0.15);
+	}
+
+	:global(.cb-calc-header) {
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: hsl(var(--accent));
+		margin-bottom: 0.5rem;
+	}
+
+	:global(.cb-calc-params) {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		margin-bottom: 0.625rem;
+	}
+
+	:global(.cb-calc-param) {
+		display: flex;
+		justify-content: space-between;
+		font-size: 0.8125rem;
+		padding: 0.25rem 0;
+		border-bottom: 1px solid hsl(var(--border) / 0.2);
+	}
+
+	:global(.cb-calc-key) {
+		color: hsl(var(--muted-foreground));
+	}
+
+	:global(.cb-calc-val) {
+		font-family: var(--font-mono);
+		font-weight: 500;
+		color: hsl(var(--foreground));
+	}
+
+	:global(.cb-calc-link) {
+		display: inline-flex;
+		font-size: 0.6875rem;
+		font-weight: 500;
+		color: hsl(var(--accent));
+		text-decoration: none;
+		padding: 0.3125rem 0.75rem;
+		border: 1px solid hsl(var(--accent) / 0.3);
+		border-radius: 0.25rem;
+		transition: all 0.15s;
+	}
+
+	:global(.cb-calc-link:hover) {
+		background: hsl(var(--accent) / 0.1);
+		border-color: hsl(var(--accent));
+	}
+
+	/* Chart (CSS bars) */
+	:global(.cb-chart) {
+		margin: 0.75rem 0;
+		padding: 0.75rem 0;
+	}
+
+	:global(.cb-chart-title) {
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: hsl(var(--accent));
+		margin-bottom: 0.625rem;
+	}
+
+	:global(.cb-chart-row) {
+		display: grid;
+		grid-template-columns: 5rem 1fr 4rem;
+		gap: 0.5rem;
+		align-items: center;
+		padding: 0.3125rem 0;
+	}
+
+	:global(.cb-chart-label) {
+		font-size: 0.6875rem;
+		color: hsl(var(--muted-foreground));
+		text-align: right;
+		font-family: var(--font-mono);
+	}
+
+	:global(.cb-chart-bar-wrap) {
+		height: 1.25rem;
+		background: hsl(var(--muted) / 0.3);
+		border-radius: 0.1875rem;
+		overflow: hidden;
+	}
+
+	:global(.cb-chart-bar) {
+		height: 100%;
+		background: linear-gradient(90deg, hsl(var(--accent)), hsl(var(--accent) / 0.6));
+		border-radius: 0.1875rem;
+		transition: width 0.4s ease;
+	}
+
+	:global(.cb-chart-val) {
+		font-size: 0.6875rem;
+		font-family: var(--font-mono);
+		font-weight: 500;
+		color: hsl(var(--foreground));
+		text-align: right;
+	}
+
+	/* Poll */
+	:global(.cb-poll) {
+		margin: 0.75rem 0;
+	}
+
+	:global(.cb-poll-title) {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: hsl(var(--accent));
+		margin-bottom: 0.5rem;
+	}
+
+	:global(.cb-poll-options) {
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+	}
+
+	:global(.cb-poll-option) {
+		display: flex;
+		flex-direction: column;
+		gap: 0.125rem;
+		padding: 0.625rem 0.875rem;
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.5rem;
+		background: hsl(var(--background));
+		cursor: pointer;
+		text-align: left;
+		transition: all 0.15s;
+		font-family: inherit;
+	}
+
+	:global(.cb-poll-option:hover) {
+		border-color: hsl(var(--accent) / 0.5);
+		background: hsl(var(--accent) / 0.05);
+	}
+
+	:global(.cb-poll-option-text) {
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: hsl(var(--foreground));
+	}
+
+	:global(.cb-poll-option-desc) {
+		font-size: 0.6875rem;
+		color: hsl(var(--muted-foreground));
+	}
+
+	/* Bloodwork */
+	:global(.cb-bloodwork) {
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.5rem;
+		overflow: hidden;
+		margin: 0.75rem 0;
+	}
+
+	:global(.cb-bw-header) {
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: hsl(var(--accent));
+		padding: 0.625rem 0.875rem;
+		background: hsl(var(--muted) / 0.3);
+		border-bottom: 1px solid hsl(var(--border));
+	}
+
+	:global(.cb-bw-row) {
+		display: grid;
+		grid-template-columns: 1fr auto auto auto;
+		gap: 0.75rem;
+		align-items: center;
+		padding: 0.4375rem 0.875rem;
+		border-bottom: 1px solid hsl(var(--border) / 0.2);
+		font-size: 0.8125rem;
+	}
+
+	:global(.cb-bw-row:last-child) {
+		border-bottom: none;
+	}
+
+	:global(.cb-bw-marker) {
+		font-weight: 500;
+		color: hsl(var(--foreground));
+	}
+
+	:global(.cb-bw-value) {
+		font-family: var(--font-mono);
+		font-weight: 600;
+		font-size: 0.75rem;
+	}
+
+	:global(.cb-bw-range) {
+		font-size: 0.6875rem;
+		color: hsl(var(--muted-foreground));
+		font-family: var(--font-mono);
+	}
+
+	:global(.cb-bw-status) {
+		font-size: 0.5625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		padding: 0.125rem 0.375rem;
+		border-radius: 0.1875rem;
+	}
+
+	:global(.cb-bw-ok .cb-bw-value) { color: hsl(142 71% 45%); }
+	:global(.cb-bw-ok .cb-bw-status) { background: hsl(142 71% 45% / 0.12); color: hsl(142 71% 45%); }
+	:global(.cb-bw-high .cb-bw-value) { color: hsl(var(--accent)); }
+	:global(.cb-bw-high .cb-bw-status) { background: hsl(var(--accent) / 0.12); color: hsl(var(--accent)); }
+	:global(.cb-bw-low .cb-bw-value) { color: hsl(var(--warning)); }
+	:global(.cb-bw-low .cb-bw-status) { background: hsl(var(--warning) / 0.12); color: hsl(var(--warning)); }
+	:global(.cb-bw-crit .cb-bw-value) { color: hsl(var(--destructive)); }
+	:global(.cb-bw-crit .cb-bw-status) { background: hsl(var(--destructive) / 0.12); color: hsl(var(--destructive)); }
+
+	/* Cost breakdown */
+	:global(.cb-cost) {
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.5rem;
+		padding: 0.875rem 1rem;
+		margin: 0.75rem 0;
+		background: hsl(var(--muted) / 0.1);
+	}
+
+	:global(.cb-cost-header) {
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: hsl(var(--accent));
+		margin-bottom: 0.5rem;
+	}
+
+	:global(.cb-cost-row) {
+		display: flex;
+		align-items: baseline;
+		gap: 0.5rem;
+		padding: 0.3125rem 0;
+		border-bottom: 1px solid hsl(var(--border) / 0.2);
+		font-size: 0.8125rem;
+	}
+
+	:global(.cb-cost-row:last-child) {
+		border-bottom: none;
+	}
+
+	:global(.cb-cost-item) {
+		flex: 1;
+		color: hsl(var(--foreground));
+	}
+
+	:global(.cb-cost-price) {
+		font-family: var(--font-mono);
+		font-weight: 600;
+		color: hsl(var(--accent));
+		font-size: 0.75rem;
+	}
+
+	:global(.cb-cost-note) {
+		font-size: 0.6875rem;
+		color: hsl(var(--muted-foreground));
+	}
+
+	:global(.cb-cost-total) {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 0.5rem;
+		padding-top: 0.5rem;
+		border-top: 2px solid hsl(var(--border));
+		font-weight: 600;
+		font-size: 0.875rem;
+	}
+
+	:global(.cb-cost-total span:last-child) {
+		font-family: var(--font-mono);
+		color: hsl(var(--accent));
+	}
+
+	/* Quiz */
+	:global(.cb-quiz) {
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.5rem;
+		padding: 0.875rem 1rem;
+		margin: 0.75rem 0;
+		background: hsl(var(--muted) / 0.1);
+	}
+
+	:global(.cb-quiz-title) {
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: hsl(var(--accent));
+		margin-bottom: 0.375rem;
+	}
+
+	:global(.cb-quiz-question) {
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: hsl(var(--foreground));
+		margin-bottom: 0.625rem;
+	}
+
+	:global(.cb-quiz-options) {
+		display: flex;
+		flex-direction: column;
+		gap: 0.3125rem;
+	}
+
+	:global(.cb-quiz-option) {
+		padding: 0.5rem 0.75rem;
+		border: 1px solid hsl(var(--border));
+		border-radius: 0.375rem;
+		background: hsl(var(--background));
+		cursor: pointer;
+		text-align: left;
+		transition: all 0.15s;
+		font-family: inherit;
+	}
+
+	:global(.cb-quiz-option:hover:not(:disabled)) {
+		border-color: hsl(var(--accent) / 0.5);
+		background: hsl(var(--accent) / 0.05);
+	}
+
+	:global(.cb-quiz-option:disabled) {
+		cursor: default;
+		opacity: 0.7;
+	}
+
+	:global(.cb-quiz-option-text) {
+		font-size: 0.8125rem;
+		color: hsl(var(--foreground));
+	}
+
+	:global(.cb-quiz-correct) {
+		border-color: hsl(142 71% 45%) !important;
+		background: hsl(142 71% 45% / 0.08) !important;
+		opacity: 1 !important;
+	}
+
+	:global(.cb-quiz-wrong) {
+		border-color: hsl(var(--destructive)) !important;
+		background: hsl(var(--destructive) / 0.06) !important;
+	}
+
+	:global(.cb-quiz-explain) {
+		display: block;
+		font-size: 0.6875rem;
+		color: hsl(var(--muted-foreground));
+		margin-top: 0.25rem;
+		font-style: italic;
 	}
 </style>
