@@ -17,7 +17,7 @@ tags:
   - components
   - interactive
 
-published: true
+published: false
 keywords: 'component test, interactive guide, test page'
 canonical: 'https://peptide-db.com/guides/component-test'
 showToc: true

@@ -1,8 +1,8 @@
 ---
-title: 'Every BPC-157 Human Trial Up to 2026: What the Research Actually Shows'
-description: 'A comprehensive look at BPC-157 human clinical trials, from early cancelled studies to recent pilot data. Learn what we actually know about BPC-157 safety and efficacy in humans.'
+title: 'BPC-157 Human Clinical Trials (2025-2026): Complete Status & Results'
+description: 'Complete status update on BPC-157 human clinical trials as of 2026. 3 published studies, 1 cancelled Phase I, FDA Category 2 status. What the evidence actually shows.'
 date: '2025-12-28'
-lastUpdated: '2026-01-02'
+lastUpdated: '2026-03-29'
 author: 'Peptide Database'
 authorBio: 'Peptide Database provides research-based information on peptides, dosing protocols, and scientific references for educational purposes.'
 authorImage: '/pep-logo.webp'
@@ -18,13 +18,14 @@ tags:
   - human research
   - peptide research
   - safety data
+  - 2026
 
 image: '/BPC-157-CHAIN.webp'
 imageAlt: 'BPC-157 peptide molecular chain structure'
 invertImageInDark: true
 
 published: true
-keywords: 'bpc-157 human trials, bpc-157 clinical trials, bpc-157 human research, bpc-157 human studies, is bpc-157 tested on humans, bpc-157 evidence'
+keywords: 'bpc-157 human clinical trials 2025 2026, bpc-157 clinical trials status 2026, bpc-157 human studies, bpc-157 human clinical trials results, bpc-157 clinical trials evidence, is bpc-157 tested on humans'
 canonical: 'https://peptide-db.com/guides/bpc-157-human-trials'
 showToc: true
 
@@ -41,11 +42,13 @@ relatedGuides:
 
 ## Summary
 
+**Last updated: March 2026.** This guide covers every BPC-157 human clinical trial published to date, the current status of ongoing research, and what the evidence actually shows as of 2026.
+
 [BPC-157](/peptides/bpc-157) has generated massive interest in the peptide community for its healing potential. But here's the uncomfortable truth: despite decades of promising animal research, human clinical data remains extremely limited.
 
-### The Current State of Human Evidence
+### BPC-157 Human Clinical Trials Status (2025-2026)
 
-- **Only 3 published human studies exist** as of early 2026—all pilot studies with small sample sizes
+- **Only 3 published human studies exist** as of March 2026—all pilot studies with small sample sizes
 - **The largest trial was cancelled**: A 2015 Phase I study with 42 volunteers never published results
 - **Total human subjects studied**: Fewer than 30 people across all published trials
 - **No randomized controlled trials**: All existing studies lack placebo controls
@@ -97,7 +100,7 @@ This leaves a critical gap: we still don't have the foundational pharmacokinetic
 
 ## The Three Published Human Studies
 
-As of December 2025, only three human studies on BPC-157 have been published. All were conducted by the same research group in Florida, and all are small pilot studies without placebo controls.
+As of March 2026, only three human studies on BPC-157 have been published. All were conducted by the same research group in Florida, and all are small pilot studies without placebo controls.
 
 ### 1. Intraarticular Knee Injection Study (2021)
 
@@ -331,7 +334,7 @@ Some individuals accept the current evidence gaps given:
 
 ### Are there any BPC-157 human trials currently recruiting?
 
-As of December 2025, no registered clinical trials for BPC-157 are actively recruiting on ClinicalTrials.gov. The research appears to be at a standstill following the cancelled 2015 Phase I study.
+As of March 2026, no registered clinical trials for BPC-157 are actively recruiting on ClinicalTrials.gov. The research appears to be at a standstill following the cancelled 2015 Phase I study.
 
 ### Why did the Phase I trial get cancelled?
 
